@@ -49,6 +49,11 @@ jobs:
           SITE_BASE: /claude-code-changelog-zh
           SITE_URL: https://frankarin.github.io/claude-code-changelog-zh
         run: |
+          if [ -z "$LLM_API_KEY" ]; then
+            echo "::warning::LLM_API_KEY is not set; deploying the committed data without translation."
+            python -m pipeline build
+            exit 0
+          fi
           set +e
           MODE="${{ inputs.mode }}"
           MAX_NEW="${{ inputs.max_new }}"

@@ -117,7 +117,8 @@ python -m pipeline verify
    - Secrets：添加 `LLM_API_KEY`。
    - Variables：可选添加 `LLM_BASE_URL`、`LLM_MODEL`、`SUMMARY_MODEL`。
 4. 打开 **Actions → Update changelog → Run workflow**，选择 `mode=update`、`max_new=20`。
-5. 首次运行会提交 `data/` 和 `cache/`，然后部署 Pages。
+5. 首次运行如果没有配置 `LLM_API_KEY`，会直接用仓库里已有的 `data/` 构建并部署；配置密钥后，后续运行才会拉取新版本并翻译。
+6. 有密钥时，运行会提交 `data/` 和 `cache/`，然后部署 Pages。
 
 定时任务每小时检查一次。没有新版本时不会产生翻译费用。
 
