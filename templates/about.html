@@ -3,38 +3,38 @@
 <section class="page-head">
   <p class="eyebrow">关于本站</p>
   <h1>关于</h1>
-  <p class="lede">把 Claude Code 官方英文 changelog 变成可检索、可对照的中文更新日志。</p>
+  <p class="lede">将 Claude Code 官方英文 changelog 整理为可检索、可对照的中文更新日志。</p>
 </section>
 
 <section class="section prose">
-  <h2>为什么做这个</h2>
-  <p>Claude Code 几乎每个工作日都在发版，官方 changelog 是英文，而且很长。官方中文文档站覆盖了大部分文档，但 changelog 仍然跳转到英文原文。现有的社区项目要么只做摘要，要么只有裸 Markdown 全文，没有同时提供「摘要入口 + 逐条全文 + 中英对照 + 搜索」。</p>
-  <p>本站的定位是：<strong>摘要优先，全文兜底</strong>。首页用一分钟看完当天更新；需要排查时，进入版本页查每一条的英文原文和中文译文。</p>
+  <h2>项目背景</h2>
+  <p>Claude Code 几乎每个工作日都会发布新版本，官方 changelog 只有英文，而且篇幅很长。官方中文文档站覆盖了大部分文档，但 changelog 仍然跳转到英文原文。现有社区项目大多只做摘要，或只提供原始 Markdown 全文，尚未同时提供「摘要入口 + 逐条全文 + 中英对照 + 搜索」。</p>
+  <p>本站的定位是：<strong>摘要优先，全文兜底</strong>。首页用一分钟了解当天更新；需要排查时，进入版本页查阅每一条的英文原文和中文译文。</p>
   <p>站内吉祥物使用 Claude Code 的 Clawd。Clawd 形象版权归 Anthropic 所有；本站为非官方、非商业使用，与 Anthropic 无隶属或背书关系。</p>
 
   <h2>数据来源</h2>
   <ul>
     <li>主源：<a href="https://code.claude.com/docs/en/changelog" rel="noopener noreferrer">code.claude.com/docs/en/changelog</a></li>
-    <li>兜底：<a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" rel="noopener noreferrer">anthropics/claude-code CHANGELOG.md</a>，日期用 npm registry 补齐。</li>
+    <li>备用数据源：<a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" rel="noopener noreferrer">anthropics/claude-code CHANGELOG.md</a>，发布日期从 npm registry 补齐。</li>
   </ul>
 
   <h2>翻译方法</h2>
   <ul>
-    <li>按条目级 hash 缓存，只翻译新增或变更的条目。</li>
-    <li>先翻译，再做一遍精修：纠正误译、去翻译腔、统一术语、保护代码片段。</li>
+    <li>按条目 hash 缓存，只翻译新增或变更的条目。</li>
+    <li>先翻译，再执行一次精修：纠正误译、消除翻译腔、统一术语，并保护代码片段不被改动。</li>
     <li>术语表约束译法；Claude Code 专有名词保留英文。</li>
-    <li>校验条目数、行内代码 token 和长度比；不通过的条目标记「待校对」并保留英文。</li>
+    <li>校验条目数、行内代码 token 和长度比例；未通过的条目标记为「待校对」，并保留英文原文。</li>
   </ul>
 
   <h2>更新频率</h2>
-  <p>GitHub Actions 每小时检查一次。没有新版本就跳过，不产生翻译费用。当前已收录 {{ stats.versions | num }} 个版本、{{ stats['items'] | num }} 条更新，最新版本 <span class="num">{{ stats.latest }}</span>（{{ stats.latest_date or '日期未知' }}）。</p>
+  <p>GitHub Actions 每小时检查一次。没有新版本时会跳过翻译，只重新构建站点。当前已收录 {{ stats.versions | num }} 个版本、{{ stats['items'] | num }} 条更新，最新版本 <span class="num">{{ stats.latest }}</span>（{{ stats.latest_date or '日期未知' }}）。</p>
 
   <h2>非官方声明</h2>
   <p>本站是非官方社区项目，不隶属 Anthropic，也未获其背书。英文原文版权归 Anthropic PBC 所有；翻译仅供学习参考，英文原文为准。机器翻译可能存在错误，欢迎通过 issue 或 PR 纠错。收到权利方的下架要求时，会及时移除相关内容。</p>
 
   <h2>参与贡献</h2>
   <ul>
-    <li>修正译文：编辑 <code>data/overrides/zh-CN.json</code>，按条目 hash 覆盖。</li>
+    <li>修正译文：编辑 <code>data/overrides/zh-CN.json</code>，按条目 hash 覆盖机器翻译结果。</li>
     <li>修正术语：编辑 <code>glossary.yml</code>，递增 <code>version</code>。</li>
     <li>报告解析问题：附上版本号和原文片段。</li>
     <li>代码使用 MIT 许可证；翻译内容不单独主张版权。</li>
