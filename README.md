@@ -2,9 +2,9 @@
 
 把 [Claude Code 官方 changelog](https://code.claude.com/docs/en/changelog) 变成可读、可查、可对照的中文站。
 
-**在线站点**：https://frankarin.github.io/claude-code-changelog-zh/  
-**归档**：https://frankarin.github.io/claude-code-changelog-zh/archive/  
-**RSS**：https://frankarin.github.io/claude-code-changelog-zh/rss.xml
+**在线站点**：<https://frankarin.github.io/claude-code-changelog-zh/>  
+**归档**：<https://frankarin.github.io/claude-code-changelog-zh/archive/>  
+**RSS**：<https://frankarin.github.io/claude-code-changelog-zh/rss.xml>
 
 [![Site](https://img.shields.io/badge/site-online-2f6f9f)](https://frankarin.github.io/claude-code-changelog-zh/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2f6b42)](LICENSE)
@@ -70,7 +70,7 @@ Claude Code 几乎每个工作日都会发布新版本，但官方更新日志�
 
 ### 在线使用
 
-在浏览器中打开 https://frankarin.github.io/claude-code-changelog-zh/。  
+在浏览器中打开 [在线站点](https://frankarin.github.io/claude-code-changelog-zh/)。  
 手机浏览器可以收藏页面，也可以订阅 RSS。
 
 ### 本地运行
