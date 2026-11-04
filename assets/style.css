@@ -549,6 +549,7 @@ body[data-lang="both"] .item-en {
   .hero { grid-template-columns: 1fr; gap: 18px; padding: 34px 0 28px; }
   .hero-aside { order: -1; align-items: flex-start; padding-bottom: 0; }
   .hero-clawd { width: 84px; height: auto; }
+  .items-toolbar { scroll-margin-top: 130px; }
   .mascot-caption { display: none; }
   .day-card { padding: 24px 0; }
   .version-main { grid-template-columns: 84px 1fr; }
