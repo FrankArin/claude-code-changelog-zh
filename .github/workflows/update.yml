@@ -12,6 +12,7 @@ on:
         default: update
       max_new:
         description: "Maximum versions to process"
+        type: string
         default: "50"
 
 permissions:
