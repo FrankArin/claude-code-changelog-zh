@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the restore command printed for a damaged or missing `~/.claude.json` naming an empty or cut-off backup, or failing on a read-only file",
+  "zh": "修复了为损坏或缺失的 `~/.claude.json` 打印的恢复命令指向空或截断的备份，或在只读文件上失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

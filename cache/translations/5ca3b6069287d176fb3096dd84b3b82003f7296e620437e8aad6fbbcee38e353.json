@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed permission prompts cutting off or wrapping too early when the reason text contains keycap or joined emoji",
+  "zh": "修复了权限提示在原因文本包含键帽或组合 emoji 时被截断或过早换行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

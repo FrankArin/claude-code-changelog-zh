@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Markdown table with only a header row drawing nothing when too wide for the terminal, including in plans on the plan approval card",
+  "zh": "修复了仅有表头行的 Markdown 表格在超出终端宽度时不绘制任何内容的问题，包括计划批准卡片中的计划",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

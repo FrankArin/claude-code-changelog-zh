@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pasted text being lost when a row in the prompt footer was selected",
+  "zh": "修复选中 prompt 页脚中的某一行时粘贴的文本丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP servers added to a running headless or SDK session being connected before some policy checks ran; a blocked server is now reported as failed without being contacted",
+  "zh": "修复了添加到运行中的无头或 SDK session 的 MCP 服务器会在部分策略检查执行前就被连接的问题；被阻止的服务器现在会报告为失败，且不会与其建立联系",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

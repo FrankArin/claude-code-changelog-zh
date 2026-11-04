@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Improved the error shown when a cloud session fails to start: it now says \"Connection lost\" or \"Server error\" instead of \"Something went wrong\"",
+  "zh": "\\[Cloud sessions] 改进云 session 启动失败时显示的错误：现在显示 \"Connection lost\" 或 \"Server error\"，而不再显示 \"Something went wrong\"",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

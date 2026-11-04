@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the built-in `plugin-authoring` skill: it no longer tells a session with no terminal to run terminal commands, and explains sharing a mod only when asked",
+  "zh": "改进内置 `plugin-authoring` skill：不再让没有终端的 session 运行终端命令，并且仅在有人询问时才说明如何共享 mod",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

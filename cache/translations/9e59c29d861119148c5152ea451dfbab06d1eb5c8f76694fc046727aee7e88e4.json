@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed screen readers speaking a running subagent's elapsed time and token count on every change in screen reader mode",
+  "zh": "修复屏幕阅读器模式下，屏幕阅读器在每次变化时朗读运行中 subagent 的已用时间和 token 数的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

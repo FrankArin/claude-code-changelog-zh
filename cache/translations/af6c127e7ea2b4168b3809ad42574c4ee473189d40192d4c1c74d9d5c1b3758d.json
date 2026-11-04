@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed text after an unclosed code block in a list showing as plain text while a reply streams, then turning into code",
+  "zh": "\\[VSCode] 修复了列表中未闭合代码块之后的文本在回复流式输出时显示为纯文本、随后又变成代码的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed \"is thinking…\" staying up under a mention in a Slack channel or DM after Claude answered it by editing one of its earlier messages",
+  "zh": "\\[Claude Tag] 修复了 Claude 通过编辑其早前消息来回复 Slack 频道或私信中的提及后，该提及下方的 \"is thinking…\" 一直不消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

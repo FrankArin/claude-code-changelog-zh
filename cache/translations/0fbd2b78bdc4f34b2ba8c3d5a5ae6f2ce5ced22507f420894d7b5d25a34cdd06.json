@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed ctrl+enter (send now) only queuing a message when pressed before the response had started, and restarting a prompt's hooks while leaving the message queued when pressed while those hooks were running",
+  "zh": "修复了 ctrl+enter（立即发送）的问题：在响应开始前按下时只会将消息排队；在 prompt 的 hook 运行期间按下时会重启该 prompt 的 hook，却仍将消息留在队列中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

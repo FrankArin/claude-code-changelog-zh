@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode",
+  "zh": "在 Claude 应用网关的 `managed.policies[]` 中新增 `code` 键：其设置与 `cli` 相同，也会在 Claude Desktop 的 Code 标签页中生效；与 `desktop` 并列时，会开启 Claude Desktop 的网关模式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

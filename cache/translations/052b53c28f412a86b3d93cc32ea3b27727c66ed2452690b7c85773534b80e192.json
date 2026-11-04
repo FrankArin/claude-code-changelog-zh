@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config`",
+  "zh": "修复沙箱化命令和自动接受的编辑能够修改通过 `--mcp-config` 传入的 MCP 配置文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

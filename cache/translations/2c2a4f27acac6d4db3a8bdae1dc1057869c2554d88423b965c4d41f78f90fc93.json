@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed commands failing to start on Linux when a `sandbox.filesystem.denyRead` glob contains brackets that are not a character class, such as a `[user-id]` route folder",
+  "zh": "修复在 Linux 上，当 `sandbox.filesystem.denyRead` 通配符包含非字符类的方括号（例如 `[user-id]` 路由文件夹）时，沙箱命令无法启动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

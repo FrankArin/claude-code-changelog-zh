@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Fixed sandbox write denies lifting when a background command outlived the session",
+  "zh": "Linux：修复当后台命令的生命周期超过 session 时，沙箱写入拒绝被解除的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the `@browser` banner saying \"Browser connected\" when no browser with the Claude extension can be reached",
+  "zh": "\\[VSCode] 修复了在无法连接到任何装有 Claude 扩展的浏览器时，`@browser` 横幅仍显示 \"Browser connected\" 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

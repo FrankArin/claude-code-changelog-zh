@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added the names of the tools called earlier to the compaction summary in the transcript view (Ctrl+O)",
+  "zh": "在记录视图（Ctrl+O）的上下文压缩摘要中新增此前调用的工具名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

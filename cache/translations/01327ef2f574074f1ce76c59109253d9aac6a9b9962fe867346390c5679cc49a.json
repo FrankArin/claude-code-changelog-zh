@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from the VS Code extension",
+  "zh": "修复从 VS Code 扩展登录后，本次 session 剩余时间内无法获取托管设置和组织策略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

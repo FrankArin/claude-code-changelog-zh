@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item",
+  "zh": "修复当 CLAUDE.md 文件包含超长列表项时，启动时以及读取或编辑文件后出现长时间卡顿的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

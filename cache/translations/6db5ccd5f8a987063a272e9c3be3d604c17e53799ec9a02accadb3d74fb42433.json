@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Improved Code Review reliability: a review whose session fails to start because of a transient server fault is now retried once automatically, and its check run says so",
+  "zh": "\\[Code Review] 改进 Code Review 的可靠性：因临时服务器故障导致 session 无法启动的审查现在会自动重试一次，并在其检查运行中说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

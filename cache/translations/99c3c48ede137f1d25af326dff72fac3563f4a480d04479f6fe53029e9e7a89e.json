@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude in Chrome in Cowork cloud sessions outside auto mode: an approved-site action the safety classifier flags now asks you instead of being refused, unless managed settings apply",
+  "zh": "变更 Cowork 云端 session 中自动模式之外的 Claude in Chrome：安全分类器标记的已批准站点操作现在会询问你，而不是直接拒绝，除非适用托管设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

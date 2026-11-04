@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an `Idle compaction` row to `/config` for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off",
+  "zh": "在 `/config` 中新增 `Idle compaction` 一行，用于关闭或重新开启空闲上下文压缩；空闲上下文压缩后显示的提示现在会说明如何关闭它",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

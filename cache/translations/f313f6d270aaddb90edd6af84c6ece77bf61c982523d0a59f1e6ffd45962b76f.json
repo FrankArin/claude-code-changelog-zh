@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Ctrl+J in the chat input always inserting a newline: it is now left to VS Code and the OS when \"ctrl+j\" is set to null in the Chat context of \\~/.claude/keybindings.json",
+  "zh": "\\[VSCode] 修复了聊天输入框中 Ctrl+J 总是插入换行的问题：当在 `~/.claude/keybindings.json` 的 Chat 上下文中将“ctrl+j”设为 null 时，现在交由 VS Code 和操作系统处理",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

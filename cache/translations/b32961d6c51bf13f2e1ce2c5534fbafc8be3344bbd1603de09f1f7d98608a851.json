@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Changed Claude Tag admin settings to show a lock instead of # for private Slack channels that your own Slack account can see",
+  "zh": "\\[Claude Tag] 变更 Claude Tag 管理设置，对于你自己的 Slack 账号可见的私有 Slack 频道，显示锁图标而非 #",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

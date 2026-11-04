@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a `dir` prop on a mod's `Text` for right-to-left text: on Windows and in VS Code's terminal its rows read in that direction and sit flush right",
+  "zh": "为 mod 的 `Text` 新增 `dir` 属性以支持从右到左的文本：在 Windows 和 VS Code 的终端中，其各行按该方向阅读并右对齐",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:12+00:00"
+}

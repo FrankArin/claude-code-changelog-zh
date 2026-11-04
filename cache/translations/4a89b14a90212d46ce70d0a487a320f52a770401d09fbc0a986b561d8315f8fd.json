@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a command with an invalid name stopping all commands from loading, which could leave `claude -p` with no output",
+  "zh": "修复了名称无效的命令导致所有命令无法加载的问题，该问题可能使 `claude -p` 没有任何输出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

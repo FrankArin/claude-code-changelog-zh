@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Read reporting \"File does not exist\" for PDF page ranges in Linux sandboxes that share the parent's `/proc`",
+  "zh": "修复了在共享父进程 `/proc` 的 Linux 沙箱中，Read 对 PDF 页码范围报告“File does not exist”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

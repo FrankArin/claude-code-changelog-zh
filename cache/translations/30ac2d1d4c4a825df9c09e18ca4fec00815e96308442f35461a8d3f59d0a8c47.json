@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed one cause of sessions failing to start with \"Subprocess initialization did not complete within 60000ms\": time a SessionStart command hook spends running no longer counts toward the limit, up to 10 minutes in total",
+  "zh": "\\[VSCode] 修复了 session 以“Subprocess initialization did not complete within 60000ms”启动失败的一个原因：SessionStart 命令 hook 的运行时间不再计入该限制，总计最多 10 分钟",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

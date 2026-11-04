@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved WebFetch errors in cloud sessions: a host that does not resolve is now explained as possibly outside the allowed network domains, so Claude names the host to allow",
+  "zh": "改进 cloud sessions 中的 WebFetch 错误：无法解析的主机现在会说明可能不在允许的网络域名范围内，以便 Claude 指出需要允许的主机",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

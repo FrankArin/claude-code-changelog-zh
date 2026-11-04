@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `prompt-caching-scope` beta header being sent behind custom `ANTHROPIC_BASE_URL` gateways and on Foundry, where it has no effect",
+  "zh": "修复在自定义 `ANTHROPIC_BASE_URL` 网关之后以及 Foundry 上发送 `prompt-caching-scope` beta 头的问题，该头在这些环境中不起作用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

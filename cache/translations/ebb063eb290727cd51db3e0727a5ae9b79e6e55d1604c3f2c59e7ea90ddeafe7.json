@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Added a Bash editor with colors, line numbers and a Copy button to the setup script box in cloud environment settings",
+  "zh": "\\[Cloud sessions] 在云环境设置的 setup script 输入框中新增带颜色、行号和 Copy 按钮的 Bash 编辑器",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/btw` side questions in non-interactive sessions not being cancelled when the session ends, and running a second time when the same request arrived again mid-run",
+  "zh": "修复了非交互式 session 中的 `/btw` 附带问题在 session 结束时未被取消，以及同一请求在运行中再次到达时被第二次执行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

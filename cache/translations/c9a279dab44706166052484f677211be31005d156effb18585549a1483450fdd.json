@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed Code Review ignoring `@claude review` comments from people with write access whose GitHub organization membership is private; their comments now start a review",
+  "zh": "\\[Code Review] 修复了 Code Review 忽略具有写入权限但 GitHub 组织成员身份为私有的用户所发 `@claude review` 评论的问题；现在他们的评论会启动审查",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

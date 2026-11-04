@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed sessions that wrote output before their first turn being left with no release timer, ignoring `--retire-at` and delaying shutdown",
+  "zh": "自托管运行器：修复了在首个回合之前写入输出的 session 没有释放计时器、忽略 `--retire-at` 并延迟关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

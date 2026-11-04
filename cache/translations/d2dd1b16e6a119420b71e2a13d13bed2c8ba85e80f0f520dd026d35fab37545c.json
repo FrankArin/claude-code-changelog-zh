@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the lines shown when a mod written in the session loads, reloads or fails to load",
+  "zh": "改进 session 中编写的 mod 在加载、重新加载或加载失败时显示的行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

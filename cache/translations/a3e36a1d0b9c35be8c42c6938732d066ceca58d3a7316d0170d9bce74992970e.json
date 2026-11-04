@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a prompt sent just after `←` being run twice, once unseen in the foreground, when the background service was slow to answer",
+  "zh": "修复了在 `←` 之后立即发送的 prompt 被运行两次的问题：当后台服务响应缓慢时，其中一次在前台不可见地运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

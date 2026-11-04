@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--continue` sometimes losing the earlier conversation after a malformed tool call's retries ran out (regression in 2.1.314)",
+  "zh": "修复了 `--continue` 在格式错误的工具调用重试耗尽后有时丢失先前对话的问题（2.1.314 中的回归）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

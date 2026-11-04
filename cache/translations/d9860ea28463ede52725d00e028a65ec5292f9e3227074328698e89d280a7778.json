@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` to run every workflow agent on one model while other subagents keep theirs",
+  "zh": "新增 `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL`，让所有 workflow agent 运行在同一个模型上，而其他 subagent 保持各自的模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

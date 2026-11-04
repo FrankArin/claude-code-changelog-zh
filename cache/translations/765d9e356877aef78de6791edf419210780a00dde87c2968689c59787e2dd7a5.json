@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an async SessionStart hook's unchanged context being added to the conversation again on every resume",
+  "zh": "修复了异步 SessionStart hook 未变更的上下文在每次恢复时被再次加入对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

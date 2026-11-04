@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/usage` never showing large prompt-cache misses under \"What's contributing to your limits usage?\"",
+  "zh": "修复了 `/usage` 在“What's contributing to your limits usage?”下从不显示大量 prompt 缓存未命中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

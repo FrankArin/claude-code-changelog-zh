@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fullscreen mode: Fixed `/compact` and auto-compact briefly freezing the UI while the visible transcript is rebuilt",
+  "zh": "全屏模式：修复 `/compact` 和自动上下文压缩在重建可见对话记录时短暂冻结 UI 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

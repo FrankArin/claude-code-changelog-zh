@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "version": "2.1.310",
+  "date": "2026-10-23",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "3594ede3d51d315e7ce40dc0e38a6191421e76a3094d10100563ed28c5b50f14",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:51:06+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.310-added-1",
+          "en": "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too",
+          "zh": "在 Bedrock、Vertex 和 Foundry 上，以及禁用遥测或非必要流量时，新增 Monitor 工具和 plugin monitors；这些环境下长时间的前台休眠现在也会被阻止",
+          "hash": "7f15210298f14adbaa7645f5660fedbf30daea3a05a5d120d99ef548593bce00",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-added-2",
+          "en": "\\[Cloud sessions] Added Claude Code cloud sessions and Remote Control permissions to Enterprise custom roles, so Owners can control access to each by role",
+          "zh": "\\[Cloud sessions] 在 Enterprise 自定义角色中新增 Claude Code cloud sessions 和 Remote Control 权限，使 Owner 可以按角色控制对两者的访问",
+          "hash": "819c6bd445f2d0a0c39b7b166692836fa1e13df3c3d9ee07c41bab4150dc278f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-added-3",
+          "en": "\\[Cloud sessions] Added a Choose file button to load a cloud environment's setup script from a file",
+          "zh": "\\[Cloud sessions] 新增 Choose file 按钮，可从文件加载云环境的 setup script",
+          "hash": "312b7269a3cc8a4b95db599f0c387e2b68d62e39cfe97e0d93ab5d7bb84f47ef",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.310-changed-4",
+          "en": "Changed the error for an MCP tool call that times out in a non-interactive session while the server's elicitation is unanswered: it now tells Claude that no answer came and not to repeat the call",
+          "zh": "变更了非交互式 session 中 MCP 工具调用超时且服务器的 elicitation 未得到答复时的错误：现在会告知 Claude 未收到答复，且不要重复该调用",
+          "hash": "ce81aac99b7c08d36e5bc6211d290c6b3f003b8a2d07cd5553876cf735676c25",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-changed-5",
+          "en": "\\[Cloud sessions] Changed turning on Cloud sessions or Remote Control in admin settings to ask for confirmation and list the custom roles that have that permission",
+          "zh": "\\[Cloud sessions] 变更了在管理设置中开启 Cloud sessions 或 Remote Control 的行为：现在会要求确认，并列出拥有该权限的自定义角色",
+          "hash": "a41e3f173acee2e14e50abc5379586b87970df3d98cd5f1e0a8a0e60df7de51e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-changed-6",
+          "en": "\\[Cloud sessions] Changed the cloud environment dialog to open network access, setup script and environment variables from rows instead of listing every editor at once",
+          "zh": "\\[Cloud sessions] 变更了云环境对话框：网络访问、setup script 和环境变量改为从行中打开，而不再一次性列出所有编辑器",
+          "hash": "6e61920b0d4e5ed2fcf7bb6c588ce463f06ed36a647b4b0a2c3a122b4e4bfba7",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "6 improvements",
+      "heading_zh": "6 项改进",
+      "items": [
+        {
+          "id": "2.1.310-improvements-7",
+          "en": "Improved auto mode's prompt before the first read outside the working directories: it now says when blocking those reads makes shell commands ask for permission",
+          "zh": "改进了自动模式在首次读取工作目录之外内容前的 prompt：现在会说明阻止这些读取何时会导致 shell 命令请求权限",
+          "hash": "0e83f7f261f15ff460b59c4e429305469d23f24e8205c7d08fa826576a07f039",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-improvements-8",
+          "en": "Improved memory use of non-interactive sessions (`-p`, Agent SDK) during compaction when the transcript file is very large",
+          "zh": "改进了非交互式 session（`-p`、Agent SDK）在 transcript 文件非常大时进行上下文压缩的内存占用",
+          "hash": "3e08c2c9ca6575d59337fb1e57d014e8d12f3b422fa2c3aacd4a2d6fccfa75a2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-improvements-9",
+          "en": "Improved a mod's `Image` to draw inside tmux with `allow-passthrough` and `focus-events` on, in kitty, Ghostty, and iTerm2 3.5+ with fullscreen rendering, where it showed only its `alt` text",
+          "zh": "改进了 mod 的 `Image`：在开启 `allow-passthrough` 和 `focus-events` 的 tmux 中，以及在启用全屏渲染的 kitty、Ghostty 和 iTerm2 3.5+ 中，现在可以正常绘制，而此前只显示其 `alt` 文本",
+          "hash": "e636802014e7706eaebf76df5c99ac15e1acba480aa87b6d725f893807594e48",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-improvements-10",
+          "en": "Linux: Improved `/sandbox` and the sandbox startup warning to name Ubuntu's AppArmor restriction on user namespaces, and how to lift it, when it keeps bubblewrap from starting the sandbox",
+          "zh": "Linux：改进了 `/sandbox` 和沙箱启动警告：当 Ubuntu 对用户命名空间的 AppArmor 限制导致 bubblewrap 无法启动沙箱时，现在会指明该限制及解除方法",
+          "hash": "191749f3a37630d17e2b2dbd4568a4f16f9dc1b2a445db521852c0e28ca6e09e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-improvements-11",
+          "en": "\\[Cloud sessions] Improved the session start checklist to show a cloud environment's setup script output in a scrolling box",
+          "zh": "\\[Cloud sessions] 改进了 session 启动检查清单：云环境的 setup script 输出现在显示在可滚动框中",
+          "hash": "cdd4d3dfb2932514d96734ce5aceb26e84866b597ee9a0207804c809f36eb33c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-improvements-12",
+          "en": "\\[Code Review] Improved the Code Review admin section to retry the first load and show one Try again banner when it still fails",
+          "zh": "\\[Code Review] 改进了 Code Review 管理区：首次加载失败时会重试，仍失败时显示一个 Try again 横幅",
+          "hash": "4a7987c9cb154e93529aff55744fe87cb0132253b93a4b9dd5fb7ba6c4d7bb08",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "14 bug fixes",
+      "heading_zh": "14 项修复",
+      "items": [
+        {
+          "id": "2.1.310-fixes-13",
+          "en": "Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude Code now retries without them",
+          "zh": "修复了在部分网关和兼容服务器后请求失败的问题：这些服务器会拒绝 `effort-2025-11-24` beta 值或对话中途的系统消息；Claude Code 现在会在不带这些内容的情况下重试",
+          "hash": "36158a6de1292c50418dd7834ebe3287eae8af4ba366366d2858785171d12d41",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-14",
+          "en": "Fixed background cleanup deleting some recent files, such as pasted images, when `cleanupPeriodDays` is set to a very large value",
+          "zh": "修复了当 `cleanupPeriodDays` 设为极大值时，后台清理会删除部分近期文件（如粘贴的图片）的问题",
+          "hash": "e770869b8218208677de17b75a085eb67717bdbaa7fcfff8c60b64610ed9e7e4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-15",
+          "en": "Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail again",
+          "zh": "修复了出现“Prompt is too long”错误后进行上下文压缩时，对含密集文本（如 base64 或 SVG）的对话保留过多内容、导致下一次请求可能再次失败的问题",
+          "hash": "effdd72e835212e3cb00b2ce7504fd08682510501134ab29367a1b7ee917aa4d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-16",
+          "en": "Fixed file read permission prompts not showing where a symbolic link leads",
+          "zh": "修复了文件读取权限提示不显示符号链接指向位置的问题",
+          "hash": "c00d8cc39fd3ffdf1b0ef67600b59b273fda68bd92d412cc372e31ab9ed20a6d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-17",
+          "en": "Fixed a question's auto-continue timeout firing the moment the external editor closed after a long edit",
+          "zh": "修复了长时间编辑后关闭外部编辑器时，问题的自动继续超时立即触发的问题",
+          "hash": "10d40d275b6ca272294380fceee58a96f371ea85c1e32ff086832f8fb4a469f7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-18",
+          "en": "Windows: Fixed PreToolUse and PermissionRequest hooks letting a tool call through when Git Bash is missing and the hook's command is only quoted strings, such as a quoted path",
+          "zh": "Windows：修复了在缺少 Git Bash 且 hook 命令仅为带引号的字符串（如带引号的路径）时，PreToolUse 和 PermissionRequest hooks 会放行工具调用的问题",
+          "hash": "7781bcc031b8bd37e3d600df5ef360517a8b1f2631d5dd2afef24d1ec7070aa0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-19",
+          "en": "\\[VSCode] Fixed pressing Enter on the plan review card's \"Send feedback and keep planning\" button approving the plan instead of sending your comments back",
+          "zh": "\\[VSCode] 修复了在计划审阅卡片上按 Enter 触发“Send feedback and keep planning”按钮时，会批准计划而不是回传评论的问题",
+          "hash": "daa99469b3a35a627c2534d0dd92054f110d43b8a6f69fdfc97aa35fc89fe033",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-20",
+          "en": "\\[VSCode] Fixed the panel showing \"Something went wrong\" after \"Switch branch & continue\" on a cloud session opened from Session history's Web tab",
+          "zh": "\\[VSCode] 修复了从 Session history 的 Web 标签页打开云 session 后，执行“Switch branch & continue”后面板显示“Something went wrong”的问题",
+          "hash": "6ca11d3932a3c7cb8d83e90e925008dbc2577301ba387937f53f976f49fc2f94",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-21",
+          "en": "\\[Cloud sessions] Fixed failed saves and archives in the cloud environment edit dialog showing no error inside the dialog",
+          "zh": "\\[Cloud sessions] 修复云环境编辑对话框中保存和归档失败时对话框内不显示错误的问题",
+          "hash": "6ce2e978be5e1a8b54563df15d7fb41fae8bdc95afe73adfcc8059f746e542a6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-22",
+          "en": "\\[Cloud sessions] Fixed failed routine API token actions showing only a toast; the error now appears in the routine edit dialog",
+          "zh": "\\[Cloud sessions] 修复例程 API token 操作失败时仅显示 toast 的问题；错误现在会显示在例程编辑对话框中",
+          "hash": "2d72142623f23a7f4950baf4f01793f3453482e21f85200e2a39f0f988594c1b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-23",
+          "en": "\\[Claude Tag] Fixed Claude Tag treating `!` commands such as `!restart` and `!help` as ordinary messages when sent in bold, italic or strikethrough",
+          "zh": "\\[Claude Tag] 修复 Claude Tag 将以粗体、斜体或删除线发送的 `!restart`、`!help` 等 `!` 命令当作普通消息处理的问题",
+          "hash": "3dcfc9d7048105c254e384a8bd56de589947604aa4db3cdfe449da3fc29171ab",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-24",
+          "en": "\\[Claude Tag] Fixed Claude Tag admin channel and workspace pages being replaced by a load error when a background refresh of the bundle list fails",
+          "zh": "\\[Claude Tag] 修复 Claude Tag 管理后台的频道和工作区页面在后台刷新 bundle 列表失败时被加载错误替换的问题",
+          "hash": "080f96ff147aa8648b9dad282e2764d869a2c347e61d7b54ad6fa31a6d4390f2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-25",
+          "en": "\\[Claude Tag] Fixed Claude Tag's spend limits page in admin settings reporting that no channels match a filter while channel names are still loading",
+          "zh": "\\[Claude Tag] 修复 Claude Tag 管理设置中的支出限额页面在频道名称仍在加载时提示没有频道匹配筛选条件的问题",
+          "hash": "fa0120addc258dbb03bbb6237da62f61726c8252e68a95865b14652908417728",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.310-fixes-26",
+          "en": "\\[Code Review] Fixed the Code Review admin section hiding its repositories and switches after a failed refresh of the repository list",
+          "zh": "\\[Code Review] 修复 Code Review 管理区块在刷新仓库列表失败后隐藏其仓库和开关的问题",
+          "hash": "a47dfa77bc530804310f6d1cd34003af84d59a08eca7c7522b470c613b182ab8",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增 Monitor 工具与云会话权限，修复网关兼容、清理误删及多项 UI 问题。",
+    "highlights": [
+      {
+        "title": "新增 Monitor 工具",
+        "category": "新功能",
+        "detail": "在 Bedrock、Vertex、Foundry 及禁用遥测时也可用 Monitor 工具和 plugin monitors，并阻止这些环境下的长时间前台休眠。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.310-added-1"
+        ]
+      },
+      {
+        "title": "云会话权限与脚本",
+        "category": "新功能",
+        "detail": "Enterprise 自定义角色可控制云会话和 Remote Control 访问；云环境支持从文件加载 setup script。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.310-added-2",
+          "2.1.310-added-3"
+        ]
+      },
+      {
+        "title": "网关兼容性修复",
+        "category": "修复",
+        "detail": "部分网关拒绝 effort beta 值或对话中途系统消息导致请求失败，现会自动去掉这些内容重试。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.310-fixes-13"
+        ]
+      },
+      {
+        "title": "清理误删近期文件",
+        "category": "修复",
+        "detail": "cleanupPeriodDays 设为极大值时后台清理会删除近期文件（如粘贴图片），已修复。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.310-fixes-14"
+        ]
+      },
+      {
+        "title": "上下文压缩与内存优化",
+        "category": "改进",
+        "detail": "修复密集文本对话压缩后仍过长的问题，并降低非交互式会话处理超大 transcript 的内存占用。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.310-fixes-15",
+          "2.1.310-improvements-8"
+        ]
+      },
+      {
+        "title": "Windows hooks 安全修复",
+        "category": "安全",
+        "detail": "缺少 Git Bash 且 hook 命令仅为带引号字符串时，PreToolUse 和 PermissionRequest hooks 会放行工具调用，现已修复。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.310-fixes-18"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed what a mod attaches at `prompt.submit` to stay in the user's turn rather than go out as a system message",
+  "zh": "变更 mod 在 `prompt.submit` 时附加的内容，使其保留在用户回合中，而不是作为系统消息发出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

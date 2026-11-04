@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Past conversations hiding sessions when `claudeCode.claudeProcessWrapper` is set",
+  "zh": "\\[VSCode] 修复了设置 `claudeCode.claudeProcessWrapper` 时 Past conversations 会隐藏 session 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

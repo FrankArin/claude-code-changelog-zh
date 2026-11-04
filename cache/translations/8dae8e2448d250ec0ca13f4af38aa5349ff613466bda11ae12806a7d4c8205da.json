@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control clients showing a stray \"Compacted (ctrl+o to see full summary)\" row after /compact",
+  "zh": "修复 Remote Control 客户端在 /compact 后显示多余的“Compacted (ctrl+o to see full summary)”行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

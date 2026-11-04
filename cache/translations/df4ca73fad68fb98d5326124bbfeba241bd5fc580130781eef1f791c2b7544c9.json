@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` re-running a finished turn after a restart when an MCP tool result had ended that turn",
+  "zh": "修复了当 MCP 工具结果已结束该轮次时，`CLAUDE_CODE_RESUME_INTERRUPTED_TURN` 在重启后重新运行已完成的轮次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

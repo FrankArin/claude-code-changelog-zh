@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed scheduled and Run now routine runs in installs with telemetry disabled to publish new private artifacts, and update your own, without asking, as in other installs",
+  "zh": "变更在禁用遥测的安装中，定时运行和 Run now 例程运行会发布新的私有 artifact，并更新你自己的 artifact，无需询问，与其他安装一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

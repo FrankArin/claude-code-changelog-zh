@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the compaction row in a resumed session offering ctrl+o for history that is not loaded; it now says where the earlier messages are saved, and also shows in fullscreen",
+  "zh": "修复了恢复的 session 中上下文压缩行提示按 ctrl+o 查看未加载的历史记录的问题；现在会说明较早的消息保存在何处，并在全屏模式下显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

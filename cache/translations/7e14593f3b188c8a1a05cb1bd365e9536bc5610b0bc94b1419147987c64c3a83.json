@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a value a mod's hook passes to `next()`, returns, or sends to a `$` method being refused whole when one of its getters throws a `RangeError`; now only that key is refused",
+  "zh": "修复了当 mod 的 hook 传给 `next()`、作为返回值或发送给 `$` 方法的某个值中有一个 getter 抛出 `RangeError` 时，整个值被拒绝的问题；现在只拒绝该键",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

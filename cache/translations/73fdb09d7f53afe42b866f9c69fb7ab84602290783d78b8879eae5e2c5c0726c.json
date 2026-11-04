@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Write and Edit tools creating a mod in a session's mods folder without asking in accept-edits mode when the config directory's path has no `.claude` in it",
+  "zh": "修复了在 accept-edits 模式下，当配置目录路径中不含 `.claude` 时，Write 和 Edit 工具未经询问就在 session 的 mods 文件夹中创建 mod 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

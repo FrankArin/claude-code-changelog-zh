@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude asking for permission on each artifact update for the rest of a turn after the conversation was compacted in that turn",
+  "zh": "修复在某一轮对话中执行上下文压缩后，该轮剩余时间内 Claude 每次更新 artifact 都会请求权限的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

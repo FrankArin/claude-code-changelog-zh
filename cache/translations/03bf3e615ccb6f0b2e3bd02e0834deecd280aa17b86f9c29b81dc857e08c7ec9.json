@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `sandbox.excludedCommands` setting description saying listed commands always run outside the sandbox; it now says every command in a call must match an entry",
+  "zh": "修复 `sandbox.excludedCommands` 设置说明中称所列命令始终在沙箱外运行的问题；现在说明一次调用中的每条命令都必须匹配某个条目",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the /rewind warning that wrongly said manual and Bash edits are never affected by a code restore",
+  "zh": "修复了 /rewind 警告误报手动编辑和 Bash 编辑永远不会受代码恢复影响的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

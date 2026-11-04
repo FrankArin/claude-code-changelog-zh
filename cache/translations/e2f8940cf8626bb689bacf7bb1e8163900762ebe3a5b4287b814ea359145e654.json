@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Changed deleting a self-hosted environment to turn off its routines right away, with the reason shown on each routine, instead of leaving their runs to fail",
+  "zh": "\\[Cloud sessions] 变更删除自托管环境的行为：现在会立即关闭其例程，并在每个例程上显示原因，而不是让它们的运行失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

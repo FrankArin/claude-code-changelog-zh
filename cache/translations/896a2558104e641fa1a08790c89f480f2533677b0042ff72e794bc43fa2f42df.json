@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed agent team teammates in tmux or iTerm2 panes starting in auto mode when the lead session was in manual mode",
+  "zh": "修复了当主 session 处于手动模式时，tmux 或 iTerm2 窗格中的 agent 团队队友以自动模式启动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

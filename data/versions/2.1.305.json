@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "version": "2.1.305",
+  "date": "2026-10-20",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "c7796f8572084f6c18a178236f64fcbd25f68fd61e4d79547d3ea50735c36b18",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:52:34+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.305-added-1",
+          "en": "Added `sandbox.allowNestedUserNamespaces` so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections",
+          "zh": "新增 `sandbox.allowNestedUserNamespaces`，使 Linux 上沙箱内的命令可以创建用户命名空间（Chromium、rootless podman）；这样它们就能绕过沙箱的文件保护",
+          "hash": "707e4e859c9cd2b2155a0b2fb1c3fae3a55865bf968e89c4b1a15d4e815c0d91",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-added-2",
+          "en": "Added `CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) notices a usage limit that was lifted before its reset",
+          "zh": "新增 `CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS`，使无人值守重试模式（`CLAUDE_CODE_RETRY_WATCHDOG`）能发现重置前已解除的用量限制",
+          "hash": "efa69c40fd09125c9cfecd98262eba0733d60d8ff11b7a9800ec440388883008",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-added-3",
+          "en": "\\[VSCode] Added a \"Running start-up hooks\" spinner status, with a screen reader announcement, while SessionStart or Setup hooks run",
+          "zh": "\\[VSCode] 新增“Running start-up hooks”加载状态，并在 SessionStart 或 Setup hooks 运行时通过屏幕阅读器播报",
+          "hash": "d0d3da4ec662e7eee89118ca11ec9fdb1cd311d3304e99c0eca2540c12646418",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-added-4",
+          "en": "\\[Claude Tag] Added public Slack channels Claude hasn't joined to the Claude Tag admin Add place search, so admins can set one up from there",
+          "zh": "\\[Claude Tag] 在 Claude Tag 管理端的 Add place 搜索中新增 Claude 尚未加入的公开 Slack 频道，管理员可直接从那里创建",
+          "hash": "b3f3b06b678e894df869498754edf123dffa7097b2d4c3efcfea06ab99f4d240",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.305-changed-5",
+          "en": "Changed `allowedMcpServers` to stop filtering `managed-mcp.json` stdio servers that use `${VAR}` only in `env`: one your allowlist left out now loads on upgrade; use `deniedMcpServers` to keep it off",
+          "zh": "变更 `allowedMcpServers`，不再过滤仅在 `env` 中使用 `${VAR}` 的 `managed-mcp.json` stdio 服务器：升级后，被允许列表排除的服务器会加载；如需保持禁用，请使用 `deniedMcpServers`",
+          "hash": "1762050f1f76482eefdf805f3dd78eb2d19f82b54a8be3091d401aa28ff5b2b2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-changed-6",
+          "en": "Changed plugins that Claude Desktop mounts by path to no longer keep their `allowed-tools` when your organization's managed settings set `allowManagedPermissionRulesOnly`",
+          "zh": "变更 Claude Desktop 按路径挂载的 plugins：当组织的托管设置启用 `allowManagedPermissionRulesOnly` 时，这些 plugins 不再保留其 `allowed-tools`",
+          "hash": "22ec1f605670d405ec4629020aa0dd0bcf5e7625da5245b9122e880ee7c5b50e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-changed-7",
+          "en": "Changed the `/artifacts` delete confirmation to take 1 or Enter to keep, 2 to delete, and Esc to cancel; `y` and `n` no longer answer it",
+          "zh": "变更 `/artifacts` 删除确认：按 1 或 Enter 保留，按 2 删除，按 Esc 取消；`y` 和 `n` 不再作为应答",
+          "hash": "f9e4a0cbdb541c913f424d4eb44df92c04699b8b61c2452a0f02a9bdcd6d3d59",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-changed-8",
+          "en": "Changed a mod's docked pane to stay within 45% of the terminal's width, including a width kept from a wider terminal",
+          "zh": "变更 mod 的停靠窗格，使其宽度保持在终端宽度的 45% 以内，包括从更宽终端继承的宽度",
+          "hash": "1993caf0ad1272625d4b46cc24b3eaa7d84bbf43c6d9148edc2a635c003df5f0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-changed-9",
+          "en": "\\[VSCode] Changed the message shown when a session does not start in time and no hook is running: it now leads with the output logs and lists causes instead of pointing to sign-in and network first",
+          "zh": "\\[VSCode] 变更 session 未及时启动且没有 hook 运行时显示的消息：现在先展示输出日志并列出原因，而不是先指向登录和网络",
+          "hash": "0b8b6c783742b1f8b56f287bfc9bb0e763a3070f1469f8c732f18f1a8ced91db",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-changed-10",
+          "en": "\\[Code Review] Changed Code Review re-reviews so they no longer open with LGTM while earlier blocking findings are still open",
+          "zh": "\\[Code Review] 变更 Code Review 的重新审查：当先前阻塞性问题仍未解决时，不再以 LGTM 开头",
+          "hash": "7afe5eb36030b899e7be0fd28ff9729c205846ace907c0a215a02bc48d9b30c8",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "6 improvements",
+      "heading_zh": "6 项改进",
+      "items": [
+        {
+          "id": "2.1.305-improvements-11",
+          "en": "Improved `/usage`: each warning is now a one-line fix that names its source, and `f` applies the fixes; the same fixes appear in VS Code and `/doctor`",
+          "zh": "改进 `/usage`：每条警告现在都是一行修复建议并注明来源，按 `f` 可应用修复；同样的修复也会出现在 VS Code 和 `/doctor` 中",
+          "hash": "931b515060f22bc2d65bce9a613691a3b86c11ee375346123be8c5b8b87b8fed",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-improvements-12",
+          "en": "Improved MCP consent dialogs so an Enter meant for the prompt is less likely to be taken as Accept",
+          "zh": "改进 MCP 授权对话框，减少本意用于 prompt 的 Enter 被误判为 Accept 的情况",
+          "hash": "bd96f16e08311bc8304669d879bd012eadc6f06d04a82f75410de8218a4d12b9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-improvements-13",
+          "en": "Improved a mod's `Image` to draw its picture in iTerm2 3.5 and later with fullscreen rendering, where it showed only its `alt` text",
+          "zh": "改进 mod 的 `Image`：在 iTerm2 3.5 及更高版本中通过全屏渲染绘制图片，此前只显示其 `alt` 文本",
+          "hash": "d9d94f2ee38f4ecdafd69a32900e9d53f03bd9233eb1c4799d542383ac97ad0f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-improvements-14",
+          "en": "Remote Control: Improved the spawn-mode messages: pressing `w` now says the new mode is saved for the folder, and a later `claude remote-control` start that uses the saved mode says where it came from",
+          "zh": "Remote Control：改进 spawn 模式消息：按 `w` 现在会提示新模式已为该文件夹保存，之后使用已保存模式启动 `claude remote-control` 时会说明其来源",
+          "hash": "2662213fb029acde59942a6ce1f09cc0d9df9a5132af81bbb41cf20a2731a13e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-improvements-15",
+          "en": "\\[Cloud sessions] Improved deleting a self-hosted environment so the dialog and error messages say what blocks the delete and what it will affect",
+          "zh": "\\[Cloud sessions] 改进删除自托管环境：对话框和错误消息现在会说明删除受阻的原因及其影响",
+          "hash": "73b5810f4c0cb15766d4fe27664d3f0019fd4846cff1bedf4931ccdcb5a79748",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-improvements-16",
+          "en": "\\[Claude Tag] Improved Claude Tag admin pages in large organizations so plugin, skill and bundle edits work while the channel list is still loading",
+          "zh": "\\[Claude Tag] 改进大型组织中的 Claude Tag 管理页面，使 plugin、skill 和 bundle 的编辑在频道列表仍在加载时也能正常工作",
+          "hash": "825b22a4b271004ab0bb9e09a12f81972a4cbd0d8d55275718045285aa4bcb24",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "22 bug fixes",
+      "heading_zh": "22 项修复",
+      "items": [
+        {
+          "id": "2.1.305-fixes-17",
+          "en": "Fixed every request failing on Vertex, Bedrock and other providers when the endpoint or a gateway rejects tool search, and behind gateways with ToolSearch disallowed or left out of `--tools` (a 2.1.304 regression): Claude Code now retries without it",
+          "zh": "修复在 Vertex、Bedrock 及其他提供商上，当端点或网关拒绝 tool search 时所有请求失败的问题，以及网关禁用 ToolSearch 或未将其列入 `--tools` 时的问题（2.1.304 回归）：Claude Code 现在会在不带 tool search 的情况下重试",
+          "hash": "95551c1fa7dc7fbdb74fa145616edecbc55b848d83aeb30959ee12391f0236a7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-18",
+          "en": "Fixed `/effort` and `/autocompact` settings not applying when the model name differed from a `modelOverrides` value by letter case or a `[1m]` tag",
+          "zh": "修复当模型名称与 `modelOverrides` 值仅大小写或 `[1m]` 标记不同时，`/effort` 和 `/autocompact` 设置不生效的问题",
+          "hash": "03b90d8ae1990d5a54fe1f86f5660046fe8a7172aa074ab9bdd518ea742d1b24",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-19",
+          "en": "Fixed new worktrees in a bare repository sometimes starting from local HEAD instead of the default branch, and unchanged subagent worktrees sometimes not being cleaned up",
+          "zh": "修复裸仓库中新建 worktree 有时从本地 HEAD 而非默认分支开始的问题，以及未变更的 subagent worktree 有时未被清理的问题",
+          "hash": "c8a467a214b8d8cfe2e03905f19de24e430474cb24ab79ff5a6398668065b3fe",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-20",
+          "en": "Fixed Bash commands on a full disk failing with a raw `ENOSPC` file path: the error now says the disk is full and that nothing ran",
+          "zh": "修复磁盘已满时 Bash 命令以原始 `ENOSPC` 文件路径报错的问题：错误现在会说明磁盘已满且未执行任何操作",
+          "hash": "457da1a714fd32c352da588f8da08cc61429b3570a9abcd42e719b93f20417c7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-21",
+          "en": "Fixed an MCP server passed by a cloud session or by the SDK's `setMcpServers` being replaced later in the session by a same-named server from your own settings",
+          "zh": "修复了云 session 或 SDK 的 `setMcpServers` 传入的 MCP 服务器，在 session 后续被你自己设置中同名服务器替换的问题",
+          "hash": "9dfb870c8281051de96d92445e43eb519a3f1ed8c6dc70560c083fd952666f4b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-22",
+          "en": "Fixed Claude naming the wrong model for a subagent's work after the subagent switched to a fallback model",
+          "zh": "修复了 subagent 切换到回退模型后，Claude 为 subagent 的工作标注了错误模型的问题",
+          "hash": "35d0f1212c33b7067ea782b5195b392df6154e62ce44f66844145ba667ebb5a6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-23",
+          "en": "Fixed cloud sessions and teammates not telling Claude when a compaction had to leave the oldest messages out of its summary to fit",
+          "zh": "修复了云 session 和队友在上下文压缩因篇幅限制不得不将最早的消息排除在摘要之外时，未告知 Claude 的问题",
+          "hash": "dc61fa2ff6fd296a4c3e8968c7043e8760ebad3e23bbc02bb7d41027b3e52614",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-24",
+          "en": "Fixed more cases of scheduled Cowork cloud sessions waiting five minutes for each subagent whose WebFetch needed a URL approval that nobody was there to give",
+          "zh": "修复了更多情况：定时 Cowork 云 session 中，每个 subagent 的 WebFetch 需要 URL 审批却无人审批时，会各自等待五分钟",
+          "hash": "ec267c82808d1d85899f88d39b67b9c53f079ef30f590e0811af7555e2fc3e1a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-25",
+          "en": "Fixed Workflow resume re-running already-completed `pipeline()` and `parallel()` agents instead of serving them from the run's journal",
+          "zh": "修复了 Workflow 恢复时重新运行已完成的 `pipeline()` 和 `parallel()` agent，而不是从该次运行的日志中读取结果的问题",
+          "hash": "8ae61123a962321b7436e9afc3698e8d671a60c015112953b597e77b14c1f1e4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-26",
+          "en": "Fixed Remote Control leaving empty \"(session)\" entries in `/resume` after switching conversations with `/resume`",
+          "zh": "修复了远程控制在使用 `/resume` 切换对话后，在 `/resume` 中留下空的“(session)”条目的问题",
+          "hash": "7a2fc51b65eafa59c283514a73a1af5b5c4eacee48fda4351b18cea06e4f77d3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-27",
+          "en": "Fixed `/usage` rows being cut off in narrow terminals",
+          "zh": "修复了 `/usage` 的行在窄终端中被截断的问题",
+          "hash": "625dac492c00f93b43f9480d8507da096680ca7408ac9b369c3b63cef227e371",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-28",
+          "en": "Fixed startup warnings printing as raw text above the logo: they now go to the debug log, and permission rules that restrict nothing show as warning rows under the banner",
+          "zh": "修复了启动警告以原始文本形式打印在 logo 上方的问题：现在这些警告会写入调试日志，而不限制任何内容的权限规则会以警告行的形式显示在横幅下方",
+          "hash": "71d75a5ca03540b6113f8a9c60bcc72f34d7f25bf38ec7532db2caaa86d9309c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-29",
+          "en": "Fixed screen reader mode: search boxes now say \"Search:\" instead of a symbol VoiceOver read as \"telephone recorder\", and highlighted prompt text, such as Ctrl+R search matches and \"ultrathink\", no longer has spaces inside words",
+          "zh": "修复了屏幕阅读器模式：搜索框现在会读出“Search:”，而不是 VoiceOver 读作“telephone recorder”的符号；高亮的 prompt 文本（如 Ctrl+R 搜索匹配项和“ultrathink”）不再在单词内部出现空格",
+          "hash": "da4b0768556e04aedbee01d50eafe0f7540cdfa8c9523d9eb6d10e72da290f9e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-30",
+          "en": "Self-hosted runner: Fixed a start script that shares only its stdout with the runner or orchestrator failing with `Resource temporarily unavailable` when `TERM` is set (a 2.1.300 regression)",
+          "zh": "自托管运行器：修复了仅与运行器或编排器共享 stdout 的启动脚本在设置了 `TERM` 时因 `Resource temporarily unavailable` 而失败的问题（2.1.300 引入的回归）",
+          "hash": "320848b22a6b7a7ec9ea75b2668863553dcbcd66063329f00e460d5c7fa92d7c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-31",
+          "en": "Self-hosted runner: Fixed repository access failing since 2.1.296 when a git credential helper or askpass program reads its settings through `GIT_CONFIG`",
+          "zh": "自托管运行器：修复了自 2.1.296 起，当 git 凭据助手或 askpass 程序通过 `GIT_CONFIG` 读取其设置时仓库访问失败的问题",
+          "hash": "0362c0c9caa122f782270ce69ee34348e634364d86f30f456916ff72c42e9c2b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-32",
+          "en": "Self-hosted runner: Fixed the orchestrator reporting a spawn-runner hook as timed out when a runner it started in the background kept its output open",
+          "zh": "自托管运行器：修复了编排器将 spawn-runner hook 误报为超时的问题，该问题发生在运行器在后台启动并保持其输出打开时",
+          "hash": "befb8d3a4f9c9c356d0e059d53de396f5f65e4558b6dbbae3294c2377de48ad4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-33",
+          "en": "\\[VSCode] Fixed the spinner cutting off \"Compacting...\" when your `spinnerVerbs` setting replaces the built-in verbs with short ones",
+          "zh": "\\[VSCode] 修复了当 `spinnerVerbs` 设置用较短的动词替换内置动词时，加载指示器截断“Compacting...”的问题",
+          "hash": "5f714db1cf266e3a7b7215486c7aa33f4fd3cbb63b494eb727c0f30c88d307a0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-34",
+          "en": "\\[Cloud sessions] Fixed the Cloud environments admin page wrongly refusing to save an existing environment with an \"installs packages\" error",
+          "zh": "\\[云 session] 修复了 Cloud environments 管理页面错误地以“installs packages”错误拒绝保存现有环境的问题",
+          "hash": "2100348be19b4d4239510d16023144b3bedf500cb41f1f04159acc8a4ea96296",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-35",
+          "en": "\\[Claude Tag] Fixed Claude Tag access bundles so a repository that moved to another GitHub account can be added again",
+          "zh": "\\[Claude Tag] 修复了 Claude Tag 访问包的问题，使已迁移到另一个 GitHub 账号的仓库可以再次被添加",
+          "hash": "9e2fd150cac73c4bef6972ed8f1772d3288cf0522c7155b06b093b4b738d7b7e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-36",
+          "en": "\\[Claude Tag] Fixed a routine set up in a Slack DM thread no longer posting after another routine in that thread restarted the conversation; both now keep posting there",
+          "zh": "\\[Claude Tag] 修复了在 Slack 私信线程中设置的例程，在该线程中另一个例程重启对话后不再发布的问题；现在两者都会继续在该线程中发布",
+          "hash": "de0e8ee463668fd320417201de171fb9d855f7ef5b1061c63c620e226c40ffa5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-37",
+          "en": "\\[Claude Tag] Fixed routines set up in a Slack thread reporting success without posting after the conversation ended; those runs are now skipped and the creator is told",
+          "zh": "\\[Claude Tag] 修复了在 Slack 线程中设置的例程在对话结束后报告成功却未发布的问题；现在这些运行会被跳过，并告知创建者",
+          "hash": "86849ae776f57181598d0634d4c50eea29c1cdf0431bb6ae124636b323866f03",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.305-fixes-38",
+          "en": "\\[Code Review] Fixed Code Review sometimes not reviewing the newest commit when several pushes landed on a pull request during a review",
+          "zh": "\\[Code Review] 修复了 Code Review 在审查期间有多次推送落到某个 pull request 时，有时不审查最新提交的问题",
+          "hash": "1d752a28deb88d20f71c60ad97958cd2c38066ef1fadf24071cfdd796121cfa4",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "修复 tool search 回归与多项稳定性问题，新增沙箱与重试配置，并调整 MCP 允许列表行为。",
+    "highlights": [
+      {
+        "title": "MCP 允许列表行为变更",
+        "category": "破坏性变更",
+        "detail": "allowedMcpServers 不再过滤仅在 env 中使用 ${VAR} 的 managed-mcp.json stdio 服务器，升级后原本被排除的服务器会加载。",
+        "action": "如需继续禁用这些服务器，请在 deniedMcpServers 中显式列出。",
+        "example": null,
+        "item_ids": [
+          "2.1.305-changed-5"
+        ]
+      },
+      {
+        "title": "/artifacts 删除确认键变更",
+        "category": "破坏性变更",
+        "detail": "删除确认改为按 1 或 Enter 保留、按 2 删除、按 Esc 取消，y 和 n 不再生效，习惯旧按键的用户会操作失败。",
+        "action": "改用 1/2/Esc 应答删除确认。",
+        "example": {
+          "lang": "bash",
+          "code": "/artifacts",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.305-changed-7"
+        ]
+      },
+      {
+        "title": "修复 tool search 回归",
+        "category": "修复",
+        "detail": "在 Vertex、Bedrock 或网关拒绝 tool search 时，此前所有请求都会失败；现在会自动在不带 tool search 的情况下重试。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.305-fixes-17"
+        ]
+      },
+      {
+        "title": "新增沙箱嵌套命名空间开关",
+        "category": "新功能",
+        "detail": "sandbox.allowNestedUserNamespaces 允许 Linux 沙箱内命令创建用户命名空间以运行 Chromium、rootless podman，但会绕过沙箱文件保护。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.305-added-1"
+        ]
+      },
+      {
+        "title": "/usage 警告可直接修复",
+        "category": "改进",
+        "detail": "每条警告改为一行修复建议并注明来源，按 f 即可应用修复，同样的修复也出现在 VS Code 和 /doctor 中。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/usage",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.305-improvements-11"
+        ]
+      },
+      {
+        "title": "多项稳定性修复",
+        "category": "修复",
+        "detail": "修复裸仓库 worktree 起点、磁盘满时 Bash 报错、MCP 服务器被同名配置覆盖、Workflow 恢复重跑已完成 agent 等问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.305-fixes-19",
+          "2.1.305-fixes-20",
+          "2.1.305-fixes-21",
+          "2.1.305-fixes-25"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

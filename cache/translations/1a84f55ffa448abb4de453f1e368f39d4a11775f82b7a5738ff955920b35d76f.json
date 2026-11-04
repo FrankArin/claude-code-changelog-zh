@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin marketplace add`, `marketplace update` and `plugin install` failing with an internal error for a marketplace named like `constructor`; `add` now refuses such names clearly",
+  "zh": "修复了 `claude plugin marketplace add`、`marketplace update` 和 `plugin install` 对名称类似 `constructor` 的 marketplace 报内部错误而失败的问题；`add` 现在会明确拒绝此类名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

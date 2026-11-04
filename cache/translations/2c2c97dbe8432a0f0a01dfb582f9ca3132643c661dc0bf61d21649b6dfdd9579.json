@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plan mode running a write (an MCP tool's, a file's, a shell command's) that a `PreToolUse` hook or a mod's `tool.check` hook allowed",
+  "zh": "修复了计划模式执行 `PreToolUse` hook 或 mod 的 `tool.check` hook 所放行的写入操作（MCP 工具的写入、文件写入、shell 命令）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

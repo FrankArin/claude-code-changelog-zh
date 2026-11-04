@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved token counts behind a Claude apps gateway on Amazon Bedrock, which `/context` and large file reads use: the gateway now gets them from AWS's CountTokens API instead of a one-token model request. Grant `bedrock:CountTokens` to use it",
+  "zh": "改进 Amazon Bedrock 上 Claude 应用网关背后的 token 计数，`/context` 和大文件读取会用到：网关现在从 AWS 的 CountTokens API 获取，而不再发送单 token 的模型请求。使用前需授予 `bedrock:CountTokens`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

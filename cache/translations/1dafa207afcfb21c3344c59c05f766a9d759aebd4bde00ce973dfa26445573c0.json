@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `/permissions` rule details, built-in rules and delete confirmation views to use the standard dialog; pressing Ctrl+C twice there now goes back or cancels instead of quitting",
+  "zh": "变更 `/permissions` 的规则详情、内置规则和删除确认视图，改用标准对话框；在这些视图中连按两次 Ctrl+C 现在会返回或取消，而不是退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

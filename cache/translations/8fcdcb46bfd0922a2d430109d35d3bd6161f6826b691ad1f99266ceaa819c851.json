@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how self-hosted runners recover from server errors: after a 5xx other than 501 or 529, a runner's next poll now opens a new connection instead of reusing the one that failed",
+  "zh": "改进自托管运行器从服务器错误中恢复的方式：遇到除 501 或 529 以外的 5xx 后，运行器的下一次轮询现在会新建连接，而不是复用失败的那个连接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

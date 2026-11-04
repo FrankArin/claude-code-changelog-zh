@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude remote-control` hosts, the background daemon and self-hosted runners failing to start new sessions (`spawn ENOENT`) after an update or version cleanup removed the binary of a still-running process",
+  "zh": "修复了更新或版本清理删除了仍在运行的进程的二进制文件后，`claude remote-control` 主机、后台守护进程和自托管运行器无法启动新 session（`spawn ENOENT`）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

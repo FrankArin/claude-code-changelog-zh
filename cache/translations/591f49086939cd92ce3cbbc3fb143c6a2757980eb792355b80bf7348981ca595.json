@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `$.session.identity()` for mods installed by managed settings: how the session is signed in, and its organization and email when managed `forceLoginOrgUUID` lists that organization",
+  "zh": "为托管设置安装的 mod 新增 `$.session.identity()`：返回 session 的登录方式，以及当托管 `forceLoginOrgUUID` 列出该组织时，返回其组织和邮箱",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a late-loading plugin's SessionStart hook output reaching the new conversation after `/clear` in headless sessions",
+  "zh": "修复了延迟加载的 plugin 的 SessionStart hook 输出在无头 session 中于 `/clear` 之后进入新对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

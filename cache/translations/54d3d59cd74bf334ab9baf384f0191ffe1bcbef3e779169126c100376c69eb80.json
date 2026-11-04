@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the behavior of stored claude.ai, Team, and Enterprise logins when MDM and remote settings differ on base URL or `apiKeyHelper`",
+  "zh": "改进已存储的 claude.ai、Team 和 Enterprise 登录在 MDM 与远程设置在 base URL 或 `apiKeyHelper` 上不一致时的行为",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

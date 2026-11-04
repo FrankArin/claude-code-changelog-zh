@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed a Claude Tag channel's on/off switch and agent settings falling back to workspace defaults when an older private Slack channel goes public and gets a new ID",
+  "zh": "\\[Claude Tag] 修复了较旧的私有 Slack 频道转为公开并获得新 ID 时，Claude Tag 频道的开关和 agent 设置回退到工作区默认值的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

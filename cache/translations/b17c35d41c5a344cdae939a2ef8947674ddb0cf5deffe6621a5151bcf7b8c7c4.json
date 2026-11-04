@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Gateway: Improved the log hints about `listen.trusted_proxies`: they now say to list only a proxy that adds the connecting address to `X-Forwarded-For` itself",
+  "zh": "网关：改进了关于 `listen.trusted_proxies` 的日志提示：现在会说明只应列出自身会将连接地址添加到 `X-Forwarded-For` 的代理",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

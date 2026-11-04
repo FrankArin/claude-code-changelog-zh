@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "versions": [
+    "2.1.314"
+  ],
+  "tldr": "新增工作目录外写入拦截与网关分组路由，修复大量稳定性与界面问题。",
+  "highlights": [
+    {
+      "title": "新增工作目录外写入拦截",
+      "category": "新功能",
+      "detail": "新增 permissions.blockWritesOutsideWorkingDirectories，在所有权限模式下拒绝 Write、Edit、NotebookEdit 写入工作目录之外的路径。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.314-added-1"
+      ],
+      "version": "2.1.314"
+    },
+    {
+      "title": "网关支持 IdP 分组路由",
+      "category": "新功能",
+      "detail": "Claude 应用网关上游可配置 groups 列表，仅所列 IdP 组的开发者会被路由到该上游，故障转移时同样生效。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.314-added-2"
+      ],
+      "version": "2.1.314"
+    },
+    {
+      "title": "FORCE_HYPERLINK 语义反转",
+      "category": "破坏性变更",
+      "detail": "FORCE_HYPERLINK 设为 false、no 或 off 时现在会关闭超链接，而非开启；依赖旧行为的脚本或环境配置需相应调整。",
+      "action": "检查环境中 FORCE_HYPERLINK 的取值，若原意是开启超链接请改为 true 或移除该变量。",
+      "example": {
+        "lang": "bash",
+        "code": "FORCE_HYPERLINK=false",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.314-changed-19"
+      ],
+      "version": "2.1.314"
+    },
+    {
+      "title": "修复 effort 限制导致连续失败",
+      "category": "修复",
+      "detail": "组织管理员限制模型 effort 时，session 不再因 Invalid effort level 反复失败，而是降低 effort 重试并说明所用级别。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.314-fixes-39"
+      ],
+      "version": "2.1.314"
+    },
+    {
+      "title": "修复 -p 启动失败静默退出",
+      "category": "修复",
+      "detail": "claude -p 启动失败时不再以退出码 0 且无输出结束，现在会打印错误并以 1 退出，便于 CI 正确感知失败。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude -p",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.314-fixes-40"
+      ],
+      "version": "2.1.314"
+    },
+    {
+      "title": "减少大量 subagent 内存占用",
+      "category": "改进",
+      "detail": "无头及 SDK 轮次中父 session 不再保留每个 subagent 的工具结果直到轮次结束，长时间运行大量 subagent 时内存显著下降。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.314-improvements-23"
+      ],
+      "version": "2.1.314"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "e1080e6f61c6ef77e8581de22c34210feb0f5ebf9299ba49aa00d670cae2c7c4"
+}

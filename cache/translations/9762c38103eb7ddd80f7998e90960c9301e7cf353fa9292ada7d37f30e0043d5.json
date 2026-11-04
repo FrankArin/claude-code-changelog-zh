@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `permissions.blockWritesOutsideWorkingDirectories`: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode",
+  "zh": "新增 `permissions.blockWritesOutsideWorkingDirectories`：在所有权限模式下，Write、Edit 和 NotebookEdit 都会拒绝工作目录之外的路径",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

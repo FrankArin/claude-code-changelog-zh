@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an MCP server passed by a cloud session or by the SDK's `setMcpServers` being replaced later in the session by a same-named server from your own settings",
+  "zh": "修复了云 session 或 SDK 的 `setMcpServers` 传入的 MCP 服务器，在 session 后续被你自己设置中同名服务器替换的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

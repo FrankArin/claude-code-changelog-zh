@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added a confirmation in Claude Tag admin settings before adding a channel manager moves that member to Custom roles, which can remove their other access",
+  "zh": "\\[Claude Tag] Claude Tag 管理设置新增确认步骤：添加频道管理员会将该成员移至 Custom roles，可能移除其其他访问权限",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

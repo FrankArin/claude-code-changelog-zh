@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved auto mode with the server-side classifier: a conversation too long for the safety check is now compacted, instead of every checked tool call being denied",
+  "zh": "改进使用服务端分类器的自动模式：对话过长而无法进行安全检查时，现在会进行上下文压缩，而不再拒绝所有经过检查的工具调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

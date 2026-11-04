@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/reload-plugins` not loading a plugin installed from another terminal a moment earlier",
+  "zh": "修复了 `/reload-plugins` 无法加载片刻前从另一个终端安装的 plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

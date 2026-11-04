@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "version": "2.1.309",
+  "date": "2026-10-22",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "f1124aea4db4c853c578060872091b79a6912479ffa7c90cfb70f29fd04d0cce",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:51:42+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.309-added-1",
+          "en": "\\[VSCode] Added a log warning that says what to do when dictation or the extension's own requests fail certificate verification, such as behind a TLS-inspecting proxy",
+          "zh": "\\[VSCode] 新增一条日志警告，说明在听写或扩展自身请求未通过证书验证时该怎么做，例如在会检查 TLS 的代理后面",
+          "hash": "f39ac6e9d6d816813c39d5f753ac8b3a810d94559a028a05d7da0d844e9a2fce",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.309-changed-2",
+          "en": "Updated the bundled dataviz skill to accept APCA as a text-contrast measure (keeping WCAG 2 ratios where AA conformance is required), add an `apca(text, background)` function to its palette validator scripts, and say whether a label inside a colored chart fill should be white or near-black",
+          "zh": "更新内置的 dataviz skill：接受 APCA 作为文本对比度度量（在要求 AA 合规时仍保留 WCAG 2 比值），在其调色板校验脚本中新增 `apca(text, background)` 函数，并说明彩色图表填充内的标签应使用白色还是近黑色",
+          "hash": "a79b2cd3851b700b8c8b312f6321ff4ecb9242fab0edc572429ab17bfab8ed28",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-changed-3",
+          "en": "Updated the /claude-api skill: service account keys and Workload Identity Federation tokens can now manage OpenTelemetry destinations",
+          "zh": "更新 /claude-api skill：服务账号密钥和 Workload Identity Federation token 现在可以管理 OpenTelemetry 目标",
+          "hash": "febe3b2670352a5f7a273a5a4eba2a44c2075b64756faf1d1d6c674c6ed89082",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-changed-4",
+          "en": "Changed `sed -i` to get the standard Bash prompt and run as written, not a simulated file-edit preview; like other Bash edits, it is no longer restored by `/rewind`",
+          "zh": "变更 `sed -i`：现在会显示标准 Bash 权限提示并按原样执行，不再显示模拟的文件编辑预览；与其他 Bash 编辑一样，它不再能通过 `/rewind` 恢复",
+          "hash": "626c8d90b36d80d5915580a5c515d076a20d1d611695cbe40ccbc6a2c5dac2a7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-changed-5",
+          "en": "Changed `claude ultrareview` to require workspace trust: it asks on a terminal, else refuses; scripts pass `--trust-workspace`, which takes no value (put a PR number or base branch before it), or set `CLAUDE_CODE_DISABLE_ULTRAREVIEW_TRUST_CHECK=1`",
+          "zh": "变更 `claude ultrareview`：现在要求工作区信任，在终端上会询问，否则拒绝；脚本可传入 `--trust-workspace`（该参数不取值，PR 编号或基础分支需放在它前面），或设置 `CLAUDE_CODE_DISABLE_ULTRAREVIEW_TRUST_CHECK=1`",
+          "hash": "a628abe34de5d1a131b4528627366dc0dca2f84fd7b4e76baa2a4e33c3efe669",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-changed-6",
+          "en": "Changed the dangerous `rm` and `rmdir` prompt in bypass permissions mode in the Desktop app and VS Code to deny the command at once with a rewrite hint, so unattended sessions keep going",
+          "zh": "变更桌面应用和 VS Code 中绕过权限模式下针对危险 `rm` 和 `rmdir` 的提示：现在会立即拒绝该命令并给出改写提示，使无人值守的 session 得以继续",
+          "hash": "1a754d22c17201bd8277ca8ba778d31313775e202cbc93ee9e57edbd00cab914",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-changed-7",
+          "en": "Changed commands the settings exclude from the sandbox to ask before writing to its write-list paths while the sandbox is enabled but cannot run; the unsandboxed fallback is refused there",
+          "zh": "变更设置中排除在沙箱之外的命令：当沙箱已启用但无法运行时，写入其写入列表路径前会先询问；此时会拒绝非沙箱的回退",
+          "hash": "12e234402f40654f3eaf125c93ea893326647b3cbf26050a0c938bd4385ea08b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-changed-8",
+          "en": "Changed worktree creation and reuse so git no longer fetches objects on demand, in ordinary clones and in partial clones with a Bash sandbox configured; such a partial clone fetches them first",
+          "zh": "变更 worktree 的创建和复用：git 不再按需拉取对象，适用于普通克隆以及配置了 Bash 沙箱的部分克隆；此类部分克隆会先拉取对象",
+          "hash": "6b7922d011ff7e880b4759e0eb5eabc4bdb7c603cde5c4405332835dcf02765c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-changed-9",
+          "en": "Changed the `/claude-api` skill to build Managed Agents subagent teams on `multiagent_20261001` with dynamic workflows on by default, instead of `coordinator`",
+          "zh": "变更 `/claude-api` skill：改为在 `multiagent_20261001` 上构建 Managed Agents subagent 团队，默认启用动态工作流，不再使用 `coordinator`",
+          "hash": "763fae49747b6d79e0fc2aed43cf704bc321f363157cde58af99afb0a2a3e1f2",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "8 improvements",
+      "heading_zh": "8 项改进",
+      "items": [
+        {
+          "id": "2.1.309-improvements-10",
+          "en": "Improved the speed of many git commands Claude Code runs for itself on Windows; on every platform, errors from those commands now show in English even when git is set to another language",
+          "zh": "改进 Claude Code 在 Windows 上自行运行的许多 git 命令的速度；在所有平台上，即使 git 设置为其他语言，这些命令的错误现在也以英文显示",
+          "hash": "69b33859d62c228347e9e98e2dc626b92afa0614013dc97bb75c873ccc609408",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-improvements-11",
+          "en": "Improved the error when a hooks module is nested too deep to load: it now names the file instead of showing a bare stack-overflow message",
+          "zh": "改进 hooks 模块嵌套过深无法加载时的错误：现在会指出文件名，而不是只显示栈溢出消息",
+          "hash": "fff229e558fe546e80bd67ccdfb8a187f89f6e6a7c71d1d4b1fb770dcc769c2a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-improvements-12",
+          "en": "Improved disk-full handling: a Bash command cut off by a full disk now says so and names the folder to free up, and starting on a full temp volume prints a clear message, not a raw ENOSPC error",
+          "zh": "改进磁盘已满的处理：因磁盘已满而中断的 Bash 命令现在会说明情况并指出需要释放空间的文件夹；在已满的临时卷上启动时会打印清晰消息，而不是原始的 ENOSPC 错误",
+          "hash": "d96c0d703e4f57e4980569f4f58d92afbe94083f6379fb5808d6b2811c0cee05",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-improvements-13",
+          "en": "Improved the /claude-api skill to offer API tracing alongside SDK tracing when asked to add OpenTelemetry",
+          "zh": "改进 /claude-api skill：在被要求添加 OpenTelemetry 时，除 SDK 追踪外还提供 API 追踪",
+          "hash": "8b63e9889e317b3587390fd57f50bf9e5b39016ed588e01f089499aef7224e27",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-improvements-14",
+          "en": "Improved the /claude-api skill to check the live docs before saying a feature is unsupported",
+          "zh": "改进 /claude-api skill：在称某项功能不受支持前先检查最新文档",
+          "hash": "86be087c6a2ca9e27fd07264cf6297fada0839b45206ba858b10f8aa2f7690b6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-improvements-15",
+          "en": "Self-hosted runner: Improved sessions that move to a new runner: Claude now sees the tool call that was interrupted, marked as outcome unknown",
+          "zh": "自托管运行器：改进迁移到新运行器的 session：Claude 现在能看到被中断的工具调用，并标记为结果未知",
+          "hash": "95e069832bdf3418b7d234e7e8495e151e8d701cf79a1f32781783d6cae96056",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-improvements-16",
+          "en": "\\[VSCode] Improved Edit and Write speed in the chat panel: the wait for new problems after each edit is now 0.75 seconds in most cases, down from 1 to 1.5 seconds",
+          "zh": "\\[VSCode] 改进聊天面板中 Edit 和 Write 的速度：每次编辑后等待新问题的时间在大多数情况下从 1 至 1.5 秒降至 0.75 秒",
+          "hash": "de6cb4ed018b5bc6ee36f8ff84898246df1182b97c70e78adfc55833689f8056",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-improvements-17",
+          "en": "\\[Cloud sessions] Improved a cloud session's Changes pane, which now says when it lists only pushed commits or only Claude's edits",
+          "zh": "\\[Cloud sessions] 改进云 session 的 Changes 面板：现在会说明它仅列出已推送的提交还是仅列出 Claude 的编辑",
+          "hash": "3f8bca9f194399a5cc06944516a7974a1e96b892f4ee66e624699b68e068ee89",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "62 bug fixes",
+      "heading_zh": "62 项修复",
+      "items": [
+        {
+          "id": "2.1.309-fixes-18",
+          "en": "Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command",
+          "zh": "修复 macOS 和 Linux 上沙箱化的 Bash 命令在每条命令前于沙箱外运行 shell 启动文件的问题",
+          "hash": "77fcefe9339a2b1d6c1ba2d4e48c37c47e839856fd5b6afcc2f85698b07d2340",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-19",
+          "en": "Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink",
+          "zh": "修复 macOS 沙箱的 `denyWrite` glob 模式在通过符号链接到达模式所在文件夹时，未在路径的真实位置生效的问题",
+          "hash": "14935a5c4f394b1a9683fc32a602330232c3ec4e272e0c77e24cb5ca237e2ca6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-20",
+          "en": "Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config`",
+          "zh": "修复沙箱化命令和自动接受的编辑能够修改通过 `--mcp-config` 传入的 MCP 配置文件的问题",
+          "hash": "71bed76e77b6bb6e61631a152298688c2a030d96ae0d44264ac71584b5c8cfcc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-21",
+          "en": "Fixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions",
+          "zh": "修复了在 print 和 SDK session 中，已禁用的 MCP server 被后续权限提示重新连接的问题",
+          "hash": "f59f7c4f850e82394d4102bc7b47c5fa4d9f516ad17230a7c3def83569099b79",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-22",
+          "en": "Fixed the Bash permission check trusting a variable set by a command whose redirect can fail to open",
+          "zh": "修复了 Bash 权限检查信任某条命令设置的变量、而该命令的重定向可能无法打开的问题",
+          "hash": "a73bb524ae425acb569905c91806deba1e1184bf556b6597de3ea42c968e8108",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-23",
+          "en": "Fixed Bash permission checks not prompting for some compound commands that change directory before running git when the `cd` is wrapped or prefixed, as they do for a plain `cd`",
+          "zh": "修复了 Bash 权限检查对某些在运行 git 前切换目录的复合命令不弹出提示的问题：当 `cd` 被包裹或带有前缀时，现在会像普通 `cd` 一样提示",
+          "hash": "97f27249329c692b15341a31845776108ee2eae0eb43737a8ab27992ba19c0b2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-24",
+          "en": "Fixed an `Edit(path)` deny rule not blocking a Bash redirect to that path in some commands that also held a subshell",
+          "zh": "修复了 `Edit(path)` 拒绝规则在同时包含子 shell 的某些命令中无法阻止 Bash 重定向到该路径的问题",
+          "hash": "81d5c1d37515d3d35196e6ca2283fb8656489faf18d862614cb1272fc24f3dac",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-25",
+          "en": "Fixed worktree-isolated sessions accepting some locale-prefixed commands the isolation guard should refuse",
+          "zh": "修复了 worktree 隔离的 session 接受某些带 locale 前缀命令的问题，隔离防护本应拒绝这些命令",
+          "hash": "facebecadc8e808ef5e19373f612f05d9b4c001e0344bd780c77acd24867029f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-26",
+          "en": "Fixed worktree-isolated sessions on zsh accepting some arithmetic commands that the isolation guard should refuse",
+          "zh": "修复了 zsh 上 worktree 隔离的 session 接受某些算术命令的问题，隔离防护本应拒绝这些命令",
+          "hash": "a33c7a0c7f05131901c7e0c852c338a5b610b1ec632c3e7bed67f0ff7bc4d323",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-27",
+          "en": "Fixed worktrees and branch checkouts that Claude Code creates so they ignore git replace refs, as its other git operations already do",
+          "zh": "修复了 Claude Code 创建的 worktree 和分支检出未忽略 git replace refs 的问题，其其他 git 操作已如此处理",
+          "hash": "685ec124f60c8aec1fcefabe6a051533a708b863b3296cbb1e9998c63d9d5136",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-28",
+          "en": "Fixed profile store write protection not applying when the config directory is reached through a symlink",
+          "zh": "修复了通过符号链接访问配置目录时 profile 存储写保护不生效的问题",
+          "hash": "44002e0d2d059e5661d1726c7f84553b42d96d6b32bb0e2c2fa7ddaa78a750af",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-29",
+          "en": "Fixed sessions compacting repeatedly after reading files under a very large nested CLAUDE.md; a nested CLAUDE.md over the size limit now loads only its start",
+          "zh": "修复了读取超大嵌套 CLAUDE.md 下的文件后 session 反复进行上下文压缩的问题；超过大小限制的嵌套 CLAUDE.md 现在只加载开头部分",
+          "hash": "e9717ba4332f1d4730134536cab2d6664588336e52ef9e40324c25711166d0e7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-30",
+          "en": "Fixed ctrl+enter (send now) only queuing a message when pressed before the response had started, and restarting a prompt's hooks while leaving the message queued when pressed while those hooks were running",
+          "zh": "修复了 ctrl+enter（立即发送）的问题：在响应开始前按下时只会将消息排队；在 prompt 的 hook 运行期间按下时会重启该 prompt 的 hook，却仍将消息留在队列中",
+          "hash": "d6c85001618c45fbacff8a27c23c72c30f6707c0718d86aa45bfd6ec28ffe36f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-31",
+          "en": "Fixed key-bound slash commands running in the shell from `!` mode",
+          "zh": "修复了绑定按键的斜杠命令在 `!` 模式下于 shell 中运行的问题",
+          "hash": "1baf2cf6f763a92424666dfad81d70c46f6ad996460798fc3773273d27d6e12d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-32",
+          "en": "Fixed ctrl+o not showing messages from other agents and sessions that are still waiting to be delivered; they now appear in full under the transcript, marked as waiting",
+          "zh": "修复了 ctrl+o 不显示其他 agent 和 session 中仍在等待投递的消息的问题；这些消息现在会完整显示在对话记录下方，并标记为等待中",
+          "hash": "334f6a81c54d18244dc08f8181ce2a8d987a2b3a5b2319f8012e5b87de86b0ba",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-33",
+          "en": "Fixed long tool output previews being cut through an emoji, leaving session transcripts that `jq` could not parse",
+          "zh": "修复了较长的工具输出预览在 emoji 中间被截断、导致 `jq` 无法解析 session 对话记录的问题",
+          "hash": "c95ebbfa75b8b49dec279cf90b9e2d4a9e60ca1f494368431828bb56a5a2cc11",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-34",
+          "en": "Fixed Read reporting \"File does not exist\" for PDF page ranges in Linux sandboxes that share the parent's `/proc`",
+          "zh": "修复了在共享父进程 `/proc` 的 Linux 沙箱中，Read 对 PDF 页码范围报告“File does not exist”的问题",
+          "hash": "8ddf889d7b754ab441563e2eb3203a0b05fff5151d0fb08d4d00ae88291b01c5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-35",
+          "en": "Fixed messages from a Claude Desktop-hosted session sometimes being lost when its connection refreshed",
+          "zh": "修复了由 Claude Desktop 托管的 session 在连接刷新时消息有时丢失的问题",
+          "hash": "b6714d0db3febdb943f6e21ad422bd51018fd7982b24beab436afddd835fbc80",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-36",
+          "en": "Fixed features missing from Claude Code sessions in the Claude desktop app when the terminal on the same computer was signed in to a different account or organization",
+          "zh": "修复了当同一台电脑上的终端登录了其他账户或组织时，Claude 桌面应用中的 Claude Code session 缺少功能的问题",
+          "hash": "a2bc17ff92f42cf8746f3e4ba94b83c1261604c88fdaffa5c23fc2424c9632a2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-37",
+          "en": "Fixed the `claude remote-control` status line showing `HEAD` as the branch for a folder that is not in a git repository",
+          "zh": "修复了 `claude remote-control` 状态栏对不在 git 仓库中的文件夹将 `HEAD` 显示为分支的问题",
+          "hash": "61befddf559059abccb3a955b2bce1808942c76e835ec7387598143f2a8e0918",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-38",
+          "en": "Fixed split-pane agent teammates not inheriting the tool deny and `--tools` rules given on the leader's command line",
+          "zh": "修复了分屏 agent 队友不继承 leader 命令行上指定的工具拒绝规则和 `--tools` 规则的问题",
+          "hash": "284902aa9eff8f06d6692bb46fc20e518e4fa492c111129a9adafe4caa3df422",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-39",
+          "en": "Fixed sessions renamed with `/rename` appearing to other sessions under a generated name after a VS Code window reload or a non-interactive `--resume`",
+          "zh": "修复了用 `/rename` 重命名的 session 在 VS Code 窗口重新加载或非交互式 `--resume` 后，在其他 session 中以生成名称出现的问题",
+          "hash": "79ded2cbdaf18e69f52bfab873bcea643548ce1228fe625512df6b37706f6cc1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-40",
+          "en": "Fixed the `/rewind` list showing \"No code changes\" for a turn that changed checkpointed files through `/code-review --fix`, a subagent or a shell command",
+          "zh": "修复了 `/rewind` 列表对通过 `/code-review --fix`、subagent 或 shell 命令更改了检查点文件的轮次显示“No code changes”的问题",
+          "hash": "d307c035e8fb8c432c2f27a77239e65087da441588ad8a4a0ff00af1c7b033af",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-41",
+          "en": "Fixed `/privacy-settings` showing an out-of-date \"Help improve our AI models\" value; it now also says when the setting can't be fetched",
+          "zh": "修复 `/privacy-settings` 显示过时的“Help improve our AI models”值的问题；现在当该设置无法获取时也会给出提示",
+          "hash": "4fbcc986c6412c441e7e36bd228c3dc48a99006438582b9dfbe49e33fa1486e4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-42",
+          "en": "Fixed feedback saying \"try again later\" when your organization does not accept feedback; it now shows the server's reason and where to report a bug",
+          "zh": "修复组织不接受反馈时反馈提示“try again later”的问题；现在会显示服务器给出的原因以及报告 bug 的位置",
+          "hash": "f8de4938364b211e4fc2294816f6b8ac8346403ffb14dd9eed8c1bbabe2bea10",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-43",
+          "en": "Fixed oversized /feedback reports failing instead of being resent without the transcript",
+          "zh": "修复过大的 /feedback 报告发送失败、而不是在不含对话记录的情况下重新发送的问题",
+          "hash": "8dd59b43d075d795da1a1e076ca36eff50c8173cd448f41985bfea60132be0a4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-44",
+          "en": "Fixed a skill in an `--add-dir` folder being unreachable when another skill already held its name; it is now offered as `<folder>:<name>`",
+          "zh": "修复当另一个 skill 已占用同名时，`--add-dir` 文件夹中的 skill 无法访问的问题；现在会以 `<folder>:<name>` 的形式提供",
+          "hash": "3047b8b73e38e1da6236960cf0e27104b9c7912510d31905906a17d485994fe4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-45",
+          "en": "Fixed `/verify` and `/code-review` not finding a nested package's own skill when its files were changed from the shell",
+          "zh": "修复当嵌套包的文件从 shell 中被修改后，`/verify` 和 `/code-review` 找不到该包自身的 skill 的问题",
+          "hash": "a1a49f65c9cb66023872d5373939747eb4b6ac52870b5bdc9d212fa888f535a1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-46",
+          "en": "Fixed the /claude-api skill saying that `ant beta:worker poll --on-work` passes trace context to the command",
+          "zh": "修复 /claude-api skill 称 `ant beta:worker poll --on-work` 会向命令传递 trace 上下文的问题",
+          "hash": "9b67b66feacda16ba569d113ab9865c03a20c35b75e5739fa9ae4b1907bf08de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-47",
+          "en": "Fixed the /claude-api skill's C# tracing setup missing spans from the cloud platform clients",
+          "zh": "修复 /claude-api skill 的 C# 追踪配置缺少云平台客户端 span 的问题",
+          "hash": "623f54e5dedbca64db46f7c1190205b78428d43ecb3387c680913047afa00bd4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-48",
+          "en": "Fixed the /claude-api skill saying that API spans for requests to Claude Platform on AWS can't join the caller's trace",
+          "zh": "修复 /claude-api skill 称发往 Claude Platform on AWS 的请求的 API span 无法加入调用方 trace 的问题",
+          "hash": "c2a1f837bdd84b95f80628a31b4d4305ac28317560a0843422ff4dcd99df60ac",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-49",
+          "en": "Fixed hooks that run in PowerShell not blocking when the hook's program exits with code 2, and on Windows `PreToolUse` and `PermissionRequest` hooks with `\"shell\": \"powershell\"` failing open when Git for Windows isn't installed",
+          "zh": "修复在 PowerShell 中运行的 hook 在 hook 程序以退出码 2 退出时不阻断的问题，以及 Windows 上 `\"shell\": \"powershell\"` 的 `PreToolUse` 和 `PermissionRequest` hook 在未安装 Git for Windows 时失败放行的问题",
+          "hash": "6dbbeaa61ba1d02e484bd26039a1944bc7ee4a9b96626f1af45f4c549f9b682d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-50",
+          "en": "Fixed a mod's `turn.step` hook that names a model by alias, such as `haiku`, failing every request with a model error: the alias now resolves to its model",
+          "zh": "修复 mod 的 `turn.step` hook 通过别名（如 `haiku`）指定模型时，每个请求都因模型错误而失败的问题：现在别名会解析为对应模型",
+          "hash": "a4b3f082fd1376d902ec2b6e4f253ffac036db47a4a983aa22740d8c80069c0b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-51",
+          "en": "Fixed plugins and skills synced from claude.ai being removed, sometimes mid-session, after a disk read error",
+          "zh": "修复从 claude.ai 同步的 plugin 和 skill 在磁盘读取错误后被移除（有时发生在 session 中途）的问题",
+          "hash": "aa4388cac5433b6ae8edc0cffde6e13c9649ac9f6543e8076e8e2a5f9f6d5e86",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-52",
+          "en": "Fixed artifact publishes and updates being refused for some ordinary pages, such as pages with certain minified scripts or artifacts Claude could not read first",
+          "zh": "修复某些普通页面（例如包含特定压缩脚本的页面，或 Claude 无法先行读取的 artifact）的 artifact 发布和更新被拒绝的问题",
+          "hash": "5387787d1d73982438e383f1358a2fc7da3844cc0d83981069dfd35c2f71819a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-53",
+          "en": "Fixed Claude asking for permission on each artifact update for the rest of a turn after the conversation was compacted in that turn",
+          "zh": "修复在某一轮对话中执行上下文压缩后，该轮剩余时间内 Claude 每次更新 artifact 都会请求权限的问题",
+          "hash": "abdd5316a08a57f09b73fcf75c343c572407461c230db53b7b28f64096f39a45",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-54",
+          "en": "Fixed fine-grained tool streaming staying off on Amazon Bedrock when `ANTHROPIC_BEDROCK_BASE_URL` is set to the default `bedrock-runtime.<region>.amazonaws.com` endpoint",
+          "zh": "修复当 `ANTHROPIC_BEDROCK_BASE_URL` 设为默认的 `bedrock-runtime.<region>.amazonaws.com` 端点时，Amazon Bedrock 上细粒度工具流式传输保持关闭的问题",
+          "hash": "f5037269763bd5a743b4b0fb031f38ae1c3e505290763d29aca53277384b8081",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-55",
+          "en": "Fixed the \"Waiting for API response\" hint flickering behind gateways that send only keepalive pings: routes off Anthropic's backend now wait 45 seconds",
+          "zh": "修复在仅发送 keepalive ping 的网关后面“Waiting for API response”提示闪烁的问题：不走 Anthropic 后端的路由现在等待 45 秒",
+          "hash": "77e710237e821b14f1ed9f57afb036cc1198404a2084f4ff3ae4a32b74f1333d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-56",
+          "en": "Fixed Claude notifying unrelated GitHub users by writing role names and placeholders as mentions in PRs, issues and comments",
+          "zh": "修复 Claude 在 PR、issue 和评论中将角色名和占位符写成提及，从而通知无关 GitHub 用户的问题",
+          "hash": "6db987feb898b46f0c4ddda3dcf5d5816c2f230d4a1c32f5fd29cef7e307dc61",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-57",
+          "en": "Linux: Fixed sandbox write denies lifting when a background command outlived the session",
+          "zh": "Linux：修复当后台命令的生命周期超过 session 时，沙箱写入拒绝被解除的问题",
+          "hash": "be16e341638da35f578d9ee7b3168485d0351d62d0421eca07fa279c373f2355",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-58",
+          "en": "Windows: Fixed PowerShell permission checks auto-approving some `Set-Location` or `cd` commands that target the current directory and carry extra arguments; these now prompt for approval",
+          "zh": "Windows：修复 PowerShell 权限检查自动批准某些针对当前目录且带有额外参数的 `Set-Location` 或 `cd` 命令的问题；这些命令现在会请求批准",
+          "hash": "88cdaba8dd8e652d3820b98a6fb0696b9812eb9c30bb7885f6cdd882c79a658b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-59",
+          "en": "macOS: Fixed the \"Install Command Line Developer Tools\" dialog opening each time Claude Code starts on a Mac without Xcode or the Command Line Tools",
+          "zh": "macOS：修复在未安装 Xcode 或 Command Line Tools 的 Mac 上，每次启动 Claude Code 都会弹出“Install Command Line Developer Tools”对话框的问题",
+          "hash": "c5a6ae8892a6f6f1f7770183f42cd78ab1b1cbbd8679dbe8a1e70068358adebe",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-60",
+          "en": "Self-hosted runner: Fixed `--startup-timeout-min` stopping a session whose first prompt, such as `/code-review`, was still working in a subagent; a frozen process is still stopped",
+          "zh": "自托管运行器：修复 `--startup-timeout-min` 会停止首个 prompt（如 `/code-review`）仍在 subagent 中运行的 session 的问题；进程冻结时仍会停止",
+          "hash": "03d6d5be36cdf979f54db193166c0c8de6c38c40c077cb808ff29dedfaf90742",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-61",
+          "en": "\\[VSCode] Fixed the Claude panel staying blank after the editor cached an incomplete copy of its files; it now recovers by itself, or says what went wrong and how to fix it",
+          "zh": "\\[VSCode] 修复了编辑器缓存了不完整的文件副本后 Claude 面板一直空白的问题；现在它会自行恢复，或说明出了什么问题以及如何修复",
+          "hash": "e03a6658f703b62deedce2cbc9deab307f8be3eb1ca2b3d2448d33686ed52f6a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-62",
+          "en": "\\[VSCode] Fixed Session history filling up with empty \"Untitled\" sessions each time you start a new session without sending a message",
+          "zh": "\\[VSCode] 修复了每次开始新 session 但未发送消息时，Session 历史记录中会填满空的“Untitled” session 的问题",
+          "hash": "6ce525a4ae666616c13e8a8ff259cd45178a892781a52a81b7baadb289416e83",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-63",
+          "en": "\\[VSCode] Fixed long slash-command messages such as `/goal` filling the chat panel; they now fold behind Show more like other prompts (anthropics/claude-code#97469)",
+          "zh": "\\[VSCode] 修复了 `/goal` 等较长的斜杠命令消息占满聊天面板的问题；现在它们会像其他 prompt 一样折叠在“显示更多”之后（anthropics/claude-code#97469）",
+          "hash": "dc92fdb8238730a4a5c34a3161ccd8a294e72a879bd8fa5dcad5ba13c828a08f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-64",
+          "en": "\\[VSCode] Fixed long messages not folding behind Show more after the chat panel is made narrower",
+          "zh": "\\[VSCode] 修复了聊天面板变窄后，长消息不会折叠在“显示更多”之后的问题",
+          "hash": "596a84342452895d97b456d48604432d8016c16c6caa70b7ba9e350b522cc56f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-65",
+          "en": "\\[VSCode] Fixed Ctrl+J in the chat input always inserting a newline: it is now left to VS Code and the OS when \"ctrl+j\" is set to null in the Chat context of \\~/.claude/keybindings.json",
+          "zh": "\\[VSCode] 修复了聊天输入框中 Ctrl+J 总是插入换行的问题：当在 `~/.claude/keybindings.json` 的 Chat 上下文中将“ctrl+j”设为 null 时，现在交由 VS Code 和操作系统处理",
+          "hash": "0aee643fb05d2c98fc8908d14593fe54d262058fe930445e1154d63fd318e26e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-66",
+          "en": "\\[VSCode] Fixed a mod's \"From the … plugin\" label above the prompt being drawn over the slash command and @-mention menus (anthropics/claude-code#102981)",
+          "zh": "\\[VSCode] 修复了 prompt 上方 mod 的“From the … plugin”标签会覆盖在斜杠命令和 @ 提及菜单上的问题（anthropics/claude-code#102981）",
+          "hash": "a8243093e9bf53de8a4171867c6a6e6a671a06ec693d16d6dcd8ce725e1ea775",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-67",
+          "en": "\\[VSCode] Fixed an empty list item, paragraph or code block, and list items renumbered from 1, when pasting copied LaTeX math",
+          "zh": "\\[VSCode] 修复了粘贴复制的 LaTeX 数学公式时出现空列表项、空段落或空代码块，以及列表项从 1 重新编号的问题",
+          "hash": "f446af149d4817075b44bc9a099d2e74b1d6ef443f80ccbf6e9179094cd6d4d1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-68",
+          "en": "\\[VSCode] Fixed the feedback error showing only an HTTP status when your organization does not accept feedback",
+          "zh": "\\[VSCode] 修复了组织不接受反馈时，反馈错误只显示 HTTP 状态码的问题",
+          "hash": "40ef942c60a6ba242a4357166d0ad276c779f19656dd2342d0a0a5161a929903",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-69",
+          "en": "\\[Cloud sessions] Fixed the Add connector list in routine forms saying no connectors were available while they were still loading",
+          "zh": "\\[Cloud sessions] 修复了例程表单中的“添加 connector”列表在 connector 仍在加载时显示没有可用 connector 的问题",
+          "hash": "39a86b3ad4d0c46ad380c5cb5db16c7c57c6462312283ef734341fd0cfe4c31e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-70",
+          "en": "\\[Cloud sessions] Fixed the cloud environment editor shuffling environment variables and adding backslashes to values that contain both kinds of quote",
+          "zh": "\\[Cloud sessions] 修复了云环境编辑器打乱环境变量顺序，以及为同时包含两种引号的值添加反斜杠的问题",
+          "hash": "4fb1fc203997d5f74dcd8fdc08b9d65b8c58ed7f07766de3bf3be2262dca5811",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-71",
+          "en": "\\[Cloud sessions] Fixed the self-hosted environment details dialog in admin settings so its title, tabs and buttons stay in view while only the content scrolls",
+          "zh": "\\[Cloud sessions] 修复了管理设置中自托管环境详情对话框的问题，现在其标题、标签页和按钮保持可见，仅内容区域滚动",
+          "hash": "82035082e874f000a74f2b3f40702a2167f708b678bdf16b61ad77e5e7a83d37",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-72",
+          "en": "\\[Cloud sessions] Fixed the \"read documentation\" tool row in cloud sessions, which showed escaped JSON instead of a readable page",
+          "zh": "\\[Cloud sessions] 修复了云 session 中“读取文档”工具行显示转义 JSON 而非可读页面的问题",
+          "hash": "468cedcd010f68a1b5ac1944da49baa6e9bcba19e5c3fcf72b9d694c211e1833",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-73",
+          "en": "\\[Claude Tag] Fixed Claude in Slack posting a draft you approved for a channel into your DM by mistake; a post with no channel is now refused so it can go to the approved channel",
+          "zh": "\\[Claude Tag] 修复了 Slack 中的 Claude 将你为某个频道批准的草稿误发到你的私信中的问题；现在没有频道的帖子会被拒绝，以便发送到已批准的频道",
+          "hash": "f0e0fdcdf9cf068dcb4c0b1ac4c6f998f1605013f8c035d2cae93d24e1e33c36",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-74",
+          "en": "\\[Claude Tag] Fixed Allow and Deny on Claude's approval cards in Slack doing nothing when the session had stopped; your answer now restarts the session",
+          "zh": "\\[Claude Tag] 修复了 session 已停止时，Slack 中 Claude 审批卡片上的“允许”和“拒绝”按钮无响应的问题；现在你的回答会重新启动 session",
+          "hash": "3573b061b454d4af3bfda163156acb38cc794620335e1dcc9244d2a8bd7f7d7c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-75",
+          "en": "\\[Claude Tag] Fixed Claude ignoring untagged messages in a Slack channel after its workspace moved to a different Claude organization, including unshared channels on Enterprise Grid",
+          "zh": "\\[Claude Tag] 修复了工作区迁移到其他 Claude 组织后，Claude 忽略 Slack 频道中未标记消息的问题，包括 Enterprise Grid 上未共享的频道",
+          "hash": "45def9c9005cf233ca881957ef4b6b797a099710eafd14b01c738d3ef91f8431",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-76",
+          "en": "\\[Claude Tag] Fixed Claude in a Slack channel posting a threaded reply before reading a newer message someone had just added to that thread",
+          "zh": "\\[Claude Tag] 修复了 Slack 频道中的 Claude 在读取他人刚添加到该线程的较新消息之前就发布线程回复的问题",
+          "hash": "06be51a3cd0bacb95a24e42b3a2a89b5f0a5e0f57558f0ed00715e03095f44cb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-77",
+          "en": "\\[Claude Tag] Fixed the Slack page in Claude Tag admin settings saying no workspaces were connected when the list failed to load; it now shows an error with a Retry button",
+          "zh": "\\[Claude Tag] 修复了 Claude Tag 管理设置中的 Slack 页面在列表加载失败时显示未连接任何工作区的问题；现在会显示错误和“重试”按钮",
+          "hash": "13198e293ed49d85a40bcb9d0910c9ecab5772eac4550b50624a4a4bfaafe361",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-78",
+          "en": "\\[Code Review] Fixed a finished review showing no check on the pull request when earlier tries to create it failed; a final try now adds a completed check",
+          "zh": "\\[Code Review] 修复了先前创建检查失败时，已完成的审查在拉取请求上不显示检查的问题；现在最后一次尝试会添加已完成的检查",
+          "hash": "ede5ea60c7c34554cf86f8340f6c5b3e49ca5050471bd1461a6146b536038848",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.309-fixes-79",
+          "en": "\\[Code Review] Fixed a push queued behind a running review still starting a review after `@claude review stop`; its check now closes and says why",
+          "zh": "\\[Code Review] 修复了在 `@claude review stop` 之后，排队等待正在运行的审查的推送仍会启动审查的问题；现在其检查会关闭并说明原因",
+          "hash": "bdce53e6deb4e4f92909375e0c738a8d220d7b657007dd3d54fcbf216dea1481",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "强化沙箱与权限校验，修复大量安全与稳定性问题，并调整 sed -i 与 ultrareview 行为。",
+    "highlights": [
+      {
+        "title": "sed -i 改为标准 Bash 权限",
+        "category": "破坏性变更",
+        "detail": "sed -i 不再显示模拟文件编辑预览，改为走标准 Bash 权限提示并按原样执行；与其他 Bash 编辑一样无法通过 /rewind 恢复。",
+        "action": "依赖 /rewind 撤销 sed -i 改动的用户需改用其他方式备份或恢复文件。",
+        "example": {
+          "lang": "bash",
+          "code": "/rewind",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.309-changed-4"
+        ]
+      },
+      {
+        "title": "ultrareview 需工作区信任",
+        "category": "破坏性变更",
+        "detail": "claude ultrareview 现在要求工作区信任，终端会询问，否则拒绝执行；脚本场景需显式传入信任参数或设置环境变量。",
+        "action": "脚本中调用时传入 --trust-workspace（放在 PR 编号或基础分支之前），或设置 CLAUDE_CODE_DISABLE_ULTRAREVIEW_TRUST_CHECK=1。",
+        "example": {
+          "lang": "bash",
+          "code": "claude ultrareview",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.309-changed-5"
+        ]
+      },
+      {
+        "title": "修复沙箱与权限绕过",
+        "category": "安全",
+        "detail": "修复沙箱化 Bash 在沙箱外执行 shell 启动文件、符号链接下 denyWrite 失效、沙箱命令可修改 --mcp-config 文件，以及多处 Bash 权限检查漏提示或误放行的问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.309-fixes-18",
+          "2.1.309-fixes-19",
+          "2.1.309-fixes-20",
+          "2.1.309-fixes-23",
+          "2.1.309-fixes-24",
+          "2.1.309-fixes-25",
+          "2.1.309-fixes-26",
+          "2.1.309-fixes-58"
+        ]
+      },
+      {
+        "title": "磁盘已满提示更清晰",
+        "category": "改进",
+        "detail": "因磁盘已满中断的 Bash 命令会说明原因并指出需释放空间的文件夹；在已满临时卷上启动时打印明确消息而非原始 ENOSPC 错误。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.309-improvements-12"
+        ]
+      },
+      {
+        "title": "修复上下文反复压缩",
+        "category": "修复",
+        "detail": "读取超大嵌套 CLAUDE.md 下的文件后不再反复触发上下文压缩；超限的嵌套 CLAUDE.md 只加载开头部分。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.309-fixes-29"
+        ]
+      },
+      {
+        "title": "VSCode 与桌面端多项修复",
+        "category": "修复",
+        "detail": "修复 VSCode 面板空白、空 Untitled session 堆积、长消息不折叠、Ctrl+J 换行等问题，并提升 Edit/Write 响应速度。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/goal",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.309-fixes-61",
+          "2.1.309-fixes-62",
+          "2.1.309-fixes-63",
+          "2.1.309-fixes-65",
+          "2.1.309-improvements-16"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

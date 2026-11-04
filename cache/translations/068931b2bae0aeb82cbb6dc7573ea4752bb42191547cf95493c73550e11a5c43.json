@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Artifact tool's permission prompts with telemetry disabled to the same five questions other installs get, instead of asking before each read of someone else's artifact and each data edit",
+  "zh": "变更在禁用遥测时 Artifact 工具的权限提示，改为与其他安装相同的五个问题，而不再在每次读取他人的 artifact 和每次编辑数据前询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

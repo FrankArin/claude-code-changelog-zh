@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed usage limit messages to call the 5-hour window the \"5-hour limit\" instead of the \"session limit\"",
+  "zh": "变更用量限制消息，将 5 小时窗口称为“5-hour limit”而非“session limit”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

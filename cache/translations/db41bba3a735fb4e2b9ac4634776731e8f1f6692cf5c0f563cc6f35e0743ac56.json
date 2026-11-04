@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed git fetches being cut off while the git server was still reporting progress on a large repository; `CLAUDE_RUNNER_FETCH_SERVER_PROGRESS_CAP_MS` tunes or turns off the wait",
+  "zh": "自托管运行器：修复了在大型仓库上 git 服务器仍在报告进度时 git fetch 被中断的问题；`CLAUDE_RUNNER_FETCH_SERVER_PROGRESS_CAP_MS` 可调整或关闭该等待",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

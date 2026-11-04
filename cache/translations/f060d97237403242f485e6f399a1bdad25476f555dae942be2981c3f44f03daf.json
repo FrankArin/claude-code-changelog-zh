@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed skill and command loading: one whose file or folder name has hidden, direction-changing or blank-like characters, `<` or `>` is no longer offered until renamed; such a `name:` is ignored",
+  "zh": "变更 skill 和命令的加载：文件或文件夹名称含隐藏字符、改变方向的字符或类空白字符、`<` 或 `>` 的 skill 或命令在重命名前不再提供；此类 `name:` 会被忽略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

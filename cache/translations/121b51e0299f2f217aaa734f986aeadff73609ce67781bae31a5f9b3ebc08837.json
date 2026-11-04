@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the bundled dataviz skill to accept APCA as a text-contrast measure (keeping WCAG 2 ratios where AA conformance is required), add an `apca(text, background)` function to its palette validator scripts, and say whether a label inside a colored chart fill should be white or near-black",
+  "zh": "更新内置的 dataviz skill：接受 APCA 作为文本对比度度量（在要求 AA 合规时仍保留 WCAG 2 比值），在其调色板校验脚本中新增 `apca(text, background)` 函数，并说明彩色图表填充内的标签应使用白色还是近黑色",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

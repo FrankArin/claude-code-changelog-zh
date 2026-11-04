@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude respawn <id>` starting the background service before reporting that no background session matches the id",
+  "zh": "修复了 `claude respawn <id>` 在报告没有后台 session 匹配该 id 之前就启动后台服务的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

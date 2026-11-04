@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions, so a subagent can auto-compact earlier than the main conversation's window",
+  "zh": "在 subagent frontmatter 和 `--agents` 定义中新增 `autoCompactWindow`，使 subagent 可以比主对话的上下文窗口更早触发自动上下文压缩",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

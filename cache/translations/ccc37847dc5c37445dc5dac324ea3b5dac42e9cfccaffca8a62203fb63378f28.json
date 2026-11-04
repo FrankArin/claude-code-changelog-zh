@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Read tool reading binary files such as .xlsm, .parquet, .epub and .heic as text",
+  "zh": "修复了 Read 工具将 .xlsm、.parquet、.epub 和 .heic 等二进制文件按文本读取的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the missing Effort slider, Ultracode switch and model name when the model setting has the `[1m]` tag, such as `opus[1m]`",
+  "zh": "\\[VSCode] 修复了模型设置带有 `[1m]` 标签（如 `opus[1m]`）时，Effort 滑块、Ultracode 开关和模型名称缺失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

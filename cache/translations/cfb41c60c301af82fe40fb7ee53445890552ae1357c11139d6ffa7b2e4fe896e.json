@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a rare failure to load managed settings at startup right after a login refresh",
+  "zh": "修复登录刷新后启动时加载托管设置偶发失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved what Claude is told when a large file it sends fails to upload with no reason given, so it reports the failure instead of shrinking the file",
+  "zh": "改进 Claude 发送的大文件上传失败且未给出原因时向 Claude 传达的信息，使其报告失败而不是缩小文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

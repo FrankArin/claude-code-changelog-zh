@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the notice Claude gets when the WebSearch budget is used up to also tell it not to query search engines in a browser or through computer use",
+  "zh": "变更 WebSearch 预算用尽时 Claude 收到的提示，同时告知其不要通过浏览器或 computer use 查询搜索引擎",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

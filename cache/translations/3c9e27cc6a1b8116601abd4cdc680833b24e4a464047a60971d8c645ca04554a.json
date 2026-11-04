@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed the runner to stop passing `CCR_AUTO_MODE_ALLOW`, `CCR_AUTO_MODE_ENVIRONMENT` and `CCR_AUTO_MODE_SOFT_DENY` into a session's environment",
+  "zh": "自托管运行器：变更运行器，不再将 `CCR_AUTO_MODE_ALLOW`、`CCR_AUTO_MODE_ENVIRONMENT` 和 `CCR_AUTO_MODE_SOFT_DENY` 传入 session 的环境",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

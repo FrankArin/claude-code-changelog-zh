@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed Claude not seeing the interrupted tool call when a session moves to a new runner and the turn is older than `CLAUDE_CODE_RESUME_INTERRUPTED_TURN_MAX_AGE_MS`",
+  "zh": "自托管运行器：修复了当 session 迁移到新运行器且该轮次早于 `CLAUDE_CODE_RESUME_INTERRUPTED_TURN_MAX_AGE_MS` 时，Claude 看不到被中断的工具调用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

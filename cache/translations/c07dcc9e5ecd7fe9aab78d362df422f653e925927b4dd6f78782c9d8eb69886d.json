@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/code-review` started from the Code tab in Claude Desktop or on the web: cloud and `claude remote-control` sessions now show the findings card, not a plain-text list",
+  "zh": "改进从 Claude Desktop 或网页版 Code 标签页启动的 `/code-review`：cloud session 和 `claude remote-control` session 现在显示发现项卡片，而非纯文本列表",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

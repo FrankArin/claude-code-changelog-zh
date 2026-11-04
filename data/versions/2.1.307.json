@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "version": "2.1.307",
+  "date": "2026-10-21",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "47890fa6a621d5c9c26e6c551593cf61690525f9ff3cc1b569f264559bd59947",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:52:09+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.307-added-1",
+          "en": "Added `/claude-api api-version` to move Claude API code to API version `2026-10-21`",
+          "zh": "新增 `/claude-api api-version`，用于将 Claude API 代码迁移到 API 版本 `2026-10-21`",
+          "hash": "a996ba99ba7ce1c1cae6ac1114d439aee94179bcd17b4b58117b8e82e86be68b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-added-2",
+          "en": "Added the `claude_code.safety_event` OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back",
+          "zh": "新增 `claude_code.safety_event` OpenTelemetry 事件，在每次工具调用被权限规则、自动模式、安全检查、hook 或沙箱阻止、提示或退回时触发",
+          "hash": "df9bf2bf5a2118dec47c0b42be4f13aaedb3bac9d20e997e4286de1e44f07368",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-added-3",
+          "en": "\\[VSCode] Added a notice on the microphone button when voice dictation stops by itself (15 seconds without recognized speech, or the 2-minute limit), saying why and that the text so far is kept",
+          "zh": "\\[VSCode] 语音听写自行停止时（15 秒未识别到语音，或达到 2 分钟上限），麦克风按钮上会显示提示，说明原因并告知已保留此前的文本",
+          "hash": "2b78e1a0caa1a609476682185fd4294f786a1afa332e6e29d9031d670615fa16",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-added-4",
+          "en": "\\[Code Review] Added `@claude review stop` (also `off` and `pause`) to Code Review, ending an `@claude review always` subscription on a pull request without starting a new review",
+          "zh": "\\[Code Review] Code Review 新增 `@claude review stop`（也支持 `off` 和 `pause`），用于在拉取请求上结束 `@claude review always` 订阅，且不启动新的审查",
+          "hash": "7c691603532193acab34742db82ff9f4afd910c48453d81f1e5aef6749e19b7a",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.307-changed-5",
+          "en": "Changed the notice Claude gets when the WebSearch budget is used up to also tell it not to query search engines in a browser or through computer use",
+          "zh": "变更 WebSearch 预算用尽时 Claude 收到的提示，同时告知其不要通过浏览器或 computer use 查询搜索引擎",
+          "hash": "e8a64cecace5745a54f090689e47ce11f04fc1565e407b732bf7595ef76bac2f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-changed-6",
+          "en": "Changed the `axScreenReader` setting and `CLAUDE_AX_SCREEN_READER` in a settings `env` block to apply only from user, managed or `--settings` settings (since 2.1.305)",
+          "zh": "变更 `axScreenReader` 设置和设置 `env` 块中的 `CLAUDE_AX_SCREEN_READER`，使其仅从用户、托管或 `--settings` 设置中生效（自 2.1.305 起）",
+          "hash": "be2c29d0c4f3afcf315bec3677cb0961c384de02473ccddcd1a5bcbb391b34f6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-changed-7",
+          "en": "Self-hosted runner: Changed checkout hooks to be stopped after 30 minutes by default, failing the session's setup; if yours needs longer, raise `--checkout-hook-timeout-min` or set it to `0`",
+          "zh": "自托管运行器：变更 checkout hook 默认在 30 分钟后被停止，并导致该 session 的初始化失败；如需更长时间，请调高 `--checkout-hook-timeout-min` 或将其设为 `0`",
+          "hash": "5d964ec08f6aa6f5ca7dcd9c6ccc4e2e0aadfb9b0925edf785967b7c1cb135e7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-changed-8",
+          "en": "Self-hosted runner: Changed the certificate file built for Anthropic-managed git to filter its trusted certificates as the CLI does; a `[runner:warn]` line gives the number left out",
+          "zh": "自托管运行器：变更 Anthropic 托管 git 所构建的证书文件，使其像 CLI 一样过滤受信任证书；`[runner:warn]` 行会给出被排除的数量",
+          "hash": "cd8194f4a2a8dd6ba75c123b94b4b33a1a0a197fa6591a2ebded537faa87c650",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-changed-9",
+          "en": "\\[VSCode] Changed the \"still open somewhere else\" notice to also cover a Claude process left over from an extension restart, which usually ends on its own within about 10 minutes",
+          "zh": "\\[VSCode] 变更“仍在其他地方打开”提示，使其也覆盖扩展重启后遗留的 Claude 进程，该进程通常会在约 10 分钟内自行结束",
+          "hash": "8882cc109837f77eb604c53789ef8b67554e484c6c81f877e02dab01f7e6a8d2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-changed-10",
+          "en": "\\[VSCode] Changed voice dictation to filter its trusted certificates as the CLI does",
+          "zh": "\\[VSCode] 变更语音听写，使其像 CLI 一样过滤受信任证书",
+          "hash": "8dfd77c267fff54ca16f6296ec0495eadc3297c97f29d86951930ee05b8b248d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-changed-11",
+          "en": "\\[VSCode] Changed the extension's own requests to filter their trusted certificates as the CLI does, and to trust the `NODE_EXTRA_CA_CERTS` file named in the environment or in user settings",
+          "zh": "\\[VSCode] 变更扩展自身的请求，使其像 CLI 一样过滤受信任证书，并信任环境变量或用户设置中指定的 `NODE_EXTRA_CA_CERTS` 文件",
+          "hash": "eece85700acd736287e2af5618efc4009af6d141b51c61e509c3b8c74f6cd94c",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "6 improvements",
+      "heading_zh": "6 项改进",
+      "items": [
+        {
+          "id": "2.1.307-improvements-12",
+          "en": "Improved recovery from unparseable tool calls: Claude Code now retries the call up to twice before ending the turn with an error",
+          "zh": "改进无法解析的工具调用的恢复能力：Claude Code 现在最多重试该调用两次，之后才以错误结束本轮",
+          "hash": "dd3387fc3ed23cd7256ef952d4eeae22f663c9c67ade86573e3285209d294a46",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-improvements-13",
+          "en": "Improved fork subagents launched together: each is now told which launch is its own, so forks are much less likely to try to start each other's work",
+          "zh": "改进同时启动的 fork subagent：现在会告知每个 subagent 哪次启动属于自己，从而大幅降低 fork 尝试启动彼此工作的可能性",
+          "hash": "13f4c120e47598e5e74789990f2a4e8201b9aed50b65bac20d7091c002f6fb8e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-improvements-14",
+          "en": "Improved browser sign-in: the success page now appears as soon as sign-in completes, without waiting for your account profile to load",
+          "zh": "改进浏览器登录：登录完成后立即显示成功页面，无需等待账户资料加载",
+          "hash": "a2991bdfcdd896e0d96e24f001728003873daca5bc80dba98fa37af304ecedc5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-improvements-15",
+          "en": "Improved web search errors in cloud and self-hosted runner sessions: a search refused with a 403 that gives a reason now shows that reason instead of a generic \"Authentication error\"",
+          "zh": "改进云和自托管运行器 session 中的网页搜索错误：因 403 被拒绝且带有原因的搜索现在会显示该原因，而不是笼统的“Authentication error”",
+          "hash": "16d32085a77bab2647a4dc3d89f23985652ef2ded2cb64e2136092cd7eb8b2d0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-improvements-16",
+          "en": "Improved the time to the first reply in cloud sessions when one of the desktop app's MCP servers can't connect",
+          "zh": "改进云 session 中桌面应用的某个 MCP 服务器无法连接时首次回复的耗时",
+          "hash": "e98f8332663a6823fe1c16aad20614091dbb56b736564c79fffaeeabeaff612d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-improvements-17",
+          "en": "Improved Remote Control connect time for sessions whose transcript contains large pasted images or PDF reads",
+          "zh": "改进 transcript 中包含大型粘贴图片或 PDF 读取内容的 session 的 Remote Control 连接耗时",
+          "hash": "b36c352fc42ae9900d6a63c19a5f35a058bb23e4ce145ffa0c33350a6338cc9a",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "26 bug fixes",
+      "heading_zh": "26 项修复",
+      "items": [
+        {
+          "id": "2.1.307-fixes-18",
+          "en": "Fixed requests failing with a model-not-found error when `CLAUDE_CODE_DISABLE_1M_CONTEXT` is set and the model is an alias with the `[1m]` suffix, such as `opus[1m]`",
+          "zh": "修复在设置 `CLAUDE_CODE_DISABLE_1M_CONTEXT` 且模型为带 `[1m]` 后缀的别名（如 `opus[1m]`）时，请求因模型未找到错误而失败的问题",
+          "hash": "8c583f16556709ccb879903c507facb7fe5987ad46b4e3ef4df85d2a09ef428d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-19",
+          "en": "Fixed the `prompt-caching-scope` beta header being sent behind custom `ANTHROPIC_BASE_URL` gateways and on Foundry, where it has no effect",
+          "zh": "修复在自定义 `ANTHROPIC_BASE_URL` 网关之后以及 Foundry 上发送 `prompt-caching-scope` beta 头的问题，该头在这些环境中不起作用",
+          "hash": "a53815fd6298a70afb3525fb865fec0c9b684851995bd3042d8a9c2b6f10e075",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-20",
+          "en": "Fixed MCP servers showing \"needs authentication\" in `claude -p` on macOS while the login keychain was locked; they now say why, and the next run after an unlock connects without a new sign-in",
+          "zh": "修复 macOS 上登录钥匙串锁定时，`claude -p` 中 MCP 服务器显示“needs authentication”的问题；现在会说明原因，且解锁后的下一次运行无需重新登录即可连接",
+          "hash": "cf705d317b4f6ff07b2c1f0f7918feeb77bb7fd3910f95cb4d251510f96fb936",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-21",
+          "en": "Fixed MCP servers being reported as timed out, and staying failed in headless runs, when a macOS or Linux computer went to sleep while they were connecting",
+          "zh": "修复了 macOS 或 Linux 计算机在 MCP 服务器连接期间进入睡眠时，MCP 服务器被报告为超时、并在无头运行中持续处于失败状态的问题",
+          "hash": "4e204e158e3f588e0ad61a130468afcff4806e2f30598c85f11391d06e3f73c7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-22",
+          "en": "Fixed HTTP MCP tool calls being sent twice when the connection closed mid-call; only read-only or idempotent tools are now retried",
+          "zh": "修复了 HTTP MCP 工具调用在调用中途连接关闭时被发送两次的问题；现在仅对只读或幂等工具进行重试",
+          "hash": "ab86be5c20e39ebf092724b3a67b8a2d0a1f464acd7309a37e79d4fde7fa83ea",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-23",
+          "en": "Fixed a turn sometimes starting without an SDK MCP server's latest tools when a background task was running",
+          "zh": "修复了后台任务运行时，某一轮有时未使用 SDK MCP 服务器最新工具就启动的问题",
+          "hash": "c2168af9e83657abb78fb85167cfa39c36488473b4088921a0b73d5fb9f09cc7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-24",
+          "en": "Fixed some \"Autocompact is thrashing\" errors in turns that read many PDF pages, images or other large tool results",
+          "zh": "修复了读取大量 PDF 页面、图像或其他大型工具结果的轮次中出现的部分“Autocompact is thrashing”错误",
+          "hash": "d5de431b9dbb697a5a41fa857b12223dc9b7f9dc239a9fe04e0f93c94da889b0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-25",
+          "en": "Fixed `/autocompact` in cloud sessions going back to the default window after the session restarted",
+          "zh": "修复了云 session 中的 `/autocompact` 在 session 重启后恢复为默认窗口的问题",
+          "hash": "fc9a13f5c1460d93516256226cbb691adbf6907cf952a245fa26455260f9c668",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-26",
+          "en": "Fixed a conversation cleared with `/clear` sometimes coming back when a cloud or self-hosted runner session restarted",
+          "zh": "修复了使用 `/clear` 清除的对话在云或自托管运行器 session 重启时有时会恢复的问题",
+          "hash": "714773efd6f8dabd6598b6d2b3b4d7502389a5a1f9564c302d26ac171bc84cd4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-27",
+          "en": "Fixed `CLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MS` being ignored in Claude apps gateway sessions",
+          "zh": "修复了 `CLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MS` 在 Claude 应用网关 session 中被忽略的问题",
+          "hash": "57f5ab5587b74b81d67156c3883dbf93c1ed11fde600fdd7c3f7f1aa7eb638aa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-28",
+          "en": "Fixed telemetry from Claude Desktop sessions behind a Claude apps gateway being rejected when `OTEL_EXPORTER_OTLP_HEADERS` is set",
+          "zh": "修复了设置 `OTEL_EXPORTER_OTLP_HEADERS` 时，经由 Claude 应用网关的 Claude Desktop session 的遥测数据被拒绝的问题",
+          "hash": "0eff47f081910e58cf553ba098bc44d935b952fb8bfb64ef98e3780f28363db0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-29",
+          "en": "Fixed `/permissions` > Recently denied not showing the denied shell command, and auto mode's local classifier ignoring an approval from there when it checks a retried command; approving a row now names the command, not its description",
+          "zh": "修复了 `/permissions` > Recently denied 不显示被拒绝的 shell 命令的问题，以及自动模式的本地分类器在检查重试命令时忽略来自该处的批准的问题；现在批准某一行会显示命令名称，而不是其描述",
+          "hash": "cdc7ddcf718bf33e9d17043899dcc9c5ce418e350f7a2cc3eec55c8ea54c7078",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-30",
+          "en": "Fixed `/help` and the `/` command menu showing long model-facing descriptions for bundled skills such as `/claude-api` instead of their short descriptions",
+          "zh": "修复了 `/help` 和 `/` 命令菜单对 `/claude-api` 等内置 skill 显示面向模型的长描述，而不是其简短描述的问题",
+          "hash": "48fa33075255d323c2afb49c032bd1d9361873bd42ae04302839670fd36e5725",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-31",
+          "en": "Fixed subagent transcripts recording placeholder token usage and an empty stop reason for streamed responses",
+          "zh": "修复了 subagent 记录为流式响应记录占位 token 用量和空停止原因的问题",
+          "hash": "840efd8b7209b60ba7c00e63875a906ad29c8995017b43ad045c20f3963b8edb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-32",
+          "en": "Fixed model switches through the Agent SDK's `setModel()`, and apps built on it, being refused when the API took more than 5 seconds to confirm the model; Claude Code now waits up to 15 seconds",
+          "zh": "修复了通过 Agent SDK 的 `setModel()` 以及基于它构建的应用进行模型切换时，在 API 确认模型耗时超过 5 秒的情况下被拒绝的问题；Claude Code 现在最多等待 15 秒",
+          "hash": "102d19047521e1bd55c780f3a284c2fb82d93ec505a764b658cfcb4abe8063e3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-33",
+          "en": "Fixed a background command stopped through a connected app (such as the desktop app archiving an idle session) being reported to Claude as stopped by the user; the notice now names its output file",
+          "zh": "修复了通过已连接的 app（例如桌面应用归档空闲 session）停止的后台命令被报告给 Claude 为用户停止的问题；现在通知会指明其输出文件",
+          "hash": "2a69351cb75ae2b18737ff5e4ec67df00c5abae81ef15b03edf178e4e5864bd4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-34",
+          "en": "Fixed WebFetch in Cowork cloud sessions reporting a tool error when a site answered with a 4xx status or a robots.txt refusal; it is now a normal result, as in local sessions",
+          "zh": "修复了 Cowork 云 session 中的 WebFetch 在站点返回 4xx 状态或 robots.txt 拒绝时报告工具错误的问题；现在与本地 session 一样，作为正常结果处理",
+          "hash": "feafc52348eec94895a3cfdb8661f916509af086f52f9b435aea03606ec40d1b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-35",
+          "en": "Fixed write tools on a directly configured GitHub MCP server showing a form that closed without creating anything in the desktop app's Code tab",
+          "zh": "修复了直接配置的 GitHub MCP 服务器上的写入工具在桌面应用 Code 标签页中显示的表单关闭后未创建任何内容的问题",
+          "hash": "4593e1e8bb5e248e9f14c89c1ec08fe8293a04cd50d35a9c0a1a8901fe0081ae",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-36",
+          "en": "Fixed Artifact tool reads failing with a connection reset when the server had closed a reused connection",
+          "zh": "修复了服务器关闭复用的连接时，Artifact 工具读取因连接重置而失败的问题",
+          "hash": "1dce07cf8ad70284b8cf98f591fd1e5ada4f20c1eda8ebcb758d07cffcfa00d9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-37",
+          "en": "Self-hosted runner: Fixed sessions with `--use-anthropic-git-proxy` committing a `.claude/settings.local.json` left in the clone by an earlier session",
+          "zh": "自托管运行器：修复了使用 `--use-anthropic-git-proxy` 的 session 提交了由较早 session 遗留在克隆中的 `.claude/settings.local.json` 的问题",
+          "hash": "4447b3bdf826f991e7938224af50234b4a165a7c43b95a9c25aa78e93263b590",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-38",
+          "en": "Self-hosted runner: Fixed archiving or requeueing a session, or stopping the runner, during its checkout hook leaving the hook's processes running and the runner's slot held",
+          "zh": "自托管运行器：修复了在 checkout hook 期间归档或重新排队 session，或停止运行器时，导致 hook 的进程仍在运行且运行器的槽位被占用的问题",
+          "hash": "a683b6e268565a13507db7730c4bb416d72d71dafb230726c654939086776e22",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-39",
+          "en": "\\[VSCode] Fixed a long prompt expanded with Show more covering the whole chat panel: a pinned prompt is now capped at 40% of the panel and scrolls",
+          "zh": "\\[VSCode] 修复了通过 Show more 展开的长 prompt 覆盖整个聊天面板的问题：现在固定的 prompt 最多占面板的 40%，并可滚动",
+          "hash": "d48e6d342bf26cdb75f959d4d559a0b5d15102cb558f251c309f2e924b2ff7d8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-40",
+          "en": "\\[VSCode] Fixed part of a list item or table cell with LaTeX math pasting as a new list or table in rich text editors",
+          "zh": "\\[VSCode] 修复了富文本编辑器中包含 LaTeX 数学公式的列表项或表格单元格的一部分被粘贴为新的列表或表格的问题",
+          "hash": "281808608682afe1428cd0c16a26563af5315f6ddbad9adcef3c12068faff1ed",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-41",
+          "en": "\\[VSCode] Fixed dictation failing behind a TLS-inspecting proxy when `NODE_EXTRA_CA_CERTS` is set only in `~/.claude/settings.json`; it now also follows `CLAUDE_CODE_CERT_STORE`",
+          "zh": "\\[VSCode] 修复了当 `NODE_EXTRA_CA_CERTS` 仅在 `~/.claude/settings.json` 中设置时，语音输入在 TLS 检查代理后失败的问题；现在它也会遵循 `CLAUDE_CODE_CERT_STORE`",
+          "hash": "40b325afeb91e49ab54770d805dffe7babd782a58822b3d91091b2e4368fe21c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-42",
+          "en": "\\[Cloud sessions] Fixed the repository picker saying \"No repositories match\" while a search was still running; it now shows \"Searching…\" until the results arrive",
+          "zh": "\\[Cloud sessions] 修复了搜索仍在进行时仓库选择器显示“No repositories match”的问题；现在它会显示“Searching…”，直到结果返回",
+          "hash": "6494718d658e65cfeec6390aa947c25c35fec69677fd18edec0ceb0caa7b912c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.307-fixes-43",
+          "en": "\\[Cloud sessions] Fixed the \"Waiting for a runner\" status on self-hosted environments being cut off; with on-demand runners it now counts up from your last message and shows failed attempts",
+          "zh": "\\[Cloud sessions] 修复了自托管环境中“Waiting for a runner”状态被截断的问题；对于按需运行器，现在它会从你最后一条消息开始计时，并显示失败的尝试",
+          "hash": "37b2ae2ff447028f49f1b3a03fc3a3ef7363914dc4540e5dab13ce57aadcd65b",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增 /claude-api api-version 与安全事件遥测，修复 MCP、模型切换及多项会话问题。",
+    "highlights": [
+      {
+        "title": "新增 API 版本迁移命令",
+        "category": "新功能",
+        "detail": "可用 /claude-api api-version 将 Claude API 代码迁移到 2026-10-21 版本。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/claude-api api-version",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.307-added-1"
+        ]
+      },
+      {
+        "title": "新增安全事件遥测",
+        "category": "新功能",
+        "detail": "工具调用被权限规则、自动模式、hook 或沙箱阻止、提示或退回时，会发出 claude_code.safety_event OpenTelemetry 事件。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.307-added-2"
+        ]
+      },
+      {
+        "title": "checkout hook 默认超时",
+        "category": "破坏性变更",
+        "detail": "自托管运行器的 checkout hook 默认 30 分钟后被停止，并导致该 session 初始化失败；需要更长时间须调整超时参数。",
+        "action": "如需更长执行时间，调高 --checkout-hook-timeout-min 或设为 0",
+        "example": null,
+        "item_ids": [
+          "2.1.307-changed-7"
+        ]
+      },
+      {
+        "title": "屏幕阅读器设置来源收紧",
+        "category": "破坏性变更",
+        "detail": "axScreenReader 设置与 env 中的 CLAUDE_AX_SCREEN_READER 仅从用户、托管或 --settings 设置生效，项目级配置不再起作用。",
+        "action": "将相关配置迁移到用户、托管或 --settings 设置中",
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_AX_SCREEN_READER",
+          "caption": "相关环境变量"
+        },
+        "item_ids": [
+          "2.1.307-changed-6"
+        ]
+      },
+      {
+        "title": "MCP 与模型切换修复",
+        "category": "修复",
+        "detail": "修复 HTTP MCP 工具调用中途断连被重复发送、睡眠后误报超时，以及 setModel() 在 API 确认超过 5 秒时被拒绝等问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.307-fixes-22",
+          "2.1.307-fixes-21",
+          "2.1.307-fixes-32"
+        ]
+      },
+      {
+        "title": "会话与压缩问题修复",
+        "category": "修复",
+        "detail": "修复 /clear 清除的对话在云 session 重启后恢复、/autocompact 重置为默认窗口，以及大 PDF 读取时的 Autocompact 抖动报错。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/clear",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.307-fixes-26",
+          "2.1.307-fixes-25",
+          "2.1.307-fixes-24"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

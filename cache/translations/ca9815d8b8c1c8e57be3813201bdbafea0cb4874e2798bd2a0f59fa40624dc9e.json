@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `turn.start` mod hook to also hear subagents' and teammates' turns, not only the main loop's; tell them apart by `e.agentId` (absent on the main loop)",
+  "zh": "变更 `turn.start` mod hook，现在也会接收 subagent 和队友的轮次，而不仅是主循环的轮次；可通过 `e.agentId` 区分（主循环中不存在）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

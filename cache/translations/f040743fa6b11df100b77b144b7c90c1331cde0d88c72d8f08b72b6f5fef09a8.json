@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed the Code Review admin section hiding its repositories and switches after a failed refresh of the repository list",
+  "zh": "\\[Code Review] 修复 Code Review 管理区块在刷新仓库列表失败后隐藏其仓库和开关的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

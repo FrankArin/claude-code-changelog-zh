@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a note in `/plugin` and `claude plugin validate` naming a mod's hooks that are skipped where an organization manages Claude Code",
+  "zh": "在 `/plugin` 和 `claude plugin validate` 中新增提示，列出在组织管理 Claude Code 的环境中被跳过的 mod hook",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

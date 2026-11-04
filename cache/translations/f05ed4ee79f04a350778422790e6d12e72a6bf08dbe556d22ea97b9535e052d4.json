@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed macOS sessions with many running Bash commands stalling while memory grew",
+  "zh": "修复了 macOS 上运行大量 Bash 命令的 session 在内存增长时卡住的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

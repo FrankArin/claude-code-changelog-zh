@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Added a \"Catching up…\" line that shows while a cloud or Remote Control session you switch back to is still bringing its messages up to date",
+  "zh": "\\[Cloud sessions] 新增“Catching up…”提示行，在你切回某个云 session 或 Remote Control session 且其消息仍在同步时显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

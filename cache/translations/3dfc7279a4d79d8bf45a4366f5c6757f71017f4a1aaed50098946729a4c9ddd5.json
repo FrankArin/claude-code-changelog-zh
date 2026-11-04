@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error shown when a worktree cannot be created because its base commit does not resolve: it now says how the lookup ended and the likely reasons, such as a repository without a commit",
+  "zh": "改进因基础提交无法解析而无法创建 worktree 时显示的错误：现在会说明查找是如何结束的以及可能的原因，例如仓库没有任何提交",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed text cut in the middle beside wide characters leaving a cell unused or being cut twice, and an emoji vanishing where a color changed inside it",
+  "zh": "修复了宽字符旁的文本被从中间截断，导致留下未使用的单元格或被截断两次的问题，以及 emoji 内部颜色变化处 emoji 消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

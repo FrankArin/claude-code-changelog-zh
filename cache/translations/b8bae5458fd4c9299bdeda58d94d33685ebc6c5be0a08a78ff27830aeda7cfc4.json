@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how `~/.claude.json`, settings files and the stored login survive saves on shared network home directories: they are less often deleted, briefly emptied or replaced by a near-empty or older copy",
+  "zh": "改进了 `~/.claude.json`、设置文件和已存储登录信息在共享网络主目录上保存时的存续能力：它们被删除、短暂清空或被近乎空白的旧副本替换的情况更少",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

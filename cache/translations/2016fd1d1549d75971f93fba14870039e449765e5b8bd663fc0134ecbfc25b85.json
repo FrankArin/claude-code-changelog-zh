@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `size`, `weight`, `mono` and `tabular` to a mod's `Text` and named spacing steps (`xs` to `xl`) to its `Box`; `bold` is deprecated in favor of `weight`",
+  "zh": "为 mod 的 `Text` 新增 `size`、`weight`、`mono` 和 `tabular`，并为其 `Box` 新增具名间距档位（`xs` 到 `xl`）；`bold` 已弃用，改用 `weight`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

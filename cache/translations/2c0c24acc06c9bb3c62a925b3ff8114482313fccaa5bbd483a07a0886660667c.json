@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Remote Control connect time for sessions whose transcript contains large pasted images or PDF reads",
+  "zh": "改进 transcript 中包含大型粘贴图片或 PDF 读取内容的 session 的 Remote Control 连接耗时",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

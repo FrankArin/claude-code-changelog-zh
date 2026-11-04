@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` and SDK sessions saving transcript messages out of order or keeping messages that were taken back",
+  "zh": "修复了 `claude -p` 和 SDK session 保存转录消息时顺序错乱，或保留了已被撤回的消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

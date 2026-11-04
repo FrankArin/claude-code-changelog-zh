@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `upstream_request_id` to the Claude apps gateway's `inference` audit event: the request ID from Amazon Bedrock, the Anthropic API or another upstream, for support cases",
+  "zh": "Claude 应用网关的 `inference` 审计事件新增 `upstream_request_id`：来自 Amazon Bedrock、Anthropic API 或其他上游的请求 ID，用于支持案例",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

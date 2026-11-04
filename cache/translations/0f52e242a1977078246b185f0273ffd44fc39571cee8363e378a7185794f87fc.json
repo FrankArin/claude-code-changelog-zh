@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pasted text and dragged-in files being lost in Claude's question dialog unless the \"Other\" row had focus",
+  "zh": "修复 Claude 的提问对话框中，除非“Other”行获得焦点，否则粘贴的文本和拖入的文件会丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

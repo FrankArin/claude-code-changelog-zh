@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed resending an unchanged message after a failed send in a cloud session sometimes running it twice",
+  "zh": "\\[Cloud sessions] 修复了云 session 中发送失败后重新发送未更改的消息时，有时会执行两次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

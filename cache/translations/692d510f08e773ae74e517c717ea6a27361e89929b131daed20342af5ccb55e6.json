@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `deniedMcpServers` URL entries to also block Anthropic-provided servers whose upstream URL matches, and connectors in cloud sessions and on self-hosted runners, where the session is given the connector's own URL; otherwise deny a connector by name",
+  "zh": "变更 `deniedMcpServers` 的 URL 条目：现在也会阻止上游 URL 匹配的 Anthropic 提供的服务器，以及在 cloud session 和自托管运行器上的 connector（此时 session 会获得 connector 自身的 URL）；否则请按名称拒绝 connector",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

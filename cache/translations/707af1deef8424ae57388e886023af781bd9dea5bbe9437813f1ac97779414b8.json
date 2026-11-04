@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed new channel managers losing access to Claude in Slack in organizations that restrict Claude Tag by role; the manager role now also grants Claude Tag in Slack",
+  "zh": "\\[Claude Tag] 修复了在按角色限制 Claude Tag 的组织中，新任频道管理员失去 Slack 中 Claude 访问权限的问题；管理员角色现在也会授予 Slack 中的 Claude Tag 权限",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

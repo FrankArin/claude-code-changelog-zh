@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/model`, `/fast` and `/output-style` saving their setting without asking a plugin's `config.set` hook",
+  "zh": "修复 `/model`、`/fast` 和 `/output-style` 保存设置时未询问 plugin 的 `config.set` hook 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

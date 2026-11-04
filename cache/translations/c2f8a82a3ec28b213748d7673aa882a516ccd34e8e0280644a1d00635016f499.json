@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed a session failing to start when a rate limit (HTTP 429, or a git wrapper that exits 75) blocks an added read-only repository; it now starts without that repository",
+  "zh": "自托管运行器：修复了速率限制（HTTP 429，或 git 包装器以 75 退出）阻止某个已添加的只读仓库时 session 无法启动的问题；现在会在不包含该仓库的情况下启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

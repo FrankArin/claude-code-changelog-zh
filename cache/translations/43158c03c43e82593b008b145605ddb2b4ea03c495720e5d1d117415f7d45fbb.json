@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Fixed sandboxed Bash commands failing with `bwrap: Can't create file` when a `--plugin-dir` folder was also an added directory and `permissions.blockReadsOutsideWorkingDirectories` was on",
+  "zh": "Linux：修复了当 `--plugin-dir` 文件夹同时是已添加的目录且启用了 `permissions.blockReadsOutsideWorkingDirectories` 时，沙箱化 Bash 命令因 `bwrap: Can't create file` 而失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

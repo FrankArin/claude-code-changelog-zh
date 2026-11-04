@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/claude-api managed-agents-onboard` to give a new agent's built-in tools, and a quickstart template's MCP tools, the `auto` permission policy (\"Judge risky actions\") by default, matching the Claude Console; say \"run without asking\" to opt out",
+  "zh": "变更 `/claude-api managed-agents-onboard`：新 agent 的内置工具以及快速入门模板的 MCP 工具默认采用 `auto` 权限策略（“判断风险操作”），与 Claude Console 一致；说“无需询问直接运行”可退出该策略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

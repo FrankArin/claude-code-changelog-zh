@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a note in `/plugin` on a plugin whose hooks are left out because another enabled plugin has the same name",
+  "zh": "在 `/plugin` 中，对因另一个已启用的 plugin 同名而省略了 hooks 的 plugin 新增提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

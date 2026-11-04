@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "versions": [
+    "2.1.307",
+    "2.1.306"
+  ],
+  "tldr": "2.1.307 新增 /claude-api api-version 迁移命令与安全事件遥测，并包含两项破坏性变更：checkout hook 默认 30 分钟超时、屏幕阅读器设置仅限用户/托管/--settings 来源；同时修复 MCP、模型切换及会话压缩问题。2.1.306 修复云 session 未登录误报与 MCP 工具过多误报。",
+  "highlights": [
+    {
+      "title": "checkout hook 默认超时（破坏性）",
+      "category": "破坏性变更",
+      "detail": "自托管运行器的 checkout hook 默认 30 分钟后被停止，并导致该 session 初始化失败；需要更长时间须调整超时参数。",
+      "action": "如需更长执行时间，调高 --checkout-hook-timeout-min 或设为 0",
+      "example": null,
+      "version": "2.1.307",
+      "item_ids": [
+        "2.1.307-changed-7"
+      ]
+    },
+    {
+      "title": "屏幕阅读器设置来源收紧（破坏性）",
+      "category": "破坏性变更",
+      "detail": "axScreenReader 设置与 env 中的 CLAUDE_AX_SCREEN_READER 仅从用户、托管或 --settings 设置生效，项目级配置不再起作用。",
+      "action": "将相关配置迁移到用户、托管或 --settings 设置中",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_AX_SCREEN_READER",
+        "caption": "相关环境变量"
+      },
+      "version": "2.1.307",
+      "item_ids": [
+        "2.1.307-changed-6"
+      ]
+    },
+    {
+      "title": "新增 API 版本迁移命令",
+      "category": "新功能",
+      "detail": "可用 /claude-api api-version 将 Claude API 代码迁移到 2026-10-21 版本。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/claude-api api-version",
+        "caption": "命令示例"
+      },
+      "version": "2.1.307",
+      "item_ids": [
+        "2.1.307-added-1"
+      ]
+    },
+    {
+      "title": "新增安全事件遥测",
+      "category": "新功能",
+      "detail": "工具调用被权限规则、自动模式、hook 或沙箱阻止、提示或退回时，会发出 claude_code.safety_event OpenTelemetry 事件。",
+      "action": null,
+      "example": null,
+      "version": "2.1.307",
+      "item_ids": [
+        "2.1.307-added-2"
+      ]
+    },
+    {
+      "title": "MCP、模型切换与会话修复",
+      "category": "修复",
+      "detail": "修复 HTTP MCP 工具调用中途断连被重复发送、睡眠后误报超时、setModel() 在 API 确认超过 5 秒时被拒绝，以及 /clear 对话在云 session 重启后恢复、/autocompact 重置为默认窗口、大 PDF 读取时 Autocompact 抖动报错等问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/clear",
+        "caption": "命令示例"
+      },
+      "version": "2.1.307",
+      "item_ids": [
+        "2.1.307-fixes-22",
+        "2.1.307-fixes-21",
+        "2.1.307-fixes-32",
+        "2.1.307-fixes-26",
+        "2.1.307-fixes-25",
+        "2.1.307-fixes-24"
+      ]
+    },
+    {
+      "title": "云 session 与 MCP 误报修复",
+      "category": "修复",
+      "detail": "修复云 session 中启动 claude -p 未带该 session 环境变量时误报“Not logged in”，以及包含大量 MCP 工具的 session 中 API 错误被替换为“prompt is too long”并触发不必要上下文压缩的问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude -p",
+        "caption": "命令示例"
+      },
+      "version": "2.1.306",
+      "item_ids": [
+        "2.1.306-other-1",
+        "2.1.306-other-2"
+      ]
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "e0e568dac72069d12c0c85a59eef07cbcc23a0649e03dcdab592b3b9e8c59680"
+}

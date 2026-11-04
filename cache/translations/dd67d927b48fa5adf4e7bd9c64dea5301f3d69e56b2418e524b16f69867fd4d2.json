@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed automatic model switches after a flagged message to also cover model names Claude Code doesn't recognize, such as custom deployment names; set `CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK=1` to turn them off",
+  "zh": "变更在消息被标记后触发的自动模型切换，使其也覆盖 Claude Code 无法识别的模型名称（例如自定义部署名称）；设置 `CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK=1` 可关闭该切换",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

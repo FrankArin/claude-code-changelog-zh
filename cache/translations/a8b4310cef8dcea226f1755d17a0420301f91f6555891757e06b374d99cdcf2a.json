@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/mcp` showing \"authenticated\" for a remote server that Claude Code sends no credentials to",
+  "zh": "修复了 `/mcp` 对 Claude Code 未发送任何凭据的远程服务器显示“authenticated”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

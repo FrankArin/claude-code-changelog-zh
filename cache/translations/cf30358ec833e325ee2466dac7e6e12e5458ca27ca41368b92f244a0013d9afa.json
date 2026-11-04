@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a background command stopped through a connected app (such as the desktop app archiving an idle session) being reported to Claude as stopped by the user; the notice now names its output file",
+  "zh": "修复了通过已连接的 app（例如桌面应用归档空闲 session）停止的后台命令被报告给 Claude 为用户停止的问题；现在通知会指明其输出文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

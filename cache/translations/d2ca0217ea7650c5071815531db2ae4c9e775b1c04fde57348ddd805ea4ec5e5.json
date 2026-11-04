@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved switching to a model with a smaller context window: a conversation too long for the new model is now summarized by the previous model first",
+  "zh": "改进切换到上下文窗口更小的模型：对于新模型而言过长的对话，现在会先由之前的模型进行总结",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed old transcripts not being cleaned up on machines where some runs skip cleanup, such as runs using `--setting-sources`",
+  "zh": "修复了在部分运行会跳过清理的机器上（例如使用 `--setting-sources` 的运行）旧 transcript 未被清理的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

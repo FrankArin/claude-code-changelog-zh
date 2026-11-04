@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the cursor landing one character too far after pasting accented text copied from macOS (such as a file name) into the middle of the prompt",
+  "zh": "修复将从 macOS 复制的带重音文本（例如文件名）粘贴到 prompt 中间后光标多前进一个字符的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

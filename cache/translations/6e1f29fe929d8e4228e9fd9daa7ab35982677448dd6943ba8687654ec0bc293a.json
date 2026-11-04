@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a cloud session's cost and usage restarting from zero after the session resumed in a new process",
+  "zh": "修复了云 session 在新进程中恢复后，其成本和用量从零重新计算的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

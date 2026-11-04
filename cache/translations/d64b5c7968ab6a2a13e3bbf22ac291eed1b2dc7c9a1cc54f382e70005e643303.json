@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a notice to `/design-sync` and `/design-login` that standalone Claude Design (claude.ai/design) closes by December 14, 2026",
+  "zh": "在 `/design-sync` 和 `/design-login` 中新增提示：独立的 Claude Design（claude.ai/design）将于 2026 年 12 月 14 日关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

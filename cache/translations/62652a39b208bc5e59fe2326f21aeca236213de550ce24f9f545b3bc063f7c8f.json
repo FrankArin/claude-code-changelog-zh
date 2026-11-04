@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed `claude plugin install` failing for GitHub `owner/repo` plugin sources on machines with no GitHub SSH key; the clone is now retried over HTTPS",
+  "zh": "Windows：修复在没有 GitHub SSH 密钥的机器上，`claude plugin install` 对 GitHub `owner/repo` plugin 源失败的问题；现在会通过 HTTPS 重试克隆",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

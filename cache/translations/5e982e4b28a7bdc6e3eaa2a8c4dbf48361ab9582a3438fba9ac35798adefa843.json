@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Changed turning on Cloud sessions or Remote Control in admin settings to ask for confirmation and list the custom roles that have that permission",
+  "zh": "\\[Cloud sessions] 变更了在管理设置中开启 Cloud sessions 或 Remote Control 的行为：现在会要求确认，并列出拥有该权限的自定义角色",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

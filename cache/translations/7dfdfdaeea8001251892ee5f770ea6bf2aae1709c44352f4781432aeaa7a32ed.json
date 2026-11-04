@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed reading GitHub Actions logs in cloud sessions: `gh run view --log` and `gh api` log requests now get the log in most environments, not an unreachable redirect",
+  "zh": "\\[Cloud sessions] 修复云 session 中读取 GitHub Actions 日志的问题：`gh run view --log` 和 `gh api` 日志请求现在在大多数环境中都能获取日志，而不再返回无法访问的重定向",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

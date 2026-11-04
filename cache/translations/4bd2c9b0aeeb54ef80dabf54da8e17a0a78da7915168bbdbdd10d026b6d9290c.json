@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed SessionStart hooks of a plugin loaded after a headless session starts being skipped when a different plugin with the same name, or another spelling of it, had already run",
+  "zh": "修复无头 session 启动后加载的 plugin 的 SessionStart hook 被跳过的问题：当同名或名称拼写不同的另一个 plugin 已运行过时会出现",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed model IDs spelled with a dot behind an LLM gateway, such as `claude-opus-4.8`, being treated as an older model with the wrong context window, output limit, effort, thinking mode and cost",
+  "zh": "修复在 LLM 网关后使用带点号的模型 ID（如 `claude-opus-4.8`）时被当作旧模型、导致上下文窗口、输出上限、effort、思考模式和费用错误的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

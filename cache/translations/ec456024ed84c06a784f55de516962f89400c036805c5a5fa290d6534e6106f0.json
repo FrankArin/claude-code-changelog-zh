@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mod's `dimColor` text looking the same as plain text under the dark ANSI theme and on 16-color terminals",
+  "zh": "修复了在深色 ANSI 主题下以及 16 色终端上，mod 的 `dimColor` 文本显示效果与普通文本相同的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

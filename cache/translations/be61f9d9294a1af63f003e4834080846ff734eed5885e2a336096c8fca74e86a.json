@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `claude remote-control` status line showing `HEAD` as the branch for a folder that is not in a git repository",
+  "zh": "修复了 `claude remote-control` 状态栏对不在 git 仓库中的文件夹将 `HEAD` 显示为分支的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

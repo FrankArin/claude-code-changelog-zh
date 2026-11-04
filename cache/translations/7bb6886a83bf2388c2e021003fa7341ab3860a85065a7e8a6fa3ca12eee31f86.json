@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed the extension's own requests to filter their trusted certificates as the CLI does, and to trust the `NODE_EXTRA_CA_CERTS` file named in the environment or in user settings",
+  "zh": "\\[VSCode] 变更扩展自身的请求，使其像 CLI 一样过滤受信任证书，并信任环境变量或用户设置中指定的 `NODE_EXTRA_CA_CERTS` 文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

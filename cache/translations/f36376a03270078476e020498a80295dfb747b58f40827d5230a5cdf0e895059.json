@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an administrator's TLS trust settings in managed settings not being applied in Claude Desktop sessions",
+  "zh": "修复管理员在托管设置中配置的 TLS 信任设置未在 Claude Desktop session 中生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

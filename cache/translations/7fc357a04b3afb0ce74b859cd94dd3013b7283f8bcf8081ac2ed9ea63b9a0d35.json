@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed bold text being drawn faint in piped output when it directly follows dim text",
+  "zh": "修复管道输出中粗体文本紧跟在暗色文本之后时被绘制得偏淡的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

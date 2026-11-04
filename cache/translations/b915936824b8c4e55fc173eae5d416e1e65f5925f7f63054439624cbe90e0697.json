@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `axScreenReader` setting and `CLAUDE_AX_SCREEN_READER` in a settings `env` block to apply only from user, managed or `--settings` settings (since 2.1.305)",
+  "zh": "变更 `axScreenReader` 设置和设置 `env` 块中的 `CLAUDE_AX_SCREEN_READER`，使其仅从用户、托管或 `--settings` 设置中生效（自 2.1.305 起）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

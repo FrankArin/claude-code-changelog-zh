@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Added Claude Code cloud sessions and Remote Control permissions to Enterprise custom roles, so Owners can control access to each by role",
+  "zh": "\\[Cloud sessions] 在 Enterprise 自定义角色中新增 Claude Code cloud sessions 和 Remote Control 权限，使 Owner 可以按角色控制对两者的访问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

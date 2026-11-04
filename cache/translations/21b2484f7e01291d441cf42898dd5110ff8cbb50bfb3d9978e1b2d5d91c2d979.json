@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runner sessions losing recent turns or the whole conversation when restarted while a plan waited for approval",
+  "zh": "修复了自托管运行器 session 在计划等待批准期间重启时丢失最近几轮或整个对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved session auto-titles: a session that starts with a skill or a prompt-based command such as `/security-review` now gets a title from it instead of staying untitled",
+  "zh": "改进 session 自动标题：以 skill 或基于 prompt 的命令（如 `/security-review`）开头的 session 现在会据此获得标题，而不再保持无标题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

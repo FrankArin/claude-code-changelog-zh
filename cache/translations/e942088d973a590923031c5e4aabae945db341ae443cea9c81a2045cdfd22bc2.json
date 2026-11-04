@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed PreToolUse and PermissionRequest hooks letting a tool call through when Git Bash is missing and the hook's command is only quoted strings, such as a quoted path",
+  "zh": "Windows：修复了在缺少 Git Bash 且 hook 命令仅为带引号的字符串（如带引号的路径）时，PreToolUse 和 PermissionRequest hooks 会放行工具调用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

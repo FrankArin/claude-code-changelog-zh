@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the `/claude-api` skill: its Datadog setup for API tracing now sends the `dd-llmobs-enabled: true` header, as the Console does, and its `ant` install instructions drop the outdated macOS `xattr` step",
+  "zh": "更新 `/claude-api` skill：其用于 API 追踪的 Datadog 配置现在会像 Console 一样发送 `dd-llmobs-enabled: true` 请求头，其 `ant` 安装说明移除了过时的 macOS `xattr` 步骤",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

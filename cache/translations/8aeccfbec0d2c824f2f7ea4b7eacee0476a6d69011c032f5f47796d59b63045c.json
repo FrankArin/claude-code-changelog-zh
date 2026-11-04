@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin eval` passing runs that the API refused: a run that ends on an API error now scores 0 without grading and makes the suite exit 1",
+  "zh": "修复了 `claude plugin eval` 会将 API 拒绝的运行判定为通过的问题：以 API 错误结束的运行现在会得 0 分且不进行评分，并使测试套件以 1 退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

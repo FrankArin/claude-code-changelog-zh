@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed scheduled tasks being announced for the wrong minute: the scheduling tools now report each job's actual next run time",
+  "zh": "修复了计划任务在错误分钟被通告的问题：调度工具现在报告每个任务实际的下次运行时间",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

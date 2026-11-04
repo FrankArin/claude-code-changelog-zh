@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed PushNotification saying a push was not sent in `claude remote-control` sessions right after a phone message, without the `/config` toggle, or when started from inside Claude Code",
+  "zh": "修复 PushNotification 在 `claude remote-control` session 中于手机消息后立即提示推送未发送的问题，包括未开启 `/config` 开关或从 Claude Code 内部启动的情况",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "versions": [
+    "2.1.305"
+  ],
+  "tldr": "修复 tool search 回归与多项稳定性问题，新增沙箱与重试配置，并调整 MCP 允许列表行为。",
+  "highlights": [
+    {
+      "title": "MCP 允许列表行为变更",
+      "category": "破坏性变更",
+      "detail": "allowedMcpServers 不再过滤仅在 env 中使用 ${VAR} 的 managed-mcp.json stdio 服务器，升级后原本被排除的服务器会加载。",
+      "action": "如需继续禁用这些服务器，请在 deniedMcpServers 中显式列出。",
+      "example": null,
+      "item_ids": [
+        "2.1.305-changed-5"
+      ],
+      "version": "2.1.305"
+    },
+    {
+      "title": "/artifacts 删除确认键变更",
+      "category": "破坏性变更",
+      "detail": "删除确认改为按 1 或 Enter 保留、按 2 删除、按 Esc 取消，y 和 n 不再生效，习惯旧按键的用户会操作失败。",
+      "action": "改用 1/2/Esc 应答删除确认。",
+      "example": {
+        "lang": "bash",
+        "code": "/artifacts",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.305-changed-7"
+      ],
+      "version": "2.1.305"
+    },
+    {
+      "title": "修复 tool search 回归",
+      "category": "修复",
+      "detail": "在 Vertex、Bedrock 或网关拒绝 tool search 时，此前所有请求都会失败；现在会自动在不带 tool search 的情况下重试。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.305-fixes-17"
+      ],
+      "version": "2.1.305"
+    },
+    {
+      "title": "新增沙箱嵌套命名空间开关",
+      "category": "新功能",
+      "detail": "sandbox.allowNestedUserNamespaces 允许 Linux 沙箱内命令创建用户命名空间以运行 Chromium、rootless podman，但会绕过沙箱文件保护。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.305-added-1"
+      ],
+      "version": "2.1.305"
+    },
+    {
+      "title": "/usage 警告可直接修复",
+      "category": "改进",
+      "detail": "每条警告改为一行修复建议并注明来源，按 f 即可应用修复，同样的修复也出现在 VS Code 和 /doctor 中。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/usage",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.305-improvements-11"
+      ],
+      "version": "2.1.305"
+    },
+    {
+      "title": "多项稳定性修复",
+      "category": "修复",
+      "detail": "修复裸仓库 worktree 起点、磁盘满时 Bash 报错、MCP 服务器被同名配置覆盖、Workflow 恢复重跑已完成 agent 等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.305-fixes-19",
+        "2.1.305-fixes-20",
+        "2.1.305-fixes-21",
+        "2.1.305-fixes-25"
+      ],
+      "version": "2.1.305"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "ba5fa20e659b267f465b2de6e785243b64d4613857ecca7301251d12a9509260"
+}

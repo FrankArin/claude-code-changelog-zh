@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bedrock sessions with many images failing every turn and `/compact` with \"400 Input is too long.\" instead of removing older images and compacting",
+  "zh": "修复 Bedrock session 包含大量图片时每轮都失败、且 `/compact` 报 \"400 Input is too long.\" 而非移除较早图片并进行上下文压缩的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

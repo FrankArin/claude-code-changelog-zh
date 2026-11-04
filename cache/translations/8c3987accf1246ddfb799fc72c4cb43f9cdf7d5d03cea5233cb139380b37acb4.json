@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude --help` text for `--tools`, `--resume`, `--debug`, `--json-schema`, `--disable-slash-commands`, `--system-prompt-snapshot` and `claude update` to match actual behavior",
+  "zh": "修复了 `claude --help` 中 `--tools`、`--resume`、`--debug`、`--json-schema`、`--disable-slash-commands`、`--system-prompt-snapshot` 和 `claude update` 的说明与实际行为不符的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

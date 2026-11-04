@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed non-interactive launches replacing a `~/.claude.json` that isn't valid JSON with defaults; the start now fails, says how to restore the file, and leaves it as is (anthropics/claude-code#87551)",
+  "zh": "修复了非交互式启动将无效 JSON 的 `~/.claude.json` 替换为默认值的问题；现在启动会失败，提示如何恢复该文件，并保持文件原样（anthropics/claude-code#87551）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

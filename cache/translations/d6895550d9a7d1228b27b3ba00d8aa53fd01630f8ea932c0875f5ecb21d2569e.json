@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/verify` showing a long description meant for Claude in `/help` and the `/` command menu instead of a short one",
+  "zh": "修复了 `/verify` 在 `/help` 和 `/` 命令菜单中显示的是面向 Claude 的长描述而非简短描述的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

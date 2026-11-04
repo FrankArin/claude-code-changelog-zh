@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Claude apps gateway to start with a warning and serve a `desktop` policy key its bundled Claude Desktop schema doesn't know, so new Desktop settings need no gateway upgrade",
+  "zh": "变更 Claude 应用网关，改为在启动时给出警告，并提供一个其内置 Claude Desktop schema 不认识的 `desktop` 策略键，使新的 Desktop 设置无需升级网关",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a one-line stderr warning to `claude -p` text output, starting 10 days before a stored claude.ai sign-in ends",
+  "zh": "新增：从已保存的 claude.ai 登录到期前 10 天起，`claude -p` 的文本输出会向 stderr 输出一行警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

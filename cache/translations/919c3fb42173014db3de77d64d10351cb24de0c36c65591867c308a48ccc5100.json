@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the mod hot-reloading question being asked again every turn for the whole session when it is approved without picking an answer",
+  "zh": "修复 mod 热重载确认在未选择答案的情况下批准后，整个 session 每轮都再次询问的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

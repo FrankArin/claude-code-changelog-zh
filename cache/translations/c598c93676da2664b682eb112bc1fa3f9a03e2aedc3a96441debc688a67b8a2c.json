@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background cleanup deleting some recent files, such as pasted images, when `cleanupPeriodDays` is set to a very large value",
+  "zh": "修复了当 `cleanupPeriodDays` 设为极大值时，后台清理会删除部分近期文件（如粘贴的图片）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

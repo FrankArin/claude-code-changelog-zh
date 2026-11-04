@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed the session list side bar to load Web sessions when the Web tab is first opened, not at startup",
+  "zh": "\\[VSCode] 变更 session 列表侧边栏，改为在首次打开 Web 标签页时加载 Web session，而非在启动时加载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

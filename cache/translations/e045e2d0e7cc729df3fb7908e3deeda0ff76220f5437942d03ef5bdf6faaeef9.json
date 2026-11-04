@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/ide` saying it had installed the JetBrains plugin when nothing was installed",
+  "zh": "修复了 `/ide` 在未安装任何内容时却声称已安装 JetBrains plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

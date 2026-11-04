@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a plugin synced from claude.ai being disabled when the marketplace dependency it declares was also synced from claude.ai",
+  "zh": "修复了从 claude.ai 同步的 plugin 在其声明的 marketplace 依赖同样从 claude.ai 同步时被禁用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

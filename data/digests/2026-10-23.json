@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "versions": [
+    "2.1.310"
+  ],
+  "tldr": "新增 Monitor 工具与云会话权限，修复网关兼容、清理误删及多项 UI 问题。",
+  "highlights": [
+    {
+      "title": "新增 Monitor 工具",
+      "category": "新功能",
+      "detail": "在 Bedrock、Vertex、Foundry 及禁用遥测时也可用 Monitor 工具和 plugin monitors，并阻止这些环境下的长时间前台休眠。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.310-added-1"
+      ],
+      "version": "2.1.310"
+    },
+    {
+      "title": "云会话权限与脚本",
+      "category": "新功能",
+      "detail": "Enterprise 自定义角色可控制云会话和 Remote Control 访问；云环境支持从文件加载 setup script。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.310-added-2",
+        "2.1.310-added-3"
+      ],
+      "version": "2.1.310"
+    },
+    {
+      "title": "网关兼容性修复",
+      "category": "修复",
+      "detail": "部分网关拒绝 effort beta 值或对话中途系统消息导致请求失败，现会自动去掉这些内容重试。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.310-fixes-13"
+      ],
+      "version": "2.1.310"
+    },
+    {
+      "title": "清理误删近期文件",
+      "category": "修复",
+      "detail": "cleanupPeriodDays 设为极大值时后台清理会删除近期文件（如粘贴图片），已修复。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.310-fixes-14"
+      ],
+      "version": "2.1.310"
+    },
+    {
+      "title": "上下文压缩与内存优化",
+      "category": "改进",
+      "detail": "修复密集文本对话压缩后仍过长的问题，并降低非交互式会话处理超大 transcript 的内存占用。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.310-fixes-15",
+        "2.1.310-improvements-8"
+      ],
+      "version": "2.1.310"
+    },
+    {
+      "title": "Windows hooks 安全修复",
+      "category": "安全",
+      "detail": "缺少 Git Bash 且 hook 命令仅为带引号字符串时，PreToolUse 和 PermissionRequest hooks 会放行工具调用，现已修复。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.310-fixes-18"
+      ],
+      "version": "2.1.310"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "9825e337ead87fcf6384c745bb1770106b8e5ef7007daa14c08981171396de88"
+}

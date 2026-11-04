@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head">
+  <p class="eyebrow">统一译法</p>
+  <h1>术语表</h1>
+  <p class="lede">Claude Code 生态的专有名词保留英文；普通技术词按中文技术文档习惯翻译。术语表版本：{{ glossary.version or '未标注' }}。</p>
+</section>
+
+<section class="section">
+  <h2>保留英文</h2>
+  <p>以下词在译文中保持原样，不翻译。</p>
+  <ul class="term-chips">
+    {% for term in glossary.keep_en or [] %}
+    <li>{{ term }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>统一译法</h2>
+  <table class="term-table">
+    <thead><tr><th>英文</th><th>中文</th></tr></thead>
+    <tbody>
+      {% for source, target in (glossary.translate or {}).items() %}
+      <tr><td><code>{{ source }}</code></td><td>{{ target }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="section">
+  <h2>修正译法</h2>
+  <p>发现译法不一致或错误，可以提交 issue 或 PR 修改 <code>glossary.yml</code> 或 <code>data/overrides/zh-CN.json</code>。术语表版本号递增后，相关条目会自动重译。</p>
+</section>
+{% endblock %}

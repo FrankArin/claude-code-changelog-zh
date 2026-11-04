@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed switching to a model whose name contains `application-inference-profile` running your `awsAuthRefresh` command and delaying model-switch hooks when the provider is not Bedrock",
+  "zh": "修复了当提供商不是 Bedrock 时，切换到名称包含 `application-inference-profile` 的模型会执行 `awsAuthRefresh` 命令并延迟模型切换 hook 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

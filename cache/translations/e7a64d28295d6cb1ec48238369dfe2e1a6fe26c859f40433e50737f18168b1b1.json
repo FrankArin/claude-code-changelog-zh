@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed missed one-time saved scheduled tasks being deleted without asking when the extension opened without a chat",
+  "zh": "\\[VSCode] 修复了扩展在没有聊天的情况下打开时，错过的一次性已保存计划任务被未经询问删除的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

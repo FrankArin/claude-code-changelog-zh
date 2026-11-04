@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed cloud sessions started from the CLI to get their names and branch names from the server",
+  "zh": "变更从 CLI 启动的 cloud sessions，使其名称和分支名由服务器提供",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

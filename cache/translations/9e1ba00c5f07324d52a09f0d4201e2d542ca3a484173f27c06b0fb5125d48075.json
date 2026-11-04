@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/privacy-settings` showing an out-of-date \"Help improve our AI models\" value; it now also says when the setting can't be fetched",
+  "zh": "修复 `/privacy-settings` 显示过时的“Help improve our AI models”值的问题；现在当该设置无法获取时也会给出提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

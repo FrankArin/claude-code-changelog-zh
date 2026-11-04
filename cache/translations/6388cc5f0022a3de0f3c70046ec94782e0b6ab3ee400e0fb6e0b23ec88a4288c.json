@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed document blocks being dropped from your own message sent while Claude is working",
+  "zh": "修复了在 Claude 工作时发送的自有消息中文档块被丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

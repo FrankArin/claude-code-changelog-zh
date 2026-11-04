@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved enforcement of managed permission rules, managed hooks and organization MCP tool names against user-installed mods",
+  "zh": "改进针对用户安装的 mod 对受管权限规则、受管 hooks 和组织 MCP 工具名称的强制执行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

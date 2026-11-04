@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifact watching: a local session can now watch up to 25 published artifacts at once, up from 10",
+  "zh": "改进 artifact 监视：本地 session 现在可同时监视最多 25 个已发布的 artifacts，此前为 10 个",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

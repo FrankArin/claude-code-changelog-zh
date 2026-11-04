@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added public Slack channels Claude hasn't joined to the Claude Tag admin Add place search, so admins can set one up from there",
+  "zh": "\\[Claude Tag] 在 Claude Tag 管理端的 Add place 搜索中新增 Claude 尚未加入的公开 Slack 频道，管理员可直接从那里创建",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

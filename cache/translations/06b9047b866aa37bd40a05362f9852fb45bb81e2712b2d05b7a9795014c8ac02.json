@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed local session transcripts to also record each API request's system prompt, tools and parameters, so a transcript you choose to share can reproduce a request exactly",
+  "zh": "变更本地 session 对话记录：同时记录每次 API 请求的 system prompt、工具和参数，使你选择分享的对话记录能精确复现请求",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed worktree-isolated sessions on zsh accepting some arithmetic commands that the isolation guard should refuse",
+  "zh": "修复了 zsh 上 worktree 隔离的 session 接受某些算术命令的问题，隔离防护本应拒绝这些命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

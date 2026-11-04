@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Claude apps gateway that serves `allowedProviders` with `\"gateway\"` locking out laptops that name that gateway in user settings",
+  "zh": "修复当 Claude 应用网关以 `\"gateway\"` 提供 `allowedProviders` 时，在用户设置中指定该网关的笔记本电脑被拒之门外的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

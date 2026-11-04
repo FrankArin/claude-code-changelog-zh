@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a misleading \"Please run /login\" error when a full disk keeps the login from being refreshed; the error now names the disk and says to delete files",
+  "zh": "修复磁盘已满导致登录无法刷新时出现误导性的“Please run /login”错误；该错误现在会指明磁盘并提示删除文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

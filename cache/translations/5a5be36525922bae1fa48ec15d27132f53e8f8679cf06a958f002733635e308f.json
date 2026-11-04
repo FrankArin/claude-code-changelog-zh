@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the /claude-api skill to offer API tracing alongside SDK tracing when asked to add OpenTelemetry",
+  "zh": "改进 /claude-api skill：在被要求添加 OpenTelemetry 时，除 SDK 追踪外还提供 API 追踪",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

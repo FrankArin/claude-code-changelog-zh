@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed file search in a cloud session's Files pane showing folders as ../.. paths after Claude changed directory; results now show their path from the project's root",
+  "zh": "\\[Cloud sessions] 修复了 Claude 切换目录后，云 session 的 Files 面板中文件搜索将文件夹显示为 ../.. 路径的问题；结果现在显示相对于项目根目录的路径",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

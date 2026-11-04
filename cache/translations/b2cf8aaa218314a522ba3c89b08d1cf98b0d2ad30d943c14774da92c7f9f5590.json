@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed long slash-command messages such as `/goal` filling the chat panel; they now fold behind Show more like other prompts (anthropics/claude-code#97469)",
+  "zh": "\\[VSCode] 修复了 `/goal` 等较长的斜杠命令消息占满聊天面板的问题；现在它们会像其他 prompt 一样折叠在“显示更多”之后（anthropics/claude-code#97469）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

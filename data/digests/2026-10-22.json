@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "versions": [
+    "2.1.309",
+    "2.1.308"
+  ],
+  "tldr": "2.1.309 强化沙箱与权限校验，修复多项安全与稳定性问题，并调整 sed -i 与 ultrareview 行为；2.1.308 为小幅维护版本，仅修复缺陷。",
+  "highlights": [
+    {
+      "title": "sed -i 改为标准 Bash 权限",
+      "category": "破坏性变更",
+      "detail": "sed -i 不再显示模拟文件编辑预览，改为走标准 Bash 权限提示并按原样执行；与其他 Bash 编辑一样无法通过 /rewind 恢复。",
+      "action": "依赖 /rewind 撤销 sed -i 改动的用户需改用其他方式备份或恢复文件。",
+      "example": {
+        "lang": "bash",
+        "code": "/rewind",
+        "caption": "命令示例"
+      },
+      "version": "2.1.309",
+      "item_ids": [
+        "2.1.309-changed-4"
+      ]
+    },
+    {
+      "title": "ultrareview 需工作区信任",
+      "category": "破坏性变更",
+      "detail": "claude ultrareview 现在要求工作区信任，终端会询问，否则拒绝执行；脚本场景需显式传入信任参数或设置环境变量。",
+      "action": "脚本中调用时传入 --trust-workspace（放在 PR 编号或基础分支之前），或设置 CLAUDE_CODE_DISABLE_ULTRAREVIEW_TRUST_CHECK=1。",
+      "example": {
+        "lang": "bash",
+        "code": "claude ultrareview",
+        "caption": "命令示例"
+      },
+      "version": "2.1.309",
+      "item_ids": [
+        "2.1.309-changed-5"
+      ]
+    },
+    {
+      "title": "修复沙箱与权限绕过",
+      "category": "安全",
+      "detail": "修复沙箱化 Bash 在沙箱外执行 shell 启动文件、符号链接下 denyWrite 失效、沙箱命令可修改 --mcp-config 文件，以及多处 Bash 权限检查漏提示或误放行的问题。",
+      "action": null,
+      "example": null,
+      "version": "2.1.309",
+      "item_ids": [
+        "2.1.309-fixes-18",
+        "2.1.309-fixes-19",
+        "2.1.309-fixes-20",
+        "2.1.309-fixes-23",
+        "2.1.309-fixes-24",
+        "2.1.309-fixes-25",
+        "2.1.309-fixes-26",
+        "2.1.309-fixes-58"
+      ]
+    },
+    {
+      "title": "磁盘已满提示更清晰",
+      "category": "改进",
+      "detail": "因磁盘已满中断的 Bash 命令会说明原因并指出需释放空间的文件夹；在已满临时卷上启动时打印明确消息而非原始 ENOSPC 错误。",
+      "action": null,
+      "example": null,
+      "version": "2.1.309",
+      "item_ids": [
+        "2.1.309-improvements-12"
+      ]
+    },
+    {
+      "title": "修复上下文反复压缩",
+      "category": "修复",
+      "detail": "读取超大嵌套 CLAUDE.md 下的文件后不再反复触发上下文压缩；超限的嵌套 CLAUDE.md 只加载开头部分。",
+      "action": null,
+      "example": null,
+      "version": "2.1.309",
+      "item_ids": [
+        "2.1.309-fixes-29"
+      ]
+    },
+    {
+      "title": "修复缺陷提升可靠性",
+      "category": "修复",
+      "detail": "本版本集中修复已知缺陷，提升运行稳定性与可靠性，未引入新功能或行为变更。",
+      "action": null,
+      "example": null,
+      "version": "2.1.308",
+      "item_ids": [
+        "2.1.308-other-1"
+      ]
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "1f858c5b7133c4ffca87e7aebc4ff6d15e293cbcbc9c5015a7db311358c58758"
+}

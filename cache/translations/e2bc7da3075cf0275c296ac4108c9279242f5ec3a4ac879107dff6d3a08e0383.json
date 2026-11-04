@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the feedback error showing only an HTTP status when your organization does not accept feedback",
+  "zh": "\\[VSCode] 修复了组织不接受反馈时，反馈错误只显示 HTTP 状态码的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

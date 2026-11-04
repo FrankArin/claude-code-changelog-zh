@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+C in the agents view clearing a text selection without copying it when pressed before the mouse button was released",
+  "zh": "修复了在 agents 视图中，若在松开鼠标按钮前按下 Ctrl+C，会清除文本选择而不复制的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

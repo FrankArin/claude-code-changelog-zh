@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_CODE_DISABLE_NESTED_SESSION_ID`: set it to `1` on a self-hosted runner to have `claude -p` run inside a session use that session's ID and transcript, as in earlier versions",
+  "zh": "新增 `CLAUDE_CODE_DISABLE_NESTED_SESSION_ID`：在自托管运行器上将其设为 `1`，可使在 session 内运行的 `claude -p` 使用该 session 的 ID 和记录，与早期版本一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

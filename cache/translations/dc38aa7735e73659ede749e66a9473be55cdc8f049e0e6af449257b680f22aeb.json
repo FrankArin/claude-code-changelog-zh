@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed `claudeCode.spinnerVerbs` missing from the extension's settings, so settings.json now completes and validates it; a malformed value no longer breaks the chat panel",
+  "zh": "\\[VSCode] 修复扩展设置中缺少 `claudeCode.spinnerVerbs` 的问题，现在 settings.json 可对其补全和校验；格式错误的值不再导致聊天面板崩溃",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

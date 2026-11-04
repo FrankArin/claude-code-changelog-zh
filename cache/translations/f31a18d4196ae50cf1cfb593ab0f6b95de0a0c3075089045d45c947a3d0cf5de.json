@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+  "zh": "修复在包含大量 MCP 工具的 session 中，API 错误被替换为“prompt is too long”，以及发生不必要的上下文压缩的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:15+00:00"
+}

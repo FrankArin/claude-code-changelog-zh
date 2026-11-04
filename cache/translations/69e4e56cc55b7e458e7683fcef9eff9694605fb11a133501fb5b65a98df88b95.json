@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `SendMessage` not finding a subagent by name after the CLI restarted and resumed the session (names given before the last compaction still need the agent ID)",
+  "zh": "修复了 CLI 重启并恢复 session 后 `SendMessage` 无法按名称找到 subagent 的问题（在最后一次上下文压缩之前给出的名称仍需使用 agent ID）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

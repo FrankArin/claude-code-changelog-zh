@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/autocompact` warning about high token usage when you choose a smaller auto-compact window",
+  "zh": "修复选择较小的自动压缩窗口时，`/autocompact` 仍警告 token 用量过高的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

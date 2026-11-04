@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all",
+  "zh": "终端新增空闲上下文压缩：200K+ token 的对话空闲约 54 分钟后，会在其一小时 prompt 缓存过期前进行上下文压缩，这样你的下一条消息就不必重新处理全部内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

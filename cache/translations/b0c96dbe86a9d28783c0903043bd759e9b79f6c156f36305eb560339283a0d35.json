@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed `ultrathink` to run its turn at `xhigh` effort and show in a rainbow in the chat box, as in the terminal",
+  "zh": "\\[VSCode] 变更 `ultrathink`：其回合以 `xhigh` effort 运行，并在聊天框中以彩虹色显示，与终端中一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

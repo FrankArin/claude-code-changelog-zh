@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions being refused at startup by an `allowedProviders` list that another login on the same machine had stored",
+  "zh": "修复了 session 在启动时被同一台机器上另一次登录所存储的 `allowedProviders` 列表拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

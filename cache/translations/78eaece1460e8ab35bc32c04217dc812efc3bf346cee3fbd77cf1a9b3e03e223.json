@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plan approval in screen reader mode sending feedback you had dismissed with Escape",
+  "zh": "修复了屏幕阅读器模式下计划审批会发送已用 Escape 关闭的反馈的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

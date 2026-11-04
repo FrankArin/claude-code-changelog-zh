@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--teleport` opening an empty conversation when the session's history could not be read",
+  "zh": "修复当 session 历史无法读取时，`--teleport` 打开空对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

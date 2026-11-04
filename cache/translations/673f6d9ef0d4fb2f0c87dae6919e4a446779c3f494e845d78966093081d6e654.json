@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved session file size in auto mode: the safety classifier's context is no longer stored with every request",
+  "zh": "改进自动模式下的 session 文件大小：安全分类器的上下文不再随每个请求一起存储",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

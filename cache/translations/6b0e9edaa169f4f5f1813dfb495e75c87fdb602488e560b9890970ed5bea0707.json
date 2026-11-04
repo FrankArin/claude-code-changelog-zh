@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed every connection failing when the `NODE_EXTRA_CA_CERTS` file is empty, not PEM, or starts with a damaged certificate: readable certificates are now used, with a warning on stderr",
+  "zh": "修复了 `NODE_EXTRA_CA_CERTS` 文件为空、不是 PEM 格式或以损坏的证书开头时所有连接均失败的问题：现在会使用可读的证书，并在 stderr 上给出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

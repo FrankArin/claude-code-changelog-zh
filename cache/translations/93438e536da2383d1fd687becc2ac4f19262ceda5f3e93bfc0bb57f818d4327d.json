@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Improved the Changes pane for cloud sessions: the note about what the list leaves out is now a badge beside the branch name, not a row above the diff",
+  "zh": "\\[Cloud sessions] 改进 cloud sessions 的 Changes 面板：关于列表省略内容的说明现在显示为分支名旁的徽标，而不是 diff 上方的行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

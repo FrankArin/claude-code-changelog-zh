@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the error for an MCP tool call that times out in a non-interactive session while the server's elicitation is unanswered: it now tells Claude that no answer came and not to repeat the call",
+  "zh": "变更了非交互式 session 中 MCP 工具调用超时且服务器的 elicitation 未得到答复时的错误：现在会告知 Claude 未收到答复，且不要重复该调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

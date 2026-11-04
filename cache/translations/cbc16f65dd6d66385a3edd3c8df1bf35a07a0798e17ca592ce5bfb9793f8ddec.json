@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved prompt history: Ctrl+R now matches text inside collapsed `[Pasted text]` pills",
+  "zh": "改进 prompt 历史记录：Ctrl+R 现在可匹配折叠的 `[Pasted text]` 胶囊内的文本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

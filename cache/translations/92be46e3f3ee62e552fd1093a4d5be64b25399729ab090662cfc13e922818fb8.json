@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the /claude-api skill to use the `ant` CLI on Claude Platform on AWS instead of falling back to the SDK or curl",
+  "zh": "更新 /claude-api skill，在 Claude Platform on AWS 上使用 `ant` CLI，而不再回退到 SDK 或 curl",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

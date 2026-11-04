@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added quoted text to the `/copy` picker, so a drafted message copies without its `>` markers",
+  "zh": "`/copy` 选择器新增引用文本，草拟的消息复制时不带 `>` 标记",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

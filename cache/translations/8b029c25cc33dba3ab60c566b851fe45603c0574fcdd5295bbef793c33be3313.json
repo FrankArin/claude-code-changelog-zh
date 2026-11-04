@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Bash tool's shell to clear any inherited `which` alias or function and to stop passing exported `which`/`unsetenv` functions to commands, so `which` is the system command or zsh builtin",
+  "zh": "变更 Bash 工具的 shell：清除继承的 `which` 别名或函数，并停止向命令传递导出的 `which`/`unsetenv` 函数，使 `which` 为系统命令或 zsh 内建命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

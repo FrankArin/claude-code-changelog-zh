@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skills synced from claude.ai never finishing their install, and being downloaded again at every sync, when several sessions share a config directory",
+  "zh": "修复了当多个 session 共享同一配置目录时，从 claude.ai 同步的 skills 始终无法完成安装、且每次同步都会重新下载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

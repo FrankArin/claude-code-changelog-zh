@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed the Bash tool losing your aliases and functions in Git Bash when the rc file sets errexit and pipefail and only winpty aliases, or none, are defined",
+  "zh": "Windows：修复了当 rc 文件设置了 errexit 和 pipefail，且仅定义了 winpty 别名或未定义任何别名时，Bash 工具在 Git Bash 中丢失别名和函数的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

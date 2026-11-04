@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `forceLoginOrgUUID` and `forceLoginMethod` from MDM or the managed-settings file being hidden or replaced by server-managed settings",
+  "zh": "修复了来自 MDM 或受管设置文件的 `forceLoginOrgUUID` 和 `forceLoginMethod` 被服务器管理的设置隐藏或替换的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

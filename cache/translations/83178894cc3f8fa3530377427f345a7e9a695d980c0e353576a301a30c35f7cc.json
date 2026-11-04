@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed actions a plugin hook can block to be refused, not let through, when the hook cannot be handed them or cannot hand back its answer; a tool that already ran has its result withheld",
+  "zh": "变更：当 plugin hook 无法接收其可阻止的操作或无法返回结果时，这些操作会被拒绝而非放行；已运行的工具其结果会被扣留",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

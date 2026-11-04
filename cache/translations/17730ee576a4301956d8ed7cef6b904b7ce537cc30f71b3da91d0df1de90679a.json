@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Cmd+F / Ctrl+F not opening the find widget in the plan preview tab",
+  "zh": "\\[VSCode] 修复了 Cmd+F / Ctrl+F 在计划预览标签页中无法打开查找组件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

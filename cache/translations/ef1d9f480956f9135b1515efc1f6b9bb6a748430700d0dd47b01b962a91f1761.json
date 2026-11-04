@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a warning on Pro and Max plans when resuming an inactive conversation would use a noticeable share of your 5-hour usage limit: resume anyway, or start a new conversation and Claude can look up the previous one if you refer to it",
+  "zh": "在 Pro 和 Max 套餐中新增警告：恢复不活跃的对话会占用你 5 小时用量限制中相当可观的一部分时提示：仍要恢复，或开始新对话，若你提及之前的对话，Claude 可以查找它",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

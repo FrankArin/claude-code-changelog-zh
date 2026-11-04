@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added advice to `claude plugin validate` when a plugin's README has no install line: it prints the line to paste and never changes the exit code, even with `--strict`",
+  "zh": "当 plugin 的 README 没有安装行时，`claude plugin validate` 新增建议：打印可粘贴的安装行，且即使使用 `--strict` 也不改变退出码",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

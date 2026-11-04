@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed images attached while Claude is working (VS Code, desktop app, SDK) being sent at full size, which led to repeated image errors in long conversations",
+  "zh": "修复了在 Claude 工作期间附加的图片（VS Code、桌面应用、SDK）以原始尺寸发送，导致长对话中反复出现图片错误的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

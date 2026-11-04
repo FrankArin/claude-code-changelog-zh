@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `$.ui.open` reporting a mod's pane as placed in sessions where no surface draws it, such as Claude Code for VS Code and `claude -p`",
+  "zh": "修复了 `$.ui.open` 在没有界面绘制该面板的 session（如 Claude Code for VS Code 和 `claude -p`）中，将 mod 的面板报告为已放置的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

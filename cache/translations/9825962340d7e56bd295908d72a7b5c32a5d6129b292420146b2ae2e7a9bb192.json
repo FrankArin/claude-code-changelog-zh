@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"hold space to speak\" hint using up its three showings in one session, and showing an empty key when push-to-talk is unbound",
+  "zh": "修复了“按住空格说话”提示在一个 session 内用完三次显示机会的问题，以及按键说话未绑定时显示空按键的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

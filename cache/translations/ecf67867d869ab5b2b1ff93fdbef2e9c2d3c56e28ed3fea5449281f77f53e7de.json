@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude mcp add <name> -- <command> --background` being started as a background session",
+  "zh": "修复了 `claude mcp add <name> -- <command> --background` 被作为后台 session 启动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

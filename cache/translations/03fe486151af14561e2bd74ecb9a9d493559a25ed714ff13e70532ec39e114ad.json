@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--tools` and `--restricted` not applying to built-in tools that register after launch, and deprecated tool names reaching tools outside the caller's tool set",
+  "zh": "修复了 `--tools` 和 `--restricted` 不适用于启动后注册的内置工具的问题，以及已弃用的工具名会触达调用方工具集之外的工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

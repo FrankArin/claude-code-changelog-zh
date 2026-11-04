@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a cost report to the Claude apps gateway admin API, `GET /v1/organizations/analytics/cost`, for reading past spend over a date range in total, per developer, per day or per IdP group",
+  "zh": "在 Claude 应用网关管理 API 中新增成本报告 `GET /v1/organizations/analytics/cost`，可按日期范围读取历史支出，支持总计、按开发者、按天或按 IdP 组",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP servers that repeat a pagination cursor being asked for the same page up to 20 times at every connect",
+  "zh": "修复重复分页游标的 MCP 服务器在每次连接时被请求同一页最多 20 次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

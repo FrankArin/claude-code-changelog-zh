@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a failed mod reload removing the tools and commands of the version that stays loaded, and its messages being wrong or silent about whether the previous version is still loaded",
+  "zh": "修复 mod 重新加载失败时会移除仍处于加载状态的版本的工具和命令，以及其消息在说明前一版本是否仍加载时出错或静默的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed shell commands being left running on macOS and Linux when Claude Code exits by itself, for example when credentials are refused or a cloud session is archived",
+  "zh": "修复在 macOS 和 Linux 上，Claude Code 自行退出时（例如凭据被拒绝或云 session 被归档）shell 命令仍在运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

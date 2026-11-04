@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed skills under a policy that allows hooks from plugins only: a skill used in the main conversation whose hooks are kept out no longer gets its `allowed-tools`",
+  "zh": "变更仅允许来自 plugin 的 hook 的策略下的 skill：在主对话中使用但其 hook 被排除的 skill 不再获得其 `allowed-tools`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

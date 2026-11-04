@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Added the usual Chrome names to cloud sessions, so tools other than Playwright can find the built-in Chromium through google-chrome and CHROME\\_PATH",
+  "zh": "\\[Cloud sessions] 为 cloud session 新增常用的 Chrome 名称，使 Playwright 以外的工具也能通过 google-chrome 和 CHROME\\_PATH 找到内置 Chromium",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

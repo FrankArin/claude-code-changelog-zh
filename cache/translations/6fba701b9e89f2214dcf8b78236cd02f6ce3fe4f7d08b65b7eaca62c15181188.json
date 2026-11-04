@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude daemon stop` exiting with no output, and leaving sessions listed as running, when telemetry is turned off",
+  "zh": "修复关闭遥测时 `claude daemon stop` 无输出退出，以及 session 仍显示为运行中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

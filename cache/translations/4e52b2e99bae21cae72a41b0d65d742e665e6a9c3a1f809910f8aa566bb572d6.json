@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the startup warning for an unrecognized model ID: it is now one short line under the welcome banner with a docs link, instead of a long raw message",
+  "zh": "改进无法识别模型 ID 时的启动警告：现在显示为欢迎横幅下方的一行简短提示并附文档链接，而不是冗长的原始消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

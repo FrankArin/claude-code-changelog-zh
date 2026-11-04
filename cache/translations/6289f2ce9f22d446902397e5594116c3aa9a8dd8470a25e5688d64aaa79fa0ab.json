@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--restricted` sessions uploading files from outside the working directories when a Read allow rule covered them",
+  "zh": "修复当 Read 允许规则覆盖工作目录之外的文件时，`--restricted` sessions 上传这些文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

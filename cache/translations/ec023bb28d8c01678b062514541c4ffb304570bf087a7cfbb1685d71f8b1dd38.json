@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed WebFetch page reads to pick their effort as web searches do: the caller's level on the caller's own model, otherwise the level settings give the small model",
+  "zh": "变更 WebFetch 页面读取的 effort 选择方式，与网页搜索一致：调用方使用自身模型时采用调用方的级别，否则采用设置赋予小模型的级别",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

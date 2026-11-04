@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `forceRemoteSettingsRefresh` set only in remote managed settings no longer applying once the stored copy had expired, which let sessions start without policy when the server could not be reached",
+  "zh": "修复仅在远程托管设置中设置的 `forceRemoteSettingsRefresh` 在已存储副本过期后不再生效的问题，该问题会导致无法连接服务器时 session 在没有策略的情况下启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

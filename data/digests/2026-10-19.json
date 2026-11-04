@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "versions": [
+    "2.1.304"
+  ],
+  "tldr": "新增自动模式引导与 mod 钩子能力，修复沙箱、worktree 与上下文压缩等多处问题。",
+  "highlights": [
+    {
+      "title": "新增 /auto-mode-setup 引导",
+      "category": "新功能",
+      "detail": "读取项目与近期 session，让自动模式了解你的环境；Bedrock、Vertex、Foundry、网关及禁用遥测的 session 也可用。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/auto-mode-setup",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.304-added-4"
+      ],
+      "version": "2.1.304"
+    },
+    {
+      "title": "mod 钩子能力增强",
+      "category": "新功能",
+      "detail": "tool.check 新增 decider:\"person\" 与 isReadOnly；被跳过的钩子会记录事件与 plugin，便于排查。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.304-added-1",
+        "2.1.304-added-2",
+        "2.1.304-added-3"
+      ],
+      "version": "2.1.304"
+    },
+    {
+      "title": "settings.read 钩子行为变更",
+      "category": "破坏性变更",
+      "detail": "改为接收每个设置层并重写合并后的设置，受管理的 mod 可据此将组织设置设为上限。",
+      "action": "检查依赖 settings.read 的 mod，按新的分层输入与合并输出逻辑调整。",
+      "example": null,
+      "item_ids": [
+        "2.1.304-changed-11"
+      ],
+      "version": "2.1.304"
+    },
+    {
+      "title": "工具搜索默认开启",
+      "category": "改进",
+      "detail": "自定义 ANTHROPIC_BASE_URL 下默认启用；网关返回 400 或 422 时会自动在不启用的情况下重试。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "ANTHROPIC_BASE_URL",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.304-changed-14"
+      ],
+      "version": "2.1.304"
+    },
+    {
+      "title": "修复 worktree 误删风险",
+      "category": "修复",
+      "detail": "HEAD 处于分离状态或其他分支时，claude --worktree 退出不再未经询问删除 worktree 及其分支，避免丢失提交。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude --worktree",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.304-fixes-56"
+      ],
+      "version": "2.1.304"
+    },
+    {
+      "title": "修复沙箱与危险删除提示",
+      "category": "修复",
+      "detail": "Linux 上 denyRead 通配符含方括号时沙箱可正常启动；对已挂载驱动器顶层执行 rm -r 现在会触发安全提示。",
+      "action": null,
+      "example": {
+        "lang": "json",
+        "code": "[user-id]",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.304-fixes-35",
+        "2.1.304-fixes-36"
+      ],
+      "version": "2.1.304"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "064b890477b0b64cc51866314c7ee9c596575476ca6c7f2273a929fcce29ae48"
+}

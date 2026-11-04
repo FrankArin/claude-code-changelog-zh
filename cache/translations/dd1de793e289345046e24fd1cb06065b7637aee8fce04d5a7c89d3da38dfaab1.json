@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed tokens from `setup-token` being refused at start on machines with `forceLoginOrgUUID`, when the token belongs to a permitted organization",
+  "zh": "修复了在设置了 `forceLoginOrgUUID` 的机器上，`setup-token` 生成的 token 在启动时被拒绝的问题（当该 token 属于允许的组织时）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed Claude in Chrome to ask before browser actions in every session, including one connected with `@browser`, as the terminal does; allowing a site for the session stops repeat asks",
+  "zh": "\\[VSCode] 变更 Claude in Chrome：与终端一致，在每个 session 中执行浏览器操作前都会先询问，包括通过 `@browser` 连接的 session；为某个站点在本次 session 中授权后不再重复询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

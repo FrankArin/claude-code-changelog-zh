@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude treating partial Grep and Glob results as complete when a search hit its time limit",
+  "zh": "修复了搜索达到时间限制时，Claude 将部分 Grep 和 Glob 结果当作完整结果的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

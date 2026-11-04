@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode in Cowork cloud sessions: a `PermissionRequest` hook can no longer approve shell commands or subagents; those prompts wait or are denied",
+  "zh": "变更 Cowork 云端 session 中的自动模式：`PermissionRequest` hook 不再能批准 shell 命令或 subagent；这些权限提示会等待或被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

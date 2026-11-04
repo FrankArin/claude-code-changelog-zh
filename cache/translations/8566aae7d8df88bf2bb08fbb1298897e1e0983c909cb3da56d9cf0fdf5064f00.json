@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"background service did not respond\" error suggesting the disabled `claude daemon restart`; it now suggests `claude daemon stop --any` and says it ends background sessions",
+  "zh": "修复了“background service did not respond”错误建议使用已禁用的 `claude daemon restart` 的问题；现在改为建议 `claude daemon stop --any`，并说明该命令会结束后台 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

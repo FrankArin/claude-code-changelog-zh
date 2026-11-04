@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-paced `/loop` wakeups scheduled at the 1-hour maximum firing just after the 1-hour prompt cache expired, so those wakeups no longer re-read the conversation uncached",
+  "zh": "修复了自定节奏的 `/loop` 唤醒被安排在 1 小时上限、恰好在 1 小时 prompt 缓存过期后触发的问题，这些唤醒不再以未缓存方式重新读取对话",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

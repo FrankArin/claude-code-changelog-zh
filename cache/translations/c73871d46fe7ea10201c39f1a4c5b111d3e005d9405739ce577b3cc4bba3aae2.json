@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an MCP sign-in or reconnect that finishes late in headless and SDK sessions relisting a server set with `setMcpServers()` as your own",
+  "zh": "修复了在无头模式和 SDK session 中，较晚完成的 MCP 登录或重连会通过 `setMcpServers()` 将服务器集合重新列为自有服务器的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed startup warnings about permission rules in settings files to show once per user until the rule changes",
+  "zh": "变更关于设置文件中权限规则的启动警告，改为每位用户显示一次，直到规则变更",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

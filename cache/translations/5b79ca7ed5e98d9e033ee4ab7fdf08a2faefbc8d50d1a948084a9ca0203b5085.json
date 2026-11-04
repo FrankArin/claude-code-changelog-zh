@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved auto mode: a tool call that wasn't run because auto mode's check had no usable answer now shows as a dim \"Not run\" row instead of a red error",
+  "zh": "改进自动模式：因自动模式的检查没有可用答案而未执行的工具调用，现在显示为灰色的“Not run”行，而不是红色错误",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

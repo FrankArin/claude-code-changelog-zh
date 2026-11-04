@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed OpenTelemetry `mcp_server.name` to report the real name of fixed-URL remote MCP servers declared by plugins from the official Anthropic marketplace, instead of `custom`",
+  "zh": "变更 OpenTelemetry `mcp_server.name`，对由官方 Anthropic marketplace 的 plugins 声明的固定 URL 远程 MCP 服务器，报告其真实名称而非 `custom`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved fullscreen mode: the link under the mouse pointer is now underlined to show it can be opened",
+  "zh": "改进全屏模式：鼠标指针下的链接现在会显示下划线，表示可以打开",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

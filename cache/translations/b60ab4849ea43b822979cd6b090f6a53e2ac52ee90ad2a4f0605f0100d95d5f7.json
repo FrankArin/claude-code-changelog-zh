@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved sandboxed Bash on Linux: Esc and Ctrl-C now work while wildcard read rules are being expanded for a command",
+  "zh": "改进 Linux 上的沙箱化 Bash：在为命令展开通配符读取规则时，Esc 和 Ctrl-C 现在可以正常工作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

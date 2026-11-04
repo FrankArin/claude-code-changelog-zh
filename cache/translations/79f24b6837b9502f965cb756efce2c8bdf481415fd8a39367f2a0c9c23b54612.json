@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `/claude-api` skill to build Managed Agents subagent teams on `multiagent_20261001` with dynamic workflows on by default, instead of `coordinator`",
+  "zh": "变更 `/claude-api` skill：改为在 `multiagent_20261001` 上构建 Managed Agents subagent 团队，默认启用动态工作流，不再使用 `coordinator`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

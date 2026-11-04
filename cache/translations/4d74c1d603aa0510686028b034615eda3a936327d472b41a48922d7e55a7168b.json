@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude Code now retries without them",
+  "zh": "修复了在部分网关和兼容服务器后请求失败的问题：这些服务器会拒绝 `effort-2025-11-24` beta 值或对话中途的系统消息；Claude Code 现在会在不带这些内容的情况下重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

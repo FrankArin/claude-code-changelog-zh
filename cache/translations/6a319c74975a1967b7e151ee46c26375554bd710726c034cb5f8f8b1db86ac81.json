@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed \"Prompt is too long\" after automatic compaction in sessions whose very large CLAUDE.md changed since it was last sent",
+  "zh": "修复了在非常大的 CLAUDE.md 自上次发送后发生变更的 session 中，自动上下文压缩后出现“Prompt is too long”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

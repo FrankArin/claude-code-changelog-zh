@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed startup warnings printing as raw text above the logo: they now go to the debug log, and permission rules that restrict nothing show as warning rows under the banner",
+  "zh": "修复了启动警告以原始文本形式打印在 logo 上方的问题：现在这些警告会写入调试日志，而不限制任何内容的权限规则会以警告行的形式显示在横幅下方",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

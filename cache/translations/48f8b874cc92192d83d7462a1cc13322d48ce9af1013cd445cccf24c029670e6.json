@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP requests in cloud and self-hosted runner sessions to no longer follow HTTP redirects from the session's MCP proxy",
+  "zh": "变更云端和自托管 runner session 中的 MCP 请求，不再跟随该 session 的 MCP 代理发起的 HTTP 重定向",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

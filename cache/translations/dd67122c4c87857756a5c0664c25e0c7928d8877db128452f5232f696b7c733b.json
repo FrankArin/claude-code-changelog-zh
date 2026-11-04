@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed hooks: `updatedInput` from PreToolUse and PermissionRequest hooks is now validated like Claude's own input: unknown keys are dropped, and input the tool rejects denies the call",
+  "zh": "变更 hook：PreToolUse 和 PermissionRequest hook 返回的 `updatedInput` 现在会像 Claude 自身的输入一样接受校验：未知键会被丢弃，工具拒绝的输入会导致该调用被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

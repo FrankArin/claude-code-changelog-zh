@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved a mod's `Image` to draw inside tmux with `allow-passthrough` and `focus-events` on, in kitty, Ghostty, and iTerm2 3.5+ with fullscreen rendering, where it showed only its `alt` text",
+  "zh": "改进了 mod 的 `Image`：在开启 `allow-passthrough` 和 `focus-events` 的 tmux 中，以及在启用全屏渲染的 kitty、Ghostty 和 iTerm2 3.5+ 中，现在可以正常绘制，而此前只显示其 `alt` 文本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

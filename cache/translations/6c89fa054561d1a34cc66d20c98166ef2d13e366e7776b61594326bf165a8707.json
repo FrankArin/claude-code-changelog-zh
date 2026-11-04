@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude in Slack not replying in channels whose environment has network access set to None",
+  "zh": "\\[Claude Tag] 修复了 Slack 中的 Claude 在环境网络访问设置为 None 的频道中不回复的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

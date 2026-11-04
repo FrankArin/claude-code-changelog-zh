@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the native dictation audio module being loaded, to check microphone permission, where dictation is not offered (non-claude.ai sign-ins, remote windows)",
+  "zh": "\\[VSCode] 修复在不提供听写功能的环境（非 claude.ai 登录、远程窗口）中仍加载原生听写音频模块以检查麦克风权限的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

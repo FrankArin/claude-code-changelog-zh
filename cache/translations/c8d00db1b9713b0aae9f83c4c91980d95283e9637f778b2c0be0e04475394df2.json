@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed feedback saying \"try again later\" when your organization does not accept feedback; it now shows the server's reason and where to report a bug",
+  "zh": "修复组织不接受反馈时反馈提示“try again later”的问题；现在会显示服务器给出的原因以及报告 bug 的位置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

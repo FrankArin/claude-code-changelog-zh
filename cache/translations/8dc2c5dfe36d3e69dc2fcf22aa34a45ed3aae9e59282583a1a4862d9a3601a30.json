@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the last broken reply and its retry prompts staying in the conversation after Claude gave up on a tool call that could not be parsed",
+  "zh": "修复 Claude 放弃无法解析的工具调用后，最后一条失败的回复及其重试 prompt 仍留在对话中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

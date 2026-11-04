@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed HEIC, SVG, TIFF and BMP images attached in Slack never reaching Claude; they now arrive as files in its working files, like other file types",
+  "zh": "\\[Claude Tag] 修复了在 Slack 中附加的 HEIC、SVG、TIFF 和 BMP 图片始终无法送达 Claude 的问题；现在它们会像其他文件类型一样，以文件形式出现在其工作文件中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the default limit on MCP tool descriptions sent up front and on MCP server instructions from 2,048 to 4,096 characters",
+  "zh": "将预先发送的 MCP 工具描述和 MCP 服务器指令的默认上限从 2,048 个字符改为 4,096 个字符",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

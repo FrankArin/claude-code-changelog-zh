@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed remote MCP servers in headless and SDK sessions staying disconnected after an outage longer than 15 seconds, or reconnecting in a tight loop to a server that drops each connection right after it connects; repeated drops now back off, up to 30s",
+  "zh": "修复无头模式和 SDK session 中的远程 MCP 服务器在中断超过 15 秒后仍保持断开的问题，以及向连接后立即断开每个连接的服务器紧密循环重连的问题；重复断开现在会退避重试，最长 30 秒",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

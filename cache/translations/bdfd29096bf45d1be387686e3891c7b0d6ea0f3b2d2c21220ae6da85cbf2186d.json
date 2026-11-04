@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved transcript toggle (ctrl+o) responsiveness in code-heavy conversations by caching syntax-highlighted code blocks",
+  "zh": "通过缓存语法高亮的代码块，改进代码密集对话中对话记录切换（ctrl+o）的响应速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

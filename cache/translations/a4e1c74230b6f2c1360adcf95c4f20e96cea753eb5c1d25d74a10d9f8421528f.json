@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an empty `~/.claude.json` with no backup being reported as corrupted; Claude Code now starts as it does when the file is missing",
+  "zh": "修复了没有备份的空 `~/.claude.json` 被报告为损坏的问题；现在 Claude Code 会像文件缺失时一样启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed CSS, JavaScript and XML files returned by MCP tools being saved as .bin, which the Read tool refuses; font and icon files now get their own extension too",
+  "zh": "修复 MCP 工具返回的 CSS、JavaScript 和 XML 文件被保存为 .bin 而导致 Read 工具拒绝的问题；字体和图标文件现在也会获得各自的扩展名",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

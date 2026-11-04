@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the prompt's effort indicator: a change made mid-task now says it may wait for your next message, and the note clears when it no longer applies",
+  "zh": "改进 prompt 的 effort 指示器：任务进行中做出的变更现在会提示可能需要等到你的下一条消息才生效，且该提示在不再适用时清除",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

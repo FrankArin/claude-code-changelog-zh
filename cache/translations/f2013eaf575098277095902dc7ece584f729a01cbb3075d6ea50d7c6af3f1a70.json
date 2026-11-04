@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed missing spinner and Stop button while a queued message's hooks run",
+  "zh": "\\[VSCode] 修复了排队消息的 hooks 运行时缺少加载指示器和停止按钮的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved fork subagents launched together: each is now told which launch is its own, so forks are much less likely to try to start each other's work",
+  "zh": "改进同时启动的 fork subagent：现在会告知每个 subagent 哪次启动属于自己，从而大幅降低 fork 尝试启动彼此工作的可能性",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

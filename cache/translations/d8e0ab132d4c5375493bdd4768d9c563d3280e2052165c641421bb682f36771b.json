@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandbox `denyRead` and `allowRead` globs with braces, parentheses or backslashes in a folder's name being read differently by Claude Code's settings checks than by the sandbox",
+  "zh": "修复了文件夹名称中含花括号、圆括号或反斜杠时，沙箱 `denyRead` 和 `allowRead` glob 被 Claude Code 的设置检查与沙箱以不同方式解读的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

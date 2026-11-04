@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the image coordinate hint being missing or slightly off for large near-square images on newer models",
+  "zh": "修复了较新模型上大型近正方形图片的图片坐标提示缺失或略有偏差的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

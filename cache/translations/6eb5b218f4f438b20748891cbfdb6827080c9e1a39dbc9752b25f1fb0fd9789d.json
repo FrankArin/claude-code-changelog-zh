@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed session group changes that cannot be saved, such as a delete, failing silently; an error notification now appears",
+  "zh": "\\[VSCode] 修复了无法保存的 session 分组变更（如删除）静默失败的问题；现在会显示错误通知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed every tool call being refused on some volumes where the native path lookup fails; the working-directory check now compares the folder's identity instead",
+  "zh": "Windows：修复了在原生路径查找失败的某些卷上所有工具调用都被拒绝的问题；工作目录检查现在改为比较文件夹的身份标识",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

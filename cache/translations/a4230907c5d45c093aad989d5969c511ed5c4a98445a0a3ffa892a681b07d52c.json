@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a running Claude Code process owned by another user (for example one left by `sudo claude`) being treated as dead by version cleanup, which could delete its binary",
+  "zh": "修复了属于其他用户的正在运行的 Claude Code 进程（例如 `sudo claude` 遗留的进程）被版本清理视为已死，从而可能删除其二进制文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

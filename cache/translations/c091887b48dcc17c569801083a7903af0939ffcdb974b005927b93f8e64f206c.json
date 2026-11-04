@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed dictation failing behind a TLS-inspecting proxy when `NODE_EXTRA_CA_CERTS` is set only in `~/.claude/settings.json`; it now also follows `CLAUDE_CODE_CERT_STORE`",
+  "zh": "\\[VSCode] 修复了当 `NODE_EXTRA_CA_CERTS` 仅在 `~/.claude/settings.json` 中设置时，语音输入在 TLS 检查代理后失败的问题；现在它也会遵循 `CLAUDE_CODE_CERT_STORE`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/permissions` review tab, now called Recently blocked: the footer says what Esc will do with marked rows",
+  "zh": "改进 `/permissions` 的审查标签页（现名为 Recently blocked）：页脚说明按 Esc 对已标记行执行的操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

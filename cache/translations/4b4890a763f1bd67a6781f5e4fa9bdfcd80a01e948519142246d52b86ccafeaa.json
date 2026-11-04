@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed bare mode notices in background sessions telling you to restart without `--bare`, which keeps the mode; they now name `/stop` and `claude --resume`, as safe mode ones do",
+  "zh": "修复了后台 session 中的 bare 模式提示要求你在不带 `--bare` 的情况下重启（这会保留该模式）的问题；现在与安全模式一样，提示会指明 `/stop` 和 `claude --resume`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

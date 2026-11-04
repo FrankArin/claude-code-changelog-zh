@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API",
+  "zh": "Claude 应用网关新增共享组预算：在每位成员自身限额之外，为组内成员提供一个共享的月度预算，通过支出限额管理 API 上的 `pooled_budget` 设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

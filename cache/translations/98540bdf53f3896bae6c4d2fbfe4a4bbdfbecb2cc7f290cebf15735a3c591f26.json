@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the /resume picker showing the text of CLAUDE.md or CLAUDE.local.md as a session's title when the session only ran slash commands",
+  "zh": "修复 /resume 选择器在 session 仅运行过斜杠命令时，将 CLAUDE.md 或 CLAUDE.local.md 的文本显示为 session 标题的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cloud sessions hanging when a mod's `session.receive` hook asked for permission before passing a message on",
+  "zh": "修复了当 mod 的 `session.receive` hook 在传递消息前请求权限时，云端 session 挂起的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

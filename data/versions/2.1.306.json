@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "version": "2.1.306",
+  "date": "2026-10-21",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "18d8d0f396122966dc90d68322556d20c4e47e45d13bbd5b9567e9de4a0cc97b",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:52:15+00:00"
+  },
+  "groups": [
+    {
+      "kind": "changed",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.306-other-1",
+          "en": "Fixed `claude -p` inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables",
+          "zh": "修复在云 session 中启动 `claude -p` 时，若未带上该 session 的环境变量，会报“Not logged in”的问题",
+          "hash": "e9bd4e1a035aeeff04d08904856315ed2823f3a52aa2e1634a1c23335e0ac044",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.306-other-2",
+          "en": "Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+          "zh": "修复在包含大量 MCP 工具的 session 中，API 错误被替换为“prompt is too long”，以及发生不必要的上下文压缩的问题",
+          "hash": "1b2cac7fd45cc763492ae8088a914941e10a984dd6d05a2c1523ef178682a436",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "修复云 session 中 claude -p 报未登录，以及 MCP 工具过多时误报 prompt 过长的问题。",
+    "highlights": [
+      {
+        "title": "修复云 session 未登录报错",
+        "category": "修复",
+        "detail": "在云 session 中启动 claude -p 时，若未带上该 session 的环境变量，会误报“Not logged in”；现已修复。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude -p",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.306-other-1"
+        ]
+      },
+      {
+        "title": "修复 MCP 工具过多误报",
+        "category": "修复",
+        "detail": "在包含大量 MCP 工具的 session 中，API 错误曾被替换为“prompt is too long”，并触发不必要的上下文压缩；现已修复。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.306-other-2"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

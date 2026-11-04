@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Workflow resume re-running already-completed `pipeline()` and `parallel()` agents instead of serving them from the run's journal",
+  "zh": "修复了 Workflow 恢复时重新运行已完成的 `pipeline()` 和 `parallel()` agent，而不是从该次运行的日志中读取结果的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a tip for the Explanatory output style, shown when you ask Claude for explanations",
+  "zh": "新增 Explanatory 输出样式的提示，在你要求 Claude 解释时显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

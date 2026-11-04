@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed workflow agents sometimes skipping their step, and the run still reporting success, after reading the harness note that their task text carries no user authority",
+  "zh": "修复 workflow agents 在读到其任务文本不携带用户授权的 harness 说明后，有时跳过其步骤而运行仍报告成功的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

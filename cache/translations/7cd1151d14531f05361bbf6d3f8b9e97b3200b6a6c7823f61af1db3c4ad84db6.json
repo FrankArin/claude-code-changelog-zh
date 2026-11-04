@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables",
+  "zh": "修复在云 session 中启动 `claude -p` 时，若未带上该 session 的环境变量，会报“Not logged in”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:15+00:00"
+}

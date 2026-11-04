@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a notice in Claude Desktop's Code tab when your organization's remote managed settings haven't loaded for the session, and another once they do",
+  "zh": "在 Claude Desktop 的 Code 标签页中新增提示：当组织的远程托管设置在该 session 中尚未加载时显示，加载完成后再次提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

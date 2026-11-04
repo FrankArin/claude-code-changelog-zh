@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a rare case where resuming a conversation did not restore its plan, when `/clear` or `/resume` had been run while part of that conversation was still being saved",
+  "zh": "修复了一个罕见问题：当对话的部分内容仍在保存时运行了 `/clear` 或 `/resume`，恢复该对话时未恢复其计划",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an `allow_large` option to the Read tool so Claude can read a text file past the usual size limits in one call when it needs the whole file and the context has room",
+  "zh": "为 Read 工具新增 `allow_large` 选项，使 Claude 在需要读取整个文件且上下文有余量时，可以在一次调用中读取超出常规大小限制的文本文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

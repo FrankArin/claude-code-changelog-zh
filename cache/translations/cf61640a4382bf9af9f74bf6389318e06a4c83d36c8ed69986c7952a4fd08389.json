@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed variables a `Setup` hook writes to `CLAUDE_ENV_FILE` not reaching the Bash tool in some cloud sessions",
+  "zh": "修复了 `Setup` hook 写入 `CLAUDE_ENV_FILE` 的变量在某些云 session 中无法传递给 Bash 工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

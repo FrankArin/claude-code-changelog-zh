@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed flagged requests to retry on another model, not end in a refusal, when `ANTHROPIC_DEFAULT_OPUS_MODEL`, `availableModels` or `deniedModels` leaves only an older Opus model, or none",
+  "zh": "变更被标记的请求：当 `ANTHROPIC_DEFAULT_OPUS_MODEL`、`availableModels` 或 `deniedModels` 仅剩较旧的 Opus 模型或没有可用模型时，改为在其他模型上重试，而不是以拒绝结束",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

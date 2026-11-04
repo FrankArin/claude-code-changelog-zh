@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Artifact tool reporting a spurious one-line difference against the live page, and refusing the publish, when a large page with a line break after `<head>` is published again unchanged",
+  "zh": "修复了在 `<head>` 之后带换行的大型页面原样再次发布时，Artifact 工具对线上页面报告虚假的一行差异并拒绝发布的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed feature flag, startup, fast mode, profile and feedback requests to Anthropic carrying the API key configured for a third-party gateway (`ANTHROPIC_BASE_URL`); Anthropic API keys are still sent",
+  "zh": "修复了发往 Anthropic 的功能开关、启动、快速模式、profile 和反馈请求携带为第三方网关（`ANTHROPIC_BASE_URL`）配置的 API key 的问题；Anthropic API key 仍会发送",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

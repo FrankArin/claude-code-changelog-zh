@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed photos sent over Remote Control being dropped when their copy could not be saved on your computer; Claude now still sees the photo",
+  "zh": "修复了通过远程控制发送的照片在其副本无法保存到你的计算机上时被丢弃的问题；Claude 现在仍能看到该照片",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

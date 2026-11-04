@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Claude apps gateway's start-up warning for a deprecated Claude Desktop key that it still serves as written saying \"stops being accepted\" after the key's end date",
+  "zh": "修复 Claude 应用网关针对已弃用 Claude Desktop 密钥的启动警告在密钥结束日期之后仍按原文显示“stops being accepted”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

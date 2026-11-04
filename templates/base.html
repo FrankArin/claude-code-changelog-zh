@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f2328'/%3E%3Ctext x='16' y='21' font-family='sans-serif' font-size='11' font-weight='700' text-anchor='middle' fill='%23faf8f5'%3ECC%3C/text%3E%3C/svg%3E">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}">
+  <link rel="canonical" href="{{ canonical }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:site_name" content="{{ site_name }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site_name }} RSS" href="{{ url('/rss.xml') }}">
+  <link rel="stylesheet" href="{{ url('/assets/style.css') }}">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme');
+        if (theme) document.documentElement.dataset.theme = theme;
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body data-base="{{ site_base }}" data-lang="zh">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ url('/') }}">
+        <span class="brand-mark">CC</span>
+        <span class="brand-text">Claude Code 中文日志</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="{{ url('/') }}">首页</a>
+        <a href="{{ url('/archive/') }}">归档</a>
+        <a href="{{ url('/glossary/') }}">术语表</a>
+        <a href="{{ url('/about/') }}">关于</a>
+        <a href="{{ url('/rss.xml') }}">RSS</a>
+      </nav>
+      <button id="theme-toggle" class="icon-button" type="button" aria-label="切换深浅色主题">主题</button>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>非官方社区项目，不隶属 Anthropic，也未获其背书。英文原文为准。</p>
+      <p>数据来源：<a href="https://code.claude.com/docs/en/changelog" rel="noopener noreferrer">Claude Code changelog</a>。构建时间：{{ build_time }}。</p>
+    </div>
+  </footer>
+
+  <script src="{{ url('/assets/app.js') }}" defer></script>
+</body>
+</html>

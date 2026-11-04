@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an emoji that a link starts inside wrapping one column too wide, which hid it in question previews and turned tables into lists",
+  "zh": "修复了链接开头处的 emoji 换行时多占一列宽度，导致其在问题预览中被隐藏并使表格变成列表的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

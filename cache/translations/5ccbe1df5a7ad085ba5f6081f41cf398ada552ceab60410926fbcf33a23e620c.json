@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude --from-pr` reporting \"No conversations found\" in projects with many sessions when the linked session was older than the first page",
+  "zh": "修复在 session 较多的项目中，当关联 session 早于第一页时 `claude --from-pr` 报告“No conversations found”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

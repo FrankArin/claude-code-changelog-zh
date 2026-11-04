@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandbox glob `allowRead` and `allowWrite` entries not being re-checked when the directory they start from is replaced by a symlink",
+  "zh": "修复了沙箱 glob 的 `allowRead` 和 `allowWrite` 条目在其起始目录被符号链接替换时未被重新检查的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

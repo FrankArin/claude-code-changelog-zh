@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "version": "2.1.312",
+  "date": "2026-10-27",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "80b2d1f4613f23fe1438a3bf783cf6c70754886e279388e46248b1a6797fed19",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:50:07+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.312-added-1",
+          "en": "Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id\\_token claim other than `sub`, such as Microsoft Entra ID's `oid`",
+          "zh": "在 Claude 应用网关中新增 `oidc.user_id_claim`，用于通过 `sub` 以外的 id\\_token 声明识别用户，例如 Microsoft Entra ID 的 `oid`",
+          "hash": "f73f5f6e4a2f77aa3c76e1957f8f7943ca1f05a09f4140ff5c4f439818703443",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-added-2",
+          "en": "Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does",
+          "zh": "新增点击发送：在全屏模式下，点击排队消息下方的“立即发送”提示即可立即发送该消息，效果与按对应按键相同",
+          "hash": "fe7941fd31663b0bf1968e3cb02b41a819d49919f63e239e73af2085bbf19317",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-added-3",
+          "en": "\\[Cloud sessions] Added an effort level to the model picker when you create or edit a routine that runs in the cloud",
+          "zh": "\\[Cloud sessions] 在创建或编辑云端运行的例程时，模型选择器中新增 effort 级别",
+          "hash": "6d6bdf2554713d94ba4d40794e6c93effa8ab0e89c3a9e63a23e43c5d7243472",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-added-4",
+          "en": "\\[Cloud sessions] Added a Bash editor with colors, line numbers and a Copy button to the setup script box in cloud environment settings",
+          "zh": "\\[Cloud sessions] 在云环境设置的 setup script 输入框中新增带颜色、行号和 Copy 按钮的 Bash 编辑器",
+          "hash": "fa9ac9ed341f805bb8bf88fb175f75e78e6f6f387746da305e14af6d2281df71",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.312-changed-5",
+          "en": "Changed Bedrock, Vertex, Foundry and Mantle to use the shorter system prompt for model names Claude Code doesn't recognize, such as custom deployment names and inference profile ARNs, even when they front Sonnet or Haiku; set `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` to keep the full prompt",
+          "zh": "变更 Bedrock、Vertex、Foundry 和 Mantle，对 Claude Code 无法识别的模型名称（例如自定义部署名称和推理配置文件 ARN）使用更短的系统 prompt，即使它们背后是 Sonnet 或 Haiku；设置 `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` 可保留完整 prompt",
+          "hash": "a5469757e5eaf7fc589767adf93ae187ac837cd020fa9f9146f28c2148832467",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-6",
+          "en": "Changed automatic model switches after a flagged message to also cover model names Claude Code doesn't recognize, such as custom deployment names; set `CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK=1` to turn them off",
+          "zh": "变更在消息被标记后触发的自动模型切换，使其也覆盖 Claude Code 无法识别的模型名称（例如自定义部署名称）；设置 `CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK=1` 可关闭该切换",
+          "hash": "06815e0e8840264ded6ab37ad0300ff2d96768a052b29f191970882be9d156d9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-7",
+          "en": "Changed usage limit messages to call the 5-hour window the \"5-hour limit\" instead of the \"session limit\"",
+          "zh": "变更用量限制消息，将 5 小时窗口称为“5-hour limit”而非“session limit”",
+          "hash": "04be4cbeb807d3c3a660ea68abf81c8f5fe0e9f177806f369a12815935f270e8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-8",
+          "en": "Changed cloud sessions started from the CLI to get their names and branch names from the server",
+          "zh": "变更从 CLI 启动的 cloud sessions，使其名称和分支名由服务器提供",
+          "hash": "a1026f16eb068301383f70b2f778edeb67bac4d913bccb60dd39a30e691d0919",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-9",
+          "en": "Changed prompt and agent hooks to run at most 24 at a time per session, sub-agents included, plus at most 12 that have waited longer than their event's timeout; a `timeout` under 1 second now counts as 1 second",
+          "zh": "变更 prompt 和 agent hooks，使其每个 session 最多同时运行 24 个（含 sub-agents），外加最多 12 个等待时间超过其事件超时的 hook；小于 1 秒的 `timeout` 现在按 1 秒计",
+          "hash": "eca145fd53153ca8816432d43945370a97220fedc2fb236ccd1e7530a2932b50",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-10",
+          "en": "Changed a subagent's `autoCompactWindow` to lower the window set by `CLAUDE_CODE_AUTO_COMPACT_WINDOW`, where it had no effect before; it still never raises that window",
+          "zh": "变更 subagent 的 `autoCompactWindow`，使其可降低由 `CLAUDE_CODE_AUTO_COMPACT_WINDOW` 设置的窗口（此前无效）；它仍然不会提高该窗口",
+          "hash": "81d375011eb059e085d862c4c2dc008b14dd5ce862345bd0b3374a9c7f96168e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-11",
+          "en": "Changed OpenTelemetry `mcp_server.name` to report the real name of fixed-URL remote MCP servers declared by plugins from the official Anthropic marketplace, instead of `custom`",
+          "zh": "变更 OpenTelemetry `mcp_server.name`，对由官方 Anthropic marketplace 的 plugins 声明的固定 URL 远程 MCP 服务器，报告其真实名称而非 `custom`",
+          "hash": "2bd95f634bfc1947a13a842b61abe0c16784e73c976f7727003aa68742858d4d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-12",
+          "en": "Changed Claude Code to stop sending the `claude_code.safety_event` OpenTelemetry event",
+          "zh": "变更 Claude Code，使其不再发送 `claude_code.safety_event` OpenTelemetry 事件",
+          "hash": "135945e1bd62a2abe8714bef8f2da5eaa7bb05b3f83218a68046a077667da638",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-changed-13",
+          "en": "\\[VSCode] Changed usage limit resets to show a clock time (\"Resets at 3:10 PM\") and to say \"5-hour limit\"",
+          "zh": "\\[VSCode] 变更用量限制重置的显示方式，改为显示具体时间（“Resets at 3:10 PM”）并说明为“5-hour limit”",
+          "hash": "55c010a5cdd6241a54e5dd9a4cab830fc130f77647e03a2f00c05244afcd38eb",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "Improved",
+      "heading_zh": "改进",
+      "items": [
+        {
+          "id": "2.1.312-other-14",
+          "en": "Improved the prompt's effort indicator: a change made mid-task now says it may wait for your next message, and the note clears when it no longer applies",
+          "zh": "改进 prompt 的 effort 指示器：任务进行中做出的变更现在会提示可能需要等到你的下一条消息才生效，且该提示在不再适用时清除",
+          "hash": "c5282bb7db5892ee97a4bafd82db85242fdf4b701beeefaad8b4856e229fc486",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-other-15",
+          "en": "Improved WebFetch errors in cloud sessions: a host that does not resolve is now explained as possibly outside the allowed network domains, so Claude names the host to allow",
+          "zh": "改进 cloud sessions 中的 WebFetch 错误：无法解析的主机现在会说明可能不在允许的网络域名范围内，以便 Claude 指出需要允许的主机",
+          "hash": "fe0c6ed4cf9e0c3ec3f4661eee187283e92e217b859c87604cf34712349f4620",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-other-16",
+          "en": "\\[Cloud sessions] Improved the step shown when Claude adds a repository to a cloud session: opening it now shows a short table of what happened instead of raw JSON",
+          "zh": "\\[Cloud sessions] 改进 Claude 向 cloud session 添加仓库时显示的步骤：展开后显示简短的事件表格，而非原始 JSON",
+          "hash": "04dd2f7fe4b6be234ca09d9f58a77305a766207839209592bd27a09a998a1f88",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-other-17",
+          "en": "\\[Claude Tag] Improved Claude Tag's retry notice in Slack to name the model in use, or say rate limits were hit, instead of a generic API error",
+          "zh": "\\[Claude Tag] 改进 Claude Tag 在 Slack 中的重试提示，改为说明所用模型或提示触发了速率限制，而非笼统的 API 错误",
+          "hash": "e96ab80eb8ba23daf4ea9b765087dbd64bbb2bff4c3384b9a68610e9637ab29e",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "22 bug fixes",
+      "heading_zh": "22 项修复",
+      "items": [
+        {
+          "id": "2.1.312-fixes-18",
+          "en": "Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from the VS Code extension",
+          "zh": "修复从 VS Code 扩展登录后，本次 session 剩余时间内无法获取托管设置和组织策略的问题",
+          "hash": "b1f2ba222886930ff292e594922ff64b5e4ff9fbad3aa37c386a1296b81359c0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-19",
+          "en": "Fixed Claude overwriting a very large CLAUDE.md, rules file or @-included file in a subdirectory after seeing only its start; Write now asks Claude to read it all or edit in place",
+          "zh": "修复 Claude 在仅看到子目录中超大 CLAUDE.md、规则文件或 @ 引用文件开头的情况下将其覆盖的问题；Write 现在会要求 Claude 读取全文或就地编辑",
+          "hash": "496eceaef14b2f1e1d4e3627d28e57645f79d9754ded707ada52680ec4612e91",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-20",
+          "en": "Fixed per-directory and `paths:` skills not being found after a Bash `cd` deeper into a git repository",
+          "zh": "修复在 git 仓库中通过 Bash `cd` 进入更深目录后，无法找到按目录和 `paths:` 配置的 skills 的问题",
+          "hash": "8e8b07b772466975c92fb54d7be4aa41f5f32336dd9851db239a89c697647fda",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-21",
+          "en": "Fixed a rare case where the first reply after resuming a session in the terminal could be missing the next time the session was resumed",
+          "zh": "修复了一个罕见问题：在终端中恢复 session 后的首次回复，在下次恢复该 session 时可能缺失",
+          "hash": "0a1e9a67d483d5563901cd7ff1a7ffb8f2b294076f3952f8280e36c161f5bc42",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-22",
+          "en": "Fixed a command with an invalid name stopping all commands from loading, which could leave `claude -p` with no output",
+          "zh": "修复了名称无效的命令导致所有命令无法加载的问题，该问题可能使 `claude -p` 没有任何输出",
+          "hash": "5c64c8eb19a1352ae4d5754b956b2e71af313314acba28e06817cde4e999ad8b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-23",
+          "en": "Fixed the Read tool sometimes failing on PDF pages with \"pdftoppm failed: Could not write image\" when the clean-up of old session files ran at the same time",
+          "zh": "修复了清理旧 session 文件与 Read 工具同时运行时，Read 工具有时在 PDF 页面上失败并报 \"pdftoppm failed: Could not write image\" 的问题",
+          "hash": "e9b14820d54817731777938a30170d98dd4bae1ecf7483540b904f08f3201016",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-24",
+          "en": "Fixed the spinner, OpenTelemetry `effort` values and transcripts naming a newly picked effort level during a task before the model applied it; they now show the level in force",
+          "zh": "修复了任务进行中新选择的 effort 级别在模型应用之前就被 spinner、OpenTelemetry `effort` 值和转录记录提前采用的问题；现在它们显示实际生效的级别",
+          "hash": "709fd417da2df734f3ddb5bd961fcc44f00be9e9206e4e12db2f47e86830e3ad",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-25",
+          "en": "Fixed the `/model` and `/effort` cache warning saying the re-read waits for your next message; a change made while Claude is working can trigger it sooner",
+          "zh": "修复了 `/model` 和 `/effort` 缓存警告称重新读取需等待你的下一条消息的问题；在 Claude 工作期间所做的更改可以更早触发重新读取",
+          "hash": "588b55e14c8de14c183ad69b26c43cbc6584e80f5064c07bd0fe0f39d7a75c16",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-26",
+          "en": "Fixed some sessions showing as waiting on you when the last message only mentioned items waiting on you mid-sentence",
+          "zh": "修复了某些 session 在最后一条消息只是在句子中间提到有待你处理的事项时，被显示为正在等待你处理的问题",
+          "hash": "25c1b0fa851ede328f3e7bd651ff28978af9bc0ad2aa9a26b308a65951a974a4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-27",
+          "en": "Fixed agent view restoring input text on the next launch after it was cleared with Ctrl+C just before exiting",
+          "zh": "修复了 agent 视图在退出前刚用 Ctrl+C 清空输入文本后，下次启动时又恢复该文本的问题",
+          "hash": "22e3cc3797c87a071de94be7ebeacf963b2c2385a519464fd174bd0e6dddc1c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-28",
+          "en": "Fixed agent view reopening in shell mode after exiting with Ctrl+D from an empty `!` input",
+          "zh": "修复了 agent 视图在空的 `!` 输入中用 Ctrl+D 退出后，重新打开时处于 shell 模式的问题",
+          "hash": "433f9243a9e8941f74421bd89a8ab684a0efb508ebde98f9f96844c08479f609",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-29",
+          "en": "Fixed vim mode `d`, `c` and `y` with a `gj` or `gk` count larger than the lines left deleting or copying text; like Vim, they now only move the cursor",
+          "zh": "修复了 vim 模式下 `d`、`c`、`y` 搭配大于剩余行数的 `gj` 或 `gk` 计数时会删除或复制文本的问题；现在与 Vim 一致，只移动光标",
+          "hash": "c23827f4cf5b4582480b3c923ab7b9a76fb0c57b08dd50fd9bae44b1237b3a94",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-30",
+          "en": "Fixed `/verify` showing a long description meant for Claude in `/help` and the `/` command menu instead of a short one",
+          "zh": "修复了 `/verify` 在 `/help` 和 `/` 命令菜单中显示的是面向 Claude 的长描述而非简短描述的问题",
+          "hash": "7fb6b5c1d850d8f92a7e9bea7b1fba4a73a712893730c809615e0283cf0a6b93",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-31",
+          "en": "\\[VSCode] Fixed sessions ending on a bare exit code when your organization's settings couldn't be loaded or were refused at startup; the tab now says why and offers Retry or Sign in again",
+          "zh": "\\[VSCode] 修复了启动时无法加载你组织的设置或加载被拒绝时，session 仅以退出码结束的问题；现在标签页会说明原因，并提供重试或重新登录",
+          "hash": "a1b24538e1ec9fc1a229c4d72abdd24e0f6131b95b629295497c67fa943d19a8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-32",
+          "en": "\\[Cloud sessions] Fixed resending an unchanged message after a failed send in a cloud session sometimes running it twice",
+          "zh": "\\[Cloud sessions] 修复了云 session 中发送失败后重新发送未更改的消息时，有时会执行两次的问题",
+          "hash": "39e18382ce417be28d890f4a26123162bd4408eba2890fa41c0ecd1439f1be67",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-33",
+          "en": "\\[Cloud sessions] Fixed a failed cloud environment creation showing its error only as a toast outside the open dialog; it now appears inside the dialog",
+          "zh": "\\[Cloud sessions] 修复了云环境创建失败时，错误仅以 toast 形式显示在已打开对话框之外的问题；现在错误会显示在对话框内",
+          "hash": "fd504f6e7bb04d3d8a65150f9781fd67b3bfd448db42584546b938ec301140cd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-34",
+          "en": "\\[Cloud sessions] Fixed Edit in a routine's menu on the Routines page going to the routine's page without opening its edit dialog",
+          "zh": "\\[Cloud sessions] 修复了 Routines 页面上例程菜单中的 Edit 会跳转到例程页面而不打开其编辑对话框的问题",
+          "hash": "029efec6da9c0b68440c30cdd2c3cdcb3c6f5187f04ece5f3cbfee8b89868059",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-35",
+          "en": "\\[Remote Control] Fixed an unarchived Remote Control session showing as working until a computer reconnected; it now shows as idle",
+          "zh": "\\[Remote Control] 修复了未归档的 Remote Control session 在计算机重新连接之前一直显示为工作中状态的问题；现在显示为空闲",
+          "hash": "96c15186e8dc43cfd1109db946f70ef4618373c684372f35f4e429ffd5c1aa43",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-36",
+          "en": "\\[Claude Tag] Fixed a Claude Tag channel's on/off switch and agent settings falling back to workspace defaults when an older private Slack channel goes public and gets a new ID",
+          "zh": "\\[Claude Tag] 修复了较旧的私有 Slack 频道转为公开并获得新 ID 时，Claude Tag 频道的开关和 agent 设置回退到工作区默认值的问题",
+          "hash": "377c6f94a690a8efba0d891a2a211f2b02ad11b3f7c7b3d66c492041ee8164f1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-37",
+          "en": "\\[Claude Tag] Fixed Claude in Slack not replying in channels whose environment has network access set to None",
+          "zh": "\\[Claude Tag] 修复了 Slack 中的 Claude 在环境网络访问设置为 None 的频道中不回复的问题",
+          "hash": "b62b922c91571245f3b1c21a85b9ace2b4189e0d078fde9b01ea526e7c71cb01",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-38",
+          "en": "\\[Claude Tag] Fixed Claude in Slack sometimes posting a file in the wrong thread when it was answering in another thread of the same channel",
+          "zh": "\\[Claude Tag] 修复了 Slack 中的 Claude 在同一频道的另一个线程中回答时，有时把文件发到错误线程的问题",
+          "hash": "7c5a863a03a3952238078ccad6c6f4114d8e981caa0cf0ce93737a65edf8afff",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.312-fixes-39",
+          "en": "\\[Code Review] Fixed Code Review reviewing an outdated commit, or none at all, when GitHub delivered a push event late; it now reviews the pull request's current commit",
+          "zh": "\\[Code Review] 修复了 GitHub 延迟投递 push 事件时，Code Review 审查过期提交或完全不审查的问题；现在会审查拉取请求的当前提交",
+          "hash": "4aca9802d0f07ae9e7fe6401434773f51a4273ec1e50e8713746a41410bf9154",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增 OIDC 用户声明与点击发送，改进云会话与 hook 并发，修复多项稳定性问题。",
+    "highlights": [
+      {
+        "title": "网关支持自定义用户声明",
+        "category": "新功能",
+        "detail": "Claude 应用网关新增 oidc.user_id_claim，可用 sub 以外的 id_token 声明识别用户，适配 Microsoft Entra ID 等身份提供方。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.312-added-1"
+        ]
+      },
+      {
+        "title": "全屏模式点击发送排队消息",
+        "category": "新功能",
+        "detail": "全屏模式下点击排队消息下方的“立即发送”提示即可立即发送，效果与按对应按键相同。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.312-added-2"
+        ]
+      },
+      {
+        "title": "未知模型改用短系统提示",
+        "category": "改进",
+        "detail": "Bedrock、Vertex、Foundry 和 Mantle 上无法识别的模型名（如自定义部署名）默认使用更短系统提示，可能影响输出质量。",
+        "action": "如需保留完整系统提示，设置 CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0",
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0",
+          "caption": "保留完整系统提示"
+        },
+        "item_ids": [
+          "2.1.312-changed-5"
+        ]
+      },
+      {
+        "title": "hook 并发与超时限制调整",
+        "category": "改进",
+        "detail": "每个 session 最多同时运行 24 个 prompt/agent hook（含 sub-agents），另有最多 12 个超时等待；小于 1 秒的 timeout 按 1 秒计。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.312-changed-9"
+        ]
+      },
+      {
+        "title": "修复大文件被截断覆盖",
+        "category": "修复",
+        "detail": "Claude 仅看到超大 CLAUDE.md、规则文件或 @ 引用文件开头时不再覆盖，Write 会要求先读全文或就地编辑。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.312-fixes-19"
+        ]
+      },
+      {
+        "title": "修复命令加载与登录策略问题",
+        "category": "修复",
+        "detail": "无效命令名不再导致所有命令加载失败（曾使 claude -p 无输出）；VS Code 扩展登录后也能正常获取托管设置和组织策略。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude -p",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.312-fixes-22",
+          "2.1.312-fixes-18"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

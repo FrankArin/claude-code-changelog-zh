@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed WebFetch and WebSearch hanging on a stalled response in Cowork cloud sessions; an unfinished request now fails after 300 seconds",
+  "zh": "修复了 Cowork 云端 session 中 WebFetch 和 WebSearch 因响应停滞而挂起的问题；未完成的请求现在会在 300 秒后失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

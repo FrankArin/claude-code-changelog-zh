@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed screen reader mode: search boxes now say \"Search:\" instead of a symbol VoiceOver read as \"telephone recorder\", and highlighted prompt text, such as Ctrl+R search matches and \"ultrathink\", no longer has spaces inside words",
+  "zh": "修复了屏幕阅读器模式：搜索框现在会读出“Search:”，而不是 VoiceOver 读作“telephone recorder”的符号；高亮的 prompt 文本（如 Ctrl+R 搜索匹配项和“ultrathink”）不再在单词内部出现空格",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id\\_token claim other than `sub`, such as Microsoft Entra ID's `oid`",
+  "zh": "在 Claude 应用网关中新增 `oidc.user_id_claim`，用于通过 `sub` 以外的 id\\_token 声明识别用户，例如 Microsoft Entra ID 的 `oid`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugins and skills synced from claude.ai being removed, sometimes mid-session, after a disk read error",
+  "zh": "修复从 claude.ai 同步的 plugin 和 skill 在磁盘读取错误后被移除（有时发生在 session 中途）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

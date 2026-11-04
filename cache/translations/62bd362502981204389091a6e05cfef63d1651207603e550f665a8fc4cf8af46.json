@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a tampered cache of server-managed settings making a person's own plugin count as organization-managed on machines whose managed settings list or enable plugins",
+  "zh": "修复了在托管设置中列出或启用 plugin 的机器上，被篡改的服务器托管设置缓存会将个人自己的 plugin 视为组织托管的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

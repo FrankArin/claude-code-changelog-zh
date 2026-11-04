@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions compacting repeatedly after reading files under a very large nested CLAUDE.md; a nested CLAUDE.md over the size limit now loads only its start",
+  "zh": "修复了读取超大嵌套 CLAUDE.md 下的文件后 session 反复进行上下文压缩的问题；超过大小限制的嵌套 CLAUDE.md 现在只加载开头部分",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

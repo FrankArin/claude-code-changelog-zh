@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added a Skills view to Claude Tag analytics showing how often Claude runs each attached skill in Slack channels and which go unused, with Usage links in admin settings",
+  "zh": "\\[Claude Tag] 在 Claude Tag 分析中新增 Skills 视图，显示 Claude 在 Slack 频道中运行每个已附加 skill 的频率以及哪些未被使用，并在管理设置中提供 Usage 链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

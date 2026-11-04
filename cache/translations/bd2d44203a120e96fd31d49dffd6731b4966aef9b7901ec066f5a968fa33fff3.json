@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed a message you send while Claude is still replying in a cloud session jumping above that reply when it finishes; it now stays below it, including after a reload",
+  "zh": "\\[Cloud sessions] 修复在 cloud session 中 Claude 仍在回复时发送的消息在该回复完成后跳到其上方的问题；现在该消息保持在其下方，重新加载后也是如此",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

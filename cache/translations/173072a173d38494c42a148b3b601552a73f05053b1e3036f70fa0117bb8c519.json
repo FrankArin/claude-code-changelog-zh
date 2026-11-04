@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed key-bound slash commands running in the shell from `!` mode",
+  "zh": "修复了绑定按键的斜杠命令在 `!` 模式下于 shell 中运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

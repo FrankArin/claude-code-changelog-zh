@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved mods: in VS Code and the desktop and mobile apps, a tree drawn above the question dialog can now hold Markdown and up to 48 rows; the terminal keeps 12 plain rows",
+  "zh": "改进 mods：在 VS Code 以及桌面应用和移动端应用中，问题对话框上方绘制的树现在可包含 Markdown 和最多 48 行；终端仍保持 12 行纯文本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

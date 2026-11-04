@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude plugin test` to fail a call to a mod's served `$` method that has not answered within ten seconds, as a session does",
+  "zh": "变更 `claude plugin test`：调用 mod 提供的 `$` 方法若十秒内未响应即判定失败，与 session 的行为一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

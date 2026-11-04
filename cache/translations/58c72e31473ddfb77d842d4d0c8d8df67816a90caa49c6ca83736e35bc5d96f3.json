@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude in Slack sometimes answering a direct message with \"DMs are temporarily unavailable\" and dropping it when a single Slack lookup stalled; it now retries first",
+  "zh": "\\[Claude Tag] 修复了当单次 Slack 查询卡住时，Slack 中的 Claude 有时以 \"DMs are temporarily unavailable\" 回复私信并丢弃该消息的问题；现在会先重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

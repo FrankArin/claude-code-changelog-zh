@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the /rewind confirmation saying the conversation \"will be forked\" when the later messages are removed from the conversation",
+  "zh": "修复了 /rewind 确认提示在后续消息被从对话中移除时却称对话“will be forked”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

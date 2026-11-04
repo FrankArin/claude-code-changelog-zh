@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the reliability of git commits and pull request creation when the Bash tool runs macOS's built-in `/bin/bash`",
+  "zh": "改进了 Bash 工具运行 macOS 内置 `/bin/bash` 时 git 提交和拉取请求创建的可靠性",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

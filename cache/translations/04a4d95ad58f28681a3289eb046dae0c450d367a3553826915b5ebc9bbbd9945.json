@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed vim mode `aw` and `iw` taking the line break at the end of a line",
+  "zh": "修复 vim 模式下 `aw` 和 `iw` 会包含行尾换行符的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/usage` warnings for max effort, workflows, always-on context and large tool results",
+  "zh": "新增 `/usage` 警告，涵盖最大 effort、工作流、常驻上下文和大型工具结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

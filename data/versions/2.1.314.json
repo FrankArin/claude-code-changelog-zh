@@ -1,0 +1,951 @@
+{
+  "schema_version": 1,
+  "version": "2.1.314",
+  "date": "2026-10-30",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "8dd9fe58ac9ca820437a636cd80833603c50c7eeaafd20f843a31173598cf4d3",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:49:46+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.314-added-1",
+          "en": "Added `permissions.blockWritesOutsideWorkingDirectories`: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode",
+          "zh": "新增 `permissions.blockWritesOutsideWorkingDirectories`：在所有权限模式下，Write、Edit 和 NotebookEdit 都会拒绝工作目录之外的路径",
+          "hash": "133a01434eca0aa72e363056507d1f66ad26766541e3473adcc8c41ddaf168bf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-added-2",
+          "en": "Added an optional `groups` list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too",
+          "zh": "为 Claude 应用网关上游新增可选的 `groups` 列表：只有属于所列 IdP 组的开发者才会被路由到该上游，故障转移时同样如此",
+          "hash": "0fac014cc877a7254416cd35324b06afdc7e19ce4ad873cbc07aea6b43191d5f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-added-3",
+          "en": "Added `guardrail_trace` to Claude apps gateway Bedrock upstreams, to log which Amazon Bedrock guardrail filter fired on a request, without the matched text",
+          "zh": "为 Claude 应用网关的 Bedrock 上游新增 `guardrail_trace`，用于记录请求触发了哪个 Amazon Bedrock 护栏过滤器，但不记录匹配到的文本",
+          "hash": "418d1dd67440a054c8a3e703c39d4e97f11d00ea8b0278b392b9b1fd21b8dd43",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-added-4",
+          "en": "Added idle compaction to VS Code and Claude Desktop's Code tab: a 200K+ token conversation left idle is summarized, and the summary is used on your next message if the prompt cache has expired",
+          "zh": "为 VS Code 和 Claude Desktop 的 Code 标签页新增空闲上下文压缩：闲置的 200K+ token 对话会被摘要，若 prompt 缓存已过期，下一条消息将使用该摘要",
+          "hash": "cb32d82b0f1383d2357e879e60cceac5589125760977fd04de1e3bec35d28dd3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-added-5",
+          "en": "\\[Cloud sessions] Added an Include completed button to the Scheduled tasks page when finished one-off tasks are the only ones hidden, so you can show them without opening the Sort menu",
+          "zh": "\\[Cloud sessions] 在计划任务页面新增“包含已完成”按钮：当仅隐藏了已完成的一次性任务时，无需打开排序菜单即可显示它们",
+          "hash": "11d5f0725bd5ecfd857451aae6d2ad321fc3c3001c666672b0cce367a76366de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-added-6",
+          "en": "\\[Claude Tag] Added a dismissible link to the Claude Tag API docs on the Bundles and Channels tabs in admin settings, for Enterprise organizations with Slack connected",
+          "zh": "\\[Claude Tag] 在管理设置的 Bundles 和 Channels 标签页新增可关闭的 Claude Tag API 文档链接，面向已连接 Slack 的 Enterprise 组织",
+          "hash": "eaeb55546c43bc3deefd8a0b9e4e2e610fdac17cabd5736ce04fab8de65a447f",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.314-changed-7",
+          "en": "Updated the `/claude-api` skill: its Datadog setup for API tracing now sends the `dd-llmobs-enabled: true` header, as the Console does, and its `ant` install instructions drop the outdated macOS `xattr` step",
+          "zh": "更新 `/claude-api` skill：其用于 API 追踪的 Datadog 配置现在会像 Console 一样发送 `dd-llmobs-enabled: true` 请求头，其 `ant` 安装说明移除了过时的 macOS `xattr` 步骤",
+          "hash": "438dbd2c4fafe59ee49b2a50fae09d69dd6a3a46775a1bdcb36f00444094b274",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-8",
+          "en": "Updated the bundled dataviz skill to advise printing y-axis tick labels in full under 10,000, and horizontal ones in full under a million where they fit",
+          "zh": "更新内置 dataviz skill：建议在数值低于 10,000 时完整打印 y 轴刻度标签，在低于一百万且空间允许时完整打印水平刻度标签",
+          "hash": "bfbe8251c7d6fc3d24417a6f0fe809fe5c5b44e2e0d006abe59287cfc39868ed",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-9",
+          "en": "Updated the bundled dataviz skill to answer donut and pie chart requests with ranked bars or a segmented bar that prints its values",
+          "zh": "更新内置 dataviz skill：对于环形图和饼图请求，改用排序条形图或带数值标注的分段条形图来回答",
+          "hash": "5a0b4ec88a093722669acaff65fe45700364ce0a592100875ecb89fa244c2137",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-10",
+          "en": "Changed Claude's file tools to ask before editing the local copy of your organization's server-managed settings, as they do for your settings files",
+          "zh": "变更 Claude 的文件工具：在编辑组织服务器托管设置的本地副本前会先询问，与处理你的设置文件时一致",
+          "hash": "838398dadd7400a83423197382359a82d8d6fcc925081b70f4ab44f1827c7a64",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-11",
+          "en": "Changed `/ultrareview` to check workspace trust before it runs git, as `claude ultrareview` does",
+          "zh": "变更 `/ultrareview`：运行 git 前会先检查工作区信任，与 `claude ultrareview` 一致",
+          "hash": "215c50f66ee6cc26bef15399c908f5f3adb9b819cdb818d35351082e1baf0e57",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-12",
+          "en": "Changed the Bash tool's shell to clear any inherited `which` alias or function and to stop passing exported `which`/`unsetenv` functions to commands, so `which` is the system command or zsh builtin",
+          "zh": "变更 Bash 工具的 shell：清除继承的 `which` 别名或函数，并停止向命令传递导出的 `which`/`unsetenv` 函数，使 `which` 为系统命令或 zsh 内建命令",
+          "hash": "24fba4c0681a23be9f5008180a7c249dd25b95a2c87bde6d990be5fd3f833a40",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-13",
+          "en": "Changed `/permissions` Recently blocked to refuse approving a call you can't read in full, including one the terminal is too short to show",
+          "zh": "变更 `/permissions` 的“最近被阻止”：拒绝批准无法完整阅读的调用，包括终端高度不足而无法显示的调用",
+          "hash": "8346c044fbd65b6bb936cd2d77973db434f38929d381ee35b4f9ffc03e3181bb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-14",
+          "en": "Changed auto mode in Cowork cloud sessions: a hook's allow of an MCP tool call now counts as no answer, so the classifier or a permission prompt decides",
+          "zh": "变更 Cowork 云 session 中的自动模式：hook 对 MCP 工具调用的允许现在视为无答复，由分类器或权限提示决定",
+          "hash": "30a733b6ec3f44219e619b6b4d8cad73c0335ce295f3754a2cac3cd330ee656e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-15",
+          "en": "Changed hook `if` conditions such as `Monitor(tail *)` to match the Monitor tool's shell commands as `Bash(tail *)` matches Bash's",
+          "zh": "变更 hook 的 `if` 条件（如 `Monitor(tail *)`）：现在像 `Bash(tail *)` 匹配 Bash 那样匹配 Monitor 工具的 shell 命令",
+          "hash": "7d9af817ffa035b24fe6bef9c777496f909db59390b1e47cb3a58b34109bea30",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-16",
+          "en": "Changed the `claude-api` skill to ask to read a Managed Agents workflow run's workflow before changing the agent to improve that run",
+          "zh": "变更 `claude-api` skill：在修改 agent 以改进 Managed Agents 工作流运行时，会先请求读取该运行的 workflow",
+          "hash": "5e92bcf1ae6cd729bb8e93ec22a2045c0e4ac6435dc30ca1aacae2820a6b8d51",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-17",
+          "en": "Changed flagged requests to retry on another model, not end in a refusal, when `ANTHROPIC_DEFAULT_OPUS_MODEL`, `availableModels` or `deniedModels` leaves only an older Opus model, or none",
+          "zh": "变更被标记的请求：当 `ANTHROPIC_DEFAULT_OPUS_MODEL`、`availableModels` 或 `deniedModels` 仅剩较旧的 Opus 模型或没有可用模型时，改为在其他模型上重试，而不是以拒绝结束",
+          "hash": "2ad3ed09a99b8cfcf67cc66019b9ea4ad48b9c8f257527e6d13d847f3ee67768",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-18",
+          "en": "Changed idle compaction to also run for subscribers with telemetry turned off, and on Bedrock, Vertex, Foundry and LLM gateways once the one-hour prompt cache is on",
+          "zh": "变更空闲上下文压缩：对关闭遥测的订阅用户也会运行；在 Bedrock、Vertex、Foundry 和 LLM 网关上，一旦启用一小时 prompt 缓存也会运行",
+          "hash": "e97a8edba02259fa6caa62195593f41cbe808d17fd6c989d5be6812651863d4e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-19",
+          "en": "Changed `FORCE_HYPERLINK=false` (also `no` and `off`) to turn hyperlinks off instead of on",
+          "zh": "变更 `FORCE_HYPERLINK=false`（以及 `no` 和 `off`）：现在会关闭超链接，而不是开启",
+          "hash": "94aa17d4517a0da1f58d0a388ef973e50808aebc08f9fbe168b85a44fb84c3b5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-20",
+          "en": "macOS: Changed `git grep` in most commands that Claude runs to use the C locale, to avoid a reported memory leak in macOS's regex library on files that aren't valid UTF-8",
+          "zh": "macOS：变更 Claude 运行的大多数命令中的 `git grep`，改用 C locale，以避免 macOS 正则库在非有效 UTF-8 文件上出现已报告的内存泄漏",
+          "hash": "a309e35d3286c5b2dccd07d85cadbab94c8295ce216e044d2b3875bbe7c110db",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-21",
+          "en": "\\[VSCode] Changed `CLAUDE_CODE_DISABLE_CFC_PROMPT` to also stop the extension adding the Claude in Chrome instructions to a session's messages; the browser tools stay available",
+          "zh": "\\[VSCode] 变更 `CLAUDE_CODE_DISABLE_CFC_PROMPT`，使其同时阻止扩展将 Claude in Chrome 说明添加到 session 的消息中；浏览器工具仍可用",
+          "hash": "7fc34ddbb6c1ccaa0c643f3f924825ff7a00d6ef3466236f615ec7f0debf789d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-changed-22",
+          "en": "\\[Cloud sessions] Changed cloud sessions from the web, desktop and mobile apps to start even when a setup script exits with an error, instead of failing to start",
+          "zh": "\\[Cloud sessions] 变更来自网页版、桌面应用和移动端应用的 cloud sessions，使其在 setup 脚本以错误退出时仍能启动，而不是启动失败",
+          "hash": "8c092e5409cae0f0513a112aebcc0d014993400d03d9e68419f1401e63075606",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "16 improvements",
+      "heading_zh": "16 项改进",
+      "items": [
+        {
+          "id": "2.1.314-improvements-23",
+          "en": "Improved memory use in long headless and SDK turns that run many subagents: the parent session no longer keeps each subagent's tool results until the turn ends",
+          "zh": "改进长时间运行大量 subagents 的无头及 SDK 轮次中的内存占用：父 session 不再保留每个 subagent 的工具结果直到该轮次结束",
+          "hash": "76c0e35b7c9a0200b71648715ac98518d60212e41368247ac39db96075d4f285",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-24",
+          "en": "Improved prompt history: Ctrl+R now matches text inside collapsed `[Pasted text]` pills",
+          "zh": "改进 prompt 历史记录：Ctrl+R 现在可匹配折叠的 `[Pasted text]` 胶囊内的文本",
+          "hash": "8417a00732ac4623edee2f3726a9998718d03d2883d292adef13fe89c622f0ff",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-25",
+          "en": "Improved the `/design-sync` upload prompt to show the folder, the project and the files it will upload or delete",
+          "zh": "改进 `/design-sync` 上传 prompt，显示将要上传或删除的文件夹、项目及文件",
+          "hash": "163b70f90cdc0e4298161b0cc7af0ff66c69ecef0b0db1901060dd83a6c2f517",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-26",
+          "en": "Improved `/permissions` review tab, now called Recently blocked: the footer says what Esc will do with marked rows",
+          "zh": "改进 `/permissions` 的审查标签页（现名为 Recently blocked）：页脚说明按 Esc 对已标记行执行的操作",
+          "hash": "d57616fad64258568e4e8d28bbd6355d2be6d1e34076a503d734dfd1e09ef9a1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-27",
+          "en": "Improved auto mode's blocked calls: messages name the command, say Claude may retry and auto mode checks again, and point to `/permissions` to review",
+          "zh": "改进自动模式被阻止的调用：消息会指明命令，说明 Claude 可能重试且自动模式会再次检查，并提示用 `/permissions` 审查",
+          "hash": "b277041d4efdc18b5fbf208bc86ade70e4dc55c7df1aafc41f650eea59b31ef3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-28",
+          "en": "Improved permission prompts: a long reason takes fewer rows, so it pushes the command being approved off the screen on fewer terminals",
+          "zh": "改进权限提示：较长的原因占用更少行数，因此在更少的终端上会把待批准的命令挤出屏幕",
+          "hash": "9817b6c35bbb78da82a469fac14c39b471d8b09b3d8c59b42415b08056ce088b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-29",
+          "en": "Improved the cloud session error shown while a request refused for your claude.ai login is still being retried: it now also suggests `claude auth login`",
+          "zh": "改进因 claude.ai 登录被拒的请求仍在重试时显示的 cloud session 错误：现在还会建议运行 `claude auth login`",
+          "hash": "2243106dd0c99419b727f4c2fd473f1d404309073fc7809bd66ebe85d04ecd26",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-30",
+          "en": "Improved the behavior of stored claude.ai, Team, and Enterprise logins when MDM and remote settings differ on base URL or `apiKeyHelper`",
+          "zh": "改进已存储的 claude.ai、Team 和 Enterprise 登录在 MDM 与远程设置在 base URL 或 `apiKeyHelper` 上不一致时的行为",
+          "hash": "c8b46a76a28280eb40cbeb1c75de42f3add65dda04e2d17474507091a11a30af",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-31",
+          "en": "Improved `/config` in agent view to say how to stop agent view opening by default",
+          "zh": "改进 agent 视图中的 `/config`，说明如何阻止 agent 视图默认打开",
+          "hash": "571db8840d06d25c877eec9da1e3889ff2bb04a5843ff378403899904690e8b6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-32",
+          "en": "Improved session auto-titles: a session that starts with a skill or a prompt-based command such as `/security-review` now gets a title from it instead of staying untitled",
+          "zh": "改进 session 自动标题：以 skill 或基于 prompt 的命令（如 `/security-review`）开头的 session 现在会据此获得标题，而不再保持无标题",
+          "hash": "bfe7d3bda21f41bbf7689a320966582cbb2708dd7d6137848cd5d86122fd57e5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-33",
+          "en": "Improved `--resume` speed and memory use on damaged transcripts",
+          "zh": "改进 `--resume` 在损坏的 transcript 上的速度和内存占用",
+          "hash": "7b878635059710474045cc1212e4784b029f4083986744e7dfc97a7cad5fea95",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-34",
+          "en": "Improved `/context` speed in sessions with ten thousand or more MCP tools",
+          "zh": "改进在拥有上万个或更多 MCP 工具的 session 中 `/context` 的速度",
+          "hash": "dc719063b2849e1ed55f11c9cf6bf19ff37461606d74c0016522ce4bf6321c5a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-35",
+          "en": "Self-hosted runner: Improved the error shown when a session's branch isn't on the git remote: it now covers a never-pushed branch, says how to fix each case, and no longer suggests retrying",
+          "zh": "自托管运行器：改进 session 的分支不在 git 远程仓库时显示的错误：现在涵盖从未推送的分支，说明每种情况的修复方法，且不再建议重试",
+          "hash": "1324bad2a918442bcc8054375e0720a76efc7915030bdd9a810e513468735b5e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-36",
+          "en": "\\[Cloud sessions] Improved scheduled tasks: runs in Anthropic's cloud now load the plugins enabled on your claude.ai account",
+          "zh": "\\[Cloud sessions] 改进定时任务：在 Anthropic 云端运行的任务现在会加载你 claude.ai 账户上启用的 plugins",
+          "hash": "66b158d75aaec914e46fb5209ed6ad2b816c87ca694d85f73e4d3ee707fa96ea",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-37",
+          "en": "\\[Cloud sessions] Improved Test connection for GitHub Enterprise in admin settings to also connect the way cloud sessions do, and to warn you when that second test fails",
+          "zh": "\\[Cloud sessions] 改进管理设置中 GitHub Enterprise 的 Test connection，使其也按 cloud sessions 的方式连接，并在第二次测试失败时发出警告",
+          "hash": "ba815ebd469831dc0993e5955d3555997a86cbb91e3af8acbda9be735e431d0e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-improvements-38",
+          "en": "\\[Cloud sessions] Improved cloud session transcripts: a rename row now names the new title, and repository and environment lists show as a table instead of one line of JSON",
+          "zh": "\\[Cloud sessions] 改进 cloud session transcript：重命名行现在会显示新标题，仓库和环境列表以表格形式显示，而不是一行 JSON",
+          "hash": "6d8df4f5e496d50c51eb296c2c2d1bd5dc5a04a8b597cc44a179eb7657422fe8",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "81 bug fixes",
+      "heading_zh": "81 项修复",
+      "items": [
+        {
+          "id": "2.1.314-fixes-39",
+          "en": "Fixed sessions failing turn after turn with \"Invalid effort level\" when an organization's admin caps a model's effort: Claude Code now lowers the effort, retries, and says which level it uses",
+          "zh": "修复当组织管理员限制某模型的 effort 时，session 因 \"Invalid effort level\" 一轮接一轮失败的问题：Claude Code 现在会降低 effort、重试，并说明使用的级别",
+          "hash": "5e7395e7c554e17eb033dd17ea6487eb89d4b72b169e5740212303aec48056d0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-40",
+          "en": "Fixed `claude -p` exiting with code 0 and no output when startup failed; it now prints the error and exits 1",
+          "zh": "修复启动失败时 `claude -p` 以退出码 0 退出且无输出的问题；现在会打印错误并以 1 退出",
+          "hash": "0ac3e4df108037d2a0fbb1bd9a08983e7cf6c04dd0d3a9d1437e10fc71e49572",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-41",
+          "en": "Fixed Bedrock sessions with many images failing every turn and `/compact` with \"400 Input is too long.\" instead of removing older images and compacting",
+          "zh": "修复 Bedrock session 包含大量图片时每轮都失败、且 `/compact` 报 \"400 Input is too long.\" 而非移除较早图片并进行上下文压缩的问题",
+          "hash": "55d6edb5eab391ab0beabb0b540f96c94930861a2576426edf23e58a3512d8d7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-42",
+          "en": "Fixed Microsoft Foundry sessions failing when the resource has no deployment for the default Sonnet, Opus or Haiku model: Claude Code now falls back to an older model of that family",
+          "zh": "修复当资源没有默认 Sonnet、Opus 或 Haiku 模型部署时 Microsoft Foundry session 失败的问题：Claude Code 现在会回退到该模型系列中较旧的模型",
+          "hash": "a10522ed765bcfbdf87cc36e1887d1b0cec13ebbb56a06fc056d455ea355e4c1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-43",
+          "en": "Fixed repeated refused requests behind a gateway that doesn't accept tool search's `tool_reference` blocks: the request is sent again once without tool search, and the session remembers",
+          "zh": "修复在网关后面反复出现请求被拒的问题，该网关不接受工具搜索的 `tool_reference` 块：现在会不带工具搜索重新发送一次请求，并由 session 记住",
+          "hash": "b5784b5346feeba328aab7d8c01ee0ea6d43612d9a15b61b332bb425f7b86b4d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-44",
+          "en": "Fixed TLS connections failing with `UNABLE_TO_GET_ISSUER_CERT` when the system certificate store holds a renewed root certificate that is cross-signed with its predecessor",
+          "zh": "修复系统证书存储中存在与前任交叉签名的续期根证书时，TLS 连接因 `UNABLE_TO_GET_ISSUER_CERT` 失败的问题",
+          "hash": "d79908518fb2a8db1a0e1bacc5b074d91b5cb743e45ce804d3f7dfa22bd9b3a4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-45",
+          "en": "Fixed MCP servers that also work without sign-in showing \"needs authentication\" after their stored sign-in stopped working; they are now used signed out",
+          "zh": "修复无需登录也能工作的 MCP 服务器在已存储的登录失效后显示\"需要认证\"的问题；现在会以未登录状态使用它们",
+          "hash": "ebbcca6f1dbc4f9b53948e4e6f2691ba0eabd9cb72dc55e65b566022243a0199",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-46",
+          "en": "Fixed `claude mcp logout` reporting success when the MCP sign-in was not removed, for example while the macOS keychain is locked over SSH",
+          "zh": "修复 `claude mcp logout` 在 MCP 登录未被移除时仍报告成功的问题，例如通过 SSH 连接时 macOS 钥匙串被锁定",
+          "hash": "cd7327c9d53fc5780a9ddff5649da200513ddcbf9b058a2d3d19117b4d6752fb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-47",
+          "en": "Fixed extra sign-in renewals when several sessions share an Anthropic profile login and the credentials lock is busy",
+          "zh": "修复多个 session 共享同一个 Anthropic 配置文件登录且凭据锁繁忙时出现额外登录续期的问题",
+          "hash": "d0d19948e41b5a1a2313a4d47f1b773b72ed2dda66a6850519f70a89e5df6301",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-48",
+          "en": "Fixed `claude ultrareview` and `claude remote-control` asking the workspace trust question in a CI job that has a terminal; with `CI` set they now refuse an untrusted folder at once",
+          "zh": "修复 `claude ultrareview` 和 `claude remote-control` 在带终端的 CI 任务中询问工作区信任问题；设置 `CI` 后，现在会立即拒绝不受信任的文件夹",
+          "hash": "3a05f55eb891eeae9078723221ffd8e64a8dc638c821933c11f031bed6f76666",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-49",
+          "en": "Fixed an administrator's TLS trust settings in managed settings not being applied in Claude Desktop sessions",
+          "zh": "修复管理员在托管设置中配置的 TLS 信任设置未在 Claude Desktop session 中生效的问题",
+          "hash": "ae482f15c6e442d6e1b52c3a63e22e5e2fd15239afb62c775b125b5eb522121b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-50",
+          "en": "Fixed model switching being refused on machines with managed plugin settings when one of your own `--plugin-dir` or `--plugin-url` plugins had a broken manifest or failed to download",
+          "zh": "修复在启用了托管 plugin 设置的机器上，当自己的某个 `--plugin-dir` 或 `--plugin-url` plugin 的清单损坏或下载失败时，模型切换被拒绝的问题",
+          "hash": "38ba9ea32cc0b9ed2215032612c8e799ed36358ec44ab36845f14edbd0aca218",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-51",
+          "en": "Fixed the Bedrock and Vertex model upgrade offer coming back at every start when managed settings pin the model",
+          "zh": "修复托管设置固定模型时，Bedrock 和 Vertex 模型升级提示在每次启动时反复出现的问题",
+          "hash": "3a5c6041958cef1e69f5515d6568bf02019d833359d02f21c00c51d587b0dadf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-52",
+          "en": "Fixed `forceRemoteSettingsRefresh` set only in remote managed settings no longer applying once the stored copy had expired, which let sessions start without policy when the server could not be reached",
+          "zh": "修复仅在远程托管设置中设置的 `forceRemoteSettingsRefresh` 在已存储副本过期后不再生效的问题，该问题会导致无法连接服务器时 session 在没有策略的情况下启动",
+          "hash": "849bd21d024542347bc27814d2b133f6ffc9c6c2a6f2433bf9cc40d6884284da",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-53",
+          "en": "Fixed \"Continue automatically at usage limit\" continuing more than three times without a prompt from you when a task restarted itself between waits (a /goal check-in, a background or scheduled task)",
+          "zh": "修复\"达到用量限制后自动继续\"在任务于两次等待之间自行重启（/goal 检查、后台任务或定时任务）时，未经你提示就继续超过三次的问题",
+          "hash": "17039a9d8f9a759c5f1690fb4204e38be4d12ca3cb26af24d4ec3d320c8be91d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-54",
+          "en": "Fixed background and cloud sessions started with Ultracode turning it back on at their next start after it had been switched off",
+          "zh": "修复以 Ultracode 启动的后台和云端 session 在 Ultracode 被关闭后，于下次启动时又将其重新开启的问题",
+          "hash": "cac859a3845a5f2ca2e9301ec152ccd7118c4813b2b00842eaedda8aa71030b9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-55",
+          "en": "Fixed the last broken reply and its retry prompts staying in the conversation after Claude gave up on a tool call that could not be parsed",
+          "zh": "修复 Claude 放弃无法解析的工具调用后，最后一条失败的回复及其重试 prompt 仍留在对话中的问题",
+          "hash": "42441fb4d3b82f9948f51f4de5ac649028f4c3a195bb7d34fc90cf86307f8448",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-56",
+          "en": "Fixed a PreCompact hook with very large output making compaction fail or repeat; each hook's output is now cut at 10,000 characters",
+          "zh": "修复输出极大的 PreCompact hook 导致上下文压缩失败或重复的问题；现在每个 hook 的输出会被截断到 10,000 个字符",
+          "hash": "a964e7d9c7ba8a2de118839c92acafcf3f6ff9575373a83f2853dd1db30fd144",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-57",
+          "en": "Fixed background diff refreshes briefly taking the repository's index lock, which could make a git command run at the same moment fail with \"Unable to create '.git/index.lock': File exists\"",
+          "zh": "修复后台 diff 刷新短暂占用仓库索引锁，导致同一时刻运行的 git 命令因 \"Unable to create '.git/index.lock': File exists\" 失败的问题",
+          "hash": "ddf1d6be3aff19c1583d358b1b2d9807523e6c1351e63e11a7af774f2d334055",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-58",
+          "en": "Fixed markdown tables jumping between grid and stacked layouts on half-typed rows while streaming, and long tables falling back to raw pipes",
+          "zh": "修复流式输出时 markdown 表格在未输入完整的行上于网格布局和堆叠布局之间跳动，以及长表格回退为原始竖线的问题",
+          "hash": "fad989a35a45646d8b207e7c0e55db89895840da3da6a883300f0078d3780230",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-59",
+          "en": "Fixed the /resume picker showing the text of CLAUDE.md or CLAUDE.local.md as a session's title when the session only ran slash commands",
+          "zh": "修复 /resume 选择器在 session 仅运行过斜杠命令时，将 CLAUDE.md 或 CLAUDE.local.md 的文本显示为 session 标题的问题",
+          "hash": "1c66f2736c8424e7cd71e2a7de68983d590b8df080d3222162086c12883a477c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-60",
+          "en": "Fixed `/btw` answering from the main conversation when asked from a subagent's open transcript",
+          "zh": "修复从 subagent 打开的对话记录中调用 `/btw` 时，从主对话作答的问题",
+          "hash": "72669eda5097ad58452ec87bd39739cfb5de77342b28ca9103429f709addd65b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-61",
+          "en": "Fixed pasting an image over SSH to a Linux machine doing nothing silently; the prompt now says to copy the file over and paste its path",
+          "zh": "修复通过 SSH 向 Linux 机器粘贴图片时静默无反应的问题；现在 prompt 会提示先将文件复制过去，再粘贴其路径",
+          "hash": "1e49e5052b0b2da7b5ae91d4bab4f86b433eb537f1e7c719f9f24f31267def15",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-62",
+          "en": "Fixed `claude remote-control` sessions that failed to start when the session service was slow for a moment: the worker's registration is now retried with growing waits",
+          "zh": "修复 `claude remote-control` session 在 session 服务短暂变慢时启动失败的问题：现在会以递增的等待时间重试 worker 的注册",
+          "hash": "167de2fe402d825f8e3b0ae0fecf08f367ade6d57ec6c0358a289833dddd5a1a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-63",
+          "en": "Fixed model switches over Remote Control that take over 8 seconds getting a \"still pending\" error instead of the final result",
+          "zh": "修复通过 Remote Control 切换模型耗时超过 8 秒时返回“still pending”错误而非最终结果的问题",
+          "hash": "e5df690b1944c491fa623c1048eec6ea6a09c273c97ff1586dd7e1d5b69b8a29",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-64",
+          "en": "Fixed the `sandbox.excludedCommands` setting description saying listed commands always run outside the sandbox; it now says every command in a call must match an entry",
+          "zh": "修复 `sandbox.excludedCommands` 设置说明中称所列命令始终在沙箱外运行的问题；现在说明一次调用中的每条命令都必须匹配某个条目",
+          "hash": "83935a0661fa6655164dc0101ca16eae0580e7981613a7a8529f666a701311c6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-65",
+          "en": "Fixed shell and MCP calls that auto mode, a deny rule or a PreToolUse hook blocked, or that otherwise did not run, reading as if they ran in a collapsed tool group",
+          "zh": "修复被自动模式、拒绝规则或 PreToolUse hook 阻止的 shell 和 MCP 调用，以及其他未实际运行的调用，在折叠的工具组中显示为已运行的问题",
+          "hash": "f1567bd9b66f4e41816f94428edebd2abeb49539e9d40432de26b9b2e462d1b7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-66",
+          "en": "Fixed sandbox protections not applying to a worktree entered by `claude -p --resume` or `--continue`",
+          "zh": "修复通过 `claude -p --resume` 或 `--continue` 进入的 worktree 未应用沙箱保护的问题",
+          "hash": "45a3636efecf3e13f6584e083873fa3f111641007f3d706335253bc55b809cc7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-67",
+          "en": "Fixed hooks matching Bash not running on shell commands started by the Monitor tool; such hooks can block or ask, but not approve or rewrite those commands",
+          "zh": "修复匹配 Bash 的 hooks 未在 Monitor 工具启动的 shell 命令上运行的问题；此类 hooks 可以阻止或询问这些命令，但不能批准或改写它们",
+          "hash": "773776fbfe6c8804115a74979335bda5ea6057bf01c18b225a5a8c145a04451a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-68",
+          "en": "Fixed a settings file excluded with `--setting-sources` still supplying some settings, such as auto mode rules and saved permission consents",
+          "zh": "修复通过 `--setting-sources` 排除的设置文件仍会提供部分设置的问题，例如自动模式规则和已保存的权限同意",
+          "hash": "87deeb9d2647a8ca7368b16895f2fccfbb23cf3db315ec2ebf8046bc617752b2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-69",
+          "en": "Fixed auto mode reporting a call as blocked, and listing it in `/permissions`, when its safety check gave no verdict",
+          "zh": "修复自动模式在其安全检查未给出结论时仍将调用报告为已阻止并在 `/permissions` 中列出的问题",
+          "hash": "250859daa5364a97e7ca02bbc5f7c354a7545c563c155393b10b1fd918290932",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-70",
+          "en": "Fixed a Claude apps gateway Vertex upstream hanging for minutes when a Google token endpoint accepts the connection and never answers",
+          "zh": "修复 Claude 应用网关的 Vertex 上游在 Google token 端点接受连接却始终不响应时挂起数分钟的问题",
+          "hash": "6a04d0868106766058534a909c476961f7174c0763c4d8249ed96aff0e051d9e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-71",
+          "en": "Fixed the Claude apps gateway's start-up warning for a deprecated Claude Desktop key that it still serves as written saying \"stops being accepted\" after the key's end date",
+          "zh": "修复 Claude 应用网关针对已弃用 Claude Desktop 密钥的启动警告在密钥结束日期之后仍按原文显示“stops being accepted”的问题",
+          "hash": "3849e6b385e08c57525feda8775156c37c877c1172729fc2ab022807284337c0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-72",
+          "en": "Fixed `/upgrade` opening the browser and starting a new login for plans billed through the App Store or Google Play; it now says where to change the plan",
+          "zh": "修复 `/upgrade` 对通过 App Store 或 Google Play 计费的套餐打开浏览器并启动新登录的问题；现在会说明应在何处更改套餐",
+          "hash": "00ea9d6aedd07ea891515b1d8cea721c4659210d69e649bbfb30306fc85fb563",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-73",
+          "en": "Fixed `--resume`, and rewinding past a switch to another model after a refusal, moving a session on a model name Claude Code doesn't recognize to a different model",
+          "zh": "修复 `--resume` 以及在拒绝后回退到切换至另一模型之前的位置时，将使用 Claude Code 无法识别的模型名的 session 移到其他模型的问题",
+          "hash": "39725610eba6a22448daa3738785d1aef90432b270bc67d4a43a09dd1e0f5854",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-74",
+          "en": "Fixed requests failing when a gateway or cloud provider refuses one of Claude Code's beta headers by name: the request is sent again without it",
+          "zh": "修复网关或云提供商按名称拒绝 Claude Code 的某个 beta header 时请求失败的问题：现在会在不带该 header 的情况下重新发送请求",
+          "hash": "9c0d0e352f9af1887a143edf27524886f98730f211e8c79f2da3f1db7383a5b9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-75",
+          "en": "Fixed model IDs spelled with a dot behind an LLM gateway, such as `claude-opus-4.8`, being treated as an older model with the wrong context window, output limit, effort, thinking mode and cost",
+          "zh": "修复在 LLM 网关后使用带点号的模型 ID（如 `claude-opus-4.8`）时被当作旧模型、导致上下文窗口、输出上限、effort、思考模式和费用错误的问题",
+          "hash": "8ad2564103378a440ed2150679dda7f3661dc895dbcbb31d67c800130626a2de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-76",
+          "en": "Fixed Remote Control clients showing a stray \"Compacted (ctrl+o to see full summary)\" row after /compact",
+          "zh": "修复 Remote Control 客户端在 /compact 后显示多余的“Compacted (ctrl+o to see full summary)”行的问题",
+          "hash": "d129b9ac52a3f9941455dbd40d620dc9111db3b6ca150348315e151156725c2e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-77",
+          "en": "Fixed the cloud sessions tip and the Remote Control idle notice showing when an organization's policy turns those features off",
+          "zh": "修复在组织策略关闭相关功能时仍显示云 session 提示和 Remote Control 空闲通知的问题",
+          "hash": "2050ceb630e776890815f4f5d42cdc55e57f8994a311b7487aa9b5d5006b2809",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-78",
+          "en": "Fixed a resumed claude.ai cloud session making a model call nobody asked for when the previous worker stopped just after receiving a new chat's files",
+          "zh": "修复恢复的 claude.ai 云 session 在上一 worker 刚收到新聊天文件后停止时发起无人请求的模型调用的问题",
+          "hash": "040a4e00398eb77cbc491559b6f1968ae02b9ff6e4ee71adc3106bbed8834306",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-79",
+          "en": "Fixed WebFetch in Cowork cloud sessions silently dropping a PDF's text past 100,000 characters; it now says how much was unread and where to read on",
+          "zh": "修复 Cowork 云 session 中的 WebFetch 静默丢弃超过 100,000 字符的 PDF 文本的问题；现在会说明有多少内容未读取以及应从哪里继续读取",
+          "hash": "5030599a25c3b9e285ca5b459d6715b055f859b710f02a30d9e324315ffdbe50",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-80",
+          "en": "Fixed Claude being told only that a command was declined after you stopped it with Esc or Stop in a cloud session or the IDE; it now also hears that the command may have run",
+          "zh": "修复在云 session 或 IDE 中用 Esc 或 Stop 停止命令后，仅告知 Claude 命令被拒绝的问题；现在还会告知 Claude 该命令可能已运行",
+          "hash": "924e5f136acaffddb255195dbc7f6669fef9518bd997b5899b19fbd532c2ded4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-81",
+          "en": "Fixed blank lines at the top of a code block disappearing when the code block opens a quote",
+          "zh": "修复代码块位于引用开头时，代码块顶部的空行消失的问题",
+          "hash": "a450e74727171f6d58c231d009333e481fe740ac80771b1ad1a2976799384828",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-82",
+          "en": "Fixed a blank line appearing above some `⎿` rows in the transcript view (Ctrl+O)",
+          "zh": "修复对话记录视图（Ctrl+O）中部分 `⎿` 行上方出现空行的问题",
+          "hash": "b04c0aea1690417894ebd5bc26756e3e881b557ba1c4696b5109d98b9481f455",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-83",
+          "en": "Fixed vim mode `dw`, `dW`, `yw` and `yW` carrying on past the end of the line, and made `w` and `W` stop on empty lines",
+          "zh": "修复 vim 模式下 `dw`、`dW`、`yw` 和 `yW` 越过行尾继续执行的问题，并让 `w` 和 `W` 在空行处停止",
+          "hash": "a3c2379263125286546bca27fb78587ace0a22bea03895a91a7d5d29d3001956",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-84",
+          "en": "Fixed x and Enter in the agent panel sometimes acting on the wrong agent when another agent started or finished",
+          "zh": "修复当另一个 agent 启动或结束时，agent 面板中的 x 和 Enter 有时作用于错误的 agent 的问题",
+          "hash": "a70bd961341544ca6d660c7a89ee55397a1cc1dcf2a52e4b7b2e245b61a94f8c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-85",
+          "en": "Fixed pasted text and dragged-in files being lost in Claude's question dialog unless the \"Other\" row had focus",
+          "zh": "修复 Claude 的提问对话框中，除非“Other”行获得焦点，否则粘贴的文本和拖入的文件会丢失的问题",
+          "hash": "64ca8cc2b30c9a1a14d676a16ae5a27ec84db157cba1bcb7001d9d9af5e3b344",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-86",
+          "en": "Fixed pasted text being lost when a row in the prompt footer was selected",
+          "zh": "修复选中 prompt 页脚中的某一行时粘贴的文本丢失的问题",
+          "hash": "bc57317b9fe9997bbfa0b0b4f7953db55314d6ee9abb5a3ac71c46b57c198948",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-87",
+          "en": "Fixed vim mode `p` over a character selection ignoring whether the yanked text was whole lines",
+          "zh": "修复 vim 模式下对字符选区执行 `p` 时忽略被复制文本是否为整行的问题",
+          "hash": "5ba340f0c3c6b1b31243e646d180312ea25071c0c4bf916d58eec2225eda1bb7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-88",
+          "en": "Fixed vim mode `aw` and `iw` taking the line break at the end of a line",
+          "zh": "修复 vim 模式下 `aw` 和 `iw` 会包含行尾换行符的问题",
+          "hash": "e2cdd67572b8b135b769cc17e0fd8dd1e6984681add3f6dacfffca3382bcfb57",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-89",
+          "en": "Fixed ↓ selecting footer items hidden by the ? help menu, the command list or a paste hint",
+          "zh": "修复 ↓ 会选中被 ? 帮助菜单、命令列表或粘贴提示遮挡的页脚项的问题",
+          "hash": "1fe06d29cd99570e69b6bf3a94148c21bb4829bd5523c95c270b8aec2418fa94",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-90",
+          "en": "Fixed Esc on a command's panel, such as `/btw`, also interrupting the subagent whose transcript is open",
+          "zh": "修复在命令面板（如 `/btw`）上按 Esc 时，同时中断了对话记录已打开的 subagent 的问题",
+          "hash": "d7d87c5221bd056bc6dbea225dd31c3b077c66cad3e50a20f0bb445dfe59d637",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-91",
+          "en": "Fixed the welcome header in fullscreen mode showing the session's model while viewing a subagent or teammate that runs on a different model",
+          "zh": "修复全屏模式下查看运行在其他模型上的 subagent 或队友时，欢迎页头部仍显示 session 模型的问题",
+          "hash": "3b0d6edfd294585d0fea550b876612d474316a1366a24c05e954f7b6f2d0d1d0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-92",
+          "en": "Fixed the fullscreen transcript being left mid-conversation after \"Restore conversation\" in the rewind menu while scrolled up",
+          "zh": "修复在向上滚动时，通过回退菜单中的“Restore conversation”恢复对话后，全屏对话记录停留在对话中间的问题",
+          "hash": "e382a5c42425b4b40af2f4f72db9273dbc43950a62e77d46075d7492394b0f26",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-93",
+          "en": "Fixed a rare case where a deleted session could reappear in the resume list as an almost empty entry",
+          "zh": "修复已删除的 session 偶尔会以近乎空白的条目重新出现在恢复列表中的问题",
+          "hash": "eca2ff02c38170b8ef2eef3b835cd05056ba271c64716a943f87f61777a832af",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-94",
+          "en": "Fixed prompts containing tags such as `<bash-stdout>` or `<local-command-stdout>` not being acknowledged to a local stream-json host",
+          "zh": "修复包含 `<bash-stdout>` 或 `<local-command-stdout>` 等标签的 prompt 未向本地 stream-json 宿主确认的问题",
+          "hash": "25f096857adc282c3afacbfe985b467aaf4b48eb5e7cb421e527cbe4103c1d68",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-95",
+          "en": "Fixed sessions staying untitled when the first prompt failed (for example on a usage limit) and the conversation continued afterward",
+          "zh": "修复首个 prompt 失败（例如触发用量限制）且对话随后继续时，session 一直无标题的问题",
+          "hash": "8f170a9ae192b33507e36f99d657db6448d6db14e2dd1eb1736c5b3360310c1a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-96",
+          "en": "Fixed the skill file watcher checking every removed skill kept in `~/.claude/skills/.trash`, which added file system load that grew with each removal",
+          "zh": "修复 skill 文件监视器会检查 `~/.claude/skills/.trash` 中保留的每个已删除 skill，导致文件系统负载随删除次数增长的问题",
+          "hash": "aa5eb1d07dc718a82b92849fb266d97fd2f98676ee7699fe7af2736070fb939f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-97",
+          "en": "Fixed the session name from /rename disappearing while Claude asks for permission or a plan decision, so side-by-side sessions stay identifiable",
+          "zh": "修复 Claude 请求权限或等待计划决策时，/rename 设置的 session 名称消失的问题，使并排的 session 仍可区分",
+          "hash": "5e9c449f7e66e36eb09e15c8a3a41dce1851ebbe982f20682d29bd24be42b004",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-98",
+          "en": "Fixed background sessions that fail to start being reported as a deleted daemon binary when the binary is still on disk",
+          "zh": "修复启动失败的后台 session 在守护进程二进制文件仍在磁盘上时被报告为已删除的问题",
+          "hash": "5a33d2a44a894989fc6079500bd6f21314c793528b0cd5ec163c50f3a579d70a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-99",
+          "en": "Fixed the tip and idle reminder about push notifications appearing when the push settings in `/config` are hidden or your organization has turned off Remote Control",
+          "zh": "修复当 `/config` 中的推送设置被隐藏或组织已关闭远程控制时，仍出现关于推送通知的提示和空闲提醒的问题",
+          "hash": "5e9f7460fcffe42ba1e4f8f9982c79dbdcbfda124c736f5a2ed79a6df2c3764a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-100",
+          "en": "Fixed `~/.claude/skills/.trash` and `~/.claude/plugins/.trash` growing without limit: each now holds about 1024 entries, whatever `cleanupPeriodDays` says",
+          "zh": "修复 `~/.claude/skills/.trash` 和 `~/.claude/plugins/.trash` 无限增长的问题：无论 `cleanupPeriodDays` 如何设置，两者现在各保留约 1024 个条目",
+          "hash": "026b518c1495011a07aae7a5391d70002eb3722c14834c29fc6a8c8271eb320d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-101",
+          "en": "Fixed the Bash edit diff listing a whole file as changed when a CRLF file under git's line-ending conversion was re-saved unchanged or had one line edited",
+          "zh": "修复了 Bash 编辑 diff 的问题：在 git 换行符转换下，CRLF 文件未做修改重新保存或仅编辑一行时，整个文件被列为已更改",
+          "hash": "e943667fc169a621a0ba63c68d9bff384b7121026afb42ce26fdf76e6df05f3a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-102",
+          "en": "Self-hosted runner: Fixed an idle session moving to another runner instead of pausing when the runner's request to pause it lost its connection before Anthropic answered",
+          "zh": "自托管运行器：修复了空闲 session 的问题：运行器请求暂停该 session 时，连接在 Anthropic 响应前断开，导致 session 转移到其他运行器而非暂停",
+          "hash": "7297b1186c6ba8dea99c86334ac645e36f2486469d786f6ff5e7686ea6dbd7fc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-103",
+          "en": "\\[VSCode] Fixed \"Clear authentication\" for MCP servers reporting success when the saved sign-in could not be removed",
+          "zh": "\\[VSCode] 修复了 MCP 服务器的“清除认证”在保存的登录信息无法移除时仍报告成功的问题",
+          "hash": "1d70a9202543439d03c241d3a326412a0c2e32f3590510e95fb188817167f505",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-104",
+          "en": "\\[VSCode] Fixed missing spinner and Stop button while a queued message's hooks run",
+          "zh": "\\[VSCode] 修复了排队消息的 hooks 运行时缺少加载指示器和停止按钮的问题",
+          "hash": "abaf78bd924ca9f899c846ec0043d6d812e2b1bd2e1c63daca409e042b0e759e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-105",
+          "en": "\\[VSCode] Fixed session group changes that cannot be saved, such as a delete, failing silently; an error notification now appears",
+          "zh": "\\[VSCode] 修复了无法保存的 session 分组变更（如删除）静默失败的问题；现在会显示错误通知",
+          "hash": "797c76f832b5fb3f6742e3ea01b1fc11eef6ca14a6c67ba1287eafd9bfc248e6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-106",
+          "en": "\\[VSCode] Fixed Cmd+F / Ctrl+F not opening the find widget in the plan preview tab",
+          "zh": "\\[VSCode] 修复了 Cmd+F / Ctrl+F 在计划预览标签页中无法打开查找组件的问题",
+          "hash": "17a639381623a4ec110a669c448ed7df53e9935bad64acf7a192fef0761278db",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-107",
+          "en": "\\[VSCode] Fixed the voice dictation shortcut (Ctrl+D) doing nothing under non-Latin keyboard layouts such as Russian, Greek or Hebrew",
+          "zh": "\\[VSCode] 修复了语音听写快捷键（Ctrl+D）在俄语、希腊语或希伯来语等非拉丁键盘布局下无响应的问题",
+          "hash": "9747cbfb3cd05a0e8aa70ee3edab623500ed828b8f5bf0262ab086e180d1e3a1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-108",
+          "en": "\\[VSCode] Fixed missed one-time saved scheduled tasks being deleted without asking when the extension opened without a chat",
+          "zh": "\\[VSCode] 修复了扩展在没有聊天的情况下打开时，错过的一次性已保存计划任务被未经询问删除的问题",
+          "hash": "fbabd5b9b82fbc9290157c48fee85221d40cf3eb9046565b683d522fd5708b67",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-109",
+          "en": "\\[Cloud sessions] Fixed recently used self-hosted environments never appearing among the recent environments on the new session card",
+          "zh": "\\[Cloud sessions] 修复了最近使用的自托管环境从未出现在新 session 卡片的最近环境列表中的问题",
+          "hash": "65f0695614797bbc78d8fdabded1dbdbf6bfa2785697f1a42698ab0e76c334d4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-110",
+          "en": "\\[Cloud sessions] Fixed cloud sessions reporting uncommitted changes every turn after Claude moved a branch to a commit it had pushed from another worktree",
+          "zh": "\\[Cloud sessions] 修复了 Claude 将分支移动到从其他 worktree 推送的提交后，cloud sessions 每轮都报告未提交更改的问题",
+          "hash": "1cf4f1d59abbd57b9fd6e180362eeafeee0c0f2f570acd47022e8d447b0f9d42",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-111",
+          "en": "\\[Cloud sessions] Fixed the self-hosted environment details dialog in admin settings squeezing its content out of view in very short windows or at high zoom; the dialog now scrolls",
+          "zh": "\\[Cloud sessions] 修复了管理设置中的自托管环境详情对话框在极短窗口或高缩放下内容被挤出视图的问题；该对话框现在可滚动",
+          "hash": "ca5e51d744133358542516339f93741d3c5b5e4c593d1f1582155031b6d0b6f0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-112",
+          "en": "\\[Cloud sessions] Fixed the permission mode picker staying on Auto after a running cloud or Remote Control session refused the switch; it now shows the mode in use and tells you",
+          "zh": "\\[Cloud sessions] 修复了运行中的 cloud 或远程控制 session 拒绝切换后，权限模式选择器仍停留在自动模式的问题；现在会显示正在使用的模式并告知你",
+          "hash": "b623be565e5198a69403bbc24de7530928e563786bb9c9a6fc7daa10f60fa882",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-113",
+          "en": "\\[Remote Control] Fixed the permission mode button in Remote Control sessions showing the wrong mode until you typed; while your computer is online it now shows the real mode on open",
+          "zh": "\\[Remote Control] 修复了远程控制 session 中的权限模式按钮在你输入前显示错误模式的问题；当你的电脑在线时，打开即显示真实模式",
+          "hash": "44e1221d9403306cc823bee134c07ebf6a3169d31abb159df860b3b2360b0692",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-114",
+          "en": "\\[Claude Tag] Fixed `@Claude !restart` giving up after one failed workspace check in channels shared across Enterprise Grid workspaces; it now retries, then asks you to run it again",
+          "zh": "\\[Claude Tag] 修复了 `@Claude !restart` 在跨 Enterprise Grid 工作区共享的频道中一次工作区检查失败后即放弃的问题；现在会重试，然后提示你再次运行",
+          "hash": "03f2d296adb506a2b3ab61c631c0f45a2901907d3f05553b76f9b0e8caca7bca",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-115",
+          "en": "\\[Claude Tag] Fixed a second confirmation DM and channel note when you connect your Claude account from Slack twice from the same link within a few minutes",
+          "zh": "\\[Claude Tag] 修复了在几分钟内通过同一链接从 Slack 两次连接 Claude 账户时，收到第二条确认私信和频道通知的问题",
+          "hash": "d125cdd389e2de4517a7080ab49762b9ab3fa05c3ad85f178ffabc91baa8d657",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-116",
+          "en": "\\[Claude Tag] Fixed follow-up messages in Slack showing no sign of progress while Claude's session waits for a self-hosted runner; Claude now posts a wait notice in the thread",
+          "zh": "\\[Claude Tag] 修复了 Slack 中的后续消息在 Claude 的 session 等待自托管运行器时没有任何进度提示的问题；Claude 现在会在话题中发布等待通知",
+          "hash": "cba0cec4340b8a3cf1b8a22951257638fe777733bbccfd0ce4e15174351c7776",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-117",
+          "en": "\\[Claude Tag] Fixed Claude sometimes not answering a tag in its own thread in Slack Connect channels where both organizations have installed Claude",
+          "zh": "\\[Claude Tag] 修复了在双方组织均安装了 Claude 的 Slack Connect 频道中，Claude 有时不回复其自身话题中的标记的问题",
+          "hash": "016b41359af2ab6ef3d146a48fc8de6a5f09c2f93206b1ad68b55603f8fa83fc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-118",
+          "en": "\\[Claude Tag] Fixed Retry on plugin and skill pages in Claude Tag admin settings discarding unsaved access changes after a failed load; your edits now stay in place",
+          "zh": "\\[Claude Tag] 修复了 Claude Tag 管理设置中 plugin 和 skill 页面上的重试在加载失败后丢弃未保存的访问权限更改的问题；你的编辑现在会保留",
+          "hash": "38d28b9598a74b11aeb34e077af02c4a42d9f90e414cf8af72cf75dd39b6f86d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.314-fixes-119",
+          "en": "\\[Claude Tag] Fixed the repositories control in Claude Tag admin settings showing the same action twice; its menu now lists only what the button doesn't already do",
+          "zh": "\\[Claude Tag] 修复了 Claude Tag 管理设置中的仓库控件重复显示同一操作的问题；其菜单现在只列出按钮尚未执行的操作",
+          "hash": "18faeb84d6172d8fcf290697572a67f3f43bb936672cbf9898313a9e1d2872cd",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增工作目录外写入拦截与网关分组路由，修复大量稳定性与界面问题。",
+    "highlights": [
+      {
+        "title": "新增工作目录外写入拦截",
+        "category": "新功能",
+        "detail": "新增 permissions.blockWritesOutsideWorkingDirectories，在所有权限模式下拒绝 Write、Edit、NotebookEdit 写入工作目录之外的路径。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.314-added-1"
+        ]
+      },
+      {
+        "title": "网关支持 IdP 分组路由",
+        "category": "新功能",
+        "detail": "Claude 应用网关上游可配置 groups 列表，仅所列 IdP 组的开发者会被路由到该上游，故障转移时同样生效。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.314-added-2"
+        ]
+      },
+      {
+        "title": "FORCE_HYPERLINK 语义反转",
+        "category": "破坏性变更",
+        "detail": "FORCE_HYPERLINK 设为 false、no 或 off 时现在会关闭超链接，而非开启；依赖旧行为的脚本或环境配置需相应调整。",
+        "action": "检查环境中 FORCE_HYPERLINK 的取值，若原意是开启超链接请改为 true 或移除该变量。",
+        "example": {
+          "lang": "bash",
+          "code": "FORCE_HYPERLINK=false",
+          "caption": "配置示例"
+        },
+        "item_ids": [
+          "2.1.314-changed-19"
+        ]
+      },
+      {
+        "title": "修复 effort 限制导致连续失败",
+        "category": "修复",
+        "detail": "组织管理员限制模型 effort 时，session 不再因 Invalid effort level 反复失败，而是降低 effort 重试并说明所用级别。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.314-fixes-39"
+        ]
+      },
+      {
+        "title": "修复 -p 启动失败静默退出",
+        "category": "修复",
+        "detail": "claude -p 启动失败时不再以退出码 0 且无输出结束，现在会打印错误并以 1 退出，便于 CI 正确感知失败。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude -p",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.314-fixes-40"
+        ]
+      },
+      {
+        "title": "减少大量 subagent 内存占用",
+        "category": "改进",
+        "detail": "无头及 SDK 轮次中父 session 不再保留每个 subagent 的工具结果直到轮次结束，长时间运行大量 subagent 时内存显著下降。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.314-improvements-23"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an `Edit(path)` deny rule not blocking a Bash redirect to that path in some commands that also held a subshell",
+  "zh": "修复了 `Edit(path)` 拒绝规则在同时包含子 shell 的某些命令中无法阻止 Bash 重定向到该路径的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

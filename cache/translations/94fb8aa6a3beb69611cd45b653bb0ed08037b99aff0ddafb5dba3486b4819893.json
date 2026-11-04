@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed background sub-agents to show as one status line under their Agent card instead of streaming every step into the chat; the full transcript stays in /tasks",
+  "zh": "\\[VSCode] 变更后台 subagent 的显示方式：现在在其 Agent 卡片下以一行状态栏展示，不再把每一步都流式输出到聊天中；完整记录仍保留在 /tasks 中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

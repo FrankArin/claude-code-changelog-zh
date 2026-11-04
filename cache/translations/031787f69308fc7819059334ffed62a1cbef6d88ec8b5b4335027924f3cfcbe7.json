@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Gateway: Improved the warning when AWS CountTokens fails on Amazon Bedrock: it says Claude Code, not the gateway, counts after the 501, and points at IAM only when AWS denies access",
+  "zh": "网关：改进了 AWS CountTokens 在 Amazon Bedrock 上失败时的警告：会说明 501 之后由 Claude Code 而非网关进行计数，并且仅在 AWS 拒绝访问时才指向 IAM",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

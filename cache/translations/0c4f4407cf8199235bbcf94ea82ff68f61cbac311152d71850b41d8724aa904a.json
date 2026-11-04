@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed clicking an image in a tool result, or closing its preview, also opening the result's text in an editor tab",
+  "zh": "\\[VSCode] 修复了点击工具结果中的图片或关闭其预览时，也会在编辑器标签页中打开该结果文本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

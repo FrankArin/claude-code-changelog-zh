@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/effort` and `/fast` in agent view to set what new sessions start with; a bare `/model`, `/effort` or `/fast` there now opens a picker",
+  "zh": "在 agent 视图中新增 `/effort` 和 `/fast`，用于设置新 session 的初始值；在该视图中单独输入 `/model`、`/effort` 或 `/fast` 现在会打开选择器",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

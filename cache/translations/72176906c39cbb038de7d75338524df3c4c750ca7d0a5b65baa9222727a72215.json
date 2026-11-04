@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a session closed while it was starting keeping its Claude Code process running until the start ended",
+  "zh": "\\[VSCode] 修复了在启动过程中关闭的 session 会使其 Claude Code 进程一直运行到启动结束的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

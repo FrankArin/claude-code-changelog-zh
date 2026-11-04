@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Improved the title a fork of a terminal fork is created with when the app doesn't set one: \"Name (fork 2)\"",
+  "zh": "远程控制：改进了应用未设置标题时，终端 fork 的 fork 创建时使用的标题：“Name (fork 2)”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the bundled dataviz skill to advise printing y-axis tick labels in full under 10,000, and horizontal ones in full under a million where they fit",
+  "zh": "更新内置 dataviz skill：建议在数值低于 10,000 时完整打印 y 轴刻度标签，在低于一百万且空间允许时完整打印水平刻度标签",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

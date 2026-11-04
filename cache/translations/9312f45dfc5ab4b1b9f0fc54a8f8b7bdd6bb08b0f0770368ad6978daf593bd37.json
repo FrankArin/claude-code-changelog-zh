@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed rm prompts on shell `-c` scripts that don't run `rm`. An rm built at run time in a script Claude Code can't read no longer prompts unless `CLAUDE_CODE_STRICT_INLINE_SHELL_RM_PROMPT=1`",
+  "zh": "修复了 shell `-c` 脚本中不运行 `rm` 却触发 rm 权限提示的问题。在 Claude Code 无法读取的脚本中运行时构建的 rm 不再触发提示，除非设置 `CLAUDE_CODE_STRICT_INLINE_SHELL_RM_PROMPT=1`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "versions": [
+    "2.1.303"
+  ],
+  "tldr": "为小型修复版本，修复缺陷并提升可靠性。",
+  "highlights": [
+    {
+      "title": "修复缺陷提升可靠性",
+      "category": "修复",
+      "detail": "本版本仅包含缺陷修复与稳定性改进，未引入新功能或行为变更，升级风险低。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.303-other-1"
+      ],
+      "version": "2.1.303"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "2a02f04790a51f180129d8ebf023986dc12546790b4820a488b69f044c4bd3eb"
+}

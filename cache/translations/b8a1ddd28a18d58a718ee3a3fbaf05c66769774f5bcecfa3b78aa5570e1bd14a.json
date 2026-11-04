@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` exiting with code 0 and no output when startup failed; it now prints the error and exits 1",
+  "zh": "修复启动失败时 `claude -p` 以退出码 0 退出且无输出的问题；现在会打印错误并以 1 退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

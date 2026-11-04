@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude -p` and Agent SDK sessions with no permission mode to start in `default` mode on third-party providers, with telemetry off or on a fresh install; `--permission-mode auto` keeps auto",
+  "zh": "变更 `claude -p` 和 Agent SDK session 在未指定权限模式时的行为：在第三方提供商上、遥测关闭或全新安装时，以 `default` 模式启动；`--permission-mode auto` 仍保持自动模式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Grep and Glob reporting no matches when the search program failed unexpectedly before returning any results; they now return an error saying the search failed",
+  "zh": "修复搜索程序在返回任何结果前意外失败时，Grep 和 Glob 报告无匹配的问题；它们现在会返回错误，说明搜索失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

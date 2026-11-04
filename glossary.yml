@@ -1,0 +1,122 @@
+version: "v2"
+
+# Claude Code 生态专有名词：保留英文，不翻译。
+# 只放产品名、协议名、缩写和 Claude Code 功能/组件名。
+# 普通技术词、界面词、基础设施词一律放进 translate。
+keep_en:
+  # 产品与协议名
+  - Claude
+  - Claude Code
+  - Claude Desktop
+  - Claude Tag
+  - Opus
+  - Sonnet
+  - Haiku
+  - MCP
+  - VS Code
+  - VSCode
+  - IDE
+  - OTel
+  - OpenTelemetry
+  - GitHub
+  - GitHub Actions
+  - GitLab
+  - AWS
+  - Bedrock
+  - Vertex
+  - Foundry
+  - CLI
+  - SDK
+  - API
+  # Claude Code 功能/组件名
+  - skill
+  - skills
+  - plugin
+  - plugins
+  - hook
+  - hooks
+  - agent
+  - agents
+  - subagent
+  - subagents
+  - session
+  - sessions
+  - prompt
+  - prompts
+  - token
+  - tokens
+  - worktree
+  - worktrees
+  - marketplace
+  - mod
+  - mods
+  - artifact
+  - artifacts
+  - connector
+  - connectors
+
+# 需要统一译法的普通技术词和结构性标题。
+translate:
+  Added: 新增
+  Changed: 变更
+  Changes: 变更
+  Improved: 改进
+  Improvements: 改进
+  Bug fixes: 修复
+  "breaking change": 破坏性变更
+  "breaking changes": 破坏性变更
+  deprecation: 弃用
+  deprecations: 弃用
+  "security fix": 安全修复
+  "security fixes": 安全修复
+  "usage limit": 用量限制
+  "usage limits": 用量限制
+  authentication: 认证
+  organization: 组织
+  "network file system": 网络文件系统
+  "shared home directory": 共享主目录
+  retry: 重试
+  retries: 重试
+  fallback: 回退
+  "background task": 后台任务
+  "background tasks": 后台任务
+  "permission prompt": 权限提示
+  "permission prompts": 权限提示
+  "model picker": 模型选择器
+  "editor": 编辑器
+  "terminal": 终端
+  "desktop app": 桌面应用
+  "web app": 网页版
+  "mobile app": 移动端应用
+  gateway: 网关
+  gateways: 网关
+  "Claude apps gateway": Claude 应用网关
+  runner: 运行器
+  runners: 运行器
+  checkpoint: 检查点
+  checkpoints: 检查点
+  compaction: 上下文压缩
+  "context window": 上下文窗口
+  "auto mode": 自动模式
+  "permission mode": 权限模式
+  "remote control": 远程控制
+  "output style": 输出样式
+  "status line": 状态栏
+  "slash command": 斜杠命令
+  workflow: 工作流
+  workflows: 工作流
+  teammate: 队友
+  teammates: 队友
+  channel: 频道
+  channels: 频道
+  routine: 例程
+  routines: 例程
+  goal: 目标
+  goals: 目标
+  design: 设计
+
+style:
+  - 忠实、完整、不增删、不改顺序。
+  - 中文自然、精炼，像中文技术文档，不翻译腔。
+  - 不写“值得注意的是”“总的来说”等套话。
+  - 保留 Markdown 结构、条目数量和分组。

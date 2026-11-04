@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions failing turn after turn with \"Invalid effort level\" when an organization's admin caps a model's effort: Claude Code now lowers the effort, retries, and says which level it uses",
+  "zh": "修复当组织管理员限制某模型的 effort 时，session 因 \"Invalid effort level\" 一轮接一轮失败的问题：Claude Code 现在会降低 effort、重试，并说明使用的级别",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

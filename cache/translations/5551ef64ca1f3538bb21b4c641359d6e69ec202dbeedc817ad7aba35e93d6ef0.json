@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed workflow scripts silently truncating results, agent options and other values nested deeper than about 20,000 levels, and deeply nested results writing huge task output files",
+  "zh": "修复工作流脚本静默截断嵌套深度超过约 20,000 层的结果、agent 选项及其他值的问题，以及深层嵌套结果写入超大任务输出文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

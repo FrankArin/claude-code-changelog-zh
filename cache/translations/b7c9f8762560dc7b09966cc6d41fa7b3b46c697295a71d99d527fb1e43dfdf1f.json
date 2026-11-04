@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the startup error when a required Claude apps gateway can't be reached: it points to the network instead of a sign-in, and says when the gateway's TLS certificate can't be verified",
+  "zh": "改进无法访问必需的 Claude apps gateway 时的启动错误：现在指向网络问题而非登录问题，并说明 gateway 的 TLS 证书无法验证的情况",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

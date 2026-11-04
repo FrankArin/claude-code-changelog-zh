@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed messages from a Claude Desktop-hosted session sometimes being lost when its connection refreshed",
+  "zh": "修复了由 Claude Desktop 托管的 session 在连接刷新时消息有时丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

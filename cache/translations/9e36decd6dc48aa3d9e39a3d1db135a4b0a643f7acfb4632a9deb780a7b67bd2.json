@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sessions that set `CLAUDE_CODE_SYNC_SKILLS` with feature-flag fetching off to reuse a claude.ai skills list up to 10 minutes old that another session on the machine fetched",
+  "zh": "变更设置了 `CLAUDE_CODE_SYNC_SKILLS` 且关闭功能标志获取的 session，改为复用本机其他 session 在 10 分钟内获取的 claude.ai skills 列表",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

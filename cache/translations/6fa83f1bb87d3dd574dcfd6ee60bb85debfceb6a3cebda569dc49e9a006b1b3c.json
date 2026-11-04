@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved memory and disk use when PDFs are @-mentioned: their bytes are no longer kept in the session transcript",
+  "zh": "改进通过 @ 提及 PDF 时的内存和磁盘占用：其字节内容不再保留在 session 记录中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

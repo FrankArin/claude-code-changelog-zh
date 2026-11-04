@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a mod's \"From the … plugin\" label above the prompt being drawn over the slash command and @-mention menus (anthropics/claude-code#102981)",
+  "zh": "\\[VSCode] 修复了 prompt 上方 mod 的“From the … plugin”标签会覆盖在斜杠命令和 @ 提及菜单上的问题（anthropics/claude-code#102981）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

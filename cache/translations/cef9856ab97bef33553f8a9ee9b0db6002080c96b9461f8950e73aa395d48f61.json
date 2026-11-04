@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a project's `effortLevel` setting being ignored by sessions that an app starts ahead of time and then opens in the project, such as new sessions in the desktop app's Code tab",
+  "zh": "修复项目的 `effortLevel` 设置被应用提前启动、随后在项目中打开的 session 忽略的问题，例如桌面应用 Code 标签页中的新 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

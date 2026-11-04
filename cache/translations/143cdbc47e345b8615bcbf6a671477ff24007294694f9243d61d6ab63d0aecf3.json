@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Edit treating a file as fully read when its contents changed without its modification time advancing",
+  "zh": "修复了 Edit 在文件内容已变更但修改时间未更新时仍将文件视为已完整读取的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

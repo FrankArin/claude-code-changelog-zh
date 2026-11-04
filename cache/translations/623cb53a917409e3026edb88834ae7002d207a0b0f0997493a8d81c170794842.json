@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed compaction to send Claude the skill list again afterwards; `/reload-skills` now sends only new or changed skills",
+  "zh": "变更上下文压缩：之后会再次向 Claude 发送 skill 列表；`/reload-skills` 现在只发送新增或变更的 skill",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed what Claude and you read when a mod denies a tool call after the tool ran: it now says the tool ran and a plugin withheld its result",
+  "zh": "变更当 mod 在工具运行后拒绝工具调用时 Claude 和你读到的内容：现在会说明工具已运行，且某个 plugin 扣留了其结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

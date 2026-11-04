@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the SDK `register_repo_root` control request not loading the CLAUDE.md of a directory outside the working directory (with `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1`)",
+  "zh": "修复 SDK `register_repo_root` 控制请求未加载工作目录之外目录的 CLAUDE.md 的问题（需启用 `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

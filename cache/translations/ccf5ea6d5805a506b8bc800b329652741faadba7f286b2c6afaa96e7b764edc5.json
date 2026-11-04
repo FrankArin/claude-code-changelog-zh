@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `guardrail.input_tagging` on Claude apps gateway Bedrock upstreams, which wraps prompts in the input tags that an Amazon Bedrock guardrail's prompt attacks filter needs; `all_messages_and_system` also tags the system prompt",
+  "zh": "在 Claude apps gateway 的 Bedrock 上游新增 `guardrail.input_tagging`，用于将 prompt 包裹在 Amazon Bedrock guardrail 的 prompt 攻击过滤器所需的输入标签中；`all_messages_and_system` 还会标记 system prompt",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

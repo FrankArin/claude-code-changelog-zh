@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude in Slack staying silent on untagged posts that a channel's own instructions tell it to answer, such as posts that tag someone else, in channels with guests",
+  "zh": "\\[Claude Tag] 修复了在有访客的频道中，Slack 里的 Claude 对频道自身指令要求其回复的未标记帖子（例如标记了其他人的帖子）保持沉默的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

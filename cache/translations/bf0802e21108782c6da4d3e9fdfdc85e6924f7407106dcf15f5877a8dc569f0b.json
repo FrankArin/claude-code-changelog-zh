@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Changed Claude in Slack to show the footer with the session link, model and cost only on its newest reply in a thread; the reply before it drops the footer",
+  "zh": "\\[Claude Tag] 变更 Slack 中的 Claude：仅在话题中最新一条回复上显示包含 session 链接、模型和费用的页脚；其前一条回复不再显示页脚",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

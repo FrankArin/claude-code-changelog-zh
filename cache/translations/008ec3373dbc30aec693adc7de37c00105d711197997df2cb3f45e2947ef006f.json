@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed the orchestrator's log lines: `ok session=…` now prints at every log level on stdout (was debug only, stderr) with `reason=…` after `jti=…`, and `nack session=…` ends its fields with `reason=…` after `retryable=…`; update scripts that match `retryable=true:` or `retryable=false:`",
+  "zh": "自托管运行器：变更了编排器的日志行：`ok session=…` 现在在所有日志级别下都输出到 stdout（此前仅在 debug 级别输出到 stderr），并在 `jti=…` 之后带上 `reason=…`；`nack session=…` 的字段以 `retryable=…` 之后的 `reason=…` 结尾；请更新匹配 `retryable=true:` 或 `retryable=false:` 的脚本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

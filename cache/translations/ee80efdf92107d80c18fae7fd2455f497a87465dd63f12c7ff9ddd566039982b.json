@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the errors for a refused cloud session: they now say why your organization's policy couldn't be loaded, and name an API key or auth token that overrides your claude.ai login",
+  "zh": "改进云 session 被拒绝时的错误信息：现在会说明为何无法加载你组织的策略，并指出覆盖你 claude.ai 登录的 API key 或 auth token",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

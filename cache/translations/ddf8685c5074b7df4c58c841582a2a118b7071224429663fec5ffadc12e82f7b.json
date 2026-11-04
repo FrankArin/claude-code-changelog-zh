@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/design-sync` to say up front when your design system has moved to Claude, and stop before building instead of failing at upload",
+  "zh": "改进 `/design-sync`：当你的设计系统已迁移到 Claude 时提前说明，并在构建前停止，而不是在上传时失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

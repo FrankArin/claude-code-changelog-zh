@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed status line links staying plain text in background sessions after you open them from a terminal that supports links",
+  "zh": "修复了从支持链接的终端打开后台 session 后，状态栏链接仍显示为纯文本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

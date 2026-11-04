@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed HTTP MCP tool calls being sent twice when the connection closed mid-call; only read-only or idempotent tools are now retried",
+  "zh": "修复了 HTTP MCP 工具调用在调用中途连接关闭时被发送两次的问题；现在仅对只读或幂等工具进行重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

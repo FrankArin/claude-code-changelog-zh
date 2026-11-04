@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed ↑ then Enter on a recalled slash command running it without its arguments; the command and file menus no longer open over a recalled prompt until you edit it",
+  "zh": "\\[VSCode] 修复对召回的斜杠命令按 ↑ 再按 Enter 时，命令不带参数运行的问题；在你编辑之前，命令和文件菜单不再覆盖在召回的 prompt 之上",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

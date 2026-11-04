@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed idle compaction replacing a conversation with a reply that was not a summary",
+  "zh": "修复了空闲上下文压缩用并非摘要的回复替换对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

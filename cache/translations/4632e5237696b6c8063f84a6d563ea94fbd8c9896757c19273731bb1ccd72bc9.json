@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Remote Control prompt being lost when another queued prompt in the same batch failed to deliver",
+  "zh": "修复了当同一批次中另一个排队的 prompt 投递失败时，Remote Control prompt 丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

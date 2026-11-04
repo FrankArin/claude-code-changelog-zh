@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed text with tabs or bidirectional control characters losing its end at the edge of the screen or drawing over nearby rows",
+  "zh": "修复了包含制表符或双向控制字符的文本在屏幕边缘丢失结尾或覆盖相邻行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

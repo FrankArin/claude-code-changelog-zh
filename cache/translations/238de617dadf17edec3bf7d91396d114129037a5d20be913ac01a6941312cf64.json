@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved background agent notifications: they now say when an agent is only waiting on its own background work, got a message too late for its result, or was stopped by a usage limit",
+  "zh": "改进后台 agent 通知：现在会说明 agent 只是在等待自身的后台工作、收到消息时已错过其结果，或是因用量限制而被停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

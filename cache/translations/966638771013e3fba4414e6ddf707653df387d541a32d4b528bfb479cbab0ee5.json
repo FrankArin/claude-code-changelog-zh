@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the speed of many git commands Claude Code runs for itself on Windows; on every platform, errors from those commands now show in English even when git is set to another language",
+  "zh": "改进 Claude Code 在 Windows 上自行运行的许多 git 命令的速度；在所有平台上，即使 git 设置为其他语言，这些命令的错误现在也以英文显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

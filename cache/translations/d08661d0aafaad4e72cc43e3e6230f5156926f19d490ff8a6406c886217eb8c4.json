@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifacts with several views: Claude now routes each view on the link's `#name` and no longer says the address bar stays the same as you switch views",
+  "zh": "改进包含多个视图的 artifact：Claude 现在根据链接中的 `#name` 路由到对应视图，且不再声称切换视图时地址栏保持不变",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

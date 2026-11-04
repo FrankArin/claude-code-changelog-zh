@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude overwriting a very large CLAUDE.md, rules file or @-included file in a subdirectory after seeing only its start; Write now asks Claude to read it all or edit in place",
+  "zh": "修复 Claude 在仅看到子目录中超大 CLAUDE.md、规则文件或 @ 引用文件开头的情况下将其覆盖的问题；Write 现在会要求 Claude 读取全文或就地编辑",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

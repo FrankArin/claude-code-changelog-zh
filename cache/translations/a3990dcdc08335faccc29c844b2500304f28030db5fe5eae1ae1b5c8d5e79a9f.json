@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Remote Control prompt that had passed its hooks being dropped from prompt history when Stop interrupted the next queued prompt's hook",
+  "zh": "修复了当 Stop 中断下一个排队 prompt 的 hook 时，已通过其 hooks 的 Remote Control prompt 从 prompt 历史中被丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

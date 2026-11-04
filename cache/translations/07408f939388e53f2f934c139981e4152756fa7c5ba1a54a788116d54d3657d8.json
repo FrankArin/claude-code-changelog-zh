@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed mods' `settings.read` hooks to receive each settings layer and rewrite the merged settings, so a managed mod can make an organization's setting a ceiling, including the `cleanupPeriodDays` the retention sweep uses",
+  "zh": "变更 mod 的 `settings.read` hook：改为接收每个设置层并重写合并后的设置，使受管理的 mod 能将组织设置设为上限，包括保留清理所用的 `cleanupPeriodDays`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

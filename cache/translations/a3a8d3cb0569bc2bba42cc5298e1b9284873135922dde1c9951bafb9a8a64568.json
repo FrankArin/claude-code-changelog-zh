@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/privacy-settings` offering choices that may not apply to you after a network or server error",
+  "zh": "修复了网络或服务器错误后 `/privacy-settings` 提供可能不适用于你的选项的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

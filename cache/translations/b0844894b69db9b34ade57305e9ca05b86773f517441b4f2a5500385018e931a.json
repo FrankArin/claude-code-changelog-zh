@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--resume`, and rewinding past a switch to another model after a refusal, moving a session on a model name Claude Code doesn't recognize to a different model",
+  "zh": "修复 `--resume` 以及在拒绝后回退到切换至另一模型之前的位置时，将使用 Claude Code 无法识别的模型名的 session 移到其他模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

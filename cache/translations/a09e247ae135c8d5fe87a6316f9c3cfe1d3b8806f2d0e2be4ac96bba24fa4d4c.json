@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude mcp add`, `claude mcp remove` and `/mcp` naming the current folder instead of the project entry in `~/.claude.json` that holds a local-scope server when run below a repository root",
+  "zh": "修复了在仓库根目录以下运行时，`claude mcp add`、`claude mcp remove` 和 `/mcp` 显示当前文件夹、而非 `~/.claude.json` 中存放本地作用域服务器的项目条目的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

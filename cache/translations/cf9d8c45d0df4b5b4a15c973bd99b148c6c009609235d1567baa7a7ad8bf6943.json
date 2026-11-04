@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude ultrareview` to require workspace trust: it asks on a terminal, else refuses; scripts pass `--trust-workspace`, which takes no value (put a PR number or base branch before it), or set `CLAUDE_CODE_DISABLE_ULTRAREVIEW_TRUST_CHECK=1`",
+  "zh": "变更 `claude ultrareview`：现在要求工作区信任，在终端上会询问，否则拒绝；脚本可传入 `--trust-workspace`（该参数不取值，PR 编号或基础分支需放在它前面），或设置 `CLAUDE_CODE_DISABLE_ULTRAREVIEW_TRUST_CHECK=1`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

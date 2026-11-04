@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pasting text that mentions an image file, such as `! open /tmp/shot.png` or `/review look at /tmp/shot.png`, attaching the image and dropping its path from the prompt",
+  "zh": "修复了粘贴提及图片文件的文本（例如 `! open /tmp/shot.png` 或 `/review look at /tmp/shot.png`）时会附加该图片并从 prompt 中删除其路径的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

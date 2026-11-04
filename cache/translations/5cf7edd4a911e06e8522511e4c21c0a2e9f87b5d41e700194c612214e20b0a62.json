@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink",
+  "zh": "修复 macOS 沙箱的 `denyWrite` glob 模式在通过符号链接到达模式所在文件夹时，未在路径的真实位置生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude not being told the cause when a file attached to a message sent over Remote Control or to a cloud session could not be saved because the disk was full, or that a message's attachments past the first 20 were left out",
+  "zh": "修复了以下问题：通过远程控制发送或发送到云端 session 的消息所附文件因磁盘已满而无法保存时，Claude 未被告知原因；消息中第 20 个之后的附件被遗漏时也未告知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

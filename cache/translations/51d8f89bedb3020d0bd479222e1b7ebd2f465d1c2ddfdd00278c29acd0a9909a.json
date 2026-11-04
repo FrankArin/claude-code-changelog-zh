@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an optional `groups` list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too",
+  "zh": "为 Claude 应用网关上游新增可选的 `groups` 列表：只有属于所列 IdP 组的开发者才会被路由到该上游，故障转移时同样如此",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

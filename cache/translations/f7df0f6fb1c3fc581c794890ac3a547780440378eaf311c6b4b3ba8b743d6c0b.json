@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin",
+  "zh": "当先运行的 plugin 跳过你的 mod 的某个 hook 时，新增一条记录行，注明事件和该 plugin",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Bash permission check trusting a variable set by a command whose redirect can fail to open",
+  "zh": "修复了 Bash 权限检查信任某条命令设置的变量、而该命令的重定向可能无法打开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

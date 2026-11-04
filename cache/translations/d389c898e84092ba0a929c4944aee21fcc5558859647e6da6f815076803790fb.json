@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed diagnostics showing \"\\[object Object]\" instead of the rule code (e.g. MD013) for some language servers",
+  "zh": "\\[VSCode] 修复某些语言服务器的诊断信息显示 \"\\[object Object]\" 而非规则代码（如 MD013）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

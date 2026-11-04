@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Remote Control] Fixed side-by-side checkouts of one repository looking identical in the environment menu's Remote Control rows; each now shows its own folder name",
+  "zh": "\\[Remote Control] 修复同一仓库的并排检出在环境菜单的 Remote Control 行中显示相同的问题；现在每行显示各自的文件夹名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

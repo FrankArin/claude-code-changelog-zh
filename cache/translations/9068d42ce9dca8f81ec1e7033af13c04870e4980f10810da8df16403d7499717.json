@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed interrupting Claude not taking effect until a timeout while an MCP server had not answered a resource read or a skill was still downloading",
+  "zh": "修复当 MCP server 未响应资源读取或 skill 仍在下载时，中断 Claude 要等到超时才生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

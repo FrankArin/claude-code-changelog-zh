@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed direct messages with Claude on a Slack Enterprise Grid ignoring Slack's workspace dropdown; they now run under the connected workspace you last opened Claude in",
+  "zh": "\\[Claude Tag] 修复了在 Slack Enterprise Grid 上与 Claude 的私信忽略 Slack 工作区下拉菜单的问题；现在会在你最近打开 Claude 时所连接的工作区下运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

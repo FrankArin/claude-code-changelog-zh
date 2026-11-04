@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `anthropic.plan`, `anthropic.seat_type`, `anthropic.provider` and `anthropic.custom_base_url` to OTel metrics, events and spans",
+  "zh": "在 OTel 指标、事件和 span 中新增 `anthropic.plan`、`anthropic.seat_type`、`anthropic.provider` 和 `anthropic.custom_base_url`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

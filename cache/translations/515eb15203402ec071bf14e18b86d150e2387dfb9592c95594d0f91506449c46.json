@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude Code on Bedrock, Mantle, Vertex, and Foundry to load model settings from a signed file on downloads.claude.ai; set CLAUDE\\_CODE\\_MODEL\\_CATALOG=off to turn this off",
+  "zh": "变更 Bedrock、Mantle、Vertex 和 Foundry 上的 Claude Code，改为从 downloads.claude.ai 上的签名文件加载模型设置；设置 CLAUDE\\_CODE\\_MODEL\\_CATALOG=off 可关闭此功能",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "versions": [
+    "2.1.318"
+  ],
+  "tldr": "修复了配置与登录的可靠性问题，并调整了 IDE 扩展安装、subagent 与日志行为。",
+  "highlights": [
+    {
+      "title": "IDE 终端不再安装扩展",
+      "category": "破坏性变更",
+      "detail": "在 IDE 终端中启动 Claude Code 时，不再自动安装或更新 IDE 扩展，需要改用其他方式安装。",
+      "action": "从外部终端运行 /ide，或通过编辑器的扩展视图手动安装扩展。",
+      "example": {
+        "lang": "bash",
+        "code": "/ide",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.318-changed-12"
+      ],
+      "version": "2.1.318"
+    },
+    {
+      "title": "自托管运行器日志格式变更",
+      "category": "破坏性变更",
+      "detail": "编排器日志行字段顺序与输出流改变，ok session 行现在所有级别都输出到 stdout，匹配旧格式的脚本会失效。",
+      "action": "更新匹配 retryable=true: 或 retryable=false: 的脚本。",
+      "example": null,
+      "item_ids": [
+        "2.1.318-changed-21"
+      ],
+      "version": "2.1.318"
+    },
+    {
+      "title": "恢复旧对话可能丢失思考内容",
+      "category": "破坏性变更",
+      "detail": "撤销了 2.1.288 的修复，恢复 2.1.286 及更早版本开始的对话时，模型先前的思考内容可能被丢弃。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.318-changed-20"
+      ],
+      "version": "2.1.318"
+    },
+    {
+      "title": "配置文件与登录更可靠",
+      "category": "修复",
+      "detail": "在共享网络主目录上，配置文件、设置和登录信息更少被删除、清空或替换；无法写入时不再误报成功，无效 JSON 也不再被默认值覆盖。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/logout",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.318-improvements-23",
+        "2.1.318-fixes-41",
+        "2.1.318-fixes-75",
+        "2.1.318-fixes-73"
+      ],
+      "version": "2.1.318"
+    },
+    {
+      "title": "登录到期可见性",
+      "category": "新功能",
+      "detail": "auth status 与 claude -p 的 JSON 结果新增登录到期时间，并在到期前 10 天起在 stderr 输出警告。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude auth status",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.318-added-4",
+        "2.1.318-added-5"
+      ],
+      "version": "2.1.318"
+    },
+    {
+      "title": "多项稳定性修复",
+      "category": "修复",
+      "detail": "修复了 --continue 丢失对话、macOS 大量 Bash 命令导致卡住、权限提示误应答、后台 subagent 用量提示反复出现等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.318-fixes-38",
+        "2.1.318-fixes-39",
+        "2.1.318-fixes-40",
+        "2.1.318-fixes-49"
+      ],
+      "version": "2.1.318"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "a12bfa0f9021456643fcbb3c29353c40011607b2d26844e4f4735cce0f3312aa"
+}

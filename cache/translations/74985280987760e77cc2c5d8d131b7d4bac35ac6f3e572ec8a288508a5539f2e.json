@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude in Slack's notice for a channel's monthly spend limit saying a channel manager can raise it; it now names an organization owner and links the usage page",
+  "zh": "\\[Claude Tag] 修复了 Slack 中 Claude 关于频道月度支出限额的提示错误地称频道管理员可提高限额的问题；现在会指明组织所有者并链接到用量页面",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

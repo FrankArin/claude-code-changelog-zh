@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a notice when auto mode's check has no answer for a subagent's tool call, which used to leave nothing in the main view",
+  "zh": "新增提示：当自动模式的检查对某个 subagent 的工具调用没有答案时显示，此前这种情况在主视图中不会留下任何内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/permissions` > Recently denied not showing the denied shell command, and auto mode's local classifier ignoring an approval from there when it checks a retried command; approving a row now names the command, not its description",
+  "zh": "修复了 `/permissions` > Recently denied 不显示被拒绝的 shell 命令的问题，以及自动模式的本地分类器在检查重试命令时忽略来自该处的批准的问题；现在批准某一行会显示命令名称，而不是其描述",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

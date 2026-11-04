@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `UserPromptSubmit` hooks to run before a skill or custom slash command expands, so a hook that blocks the prompt now also stops its embedded shell commands",
+  "zh": "变更 `UserPromptSubmit` hook 的执行时机，改为在 skill 或自定义斜杠命令展开之前运行，因此阻止 prompt 的 hook 现在也会阻止其内嵌的 shell 命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

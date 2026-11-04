@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Changed connector search results to tell Claude that the search covers only part of the connector directory",
+  "zh": "\\[Cloud sessions] 变更了 connector 搜索结果，告知 Claude 该搜索仅覆盖 connector 目录的一部分",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the claude.ai view of a Remote Control or cloud session freezing when a large batch of events could not finish uploading over a slow connection",
+  "zh": "修复了当大量事件在慢速连接下无法完成上传时，Remote Control 或云端 session 的 claude.ai 视图卡死的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the cyber safeguard notice to no longer ask people to apply to the Cyber Verification Program",
+  "zh": "变更网络安全防护提示，不再要求用户申请 Cyber Verification Program",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

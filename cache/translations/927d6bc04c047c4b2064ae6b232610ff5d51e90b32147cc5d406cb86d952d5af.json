@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `decider: \"person\"` to a mod's `tool.check` answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked",
+  "zh": "在 mod 的 `tool.check` 应答中新增 `decider: \"person\"`：只有权限对话框或宿主的回调可以批准该请求，在无人可询问的情况下会以 mod 给出的原因拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

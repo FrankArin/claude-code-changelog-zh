@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed stdio MCP servers that exit on the version probe being re-probed on every start; a server that dies in under 3s for its own reason is also pinned to the legacy handshake for 7 days",
+  "zh": "修复了在版本探测时退出的 stdio MCP 服务器每次启动都被重新探测的问题；因自身原因在 3 秒内退出的服务器也会被固定为旧版握手 7 天",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

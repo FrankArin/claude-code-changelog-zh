@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the bundled dataviz skill: lighter violet for the seventh series in light mode, softer primary text in dark mode, and compact y-axis labels like 1K",
+  "zh": "更新内置 dataviz skill：浅色模式下第七个系列改用更浅的紫色，深色模式下主文本更柔和，并采用如 1K 的紧凑 y 轴标签",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

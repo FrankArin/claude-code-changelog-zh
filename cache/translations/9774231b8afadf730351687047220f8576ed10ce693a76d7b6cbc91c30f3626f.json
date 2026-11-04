@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Bash edit diff listing a whole file as changed when a CRLF file under git's line-ending conversion was re-saved unchanged or had one line edited",
+  "zh": "修复了 Bash 编辑 diff 的问题：在 git 换行符转换下，CRLF 文件未做修改重新保存或仅编辑一行时，整个文件被列为已更改",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `$.ui.notify` for mods: raises a native notification through your own notification setting and says which channel sent it",
+  "zh": "mods 新增 `$.ui.notify`：通过你自己的通知设置触发原生通知，并说明是哪个频道发送的",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

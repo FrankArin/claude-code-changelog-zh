@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "versions": [
+    "2.1.316"
+  ],
+  "tldr": "新增多个环境变量与网关策略能力，弃用 Opus 4.8 快速模式，并修复大量 shell、网络与云 session 问题。",
+  "highlights": [
+    {
+      "title": "Opus 4.8 快速模式将移除",
+      "category": "破坏性变更",
+      "detail": "快速模式自 2026-10-30 弃用、11-30 移除；之后请求会直接报错且不回退到标准 Opus 4.8，需提前迁移以保留加速效果。",
+      "action": "在 2026 年 11 月 30 日前将使用快速模式的配置迁移到 Opus 5.5。",
+      "example": null,
+      "item_ids": [
+        "2.1.316-changed-11"
+      ],
+      "version": "2.1.316"
+    },
+    {
+      "title": "新增多个环境变量开关",
+      "category": "新功能",
+      "detail": "可关闭 ultrathink 关键字、保留私有 CA 的循环交叉证书，并单独设定 subagents 的 effort 级别而不再继承 session 设置。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_ULTRATHINK",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.316-added-1",
+        "2.1.316-added-3",
+        "2.1.316-added-4"
+      ],
+      "version": "2.1.316"
+    },
+    {
+      "title": "网关策略与预算增强",
+      "category": "新功能",
+      "detail": "新增 layered 策略模式使所有匹配策略依次合并生效，支持共享组月度预算，Bedrock 上游可对 prompt 做 guardrail 输入标记。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.316-added-2",
+        "2.1.316-added-5",
+        "2.1.316-added-6"
+      ],
+      "version": "2.1.316"
+    },
+    {
+      "title": "托管设置与自动模式调整",
+      "category": "改进",
+      "detail": "Team/Enterprise 从 Anthropic API 获取的托管设置无需审批即生效；不含 $defaults 的 autoMode.allow 不再移除计划任务的内置规则。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.316-changed-12",
+        "2.1.316-changed-13"
+      ],
+      "version": "2.1.316"
+    },
+    {
+      "title": "修复 shell 与网络挂起问题",
+      "category": "修复",
+      "detail": "修复退出后 shell 命令仍在运行、含换行符的别名与函数丢失、SHELLOPTS 导致脚本中断，以及压缩响应损坏时请求挂起等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.316-fixes-22",
+        "2.1.316-fixes-23",
+        "2.1.316-fixes-24",
+        "2.1.316-fixes-26"
+      ],
+      "version": "2.1.316"
+    },
+    {
+      "title": "修复模型与网关校验",
+      "category": "修复",
+      "detail": "Vertex/Bedrock 上最新模型不可用时会回退到较旧模型；网关现在校验请求中的每个模型，被阻止的模型返回 400 并指明字段。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.316-fixes-27",
+        "2.1.316-fixes-28"
+      ],
+      "version": "2.1.316"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "e6be881a4f76d0e3d417c7957167f5cc9f0741aef4bcb57d7f1c59547e30be97"
+}

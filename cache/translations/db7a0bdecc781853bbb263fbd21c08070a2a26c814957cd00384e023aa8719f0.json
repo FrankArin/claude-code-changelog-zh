@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Bug fixes and reliability improvements",
+  "zh": "修复缺陷并提升可靠性",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:48+00:00"
+}

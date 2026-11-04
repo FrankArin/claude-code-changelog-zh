@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control permanently withholding a desktop conversation's history when a different account was signed in to the terminal",
+  "zh": "修复了终端登录了其他账号时，远程控制永久扣留桌面对话历史的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

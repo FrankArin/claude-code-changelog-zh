@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed vim mode `dw`, `dW`, `yw` and `yW` carrying on past the end of the line, and made `w` and `W` stop on empty lines",
+  "zh": "修复 vim 模式下 `dw`、`dW`、`yw` 和 `yW` 越过行尾继续执行的问题，并让 `w` 和 `W` 在空行处停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

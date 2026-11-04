@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude self-hosted-runner` sessions using Anthropic-managed git showing tracked files as staged deletions when starting in a reused clone whose remote is still empty",
+  "zh": "修复了 `claude self-hosted-runner` session 使用 Anthropic 托管的 git 时，在远程仍为空的复用克隆中启动会将已跟踪文件显示为已暂存删除的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

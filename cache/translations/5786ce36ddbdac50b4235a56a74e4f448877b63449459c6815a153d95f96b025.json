@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved the sign-in screen to show what Claude Code printed when its sign-in status check fails",
+  "zh": "\\[VSCode] 改进了登录界面：当登录状态检查失败时，显示 Claude Code 输出的内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

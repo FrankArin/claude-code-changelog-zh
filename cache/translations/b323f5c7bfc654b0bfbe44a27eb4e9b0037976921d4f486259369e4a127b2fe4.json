@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a user-installed mod's `$.env.set` changing the environment or shell prefix that command hooks from managed settings start with",
+  "zh": "修复了用户安装的 mod 的 `$.env.set` 更改托管设置中的命令 hook 启动时使用的环境或 shell 前缀的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

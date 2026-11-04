@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved SSL certificate errors to name the likely causes, among them a server that leaves out an intermediate certificate, and the fix for each",
+  "zh": "改进 SSL 证书错误提示：现在会指出可能的原因（包括服务器缺少中间证书）以及各自的修复方法",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

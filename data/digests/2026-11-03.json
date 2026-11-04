@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "versions": [
+    "2.1.317"
+  ],
+  "tldr": "新增隐私确认与成本报告，修复大量稳定性问题，无破坏性变更。",
+  "highlights": [
+    {
+      "title": "邮箱外发前先确认",
+      "category": "安全",
+      "detail": "web 或 shell 工具调用若要把你的账户邮箱地址发送到网络，会先向你确认，避免敏感信息意外外泄。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.317-added-2"
+      ],
+      "version": "2.1.317"
+    },
+    {
+      "title": "新增成本报告 API",
+      "category": "新功能",
+      "detail": "网关管理 API 新增 GET /v1/organizations/analytics/cost，可按日期范围查看历史支出，支持总计、按开发者、按天或按 IdP 组。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.317-added-7"
+      ],
+      "version": "2.1.317"
+    },
+    {
+      "title": "hook 失败可阻止操作",
+      "category": "新功能",
+      "detail": "Agent SDK hook 回调新增 onFailure: \"block\"，回调失败时阻止该操作执行，而不是让其继续运行。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.317-added-3"
+      ],
+      "version": "2.1.317"
+    },
+    {
+      "title": "嵌套 session ID 开关",
+      "category": "新功能",
+      "detail": "新增 CLAUDE_CODE_DISABLE_NESTED_SESSION_ID；在自托管运行器上设为 1，可让 session 内运行的 claude -p 使用该 session 的 ID 和记录，与早期版本一致。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_NESTED_SESSION_ID",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.317-added-9"
+      ],
+      "version": "2.1.317"
+    },
+    {
+      "title": "磁盘写入失败不再静默",
+      "category": "修复",
+      "detail": "磁盘已满或配额耗尽导致 transcript 或 ~/.claude.json 写入丢失时，claude -p 现在会打印错误并以 1 退出，而非静默返回 0。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude -p",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.317-fixes-41"
+      ],
+      "version": "2.1.317"
+    },
+    {
+      "title": "OTel 导出不再挂起",
+      "category": "修复",
+      "detail": "OpenTelemetry 导出在无响应代理后不再无限期挂起，10 秒后超时，或按 OTEL_EXPORTER_OTLP_TIMEOUT 最多 30 秒。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.317-fixes-62"
+      ],
+      "version": "2.1.317"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "46c0a587c2188c800b02be4ea6c16a6f9e8e00ddc669bb75dc32e3450477886e"
+}

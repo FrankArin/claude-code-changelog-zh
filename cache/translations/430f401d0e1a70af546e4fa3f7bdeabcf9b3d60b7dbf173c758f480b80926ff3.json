@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved sessions on network file systems to look again when the configuration file is wrongly reported as missing, so fewer start without your MCP servers and trusted folders",
+  "zh": "改进了网络文件系统上的 session：当配置文件被误报为缺失时会重新检查，从而减少启动时缺少 MCP 服务器和受信任文件夹的情况",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

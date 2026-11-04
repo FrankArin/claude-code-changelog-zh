@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/model <id>` not warning when the model isn't recognized by this version and auto-compact will assume a 200K context window",
+  "zh": "修复当模型不被此版本识别、且自动上下文压缩将按 200K 上下文窗口处理时，`/model <id>` 未给出警告的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

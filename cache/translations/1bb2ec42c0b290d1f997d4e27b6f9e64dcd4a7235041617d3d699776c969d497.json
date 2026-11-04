@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed agent teams sessions showing an empty task list when coming back with `--resume`, `--continue`, `/resume` or `--session-id`, including after `/clear` or a crash, and `/branch` writing to the original session's list",
+  "zh": "修复了 agent teams session 在通过 `--resume`、`--continue`、`/resume` 或 `--session-id` 返回时（包括在 `/clear` 或崩溃之后）显示空任务列表的问题，以及 `/branch` 写入原 session 任务列表的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

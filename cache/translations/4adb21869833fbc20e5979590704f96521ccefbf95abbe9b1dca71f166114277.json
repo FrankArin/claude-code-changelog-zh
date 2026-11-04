@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved auto mode's blocked calls: messages name the command, say Claude may retry and auto mode checks again, and point to `/permissions` to review",
+  "zh": "改进自动模式被阻止的调用：消息会指明命令，说明 Claude 可能重试且自动模式会再次检查，并提示用 `/permissions` 审查",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

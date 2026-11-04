@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Skill tool's \"Unknown skill\" error to suggest a skill's listed name when Claude wrongly adds the `anthropic-skills:` prefix to it",
+  "zh": "改进 Skill 工具的“Unknown skill”错误：当 Claude 错误地为其添加 `anthropic-skills:` 前缀时，会提示该 skill 的已列出名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

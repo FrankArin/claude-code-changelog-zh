@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/remote-control` answering \"Unknown command\" instead of saying that Remote Control is turned off by the `disableRemoteControl` setting",
+  "zh": "修复了 `/remote-control` 返回“Unknown command”，而不是说明远程控制已被 `disableRemoteControl` 设置关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

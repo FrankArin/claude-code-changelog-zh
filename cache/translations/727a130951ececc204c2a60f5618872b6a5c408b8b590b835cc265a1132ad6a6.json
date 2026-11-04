@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added syntax coloring to code blocks in Claude's replies, in light, dark and high contrast dark themes",
+  "zh": "\\[VSCode] 为 Claude 回复中的代码块新增语法着色，支持浅色、深色和高对比度深色主题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

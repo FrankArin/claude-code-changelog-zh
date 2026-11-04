@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Improved repository search in Claude Tag admin settings to cover up to 100 connected GitHub accounts and find private repositories past the first 5,000 of a GitHub App install",
+  "zh": "\\[Claude Tag] 改进 Claude Tag 管理设置中的仓库搜索：最多覆盖 100 个已连接的 GitHub 账号，并能找到 GitHub App 安装中前 5,000 个之外的私有仓库",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

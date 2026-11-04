@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude agents` starting a new background service as it exited when both were stopped with a session open (for example at a reboot), which could delay shutdown and restart an interrupted session",
+  "zh": "修复了在 session 打开状态下同时停止 `claude agents` 和后台服务时，`claude agents` 在退出时又启动新的后台服务的问题（例如重启时），该问题可能延迟关机并重启被中断的 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

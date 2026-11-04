@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "version": "2.1.304",
+  "date": "2026-10-19",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "0b20dc9716e1b31701c28a10474561b160f5e8310c18bdc8cc41b8480ec55e20",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:53:12+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.304-added-1",
+          "en": "Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin",
+          "zh": "当先运行的 plugin 跳过你的 mod 的某个 hook 时，新增一条记录行，注明事件和该 plugin",
+          "hash": "37be9a86718310aea45ad4a18235b8c9680fe52a949f53699892e3e61413cd14",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-2",
+          "en": "Added `decider: \"person\"` to a mod's `tool.check` answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked",
+          "zh": "在 mod 的 `tool.check` 应答中新增 `decider: \"person\"`：只有权限对话框或宿主的回调可以批准该请求，在无人可询问的情况下会以 mod 给出的原因拒绝",
+          "hash": "abd54e92b6e0a4ea96bf9e1c3750a4f30fe9ed54acf0d8971d550d1d3b887c4f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-3",
+          "en": "Added `e.isReadOnly` to a mod's `tool.check` event, set when the tool call is read-only",
+          "zh": "在 mod 的 `tool.check` 事件中新增 `e.isReadOnly`，当工具调用为只读时设置",
+          "hash": "1a5872e2eac3c88723b0f681b707408060e909ec3bce0c558ac9385c734d64a0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-4",
+          "en": "Added `/auto-mode-setup`: a guided setup that reads your project and recent sessions to teach auto mode about your environment, now also available on Bedrock, Vertex, Foundry, Claude apps gateway and telemetry-disabled sessions",
+          "zh": "新增 `/auto-mode-setup`：引导式设置，读取你的项目和最近的 session，让自动模式了解你的环境，现已在 Bedrock、Vertex、Foundry、Claude 应用网关和禁用遥测的 session 中可用",
+          "hash": "9ecb85339df99841d01bab10bd2d568042295888ec81785c46715e0731ad0307",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-5",
+          "en": "Added `/claude-api managed-agents-secure`, which compares a Managed Agents agent's settings with Anthropic's published security guide, without changing anything",
+          "zh": "新增 `/claude-api managed-agents-secure`，将 Managed Agents agent 的设置与 Anthropic 发布的安全指南进行比对，不做任何更改",
+          "hash": "c24dcca8ed06de76fded3311ef47a12aabe8d001503da5a25b47be8d4431e0bb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-6",
+          "en": "Added the names of the tools called earlier to the compaction summary in the transcript view (Ctrl+O)",
+          "zh": "在记录视图（Ctrl+O）的上下文压缩摘要中新增此前调用的工具名称",
+          "hash": "f2deebde6674620f46978dea46294a23a1c00e724b30a84b5ea2dd9dcc149743",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-7",
+          "en": "Added a warning on Pro and Max plans when resuming an inactive conversation would use a noticeable share of your 5-hour usage limit: resume anyway, or start a new conversation and Claude can look up the previous one if you refer to it",
+          "zh": "在 Pro 和 Max 套餐中新增警告：恢复不活跃的对话会占用你 5 小时用量限制中相当可观的一部分时提示：仍要恢复，或开始新对话，若你提及之前的对话，Claude 可以查找它",
+          "hash": "370da4bbee6791580014ec2bd604e11b86d93229776b23f459f5e56f8179e888",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-8",
+          "en": "\\[VSCode] Added mod drawing in the chat panel for sessions on Amazon Bedrock, Google Vertex AI and Microsoft Foundry, behind an LLM gateway, or with telemetry turned off",
+          "zh": "\\[VSCode] 在聊天面板中新增 mod 绘制，适用于 Amazon Bedrock、Google Vertex AI 和 Microsoft Foundry 上的 session、经 LLM 网关的 session，或关闭遥测的 session",
+          "hash": "429e33d726206d8589b437e0e7b5f28f74cf6f98b21569ceae520e39ea280a17",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-9",
+          "en": "\\[Code Review] Added review levels to Code Review: Owners choose Quick, Standard (the default), or Deep for the organization, and can give individual repositories their own level",
+          "zh": "\\[Code Review] 为 Code Review 新增审查级别：所有者可为组织选择 Quick、Standard（默认）或 Deep，并可为单个仓库指定各自的级别",
+          "hash": "aa4afec6430103013e22f6f1073f9987330c928d518487cf975a7ad88e0c1f4b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-added-10",
+          "en": "\\[Code Review] Added an option in Code Review admin settings to review every repository in a GitHub organization, including ones added later, without selecting them one by one",
+          "zh": "\\[Code Review] 在 Code Review 管理设置中新增选项，可审查 GitHub 组织中的所有仓库，包括之后新增的仓库，无需逐个选择",
+          "hash": "e066cead773395cee557c49e52680f5b6f32ce2ae714bd797e62ae93ccbd4ea3",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.304-changed-11",
+          "en": "Changed mods' `settings.read` hooks to receive each settings layer and rewrite the merged settings, so a managed mod can make an organization's setting a ceiling, including the `cleanupPeriodDays` the retention sweep uses",
+          "zh": "变更 mod 的 `settings.read` hook：改为接收每个设置层并重写合并后的设置，使受管理的 mod 能将组织设置设为上限，包括保留清理所用的 `cleanupPeriodDays`",
+          "hash": "8ebe0b91ef64d972a07646781440a54d2c8c49946ffadd546de30d0efc344f91",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-12",
+          "en": "Changed the `/artifacts` delete confirmation to show numbered choices: 1 or Enter keeps the artifact, 2 deletes it, and y, n and Esc still work",
+          "zh": "变更 `/artifacts` 删除确认，改为显示编号选项：1 或 Enter 保留 artifact，2 删除它，y、n 和 Esc 仍然有效",
+          "hash": "4ad12595daaa274fb31d2538e69a54c44ddbc0b17edf89ea61f39896ed7da251",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-13",
+          "en": "Changed the question that turns on the mods Claude writes in a session to plain text with no link or session id; it stays up when a new turn starts, and Claude tells you what loaded when you turn them on",
+          "zh": "变更开启 Claude 在 session 中编写的 mod 的提问，改为纯文本，不含链接或 session id；新回合开始时仍会显示，开启后 Claude 会告知你加载了什么",
+          "hash": "d01b3610b78bf2f3d6af107d252aa7a97bffd63787a1d026e62e3b82ff98706e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-14",
+          "en": "Changed tool search to be on by default behind a custom `ANTHROPIC_BASE_URL`; a 400 or 422 from the gateway is retried without it",
+          "zh": "变更工具搜索：在自定义 `ANTHROPIC_BASE_URL` 下默认开启；网关返回 400 或 422 时会在不启用它的情况下重试",
+          "hash": "beeefa23948ac1dc54574d9f9b85985732389f4b5041b8c6f7044d729b9f7417",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-15",
+          "en": "Changed compaction to send Claude the skill list again afterwards; `/reload-skills` now sends only new or changed skills",
+          "zh": "变更上下文压缩：之后会再次向 Claude 发送 skill 列表；`/reload-skills` 现在只发送新增或变更的 skill",
+          "hash": "5d4554f881ccc8099c943970bf8b739a3fafeac2a19f16b81fc00165bec574ef",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-16",
+          "en": "Changed skill hooks: the skills of one source (a repo, your own folder, or a plugin) can register at most 1,024 hooks and 16,384 matcher characters per session",
+          "zh": "变更 skill hook：同一来源（一个仓库、你自己的文件夹或一个 plugin）的 skill 每个 session 最多可注册 1,024 个 hook 和 16,384 个匹配字符",
+          "hash": "30c58698dcafa9f28bb2745df7b24705b4fc340f097373d7cc6e687752a4f3f2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-17",
+          "en": "Changed skills under a policy that allows hooks from plugins only: a skill used in the main conversation whose hooks are kept out no longer gets its `allowed-tools`",
+          "zh": "变更仅允许来自 plugin 的 hook 的策略下的 skill：在主对话中使用但其 hook 被排除的 skill 不再获得其 `allowed-tools`",
+          "hash": "4625d5b6acbdb78d311182f105440b0aee9903e62d25e1ae2119f37063471bbd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-18",
+          "en": "Updated the /claude-api skill to use the `ant` CLI on Claude Platform on AWS instead of falling back to the SDK or curl",
+          "zh": "更新 /claude-api skill，在 Claude Platform on AWS 上使用 `ant` CLI，而不再回退到 SDK 或 curl",
+          "hash": "e728addc06520286c9d15421fc9989746c3d77cebe9f2aeeab72e4c69d5f7a54",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-19",
+          "en": "Removed the notes from `claude plugin validate` that predicted where a mod's hooks would run",
+          "zh": "移除 `claude plugin validate` 中预测 mod 的 hook 将在何处运行的说明",
+          "hash": "d73c18fb659bef869ae2bf0820efa8429e2783ff4d208f20b27674557df9dca1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-20",
+          "en": "Removed the \"(research preview)\" label from the `/fast` dialog title on Opus 5.5",
+          "zh": "移除 Opus 5.5 上 `/fast` 对话框标题中的“(research preview)”标签",
+          "hash": "0a4c64181c4c450888a98ddf995f3f0a1836de202c8c1f7c9e7c15cd1fdf552d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-changed-21",
+          "en": "\\[VSCode] Changed background sub-agents to show as one status line under their Agent card instead of streaming every step into the chat; the full transcript stays in /tasks",
+          "zh": "\\[VSCode] 变更后台 subagent 的显示方式：现在在其 Agent 卡片下以一行状态栏展示，不再把每一步都流式输出到聊天中；完整记录仍保留在 /tasks 中",
+          "hash": "c044ab3a2d65a60385369bc143531845b3b6270a72c06aa172143642ab0d8e30",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "12 improvements",
+      "heading_zh": "12 项改进",
+      "items": [
+        {
+          "id": "2.1.304-improvements-22",
+          "en": "Improved `/usage` to say when a rate limit on usage data ends instead of \"try again in a moment\"",
+          "zh": "改进 `/usage`：用量数据的速率限制结束时，会说明结束时间，不再显示“try again in a moment”",
+          "hash": "e80c48f7867c4c2245a150c04c74e2ce64445c0a185a6338006ac4f3e3e8fee6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-23",
+          "en": "Improved the lines shown when a mod written in the session loads, reloads or fails to load",
+          "zh": "改进 session 中编写的 mod 在加载、重新加载或加载失败时显示的行",
+          "hash": "479fec9f44b1b7bd3851e46bb0ec32bb27cf1a0987e5d16a08ab5494d10e10ba",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-24",
+          "en": "Improved artifacts with several views: when you ask for links to them, Claude now writes out each view's link and explains that the address bar stays the same as you switch views",
+          "zh": "改进包含多个视图的 artifact：当你要求提供它们的链接时，Claude 现在会写出每个视图的链接，并说明切换视图时地址栏保持不变",
+          "hash": "9cdaf2150913fe933a15642a00bf81f6d4a2c5f502727a52cf7dea34b432802a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-25",
+          "en": "Improved cloud sessions: a new conversation's first turn no longer waits for the local (stdio) MCP servers of plugins synced from claude.ai, unless a server sets `alwaysLoad: true`",
+          "zh": "改进云 session：新对话的第一轮不再等待从 claude.ai 同步的 plugin 的本地（stdio）MCP server，除非该 server 设置了 `alwaysLoad: true`",
+          "hash": "0fdded892a55a9bd29eaf78817b2894bfa7cdab206f60f9666c2a1bf1cc4601a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-26",
+          "en": "Improved how a remote session recovers its status when the server refuses a status update that carried other session data",
+          "zh": "改进远程 session 在 server 拒绝携带其他 session 数据的 status 更新时恢复其 status 的方式",
+          "hash": "5d25270edcdb127f8104dd0e24dca6c66712d9b7c3aa733d5b161c454d05859c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-27",
+          "en": "Improved session file size in auto mode: the safety classifier's context is no longer stored with every request",
+          "zh": "改进自动模式下的 session 文件大小：安全分类器的上下文不再随每个请求一起存储",
+          "hash": "690ec67ef782ad452357aff55f7316e584ef0805849c9959af7ad54eccf93364",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-28",
+          "en": "Improved the `claude -p` invalid-settings warning: a file that did not load lists only what stopped it, and long lists are capped per file",
+          "zh": "改进 `claude -p` 的无效设置警告：未加载的文件只列出阻止其加载的原因，过长的列表按文件截断",
+          "hash": "b716c6e144b142ca3d2775bd75e7743e935b90fa53779bd50cb35c8e7e82084c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-29",
+          "en": "Improved resume of large compacted sessions in SDK and headless mode: the first request after resuming is sent sooner",
+          "zh": "改进 SDK 和无头模式下恢复大型已压缩 session：恢复后的第一个请求发送得更快",
+          "hash": "c1c64c2d93b56e8e427d584ed3253229e5fd1f6c882209b7bf8a2ec17572310c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-30",
+          "en": "Improved responsiveness and throughput when many subagents are running at the same time",
+          "zh": "改进大量 subagent 同时运行时的响应速度和吞吐量",
+          "hash": "ac3fbf52f13e79bb661a8e71968ff014b8244e70fa755a94b3b19a66b4019f55",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-31",
+          "en": "Improved memory use when sending requests in long or resumed conversations",
+          "zh": "改进在长对话或恢复的对话中发送请求时的内存占用",
+          "hash": "c20f103ea5f96f03726acce15be505bf0809ef0c8078536f2368a55f2b6d52f4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-32",
+          "en": "Self-hosted runner: Improved the error shown when the git host answers \"not found\" for a session's repository: it now names the repository and whom to ask",
+          "zh": "自托管运行器：改进 git 主机对 session 仓库返回“not found”时显示的报错：现在会指明仓库名称以及应向谁询问",
+          "hash": "590d77855fdb462b6abf3bbb57ff281c9d236c57d7dae6d370fdedff11a0694a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-improvements-33",
+          "en": "Windows: Improved git command start-up with a standard Git for Windows install by running its git.exe directly instead of through its cmd launcher",
+          "zh": "Windows：改进标准 Git for Windows 安装下 git 命令的启动速度，直接运行其 git.exe，而不再通过其 cmd 启动器",
+          "hash": "62d9c1d2b288e03ebcde58675c3b5b9b784e56fcea4a18475f3585eb679a0010",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "43 bug fixes",
+      "heading_zh": "43 项修复",
+      "items": [
+        {
+          "id": "2.1.304-fixes-34",
+          "en": "Fixed the organization policy not refreshing until the hourly check after approving an `ANTHROPIC_API_KEY` at startup or switching \"Use custom API key\" in `/config`",
+          "zh": "修复了以下问题：启动时批准 `ANTHROPIC_API_KEY` 或在 `/config` 中切换“Use custom API key”后，组织策略要等到每小时检查时才刷新",
+          "hash": "f50dd0fbba586b34a5459c505e889b61529126e9d1168380e3c904dc6430bf93",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-35",
+          "en": "Fixed sandboxed commands failing to start on Linux when a `sandbox.filesystem.denyRead` glob contains brackets that are not a character class, such as a `[user-id]` route folder",
+          "zh": "修复在 Linux 上，当 `sandbox.filesystem.denyRead` 通配符包含非字符类的方括号（例如 `[user-id]` 路由文件夹）时，沙箱命令无法启动的问题",
+          "hash": "e2d572028efe8fbeceb35ae00b4d04f7e5cade75e35328a4328f68bf8ae2e63c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-36",
+          "en": "Fixed `rm -r` of a mounted drive or a folder at its top level (`/Volumes`, `/media`, WSL's `/mnt/c`) not getting the safety prompt that `rm -rf /Applications` gets",
+          "zh": "修复对已挂载驱动器或其顶层文件夹（`/Volumes`、`/media`、WSL 的 `/mnt/c`）执行 `rm -r` 时，未像 `rm -rf /Applications` 那样触发安全提示的问题",
+          "hash": "e1a7276ee589b33fe62bd4ff7f31f0ea79131fc48000c2865ce80b600f60a3fc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-37",
+          "en": "Fixed `CLAUDE_CODE_TRANSCRIPT_LOCAL_GC` dropping messages from the saved transcript when the disk filled up while the file was being trimmed",
+          "zh": "修复在文件裁剪过程中磁盘写满时，`CLAUDE_CODE_TRANSCRIPT_LOCAL_GC` 会从已保存的记录中丢失消息的问题",
+          "hash": "21d9d1a2e80668e1cfe63e462a44eb0e5eef87e020fee17a041c79fd7e244fa4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-38",
+          "en": "Fixed a plugin keeping a headless run going past `--max-turns`, Stop, or ended input by spawning subagents or re-running a finished one",
+          "zh": "修复 plugin 通过启动 subagent 或重新运行已完成的 subagent，使无头运行超出 `--max-turns`、Stop 或已结束输入的问题",
+          "hash": "2339b5202cb094e2e79218288ec6f16266d71cee2fe1ec3a0a2e5425b60656f4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-39",
+          "en": "Fixed a failed mod reload removing the tools and commands of the version that stays loaded, and its messages being wrong or silent about whether the previous version is still loaded",
+          "zh": "修复 mod 重新加载失败时会移除仍处于加载状态的版本的工具和命令，以及其消息在说明前一版本是否仍加载时出错或静默的问题",
+          "hash": "27f29b949b593a89d67bce49061f8cf718f24b539a406d66e412ba74d0172f8c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-40",
+          "en": "Fixed a click on a mod's button being lost when buttons with the same label and no `key` were redrawn unchanged",
+          "zh": "修复当标签相同且没有 `key` 的按钮被原样重绘时，点击 mod 按钮会丢失的问题",
+          "hash": "d8917c1b7e078cf5bdea41c289dce69eedb2e6a32d3de7b7509dabcf0923cc8d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-41",
+          "en": "Fixed mod sharing in the built-in `plugin-authoring` skill stopping at the secret scan on machines with managed settings and on Team and Enterprise plans",
+          "zh": "修复了内置 `plugin-authoring` skill 中的 mod 共享在启用了托管设置的机器上以及 Team 和 Enterprise 套餐上停在密钥扫描环节的问题",
+          "hash": "4e26f9884832db14c6c45e4a58fc6ff44a20a137087f0d7de2b6bbab3311ab44",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-42",
+          "en": "Fixed scheduled Cowork cloud sessions waiting five minutes again for each subagent whose WebFetch needed a URL approval that nobody was there to give",
+          "zh": "修复了定时 Cowork 云端 session 中，每个 subagent 的 WebFetch 需要 URL 审批却无人审批时，会再次等待五分钟的问题",
+          "hash": "ebff3ad4269ddf59a4112b663b53c34f1d37a75cd959829c7043c9382e7b63f9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-43",
+          "en": "Fixed Write results and rejected edits showing a file outside the working directory as `../../…`; they now show `~/…` or the full path",
+          "zh": "修复了 Write 结果和被拒绝的编辑将工作目录之外的文件显示为 `../../…` 的问题；现在显示 `~/…` 或完整路径",
+          "hash": "02861b9f46bac1c160adb761c52355920f586fe3c13ca95473a23dd9900be6ff",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-44",
+          "en": "Fixed a claude.ai Directory plugin's skills not running as commands when picked from the \"/\" menu in Cowork cloud sessions",
+          "zh": "修复了在 Cowork 云端 session 中从 \"/\" 菜单选择 claude.ai Directory plugin 的 skills 时，这些 skills 未作为命令运行的问题",
+          "hash": "f4bb5c653e60002f83743901f1ef8261d172345d93c6279ef907267c784fb6e4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-45",
+          "en": "Fixed Remote Control permanently withholding a desktop conversation's history when a different account was signed in to the terminal",
+          "zh": "修复了终端登录了其他账号时，远程控制永久扣留桌面对话历史的问题",
+          "hash": "67e75570fedf4033401120d93ed1ccc86fac3c1ea9466ec94ee923c46edac4f6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-46",
+          "en": "Fixed Remote Control failing to start from Claude Desktop when DISABLE\\_TELEMETRY or DO\\_NOT\\_TRACK is set on a paid plan",
+          "zh": "修复了在付费套餐上设置了 DISABLE\\_TELEMETRY 或 DO\\_NOT\\_TRACK 时，远程控制无法从 Claude Desktop 启动的问题",
+          "hash": "210f87abaf4405ccdc6beb9ec7a674ecb1dfc3de4b931be32e5fb579a0aeaada",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-47",
+          "en": "Fixed model switches, messages and interrupts waiting behind a context usage check in SDK and desktop sessions",
+          "zh": "修复了在 SDK 和桌面 session 中，模型切换、消息和中断排在上下文用量检查之后等待的问题",
+          "hash": "883d9c4a5b1a90901f91b276f01806e94a96d525890e788e9a6f3a44cf1f19c9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-48",
+          "en": "Fixed `context_management: Extra inputs are not permitted` errors behind LLM gateways; Claude Code now resends the request without that field",
+          "zh": "修复了 LLM 网关后出现 `context_management: Extra inputs are not permitted` 错误的问题；Claude Code 现在会去掉该字段重新发送请求",
+          "hash": "27a192f30973871d2130c9e5accb719609da8495769107171890643d9ba74187",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-49",
+          "en": "Fixed OpenTelemetry settings delivered through server-managed settings being ignored for the whole session after signing in during first-run setup or the first start after /logout",
+          "zh": "修复了在首次运行设置或 /logout 后首次启动期间登录后，通过服务器托管设置下发的 OpenTelemetry 设置在整个 session 中被忽略的问题",
+          "hash": "bcfe6d9db1d3d90b7f681ccb5540e72493c293bffa9ad12526c4447892c4d55f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-50",
+          "en": "Fixed unsandboxed Bash commands in Claude Desktop Code tab sessions on macOS and Linux not seeing environment variables exported in shell startup files such as \\~/.zshrc",
+          "zh": "修复了 macOS 和 Linux 上 Claude Desktop Code 标签页 session 中未沙箱化的 Bash 命令看不到 shell 启动文件（如 \\~/.zshrc）中导出的环境变量的问题",
+          "hash": "8e8cdeae5de92f1d0cc4ef5906a91e8ca4d6cc7b713ae8c17106c951c0aef372",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-51",
+          "en": "Fixed the Consumer Terms notice being skipped for a day or longer after a server error",
+          "zh": "修复了服务器错误后消费者条款通知被跳过一天或更久的问题",
+          "hash": "2d25b011218a8de40bed0dd14542459d325fc9f0ac0e2b8a5c04955556e4090b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-52",
+          "en": "Fixed `/privacy-settings` offering choices that may not apply to you after a network or server error",
+          "zh": "修复了网络或服务器错误后 `/privacy-settings` 提供可能不适用于你的选项的问题",
+          "hash": "5b7354ca42fbed111689f9fa285d8136708d5548563a223e2d44fb72fa55f211",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-53",
+          "en": "Fixed a \"Context limit reached\" or \"Prompt is too long\" error after stopping a turn while Claude Code was compacting a conversation the API had rejected as too long",
+          "zh": "修复了在 Claude Code 对 API 判定为过长的对话进行上下文压缩时停止回合后出现 \"Context limit reached\" 或 \"Prompt is too long\" 错误的问题",
+          "hash": "2da02b09757550933a7633347cc4a510c95c676e6bc731cdfb952d88773eacc1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-54",
+          "en": "Fixed subagents sometimes forgetting their most recent work when they were messaged or resumed right after finishing",
+          "zh": "修复了 subagents 在刚完成工作后立即收到消息或被恢复时，有时忘记最近工作内容的问题",
+          "hash": "4a261cbb3e0e2ddb6dc9acf4e3cf8301a9662b49e4d5dfbc7b5fd17d222955de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-55",
+          "en": "Fixed `claude --help` text for `--tools`, `--resume`, `--debug`, `--json-schema`, `--disable-slash-commands`, `--system-prompt-snapshot` and `claude update` to match actual behavior",
+          "zh": "修复了 `claude --help` 中 `--tools`、`--resume`、`--debug`、`--json-schema`、`--disable-slash-commands`、`--system-prompt-snapshot` 和 `claude update` 的说明与实际行为不符的问题",
+          "hash": "e010d94a8aa1e069dc866d4d9c51687ac79de45e772579e530ee8db298e1743d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-56",
+          "en": "Fixed `claude --worktree` removing the worktree and its branch without asking at exit when HEAD was detached or on another branch, which could lose commits",
+          "zh": "修复了当 HEAD 处于分离状态或位于其他分支时，`claude --worktree` 在退出时不询问就删除 worktree 及其分支、可能丢失提交的问题",
+          "hash": "05344432d4dccc106b0019281befc382d4d8e3d0197956921e169fea19d08e87",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-57",
+          "en": "Fixed resumed and cloud sessions sending Claude the whole skill list again each time plugins reloaded at startup",
+          "zh": "修复了恢复的 session 和云端 session 在启动时每次 plugins 重新加载都向 Claude 重新发送完整 skill 列表的问题",
+          "hash": "d4671c3e6631d44444f1628b8108adbd5bb1b8bddfcddc13223a8414f34ce7f8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-58",
+          "en": "Fixed an interrupt not ending a Read that waits on an idle pipe or device named like an image",
+          "zh": "修复了中断无法结束等待空闲管道或名称类似图片的设备的 Read 的问题",
+          "hash": "99c17dc54916377a91427132ef12ddfda8583c6f650e3fa1d38256f4017225d0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-59",
+          "en": "Fixed `/effort status`, `/effort ultracode` and the prompt's effort indicator showing a guessed effort level when `CLAUDE_CODE_EFFORT_LEVEL` is `auto` or `unset` and no level is sent",
+          "zh": "修复了当 `CLAUDE_CODE_EFFORT_LEVEL` 为 `auto` 或 `unset` 且未发送级别时，`/effort status`、`/effort ultracode` 和 prompt 的 effort 指示器显示猜测的 effort 级别的问题",
+          "hash": "efdb6260acce945fbd4386b032d3758330e7e191b564aad7a95cc40726ba913d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-60",
+          "en": "Fixed a PreToolUse hook's deny reason being replaced by a timeout error when an Agent SDK callback hook on the same tool call timed out",
+          "zh": "修复了当同一工具调用上的 Agent SDK 回调 hook 超时时，PreToolUse hook 的拒绝原因被超时错误替换的问题",
+          "hash": "1680bfb863153c177d8dcb03dc5fca7f2cf6ac853aa3869ba50c59311787e96b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-61",
+          "en": "Fixed Bash and PowerShell deleting a large command's output file when it could not be copied to the session's tool-results folder, unless the disk is full",
+          "zh": "修复了 Bash 和 PowerShell 在无法将大型命令的输出文件复制到 session 的 tool-results 文件夹时将其删除的问题（磁盘已满时除外）",
+          "hash": "160d2b26972f7381fea49a7167be5fca2cf605122feb21fe5fa20b67fbef4ff7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-62",
+          "en": "Fixed notes typed into a multiple-choice question with previews being cut off with \"…\" in terminals under about 100 columns, hiding what was typed (anthropics/claude-code#82768)",
+          "zh": "修复了在宽度约 100 列以下的 terminal 中，带预览的多选题里输入的备注被“…”截断、导致输入内容不可见的问题（anthropics/claude-code#82768）",
+          "hash": "5e5e03a1ad6224911beb4d21640eeb239b6f329b57dc58be2de27ea84cc34132",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-63",
+          "en": "Fixed self-paced `/loop` wakeups scheduled at the 1-hour maximum firing just after the 1-hour prompt cache expired, so those wakeups no longer re-read the conversation uncached",
+          "zh": "修复了自定节奏的 `/loop` 唤醒被安排在 1 小时上限、恰好在 1 小时 prompt 缓存过期后触发的问题，这些唤醒不再以未缓存方式重新读取对话",
+          "hash": "54abdbc8d5a20e84f9e092effde4c86c973832f288dfb4a153996cce29b868c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-64",
+          "en": "Fixed agent teams: approving a shutdown request from the main session no longer exits the whole CLI",
+          "zh": "修复了 agent teams：从主 session 批准关闭请求不再退出整个 CLI",
+          "hash": "02dccadb6f0a933e49315f19e0c0da4e910ad2086c4f4eb590d7e0fa58a856c2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-65",
+          "en": "Fixed a skill's `once` hook also removing another skill's identical hook after it ran",
+          "zh": "修复了某个 skill 的 `once` hook 运行后还会移除另一个 skill 的相同 hook 的问题",
+          "hash": "84806c4f2050168e6a605a348e2a966567a2cb77cd7ff516fd08fca9d5e862a4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-66",
+          "en": "Fixed transcript mode's `{` and `}` landing the prompt on an inconsistent row, or off screen, instead of the transcript's first row",
+          "zh": "修复了 transcript 模式下的 `{` 和 `}` 将 prompt 定位到不一致的行或屏幕外，而不是 transcript 第一行的问题",
+          "hash": "bdfeb175c3529a9145ad48f5639f7401581716071500fd5d3cb2af6daa9331c0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-67",
+          "en": "Fixed `CLAUDE_CODE_AUTO_COMPACT_WINDOW=200k` silently setting a 100K window: the variable now accepts `k` and `M` suffixes like `--autocompact`, and warns when a value is out of range or ignored",
+          "zh": "修复了 `CLAUDE_CODE_AUTO_COMPACT_WINDOW=200k` 会静默设置 100K 窗口的问题：该变量现在像 `--autocompact` 一样接受 `k` 和 `M` 后缀，并在值超出范围或被忽略时发出警告",
+          "hash": "a5c6bfa3ed0330f02984b0385f26df36de73c3c26266897d8cb6de7fcc068091",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-68",
+          "en": "Fixed Ctrl+C in the agents view clearing a text selection without copying it when pressed before the mouse button was released",
+          "zh": "修复了在 agents 视图中，若在松开鼠标按钮前按下 Ctrl+C，会清除文本选择而不复制的问题",
+          "hash": "97746d546c2ff49710c3e533f10f19abcd1eed6e56c1be0ab592d7c5955dda04",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-69",
+          "en": "\\[VSCode] Fixed one cause of sessions failing to start with \"Subprocess initialization did not complete within 60000ms\": time a SessionStart command hook spends running no longer counts toward the limit, up to 10 minutes in total",
+          "zh": "\\[VSCode] 修复了 session 以“Subprocess initialization did not complete within 60000ms”启动失败的一个原因：SessionStart 命令 hook 的运行时间不再计入该限制，总计最多 10 分钟",
+          "hash": "86d9f83d6b171c6087b21781d0bc728dc652ea1e85b7132818554c1ace501b4d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-70",
+          "en": "\\[VSCode] Fixed a session closed while it was starting keeping its Claude Code process running until the start ended",
+          "zh": "\\[VSCode] 修复了在启动过程中关闭的 session 会使其 Claude Code 进程一直运行到启动结束的问题",
+          "hash": "0b4110a4341d6ddafb992aab5b4ed52919bbb4be28e52df47e6349cac9f45ab5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-71",
+          "en": "\\[VSCode] Fixed a mod's drawings disappearing from a long-open panel until the next turn on machines that also run an older Claude Code",
+          "zh": "\\[VSCode] 修复了在同时运行旧版 Claude Code 的机器上，mod 的绘图会从长时间打开的面板中消失、直到下一轮才恢复的问题",
+          "hash": "d240b8e0b8b9ee5b91980e48f2ce550e9487987e8db19bc0dc4e47033e96f93a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-72",
+          "en": "\\[VSCode] Fixed Past conversations hiding sessions when `claudeCode.claudeProcessWrapper` is set",
+          "zh": "\\[VSCode] 修复了设置 `claudeCode.claudeProcessWrapper` 时 Past conversations 会隐藏 session 的问题",
+          "hash": "58933e19425ff33119fc2865ba147eb19c42c3a58c4ed6c1f66592f73af66a2b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-73",
+          "en": "\\[Cloud sessions] Fixed folders in the composer's @ list showing no name in cloud sessions, where picking one added only a space instead of a mention",
+          "zh": "\\[Cloud sessions] 修复了云 session 中 composer 的 @ 列表里的文件夹不显示名称的问题，此前选择文件夹只会添加一个空格而不是提及",
+          "hash": "d8f904a7a42b09606db3173c01fcb76f79f494544bb81cbeeeebf92576669fdd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-74",
+          "en": "\\[Claude Tag] Fixed Claude going silent in a thread when its channel becomes shared across Enterprise Grid workspaces mid-task; it now posts a one-time note to @-mention it in a new thread",
+          "zh": "\\[Claude Tag] 修复了任务进行中 channel 在 Enterprise Grid 工作区之间变为共享时，Claude 在 thread 中不再响应的问题；现在它会发布一条一次性提示，请在新 thread 中 @ 提及它",
+          "hash": "ce4a878175ac2cb0a2654013dd2896abfd30d0f84840ca13684d9e6df68363ca",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-75",
+          "en": "\\[Claude Tag] Fixed `@Claude !fork` typed outside a thread getting no visible reply; Claude now shows you a private note saying to run it from inside a thread",
+          "zh": "\\[Claude Tag] 修复了在 thread 外输入 `@Claude !fork` 得不到可见回复的问题；Claude 现在会向你显示一条私密提示，说明需在 thread 内运行",
+          "hash": "d1dfe92034a647dba7cda3d72e6ebe7a580cd5a48b8cbe3fcc28869d919f8744",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.304-fixes-76",
+          "en": "\\[Code Review] Fixed pull requests opened within a minute or two of an admin turning on Code Review being silently skipped; they are now retried and reviewed",
+          "zh": "\\[Code Review] 修复了在管理员开启 Code Review 后一两分钟内打开的 pull request 被静默跳过的问题；现在会重试并审查它们",
+          "hash": "3e5029722f35abb9cf05bea5e41fdc0e7b7fd62108acdf9b9913a912cc93ca75",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增自动模式引导与 mod 钩子能力，修复沙箱、worktree 与上下文压缩等多处问题。",
+    "highlights": [
+      {
+        "title": "新增 /auto-mode-setup 引导",
+        "category": "新功能",
+        "detail": "读取项目与近期 session，让自动模式了解你的环境；Bedrock、Vertex、Foundry、网关及禁用遥测的 session 也可用。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/auto-mode-setup",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.304-added-4"
+        ]
+      },
+      {
+        "title": "mod 钩子能力增强",
+        "category": "新功能",
+        "detail": "tool.check 新增 decider:\"person\" 与 isReadOnly；被跳过的钩子会记录事件与 plugin，便于排查。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.304-added-1",
+          "2.1.304-added-2",
+          "2.1.304-added-3"
+        ]
+      },
+      {
+        "title": "settings.read 钩子行为变更",
+        "category": "破坏性变更",
+        "detail": "改为接收每个设置层并重写合并后的设置，受管理的 mod 可据此将组织设置设为上限。",
+        "action": "检查依赖 settings.read 的 mod，按新的分层输入与合并输出逻辑调整。",
+        "example": null,
+        "item_ids": [
+          "2.1.304-changed-11"
+        ]
+      },
+      {
+        "title": "工具搜索默认开启",
+        "category": "改进",
+        "detail": "自定义 ANTHROPIC_BASE_URL 下默认启用；网关返回 400 或 422 时会自动在不启用的情况下重试。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "ANTHROPIC_BASE_URL",
+          "caption": "相关环境变量"
+        },
+        "item_ids": [
+          "2.1.304-changed-14"
+        ]
+      },
+      {
+        "title": "修复 worktree 误删风险",
+        "category": "修复",
+        "detail": "HEAD 处于分离状态或其他分支时，claude --worktree 退出不再未经询问删除 worktree 及其分支，避免丢失提交。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude --worktree",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.304-fixes-56"
+        ]
+      },
+      {
+        "title": "修复沙箱与危险删除提示",
+        "category": "修复",
+        "detail": "Linux 上 denyRead 通配符含方括号时沙箱可正常启动；对已挂载驱动器顶层执行 rm -r 现在会触发安全提示。",
+        "action": null,
+        "example": {
+          "lang": "json",
+          "code": "[user-id]",
+          "caption": "配置示例"
+        },
+        "item_ids": [
+          "2.1.304-fixes-35",
+          "2.1.304-fixes-36"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

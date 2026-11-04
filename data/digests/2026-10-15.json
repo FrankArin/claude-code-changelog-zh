@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "versions": [
+    "2.1.301"
+  ],
+  "tldr": "新增重试看门狗用量上限、vim % 动作与 OTel 追踪字段，并修复大量稳定性问题。",
+  "highlights": [
+    {
+      "title": "重试看门狗用量上限",
+      "category": "新功能",
+      "detail": "新增环境变量，使无人值守重试模式在遇到重置时间过远的用量限制时结束请求，避免长时间空等。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.301-added-1"
+      ],
+      "version": "2.1.301"
+    },
+    {
+      "title": "vim 模式 % 括号跳转",
+      "category": "新功能",
+      "detail": "vim 模式支持 % 动作跳转到匹配括号，可单独使用或与 d/c/y 组合，提升编辑效率。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.301-added-3"
+      ],
+      "version": "2.1.301"
+    },
+    {
+      "title": "OTel 工具决策字段增强",
+      "category": "改进",
+      "detail": "tool_decision 事件新增 classifier_verdict、permission_mode 及可选的 classifier_category，便于区分自动分类器判定与权限规则。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "OTEL_LOG_TOOL_DETAILS=1",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.301-added-5",
+        "2.1.301-added-6"
+      ],
+      "version": "2.1.301"
+    },
+    {
+      "title": "修复退出时误删 worktree",
+      "category": "修复",
+      "detail": "退出时不再未经询问删除 WorktreeCreate hook 创建的 worktree，避免丢失可能未推送的提交。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.301-fixes-15"
+      ],
+      "version": "2.1.301"
+    },
+    {
+      "title": "修复登录刷新超时登出",
+      "category": "修复",
+      "detail": "短命令在 token 刷新期间退出不再导致刷新超时和意外登出，减少非预期掉线。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude auth status",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.301-fixes-26"
+      ],
+      "version": "2.1.301"
+    },
+    {
+      "title": "修复二进制文件误读",
+      "category": "修复",
+      "detail": "Read 工具不再把 .xlsm、.parquet、.epub、.heic 等二进制文件当作文本读取。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.301-fixes-32"
+      ],
+      "version": "2.1.301"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "05ca489ff3d22ee8ae7317688311d438dbd4848d76b4e23fd828163bfdecfaad"
+}

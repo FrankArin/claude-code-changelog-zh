@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed hooks that run in PowerShell not blocking when the hook's program exits with code 2, and on Windows `PreToolUse` and `PermissionRequest` hooks with `\"shell\": \"powershell\"` failing open when Git for Windows isn't installed",
+  "zh": "修复在 PowerShell 中运行的 hook 在 hook 程序以退出码 2 退出时不阻断的问题，以及 Windows 上 `\"shell\": \"powershell\"` 的 `PreToolUse` 和 `PermissionRequest` hook 在未安装 Git for Windows 时失败放行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

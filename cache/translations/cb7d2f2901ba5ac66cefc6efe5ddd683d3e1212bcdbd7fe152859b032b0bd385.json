@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugins whose hooks module nests code thousands of levels deep failing to load or validate with a bare stack-overflow message",
+  "zh": "修复 hooks 模块嵌套数千层代码的 plugin 加载或校验失败时只给出栈溢出消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

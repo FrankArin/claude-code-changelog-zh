@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added the `%` motion to vim mode: jump to the matching bracket, alone or with d/c/y",
+  "zh": "为 vim 模式新增 `%` 动作：跳转到匹配的括号，可单独使用，也可与 d/c/y 组合使用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

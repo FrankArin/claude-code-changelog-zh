@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Removed the 2.1.288 fix that kept the model's earlier thinking when resuming a conversation started on 2.1.286 or earlier; that thinking can now be dropped",
+  "zh": "移除 2.1.288 中一项修复：恢复在 2.1.286 或更早版本中开始的对话时保留模型先前的思考内容；该思考内容现在可能被丢弃",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

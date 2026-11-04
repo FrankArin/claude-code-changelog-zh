@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a custom agent named `worker` being shown as \"Agent\" in auto-mode denial notices and in the activity lists of task detail views",
+  "zh": "修复了名为 `worker` 的自定义 agent 在自动模式拒绝提示和任务详情视图的活动列表中显示为“Agent”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

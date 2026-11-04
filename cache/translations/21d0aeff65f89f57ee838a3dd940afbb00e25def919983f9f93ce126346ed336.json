@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ultracode not being announced to scheduled tasks and other delivered headless turns when `ultracode` is on in settings",
+  "zh": "修复了设置中开启 `ultracode` 时，Ultracode 未向定时任务及其他投递的无头轮次通告的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

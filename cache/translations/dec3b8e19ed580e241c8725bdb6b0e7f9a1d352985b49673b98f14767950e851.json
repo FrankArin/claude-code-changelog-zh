@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `classifier_category` to OpenTelemetry `tool_decision` events, naming the built-in rule a classifier block matched, when `OTEL_LOG_TOOL_DETAILS=1`",
+  "zh": "当 `OTEL_LOG_TOOL_DETAILS=1` 时，在 OpenTelemetry `tool_decision` 事件中新增 `classifier_category`，标明分类器拦截所匹配的内置规则",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

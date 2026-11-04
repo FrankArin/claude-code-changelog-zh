@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a background session sometimes losing a just-made change of permission mode when it was upgraded or retired",
+  "zh": "修复了后台 session 在升级或退役时有时丢失刚做出的权限模式变更的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

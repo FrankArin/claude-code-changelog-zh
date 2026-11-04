@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed \"Continue automatically at usage limit\" continuing more than three times without a prompt from you when a task restarted itself between waits (a /goal check-in, a background or scheduled task)",
+  "zh": "修复\"达到用量限制后自动继续\"在任务于两次等待之间自行重启（/goal 检查、后台任务或定时任务）时，未经你提示就继续超过三次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the tip and idle reminder about push notifications appearing when the push settings in `/config` are hidden or your organization has turned off Remote Control",
+  "zh": "修复当 `/config` 中的推送设置被隐藏或组织已关闭远程控制时，仍出现关于推送通知的提示和空闲提醒的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

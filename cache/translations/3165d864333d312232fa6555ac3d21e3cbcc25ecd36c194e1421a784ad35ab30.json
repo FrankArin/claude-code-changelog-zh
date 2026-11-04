@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the server-managed settings request to Anthropic carrying a third-party gateway's API key when a managed settings file sets `ANTHROPIC_BASE_URL`",
+  "zh": "修复了当托管设置文件设置了 `ANTHROPIC_BASE_URL` 时，发往 Anthropic 的服务器托管设置请求携带第三方网关 API key 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

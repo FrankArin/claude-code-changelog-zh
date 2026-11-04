@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a startup hang on macOS when plugin paths copied from a Linux machine pointed under /home",
+  "zh": "修复了在 macOS 上，当从 Linux 机器复制的 plugin 路径指向 /home 下时启动卡住的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

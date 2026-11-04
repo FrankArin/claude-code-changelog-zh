@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skills, commands and hooks using very large amounts of memory when their arguments fill many placeholders",
+  "zh": "修复了 skill、命令和 hook 在参数填充大量占位符时占用大量内存的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

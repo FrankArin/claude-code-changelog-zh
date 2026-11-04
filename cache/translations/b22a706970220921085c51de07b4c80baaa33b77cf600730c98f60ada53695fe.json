@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed clicks on scrollbar arrows and bars in fullscreen lists to act when the mouse button is released, so moving off the scrollbar before letting go cancels the click",
+  "zh": "变更全屏列表中点击滚动条箭头和滚动条的行为，改为在释放鼠标按钮时生效，因此在松开前移出滚动条会取消点击",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

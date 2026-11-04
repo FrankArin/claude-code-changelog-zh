@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a prompt sent while SessionStart hooks were still running vanishing when `←` moved the session to the background; it is still not sent, but `↑` now brings it back",
+  "zh": "修复了在 SessionStart hooks 仍在运行时发送的 prompt 在 `←` 将 session 移至后台后消失的问题；该 prompt 仍不会发送，但现在按 `↑` 可以将其找回",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

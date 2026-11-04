@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `$.http.fetch` in mods refusing a `304`, `204` or `205` response that declares a `Content-Length` over the 4 MiB body limit",
+  "zh": "修复了 mods 中的 `$.http.fetch` 会拒绝声明了超过 4 MiB 正文限制的 `Content-Length` 的 `304`、`204` 或 `205` 响应的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

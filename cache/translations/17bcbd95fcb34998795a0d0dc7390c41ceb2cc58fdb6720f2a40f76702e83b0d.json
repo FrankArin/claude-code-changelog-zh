@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/auto-mode-setup`: a guided setup that reads your project and recent sessions to teach auto mode about your environment, now also available on Bedrock, Vertex, Foundry, Claude apps gateway and telemetry-disabled sessions",
+  "zh": "新增 `/auto-mode-setup`：引导式设置，读取你的项目和最近的 session，让自动模式了解你的环境，现已在 Bedrock、Vertex、Foundry、Claude 应用网关和禁用遥测的 session 中可用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

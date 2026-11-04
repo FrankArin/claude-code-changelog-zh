@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Claude apps gateway not checking every model a request names against `availableModels`, `deniedModels` and `models`; a request that names a blocked model now gets a 400 naming the field",
+  "zh": "修复 Claude 应用网关未按 `availableModels`、`deniedModels` 和 `models` 检查请求中指定的每个模型的问题；现在指定了被阻止模型的请求会收到 400 并指明对应字段",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed vim mode `p` over a character selection ignoring whether the yanked text was whole lines",
+  "zh": "修复 vim 模式下对字符选区执行 `p` 时忽略被复制文本是否为整行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

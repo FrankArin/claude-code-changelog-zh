@@ -1,0 +1,727 @@
+{
+  "schema_version": 1,
+  "version": "2.1.317",
+  "date": "2026-11-03",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "efec6e93d4765a9ebafaf7cf8f57f1fbd195300719173aefa7bc0888e0f14654",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:45:18+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.317-added-1",
+          "en": "Added a warning to `/schedule` when a new cloud scheduled task gets connectors you did not ask for, with how to remove them",
+          "zh": "在 `/schedule` 中新增警告：当新建的云端定时任务获得了你未要求的 connectors 时，提示如何移除它们",
+          "hash": "20a81a047d25ba370469f46997f4ce7e02b7daf07366c7a31e0b9279791a770c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-2",
+          "en": "Added a check that asks before a web or shell tool call sends your account email address to the network",
+          "zh": "新增检查：当 web 或 shell 工具调用要把你的账户邮箱地址发送到网络时，先向你确认",
+          "hash": "484eb4953d92b262f1279522987f942fa109040916d3f9348b904c4289d5367b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-3",
+          "en": "Added `onFailure: \"block\"` for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run",
+          "zh": "为 Agent SDK hook 回调新增 `onFailure: \"block\"`，使失败的回调阻止该操作执行，而不是让其继续运行",
+          "hash": "e0c0a98fd41fa1b1fca6812e96188705a7fe2681ca924972138ac28f6875f2c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-4",
+          "en": "Added a notice in Claude Desktop's Code tab when your organization's remote managed settings haven't loaded for the session, and another once they do",
+          "zh": "在 Claude Desktop 的 Code 标签页中新增提示：当组织的远程托管设置在本 session 中尚未加载时显示，加载完成后再次显示",
+          "hash": "fe0058da3794439e97858097ed2764601643dcf935a5cf65c8f48123ee265f2a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-5",
+          "en": "Added a notice when auto mode's check has no answer for a subagent's tool call, which used to leave nothing in the main view",
+          "zh": "新增提示：当自动模式的检查对某个 subagent 的工具调用没有答案时显示，此前这种情况在主视图中不会留下任何内容",
+          "hash": "f44c3e644b12ba878474b986c63c4a52fdad572778a152bf08a133e98962594d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-6",
+          "en": "Added `anthropic.plan`, `anthropic.seat_type`, `anthropic.provider` and `anthropic.custom_base_url` to OTel metrics, events and spans",
+          "zh": "在 OTel 指标、事件和 span 中新增 `anthropic.plan`、`anthropic.seat_type`、`anthropic.provider` 和 `anthropic.custom_base_url`",
+          "hash": "18ffd088c69ceb8f697141be02d0ac162a0d904e1f1bebd9b57086d6c0b6c6d5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-7",
+          "en": "Added a cost report to the Claude apps gateway admin API, `GET /v1/organizations/analytics/cost`, for reading past spend over a date range in total, per developer, per day or per IdP group",
+          "zh": "在 Claude 应用网关管理 API 中新增成本报告 `GET /v1/organizations/analytics/cost`，可按日期范围读取历史支出，支持总计、按开发者、按天或按 IdP 组",
+          "hash": "e18715614eb3505876edb5610652126b3695cc52bc1849a3bc8c6bfbc20a4a67",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-8",
+          "en": "Added a daily record of each developer's IdP groups on Claude apps gateways with `admin:` set, kept for `admin.identity_retention_days`, which the cost report groups by",
+          "zh": "在设置了 `admin:` 的 Claude 应用网关上新增每位开发者 IdP 组的每日记录，保留时长为 `admin.identity_retention_days`，成本报告按此分组",
+          "hash": "0e4bb555365acbce65120084a4d559b2db5c75eb14fa30da491c9592f50aee17",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-9",
+          "en": "Added `CLAUDE_CODE_DISABLE_NESTED_SESSION_ID`: set it to `1` on a self-hosted runner to have `claude -p` run inside a session use that session's ID and transcript, as in earlier versions",
+          "zh": "新增 `CLAUDE_CODE_DISABLE_NESTED_SESSION_ID`：在自托管运行器上将其设为 `1`，可使在 session 内运行的 `claude -p` 使用该 session 的 ID 和记录，与早期版本一致",
+          "hash": "c977fd0b78b749024ae52171fbac543b3903d7ae148fc2008089850aa4cbc9ff",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-added-10",
+          "en": "\\[Cloud sessions] Added a link card to cloud sessions, so you can open or decline a link an MCP server asks you to visit instead of the request going unseen",
+          "zh": "\\[Cloud sessions] 为云端 session 新增链接卡片，当 MCP 服务器要求你访问某个链接时，你可以打开或拒绝，而不会让该请求被忽略",
+          "hash": "758d5fa6f7abf0adc2008d37941ddf511eeb8b2194233d89e5dcf146dd951bab",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.317-changed-11",
+          "en": "Changed SendMessage so a message to a running background agent arrives earlier: its running command moves to the background, without being stopped",
+          "zh": "变更 SendMessage：发往正在运行的后台 agent 的消息会更早送达——其正在运行的命令会转入后台，而不会被停止",
+          "hash": "08b6029e5703166d72840d24bac6ffe4bfac7b5e546f9c0a42070aa6c1c9015d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-changed-12",
+          "en": "Changed subagents and teammates on a different model from the main conversation to use that model's saved effort level or its default, instead of the session's effort level",
+          "zh": "变更与主对话使用不同模型的 subagents 和队友：改用该模型保存的 effort 级别或其默认值，而不再使用 session 的 effort 级别",
+          "hash": "d2a8b2318ed95a693fb4eb92aa048987d461c0a1bcb884b8105be8bb72d75799",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-changed-13",
+          "en": "Changed exit to skip the \"Background work is running\" prompt for plugin monitors",
+          "zh": "变更退出行为：对 plugin 监视器跳过“Background work is running”提示",
+          "hash": "d37c0ee36df28def55d9c51237f89dc056ecf5aeb06b84c49da80119a2ddbf63",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-changed-14",
+          "en": "Changed the built-in `plugin-authoring` skill to offer once, after a mod you built works, to help share the mod",
+          "zh": "变更内置 `plugin-authoring` skill：在你构建的 mod 可用后提示一次，帮助分享该 mod",
+          "hash": "df6782a4968cfaff392f84b24665c3d8104aaf72e3ec8716bccb5788b98677f1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-changed-15",
+          "en": "Removed the Read tool's \"file unchanged since your last Read\" stub: reading an unchanged file again returns its content",
+          "zh": "移除 Read 工具的“file unchanged since your last Read”占位提示：再次读取未变更的文件会返回其内容",
+          "hash": "423bab43311893c49a6726309231898d7001c04e23678cade0282d3106a3c366",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-changed-16",
+          "en": "\\[Cloud sessions] Changed the organization environment dialog in admin settings to the personal dialogs' short layout: each section opens from a row, and unsaved input asks before closing",
+          "zh": "\\[Cloud sessions] 将管理设置中的组织环境对话框改为个人对话框的紧凑布局：每个部分从一行打开，未保存的输入在关闭前会询问",
+          "hash": "50499927010e858b0be49d27a44073bf0e03ec593b924c84b57286f5a60ecd41",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-changed-17",
+          "en": "\\[Claude Tag] Changed newly pasted artifact links in Slack to show a simpler card with an Open button that opens the artifact in Claude, instead of Slack's side panel",
+          "zh": "\\[Claude Tag] 变更 Slack 中新粘贴的 artifact 链接：改为显示更简洁的卡片，带一个 Open 按钮，在 Claude 中打开该 artifact，而不再使用 Slack 的侧边面板",
+          "hash": "681a0cbdecb7340afb6f4b15caea2f1928b322e81586e38082dea28d1d8679d6",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "8 improvements",
+      "heading_zh": "8 项改进",
+      "items": [
+        {
+          "id": "2.1.317-improvements-18",
+          "en": "Improved the error shown on Microsoft Foundry when Azure credentials can't be loaded: it now says to check or refresh them, and reports as `cloud_credential_error`",
+          "zh": "改进 Microsoft Foundry 上无法加载 Azure 凭据时显示的错误：现在会提示检查或刷新凭据，并报告为 `cloud_credential_error`",
+          "hash": "03e3d9eeff6f0437dd674bc82a339423c58a1cb4fb895bd3932e6c1a23f1b730",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-improvements-19",
+          "en": "Improved `/design-sync` to say up front when your design system has moved to Claude, and stop before building instead of failing at upload",
+          "zh": "改进 `/design-sync`：当你的设计系统已迁移到 Claude 时提前说明，并在构建前停止，而不是在上传时失败",
+          "hash": "0c3e50da30367f37cc31425135d6099e15d696bef6a65d8b74e659bdfd289b9b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-improvements-20",
+          "en": "Improved the startup error when a required Claude apps gateway can't be reached: it points to the network instead of a sign-in, and says when the gateway's TLS certificate can't be verified",
+          "zh": "改进无法访问所需 Claude 应用网关时的启动错误：会指向网络问题而非登录问题，并在无法验证网关的 TLS 证书时给出说明",
+          "hash": "42404917149677fe5d7d100880c50ec81436f3edc5711bb92c7a0e69c1246694",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-improvements-21",
+          "en": "Improved the \"Resume this session with\" hint shown at exit to repeat the flags you launched with (for example `--chrome --debug`) ahead of `--resume`",
+          "zh": "改进退出时显示的“Resume this session with”提示：在 `--resume` 之前重复你启动时使用的参数（例如 `--chrome --debug`）",
+          "hash": "2ae55aee63916111ce792a0551826e8dbf256d09b2c6430dd312072730131182",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-improvements-22",
+          "en": "Improved how self-hosted runners recover from server errors: after a 5xx other than 501 or 529, a runner's next poll now opens a new connection instead of reusing the one that failed",
+          "zh": "改进自托管运行器从服务器错误中恢复的方式：遇到除 501 或 529 以外的 5xx 后，运行器的下一次轮询现在会新建连接，而不是复用失败的那个连接",
+          "hash": "4d00b175b70c38518b15f4b4ebfe0fca108ccdffaea806a7fed7a1e001ba6983",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-improvements-23",
+          "en": "Improved how self-hosted runner sessions recover from server errors: after a 5xx other than 501 or 529, a session now opens new connections instead of reusing the one that failed",
+          "zh": "改进自托管运行器 session 从服务器错误中恢复的方式：遇到除 501 或 529 以外的 5xx 后，session 现在会新建连接，而不是复用失败的那个连接",
+          "hash": "f08ddf5b17a88d02aa4e0769ae2082e00d1bc1d2b00197bc303375debebcee21",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-improvements-24",
+          "en": "Improved how self-hosted runner sessions recover when connections stop answering: after a heartbeat gets no answer, a session now opens new connections instead of trying each idle one in turn",
+          "zh": "改进自托管运行器 session 在连接无响应时的恢复方式：心跳无响应后，session 现在会新建连接，而不是逐个尝试空闲连接",
+          "hash": "0da0272b7b8633363c31a34795e39b6b0925fc4e057c285b395fce0c9d6ea971",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-improvements-25",
+          "en": "Remote Control: Improved fork names when the app doesn't set one: a long name keeps its \"(fork)\" ending, and in sessions started with `claude remote-control` a fork of \"Name (fork)\" is \"Name (fork 2)\"",
+          "zh": "远程控制：改进应用未设置名称时的 fork 命名：长名称保留“(fork)”结尾；在使用 `claude remote-control` 启动的 session 中，“Name (fork)”的 fork 为“Name (fork 2)”",
+          "hash": "05dabaefccfab64c6cc8bad29fe18244e79ca1f4e0a17e7658bebabbce9b6c65",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "62 bug fixes",
+      "heading_zh": "62 项修复",
+      "items": [
+        {
+          "id": "2.1.317-fixes-26",
+          "en": "Fixed project and local MCP servers disconnecting after the first turn in some Claude desktop sessions",
+          "zh": "修复某些 Claude 桌面应用 session 中项目和本地 MCP 服务器在第一轮之后断开连接的问题",
+          "hash": "1526c39872bfa5b0093dace129fc58bb2f19de24e5d0bf825082d468355ff883",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-27",
+          "en": "Fixed auto mode failing every turn when an LLM gateway set as the base URL answers 403 or 422 to its server-side safety check (a 403 with an apiKeyHelper is unchanged)",
+          "zh": "修复当设为 base URL 的 LLM 网关对其服务端安全检查返回 403 或 422 时，自动模式每轮都失败的问题（使用 apiKeyHelper 时的 403 行为不变）",
+          "hash": "be47a8c403cd893b5eb435751650e7ca390701aa3fefd434c13491b895f00b04",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-28",
+          "en": "Fixed `claude auth status` exiting before a slow token refresh was saved, which could sign you out on the next run",
+          "zh": "修复 `claude auth status` 在缓慢的 token 刷新保存完成前就退出、可能导致下次运行时登出的问题",
+          "hash": "a3f0eb93da1f836d30dd5ca089555220a88d64311e74af5593e3b354e6517856",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-29",
+          "en": "Fixed a project's `effortLevel` setting being ignored by sessions that an app starts ahead of time and then opens in the project, such as new sessions in the desktop app's Code tab",
+          "zh": "修复项目的 `effortLevel` 设置被应用提前启动、随后在项目中打开的 session 忽略的问题，例如桌面应用 Code 标签页中的新 session",
+          "hash": "6a076721759975058f5b6a9e6f5bc7328191afa254265f04e1a15b2377ac0ba0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-30",
+          "en": "Fixed `claude --from-pr` reporting \"No conversations found\" in projects with many sessions when the linked session was older than the first page",
+          "zh": "修复在 session 较多的项目中，当关联 session 早于第一页时，`claude --from-pr` 报告“No conversations found”的问题",
+          "hash": "1315e1a3e823bc9c88ed36a9a3aeb0d0a2b4c814a030ddbe26aeec69bd1a761f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-31",
+          "en": "Fixed the second of two simultaneous permission prompts showing no file path or command on claude.ai and the mobile apps",
+          "zh": "修复在 claude.ai 和移动端应用中，两个同时出现的权限提示中的第二个不显示文件路径或命令的问题",
+          "hash": "f42547cc67f928540bef5a4a24ac7fb9ab645d1c268d9cb9e625c0388e717a0e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-32",
+          "en": "Fixed Remote Control and SDK hosts offering \"don't ask again\" on a mod's tool calls",
+          "zh": "修复远程控制和 SDK 宿主对 mod 的工具调用提供“don't ask again”选项的问题",
+          "hash": "137d8d2c0155fdc19dc8a5f0e304cd367a706e6bafdd694877479b07a36d71b6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-33",
+          "en": "Fixed session titles being lost in cloud and SDK sessions when a new message or Stop arrived while the title was generating",
+          "zh": "修复在标题生成期间收到新消息或 Stop 时，云端和 SDK session 中 session 标题丢失的问题",
+          "hash": "18b2c42254d9ebc3334776a23cad824612ab7674c1b19b8699c91b303cc4380b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-34",
+          "en": "Fixed self-paced `/loop` wakeups sometimes not being scheduled when Claude left a field out of its request",
+          "zh": "修复当 Claude 在请求中省略某个字段时，自定节奏的 `/loop` 唤醒有时未被调度的问题",
+          "hash": "5caecd47df3dc3c2154f1ee9cb5a476d63828551ba8cb66b378ef41525a4f270",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-35",
+          "en": "Fixed auto mode in cloud sessions stopping for approval when the Artifact tool uploaded, wrote to a database or saved a file through the outputs folder",
+          "zh": "修复云端 session 中自动模式在 Artifact 工具通过 outputs 文件夹上传、写入数据库或保存文件时停下来等待批准的问题",
+          "hash": "df49d29ace9ab0c9257f708459792e8321a25a4076824e7aeb68dfb0098012b5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-36",
+          "en": "Fixed skills synced from claude.ai being lost or downloaded again every ten minutes when they can't be written to disk",
+          "zh": "修复从 claude.ai 同步的 skill 在无法写入磁盘时丢失或每十分钟重新下载的问题",
+          "hash": "e28ad57729cba482e7aa4e6cd4f728382a3b82d6a1398d8ecb0133d73b5c31ef",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-37",
+          "en": "Fixed `/schedule` leaving a cloud scheduled task's next run time and link out of its results after creating or updating it",
+          "zh": "修复 `/schedule` 在创建或更新云端计划任务后，结果中缺少下次运行时间和链接的问题",
+          "hash": "f8622d3ce296ddb0111ba67a7a8b0ae44ec08fc218be8e3b496309efb9afab54",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-38",
+          "en": "Fixed screen readers speaking a running subagent's elapsed time and token count on every change in screen reader mode",
+          "zh": "修复屏幕阅读器模式下，屏幕阅读器在每次变化时朗读运行中 subagent 的已用时间和 token 数的问题",
+          "hash": "2eda74fff98477d83307c68dbb369668961fce63327cde5720efb063dbd46eb5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-39",
+          "en": "Fixed a region or network block (HTTP 403) being shown as a sign-in failure; the error now explains the block",
+          "zh": "修复地区或网络封锁（HTTP 403）被显示为登录失败的问题；现在错误信息会说明该封锁",
+          "hash": "f5991859a32d7d863a76af6920a28783a74c665a5c5626ca9ceb2ebeea143be9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-40",
+          "en": "Fixed Claude saying a working claude.ai connector needed authorization or had failed in cloud sessions when a synced plugin included the same server",
+          "zh": "修复云端 session 中，当同步的 plugin 包含同一服务器时，Claude 误称正常工作的 claude.ai connector 需要授权或已失败的问题",
+          "hash": "88f89cc3d401c21ec89eee26c388e4a163b1ac108c06860dd0c6de5f4b30baef",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-41",
+          "en": "Fixed `claude -p` exiting 0 when a full disk or quota lost its transcript or \\~/.claude.json writes; it now prints an error and, in text and json output, exits 1. Full NFS exports may be missed",
+          "zh": "修复了磁盘已满或配额耗尽导致 transcript 或 \\~/.claude.json 写入丢失时，`claude -p` 仍以 0 退出的问题；现在会打印错误，并在 text 和 json 输出下以 1 退出。完全占满的 NFS 导出可能仍会被漏检",
+          "hash": "4839209a8c670a9f3a6a46027ff2a438bf4774195104ad7392ff63517f8b5a7b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-42",
+          "en": "Fixed edits to settings files made in the first second or so after launch not taking effect until a settings file changed again",
+          "zh": "修复了启动后约一秒内对设置文件的修改要等到设置文件再次变更才生效的问题",
+          "hash": "a65ad9af0913006439bb3fe40e3195fb859783de29db737d78a9d0c623f6e32a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-43",
+          "en": "Fixed old transcripts not being cleaned up on machines where some runs skip cleanup, such as runs using `--setting-sources`",
+          "zh": "修复了在部分运行会跳过清理的机器上（例如使用 `--setting-sources` 的运行）旧 transcript 未被清理的问题",
+          "hash": "8bb1ec5a8941bfaceb929d07b5b6c0f161649bf70531ddab2d2f38dc9a14a86f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-44",
+          "en": "Fixed deleted agent team inboxes being re-created by a teammate's late message",
+          "zh": "修复了已删除的 agent 团队收件箱被队友的延迟消息重新创建的问题",
+          "hash": "e9e62af71833c453d52acd92e537e8a41e4641495344537df8f2e9a8c0ec8c30",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-45",
+          "en": "Fixed a re-created agent teammate being removed from its team by an earlier shutdown approval",
+          "zh": "修复了重新创建的 agent 队友被更早的关闭批准从团队中移除的问题",
+          "hash": "7909f3e09e7bdd48ec1541f44fa1a77862d7ce6db29cd1699c1278e17f0ca9f7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-46",
+          "en": "Fixed stored scheduled tasks being impossible to list or delete after scheduled tasks were turned off",
+          "zh": "修复了关闭定时任务后，已存储的定时任务无法列出或删除的问题",
+          "hash": "f2099cede55a1f81149f51ccb7eb4fb6723bbb416af78e19ca1632b6c2632aef",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-47",
+          "en": "Fixed Claude deleting your most recently updated `/team-onboarding` guide when asked to delete one without naming which",
+          "zh": "修复了在未指明删除哪个 `/team-onboarding` 指南时，Claude 会删除你最近更新的那个指南的问题",
+          "hash": "c15bb235e5ab91ee209789c13a9b8560aa5758e9604978d2e13cdcb4923b36c5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-48",
+          "en": "Fixed Claude saying a `/team-onboarding` guide was deleted when the server refused the delete",
+          "zh": "修复了服务器拒绝删除时，Claude 仍声称 `/team-onboarding` 指南已删除的问题",
+          "hash": "b12fd622f28f7c68cfba6f0221d74f85841e96a68967dbc492b7366ba21b0e4a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-49",
+          "en": "Fixed the Claude apps gateway hiding Amazon Bedrock's \"Input is too long.\" error, which left sessions failing every turn with \"upstream rejected the request\" instead of compacting",
+          "zh": "修复了 Claude 应用网关隐藏 Amazon Bedrock 的“Input is too long.”错误的问题；此前这会导致 session 每一轮都因“upstream rejected the request”失败，而无法进行上下文压缩",
+          "hash": "5800da24da0879d2ed708b54ac684c83ad9511241ae30827219c302a53c0fb90",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-50",
+          "en": "Fixed self-hosted runner sessions losing recent turns or the whole conversation when restarted while a plan waited for approval",
+          "zh": "修复了自托管运行器 session 在计划等待批准期间重启时丢失最近几轮或整个对话的问题",
+          "hash": "b460c2bf0c9e1ccb65a2c126e393191c47776404b1de566cbdce83604e240b10",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-51",
+          "en": "Fixed \"Prompt is too long\" after automatic compaction in sessions whose very large CLAUDE.md changed since it was last sent",
+          "zh": "修复了在非常大的 CLAUDE.md 自上次发送后发生变更的 session 中，自动上下文压缩后出现“Prompt is too long”的问题",
+          "hash": "45a94ae6d54e69bffda546d02b425ac3bcb61561c1843e162bb24e85ab94be80",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-52",
+          "en": "Fixed high memory use and slow startup in headless sessions with many plugins that register commands",
+          "zh": "修复了注册命令的 plugin 较多时，无头 session 内存占用高、启动慢的问题",
+          "hash": "3de93f76574ff11f78fbe63f614a3367b4107da97afed60da97400d03ebd088a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-53",
+          "en": "Fixed stdio MCP servers receiving an empty `AWS_BEARER_TOKEN_BEDROCK` when their env config sets it to empty; the variable is now unset, so the server can use the machine's own AWS credentials",
+          "zh": "修复了 stdio MCP 服务器在其 env 配置将 `AWS_BEARER_TOKEN_BEDROCK` 设为空时收到空值的问题；现在会取消设置该变量，使服务器可以使用机器自身的 AWS 凭证",
+          "hash": "b9a9b63aa0ea1987e2254f3ac8f4b3712f1970ce6026df2a5b48144de66ee595",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-54",
+          "en": "Fixed API requests failing with \"unable to get local issuer certificate\" behind some TLS-inspecting proxies after a root certificate renewal",
+          "zh": "修复了根证书续期后，在部分会检查 TLS 的代理后面，API 请求因“unable to get local issuer certificate”失败的问题",
+          "hash": "0927b18746cd2664e25e7276ac552d64da25693aa27b361b64cfb864bf256da1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-55",
+          "en": "Fixed very long conversations losing their earlier summary when compaction had to shorten its own request",
+          "zh": "修复了上下文压缩需要缩短自身请求时，超长对话丢失先前摘要的问题",
+          "hash": "2a80c374f59846e15592cbb36da8dd71f2373623edd1295721e0dd37bec48cee",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-56",
+          "en": "Fixed a PDF's own metadata being able to make Read and @-mentions under-count its pages",
+          "zh": "修复了 PDF 自身的元数据可能导致 Read 和 @ 提及少算其页数的问题",
+          "hash": "85a9a2a51a9c7c9a960abd6e793893babaf7ff24ee74101d4b4496bf9a2e8006",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-57",
+          "en": "Fixed `DISABLE_PROMPT_CACHING_OPUS` and `DISABLE_PROMPT_CACHING_SONNET` having no effect on `[1m]`, other-region and undated spellings of the default model",
+          "zh": "修复了 `DISABLE_PROMPT_CACHING_OPUS` 和 `DISABLE_PROMPT_CACHING_SONNET` 对默认模型的 `[1m]`、其他区域及无日期写法不生效的问题",
+          "hash": "266e0612802b8079d7ba3ec6d62913d04d63e6431345bb98f8111fa833d720fc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-58",
+          "en": "Fixed `/artifacts` and the Artifact tool's shared list showing no shared artifacts when you have 200 or more of your own",
+          "zh": "修复了当你自己拥有 200 个或更多 artifact 时，`/artifacts` 和 Artifact 工具的共享列表不显示任何共享 artifact 的问题",
+          "hash": "a7260af1961728d4dde90fed405482aa7456b895b4cffb8650f6fb0c47437c3b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-59",
+          "en": "Fixed Claude treating partial Grep and Glob results as complete when a search hit its time limit",
+          "zh": "修复了搜索达到时间限制时，Claude 将部分 Grep 和 Glob 结果当作完整结果的问题",
+          "hash": "218eadb5c0ab65b149fa1bbed4f2386527533556a4be55a83659a389481de1a3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-60",
+          "en": "Fixed OpenTelemetry exports to an `https://` endpoint through a proxy never being sent when they started while another export was still in progress",
+          "zh": "修复了通过代理向 `https://` 端点进行的 OpenTelemetry 导出，在另一次导出仍在进行时启动则始终不会发送的问题",
+          "hash": "e2a53aed72a6b5b9037c3e4997403a6b966d107122a3732e0da0e0db2176aa98",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-61",
+          "en": "Fixed a flood of connection attempts to a proxy that blocks (HTTP 403) OpenTelemetry exports to an `http://` endpoint",
+          "zh": "修复了向阻止（HTTP 403）向 `http://` 端点导出 OpenTelemetry 数据的代理发起大量连接尝试的问题",
+          "hash": "57c4046c0fbdf0472b8849eebb707ec660fdf31ed0a29c50c7025f40fc8cba5e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-62",
+          "en": "Fixed OpenTelemetry exports hanging indefinitely behind a proxy that never answers; they now time out after 10 seconds, or `OTEL_EXPORTER_OTLP_TIMEOUT` up to 30 seconds",
+          "zh": "修复了 OpenTelemetry 导出在从不响应的代理后面无限期挂起的问题；现在会在 10 秒后超时，或按 `OTEL_EXPORTER_OTLP_TIMEOUT` 最多 30 秒",
+          "hash": "11fb7fe698142d6ffd2d4cf1bd95cc6f407c816aa4b6cd9cf6e52dc310a964bf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-63",
+          "en": "Fixed resumed sessions telling Claude again about a file change it already knew about",
+          "zh": "修复了恢复的 session 再次向 Claude 告知它已知晓的文件变更的问题",
+          "hash": "0e04e3bce977541902a69beb922dbf88a37a8bcdd7fbb33a9c39b59f4930c2da",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-64",
+          "en": "Fixed Claude sometimes not using a built-in tool in a resumed session after an earlier call failed because the tool was switched off",
+          "zh": "修复了在恢复的 session 中，早先某次调用因工具被关闭而失败后，Claude 有时不再使用该内置工具的问题",
+          "hash": "2c420eb1089eec4c7912ebe066d7ab32d194ee248e8a3e587622201574a68e10",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-65",
+          "en": "Fixed `/remote-control` answering \"Unknown command\" instead of saying that Remote Control is turned off by the `disableRemoteControl` setting",
+          "zh": "修复了 `/remote-control` 返回“Unknown command”，而不是说明 Remote Control 已被 `disableRemoteControl` 设置关闭的问题",
+          "hash": "23db05caf869be0cb40ac6d1189eb66d7641733d4238d95c0ab2ab8aad7b026f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-66",
+          "en": "Fixed agent team teammates in tmux or iTerm2 panes starting in auto mode when the lead session was in manual mode",
+          "zh": "修复了当主 session 处于手动模式时，tmux 或 iTerm2 窗格中的 agent 团队队友以自动模式启动的问题",
+          "hash": "30c75ab6befc28d49f16d1b577ffc98f974f545f50e84b6670d6f5a05737c648",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-67",
+          "en": "Fixed a background session sometimes losing a just-made change of permission mode when it was upgraded or retired",
+          "zh": "修复了后台 session 在升级或退役时有时丢失刚做出的权限模式变更的问题",
+          "hash": "5d7e0d504474a5643ff216515ddb2baca997dc050bb2c9e9bec7d4e689fbdee1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-68",
+          "en": "Fixed Ctrl+C stopping all running background agents when pressed to clear typed text at the prompt",
+          "zh": "修复了在 prompt 处按 Ctrl+C 清除已输入文本时，会停止所有正在运行的后台 agent 的问题",
+          "hash": "b00341f3915eaa8bd648d83262155be99e9a1f589766c41b090f67d5febdc411",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-69",
+          "en": "Fixed /feedback showing \"Enter to confirm\" while a report is being sent",
+          "zh": "修复了 /feedback 在报告发送过程中显示“Enter to confirm”的问题",
+          "hash": "c9266e26b9b44e6cf381546504e7d9115dee6b19e8023a0e8bed07100b470ce0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-70",
+          "en": "Fixed child processes of a stopped shell command sometimes being sent SIGTERM twice, which could make some programs skip their cleanup",
+          "zh": "修复了已停止的 shell 命令的子进程有时被发送两次 SIGTERM，导致部分程序跳过清理的问题",
+          "hash": "12a102fccef876caba176170cef666883852668d5467ab88fb7e658da44d1cb8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-71",
+          "en": "Fixed `claude -p` run inside a cloud or self-hosted runner session sharing that session's ID: it wrote into the session's transcript, and a restart could resume the wrong conversation",
+          "zh": "修复了在云或自托管 runner session 内运行的 `claude -p` 共用该 session 的 ID 的问题：它会写入该 session 的记录，重启后可能恢复错误的对话",
+          "hash": "1a566b02d4d828fb1ee15f73bd7ba94cb5e5b2a171be537b96121282330af2b0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-72",
+          "en": "Fixed `claude -p` run inside a cloud or self-hosted runner session generating a title of its own and sending it to that session",
+          "zh": "修复了在云或自托管 runner session 内运行的 `claude -p` 自行生成标题并发送给该 session 的问题",
+          "hash": "3dd7c840d805096d750c652d71a25d89158d6e6bdd72952c005b7edef24fad1d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-73",
+          "en": "Windows: Fixed every tool call being refused on some volumes where the native path lookup fails; the working-directory check now compares the folder's identity instead",
+          "zh": "Windows：修复了在原生路径查找失败的某些卷上所有工具调用都被拒绝的问题；工作目录检查现在改为比较文件夹的身份标识",
+          "hash": "c6d15c951edbbea9c0cbace5c274376e542757b26a7b1bf073ea74ec2214fd34",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-74",
+          "en": "Windows: Fixed the session scratchpad and other temporary paths growing with your project's path length in sessions not started by Claude Desktop, which made repositories cloned into them hit the 260-character path limit",
+          "zh": "Windows：修复了在非 Claude Desktop 启动的 session 中，session 暂存区及其他临时路径随项目路径长度增长的问题，该问题导致克隆到其中的仓库触及 260 字符路径上限",
+          "hash": "ef8e65c2e53cef2e275e90343f29ad7701067d9a866f4de54ce362c3115e2812",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-75",
+          "en": "Gateway: Fixed the status line and `/usage` showing a developer's own spend limit as 100% used after their group's pooled budget ran out",
+          "zh": "网关：修复了当开发者所在组的共享预算用尽后，状态栏和 `/usage` 将开发者个人支出限额显示为已用 100% 的问题",
+          "hash": "7d97b7251b91dc74b2fde97ede9fa92ac63c764e564f62726e4c98e9157853b2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-76",
+          "en": "Self-hosted runner: Fixed Claude not seeing the interrupted tool call when a session moves to a new runner and the turn is older than `CLAUDE_CODE_RESUME_INTERRUPTED_TURN_MAX_AGE_MS`",
+          "zh": "自托管 runner：修复了当 session 迁移到新 runner 且该轮次早于 `CLAUDE_CODE_RESUME_INTERRUPTED_TURN_MAX_AGE_MS` 时，Claude 看不到被中断的工具调用的问题",
+          "hash": "ed3836d33d48fdab1535c318d0f60ac40b5e8d17a167da6e0df426852239ca7e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-77",
+          "en": "Self-hosted runner: Fixed an MCP server that was switched off coming back on after the session moved to a new machine, when the session service had refused to save the switch",
+          "zh": "自托管 runner：修复了当 session 服务拒绝保存关闭操作时，已关闭的 MCP server 在 session 迁移到新机器后重新启用的问题",
+          "hash": "51eb289f10028dd2dd6dbeb8b564e869d4e443e0497e38ece78fd20db49b73d2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-78",
+          "en": "\\[VSCode] Fixed forked conversations dropping messages: only one of the tool calls Claude ran in parallel was kept, and the last messages a compaction kept were lost, which could leave Claude's answer without the question it answered",
+          "zh": "\\[VSCode] 修复了分叉对话丢失消息的问题：Claude 并行执行的工具调用只保留了一个，且上下文压缩保留的最后几条消息丢失，可能导致 Claude 的回答缺少它所回答的问题",
+          "hash": "abe7f8ee7ee46b86cc3206053895bf0da8cfe33efb80c64b969cf9b2393198c9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-79",
+          "en": "\\[VSCode] Fixed a message being lost when Claude did not finish starting in time: the extension now starts Claude once more before showing the error",
+          "zh": "\\[VSCode] 修复了 Claude 未能及时完成启动时消息丢失的问题：扩展现在会在显示错误前再启动一次 Claude",
+          "hash": "e668c806db1fca79ea8d8e0ddb8960b49afd6f8275a6e93aa3a3036789021da3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-80",
+          "en": "\\[VSCode] Fixed the sign-in screen opening when a request is blocked for its region or network",
+          "zh": "\\[VSCode] 修复了请求因所在地区或网络被阻止时仍打开登录界面的问题",
+          "hash": "f10866d8dacdd14b49980e99fe21d45b78eb4959295b1451ba0b521fe2a32854",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-81",
+          "en": "\\[VSCode] Fixed the Account panel showing the plan name with a lower-cased second word",
+          "zh": "\\[VSCode] 修复 Account 面板显示的计划名称中第二个单词被转为小写的问题",
+          "hash": "0ff30fde9686bb65ab928ee7142c26b4705219dc74afb0dbb783cd6b84c36f98",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-82",
+          "en": "\\[VSCode] Fixed file links in a Claude tab opening on top of the chat instead of in another editor group",
+          "zh": "\\[VSCode] 修复 Claude 标签页中的文件链接在聊天上方打开、而非在其他编辑器组中打开的问题",
+          "hash": "c6109992ca6f737b0c6b157078c35ea46de1b19f6479055160d25509006de920",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-83",
+          "en": "\\[VSCode] Fixed attachment chips, menus, banners and dialogs in the Claude panel staying small when `chat.fontSize` is raised",
+          "zh": "\\[VSCode] 修复调高 `chat.fontSize` 后 Claude 面板中的附件标签、菜单、横幅和对话框仍保持小尺寸的问题",
+          "hash": "60720d7d5dbdde8989ff5c0aace704c2b23abc9c27b2ed83e406c2d916d52e74",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-84",
+          "en": "\\[VSCode] Fixed `ultrathink` not raising effort for its turn or showing its rainbow when telemetry is off",
+          "zh": "\\[VSCode] 修复关闭遥测时 `ultrathink` 未提升当轮 effort、也未显示彩虹效果的问题",
+          "hash": "88701455837b5fd969c907298141238da64af2d66e8c1f52546b663226f129cc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-85",
+          "en": "\\[Cloud sessions] Fixed adding a network secret for a host that already has one silently replacing it; the Add secret form now refuses and points you to the existing secret",
+          "zh": "\\[Cloud sessions] 修复为已有网络密钥的主机添加网络密钥时静默替换原密钥的问题；Add secret 表单现在会拒绝并引导你使用已有密钥",
+          "hash": "9ed24448eaa371804cad8cabd927d36ed77f2f042ca6bec52c680667d38866dd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-86",
+          "en": "\\[Cloud sessions] Fixed new scheduled tasks ignoring your organization's default environment: the form now starts on the one an admin chose instead of the Anthropic-hosted default",
+          "zh": "\\[Cloud sessions] 修复新建定时任务忽略组织默认环境的问题：表单现在默认选中管理员指定的环境，而非 Anthropic 托管的默认环境",
+          "hash": "1d4c9e7bad3e16bfe4f8c89c373e7c46589c8831b500317c304d2fff4d2618ef",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.317-fixes-87",
+          "en": "\\[Remote Control] Fixed the next message to an idle session going unanswered after you restart `claude remote-control`, when you sent it within a minute of your previous message",
+          "zh": "\\[Remote Control] 修复重启 `claude remote-control` 后，若在距上一条消息一分钟内发送消息，发给空闲 session 的下一条消息得不到回应的问题",
+          "hash": "0671e0cb8bf9aecbb7f28505e5528666d14426b074d67ff8d2a23156d0444ebc",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增隐私确认与成本报告，修复大量稳定性问题，无破坏性变更。",
+    "highlights": [
+      {
+        "title": "邮箱外发前先确认",
+        "category": "安全",
+        "detail": "web 或 shell 工具调用若要把你的账户邮箱地址发送到网络，会先向你确认，避免敏感信息意外外泄。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.317-added-2"
+        ]
+      },
+      {
+        "title": "新增成本报告 API",
+        "category": "新功能",
+        "detail": "网关管理 API 新增 GET /v1/organizations/analytics/cost，可按日期范围查看历史支出，支持总计、按开发者、按天或按 IdP 组。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.317-added-7"
+        ]
+      },
+      {
+        "title": "hook 失败可阻止操作",
+        "category": "新功能",
+        "detail": "Agent SDK hook 回调新增 onFailure: \"block\"，回调失败时阻止该操作执行，而不是让其继续运行。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.317-added-3"
+        ]
+      },
+      {
+        "title": "嵌套 session ID 开关",
+        "category": "新功能",
+        "detail": "新增 CLAUDE_CODE_DISABLE_NESTED_SESSION_ID；在自托管运行器上设为 1，可让 session 内运行的 claude -p 使用该 session 的 ID 和记录，与早期版本一致。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_CODE_DISABLE_NESTED_SESSION_ID",
+          "caption": "相关环境变量"
+        },
+        "item_ids": [
+          "2.1.317-added-9"
+        ]
+      },
+      {
+        "title": "磁盘写入失败不再静默",
+        "category": "修复",
+        "detail": "磁盘已满或配额耗尽导致 transcript 或 ~/.claude.json 写入丢失时，claude -p 现在会打印错误并以 1 退出，而非静默返回 0。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude -p",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.317-fixes-41"
+        ]
+      },
+      {
+        "title": "OTel 导出不再挂起",
+        "category": "修复",
+        "detail": "OpenTelemetry 导出在无响应代理后不再无限期挂起，10 秒后超时，或按 OTEL_EXPORTER_OTLP_TIMEOUT 最多 30 秒。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.317-fixes-62"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

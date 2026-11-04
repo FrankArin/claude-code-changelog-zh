@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed \"Rewind to here\" failing on every message except the newest in cloud sessions; self-hosted runners need Claude Code v2.1.246 or later",
+  "zh": "\\[云 session] 修复了云 session 中除最新消息外，对任何消息执行 \"Rewind to here\" 都会失败的问题；自托管运行器需要 Claude Code v2.1.246 或更高版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

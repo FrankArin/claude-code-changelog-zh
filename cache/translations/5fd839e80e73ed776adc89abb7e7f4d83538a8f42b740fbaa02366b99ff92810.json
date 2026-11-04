@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Added a New session button to the card shown when a cloud session's environment was deleted, where the message box is hidden",
+  "zh": "\\[Cloud sessions] 在 cloud session 环境被删除时显示的卡片上新增“新建 session”按钮，该卡片中消息框处于隐藏状态",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed OpenTelemetry exports to an `https://` endpoint through a proxy never being sent when they started while another export was still in progress",
+  "zh": "修复了通过代理向 `https://` 端点进行的 OpenTelemetry 导出，在另一个导出仍在进行时启动则始终不会发送的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

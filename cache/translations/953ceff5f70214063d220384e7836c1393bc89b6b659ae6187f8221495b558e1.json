@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed a mod hook's `.catch` handler to run only when the hook throws or times out; events raised beneath the hook's own calls now skip that hook without asking its `.catch`",
+  "zh": "变更 mod hook 的 `.catch` 处理程序，使其仅在 hook 抛出异常或超时时运行；hook 自身调用之下引发的事件现在会跳过该 hook，而不会询问其 `.catch`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

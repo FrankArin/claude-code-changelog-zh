@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP tool descriptions and server instructions from Anthropic's first-party MCP servers at `api.anthropic.com` to reach Claude in full instead of being cut at 4,096 characters",
+  "zh": "变更 `api.anthropic.com` 上 Anthropic 第一方 MCP 服务器的 MCP 工具描述和服务器指令，完整送达 Claude，不再截断至 4,096 个字符",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

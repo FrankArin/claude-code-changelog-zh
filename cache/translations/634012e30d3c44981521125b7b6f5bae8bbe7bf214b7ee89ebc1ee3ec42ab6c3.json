@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a record of your answer when Claude Code asks to turn on the mods it writes in a session",
+  "zh": "新增记录：当 Claude Code 询问是否启用其在 session 中编写的 mod 时，记录你的回答",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

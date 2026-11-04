@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/upgrade` opening the browser and starting a new login for plans billed through the App Store or Google Play; it now says where to change the plan",
+  "zh": "修复 `/upgrade` 对通过 App Store 或 Google Play 计费的套餐打开浏览器并启动新登录的问题；现在会说明应在何处更改套餐",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

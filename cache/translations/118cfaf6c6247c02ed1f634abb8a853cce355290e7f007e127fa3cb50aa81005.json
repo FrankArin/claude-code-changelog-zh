@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Remote Control] Fixed a subagent's pane spinning forever in a Remote Control session after your computer goes offline; it now says Remote Control is disconnected",
+  "zh": "\\[远程控制] 修复了在远程控制 session 中，计算机离线后 subagent 窗格一直转圈的问题；现在会显示远程控制已断开",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

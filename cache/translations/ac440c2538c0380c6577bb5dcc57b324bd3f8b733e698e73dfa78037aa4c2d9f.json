@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed URLs written in backticks being clickable only on their first row when they wrap; the whole URL is now one link in terminals that support hyperlinks",
+  "zh": "修复了用反引号书写的 URL 换行时只有第一行可点击的问题；在支持超链接的终端中，整个 URL 现在是一个链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

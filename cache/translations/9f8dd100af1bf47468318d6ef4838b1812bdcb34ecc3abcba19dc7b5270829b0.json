@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `plugin_loaded` telemetry event reporting `has_hooks` as false for plugins whose hooks are a hooks module, built-in plugins included",
+  "zh": "修复了 `plugin_loaded` 遥测事件对 hooks 为 hooks 模块的 plugin（包括内置 plugin）将 `has_hooks` 报告为 false 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

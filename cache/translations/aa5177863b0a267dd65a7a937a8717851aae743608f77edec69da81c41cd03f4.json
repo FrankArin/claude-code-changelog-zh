@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed replies cut off at the output token limit ending the turn silently, with no retry or error, after a request fell back to non-streaming mode",
+  "zh": "修复了请求回退到非流式模式后，回复在输出 token 限制处被截断时静默结束回合、既不重试也不报错的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

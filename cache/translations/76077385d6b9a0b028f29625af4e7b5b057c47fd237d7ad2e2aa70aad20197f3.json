@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a line on stderr, when it is a terminal, that says what a `claude -p` run is waiting for when it stays open after its last turn",
+  "zh": "当 stderr 是终端时，新增一行输出，说明 `claude -p` 运行在最后一轮之后仍保持打开时在等待什么",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed profile store write protection not applying when the config directory is reached through a symlink",
+  "zh": "修复了通过符号链接访问配置目录时 profile 存储写保护不生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

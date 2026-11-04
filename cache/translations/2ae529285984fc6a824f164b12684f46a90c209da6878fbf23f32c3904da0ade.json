@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed standard-context sessions stopping with \"Usage credits required for 1M context\" when a request ran over 200K tokens; Claude Code now compacts the conversation and continues",
+  "zh": "修复标准上下文 session 在请求超过 200K tokens 时以“Usage credits required for 1M context”停止的问题；Claude Code 现在会压缩对话并继续",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

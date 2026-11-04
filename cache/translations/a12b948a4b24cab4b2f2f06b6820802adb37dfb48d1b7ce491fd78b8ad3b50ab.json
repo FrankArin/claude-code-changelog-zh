@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a question's auto-continue timeout firing the moment the external editor closed after a long edit",
+  "zh": "修复了长时间编辑后关闭外部编辑器时，问题的自动继续超时立即触发的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

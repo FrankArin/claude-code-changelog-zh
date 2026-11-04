@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash tool calls failing when the model passes `command_description` instead of `description`",
+  "zh": "修复当模型传入 `command_description` 而非 `description` 时 Bash 工具调用失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

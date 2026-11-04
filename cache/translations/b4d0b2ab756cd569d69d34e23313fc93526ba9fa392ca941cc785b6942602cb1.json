@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/code-review` ending on a raw JSON array in cloud sessions, the Agent SDK and IDE integrations; the findings now print as a numbered list",
+  "zh": "修复了 `/code-review` 在云 session、Agent SDK 和 IDE 集成中以原始 JSON 数组结尾的问题；发现项现在以编号列表形式输出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

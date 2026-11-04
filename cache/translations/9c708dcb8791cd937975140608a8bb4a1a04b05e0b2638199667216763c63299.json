@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the plugin-authoring skill's steps for sharing a mod: Claude asks public or private and checks the files before creating a GitHub repository",
+  "zh": "改进 plugin 编写 skill 中分享 mod 的步骤：Claude 会询问公开还是私有，并在创建 GitHub 仓库前检查文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

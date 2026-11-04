@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the `claude -p` invalid-settings warning: a file that did not load lists only what stopped it, and long lists are capped per file",
+  "zh": "改进 `claude -p` 的无效设置警告：未加载的文件只列出阻止其加载的原因，过长的列表按文件截断",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

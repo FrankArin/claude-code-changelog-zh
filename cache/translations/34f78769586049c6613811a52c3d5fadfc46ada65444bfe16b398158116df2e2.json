@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "macOS: Fixed a file count at session start that could reach other apps' data and raise the \"access data from other apps\" prompt when a session starts in the home folder or above it",
+  "zh": "macOS：修复了当 session 在主目录或其上级目录启动时，session 启动时的文件计数可能触及其他应用的数据并触发“访问其他应用数据”提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

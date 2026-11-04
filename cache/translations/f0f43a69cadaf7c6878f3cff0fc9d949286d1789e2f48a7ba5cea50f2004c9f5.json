@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the extension host freezing while the login shell ran its start-up files to read PATH on macOS and Linux",
+  "zh": "\\[VSCode] 修复了在 macOS 和 Linux 上登录 shell 运行启动文件以读取 PATH 时扩展宿主卡死的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

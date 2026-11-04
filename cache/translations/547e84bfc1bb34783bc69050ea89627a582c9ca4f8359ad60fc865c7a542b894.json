@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP allow rules to reach only the server they name: `mcp__a` no longer allows a server named `a__b` or `a_`; write `mcp__<server>__*` with the server's whole normalized name",
+  "zh": "变更 MCP 允许规则，仅作用于其指定的服务器：`mcp__a` 不再允许名为 `a__b` 或 `a_` 的服务器；请用服务器的完整规范化名称写成 `mcp__<server>__*`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

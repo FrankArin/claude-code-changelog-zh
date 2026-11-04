@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an `effort` option to a mod's `$.model.fork`, so a quick side job can run at `low` whatever effort the session uses; the result reports the effort sent",
+  "zh": "为 mod 的 `$.model.fork` 新增 `effort` 选项，使快速附带任务无论 session 使用何种 effort 都能以 `low` 运行；结果中会报告实际发送的 effort",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

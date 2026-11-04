@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed artifact updates being refused where a PreToolUse hook covers Edit or Write; Claude now edits the file and then republishes instead of changing it in the publish call",
+  "zh": "修复在 PreToolUse hook 覆盖 Edit 或 Write 时 artifact 更新被拒绝的问题；Claude 现在会先编辑文件，再重新发布，而不是在发布调用中修改文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

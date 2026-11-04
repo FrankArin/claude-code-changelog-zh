@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a saved Claude apps gateway sign-in being ignored on machines whose managed settings set `forceLoginMethod` to `gateway` with no `forceLoginGatewayUrl` (regression in 2.1.295)",
+  "zh": "修复在托管设置将 `forceLoginMethod` 设为 `gateway` 且未设置 `forceLoginGatewayUrl` 的机器上，已保存的 Claude 应用网关登录被忽略的问题（2.1.295 引入的回归）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

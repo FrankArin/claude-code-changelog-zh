@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "version": "2.1.301",
+  "date": "2026-10-15",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "bed090db43b62cad7964bd8be38f3a25fc58920040fcbf9dd0da051fef86d41f",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:54:28+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.301-added-1",
+          "en": "Added `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) ends a request at a usage limit that resets too far away instead of waiting",
+          "zh": "新增 `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS`，使无人值守重试模式（`CLAUDE_CODE_RETRY_WATCHDOG`）在遇到重置时间过远的用量限制时结束请求，而不是继续等待",
+          "hash": "586dd50d35828565970b5f3dd6b382fd077e205c5919c6ffa600a49bb879c4fd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-added-2",
+          "en": "Added OpenTelemetry tracing guidance to the `claude-api` skill, including setting up trace destinations with the `ant` CLI",
+          "zh": "在 `claude-api` skill 中新增 OpenTelemetry 追踪指南，包括使用 `ant` CLI 设置追踪目标",
+          "hash": "3a7d41012c66e2109cb37b05f5e0de5e5660e48f2138d4d6e6dd8f77edf871f7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-added-3",
+          "en": "Added the `%` motion to vim mode: jump to the matching bracket, alone or with d/c/y",
+          "zh": "为 vim 模式新增 `%` 动作：跳转到匹配的括号，可单独使用，也可与 d/c/y 组合使用",
+          "hash": "84175f6b7778a6dcea1158e769ece8d46ca31458d6f0d6d17ab7cda0ac51967c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-added-4",
+          "en": "Added `rows` to a mod's `Input`: a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line",
+          "zh": "为 mod 的 `Input` 新增 `rows`：终端中的多行文本字段，按 Enter 提交，按 Shift+Enter 或在 Enter 前加反斜杠换行",
+          "hash": "441a078fc59745ad897ab2bf18528879edd544dd25423b72d1e5fe2be5f5a6d3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-added-5",
+          "en": "Added `classifier_verdict` and `permission_mode` to OpenTelemetry `tool_decision` events, so auto mode classifier decisions can be told apart from permission rules",
+          "zh": "在 OpenTelemetry `tool_decision` 事件中新增 `classifier_verdict` 和 `permission_mode`，以便区分自动模式分类器的判定与权限规则",
+          "hash": "0da927834dc9db729555aa21779e8ec1106e51cc376325e138ee6b9af4e6f819",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-added-6",
+          "en": "Added `classifier_category` to OpenTelemetry `tool_decision` events, naming the built-in rule a classifier block matched, when `OTEL_LOG_TOOL_DETAILS=1`",
+          "zh": "当 `OTEL_LOG_TOOL_DETAILS=1` 时，在 OpenTelemetry `tool_decision` 事件中新增 `classifier_category`，标明分类器拦截所匹配的内置规则",
+          "hash": "5e98d1fc96b7fd5f625a964cda3c768e9f1fce99d204e0f791e38bd89a71d287",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-added-7",
+          "en": "\\[VSCode] Added LaTeX math rendering in Claude's responses, including `$$` and multi-line `\\[ … \\]` blocks and inline `$…$` and `\\(…\\)` math",
+          "zh": "\\[VSCode] 在 Claude 的回复中新增 LaTeX 数学公式渲染，包括 `$$` 和多行 `\\[ … \\]` 块，以及行内 `$…$` 和 `\\(…\\)` 公式",
+          "hash": "17fbd476c25e2df816f2ca5b8fc1b0e91e4bbca7f23771e5dd2aed20125f65d4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-added-8",
+          "en": "\\[VSCode] Added a \"Get more usage\" link to the usage-limit banner for Pro and Max plans in the VS Code and JetBrains panels",
+          "zh": "\\[VSCode] 在 VS Code 和 JetBrains 面板中，为 Pro 和 Max 套餐的用量限制横幅新增“Get more usage”链接",
+          "hash": "a1a4e8b11ea710a792a8e07d32790119487be4302ff8bf7bfdf9fa21211ec2eb",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.301-changed-9",
+          "en": "Changed a mod hook's `.catch` handler to run only when the hook throws or times out; events raised beneath the hook's own calls now skip that hook without asking its `.catch`",
+          "zh": "变更 mod hook 的 `.catch` 处理程序，使其仅在 hook 抛出异常或超时时运行；hook 自身调用之下引发的事件现在会跳过该 hook，而不会询问其 `.catch`",
+          "hash": "6041074225fe7cdd5733c9473ba1c1fdcd236debf692514102cff51766271ec0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-changed-10",
+          "en": "Changed a mod's `$.env.set` to resolve with `{}` once the variable is set or unset, or with `{ deny }` saying why when the write is not made",
+          "zh": "变更 mod 的 `$.env.set`：变量设置或取消设置后以 `{}` 解析，若未执行写入则以 `{ deny }` 解析并说明原因",
+          "hash": "a6277977f8acd6ce1282d1a669bf17e19e2787d41512461db22968c8b0dc4ad8",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "Improved",
+      "heading_zh": "改进",
+      "items": [
+        {
+          "id": "2.1.301-other-11",
+          "en": "Improved switching to a model with a smaller context window: a conversation too long for the new model is now summarized by the previous model first",
+          "zh": "改进切换到上下文窗口更小的模型：对于新模型而言过长的对话，现在会先由之前的模型进行总结",
+          "hash": "30d41d3ea1946a72be805c28153c802d7ce34bd11a533c511828ef93c1087dcc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-other-12",
+          "en": "Improved rendering performance while a long-running subagent works: its progress trail now updates incrementally instead of being reprocessed in full on every render",
+          "zh": "改进长时间运行的 subagent 工作期间的渲染性能：其进度轨迹现在增量更新，而不是在每次渲染时完整重新处理",
+          "hash": "8ac37aaefeb699dc3e179a9106e7b78bd59b7a056118318aa8a73989a6572198",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-other-13",
+          "en": "Improved artifacts: pages Claude writes now paint the band above a sticky header, so scrolled text no longer shows there in the mobile apps",
+          "zh": "改进 artifacts：Claude 写入的页面现在会绘制吸顶标题上方的区域，因此移动端应用中滚动时文字不再显示在该处",
+          "hash": "142b26e3573199bae3f7cbbfac7e2f2cc4845aa695953420cd07eae7c231813b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-other-14",
+          "en": "Improved mods: in VS Code and the desktop and mobile apps, a tree drawn above the question dialog can now hold Markdown and up to 48 rows; the terminal keeps 12 plain rows",
+          "zh": "改进 mods：在 VS Code 以及桌面应用和移动端应用中，问题对话框上方绘制的树现在可包含 Markdown 和最多 48 行；终端仍保持 12 行纯文本",
+          "hash": "17a910923666a2b6a3c806e544fa1d8fde02e16f5abf9bc638fd32c2ae9218e8",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "37 bug fixes",
+      "heading_zh": "37 项修复",
+      "items": [
+        {
+          "id": "2.1.301-fixes-15",
+          "en": "Fixed quitting removing a worktree made by a `WorktreeCreate` hook without asking when it may hold unpushed commits",
+          "zh": "修复退出时未经询问就删除由 `WorktreeCreate` hook 创建的 worktree 的问题，即使该 worktree 可能包含未推送的提交",
+          "hash": "56c3718ceaeb329a5250ebef169d89c44cbd7128cd73d134863201dcb72d0a8a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-16",
+          "en": "Fixed the `fable` (and `best`) model alias erroring on the Anthropic API when the newest Fable model is not available to your organization: Claude Code now retries once on the previous Fable model",
+          "zh": "修复当组织无法使用最新的 Fable 模型时，`fable`（以及 `best`）模型别名在 Anthropic API 上报错的问题：Claude Code 现在会在上一个 Fable 模型上重试一次",
+          "hash": "887b04b8cd9b3f9afbbb679e3d563d66344822d411b20dac49fb44b7611c019c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-17",
+          "en": "Fixed a misleading \"Please run /login\" error when a full disk keeps the login from being refreshed; the error now names the disk and says to delete files",
+          "zh": "修复磁盘已满导致登录无法刷新时出现误导性的“Please run /login”错误；该错误现在会指明磁盘并提示删除文件",
+          "hash": "3d6a68bcce6ec3bd41fd0ee08636cbde8614c50e09388eee9bdf14e436e6298b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-18",
+          "en": "Fixed Grep and Glob reporting no matches when the search program failed unexpectedly before returning any results; they now return an error saying the search failed",
+          "zh": "修复搜索程序在返回任何结果前意外失败时，Grep 和 Glob 报告无匹配的问题；它们现在会返回错误，说明搜索失败",
+          "hash": "e266601bad35c07a9753362b95cdd8bea36e3d9f217de9c34abdfec1f20cfee7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-19",
+          "en": "Fixed workflow agents sometimes skipping their step, and the run still reporting success, after reading the harness note that their task text carries no user authority",
+          "zh": "修复 workflow agents 在读到其任务文本不携带用户授权的 harness 说明后，有时跳过其步骤而运行仍报告成功的问题",
+          "hash": "f08588840c9c98dfdc53be64cb2a0ed9301176df59bf421e35a69375000d7fab",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-20",
+          "en": "Fixed artifact updates being refused where a PreToolUse hook covers Edit or Write; Claude now edits the file and then republishes instead of changing it in the publish call",
+          "zh": "修复在 PreToolUse hook 覆盖 Edit 或 Write 时 artifact 更新被拒绝的问题；Claude 现在会先编辑文件，再重新发布，而不是在发布调用中修改文件",
+          "hash": "dcc4d402c1b1f1080135f6d7b5ea75d6f886adced4ca0d5ef9101dd36c489175",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-21",
+          "en": "Fixed skills and commands with very many or very long argument names stalling for seconds when invoked; only the first 64 names, each up to 64 characters, are now filled in",
+          "zh": "修复了参数名极多或极长的 skill 和命令在调用时卡顿数秒的问题；现在只填充前 64 个名称，每个名称最多 64 个字符",
+          "hash": "46c454c3e914ca8773eaa122165fa23bb819fdd5a134f86058559c3a67f3632d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-22",
+          "en": "Fixed skills, commands and hooks using very large amounts of memory when their arguments fill many placeholders",
+          "zh": "修复了 skill、命令和 hook 在参数填充大量占位符时占用大量内存的问题",
+          "hash": "5fdc5c0fc0ce28e6a89138d0bd3ff380ceb80edb50f741a165b349ddfa470790",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-23",
+          "en": "Fixed stray characters such as `>0q` covering the folder trust prompt, and `>4m` before the shell prompt at exit, in terminals built on VTE older than 0.53 such as MATE Terminal on RHEL 8",
+          "zh": "修复了在基于 VTE 0.53 之前版本的终端（例如 RHEL 8 上的 MATE Terminal）中，`>0q` 等多余字符覆盖文件夹信任提示，以及退出时 shell 提示符前出现 `>4m` 的问题",
+          "hash": "0e39dfe9753bc8550a92b44f0e25051fcc2624331db3ae7f64e5a484fe1ea1ab",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-24",
+          "en": "Fixed stray `GOK` text appearing in the prompt at startup in some versions of iTerm2",
+          "zh": "修复了在某些版本的 iTerm2 中启动时提示符里出现多余 `GOK` 文本的问题",
+          "hash": "8cd9ac697dd99c37886d2cc11b906e9416296fde241f214789042bebffb5a0ca",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-25",
+          "en": "Fixed switching to a model whose name contains `application-inference-profile` running your `awsAuthRefresh` command and delaying model-switch hooks when the provider is not Bedrock",
+          "zh": "修复了当提供商不是 Bedrock 时，切换到名称包含 `application-inference-profile` 的模型会执行 `awsAuthRefresh` 命令并延迟模型切换 hook 的问题",
+          "hash": "18188b30c2abcb7841194345e36c60060b20d13fd66be0556fbe34acb65e32f2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-26",
+          "en": "Fixed sign-in refresh timeouts and unexpected sign-outs after a short command such as `claude auth status` or `claude plugin list` exited in the middle of a token refresh",
+          "zh": "修复了在 token 刷新过程中，`claude auth status` 或 `claude plugin list` 等短命令退出时导致的登录刷新超时和意外登出问题",
+          "hash": "3585b6c2e081f99c9509711b280a8550bd4516e333178d49e39bc16f90a216c1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-27",
+          "en": "Fixed a tool call cut off by a message sent mid-turn during its permission check being reported to the model as rejected by the user",
+          "zh": "修复了工具调用在权限检查期间被中途发送的消息截断时，被报告给模型为用户拒绝的问题",
+          "hash": "1771cd2369899ab5bd389e4ce52507de23f588ba249b9611bb9984513a10bd30",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-28",
+          "en": "Fixed a case where switching to a model with a smaller context window could spend usage credits on a summary by the previous model without asking first",
+          "zh": "修复了切换到上下文窗口更小的模型时，可能在未事先询问的情况下消耗用量额度让前一个模型生成摘要的问题",
+          "hash": "7c9ae225ed7f87762f21e28c9242c7b4abf152c00c82b87db03f0793c2906d10",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-29",
+          "en": "Fixed conversations being compacted over and over, on a model you didn't pick, behind an LLM gateway whose responses name a different model than the one requested",
+          "zh": "修复了在 LLM 网关后使用非所选模型时，因网关响应中指定的模型与请求的模型不同而导致对话反复进行上下文压缩的问题",
+          "hash": "41e6f9cd793e86d3c2b8fcff8f94cdb295669440850e022f25fbe29c7b823b85",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-30",
+          "en": "Fixed vim mode sometimes staying in INSERT after Escape on a slow or busy machine",
+          "zh": "修复了在缓慢或繁忙的机器上，vim 模式有时在按 Escape 后仍停留在 INSERT 模式的问题",
+          "hash": "8dc95d05e1a88c653042c91ce4b6f938e03ca90c31f5857301ba6f164ebfa6c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-31",
+          "en": "Fixed Esc discarding a typed AskUserQuestion answer in vim mode: the free-text field now supports vim NORMAL mode, and Esc cancels only from NORMAL",
+          "zh": "修复了 vim 模式下按 Esc 会丢弃已输入的 AskUserQuestion 回答的问题：自由文本字段现在支持 vim NORMAL 模式，且仅在 NORMAL 模式下按 Esc 才会取消",
+          "hash": "9672225ee1a3fcb03cbe11868779278b063eb3c9438115c693506a48702db57d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-32",
+          "en": "Fixed the Read tool reading binary files such as .xlsm, .parquet, .epub and .heic as text",
+          "zh": "修复了 Read 工具将 .xlsm、.parquet、.epub 和 .heic 等二进制文件按文本读取的问题",
+          "hash": "446df58bd52b1e8608b750b8c751d41941f362acccaf74d7099126a13a311de0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-33",
+          "en": "Fixed a Markdown table with only a header row drawing nothing when too wide for the terminal, including in plans on the plan approval card",
+          "zh": "修复了仅有表头行的 Markdown 表格在超出终端宽度时不绘制任何内容的问题，包括计划批准卡片中的计划",
+          "hash": "2d14192209624e526f8829ae787941e269991e57434b6118de069962b70027b1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-34",
+          "en": "Fixed the /claude-api skill saying CMEK external-key endpoints aren't available on Claude Platform on AWS",
+          "zh": "修复了 /claude-api skill 错误声称 CMEK 外部密钥端点不可在 AWS 上的 Claude Platform 中使用的问题",
+          "hash": "bfde250f3710bb62492dc7e20d5678c5196f4411ffefa44d4f6a2e1138b08231",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-35",
+          "en": "Fixed skills no longer being listed to the model after using `/rewind`",
+          "zh": "修复了使用 `/rewind` 后 skill 不再向模型列出的问题",
+          "hash": "ad793e52d879bb6cc8159b3721c9290ebc6ceb7900bc8c1febac0699b84f8d1c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-36",
+          "en": "Fixed the compaction row in a resumed session offering ctrl+o for history that is not loaded; it now says where the earlier messages are saved, and also shows in fullscreen",
+          "zh": "修复了恢复的 session 中上下文压缩行提示按 ctrl+o 查看未加载的历史记录的问题；现在会说明较早的消息保存在何处，并在全屏模式下显示",
+          "hash": "cd73ac698de5e25e2852a071f470a885c4a859999efad2aef0f13d34c8226bee",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-37",
+          "en": "Fixed the \"new task? /clear to save tokens\" hint coming back right after you interrupt a response",
+          "zh": "修复了中断响应后立即重新出现“new task? /clear to save tokens”提示的问题",
+          "hash": "4abac72d353e5b4d60b8fab2464699808684f2773b3ff3987c995f2de000cfc6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-38",
+          "en": "Fixed the permission prompt for a plugin or skill hook's `ask` decision not showing which plugin or skill the hook comes from",
+          "zh": "修复了 plugin 或 skill 的 hook 做出 `ask` 决定时，权限提示未显示该 hook 来自哪个 plugin 或 skill 的问题",
+          "hash": "00c0c75ee561383a115ae73fe9542d606b09834edf98cd555e07ce002b6e22d3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-39",
+          "en": "Fixed `/diff` not noticing a conflicted cherry-pick or revert in reftable repositories when one of its git checks timed out or failed",
+          "zh": "修复了在 reftable 仓库中，当某项 git 检查超时或失败时，`/diff` 未能发现存在冲突的 cherry-pick 或 revert 的问题",
+          "hash": "ec3763030aabd6b0948a12412a9270f58e3533f611bfae2460f048a3426e2db7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-40",
+          "en": "Fixed workflow scripts asking for permission or being refused when read, edited or re-run after a Bash `cd` in the same session",
+          "zh": "修复了在同一 session 中执行 Bash `cd` 后，读取、编辑或重新运行 workflow 脚本时请求权限或被拒绝的问题",
+          "hash": "ce56b81ce9c4ee5114c950c603ace89373141f9b20490b63888bdf40d03dee2a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-41",
+          "en": "Fixed dim text on the dark ANSI theme and 16-color terminals: faint inside filled boxes, not faint under selection and search highlights, and list descriptions dimmed like other secondary text",
+          "zh": "修复深色 ANSI 主题和 16 色终端上的暗色文本：填充框内文字显示为淡色，选中和搜索高亮下不显示为淡色，列表描述像其他次要文本一样变暗",
+          "hash": "5b0d6c1ed1fba58d4ed3622258deda3521a20dfaa6fba3d10a3c6e04eb3e08a1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-42",
+          "en": "Fixed a mod's `$.model.fork` returning `nothing-to-fork` when called before the first response of a new Claude Code process had finished, as in `claude -p` runs and cloud sessions",
+          "zh": "修复 mod 的 `$.model.fork` 在新 Claude Code 进程首次响应完成前被调用时返回 `nothing-to-fork` 的问题，例如在 `claude -p` 运行和云 session 中",
+          "hash": "250d0cbc7c8ae02cf9ab97d8505aee5b06214719acc9e30e0cfd4da18e511cd5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-43",
+          "en": "Fullscreen mode: Fixed `/compact` and auto-compact briefly freezing the UI while the visible transcript is rebuilt",
+          "zh": "全屏模式：修复 `/compact` 和自动上下文压缩在重建可见对话记录时短暂冻结 UI 的问题",
+          "hash": "edd8885651923cd836a4be3263abe9e9c54faf751340a21ef1965bdba785b3ba",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-44",
+          "en": "Self-hosted runner: Fixed sessions started from Slack being unable to find or attach a repository when managed settings restrict MCP servers; use `deniedMcpServers` to keep those tools off",
+          "zh": "自托管运行器：修复当托管设置限制 MCP 服务器时，从 Slack 启动的 session 无法找到或附加仓库的问题；可使用 `deniedMcpServers` 保持这些工具关闭",
+          "hash": "6c699062a36740b2712200a56b1bfcf2a8b1d28bd110576571825de7ccf08166",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-45",
+          "en": "Self-hosted runner: Fixed sessions being reported as having a deleted source branch, and not retried, when an unrelated setup or session failure quoted git's missing-ref wording",
+          "zh": "自托管运行器：修复当无关的设置或 session 失败引用了 git 的缺失引用措辞时，session 被报告为源分支已删除且不再重试的问题",
+          "hash": "0e7ed3bb0ea91923abfd4ab152aafdf2de973444db1ed2e78eca4bd907967699",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-46",
+          "en": "Self-hosted runner: Fixed the log promising a retry of a failed or declined session release for a session that is ending; repeated failures now show a count",
+          "zh": "自托管运行器：修复日志承诺对正在结束的 session 重试失败或拒绝的 session 释放的问题；重复失败现在会显示次数",
+          "hash": "8661407ec6c438809fcce1894b34f95c610d4dfbf0f3fb47d5de56cc85411aac",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-47",
+          "en": "Windows: Fixed stopped background PowerShell commands missing the closing `[killed]` line in their output file",
+          "zh": "Windows：修复已停止的后台 PowerShell 命令的输出文件中缺少结尾 `[killed]` 行的问题",
+          "hash": "78829be0d3e41c534f5992e425e76bf6093db2dde951d1b18f53ee9cdcb86eaa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-48",
+          "en": "\\[VSCode] Fixed a conversation that crashes or freezes the panel being reopened on every reload",
+          "zh": "\\[VSCode] 修复会导致面板崩溃或冻结的对话在每次重新加载时被重新打开的问题",
+          "hash": "e132fb8f344f86f15730a19e93d0239e99a15af950b31121a21a16c014b60d2d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-49",
+          "en": "\\[VSCode] Fixed the chat panel slowing down during long thinking: it no longer re-parses the whole thinking text on every update",
+          "zh": "\\[VSCode] 修复聊天面板在长时间思考期间变慢的问题：不再在每次更新时重新解析整个思考文本",
+          "hash": "6383e04f6430097fd8c10e60915ca3d689dc64d1b398c5ce46722079a3183bef",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-50",
+          "en": "\\[VSCode] Fixed diagnostics showing \"\\[object Object]\" instead of the rule code (e.g. MD013) for some language servers",
+          "zh": "\\[VSCode] 修复某些语言服务器的诊断信息显示 \"\\[object Object]\" 而非规则代码（如 MD013）的问题",
+          "hash": "12eab183d264c2992954aa947951a00a1f5696a7fa999e038dadf72bf2ef63e6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.301-fixes-51",
+          "en": "\\[VSCode] Fixed the native dictation audio module being loaded, to check microphone permission, where dictation is not offered (non-claude.ai sign-ins, remote windows)",
+          "zh": "\\[VSCode] 修复在不提供听写功能的环境（非 claude.ai 登录、远程窗口）中仍加载原生听写音频模块以检查麦克风权限的问题",
+          "hash": "6698ead317550182bee93a06ef27e228fe37677757e0bdf3e11fc4c11bd7a1a2",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增重试看门狗用量上限、vim % 动作与 OTel 追踪字段，并修复大量稳定性问题。",
+    "highlights": [
+      {
+        "title": "重试看门狗用量上限",
+        "category": "新功能",
+        "detail": "新增环境变量，使无人值守重试模式在遇到重置时间过远的用量限制时结束请求，避免长时间空等。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS",
+          "caption": "相关环境变量"
+        },
+        "item_ids": [
+          "2.1.301-added-1"
+        ]
+      },
+      {
+        "title": "vim 模式 % 括号跳转",
+        "category": "新功能",
+        "detail": "vim 模式支持 % 动作跳转到匹配括号，可单独使用或与 d/c/y 组合，提升编辑效率。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.301-added-3"
+        ]
+      },
+      {
+        "title": "OTel 工具决策字段增强",
+        "category": "改进",
+        "detail": "tool_decision 事件新增 classifier_verdict、permission_mode 及可选的 classifier_category，便于区分自动分类器判定与权限规则。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "OTEL_LOG_TOOL_DETAILS=1",
+          "caption": "配置示例"
+        },
+        "item_ids": [
+          "2.1.301-added-5",
+          "2.1.301-added-6"
+        ]
+      },
+      {
+        "title": "修复退出时误删 worktree",
+        "category": "修复",
+        "detail": "退出时不再未经询问删除 WorktreeCreate hook 创建的 worktree，避免丢失可能未推送的提交。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.301-fixes-15"
+        ]
+      },
+      {
+        "title": "修复登录刷新超时登出",
+        "category": "修复",
+        "detail": "短命令在 token 刷新期间退出不再导致刷新超时和意外登出，减少非预期掉线。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude auth status",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.301-fixes-26"
+        ]
+      },
+      {
+        "title": "修复二进制文件误读",
+        "category": "修复",
+        "detail": "Read 工具不再把 .xlsm、.parquet、.epub、.heic 等二进制文件当作文本读取。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.301-fixes-32"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

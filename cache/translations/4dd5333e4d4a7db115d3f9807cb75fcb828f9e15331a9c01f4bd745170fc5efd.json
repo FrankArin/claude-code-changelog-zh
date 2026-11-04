@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Gateway: Added a log warning when the Google access token from a federation (`external_account`) credentials file is about to expire",
+  "zh": "网关：新增日志警告，当来自联合身份（`external_account`）凭据文件的 Google 访问 token 即将过期时发出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed subagents being unable to use MCP tools from servers that finish connecting after the subagent starts",
+  "zh": "修复了 subagent 无法使用 MCP 工具的问题：这些工具来自在 subagent 启动后才完成连接的服务器",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

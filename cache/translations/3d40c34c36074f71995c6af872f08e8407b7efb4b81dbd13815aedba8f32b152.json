@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the messages shown when `/ultrareview`, a cloud session or a cloud agent finds no GitHub remote: they now say to create a repository at [https://github.com/new](https://github.com/new), and `/ultrareview` no longer suggests a `gh` command that `gh` rejects",
+  "zh": "改进 `/ultrareview`、cloud session 或 cloud agent 未找到 GitHub remote 时的提示信息：现在会提示在 [https://github.com/new](https://github.com/new) 创建仓库，且 `/ultrareview` 不再建议 `gh` 会拒绝的 `gh` 命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

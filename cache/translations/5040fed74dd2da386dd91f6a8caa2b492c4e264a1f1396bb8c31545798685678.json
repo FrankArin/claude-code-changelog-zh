@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added mod drawing in the chat panel for sessions on Amazon Bedrock, Google Vertex AI and Microsoft Foundry, behind an LLM gateway, or with telemetry turned off",
+  "zh": "\\[VSCode] 在聊天面板中新增 mod 绘制，适用于 Amazon Bedrock、Google Vertex AI 和 Microsoft Foundry 上的 session、经 LLM 网关的 session，或关闭遥测的 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

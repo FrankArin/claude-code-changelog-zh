@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `DISABLE_COMPACT` in settings files and in a mod's `$.env.set` so they can only turn compaction off, not back on",
+  "zh": "变更设置文件和 mod 的 `$.env.set` 中的 `DISABLE_COMPACT`，使其只能关闭上下文压缩，不能重新开启",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

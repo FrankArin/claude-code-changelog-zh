@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a resumed claude.ai cloud session making a model call nobody asked for when the previous worker stopped just after receiving a new chat's files",
+  "zh": "修复恢复的 claude.ai 云 session 在上一 worker 刚收到新聊天文件后停止时发起无人请求的模型调用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Added `CLAUDE_RUNNER_SPAWN_REASON` to the orchestrator's spawn-runner hook environment: why Anthropic sent the request (e.g. `runner_lost`, `resumed`); unset when none was sent",
+  "zh": "自托管运行器：新增 `CLAUDE_RUNNER_SPAWN_REASON`，注入编排器的 spawn-runner hook 环境，说明 Anthropic 发送请求的原因（如 `runner_lost`、`resumed`）；未发送原因时不设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

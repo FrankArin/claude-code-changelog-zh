@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude ignoring untagged messages in a Slack channel after its workspace moved to a different Claude organization, including unshared channels on Enterprise Grid",
+  "zh": "\\[Claude Tag] 修复了工作区迁移到其他 Claude 组织后，Claude 忽略 Slack 频道中未标记消息的问题，包括 Enterprise Grid 上未共享的频道",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

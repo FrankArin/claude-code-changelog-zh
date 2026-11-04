@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the diff pane opening by itself after an edit in wide fullscreen terminals when it had nothing to show",
+  "zh": "修复了在宽屏全屏终端中编辑后，diff 面板在无内容可显示时仍自动打开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

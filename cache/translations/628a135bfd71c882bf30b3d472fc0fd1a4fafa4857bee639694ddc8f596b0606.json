@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed streams through a custom `ANTHROPIC_BASE_URL` being aborted after 180 seconds with no data arriving; they now wait 300 seconds, whether or not feature flags are loaded",
+  "zh": "修复了通过自定义 `ANTHROPIC_BASE_URL` 的流在 180 秒无数据到达后被中止的问题；现在无论是否加载功能标志都会等待 300 秒",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

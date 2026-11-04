@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">非官方简体中文翻译</p>
+  <h1>Claude Code <span class="nowrap">更新日志</span></h1>
+  <p class="lede">摘要优先，全文兜底。每天用一分钟看完更新；需要排查时，再点进版本页逐条对照。</p>
+  <div class="hero-latest">
+    <span class="hero-label">最新版本</span>
+    <a class="hero-version" href="{{ url('/v/' ~ latest.version ~ '/') }}">{{ latest.version }}</a>
+    <span class="hero-date">{{ latest.date | date_cn }}</span>
+    <span class="hero-count">{{ stats['items'] }} 条更新 · {{ stats.versions }} 个版本</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>最近更新</h2>
+    <a class="text-link" href="{{ url('/archive/') }}">全部版本 →</a>
+  </div>
+
+  {% if home_days %}
+    {% for day in home_days %}
+    <article class="day-card" id="day-{{ day.date }}">
+      <header class="day-head">
+        <div>
+          <h3>{{ day.date | date_cn }}</h3>
+          <p class="day-versions">{{ day.versions | join(' · ') }}</p>
+        </div>
+        {% if day.breaking %}<span class="badge badge-breaking">含破坏性变更</span>{% endif %}
+      </header>
+      <p class="tldr">{{ day.tldr }}</p>
+
+      {% if day.highlights %}
+      <ul class="highlights">
+        {% for highlight in day.highlights %}
+        <li class="highlight">
+          <div class="highlight-head">
+            <span class="badge badge-{{ highlight.category | category_slug }}">{{ highlight.category }}</span>
+            <strong>{{ highlight.title }}</strong>
+            {% if highlight.version %}
+            <a class="version-link" href="{{ url('/v/' ~ highlight.version ~ '/') }}">{{ highlight.version }}</a>
+            {% endif %}
+          </div>
+          <p class="highlight-detail">{{ highlight.detail }}</p>
+          {% if highlight.action %}
+          <p class="action">需要操作：{{ highlight.action }}</p>
+          {% endif %}
+          {% if highlight.example and highlight.example.code %}
+          <div class="example">
+            <pre><code>{{ highlight.example.code }}</code></pre>
+            {% if highlight.example.caption %}<span class="example-caption">{{ highlight.example.caption }}</span>{% endif %}
+          </div>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      <footer class="day-footer">
+        {% for entry in day.version_entries %}
+        <a href="{{ url('/v/' ~ entry.version ~ '/') }}">{{ entry.version }} 全文</a>
+        {% endfor %}
+      </footer>
+    </article>
+    {% endfor %}
+  {% else %}
+    <p class="empty">还没有摘要数据。运行 <code>python -m pipeline update</code> 后重新构建。</p>
+  {% endif %}
+</section>
+{% endblock %}

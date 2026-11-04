@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added children to a mod's `Button`: strings and `Text`, so a row of a list is one pressable with a chip or a dim detail inside",
+  "zh": "mod 的 `Button` 新增子元素：字符串和 `Text`，使列表的一行成为一个可点击项，内含 chip 或暗色详情",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

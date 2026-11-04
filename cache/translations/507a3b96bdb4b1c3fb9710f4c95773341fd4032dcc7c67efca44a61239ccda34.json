@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed OpenTelemetry `tool_result` events missing `git_commit_id` after `git commit -q` or `git -C <dir> commit`",
+  "zh": "修复 OpenTelemetry `tool_result` 事件在 `git commit -q` 或 `git -C <dir> commit` 之后缺少 `git_commit_id` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

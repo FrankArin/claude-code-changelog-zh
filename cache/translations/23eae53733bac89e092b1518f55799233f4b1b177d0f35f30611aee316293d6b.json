@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `agent.spawn` mod hook not running when a finished subagent or a killed teammate is resumed: the hook's event now carries `resume`, and a mod can refuse it",
+  "zh": "修复了当已完成的 subagent 或被终止的队友被恢复时，`agent.spawn` mod hook 不运行的问题：该 hook 的事件现在会携带 `resume`，mod 可以拒绝它",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

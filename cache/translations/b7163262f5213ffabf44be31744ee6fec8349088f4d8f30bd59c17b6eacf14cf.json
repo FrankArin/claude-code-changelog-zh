@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a completed parent agent dropping off the breadcrumb (its child shown re-rooted at top level) while you were viewing the child",
+  "zh": "修复在查看子 agent 时，已完成的父 agent 从面包屑导航中消失（其子 agent 被显示为顶层根节点）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

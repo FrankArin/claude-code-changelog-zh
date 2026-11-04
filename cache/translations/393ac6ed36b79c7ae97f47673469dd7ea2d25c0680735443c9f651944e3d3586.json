@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed transcript mode's `{` and `}` landing the prompt on an inconsistent row, or off screen, instead of the transcript's first row",
+  "zh": "修复了 transcript 模式下的 `{` 和 `}` 将 prompt 定位到不一致的行或屏幕外，而不是 transcript 第一行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

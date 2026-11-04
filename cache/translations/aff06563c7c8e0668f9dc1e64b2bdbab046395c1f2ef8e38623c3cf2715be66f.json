@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added the `claude_code.safety_event` OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back",
+  "zh": "新增 `claude_code.safety_event` OpenTelemetry 事件，在每次工具调用被权限规则、自动模式、安全检查、hook 或沙箱阻止、提示或退回时触发",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

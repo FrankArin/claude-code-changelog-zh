@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an async hook's JSON output being ignored when it is printed over several lines",
+  "zh": "修复了异步 hook 的 JSON 输出分多行打印时被忽略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

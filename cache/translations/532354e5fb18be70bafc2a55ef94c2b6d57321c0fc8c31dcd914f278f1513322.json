@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+C stopping all running background agents when pressed to clear typed text at the prompt",
+  "zh": "修复了在 prompt 处按 Ctrl+C 清除已输入文本时，会停止所有正在运行的后台 agent 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

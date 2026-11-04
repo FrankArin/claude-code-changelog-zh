@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "version": "2.1.308",
+  "date": "2026-10-22",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "ed7f6c78fcdbfa2c9b9cb51110c4e36b1c5cc4c569bf4223c616b0feffa4bb3c",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-04T01:51:48+00:00"
+  },
+  "groups": [
+    {
+      "kind": "changed",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.308-other-1",
+          "en": "Bug fixes and reliability improvements",
+          "zh": "修复缺陷并提升可靠性",
+          "hash": "2433a5290518aeee89fc67e15b7c5583f414705b38300bfe19206f34a9ee30e1",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "为小幅维护版本，主要修复缺陷并提升整体可靠性。",
+    "highlights": [
+      {
+        "title": "修复缺陷提升可靠性",
+        "category": "修复",
+        "detail": "本版本集中修复已知缺陷，提升运行稳定性与可靠性，未引入新功能或行为变更。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.308-other-1"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

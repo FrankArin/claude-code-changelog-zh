@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the Account panel showing the plan name with a lower-cased second word",
+  "zh": "\\[VSCode] 修复 Account 面板显示的计划名称中第二个单词被转为小写的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

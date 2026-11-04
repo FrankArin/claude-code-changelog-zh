@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed subagent progress summaries on Bedrock, Vertex, Foundry, or with telemetry off: on a cold prompt cache, one can now wait up to 5 minutes for the subagent's pending response",
+  "zh": "变更在 Bedrock、Vertex、Foundry 上或关闭遥测时的 subagent 进度摘要：在冷 prompt 缓存下，现在最多可等待 5 分钟以获取 subagent 的待处理响应",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

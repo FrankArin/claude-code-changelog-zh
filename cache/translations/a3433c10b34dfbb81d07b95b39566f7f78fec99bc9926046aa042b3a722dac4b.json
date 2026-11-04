@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the organization policy not refreshing until the hourly check after approving an `ANTHROPIC_API_KEY` at startup or switching \"Use custom API key\" in `/config`",
+  "zh": "修复了以下问题：启动时批准 `ANTHROPIC_API_KEY` 或在 `/config` 中切换“Use custom API key”后，组织策略要等到每小时检查时才刷新",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

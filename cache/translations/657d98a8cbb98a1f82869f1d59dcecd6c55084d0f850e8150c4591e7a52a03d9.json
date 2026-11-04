@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skills synced from claude.ai being lost or downloaded again every ten minutes when they can't be written to disk",
+  "zh": "修复从 claude.ai 同步的 skill 在无法写入磁盘时丢失或每十分钟重新下载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

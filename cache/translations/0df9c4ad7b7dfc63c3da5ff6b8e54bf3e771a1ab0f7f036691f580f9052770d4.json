@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a chat row for files Claude sends you: click a file's name to open it in the editor; Claude's caption shows underneath, and the row stays visible in Focus view",
+  "zh": "\\[VSCode] 新增 Claude 发送给你的文件的聊天行：点击文件名可在编辑器中打开；Claude 的说明显示在下方，该行在 Focus 视图中保持可见",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

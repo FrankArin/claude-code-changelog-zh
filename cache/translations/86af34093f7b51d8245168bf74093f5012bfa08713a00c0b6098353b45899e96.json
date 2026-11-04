@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed `ultrathink` not raising effort for its turn or showing its rainbow when telemetry is off",
+  "zh": "\\[VSCode] 修复关闭遥测时 `ultrathink` 未提升当轮思考强度、也未显示彩虹效果的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

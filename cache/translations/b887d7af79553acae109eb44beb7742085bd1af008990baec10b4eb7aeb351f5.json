@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plugin hooks and workflow scripts to refuse values they hand back that nest deeper than 28,000 levels, with an error naming the limit (workflow scripts allowed 100,000)",
+  "zh": "变更：plugin hook 和工作流脚本现在会拒绝其返回的嵌套深度超过 28,000 层的值，并报错指明该限制（工作流脚本允许 100,000 层）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed some sessions showing as waiting on you when the last message only mentioned items waiting on you mid-sentence",
+  "zh": "修复了某些 session 在最后一条消息只是在句子中间提到有待你处理的事项时，被显示为正在等待你处理的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

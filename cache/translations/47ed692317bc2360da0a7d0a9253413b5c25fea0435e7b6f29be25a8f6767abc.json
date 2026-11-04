@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/design consent` and `/design revoke` suggesting `/design-login` when they fail in a cloud session, where it isn't available; the message now points to claude.ai/design/settings",
+  "zh": "修复了 `/design consent` 和 `/design revoke` 在云 session 中失败时建议使用不可用的 `/design-login` 的问题；现在提示信息指向 claude.ai/design/settings",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

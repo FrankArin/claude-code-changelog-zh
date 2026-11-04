@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `--output-format json` and `stream-json` output to write DEL, C1 control and Unicode format characters inside strings as `\\uXXXX` escapes; parsed values are unchanged",
+  "zh": "变更 `--output-format json` 和 `stream-json` 输出，将字符串内的 DEL、C1 控制字符和 Unicode 格式字符写为 `\\uXXXX` 转义；解析后的值不变",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

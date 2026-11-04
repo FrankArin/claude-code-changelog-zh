@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed WebFetch in Cowork cloud sessions reporting a tool error when a site answered with a 4xx status or a robots.txt refusal; it is now a normal result, as in local sessions",
+  "zh": "修复了 Cowork 云 session 中的 WebFetch 在站点返回 4xx 状态或 robots.txt 拒绝时报告工具错误的问题；现在与本地 session 一样，作为正常结果处理",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the cloud session error shown while a request refused for your claude.ai login is still being retried: it now also suggests `claude auth login`",
+  "zh": "改进因 claude.ai 登录被拒的请求仍在重试时显示的 cloud session 错误：现在还会建议运行 `claude auth login`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

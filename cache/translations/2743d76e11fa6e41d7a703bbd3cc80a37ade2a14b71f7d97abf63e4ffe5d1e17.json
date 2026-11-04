@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed remote MCP connections being dropped when a server's error reply happened to contain a network error name",
+  "zh": "修复当服务器的错误回复恰好包含网络错误名称时，远程 MCP 连接被断开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

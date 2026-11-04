@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the agents view taking a typed word such as \"up\", \"down\" or \"escape\" for that key when input arrived in a burst, which could move the peek mid-reply or clear a draft",
+  "zh": "修复输入突发到达时，agents 视图把输入的 \"up\"、\"down\"、\"escape\" 等词当作对应按键，导致回复过程中预览位置移动或草稿被清空的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

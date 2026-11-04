@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed claude.ai-synced plugin hooks failing with \"Plugin directory does not exist\" in long-running sessions after another session synced a plugin update",
+  "zh": "修复了在长时间运行的 session 中，当另一个 session 同步了 plugin 更新后，claude.ai 同步的 plugin hook 报错“Plugin directory does not exist”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

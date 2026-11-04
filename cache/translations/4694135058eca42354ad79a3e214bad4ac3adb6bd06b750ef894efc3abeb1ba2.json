@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a skill's `once` hook also removing another skill's identical hook after it ran",
+  "zh": "修复了某个 skill 的 `once` hook 运行后还会移除另一个 skill 的相同 hook 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mod hook, with or without a `.catch`, being run again without end when it waits on another mod's noun that does its work outside the call",
+  "zh": "修复了 mod hook（无论是否带 `.catch`）在等待另一个 mod 的名词、而该名词在调用之外完成工作时被无休止重复执行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed commands on macOS being able to read or write a denied path by its real location when the denied path passes through a symlink",
+  "zh": "修复了 macOS 上沙箱命令在拒绝路径经过符号链接时，能够通过其真实位置读取或写入被拒绝路径的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

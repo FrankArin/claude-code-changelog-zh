@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how the Claude apps gateway handles models not listed under `models:` in Amazon Bedrock regions outside AWS's US geography. AWS always refused those requests; the gateway now tries the model in your own region, and a refusal names the model to add",
+  "zh": "改进 Claude 应用网关对 AWS 美国地理范围以外 Amazon Bedrock 区域中未列在 `models:` 下的模型的处理。AWS 此前总是拒绝这些请求；网关现在会在你所在区域尝试该模型，若被拒绝则会指明需要添加的模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

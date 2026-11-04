@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed fine-grained tool streaming staying off on Amazon Bedrock when `ANTHROPIC_BEDROCK_BASE_URL` is set to the default `bedrock-runtime.<region>.amazonaws.com` endpoint",
+  "zh": "修复当 `ANTHROPIC_BEDROCK_BASE_URL` 设为默认的 `bedrock-runtime.<region>.amazonaws.com` 端点时，Amazon Bedrock 上细粒度工具流式传输保持关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

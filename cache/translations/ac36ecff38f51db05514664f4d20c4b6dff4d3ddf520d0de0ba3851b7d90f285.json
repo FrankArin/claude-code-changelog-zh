@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed a skill's own front-matter `UserPromptSubmit` hook to first run on the prompt after the one that invokes the skill",
+  "zh": "变更 skill 自身 front-matter 中的 `UserPromptSubmit` hook，改为在调用该 skill 的 prompt 之后的下一个 prompt 上首次运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

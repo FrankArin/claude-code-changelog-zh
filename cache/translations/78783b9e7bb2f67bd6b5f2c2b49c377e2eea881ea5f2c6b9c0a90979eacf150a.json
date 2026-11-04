@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed commands the settings exclude from the sandbox to ask before writing to its write-list paths while the sandbox is enabled but cannot run; the unsandboxed fallback is refused there",
+  "zh": "变更设置中排除在沙箱之外的命令：当沙箱已启用但无法运行时，写入其写入列表路径前会先询问；此时会拒绝非沙箱的回退",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

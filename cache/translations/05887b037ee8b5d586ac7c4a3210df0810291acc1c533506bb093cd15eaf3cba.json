@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed a misleading \"spawn error: ENOENT\" when a session's working folder is missing; the error now names the folder",
+  "zh": "远程控制：修复了 session 的工作文件夹缺失时出现误导性的“spawn error: ENOENT”的问题；错误现在会指明该文件夹",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

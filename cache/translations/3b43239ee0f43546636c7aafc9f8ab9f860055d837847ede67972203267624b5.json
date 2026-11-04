@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandbox protections not applying to a worktree entered by `claude -p --resume` or `--continue`",
+  "zh": "修复通过 `claude -p --resume` 或 `--continue` 进入的 worktree 未应用沙箱保护的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

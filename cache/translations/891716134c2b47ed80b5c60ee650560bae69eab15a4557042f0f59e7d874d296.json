@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed dim text on the dark ANSI theme and 16-color terminals: faint inside filled boxes, not faint under selection and search highlights, and list descriptions dimmed like other secondary text",
+  "zh": "修复深色 ANSI 主题和 16 色终端上的暗色文本：填充框内文字显示为淡色，选中和搜索高亮下不显示为淡色，列表描述像其他次要文本一样变暗",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an optional `models` list to every Claude apps gateway upstream: only the listed models are sent there, on failover too, and one `*` in an entry is a wildcard",
+  "zh": "每个 Claude 应用网关上游新增可选的 `models` 列表：只有列表中的模型会发送到该上游，回退时同样适用，条目中的 `*` 为通配符",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

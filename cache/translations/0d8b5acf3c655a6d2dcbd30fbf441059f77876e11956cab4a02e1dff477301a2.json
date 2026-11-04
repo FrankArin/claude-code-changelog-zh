@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved headless `rate_limit_event` usage-limit warnings to say whether the account has extra usage turned on",
+  "zh": "改进无头模式下 `rate_limit_event` 的用量限制警告，改为说明该账户是否已开启额外用量",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

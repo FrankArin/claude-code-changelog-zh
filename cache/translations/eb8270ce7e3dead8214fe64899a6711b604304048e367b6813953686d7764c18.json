@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed custom skills and custom slash commands sent from the VS Code or JetBrains panel leaving out the open file or selected lines that ordinary messages include (anthropics/claude-code#102799)",
+  "zh": "\\[VSCode] 修复了从 VS Code 或 JetBrains 面板发送的自定义 skills 和自定义斜杠命令遗漏普通消息所包含的打开文件或选中行的问题（anthropics/claude-code#102799）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

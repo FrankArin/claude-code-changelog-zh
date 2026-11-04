@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a custom slash command's embedded shell line running twice when a newer message interrupted the command while its prompt was being checked",
+  "zh": "修复了自定义斜杠命令内嵌的 shell 行在其 prompt 检查期间被较新消息中断时执行两次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

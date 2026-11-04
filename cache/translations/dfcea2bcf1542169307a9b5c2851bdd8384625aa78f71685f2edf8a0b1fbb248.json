@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed conversations being compacted over and over, on a model you didn't pick, behind an LLM gateway whose responses name a different model than the one requested",
+  "zh": "修复了在 LLM 网关后使用非所选模型时，因网关响应中指定的模型与请求的模型不同而导致对话反复进行上下文压缩的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

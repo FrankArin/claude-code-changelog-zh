@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the fullscreen transcript being left mid-conversation after \"Restore conversation\" in the rewind menu while scrolled up",
+  "zh": "修复在向上滚动时，通过回退菜单中的“Restore conversation”恢复对话后，全屏对话记录停留在对话中间的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

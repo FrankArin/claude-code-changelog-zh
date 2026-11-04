@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"Now using usage credits\" notice reappearing about every 30 seconds while a background subagent is running",
+  "zh": "修复了后台 subagent 运行期间“Now using usage credits”提示大约每 30 秒重新出现的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

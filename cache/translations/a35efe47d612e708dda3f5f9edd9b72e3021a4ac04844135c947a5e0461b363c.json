@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the first transcript entry written after resuming a session being lost when a crash had cut the transcript's last line short",
+  "zh": "修复了崩溃截断 transcript 最后一行时，恢复 session 后写入的第一条 transcript 记录丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

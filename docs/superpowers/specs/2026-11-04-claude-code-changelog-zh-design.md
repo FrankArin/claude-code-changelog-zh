@@ -162,6 +162,11 @@ Claude Code 官方英文 changelog 位于 `https://code.claude.com/docs/en/chang
         "category": "新功能",
         "detail": "这是什么、为什么值得注意、对日常使用的影响。",
         "action": "需要用户主动做的事；无需行动则为 null",
+        "example": {
+          "lang": "bash",
+          "code": "claude plugin install foo",
+          "caption": "一行示例，可选"
+        },
         "item_ids": ["2.1.318-added-1"]
       }
     ],
@@ -183,6 +188,7 @@ Claude Code 官方英文 changelog 位于 `https://code.claude.com/docs/en/chang
 - `summary.highlights` 数量 1–6 条；正常版本 3–6 条。
 - `summary.highlights[].category` 只能是 `新功能`、`改进`、`修复`、`破坏性变更`、`安全`。
 - `summary.highlights[].item_ids` 必须引用本版本中存在的条目。
+- `summary.highlights[].example` 可为 `null`；不为空时，`code` 必须是所引用条目原文中已出现的命令、参数或配置片段，不允许模型自行编写。
 - `summary.breaking` 为真时，至少一条 highlight 的 category 为 `破坏性变更`。
 
 ### 5.2 日期摘要 `data/digests/<YYYY-MM-DD>.json`
@@ -199,6 +205,7 @@ Claude Code 官方英文 changelog 位于 `https://code.claude.com/docs/en/chang
       "category": "新功能",
       "detail": "面向日常使用的影响说明。",
       "action": null,
+      "example": null,
       "version": "2.1.318",
       "item_ids": ["2.1.318-added-1"]
     }
@@ -401,8 +408,17 @@ November 4, 2026
 - 保留 Markdown 结构、条目数量和分组。
 - 不翻译反引号内的代码、命令、参数、路径、环境变量、产品名和 URL。
 - 使用开发者自然使用的中文技术表达，避免翻译腔和 AI 套话。
-- 采用术语表译法。
+- `glossary.yml` 的 `keep_en` 词保持英文，`translate` 词按映射统一。
 - 输出 JSON 数组，长度与输入一致，不要 Markdown 代码围栏。
+
+精修（polish）pass：
+
+- 第一遍翻译完成后，默认再跑一遍精修，输入英文原文和中文初稿。
+- 精修只做四件事：纠正误译、消除翻译腔、统一术语、确保代码片段未被改动。
+- 不做扩写、不补充原文没有的信息、不改变条目顺序。
+- 精修结果与初稿条目数、ID 必须一致；校验不通过则保留初稿。
+- 通过 `LLM_POLISH=0` 可关闭，用于节省成本或排查问题。
+- 精修后的译文才写入缓存，避免每次运行重复精修。
 
 ### 6.5 校验规则
 
@@ -413,7 +429,8 @@ November 4, 2026
 3. 英文中的每个行内代码 token（反引号内容）必须原样出现在中文中。
 4. 中文长度与英文长度比在 0.25–2.5 之间。
 5. 摘要 schema 合法，`item_ids` 全部存在，category 在枚举内。
-6. 版本条目总数与英文解析结果一致。
+6. `example.code` 必须是所引用条目原文的子串；不是则丢弃该示例，不影响构建。
+7. 版本条目总数与英文解析结果一致。
 
 校验失败：
 
@@ -531,6 +548,47 @@ python -m pipeline verify
 
 文件：`glossary.yml`，带 `version` 字段。初始条目：
 
+**原则：只保留 Claude Code 生态的专有名词和缩写，不保留普通技术词。** 判断标准是：这个词在中文语境里是否有稳定、无歧义的译法。有译法就翻译；只有产品名、功能名、协议名和缩写才保留英文。
+
+保留英文的术语（keep_en）分三类：
+
+1. **产品与协议名**：`Claude Code`、`Claude Desktop`、`Claude Tag`、`MCP`、`VS Code`、`GitHub`、`GitLab`、`AWS`、`Bedrock`、`Vertex`、`Foundry`、`CLI`、`SDK`、`API`。
+2. **Claude Code 的功能/组件名**：`skill`、`plugin`、`hook`、`subagent`、`agent`、`session`、`prompt`、`token`、`worktree`、`marketplace`、`mod`、`artifact`、`connector`。
+3. **没有合适中文译法或中文语境已通用英文的词**：`token`。
+
+以下词**不再保留英文**，必须翻译：
+
+| 英文 | 中文 |
+| --- | --- |
+| gateway | 网关 |
+| runner | 运行器 |
+| checkpoint | 检查点 |
+| compaction | 上下文压缩 |
+| context window | 上下文窗口 |
+| auto mode | 自动模式 |
+| permission mode | 权限模式 |
+| remote control | 远程控制 |
+| output style | 输出样式 |
+| status line | 状态栏 |
+| slash command | 斜杠命令 |
+| workflow | 工作流 |
+| teammate | 队友 |
+| channel | 频道 |
+| routine | 例程 |
+| goal | 目标 |
+| design | 设计 |
+| editor | 编辑器 |
+| terminal | 终端 |
+| desktop app | 桌面应用 |
+| web app | 网页版 |
+| mobile app | 移动端应用 |
+| network file system | 网络文件系统 |
+| shared home directory | 共享主目录 |
+| retry | 重试 |
+| fallback | 回退 |
+
+结构性标题和普通技术词继续翻译：
+
 | 英文 | 中文 | 说明 |
 | --- | --- | --- |
 | Added | 新增 | 分组标题 |
@@ -539,33 +597,12 @@ python -m pipeline verify
 | Bug fixes | 修复 | 分组标题 |
 | breaking change | 破坏性变更 |  |
 | deprecation | 弃用 |  |
-| plugin | 插件 |  |
-| marketplace | 插件市场 |  |
-| hook | Hook | 保留英文；关于页和术语表解释为「钩子」 |
-| session | 会话 |  |
-| subagent | 子代理 |  |
-| agent | 代理 |  |
-| skill | 技能 |  |
-| prompt | 提示词 |  |
-| permission mode | 权限模式 |  |
-| auto mode | 自动模式 |  |
-| context window | 上下文窗口 |  |
-| compaction | 上下文压缩 |  |
-| checkpointing | 检查点 |  |
-| status line | 状态栏 |  |
-| slash command | 斜杠命令 |  |
-| output style | 输出样式 |  |
-| gateway | 网关 |  |
-| cloud session | 云端会话 |  |
-| remote control | 远程控制 | 产品名 Remote Control 保留英文 |
-| runner | runner | 保留英文 |
-| worktree | worktree | 保留英文 |
-| mod | mod | 保留英文 |
-| artifact | artifact | 保留英文 |
-| connector | connector | 保留英文 |
-| MCP | MCP | 不译 |
-| CLI / SDK / API | CLI / SDK / API | 不译 |
-| Claude Code / Claude Desktop / VS Code / GitHub | 保留英文 | 产品名不译 |
+| security fix | 安全修复 |  |
+| usage limit | 用量限制 |  |
+| authentication | 认证 |  |
+| organization | 组织 |  |
+
+实现上，`glossary.yml` 分为 `keep_en` 和 `translate` 两组，提示词和校验都读取同一份文件。`keep_en` 中的词在译文中保持原样；`translate` 中的词按映射统一。提示词明确要求：**不在 `keep_en` 列表里的词，按中文技术文档习惯翻译，不得整词保留英文。**
 
 术语表变更时递增 `glossary_version`，相关缓存自动失效并重译。
 
@@ -734,3 +771,6 @@ claude-code-changelog-zh/
 - 2026-11-04：默认 DeepSeek，接口保持 OpenAI 兼容，便于切换服务商。
 - 2026-11-04：翻译数据提交进仓库，构建产物不进仓库，兼顾审阅、纠错和仓库体积。
 - 2026-11-04：MVP 只做最新 20 个版本，全量回填放到 M5，避免首次上线被长任务阻塞。
+- 2026-11-04：Claude Code 生态专有名词（skill、MCP、hook、plugin、session 等）保留英文，只翻译普通技术叙述，降低目标读者的理解成本。
+- 2026-11-04：翻译增加精修 pass，默认开启；精修只纠错、去翻译腔、统一术语、保护代码片段，不扩写。
+- 2026-11-04：摘要卡支持一行示例，但示例必须来自原文已有命令或配置，校验时做子串核对，防止模型编造。

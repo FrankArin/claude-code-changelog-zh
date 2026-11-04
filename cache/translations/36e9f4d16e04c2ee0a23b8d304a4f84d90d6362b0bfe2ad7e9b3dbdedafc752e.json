@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `~/.claude/skills/.trash` and `~/.claude/plugins/.trash` growing without limit: each now holds about 1024 entries, whatever `cleanupPeriodDays` says",
+  "zh": "修复 `~/.claude/skills/.trash` 和 `~/.claude/plugins/.trash` 无限增长的问题：无论 `cleanupPeriodDays` 如何设置，两者现在各保留约 1024 个条目",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

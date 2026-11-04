@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Read tool rejecting calls with an empty `pages` parameter instead of treating it as omitted",
+  "zh": "修复了 Read 工具在 `pages` 参数为空时拒绝调用的问题，现在将其视为省略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed project and local MCP servers disconnecting after the first turn in some Claude desktop sessions",
+  "zh": "修复部分 Claude 桌面应用 session 中项目级和本地 MCP 服务器在首轮对话后断开连接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an interrupt not ending a Read that waits on an idle pipe or device named like an image",
+  "zh": "修复了中断无法结束等待空闲管道或名称类似图片的设备的 Read 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

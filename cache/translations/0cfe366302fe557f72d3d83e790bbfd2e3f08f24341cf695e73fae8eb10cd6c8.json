@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the message shown when your organization's policy turns off `/feedback`: it now points to GitHub issues instead of an organization admin",
+  "zh": "变更组织策略关闭 `/feedback` 时显示的消息：现在指向 GitHub issues，而不再指向组织管理员",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through",
+  "zh": "新增命令和 HTTP hook 的 `onFailure: \"block\"`：无法启动、超时或以意外退出码退出的 hook 会阻止该操作，而不是放行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

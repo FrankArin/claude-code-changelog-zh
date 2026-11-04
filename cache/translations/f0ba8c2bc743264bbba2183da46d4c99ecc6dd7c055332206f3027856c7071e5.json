@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sign-in, MCP servers and project trust appearing lost on Linux after a sandboxed command left an empty `.config.json` in the config directory",
+  "zh": "修复了 Linux 上沙箱命令在配置目录留下空的 `.config.json` 后，登录、MCP 服务器和项目信任显示为丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `assume_role` on `mantle` upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution",
+  "zh": "新增：Claude 应用网关的 `mantle` 上游支持 `assume_role`，可用于访问另一个 AWS 账户中的角色，并按开发者归属 AWS 成本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

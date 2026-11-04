@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "versions": [
+    "2.1.296"
+  ],
+  "tldr": "新增网关 code 策略、subagent 自动压缩窗口与多项修复，含密钥脱敏与权限安全修复。",
+  "highlights": [
+    {
+      "title": "网关新增 code 策略键",
+      "category": "新功能",
+      "detail": "managed.policies[] 新增 code 键，设置同 cli，并在 Claude Desktop 的 Code 标签页生效；与 desktop 并列时开启网关模式。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.296-added-1"
+      ],
+      "version": "2.1.296"
+    },
+    {
+      "title": "subagent 可提前自动压缩",
+      "category": "新功能",
+      "detail": "subagent frontmatter 与 --agents 支持 autoCompactWindow，可让 subagent 比主对话更早触发上下文压缩。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.296-added-2"
+      ],
+      "version": "2.1.296"
+    },
+    {
+      "title": "Read 支持读取大文件",
+      "category": "新功能",
+      "detail": "Read 工具新增 allow_large，上下文有余量时可一次读取超出常规大小限制的文本文件。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.296-added-6"
+      ],
+      "version": "2.1.296"
+    },
+    {
+      "title": "修复密钥脱敏遗漏",
+      "category": "安全",
+      "detail": "共享 transcript 与调试日志中，无值键之后的值（含 shell 字符串内 JSON）此前未被脱敏，现已修复。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.296-fixes-33"
+      ],
+      "version": "2.1.296"
+    },
+    {
+      "title": "Bash 权限检查收紧",
+      "category": "安全",
+      "detail": "先赋值 BASH_ARGV0 再使用的命令不再被自动批准，现在会请求批准；Windows 下 rm -rf 用户目录也会请求权限。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.296-fixes-48",
+        "2.1.296-fixes-67"
+      ],
+      "version": "2.1.296"
+    },
+    {
+      "title": "后台化会停止当前回合",
+      "category": "改进",
+      "detail": "按 ← 将 session 转入后台时，已开始的回合或 ! 命令会被停止，而非在后台继续完成。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.296-changed-12"
+      ],
+      "version": "2.1.296"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "27656578abee1fb4b8c2d594005fe33d3833843db16dad33edb22e3c4a675bad"
+}

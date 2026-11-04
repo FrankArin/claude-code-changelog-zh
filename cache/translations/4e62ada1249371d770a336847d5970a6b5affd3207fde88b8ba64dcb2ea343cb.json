@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resuming a headless or Agent SDK session losing its compaction summary or bringing back pre-compaction history, when the compaction followed a retried or unfinished reply in the same turn",
+  "zh": "修复恢复无头或 Agent SDK session 时丢失其上下文压缩摘要的问题，以及在同一轮中上下文压缩发生在重试或未完成的回复之后时恢复出压缩前历史记录的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

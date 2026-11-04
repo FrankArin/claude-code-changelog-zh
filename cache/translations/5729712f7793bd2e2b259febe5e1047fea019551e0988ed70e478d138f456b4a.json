@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `CLAUDE_CODE_TRANSCRIPT_LOCAL_GC`: a large transcript file is no longer rewritten when that would free under 10% of it",
+  "zh": "改进 `CLAUDE_CODE_TRANSCRIPT_LOCAL_GC`：如果重写大型 transcript 文件释放的空间不足 10%，则不再重写该文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mod's hot reload missing a save made while `/reload-plugins` or session start was reading the mod's files",
+  "zh": "修复 `/reload-plugins` 或 session 启动正在读取 mod 文件时发生的保存被 mod 热重载遗漏的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

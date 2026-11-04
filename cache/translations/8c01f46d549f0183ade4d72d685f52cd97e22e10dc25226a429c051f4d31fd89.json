@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a self-hosted runner session's git fetch, pull and push failing while another session of the same repository starts on a runner with `--capacity` above 1",
+  "zh": "修复在 `--capacity` 大于 1 的运行器上，同一仓库的另一个 session 启动时，自托管运行器 session 的 git fetch、pull 和 push 失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

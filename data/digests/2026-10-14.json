@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "versions": [
+    "2.1.300",
+    "2.1.299"
+  ],
+  "tldr": "2.1.300 与 2.1.299 均含破坏性变更：remote-control 移除无效沙箱标志、MCP 允许规则收紧、hook 失败改为拒绝、MCP 协议默认升级；同时新增 mod 钩子、空闲上下文压缩与 OTel 属性，并修复多项会话与安全问题。",
+  "highlights": [
+    {
+      "title": "remote-control 移除沙箱标志",
+      "category": "破坏性变更",
+      "detail": "`claude remote-control` 的 `--sandbox` 与 `--no-sandbox` 此前无实际效果，现已移除；传入任一标志会直接报错退出。",
+      "action": "改用设置中的 `sandbox.enabled` 为 session 启用沙箱。",
+      "example": {
+        "lang": "bash",
+        "code": "claude remote-control",
+        "caption": "命令示例"
+      },
+      "version": "2.1.300",
+      "item_ids": [
+        "2.1.300-changed-24"
+      ]
+    },
+    {
+      "title": "MCP 允许规则收紧",
+      "category": "破坏性变更",
+      "detail": "`mcp__a` 不再匹配名为 `a__b` 或 `a_` 的服务器，agent 的 tools 列表同样只取指定服务器工具，需改用完整规范化名称。",
+      "action": "检查并改写受影响的 MCP 允许规则与 agent tools 列表为 `mcp__<server>__*`。",
+      "example": null,
+      "version": "2.1.299",
+      "item_ids": [
+        "2.1.299-changed-27",
+        "2.1.299-changed-28"
+      ]
+    },
+    {
+      "title": "hook 失败改为拒绝",
+      "category": "破坏性变更",
+      "detail": "plugin hook 无法接收可阻止操作或无法返回结果时，操作被拒绝而非放行，已运行工具的结果会被扣留；嵌套过深的值也会报错。",
+      "action": null,
+      "example": null,
+      "version": "2.1.299",
+      "item_ids": [
+        "2.1.299-changed-19",
+        "2.1.299-changed-20"
+      ]
+    },
+    {
+      "title": "MCP 协议默认升级",
+      "category": "破坏性变更",
+      "detail": "云端 session 与远程控制的 MCP connector 默认协商协议版本 2026-07-28，旧服务器可能不兼容。",
+      "action": "如遇兼容问题，设置 `MCP_PROTOCOL_NEGOTIATION=legacy` 退回旧行为。",
+      "example": {
+        "lang": "bash",
+        "code": "MCP_PROTOCOL_NEGOTIATION=legacy",
+        "caption": "退回旧版 MCP 协议协商"
+      },
+      "version": "2.1.299",
+      "item_ids": [
+        "2.1.299-changed-30"
+      ]
+    },
+    {
+      "title": "大型请求默认 gzip 压缩",
+      "category": "改进",
+      "detail": "发往 api.anthropic.com 的大型请求即使关闭遥测也会 gzip 压缩，减少带宽占用。",
+      "action": "如需关闭，设置 `CLAUDE_CODE_GZIP_REQUEST_BODIES=0`。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_GZIP_REQUEST_BODIES=0",
+        "caption": "关闭请求体 gzip 压缩"
+      },
+      "version": "2.1.300",
+      "item_ids": [
+        "2.1.300-changed-17"
+      ]
+    },
+    {
+      "title": "空闲上下文压缩与 mod 新能力",
+      "category": "新功能",
+      "detail": "200K+ token 对话空闲约 54 分钟后自动压缩；mod 新增 `prompt.change` 钩子、`virtualText`、`$.ui.view({ agentId })`、`$.prompt.media`、`$.session.identity()` 等能力，OTel 新增缓存与 GenAI 属性。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS",
+        "caption": "相关环境变量"
+      },
+      "version": "2.1.299",
+      "item_ids": [
+        "2.1.299-added-2",
+        "2.1.299-added-3",
+        "2.1.300-added-1",
+        "2.1.300-added-3",
+        "2.1.300-added-4",
+        "2.1.300-added-7",
+        "2.1.300-added-8",
+        "2.1.300-added-2",
+        "2.1.300-added-6"
+      ]
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "4239cb45adae2a8fba3d668fde565081c2ff5040aca7eebe068f184f35189452"
+}

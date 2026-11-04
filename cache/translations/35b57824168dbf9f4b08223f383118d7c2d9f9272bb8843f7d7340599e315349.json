@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does",
+  "zh": "新增点击发送：在全屏模式下，点击排队消息下方的“立即发送”提示即可立即发送该消息，效果与按对应按键相同",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

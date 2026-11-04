@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed stdio MCP servers receiving an empty `AWS_BEARER_TOKEN_BEDROCK` when their env config sets it to empty; the variable is now unset, so the server can use the machine's own AWS credentials",
+  "zh": "修复了 stdio MCP 服务器在其 env 配置将 `AWS_BEARER_TOKEN_BEDROCK` 设为空时收到空值的问题；现在会取消设置该变量，使服务器可以使用机器自身的 AWS 凭证",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

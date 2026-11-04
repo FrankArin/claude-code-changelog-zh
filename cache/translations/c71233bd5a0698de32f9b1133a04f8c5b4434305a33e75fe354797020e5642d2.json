@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed \"Edit prompt\" on a flagged message opening the file or command menu over the restored prompt; Enter now sends it as written",
+  "zh": "\\[VSCode] 修复对被标记的消息执行“Edit prompt”时，文件或命令菜单覆盖在恢复的 prompt 之上的问题；现在按 Enter 会按原样发送",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

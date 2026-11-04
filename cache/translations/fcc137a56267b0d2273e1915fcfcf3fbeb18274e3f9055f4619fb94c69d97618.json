@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifact updates: Claude now applies a small change and republishes the artifact in one call, and makes larger edits and republishes within a single response",
+  "zh": "改进 artifact 更新：Claude 现在可在一次调用中应用小改动并重新发布 artifact，较大修改也会在同一次响应内完成并重新发布",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

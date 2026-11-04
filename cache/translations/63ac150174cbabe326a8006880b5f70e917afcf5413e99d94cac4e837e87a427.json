@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `sed -i` to get the standard Bash prompt and run as written, not a simulated file-edit preview; like other Bash edits, it is no longer restored by `/rewind`",
+  "zh": "变更 `sed -i`：现在会显示标准 Bash 权限提示并按原样执行，不再显示模拟的文件编辑预览；与其他 Bash 编辑一样，它不再能通过 `/rewind` 恢复",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

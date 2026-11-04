@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the message shown when a pasted sign-in code is refused: it now says the code may have expired or been used, and to sign in again",
+  "zh": "改进粘贴的登录验证码被拒绝时显示的消息：现在会说明验证码可能已过期或已被使用，并提示重新登录",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

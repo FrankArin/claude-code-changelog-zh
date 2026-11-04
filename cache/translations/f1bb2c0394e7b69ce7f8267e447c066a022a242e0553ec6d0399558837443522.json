@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed PowerShell hooks not blocking on exit code 2 when the command begins with a type cast, `param`, `using` or an attribute",
+  "zh": "修复当命令以类型转换、`param`、`using` 或特性开头时，PowerShell hooks 未在退出码 2 时阻断的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

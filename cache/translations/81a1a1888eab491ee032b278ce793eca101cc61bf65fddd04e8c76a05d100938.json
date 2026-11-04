@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions staying untitled when the first prompt failed (for example on a usage limit) and the conversation continued afterward",
+  "zh": "修复首个 prompt 失败（例如触发用量限制）且对话随后继续时，session 一直无标题的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

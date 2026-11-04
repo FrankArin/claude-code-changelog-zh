@@ -1,0 +1,89 @@
+name: Update changelog
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "update or backfill"
+        type: choice
+        options: [update, backfill]
+        default: update
+      max_new:
+        description: "Maximum versions to process"
+        default: "50"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: changelog-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update data
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.deepseek.com/v1' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-chat' }}
+          SUMMARY_MODEL: ${{ vars.SUMMARY_MODEL }}
+          SITE_BASE: /claude-code-changelog-zh
+          SITE_URL: https://frankarin.github.io/claude-code-changelog-zh
+        run: |
+          set +e
+          MODE="${{ inputs.mode }}"
+          MAX_NEW="${{ inputs.max_new }}"
+          MODE="${MODE:-update}"
+          MAX_NEW="${MAX_NEW:-50}"
+          if [ "$MODE" = "backfill" ]; then
+            python -m pipeline update --all --max-new "$MAX_NEW"
+          else
+            python -m pipeline update --max-new "$MAX_NEW"
+          fi
+          code=$?
+          set -e
+          if [ "$code" -eq 2 ]; then
+            echo "::warning::Update finished with translation warnings; the site will still deploy."
+          elif [ "$code" -ne 0 ]; then
+            exit "$code"
+          fi
+
+      - name: Commit data
+        run: |
+          if ! git diff --quiet -- data cache; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data cache
+            git commit -m "chore: update changelog data"
+            git push
+          else
+            echo "No data changes"
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

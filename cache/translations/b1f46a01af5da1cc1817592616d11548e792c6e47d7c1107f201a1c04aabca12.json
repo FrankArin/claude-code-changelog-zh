@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed rows in the agents view staying blank after moving down a long list or folding a section",
+  "zh": "修复了在 agents 视图中向下滚动长列表或折叠某个分区后行内容保持空白的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

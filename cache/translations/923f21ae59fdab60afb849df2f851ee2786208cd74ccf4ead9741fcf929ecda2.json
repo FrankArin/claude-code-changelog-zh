@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pasting an image over SSH to a Linux machine doing nothing silently; the prompt now says to copy the file over and paste its path",
+  "zh": "修复通过 SSH 向 Linux 机器粘贴图片时静默无反应的问题；现在 prompt 会提示先将文件复制过去，再粘贴其路径",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

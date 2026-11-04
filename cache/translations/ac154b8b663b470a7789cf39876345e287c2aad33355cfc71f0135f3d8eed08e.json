@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed Code Review's monthly spend-limit comment and check-run card sending admins to Claude Code settings; they now link the Usage page, where that limit is set",
+  "zh": "\\[Code Review] 修复了 Code Review 的月度支出限额评论和检查运行卡片将管理员引导至 Claude Code 设置的问题；现在会链接到设置该限额的 Usage 页面",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

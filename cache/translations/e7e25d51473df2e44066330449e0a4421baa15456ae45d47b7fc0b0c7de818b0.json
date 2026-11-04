@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed a memory spike that could crash a session when many of its existing output files were re-sent to it at once",
+  "zh": "\\[Cloud sessions] 修复了当 session 的大量现有输出文件被一次性重新发送给它时，可能出现内存峰值并导致 session 崩溃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

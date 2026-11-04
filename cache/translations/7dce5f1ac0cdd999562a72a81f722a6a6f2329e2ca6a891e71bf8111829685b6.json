@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Cowork cloud sessions staying on an old account plugin after a plugin reload that timed out or a restart that reused a recent sync",
+  "zh": "修复了 Cowork 云 session 在 plugin 重新加载超时或重启复用了近期同步后仍停留在旧账户 plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

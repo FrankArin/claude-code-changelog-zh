@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed bash scripts started from the Bash tool stopping after their first command when `SHELLOPTS` is exported",
+  "zh": "修复导出 `SHELLOPTS` 时，从 Bash 工具启动的 bash 脚本在第一条命令后停止的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

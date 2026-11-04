@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/usage`: each warning is now a one-line fix that names its source, and `f` applies the fixes; the same fixes appear in VS Code and `/doctor`",
+  "zh": "改进 `/usage`：每条警告现在都是一行修复建议并注明来源，按 `f` 可应用修复；同样的修复也会出现在 VS Code 和 `/doctor` 中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

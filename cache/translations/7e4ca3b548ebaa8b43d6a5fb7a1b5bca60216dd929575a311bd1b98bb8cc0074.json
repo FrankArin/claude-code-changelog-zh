@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed subagents to preload at most 32 skills from the `skills` field, each once; a subagent with the Skill tool can still invoke the rest",
+  "zh": "subagent 从 `skills` 字段预加载的 skill 改为最多 32 个，每个仅一次；拥有 Skill 工具的 subagent 仍可调用其余 skill",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command",
+  "zh": "修复 macOS 和 Linux 上沙箱化的 Bash 命令在每条命令前于沙箱外运行 shell 启动文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

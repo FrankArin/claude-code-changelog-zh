@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Grep input handling: a search sent with grep's `-l`, `-c` or `-r` flag now runs instead of failing the call",
+  "zh": "改进 Grep 输入处理：使用 grep 的 `-l`、`-c` 或 `-r` 标志发送的搜索现在会正常执行，而不再导致调用失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background and cloud sessions started with Ultracode turning it back on at their next start after it had been switched off",
+  "zh": "修复以 Ultracode 启动的后台和云端 session 在 Ultracode 被关闭后，于下次启动时又将其重新开启的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

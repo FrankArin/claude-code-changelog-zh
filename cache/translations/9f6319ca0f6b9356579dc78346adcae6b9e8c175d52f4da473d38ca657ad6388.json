@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `plugin install` and `uninstall` at project or local scope on Windows missing the install record, or adding a second one, when only the drive letter's case differs",
+  "zh": "修复了 Windows 上项目或本地范围的 `plugin install` 和 `uninstall` 在仅盘符大小写不同时缺失安装记录或添加第二条记录的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

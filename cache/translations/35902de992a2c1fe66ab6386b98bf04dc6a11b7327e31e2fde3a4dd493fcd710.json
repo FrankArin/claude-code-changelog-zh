@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Artifact pages with no background of their own to show on white instead of off-white",
+  "zh": "变更自身无背景的 Artifact 页面，改为以白色而非米白色显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

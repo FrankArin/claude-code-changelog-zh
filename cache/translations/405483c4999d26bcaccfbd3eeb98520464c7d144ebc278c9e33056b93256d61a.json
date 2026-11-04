@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done",
+  "zh": "新增程序状态协议（OSC 7501）支持：实现该协议的终端可以显示 Claude Code 正在工作、等待你操作还是已完成",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

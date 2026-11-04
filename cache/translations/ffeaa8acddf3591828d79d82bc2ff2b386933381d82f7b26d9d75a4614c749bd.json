@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a turn sometimes starting without an SDK MCP server's latest tools when a background task was running",
+  "zh": "修复了后台任务运行时，某一轮有时未使用 SDK MCP 服务器最新工具就启动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

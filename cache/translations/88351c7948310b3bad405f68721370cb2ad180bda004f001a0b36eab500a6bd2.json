@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the error for a denied cloud session, which could point to the wrong organization when a key from `apiKeyHelper` was in use",
+  "zh": "修复云 session 被拒绝时的错误：此前在使用 `apiKeyHelper` 提供的密钥时，可能指向错误的组织",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

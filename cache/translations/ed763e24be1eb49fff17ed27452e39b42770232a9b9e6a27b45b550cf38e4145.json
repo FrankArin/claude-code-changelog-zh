@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude ultrareview` and `claude remote-control` asking the workspace trust question in a CI job that has a terminal; with `CI` set they now refuse an untrusted folder at once",
+  "zh": "修复 `claude ultrareview` 和 `claude remote-control` 在带终端的 CI 任务中询问工作区信任问题；设置 `CI` 后，现在会立即拒绝不受信任的文件夹",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

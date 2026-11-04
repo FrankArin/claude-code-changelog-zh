@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the bundled dataviz skill to answer donut and pie chart requests with ranked bars or a segmented bar that prints its values",
+  "zh": "更新内置 dataviz skill：对于环形图和饼图请求，改用排序条形图或带数值标注的分段条形图来回答",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

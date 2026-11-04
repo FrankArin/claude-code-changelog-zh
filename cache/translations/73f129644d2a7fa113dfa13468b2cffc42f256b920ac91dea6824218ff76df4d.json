@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed files of 30 to 35 MiB sent over Remote Control or to a cloud session not arriving",
+  "zh": "修复了通过远程控制发送或发送到云 session 的 30 至 35 MiB 文件无法送达的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

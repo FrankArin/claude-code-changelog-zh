@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a finished `/code-review`, or another skill that runs in a sub-agent, running a second time when a cloud or background session restarts",
+  "zh": "修复了已完成的 `/code-review` 或其他在 sub-agent 中运行的 skill 在云 session 或后台 session 重启时再次运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

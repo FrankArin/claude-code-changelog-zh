@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Improved the Code Review admin section to retry the first load and show one Try again banner when it still fails",
+  "zh": "\\[Code Review] 改进了 Code Review 管理区：首次加载失败时会重试，仍失败时显示一个 Try again 横幅",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

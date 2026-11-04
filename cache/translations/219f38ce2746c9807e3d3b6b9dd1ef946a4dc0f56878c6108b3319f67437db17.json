@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed prompts containing invisible characters needing a second Enter to send; plain prompts now send cleaned on the first Enter, and commands still wait for review",
+  "zh": "修复包含不可见字符的 prompt 需要按两次 Enter 才能发送的问题；现在普通 prompt 在第一次按 Enter 时即清理并发送，命令仍会等待审核",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

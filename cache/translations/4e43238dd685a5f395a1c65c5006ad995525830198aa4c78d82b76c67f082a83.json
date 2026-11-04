@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Improved Code Review's check run to say no further automatic review will start when the model still can't analyze a change on the automatic retry",
+  "zh": "\\[Code Review] 改进 Code Review 的检查运行：当模型在自动重试时仍无法分析某项变更，会说明不会再启动进一步的自动审查",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

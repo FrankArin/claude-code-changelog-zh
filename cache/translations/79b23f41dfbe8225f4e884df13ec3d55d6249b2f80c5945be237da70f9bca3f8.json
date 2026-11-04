@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed API requests failing with \"unable to get local issuer certificate\" behind some TLS-inspecting proxies after a root certificate renewal",
+  "zh": "修复了根证书续期后，在某些进行 TLS 检查的代理后面 API 请求以“unable to get local issuer certificate”失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

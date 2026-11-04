@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed blank lines at the top of a code block disappearing when the code block opens a quote",
+  "zh": "修复代码块位于引用开头时，代码块顶部的空行消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

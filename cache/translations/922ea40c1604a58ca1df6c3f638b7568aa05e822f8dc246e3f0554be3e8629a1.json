@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash permission checks not prompting for some compound commands that change directory before running git when the `cd` is wrapped or prefixed, as they do for a plain `cd`",
+  "zh": "修复了 Bash 权限检查对某些在运行 git 前切换目录的复合命令不弹出提示的问题：当 `cd` 被包裹或带有前缀时，现在会像普通 `cd` 一样提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

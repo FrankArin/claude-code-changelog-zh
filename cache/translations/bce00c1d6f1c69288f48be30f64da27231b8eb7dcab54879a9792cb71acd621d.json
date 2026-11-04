@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a settings file being ignored when `enabledMcpjsonServers` or `disabledMcpjsonServers` held a single server name (letters, digits, - or \\_) as a plain string",
+  "zh": "修复了当 `enabledMcpjsonServers` 或 `disabledMcpjsonServers` 以纯字符串形式保存单个服务器名（字母、数字、- 或 \\_）时设置文件被忽略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

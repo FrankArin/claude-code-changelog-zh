@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the resume command printed at exit: it names the session by its ID and no longer by its name, so that nothing in a session name can run when the line is pasted",
+  "zh": "变更退出时打印的恢复命令：改用 session ID 而非名称标识 session，粘贴该行时 session 名称中的任何内容都不会被执行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

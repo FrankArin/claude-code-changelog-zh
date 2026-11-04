@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control and SDK hosts offering \"don't ask again\" on a mod's tool calls",
+  "zh": "修复远程控制和 SDK 宿主在 mod 的工具调用上提供“don't ask again”选项的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

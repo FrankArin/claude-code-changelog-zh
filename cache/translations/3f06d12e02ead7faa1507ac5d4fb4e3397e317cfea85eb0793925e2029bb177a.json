@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed installed mods that kept running in an open session after being turned off remotely; they now unload between turns",
+  "zh": "修复了已安装的 mod 被远程关闭后仍在打开的 session 中继续运行的问题；现在它们会在轮次之间卸载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `ultrathink` rainbow to appear only where the keyword can raise effort, and not when the word is quoted or part of a file path",
+  "zh": "变更 `ultrathink` 彩虹效果，仅在关键词能提升力度时显示，且当该词被引用或属于文件路径的一部分时不显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

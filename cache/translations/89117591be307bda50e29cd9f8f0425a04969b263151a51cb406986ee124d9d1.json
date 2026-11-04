@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the messages shown when a background session's process exits: they no longer promise a restart that isn't coming, and they say how to resume the session",
+  "zh": "改进后台 session 进程退出时显示的消息：不再承诺不会发生的重启，并说明如何恢复该 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

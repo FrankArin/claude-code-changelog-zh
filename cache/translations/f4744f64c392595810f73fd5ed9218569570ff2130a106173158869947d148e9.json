@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control failing to start from Claude Desktop when DISABLE\\_TELEMETRY or DO\\_NOT\\_TRACK is set on a paid plan",
+  "zh": "修复了在付费套餐上设置了 DISABLE\\_TELEMETRY 或 DO\\_NOT\\_TRACK 时，远程控制无法从 Claude Desktop 启动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

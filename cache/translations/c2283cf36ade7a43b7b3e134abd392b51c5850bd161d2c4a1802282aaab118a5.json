@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/effort status`, `/effort ultracode` and the prompt's effort indicator showing a guessed effort level when `CLAUDE_CODE_EFFORT_LEVEL` is `auto` or `unset` and no level is sent",
+  "zh": "修复了当 `CLAUDE_CODE_EFFORT_LEVEL` 为 `auto` 或 `unset` 且未发送级别时，`/effort status`、`/effort ultracode` 和 prompt 的 effort 指示器显示猜测的 effort 级别的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

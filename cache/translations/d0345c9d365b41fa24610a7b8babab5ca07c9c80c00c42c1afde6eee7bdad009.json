@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude Tag access bundles so a repository that moved to another GitHub account can be added again",
+  "zh": "\\[Claude Tag] 修复了 Claude Tag 访问包的问题，使已迁移到另一个 GitHub 账号的仓库可以再次被添加",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

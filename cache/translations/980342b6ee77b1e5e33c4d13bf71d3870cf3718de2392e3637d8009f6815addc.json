@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed write tools on a directly configured GitHub MCP server showing a form that closed without creating anything in the desktop app's Code tab",
+  "zh": "修复了直接配置的 GitHub MCP 服务器上的写入工具在桌面应用 Code 标签页中显示的表单关闭后未创建任何内容的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

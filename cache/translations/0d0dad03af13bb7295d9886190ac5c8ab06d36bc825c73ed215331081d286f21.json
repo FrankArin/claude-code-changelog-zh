@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the skill file watcher checking every removed skill kept in `~/.claude/skills/.trash`, which added file system load that grew with each removal",
+  "zh": "修复 skill 文件监视器会检查 `~/.claude/skills/.trash` 中保留的每个已删除 skill，导致文件系统负载随删除次数增长的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

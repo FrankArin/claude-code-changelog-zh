@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed WebFetch in Cowork cloud sessions silently dropping a PDF's text past 100,000 characters; it now says how much was unread and where to read on",
+  "zh": "修复 Cowork 云 session 中的 WebFetch 静默丢弃超过 100,000 字符的 PDF 文本的问题；现在会说明有多少内容未读取以及应从哪里继续读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

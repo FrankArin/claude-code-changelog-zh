@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Fable models listed in `availableModels` not appearing in the `/model` picker for sessions signed in to a Claude apps gateway; such a model now shows its built-in row in place of a `modelPicker` row added for the same model",
+  "zh": "修复了 `availableModels` 中列出的 Fable 模型在登录 Claude 应用网关的 session 中不显示在 `/model` 选择器中的问题；现在此类模型会显示其内置行，替代为同一模型添加的 `modelPicker` 行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

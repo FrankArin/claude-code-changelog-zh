@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `guardrail_trace` to Claude apps gateway Bedrock upstreams, to log which Amazon Bedrock guardrail filter fired on a request, without the matched text",
+  "zh": "为 Claude 应用网关的 Bedrock 上游新增 `guardrail_trace`，用于记录请求触发了哪个 Amazon Bedrock 护栏过滤器，但不记录匹配到的文本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

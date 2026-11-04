@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added the skill's frontmatter, source, plugin name and file path to what a mod's `skill.prompt` hook receives",
+  "zh": "mod 的 `skill.prompt` hook 现在还会收到 skill 的 frontmatter、来源、plugin 名称和文件路径",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

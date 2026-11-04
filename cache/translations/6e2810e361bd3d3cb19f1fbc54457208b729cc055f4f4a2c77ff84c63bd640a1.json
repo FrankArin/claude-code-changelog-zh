@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed \"Resume session\" and tabs restored after a reload opening an empty new conversation instead of one that had moved into a git worktree",
+  "zh": "\\[VSCode] 修复“Resume session”以及重新加载后恢复的标签页打开空的新对话，而非已迁移到 git worktree 的对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

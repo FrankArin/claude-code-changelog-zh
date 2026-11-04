@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/claude-api api-version` to move Claude API code to API version `2026-10-21`",
+  "zh": "新增 `/claude-api api-version`，用于将 Claude API 代码迁移到 API 版本 `2026-10-21`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:09+00:00"
+}

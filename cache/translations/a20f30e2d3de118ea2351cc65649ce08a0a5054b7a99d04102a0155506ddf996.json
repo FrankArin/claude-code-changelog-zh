@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `FORCE_HYPERLINK=false` (also `no` and `off`) to turn hyperlinks off instead of on",
+  "zh": "变更 `FORCE_HYPERLINK=false`（以及 `no` 和 `off`）：现在会关闭超链接，而不是开启",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

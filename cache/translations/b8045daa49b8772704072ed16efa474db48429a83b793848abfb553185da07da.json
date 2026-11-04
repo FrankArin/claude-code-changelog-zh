@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed agent view restoring input text on the next launch after it was cleared with Ctrl+C just before exiting",
+  "zh": "修复了 agent 视图在退出前刚用 Ctrl+C 清空输入文本后，下次启动时又恢复该文本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

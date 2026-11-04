@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `rm -r` of a mounted drive or a folder at its top level (`/Volumes`, `/media`, WSL's `/mnt/c`) not getting the safety prompt that `rm -rf /Applications` gets",
+  "zh": "修复对已挂载驱动器或其顶层文件夹（`/Volumes`、`/media`、WSL 的 `/mnt/c`）执行 `rm -r` 时，未像 `rm -rf /Applications` 那样触发安全提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

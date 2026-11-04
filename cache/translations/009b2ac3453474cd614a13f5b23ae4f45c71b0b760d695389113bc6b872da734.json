@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the /claude-api skill to check the live docs before saying a feature is unsupported",
+  "zh": "改进 /claude-api skill：在称某项功能不受支持前先检查最新文档",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved MCP tool errors: a call made before the tool is loaded now returns its input schema",
+  "zh": "改进了 MCP 工具错误：在工具加载前发起的调用现在会返回其输入 schema",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

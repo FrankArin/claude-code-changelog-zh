@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a prompt starting with `/`, sent with the Agent SDK's `verbatimPrompts` option, running as a slash command when `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` re-ran it after a restart",
+  "zh": "修复了以 `/` 开头的 prompt 在使用 Agent SDK 的 `verbatimPrompts` 选项发送、并在重启后由 `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` 重新执行时被当作斜杠命令运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

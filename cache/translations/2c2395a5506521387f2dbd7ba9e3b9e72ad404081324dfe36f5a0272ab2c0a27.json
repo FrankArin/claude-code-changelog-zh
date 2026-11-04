@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `managed.policy_mode: layered` to the Claude apps gateway: every policy that matches a developer applies, each merged over the ones listed below it, not only the first",
+  "zh": "为 Claude apps gateway 新增 `managed.policy_mode: layered`：所有匹配某位开发者的策略都会生效，每条策略会合并到其下方列出的策略之上，而不只是第一条",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

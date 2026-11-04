@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP tool descriptions the model loads through tool search to be cut at 16,384 characters instead of 2,048",
+  "zh": "模型通过工具搜索加载的 MCP 工具描述改为在 16,384 个字符处截断，而非 2,048",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

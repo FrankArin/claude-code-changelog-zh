@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added idle compaction to VS Code and Claude Desktop's Code tab: a 200K+ token conversation left idle is summarized, and the summary is used on your next message if the prompt cache has expired",
+  "zh": "为 VS Code 和 Claude Desktop 的 Code 标签页新增空闲上下文压缩：闲置的 200K+ token 对话会被摘要，若 prompt 缓存已过期，下一条消息将使用该摘要",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

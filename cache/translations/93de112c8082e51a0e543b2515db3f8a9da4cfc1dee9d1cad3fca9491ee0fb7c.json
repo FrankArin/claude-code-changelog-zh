@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed OpenTelemetry settings delivered through server-managed settings being ignored for the whole session after signing in during first-run setup or the first start after /logout",
+  "zh": "修复了在首次运行设置或 /logout 后首次启动期间登录后，通过服务器托管设置下发的 OpenTelemetry 设置在整个 session 中被忽略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:12+00:00"
+}

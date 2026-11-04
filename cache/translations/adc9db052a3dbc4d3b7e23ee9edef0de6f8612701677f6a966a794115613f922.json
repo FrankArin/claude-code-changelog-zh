@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed extra sign-in renewals when several sessions share an Anthropic profile login and the credentials lock is busy",
+  "zh": "修复多个 session 共享同一个 Anthropic 配置文件登录且凭据锁繁忙时出现额外登录续期的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

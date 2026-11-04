@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Removed the `--sandbox` and `--no-sandbox` flags from `claude remote-control`, which had no effect; passing either now exits with an error. Set `sandbox.enabled` in settings to sandbox sessions",
+  "zh": "从 `claude remote-control` 中移除 `--sandbox` 和 `--no-sandbox` 标志，这两个标志此前没有效果；现在传入其中任一标志都会报错退出。如需对 session 启用沙箱，请在设置中设置 `sandbox.enabled`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

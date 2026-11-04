@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed requests failing with \"diagnostics: Extra inputs are not permitted\" after switching to Vertex or Bedrock mid-session",
+  "zh": "修复了在会话中途切换到 Vertex 或 Bedrock 后请求失败并报“diagnostics: Extra inputs are not permitted”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

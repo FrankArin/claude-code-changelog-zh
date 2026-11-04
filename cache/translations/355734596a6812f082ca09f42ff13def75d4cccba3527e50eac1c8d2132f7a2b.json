@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed tab stops to count from where a text starts instead of from the screen's left edge: an answer indented by 2 has its first stop 8 cells in, where it was 6",
+  "zh": "变更制表位改为从文本起始处计算，而非从屏幕左边缘计算：缩进 2 格的回答，其第一个制表位在第 8 个单元格处，而此前为第 6 个",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

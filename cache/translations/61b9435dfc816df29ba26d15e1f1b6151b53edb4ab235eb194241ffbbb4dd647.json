@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Enterprise survey card taking a typed 1 or 0 after a short pause; a typed answer now needs Enter",
+  "zh": "修复了 Enterprise 调查卡片在短暂停顿后接受键入的 1 或 0 的问题；键入的答案现在需要按 Enter",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:34+00:00"
+}

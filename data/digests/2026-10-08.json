@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "versions": [
+    "2.1.295"
+  ],
+  "tldr": "新增 hook 失败阻断、终端状态协议与网关上游控制，并修复大量稳定性问题。",
+  "highlights": [
+    {
+      "title": "Hook 失败可阻断操作",
+      "category": "新功能",
+      "detail": "命令和 HTTP hook 支持 onFailure: \"block\"，无法启动、超时或异常退出的 hook 会阻止该操作而非放行。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.295-added-1"
+      ],
+      "version": "2.1.295"
+    },
+    {
+      "title": "终端状态协议支持",
+      "category": "新功能",
+      "detail": "支持 OSC 7501，兼容终端可显示 Claude Code 正在工作、等待操作或已完成。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.295-added-2"
+      ],
+      "version": "2.1.295"
+    },
+    {
+      "title": "网关上游超时与模型过滤",
+      "category": "新功能",
+      "detail": "网关新增 timeouts.upstream_ttfb_ms 限制上游首字节等待，并支持按上游配置 models 列表（含 * 通配符）。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.295-added-6",
+        "2.1.295-added-8"
+      ],
+      "version": "2.1.295"
+    },
+    {
+      "title": "Bedrock token 计数需新权限",
+      "category": "改进",
+      "detail": "网关在 Bedrock 上的 token 计数改用 AWS CountTokens API，使用前需授予 bedrock:CountTokens 权限。",
+      "action": "为网关使用的 AWS 角色添加 bedrock:CountTokens 权限。",
+      "example": {
+        "lang": "bash",
+        "code": "/context",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.295-improvements-34"
+      ],
+      "version": "2.1.295"
+    },
+    {
+      "title": "MCP 协议协商默认变更",
+      "category": "破坏性变更",
+      "detail": "claude.ai connector 在未获取 flag 的安装中默认协商 MCP 协议版本 2026-07-28，旧服务端可能不兼容。",
+      "action": "如遇兼容问题，设置 MCP_PROTOCOL_NEGOTIATION=legacy 回退。",
+      "example": {
+        "lang": "bash",
+        "code": "MCP_PROTOCOL_NEGOTIATION=legacy",
+        "caption": "回退到旧版 MCP 协议协商"
+      },
+      "item_ids": [
+        "2.1.295-changed-22"
+      ],
+      "version": "2.1.295"
+    },
+    {
+      "title": "修复 1m 模型请求失败",
+      "category": "修复",
+      "detail": "当网关、Bedrock、Vertex 或 Foundry 拒绝 context-1m beta 时，Claude Code 会不带该 beta 重新发送，避免 [1m] 模型全部失败。",
+      "action": null,
+      "example": {
+        "lang": "json",
+        "code": "[1m]",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.295-fixes-47"
+      ],
+      "version": "2.1.295"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "7cabf5a5428de18b4f4177af10c38a0f0f304b10ac8a40c24f57df79f9e8280f"
+}

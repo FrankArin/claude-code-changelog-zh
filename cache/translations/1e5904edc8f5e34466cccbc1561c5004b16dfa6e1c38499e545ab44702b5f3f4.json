@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude sometimes not using a built-in tool in a resumed session after an earlier call failed because the tool was switched off",
+  "zh": "修复了在恢复的 session 中，某次工具调用因该工具被关闭而失败后，Claude 有时不再使用该内置工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

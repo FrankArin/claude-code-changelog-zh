@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude mcp serve` background Bash results not naming the output file, and its tool description promising a notification that never arrives",
+  "zh": "修复 `claude mcp serve` 的后台 Bash 结果未标明输出文件，以及其工具描述承诺了永远不会到达的通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

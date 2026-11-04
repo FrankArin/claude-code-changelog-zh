@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed ↑ in an agent's chat tab recalling a message that was still waiting to be delivered, so resending it sent a second copy",
+  "zh": "修复了在 agent 的聊天标签页中按 ↑ 会召回仍在等待投递的消息，导致重新发送时发出第二份副本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

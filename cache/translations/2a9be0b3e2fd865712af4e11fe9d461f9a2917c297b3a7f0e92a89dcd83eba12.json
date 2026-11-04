@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed prompts containing tags such as `<bash-stdout>` or `<local-command-stdout>` not being acknowledged to a local stream-json host",
+  "zh": "修复包含 `<bash-stdout>` 或 `<local-command-stdout>` 等标签的 prompt 未向本地 stream-json 宿主确认的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed most commands in the / menu losing their descriptions in cloud sessions once you sent a second message",
+  "zh": "\\[Cloud sessions] 修复了发送第二条消息后，/ 菜单中大多数命令在 cloud sessions 中丢失描述的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

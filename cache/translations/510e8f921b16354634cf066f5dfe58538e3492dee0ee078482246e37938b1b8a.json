@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long pastes in terminals without bracketed paste losing all text after an invisible control character, such as a mis-decoded curly quote",
+  "zh": "修复了在不支持括号粘贴的终端中长粘贴在遇到不可见控制字符（例如错误解码的弯引号）后丢失全部文本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `claude-api` skill to ask to read a Managed Agents workflow run's workflow before changing the agent to improve that run",
+  "zh": "变更 `claude-api` skill：在修改 agent 以改进 Managed Agents 工作流运行时，会先请求读取该运行的 workflow",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

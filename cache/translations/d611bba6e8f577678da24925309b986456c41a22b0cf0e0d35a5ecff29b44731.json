@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved You should know toasts to say \"try again\" instead of \"press 2\", which only works in the terminal",
+  "zh": "改进了 You should know 提示，改为显示“try again”而非“press 2”，后者仅在终端中有效",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

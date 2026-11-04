@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the environment block naming a shell commands don't run in, such as fish when the Bash tool uses zsh",
+  "zh": "修复了环境信息块中列出的 shell 并非命令实际运行所用 shell 的问题，例如 Bash 工具使用 zsh 时却列出 fish",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

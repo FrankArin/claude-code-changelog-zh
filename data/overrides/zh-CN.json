@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "items": {
+    "b466ed7e7cac68495593b160222f0eb2ed2b3decc5670866cd4cda66890a36a8": "变更 agent 的 `tools:` 列表，使其只接受指定 MCP 服务器的工具；列出名称包含 `__` 的服务器时，写成 `mcp__<whole name>__*`。"
+  },
+  "summaries": {}
+}

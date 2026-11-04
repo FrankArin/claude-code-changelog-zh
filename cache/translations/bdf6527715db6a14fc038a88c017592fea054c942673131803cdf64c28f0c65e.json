@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude not being told when an approved connector tool was unavailable after a cloud session restart",
+  "zh": "修复了云 session 重启后已批准的 connector 工具不可用时，Claude 未被告知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

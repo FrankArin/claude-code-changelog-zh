@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head">
+  <p class="eyebrow">全部版本</p>
+  <h1>归档</h1>
+  <p class="lede">共 {{ stats.versions }} 个版本、{{ stats['items'] }} 条更新。输入版本号或关键词过滤。</p>
+</section>
+
+<section class="search-box">
+  <label for="search-input">搜索版本或更新内容</label>
+  <input id="search-input" type="search" placeholder="例如 2.1.318、Windows、MCP" autocomplete="off">
+  <div id="search-results" class="search-results" hidden></div>
+</section>
+
+<div id="version-list">
+  {% for month in months %}
+  <section class="month">
+    <h2>{{ month.key | month_cn }}</h2>
+    <ul class="version-list">
+      {% for version in month.versions %}
+      <li class="version-row"
+          data-version="{{ version.version }}"
+          data-date="{{ version.date or '' }}"
+          data-text="{{ (version.summary.tldr if version.summary else '') ~ ' ' ~ version.version }}">
+        <a class="version-main" href="{{ url('/v/' ~ version.version ~ '/') }}">
+          <strong>{{ version.version }}</strong>
+          <span class="version-date">{{ version.date or '日期未知' }}</span>
+          <span class="version-count">{{ version.item_count }} 条</span>
+          <span class="version-tldr">{{ version.summary.tldr if version.summary else '' }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}

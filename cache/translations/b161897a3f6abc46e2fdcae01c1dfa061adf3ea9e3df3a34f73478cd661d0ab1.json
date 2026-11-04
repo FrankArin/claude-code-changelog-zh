@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Cowork cloud sessions losing their connectors and most tools after a restart when a plugin or your settings named an `agent`; Cowork cloud sessions now ignore that setting",
+  "zh": "修复了当 plugin 或你的设置指定了 `agent` 时，Cowork 云 session 在重启后丢失 connector 和大部分工具的问题；Cowork 云 session 现在会忽略该设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

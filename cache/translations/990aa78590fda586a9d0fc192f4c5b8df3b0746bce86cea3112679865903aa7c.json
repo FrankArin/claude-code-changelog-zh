@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed permission prompts being answered by keys typed just after sending a message, or before a slow prompt appeared",
+  "zh": "修复了权限提示被发送消息后刚输入的按键、或在缓慢出现的提示出现之前输入的按键所应答的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

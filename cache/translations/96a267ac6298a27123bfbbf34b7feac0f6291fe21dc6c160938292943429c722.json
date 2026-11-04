@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/ultrareview` to check workspace trust before it runs git, as `claude ultrareview` does",
+  "zh": "变更 `/ultrareview`：运行 git 前会先检查工作区信任，与 `claude ultrareview` 一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

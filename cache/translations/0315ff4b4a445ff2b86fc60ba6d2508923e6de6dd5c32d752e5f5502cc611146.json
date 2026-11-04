@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Bedrock, Vertex, Foundry and Mantle to use the shorter system prompt for model names Claude Code doesn't recognize, such as custom deployment names and inference profile ARNs, even when they front Sonnet or Haiku; set `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` to keep the full prompt",
+  "zh": "变更 Bedrock、Vertex、Foundry 和 Mantle，对 Claude Code 无法识别的模型名称（例如自定义部署名称和推理配置文件 ARN）使用更短的系统 prompt，即使它们背后是 Sonnet 或 Haiku；设置 `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` 可保留完整 prompt",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:07+00:00"
+}

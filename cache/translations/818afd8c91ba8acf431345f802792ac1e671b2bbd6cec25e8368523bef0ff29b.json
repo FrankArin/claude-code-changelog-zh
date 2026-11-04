@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed replies whose quotes nest deeper every few lines freezing the terminal for seconds and using gigabytes of memory",
+  "zh": "修复引号每几行就加深嵌套的回复导致终端卡顿数秒并占用数 GB 内存的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

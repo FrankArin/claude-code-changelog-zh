@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a plugin's served `$` methods running in the main session's working directory instead of the calling agent's, and ignoring the turn their calling hook holds",
+  "zh": "修复了 plugin 提供的 `$` 方法在调用方 agent 的工作目录中运行、而非在主 session 的工作目录中运行，以及忽略调用方 hook 所持有的轮次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

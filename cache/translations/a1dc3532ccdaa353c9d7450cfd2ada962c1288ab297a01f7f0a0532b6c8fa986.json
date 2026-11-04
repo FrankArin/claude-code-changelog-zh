@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed the runner and orchestrator freezing (no polls, `/healthz` or `SIGTERM` shutdown) while nobody reads their output; logs keep the latest 256 KiB and count drops (not on Windows)",
+  "zh": "自托管运行器：修复在无人读取输出时运行器和编排器冻结（不再轮询、`/healthz` 无响应或 `SIGTERM` 无法关闭）的问题；日志保留最新 256 KiB 并统计丢弃量（Windows 上除外）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

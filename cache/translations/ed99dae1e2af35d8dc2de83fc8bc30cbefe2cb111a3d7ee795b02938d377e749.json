@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added support for `timeouts.upstream_ttfb_ms` on the Claude apps gateway's Bedrock, Vertex, Foundry and other cloud upstreams: a value you set now limits how long a stream may take to start there, after which it fails over or gets a 502",
+  "zh": "Claude 应用网关的 Bedrock、Vertex、Foundry 及其他云上游新增 `timeouts.upstream_ttfb_ms` 支持：设置该值后，会限制流在该上游开始前的等待时长，超时则回退或返回 502",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "versions": [
+    "2.1.312"
+  ],
+  "tldr": "新增 OIDC 用户声明与点击发送，改进云会话与 hook 并发，修复多项稳定性问题。",
+  "highlights": [
+    {
+      "title": "网关支持自定义用户声明",
+      "category": "新功能",
+      "detail": "Claude 应用网关新增 oidc.user_id_claim，可用 sub 以外的 id_token 声明识别用户，适配 Microsoft Entra ID 等身份提供方。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.312-added-1"
+      ],
+      "version": "2.1.312"
+    },
+    {
+      "title": "全屏模式点击发送排队消息",
+      "category": "新功能",
+      "detail": "全屏模式下点击排队消息下方的“立即发送”提示即可立即发送，效果与按对应按键相同。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.312-added-2"
+      ],
+      "version": "2.1.312"
+    },
+    {
+      "title": "未知模型改用短系统提示",
+      "category": "改进",
+      "detail": "Bedrock、Vertex、Foundry 和 Mantle 上无法识别的模型名（如自定义部署名）默认使用更短系统提示，可能影响输出质量。",
+      "action": "如需保留完整系统提示，设置 CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0",
+        "caption": "保留完整系统提示"
+      },
+      "item_ids": [
+        "2.1.312-changed-5"
+      ],
+      "version": "2.1.312"
+    },
+    {
+      "title": "hook 并发与超时限制调整",
+      "category": "改进",
+      "detail": "每个 session 最多同时运行 24 个 prompt/agent hook（含 sub-agents），另有最多 12 个超时等待；小于 1 秒的 timeout 按 1 秒计。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.312-changed-9"
+      ],
+      "version": "2.1.312"
+    },
+    {
+      "title": "修复大文件被截断覆盖",
+      "category": "修复",
+      "detail": "Claude 仅看到超大 CLAUDE.md、规则文件或 @ 引用文件开头时不再覆盖，Write 会要求先读全文或就地编辑。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.312-fixes-19"
+      ],
+      "version": "2.1.312"
+    },
+    {
+      "title": "修复命令加载与登录策略问题",
+      "category": "修复",
+      "detail": "无效命令名不再导致所有命令加载失败（曾使 claude -p 无输出）；VS Code 扩展登录后也能正常获取托管设置和组织策略。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude -p",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.312-fixes-22",
+        "2.1.312-fixes-18"
+      ],
+      "version": "2.1.312"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "fc71913f32f62dc078c399f634fbe503afda34fe70d394cd47f3ae3929f87671"
+}

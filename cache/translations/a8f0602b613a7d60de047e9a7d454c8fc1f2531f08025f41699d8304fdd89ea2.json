@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where switching to a model with a smaller context window could spend usage credits on a summary by the previous model without asking first",
+  "zh": "修复了切换到上下文窗口更小的模型时，可能在未事先询问的情况下消耗用量额度让前一个模型生成摘要的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a plugin that adds very large interfaces getting another plugin unloaded when the plugin hooks worker stalls",
+  "zh": "修复了添加超大接口的 plugin 在 plugin hooks worker 卡住时导致另一个 plugin 被卸载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

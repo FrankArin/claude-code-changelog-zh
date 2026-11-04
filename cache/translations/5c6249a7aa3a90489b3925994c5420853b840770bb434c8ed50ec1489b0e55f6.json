@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions on a gateway-specific model name behind a custom `ANTHROPIC_BASE_URL` ending with \"Prompt is too long · automatic compaction failed\" near 200K tokens instead of sending the request",
+  "zh": "修复了在自定义 `ANTHROPIC_BASE_URL` 下使用网关专属模型名的 session，在接近 200K tokens 时未发送请求，而是显示“Prompt is too long · automatic compaction failed”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

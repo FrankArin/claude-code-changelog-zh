@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "versions": [
+    "2.1.311"
+  ],
+  "tldr": "新增自托管运行器保持空闲、VSCode 代码着色，并修复大量卡顿与后台会话问题。",
+  "highlights": [
+    {
+      "title": "自托管运行器可保持空闲",
+      "category": "新功能",
+      "detail": "新增 --hold-idle-file 与 --max-hold-min，主机报告遗留进程时可让空闲 session 保持存活，避免被回收。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.311-added-1"
+      ],
+      "version": "2.1.311"
+    },
+    {
+      "title": "ultrathink 改为 xhigh 力度",
+      "category": "改进",
+      "detail": "在 Opus 5.5、Sonnet 5.5、Haiku 5.5 和 Fable 5.1 上通过 Anthropic API 以 xhigh 力度运行该轮；工作中输入可提升剩余部分力度。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.311-changed-6",
+        "2.1.311-changed-7"
+      ],
+      "version": "2.1.311"
+    },
+    {
+      "title": "JSON 输出转义控制字符",
+      "category": "改进",
+      "detail": "--output-format json 与 stream-json 将 DEL、C1 控制字符和 Unicode 格式字符写为 \\uXXXX 转义，解析后的值不变。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.311-changed-9"
+      ],
+      "version": "2.1.311"
+    },
+    {
+      "title": "模型设置改从签名文件加载",
+      "category": "改进",
+      "detail": "Bedrock、Mantle、Vertex 和 Foundry 上的 Claude Code 改为从 downloads.claude.ai 的签名文件加载模型设置，可用环境变量关闭。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.311-changed-14"
+      ],
+      "version": "2.1.311"
+    },
+    {
+      "title": "修复长上下文与编辑卡顿",
+      "category": "修复",
+      "detail": "修复超长 CLAUDE.md 列表项导致启动卡顿、大文件 Write/Edit 卡住 5 秒并报 0 行，以及超 200K tokens 时误报需 1M 上下文额度的问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.311-fixes-37",
+        "2.1.311-fixes-39",
+        "2.1.311-fixes-40"
+      ],
+      "version": "2.1.311"
+    },
+    {
+      "title": "修复后台与 subagent 问题",
+      "category": "修复",
+      "detail": "修复 SubagentStop hook 重复触发、subagent 无法使用后连接 MCP 工具、隔离 worktree 过早删除，以及后台 session 崩溃后不重启等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.311-fixes-41",
+        "2.1.311-fixes-44",
+        "2.1.311-fixes-46",
+        "2.1.311-fixes-56"
+      ],
+      "version": "2.1.311"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "fe551b93879bbd4220f826c1d6e2c6160ab5ea2ab8396f38e88b7cddbb308ab9"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude in Slack reporting a reply to another channel's thread as posted when it isn't a member there; it now says the reply wasn't delivered and how to fix that",
+  "zh": "\\[Claude Tag] 修复了 Slack 里的 Claude 在不是其他频道成员时，却将对该频道帖子的回复报告为已发布的问题；现在会说明回复未送达以及如何解决",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

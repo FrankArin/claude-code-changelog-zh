@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed shell and MCP calls that auto mode, a deny rule or a PreToolUse hook blocked, or that otherwise did not run, reading as if they ran in a collapsed tool group",
+  "zh": "修复被自动模式、拒绝规则或 PreToolUse hook 阻止的 shell 和 MCP 调用，以及其他未实际运行的调用，在折叠的工具组中显示为已运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

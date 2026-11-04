@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved startup time with many plugins enabled: plugin command and agent files now take far fewer file system calls to load, most of all on Windows",
+  "zh": "改进启用大量 plugin 时的启动时间：plugin 命令和 agent 文件加载所需的文件系统调用大幅减少，在 Windows 上尤为明显",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:53:46+00:00"
+}

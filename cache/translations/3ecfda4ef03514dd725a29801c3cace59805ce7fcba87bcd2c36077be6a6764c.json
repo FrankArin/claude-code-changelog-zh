@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc discarding a typed AskUserQuestion answer in vim mode: the free-text field now supports vim NORMAL mode, and Esc cancels only from NORMAL",
+  "zh": "修复了 vim 模式下按 Esc 会丢弃已输入的 AskUserQuestion 回答的问题：自由文本字段现在支持 vim NORMAL 模式，且仅在 NORMAL 模式下按 Esc 才会取消",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:28+00:00"
+}

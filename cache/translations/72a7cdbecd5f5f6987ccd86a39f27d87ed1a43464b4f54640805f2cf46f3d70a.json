@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `--shutdown-drain-sec` to `claude self-hosted-runner orchestrator`: on SIGTERM it stops polling and gives the poll in flight and running spawn hooks up to that many seconds to finish",
+  "zh": "为 `claude self-hosted-runner orchestrator` 新增 `--shutdown-drain-sec`：收到 SIGTERM 时停止轮询，并给进行中的轮询和正在运行的 spawn hook 最多这么多秒完成",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed subagents and teammates on a different model from the main conversation to use that model's saved effort level or its default, instead of the session's effort level",
+  "zh": "变更与主对话使用不同模型的 subagents 和队友：改用该模型保存的 effort 级别或其默认值，而不再使用 session 的 effort 级别",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed a mod's `$.env.set` to resolve with `{}` once the variable is set or unset, or with `{ deny }` saying why when the write is not made",
+  "zh": "变更 mod 的 `$.env.set`：变量设置或取消设置后以 `{}` 解析，若未执行写入则以 `{ deny }` 解析并说明原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

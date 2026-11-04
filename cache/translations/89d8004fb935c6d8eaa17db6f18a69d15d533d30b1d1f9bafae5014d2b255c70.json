@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Artifact tool showing `?` for artifact database access rules at the `self` level, and not quoting those rules back when it refuses a republish that would drop them",
+  "zh": "修复 Artifact 工具在 `self` 级别为 artifact 数据库访问规则显示 `?`，以及在拒绝会丢弃这些规则的重新发布时未回引这些规则的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

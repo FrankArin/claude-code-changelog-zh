@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a subagent's isolated worktree being removed while a background subagent it started was still working in it",
+  "zh": "修复了 subagent 的隔离 worktree 在其启动的后台 subagent 仍在该 worktree 中工作时就被删除的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed more cases of scheduled Cowork cloud sessions waiting five minutes for each subagent whose WebFetch needed a URL approval that nobody was there to give",
+  "zh": "修复了更多情况：定时 Cowork 云 session 中，每个 subagent 的 WebFetch 需要 URL 审批却无人审批时，会各自等待五分钟",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:52:34+00:00"
+}

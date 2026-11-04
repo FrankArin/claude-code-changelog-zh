@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude in Chrome asking for permission while no browser is connected; it now says the extension is not connected",
+  "zh": "修复了 Claude in Chrome 在没有浏览器连接时仍请求权限的问题；现在会提示扩展未连接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

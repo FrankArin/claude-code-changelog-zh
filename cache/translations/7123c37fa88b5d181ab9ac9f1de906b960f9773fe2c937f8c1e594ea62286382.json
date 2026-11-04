@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed hook `if` conditions such as `Monitor(tail *)` to match the Monitor tool's shell commands as `Bash(tail *)` matches Bash's",
+  "zh": "变更 hook 的 `if` 条件（如 `Monitor(tail *)`）：现在像 `Bash(tail *)` 匹配 Bash 那样匹配 Monitor 工具的 shell 命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

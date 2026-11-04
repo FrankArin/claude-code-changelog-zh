@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the notification for an MCP tool call that moved to the background showing a shortened task id",
+  "zh": "修复转入后台的 MCP 工具调用通知显示缩短的 task id 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed every request failing on a `[1m]` model when a gateway, Bedrock, Vertex or Foundry refuses the context-1m beta; Claude Code now resends without it",
+  "zh": "修复当网关、Bedrock、Vertex 或 Foundry 拒绝 context-1m beta 时，`[1m]` 模型上的所有请求均失败的问题；Claude Code 现在会在不带该 beta 的情况下重新发送",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

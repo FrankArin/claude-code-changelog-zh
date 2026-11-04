@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed requests to claude.ai's connector proxy and to Anthropic-hosted MCP servers to no longer follow HTTP redirects; redirects by a connector's own server are unaffected",
+  "zh": "变更发往 claude.ai 的 connector 代理和 Anthropic 托管的 MCP 服务器的请求，不再跟随 HTTP 重定向；由 connector 自身服务器发起的重定向不受影响",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

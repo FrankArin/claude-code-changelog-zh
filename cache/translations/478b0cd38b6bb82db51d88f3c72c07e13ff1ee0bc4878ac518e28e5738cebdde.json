@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a one-time note when plan mode won't ask before most edits or commands because bypass permissions is available",
+  "zh": "当因可用 bypass permissions 而使计划模式在大多数编辑或命令前不再询问时，新增一次性提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

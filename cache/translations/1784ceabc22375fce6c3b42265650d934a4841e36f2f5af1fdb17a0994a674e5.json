@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed idle compaction to also run for subscribers with telemetry turned off, and on Bedrock, Vertex, Foundry and LLM gateways once the one-hour prompt cache is on",
+  "zh": "变更空闲上下文压缩：对关闭遥测的订阅用户也会运行；在 Bedrock、Vertex、Foundry 和 LLM 网关上，一旦启用一小时 prompt 缓存也会运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

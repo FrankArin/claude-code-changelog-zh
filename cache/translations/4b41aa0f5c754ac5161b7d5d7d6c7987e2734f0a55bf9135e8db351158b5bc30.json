@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed TLS connections failing with `UNABLE_TO_GET_ISSUER_CERT` when the system certificate store holds a renewed root certificate that is cross-signed with its predecessor",
+  "zh": "修复系统证书存储中存在与前任交叉签名的续期根证书时，TLS 连接因 `UNABLE_TO_GET_ISSUER_CERT` 失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

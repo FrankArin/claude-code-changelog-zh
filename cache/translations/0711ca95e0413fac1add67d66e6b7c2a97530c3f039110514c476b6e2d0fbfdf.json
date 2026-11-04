@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Windows: Fixed a conversation showing \"still open somewhere else\" after a crash or power loss, when Windows had since restarted and given the old process ID to another program",
+  "zh": "\\[VSCode] Windows：修复了崩溃或断电后对话显示“仍在其他地方打开”的问题，原因是 Windows 重启后已将旧进程 ID 分配给其他程序",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:13+00:00"
+}

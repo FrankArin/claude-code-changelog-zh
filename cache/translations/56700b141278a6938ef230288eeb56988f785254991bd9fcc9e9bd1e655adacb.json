@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/teleport` and `claude --teleport` to warn when a compacted cloud session loads from its last compaction, so the messages it summarized aren't in the local copy",
+  "zh": "改进 `/teleport` 和 `claude --teleport`：当已压缩的云端 session 从其最后一次上下文压缩处加载时给出警告，说明其摘要过的消息不在本地副本中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

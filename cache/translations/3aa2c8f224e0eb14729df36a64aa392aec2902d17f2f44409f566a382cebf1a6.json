@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude Desktop's Code tab to apply managed settings when `forceLoginGatewayUrl` names an Anthropic-operated gateway that serves the session's hostname; that gateway must be reachable at start",
+  "zh": "变更 Claude Desktop 的 Code 标签页：当 `forceLoginGatewayUrl` 指定一个由 Anthropic 运营、且服务于该 session 主机名的网关时，应用托管设置；该网关必须在启动时可访问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:55:12+00:00"
+}

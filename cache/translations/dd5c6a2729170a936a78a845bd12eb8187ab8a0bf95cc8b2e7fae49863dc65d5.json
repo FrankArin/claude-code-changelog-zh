@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin MCP `headersHelper` scripts receiving a corrupted `CLAUDE_PLUGIN_ROOT` and server URL when a credential-named environment variable was set to a switch value such as `1`",
+  "zh": "修复当以凭据命名的环境变量被设置为 `1` 等开关值时，plugin MCP `headersHelper` 脚本收到损坏的 `CLAUDE_PLUGIN_ROOT` 和服务器 URL 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:57+00:00"
+}

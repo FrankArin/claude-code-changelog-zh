@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed double-clicking a word in an expanded transcript row in fullscreen mode collapsing the row instead of selecting the word",
+  "zh": "修复了在全屏模式下双击展开的对话记录行中的单词时，该行折叠而非选中该单词的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:41+00:00"
+}

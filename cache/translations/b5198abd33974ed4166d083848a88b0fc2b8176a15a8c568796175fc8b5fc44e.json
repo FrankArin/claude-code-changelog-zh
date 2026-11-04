@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `fable` (and `best`) model alias erroring on the Anthropic API when the newest Fable model is not available to your organization: Claude Code now retries once on the previous Fable model",
+  "zh": "修复当组织无法使用最新的 Fable 模型时，`fable`（以及 `best`）模型别名在 Anthropic API 上报错的问题：Claude Code 现在会在上一个 Fable 模型上重试一次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

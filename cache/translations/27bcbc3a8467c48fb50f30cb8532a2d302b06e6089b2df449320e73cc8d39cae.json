@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added support for `forceLoginMethod: \"gateway\"` and `forceLoginGatewayUrl` in your own user settings on machines with no managed settings, so `/login` opens on that Claude apps gateway",
+  "zh": "在没有托管设置的机器上，自己的用户设置新增 `forceLoginMethod: \"gateway\"` 和 `forceLoginGatewayUrl` 支持，使 `/login` 在该 Claude 应用网关上打开",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

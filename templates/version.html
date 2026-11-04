@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="version-page">
+  <header class="version-head">
+    <p class="eyebrow"><a href="{{ url('/') }}">首页</a> / <a href="{{ url('/archive/') }}">归档</a> / {{ version.version }}</p>
+    <h1>Claude Code {{ version.version }}</h1>
+    <p class="meta">
+      {{ version.date | date_cn }} · {{ version.item_count }} 条更新 ·
+      <a href="https://code.claude.com/docs/en/changelog" rel="noopener noreferrer">英文原文</a>
+    </p>
+    <div class="lang-switch" role="group" aria-label="显示语言">
+      <button type="button" data-set-lang="zh" class="active">中文</button>
+      <button type="button" data-set-lang="en">English</button>
+      <button type="button" data-set-lang="both">对照</button>
+    </div>
+  </header>
+
+  {% if version.summary %}
+  <section class="summary-box">
+    <p class="summary-tldr">{{ version.summary.tldr }}</p>
+    {% if version.summary.highlights %}
+    <ul class="summary-highlights">
+      {% for highlight in version.summary.highlights %}
+      <li>
+        <div class="highlight-head">
+          <span class="badge badge-{{ highlight.category | category_slug }}">{{ highlight.category }}</span>
+          <strong>{{ highlight.title }}</strong>
+        </div>
+        <p>{{ highlight.detail }}</p>
+        {% if highlight.action %}<p class="action">需要操作：{{ highlight.action }}</p>{% endif %}
+        {% if highlight.example and highlight.example.code %}
+        <div class="example">
+          <pre><code>{{ highlight.example.code }}</code></pre>
+          {% if highlight.example.caption %}<span class="example-caption">{{ highlight.example.caption }}</span>{% endif %}
+        </div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% for group in version.groups %}
+  <section class="group">
+    <h2>{{ group.heading_zh }} <span class="heading-en">{{ group.heading_en }}</span></h2>
+    <ol class="items">
+      {% for item in group['items'] %}
+      <li class="item" id="{{ item.id | anchor }}">
+        <div class="item-zh" data-lang="zh">{{ (item.zh or item.en) | inline_md }}</div>
+        <div class="item-en" data-lang="en">{{ item.en | inline_md }}</div>
+        {% if item.status != 'translated' %}<span class="status" title="机器翻译未通过校验，请以英文原文为准">待校对</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+
+  <nav class="pager" aria-label="版本导航">
+    {% if version.prev %}
+    <a class="pager-link" href="{{ url('/v/' ~ version.prev.version ~ '/') }}">
+      <span>更新版本</span>
+      <strong>{{ version.prev.version }}</strong>
+    </a>
+    {% else %}<span></span>{% endif %}
+    {% if version.next %}
+    <a class="pager-link pager-next" href="{{ url('/v/' ~ version.next.version ~ '/') }}">
+      <span>更早版本</span>
+      <strong>{{ version.next.version }}</strong>
+    </a>
+    {% endif %}
+  </nav>
+</article>
+{% endblock %}

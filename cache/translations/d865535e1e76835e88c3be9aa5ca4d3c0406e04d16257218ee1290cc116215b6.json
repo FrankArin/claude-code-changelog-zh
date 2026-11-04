@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added creating, editing and deleting workspace and channel memory files on the Activity page's Memory tab for members with the Claude Tag Admin permission",
+  "zh": "\\[Claude Tag] 在 Activity 页面的 Memory 标签页中，为拥有 Claude Tag Admin 权限的成员新增创建、编辑和删除 workspace 与 channel 记忆文件的功能",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

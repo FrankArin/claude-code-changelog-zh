@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed recently used self-hosted environments never appearing among the recent environments on the new session card",
+  "zh": "\\[Cloud sessions] 修复了最近使用的自托管环境从未出现在新 session 卡片的最近环境列表中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed SendMessage so a message to a running background agent arrives earlier: its running command moves to the background, without being stopped",
+  "zh": "变更 SendMessage：发送给正在运行的后台 agent 的消息会更早送达，其正在运行的命令会转入后台，但不会被停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

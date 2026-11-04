@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed mod hot-reloading turning off for the whole session when an SDK host closed its enable question before anyone answered; the question is now asked up to three times",
+  "zh": "修复了 SDK 宿主在无人回答前关闭启用询问时，mod 热重载在整个 session 中被关闭的问题；现在该询问最多会问三次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

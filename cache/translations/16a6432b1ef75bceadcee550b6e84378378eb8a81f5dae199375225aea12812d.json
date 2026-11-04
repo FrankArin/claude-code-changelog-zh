@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed stray characters such as `>0q` covering the folder trust prompt, and `>4m` before the shell prompt at exit, in terminals built on VTE older than 0.53 such as MATE Terminal on RHEL 8",
+  "zh": "修复了在基于 VTE 0.53 之前版本的终端（例如 RHEL 8 上的 MATE Terminal）中，`>0q` 等多余字符覆盖文件夹信任提示，以及退出时 shell 提示符前出现 `>4m` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:54:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Claude apps gateway serving models that a policy's `availableModelsMatch: exact` or `deniedModels` blocks; it now answers 400 and leaves them out of its model lists",
+  "zh": "修复了 Claude 应用网关提供被策略的 `availableModelsMatch: exact` 或 `deniedModels` 屏蔽的模型的问题；现在会返回 400 并将其从模型列表中排除",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

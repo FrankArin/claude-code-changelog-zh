@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `--debug` output for hooks: command hooks on tool calls, prompts, SessionStart and Stop now log their command, plugin, outcome and duration when they finish, so a slow hook is identifiable",
+  "zh": "改进 hook 的 `--debug` 输出：工具调用、prompt、SessionStart 和 Stop 上的命令 hook 现在会在完成时记录其命令、plugin、结果和耗时，便于识别慢 hook",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:57:20+00:00"
+}

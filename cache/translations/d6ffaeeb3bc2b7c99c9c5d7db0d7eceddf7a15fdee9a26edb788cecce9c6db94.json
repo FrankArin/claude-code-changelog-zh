@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Remote Control] Fixed the permission mode button in Remote Control sessions showing the wrong mode until you typed; while your computer is online it now shows the real mode on open",
+  "zh": "\\[Remote Control] 修复了远程控制 session 中的权限模式按钮在你输入前显示错误模式的问题；当你的电脑在线时，打开即显示真实模式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:49:46+00:00"
+}

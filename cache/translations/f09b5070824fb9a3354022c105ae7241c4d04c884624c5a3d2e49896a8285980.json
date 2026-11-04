@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Desktop and SDK sessions refusing to switch back to auto mode until restart after `disableAutoMode` was removed from settings",
+  "zh": "修复了从设置中移除 `disableAutoMode` 后，Desktop 和 SDK session 在重启前拒绝切回自动模式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Claude apps gateway hiding Amazon Bedrock's \"Input is too long.\" error, which left sessions failing every turn with \"upstream rejected the request\" instead of compacting",
+  "zh": "修复了 Claude 应用网关隐藏 Amazon Bedrock 的“Input is too long.”错误的问题；此前这会导致 session 每一轮都以“upstream rejected the request”失败，而不是进行上下文压缩",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:41:28+00:00"
+}

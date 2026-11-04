@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Improved most Create PR failure messages in cloud and Remote Control sessions: they now give the reason or a link to GitHub instead of saying Try again",
+  "zh": "\\[Cloud sessions] 改进了云 session 和远程控制 session 中大多数 Create PR 失败消息：现在会给出原因或指向 GitHub 的链接，而不再只显示 Try again",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v1",
+  "created_at": "2026-11-04T01:40:46+00:00"
+}

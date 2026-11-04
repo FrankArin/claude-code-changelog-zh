@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed worktree creation and reuse so git no longer fetches objects on demand, in ordinary clones and in partial clones with a Bash sandbox configured; such a partial clone fetches them first",
+  "zh": "变更 worktree 的创建和复用：git 不再按需拉取对象，适用于普通克隆以及配置了 Bash 沙箱的部分克隆；此类部分克隆会先拉取对象",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:42+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude agents` stopped with its background service (macOS, or Linux without the service installed): running sessions now stop in about a minute unless it is run again, and a notice says so",
+  "zh": "变更 `claude agents` 随其后台服务停止（macOS，或未安装该服务的 Linux）：正在运行的 session 现在约一分钟后停止，除非再次运行它，并会显示提示说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

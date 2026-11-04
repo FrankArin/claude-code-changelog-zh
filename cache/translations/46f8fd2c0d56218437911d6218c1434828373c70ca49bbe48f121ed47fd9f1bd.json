@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a background session that crashed between turns not being restarted while it was attached, pinned, or had a scheduled task or wake-up set",
+  "zh": "修复了在轮次之间崩溃的后台 session 在处于附加、固定状态，或设置了计划任务或唤醒时未被重启的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:50:50+00:00"
+}

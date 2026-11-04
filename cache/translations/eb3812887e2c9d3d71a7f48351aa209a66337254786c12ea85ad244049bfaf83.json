@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `claude plugin validate` and plugin loading: when a hooks module is refused over a rebound top-level `var`, the error now names the line that rebinds it, the cause, and a fix",
+  "zh": "改进 `claude plugin validate` 和 plugin 加载：当 hooks 模块因顶层 `var` 被重新绑定而被拒绝时，错误信息现在会指出重新绑定的行、原因及修复方法",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:58:27+00:00"
+}

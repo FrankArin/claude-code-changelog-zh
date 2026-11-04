@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Improved `/sandbox` and the sandbox startup warning to name Ubuntu's AppArmor restriction on user namespaces, and how to lift it, when it keeps bubblewrap from starting the sandbox",
+  "zh": "Linux：改进了 `/sandbox` 和沙箱启动警告：当 Ubuntu 对用户命名空间的 AppArmor 限制导致 bubblewrap 无法启动沙箱时，现在会指明该限制及解除方法",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:51:06+00:00"
+}

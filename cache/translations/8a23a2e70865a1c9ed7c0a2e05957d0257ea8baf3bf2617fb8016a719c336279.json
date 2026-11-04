@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Artifact tool advising a retry when a publish that requests connectors or other access was refused by the server or a proxy (HTTP 403); it now says so and what to tell the user",
+  "zh": "修复了 Artifact 工具在请求 connector 或其他访问权限的发布被服务器或代理拒绝（HTTP 403）时仍建议重试的问题；现在会说明情况以及应告知用户的内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}

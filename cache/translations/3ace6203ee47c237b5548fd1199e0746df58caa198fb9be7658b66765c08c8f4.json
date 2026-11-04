@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added the date a stored claude.ai sign-in ends to `claude auth status` (`loginExpiresAt`) and to `claude -p` JSON results (`credential_expires_at`)",
+  "zh": "在 `claude auth status`（`loginExpiresAt`）和 `claude -p` 的 JSON 结果（`credential_expires_at`）中新增已存储的 claude.ai 登录到期日期",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:43:21+00:00"
+}

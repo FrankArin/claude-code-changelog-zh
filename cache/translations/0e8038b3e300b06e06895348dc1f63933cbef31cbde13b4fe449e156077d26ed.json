@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed edits to settings files made in the first second or so after launch not taking effect until a settings file changed again",
+  "zh": "修复了启动后约一秒内对设置文件的修改要等到设置文件再次变更才生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:44:05+00:00"
+}

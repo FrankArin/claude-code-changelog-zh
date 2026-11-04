@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "versions": [
+    "2.1.302"
+  ],
+  "tldr": "新增自动模式模型变量与空闲压缩开关，调整 -p 权限模式与 fork subagent 默认行为，并修复大量问题。",
+  "highlights": [
+    {
+      "title": "新增自动模式模型变量",
+      "category": "新功能",
+      "detail": "可用 CLAUDE_CODE_AUTO_MODE_MODEL 指定客户端自动模式分类器所用模型，不影响服务端自动模式。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_AUTO_MODE_MODEL",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.302-added-1"
+      ],
+      "version": "2.1.302"
+    },
+    {
+      "title": "空闲压缩可开关",
+      "category": "新功能",
+      "detail": "/config 新增 Idle compaction 一行，可关闭或重新开启空闲上下文压缩，压缩提示也会说明如何关闭。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/config",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.302-added-2"
+      ],
+      "version": "2.1.302"
+    },
+    {
+      "title": "-p 默认权限模式变更",
+      "category": "破坏性变更",
+      "detail": "claude -p 与 Agent SDK 未指定权限模式时，在第三方提供商、遥测关闭或全新安装下改为 default 模式；需自动模式请显式指定。",
+      "action": "如需自动模式，请显式传入 --permission-mode auto",
+      "example": {
+        "lang": "bash",
+        "code": "claude -p",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.302-changed-5"
+      ],
+      "version": "2.1.302"
+    },
+    {
+      "title": "fork subagent 默认开启",
+      "category": "破坏性变更",
+      "detail": "fork subagent 在 claude -p、Agent SDK、桌面应用和 VS Code 中默认开启，与终端一致；可用环境变量关闭。",
+      "action": "如不希望启用，设置 CLAUDE_CODE_FORK_SUBAGENT=0",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_FORK_SUBAGENT=0",
+        "caption": "关闭 fork subagent"
+      },
+      "item_ids": [
+        "2.1.302-changed-6"
+      ],
+      "version": "2.1.302"
+    },
+    {
+      "title": "大图读取内存修复",
+      "category": "安全",
+      "detail": "Read 工具不再把任意大小图片或类图片管道、设备整体载入内存，超过 128 MB 的图片来源会被拒绝。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.302-fixes-23"
+      ],
+      "version": "2.1.302"
+    },
+    {
+      "title": "插件启动与写入修复",
+      "category": "改进",
+      "detail": "大量 plugin 时启动更快，Windows 上尤为明显；claude plugin 等子命令不再在配置写入完成前退出而丢失更改。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.302-improvements-14",
+        "2.1.302-fixes-26"
+      ],
+      "version": "2.1.302"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "4011684c30eb368ea275aa2064126f5434f9e018caf4eebade0058e295f68a36"
+}

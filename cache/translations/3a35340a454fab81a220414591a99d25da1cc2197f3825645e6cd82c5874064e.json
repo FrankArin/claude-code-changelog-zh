@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin test` pausing a hook's time budget while a served `$` method it had called kept making `$` calls after answering",
+  "zh": "修复了 `claude plugin test` 在已调用的 `$` 方法回答后仍继续发起 `$` 调用时暂停 hook 时间预算的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-04T01:56:42+00:00"
+}
