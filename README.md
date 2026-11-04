@@ -96,7 +96,7 @@ python -m pipeline update --max-new 20
 python -m http.server 8000 -d dist
 ```
 
-打开 http://localhost:8000/。
+打开 `http://localhost:8000/`。
 
 `.env` 会被自动读取；已存在的环境变量优先，不会被覆盖。Windows Git Bash 下临时设置 `SITE_BASE` 时，命令前加 `MSYS_NO_PATHCONV=1`，否则 `/claude-code-changelog-zh` 会被转换成 `D:/Git/...`。
 
