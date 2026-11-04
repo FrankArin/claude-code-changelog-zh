@@ -9,7 +9,7 @@
       <span class="hero-label">最新版本</span>
       <a class="hero-version" href="{{ url('/v/' ~ latest.version ~ '/') }}">{{ latest.version }}</a>
       <span class="hero-date">{{ latest.date | date_cn }}</span>
-      <span class="hero-count">{{ stats['items'] }} 条更新 · {{ stats.versions }} 个版本</span>
+      <span class="hero-count">{{ stats['items'] | num }} 条更新 · {{ stats.versions | num }} 个版本</span>
     </div>
   </div>
   <aside class="hero-aside">

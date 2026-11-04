@@ -13,7 +13,7 @@
   <meta property="og:url" content="{{ canonical }}">
   <meta property="og:site_name" content="{{ site_name }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site_name }} RSS" href="{{ url('/rss.xml') }}">
-  <link rel="stylesheet" href="{{ url('/assets/style.css') }}">
+  <link rel="stylesheet" href="{{ url('/assets/style.css') }}?v={{ asset_version }}">
   <script>
     (function () {
       try {
@@ -53,6 +53,6 @@
     </div>
   </footer>
 
-  <script src="{{ url('/assets/app.js') }}" defer></script>
+  <script src="{{ url('/assets/app.js') }}?v={{ asset_version }}" defer></script>
 </body>
 </html>

@@ -278,6 +278,7 @@ def build_site(
     env.globals["site_url"] = site_url
     env.globals["site_base"] = site_base
     env.globals["build_time"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    env.globals["asset_version"] = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
 
     if dist.exists():
         shutil.rmtree(dist)

@@ -25,22 +25,36 @@ def category_slug(category: str) -> str:
     return CATEGORY_SLUGS.get(category, "other")
 
 
-def date_cn(value: str | None) -> str:
+def _num_span(value: str) -> str:
+    return f'<span class="num">{value}</span>'
+
+
+def num_filter(value: Any) -> Markup:
+    return Markup(_num_span(str(value)))
+
+
+def date_cn(value: str | None) -> str | Markup:
     if not value:
         return "日期未知"
     parts = value.split("-")
     if len(parts) != 3:
         return value
-    return f"{int(parts[0])} 年 {int(parts[1])} 月 {int(parts[2])} 日"
+    return Markup(
+        f"{_num_span(str(int(parts[0])))} 年 "
+        f"{_num_span(str(int(parts[1])))} 月 "
+        f"{_num_span(str(int(parts[2])))} 日"
+    )
 
 
-def month_cn(value: str | None) -> str:
+def month_cn(value: str | None) -> str | Markup:
     if not value or value == "unknown":
         return "日期未知"
     parts = value.split("-")
     if len(parts) < 2:
         return value
-    return f"{parts[0]} 年 {int(parts[1])} 月"
+    return Markup(
+        f"{_num_span(str(parts[0]))} 年 {_num_span(str(int(parts[1])))} 月"
+    )
 
 
 def inline_md(value: str | None) -> Markup:
@@ -67,4 +81,5 @@ def create_env(templates_dir: Path) -> Environment:
     env.filters["date_cn"] = date_cn
     env.filters["month_cn"] = month_cn
     env.filters["inline_md"] = inline_md
+    env.filters["num"] = num_filter
     return env

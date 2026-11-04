@@ -3,7 +3,7 @@
 <section class="page-head">
   <p class="eyebrow">全部版本</p>
   <h1>归档</h1>
-  <p class="lede">共 {{ stats.versions }} 个版本、{{ stats['items'] }} 条更新。输入版本号或关键词过滤。</p>
+  <p class="lede">共 {{ stats.versions | num }} 个版本、{{ stats['items'] | num }} 条更新。输入版本号或关键词过滤。</p>
 </section>
 
 <section class="search-box">
@@ -24,7 +24,7 @@
           data-text="{{ (version.summary.tldr if version.summary else '') ~ ' ' ~ version.version }}">
         <a class="version-main" href="{{ url('/v/' ~ version.version ~ '/') }}">
           <strong>{{ version.version }}</strong>
-          <span class="version-date">{{ version.date or '日期未知' }}</span>
+          <span class="version-date">{{ version.date | date_cn }}</span>
           <span class="version-count">{{ version.item_count }} 条</span>
           <span class="version-tldr">{{ version.summary.tldr if version.summary else '' }}</span>
         </a>

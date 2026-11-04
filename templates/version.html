@@ -13,6 +13,7 @@
       <button type="button" data-set-lang="en">English</button>
       <button type="button" data-set-lang="both">对照</button>
     </div>
+    <a class="jump-link" href="#items">查看逐条内容 ↓</a>
   </header>
 
   {% if version.summary %}
@@ -38,12 +39,25 @@
       {% endfor %}
     </ul>
     {% endif %}
+    <p class="summary-note">摘要为中文；逐条内容支持中英切换。</p>
   </section>
   {% endif %}
 
+  <div class="items-toolbar" id="items">
+    <div>
+      <p class="eyebrow">逐条内容</p>
+      <p class="items-note">按变更类型分组，默认中文；可切换 English 或对照。</p>
+    </div>
+    <div class="lang-switch" role="group" aria-label="逐条内容显示语言">
+      <button type="button" data-set-lang="zh" class="active">中文</button>
+      <button type="button" data-set-lang="en">English</button>
+      <button type="button" data-set-lang="both">对照</button>
+    </div>
+  </div>
+
   {% for group in version.groups %}
   <section class="group">
-    <h2>{{ group.heading_zh }} <span class="heading-en">{{ group.heading_en }}</span></h2>
+    <h2><span class="heading-zh">{{ group.heading_zh }}</span><span class="heading-en">{{ group.heading_en }}</span></h2>
     <ol class="items">
       {% for item in group['items'] %}
       <li class="item" id="{{ item.id | anchor }}">

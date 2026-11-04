@@ -27,7 +27,7 @@
   </ul>
 
   <h2>更新频率</h2>
-  <p>GitHub Actions 每小时检查一次。没有新版本就跳过，不产生翻译费用。当前已收录 {{ stats.versions }} 个版本、{{ stats['items'] }} 条更新，最新版本 {{ stats.latest }}（{{ stats.latest_date or '日期未知' }}）。</p>
+  <p>GitHub Actions 每小时检查一次。没有新版本就跳过，不产生翻译费用。当前已收录 {{ stats.versions | num }} 个版本、{{ stats['items'] | num }} 条更新，最新版本 <span class="num">{{ stats.latest }}</span>（{{ stats.latest_date or '日期未知' }}）。</p>
 
   <h2>非官方声明</h2>
   <p>本站是非官方社区项目，不隶属 Anthropic，也未获其背书。英文原文版权归 Anthropic PBC 所有；翻译仅供学习参考，英文原文为准。机器翻译可能存在错误，欢迎通过 issue 或 PR 纠错。收到权利方的下架要求时，会及时移除相关内容。</p>

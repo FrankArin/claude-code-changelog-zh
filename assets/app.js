@@ -23,7 +23,7 @@
   }
 
   var langButtons = document.querySelectorAll("[data-set-lang]");
-  function setLang(mode) {
+  function setLang(mode, options) {
     body.dataset.lang = mode;
     try {
       localStorage.setItem("lang-mode", mode);
@@ -33,6 +33,10 @@
       button.classList.toggle("active", active);
       button.setAttribute("aria-pressed", active ? "true" : "false");
     });
+    if (options && options.scroll && mode !== "zh") {
+      var anchor = document.getElementById("items");
+      if (anchor) anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
   if (langButtons.length) {
@@ -40,10 +44,12 @@
     try {
       savedLang = localStorage.getItem("lang-mode") || "zh";
     } catch (error) {}
-    setLang(savedLang);
+    setLang(savedLang, { scroll: false });
     langButtons.forEach(function (button) {
       button.addEventListener("click", function () {
-        setLang(button.dataset.setLang);
+        setLang(button.dataset.setLang, {
+          scroll: !button.closest("#items")
+        });
       });
     });
   }
