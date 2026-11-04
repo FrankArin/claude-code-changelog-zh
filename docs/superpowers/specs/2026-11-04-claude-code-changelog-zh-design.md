@@ -7,7 +7,7 @@
 
 ## 1. 背景与目标
 
-Claude Code 官方英文 changelog 位于 `https://code.claude.com/docs/en/changelog`，截至 2026-11-04 共 436 个版本、8,668 条条目、约 1.17 MB Markdown，平均每个版本 2,681 字符。官方中文文档站覆盖约 228 个页面，但 changelog 例外：`/docs/zh-CN/changelog` 返回 307，重定向到 GitHub 英文原文。
+Claude Code 官方英文 changelog 位于 `https://code.claude.com/docs/en/changelog`，截至 2026-11-04 共 436 个版本、8,668 条条目、约 1.17 MB Markdown，平均每个版本 2,681 字符。官方中文文档站覆盖约 228 个页面，但 changelog 例外：`/docs/zh-CN/changelog` 返回 HTTP 307（临时重定向），重定向到 GitHub 英文原文。
 
 目标：为中文用户提供一个自动更新、零安装、可直接阅读的 Claude Code 更新日志站。读者不需要安装 Claude Code，也不区分使用 Claude CLI、Claude Desktop 还是手机浏览器。
 
