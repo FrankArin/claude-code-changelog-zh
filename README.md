@@ -126,7 +126,7 @@ python -m pipeline verify
 
 ## 成本
 
-日常每天新增约 4 个版本，按 DeepSeek 价格估算，成本为几分钱到几毛钱。全量 436 个版本回填预计几元到十几元，以实际 token 计费为准。
+日常每天新增约 1 个版本（发版密集时一天多版），按 DeepSeek 价格估算，成本为几分钱到几毛钱。全量 436 个版本回填预计几元到十几元，以实际 token 计费为准。
 
 `data/state.json` 记录最近 90 天的 token 用量，`LLM_MAX_ITEMS_PER_RUN` 防止单次运行失控。
 
