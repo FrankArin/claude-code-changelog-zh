@@ -170,6 +170,7 @@ python -m unittest discover -s tests -t .
 
 - 本项目是非官方社区项目，不隶属 Anthropic，也未获其背书。
 - 英文原文版权归 Anthropic PBC 所有；翻译仅供学习参考，英文原文为准。
+- Clawd 形象版权归 Anthropic 所有，不在本站代码的 MIT 许可范围内；本项目为非官方、非商业使用。
 - 机器翻译可能存在错误，欢迎通过 issue 或 PR 纠错。
 - 收到权利方的下架要求时，会及时移除相关内容。
 

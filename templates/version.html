@@ -3,7 +3,7 @@
 <article class="version-page">
   <header class="version-head">
     <p class="eyebrow"><a href="{{ url('/') }}">首页</a> / <a href="{{ url('/archive/') }}">归档</a> / {{ version.version }}</p>
-    <h1>Claude Code {{ version.version }}</h1>
+    <h1>Claude Code <span class="version-number">{{ version.version }}</span></h1>
     <p class="meta">
       {{ version.date | date_cn }} · {{ version.item_count }} 条更新 ·
       <a href="https://code.claude.com/docs/en/changelog" rel="noopener noreferrer">英文原文</a>
