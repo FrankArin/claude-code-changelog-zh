@@ -1,15 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="hero">
-  <p class="eyebrow">非官方简体中文翻译</p>
-  <h1>Claude Code <span class="nowrap">更新日志</span></h1>
-  <p class="lede">摘要优先，全文兜底。每天用一分钟看完更新；需要排查时，再点进版本页逐条对照。</p>
-  <div class="hero-latest">
-    <span class="hero-label">最新版本</span>
-    <a class="hero-version" href="{{ url('/v/' ~ latest.version ~ '/') }}">{{ latest.version }}</a>
-    <span class="hero-date">{{ latest.date | date_cn }}</span>
-    <span class="hero-count">{{ stats['items'] }} 条更新 · {{ stats.versions }} 个版本</span>
+  <div class="hero-copy">
+    <p class="eyebrow">非官方简体中文翻译</p>
+    <h1>Claude Code <span class="nowrap">更新日志</span></h1>
+    <p class="lede">摘要优先，全文兜底。每天用一分钟看完更新；需要排查时，再点进版本页逐条对照。</p>
+    <div class="hero-latest">
+      <span class="hero-label">最新版本</span>
+      <a class="hero-version" href="{{ url('/v/' ~ latest.version ~ '/') }}">{{ latest.version }}</a>
+      <span class="hero-date">{{ latest.date | date_cn }}</span>
+      <span class="hero-count">{{ stats['items'] }} 条更新 · {{ stats.versions }} 个版本</span>
+    </div>
   </div>
+  <aside class="hero-aside">
+    <img class="hero-clawd" src="{{ url('/assets/clawd-pixel.svg') }}" alt="Clawd 像素螃蟹" width="96" height="96">
+    <span class="mascot-caption">Clawd</span>
+  </aside>
 </section>
 
 <section class="section">
