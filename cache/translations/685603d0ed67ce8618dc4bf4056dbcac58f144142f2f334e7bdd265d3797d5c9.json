@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Artifact database calls being re-sent to artifacts without a database; errors now say whether republishing helps",
+  "zh": "修复 Artifact 数据库调用被重新发送到没有数据库的 artifact 的问题；错误信息现在会说明重新发布是否有帮助",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP servers on the older handshake failing to connect, or returning empty results, because Claude Code declared an extension that it only uses with newer servers",
+  "zh": "修复了使用较旧握手的 MCP 服务器因 Claude Code 声明了仅用于较新服务器的扩展而无法连接或返回空结果的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

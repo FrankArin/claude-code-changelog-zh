@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Code Review] Changed unlinking a GitHub organization to also turn off its All repositories setting in Code Review; it stays off after you relink until you turn it back on",
+  "zh": "[Code Review] 变更了解绑 GitHub 组织的操作，现在还会关闭其在 Code Review 中的 All repositories 设置；重新关联后该设置会保持关闭，直到你重新开启",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

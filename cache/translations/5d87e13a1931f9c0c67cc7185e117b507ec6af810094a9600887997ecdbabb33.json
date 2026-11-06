@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Bash permission bypass where a crafted environment prefix could hide part of a command from permission checks",
+  "zh": "修复了精心构造的环境变量前缀可使命令的一部分对权限检查隐藏、从而绕过 Bash 权限的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

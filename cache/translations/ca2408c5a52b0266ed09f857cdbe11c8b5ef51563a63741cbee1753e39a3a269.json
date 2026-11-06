@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated `/claude-api managed-agents-onboard` templates to match the Claude Console: removed Performance tuner, renamed two, and turned off web search and fetch in five whose prompts don't use them",
+  "zh": "更新 `/claude-api managed-agents-onboard` 模板以匹配 Claude Console：移除 Performance tuner，重命名两个模板，并在五个 prompt 未使用 web search 和 fetch 的模板中关闭这两项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

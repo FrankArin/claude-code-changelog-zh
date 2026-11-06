@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where auto mode was wrongly refused when a client sent a model change and a request for auto mode back to back",
+  "zh": "修复了当客户端连续发送模型变更和自动模式请求时，自动模式被错误拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

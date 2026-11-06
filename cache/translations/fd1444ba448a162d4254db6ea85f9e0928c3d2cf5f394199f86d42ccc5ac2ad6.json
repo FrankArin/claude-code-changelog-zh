@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where certificate errors behind a TLS-inspecting proxy persisted when `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` was set. With it set, Claude Code now makes a TLS handshake with the configured API host after a certificate failure, through your http:// proxy if one is set; it sends no API request",
+  "zh": "修复了以下问题：设置 `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` 后，TLS 检查代理后面的证书错误仍会持续存在。设置该变量后，Claude Code 现在会在证书失败后与配置的 API 主机进行 TLS 握手，如果设置了 http:// 代理则通过该代理进行；不会发送任何 API 请求",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

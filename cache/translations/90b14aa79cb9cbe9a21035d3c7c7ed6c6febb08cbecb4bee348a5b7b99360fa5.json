@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed artifact database saves of rows others may have written: each file gets a hidden marker file, and existing files without one, earlier versions' exports among them, are left alone and reported",
+  "zh": "变更 artifact 数据库对可能由他人写入的行的保存：每个文件都会获得一个隐藏标记文件，没有标记文件的现有文件（包括早期版本的导出文件）保持不动并会被报告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

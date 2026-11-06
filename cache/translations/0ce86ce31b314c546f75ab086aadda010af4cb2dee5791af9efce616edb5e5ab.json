@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed self-paced `/loop` to end when a turn finishes without rescheduling, instead of scheduling a fallback wakeup; set `CLAUDE_CODE_LOOP_KEEPALIVE=1` to keep the old behavior",
+  "zh": "变更自定节奏的 `/loop`：当某一轮结束且未重新调度时即结束，不再调度回退唤醒；设置 `CLAUDE_CODE_LOOP_KEEPALIVE=1` 可保留旧行为",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

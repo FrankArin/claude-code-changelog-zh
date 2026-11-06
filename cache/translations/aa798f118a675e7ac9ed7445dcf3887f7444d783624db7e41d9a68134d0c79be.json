@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p --resume` with a prompt losing a deferred tool call when its MCP server is missing: the run now exits 1, keeps the call and refuses later input",
+  "zh": "修复了 `claude -p --resume` 带 prompt 时，在其 MCP 服务器缺失的情况下丢失延迟工具调用的问题：现在该次运行以 1 退出，保留该调用并拒绝后续输入",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

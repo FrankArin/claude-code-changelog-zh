@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude remote-control` ignoring a piped `y` that has no newline after it at the first-run question; it now counts as a yes",
+  "zh": "修复了 `claude remote-control` 在首次运行问题中忽略后面没有换行符的管道输入 `y` 的问题；现在会将其视为确认",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

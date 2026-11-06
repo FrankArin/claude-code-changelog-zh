@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a config file left at the legacy name hiding your setup with no warning: Claude Code now says on stderr when a home holds two config files, and which is in use",
+  "zh": "修复了配置文件保留旧名称时会无警告地隐藏你的配置的问题：现在当主目录中存在两个配置文件时，Claude Code 会在 stderr 上说明，并指出正在使用哪一个",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

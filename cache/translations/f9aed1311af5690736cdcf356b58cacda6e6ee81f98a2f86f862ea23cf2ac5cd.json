@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an \"Earlier in this session\" row to `/tasks` that lists finished subagents, so you can reopen one and message it even after it leaves the list or you restart",
+  "zh": "为 `/tasks` 新增“Earlier in this session”行，列出已完成的 subagent，以便即使它已离开列表或你已重启，也能重新打开并向其发送消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

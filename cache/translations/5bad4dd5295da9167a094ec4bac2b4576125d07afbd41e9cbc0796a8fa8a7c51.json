@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the contrast of faint gray secondary text, such as hints, details in `/stats`, `/model` and `/sandbox`, and rejected-action messages",
+  "zh": "改进了浅灰色次要文本的对比度，例如提示、`/stats`、`/model` 和 `/sandbox` 中的详情，以及操作被拒绝的消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

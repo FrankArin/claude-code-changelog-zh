@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mod's hot reload in `.claude/skills` missing a file that was deleted just after it appeared, and missing its return",
+  "zh": "修复 `.claude/skills` 中 mod 的热重载遗漏刚出现后即被删除的文件，以及遗漏其返回的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

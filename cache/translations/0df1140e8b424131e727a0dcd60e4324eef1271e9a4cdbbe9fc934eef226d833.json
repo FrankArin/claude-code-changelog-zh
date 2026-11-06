@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed hidden commands appearing in the slash command menu of cloud sessions on mobile and web",
+  "zh": "修复了隐藏命令出现在移动端和网页版云 session 的斜杠命令菜单中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

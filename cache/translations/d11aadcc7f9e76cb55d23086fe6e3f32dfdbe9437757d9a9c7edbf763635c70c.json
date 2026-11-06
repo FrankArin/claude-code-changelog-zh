@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added spend for today, this week and this month to `/usage` for developers behind a Claude apps gateway who have no spend limit, when the gateway runs this version or later",
+  "zh": "为位于 Claude 应用网关之后、没有用量限制的开发者，在 `/usage` 中新增今日、本周和本月的支出，前提是网关运行此版本或更高版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

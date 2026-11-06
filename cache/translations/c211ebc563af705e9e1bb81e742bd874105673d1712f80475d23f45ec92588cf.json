@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Gateway: Added a start-up log warning when managed settings name an Amazon Bedrock guardrail in a header, which the gateway doesn't forward, and no `bedrock` upstream sets a `guardrail`",
+  "zh": "网关：新增启动日志警告，当托管设置在 header 中指定 Amazon Bedrock guardrail（网关不会转发该 header），且没有 `bedrock` 上游设置 `guardrail` 时触发",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

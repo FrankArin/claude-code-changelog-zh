@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where deny and ask rules, hook matchers and `disallowedTools` entries written with a claude.ai connector's terminal name (`mcp__claude_ai_Slack`) were ignored in Claude Desktop (takes effect once Claude Desktop includes this version)",
+  "zh": "修复了以下问题：在 Claude Desktop 中，使用 claude.ai connector 的终端名称（`mcp__claude_ai_Slack`）编写的 deny 和 ask 规则、hook 匹配器以及 `disallowedTools` 条目会被忽略（Claude Desktop 包含此版本后生效）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

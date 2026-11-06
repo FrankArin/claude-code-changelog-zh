@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Gateway: Fixed Claude Desktop offering a web search tool that always failed when every upstream is Amazon Bedrock",
+  "zh": "网关：修复当所有上游均为 Amazon Bedrock 时，Claude Desktop 提供始终失败的 web search 工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

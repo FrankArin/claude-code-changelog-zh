@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode behind an LLM gateway: `CLAUDE_CODE_AUTO_MODE_SERVER=1` turns on the server-side check even with `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS` set; if managed settings set the latter, they must set the `1` too",
+  "zh": "变更了位于 LLM 网关之后的自动模式：即使设置了 `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`，`CLAUDE_CODE_AUTO_MODE_SERVER=1` 也会开启服务端检查；如果托管设置设置了后者，则必须同时设置 `1`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

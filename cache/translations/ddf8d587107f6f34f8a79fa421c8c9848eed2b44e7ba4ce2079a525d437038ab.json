@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Monitor's WebSocket watch to follow a rule on every Bash command: a deny refuses it, and under an ask rule an allow on Monitor, bypass mode or auto mode no longer skips the prompt",
+  "zh": "变更 Monitor 的 WebSocket 监视，使其对每条 Bash 命令都遵循规则：deny 规则会拒绝该命令；在 ask 规则下，Monitor 上的 allow、bypass 模式或自动模式都不再跳过权限提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

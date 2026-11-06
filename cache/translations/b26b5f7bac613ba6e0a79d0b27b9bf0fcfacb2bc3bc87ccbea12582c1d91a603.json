@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added start-up warnings to the Claude apps gateway for policies with no `desktopHome` that rely on `coworkTabEnabled: false` or `chatSessionRetentionDays`, ahead of Claude Desktop's November 10 change",
+  "zh": "为 Claude 应用网关新增启动警告，针对没有 `desktopHome` 却依赖 `coworkTabEnabled: false` 或 `chatSessionRetentionDays` 的策略，以应对 Claude Desktop 11 月 10 日的变更",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

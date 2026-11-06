@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/clear` killing running commands of background agents, teammates and workflows that keep running, and foreground subagents of background agents and teammates",
+  "zh": "修复了 `/clear` 会终止仍在运行的后台 agent、队友和工作流的命令，以及后台 agent 和队友的前台 subagent 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

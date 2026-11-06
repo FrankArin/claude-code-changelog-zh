@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/claude-api latency-optimize` to find where your Claude API code makes people wait and try faster settings against your eval",
+  "zh": "新增 `/claude-api latency-optimize`，用于找出你的 Claude API 代码中让人等待的地方，并针对你的评估尝试更快的设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

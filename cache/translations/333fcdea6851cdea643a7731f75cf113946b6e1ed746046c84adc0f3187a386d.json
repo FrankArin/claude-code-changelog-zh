@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Bash tool's diff of changed files missing a file that the command wrote just before it ended",
+  "zh": "修复 Bash 工具对已更改文件的 diff 遗漏命令结束前刚写入的文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

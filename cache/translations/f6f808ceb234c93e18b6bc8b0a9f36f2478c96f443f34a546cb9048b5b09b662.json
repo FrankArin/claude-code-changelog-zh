@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Monitor's WebSocket watch failing with \"could not resolve\" behind a proxy when `CLAUDE_CODE_PROXY_RESOLVES_HOSTS` is set and the machine has no DNS of its own",
+  "zh": "修复在设置 `CLAUDE_CODE_PROXY_RESOLVES_HOSTS` 且机器自身无 DNS 时，Monitor 的 WebSocket 监听在代理后因“could not resolve”失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

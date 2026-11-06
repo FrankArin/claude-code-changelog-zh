@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `--add-dir` directories to register plugin marketplaces only once that directory's own trust dialog has been accepted",
+  "zh": "变更 `--add-dir` 目录：只有在该目录自身的信任对话框被接受后，才会注册 plugin marketplace",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

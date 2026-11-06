@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where Bash deny and ask rules missed commands written with quoted words",
+  "zh": "修复了 Bash 拒绝和询问规则漏掉使用带引号词语编写的命令的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

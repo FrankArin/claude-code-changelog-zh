@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a line at startup naming the Claude Console organization that is billed in a case where Claude Code uses the sign-in from `ant auth login`",
+  "zh": "新增启动时的一行提示，说明在 Claude Code 使用来自 `ant auth login` 的登录的情况下，计费的是哪个 Claude Console 组织",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

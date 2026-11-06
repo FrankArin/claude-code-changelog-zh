@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background tasks that keep running after `/clear` disappearing from the task list in Claude Code on the web until another task started or ended",
+  "zh": "修复了 `/clear` 后仍在运行的后台任务在 Claude Code 网页版的任务列表中消失、直到有其他任务开始或结束才重新出现的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

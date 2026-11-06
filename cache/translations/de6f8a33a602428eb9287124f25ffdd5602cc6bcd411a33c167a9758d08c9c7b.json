@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/context` sending its full visual grid to Claude on every later turn; Claude now reads only the table",
+  "zh": "修复了 `/context` 在之后的每一轮都会把完整可视化网格发送给 Claude 的问题；Claude 现在只读取表格",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

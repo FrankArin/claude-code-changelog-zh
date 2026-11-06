@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed needless permission prompts for read-only commands wrapped in a plain `timeout DURATION`, such as `timeout 30 rg foo`",
+  "zh": "修复对包裹在普通 `timeout DURATION` 中的只读命令（如 `timeout 30 rg foo`）产生不必要的权限提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the refusal for a path outside the working directories on macOS and Windows: when only its letter case differs from a path inside them, the message names that spelling",
+  "zh": "改进了 macOS 和 Windows 上对工作目录之外路径的拒绝提示：当该路径与工作目录内路径仅大小写不同时，消息会指出该拼写",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

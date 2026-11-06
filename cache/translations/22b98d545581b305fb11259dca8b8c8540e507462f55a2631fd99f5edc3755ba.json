@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/usage` in cloud sessions: it now links to Settings → Usage on claude.ai in a case where plan limits can't be shown",
+  "zh": "改进云 session 中的 `/usage`：在无法显示套餐限额的情况下，现在会链接到 claude.ai 上的 Settings → Usage",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

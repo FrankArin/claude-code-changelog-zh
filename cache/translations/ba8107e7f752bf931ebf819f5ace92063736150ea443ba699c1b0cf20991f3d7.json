@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where `NotebookEdit` changed the wrong cell when the notebook changed while a permission prompt was open",
+  "zh": "修复当权限提示打开期间 notebook 发生变化时，`NotebookEdit` 修改错误单元格的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

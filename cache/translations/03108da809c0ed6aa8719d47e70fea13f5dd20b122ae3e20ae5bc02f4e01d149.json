@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed detailed beta tracing not presenting `CLAUDE_CODE_CLIENT_CERT` to collectors that require a client certificate",
+  "zh": "修复详细 beta 追踪未向要求客户端证书的收集器提供 `CLAUDE_CODE_CLIENT_CERT` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

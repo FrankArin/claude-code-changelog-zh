@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed help links in `/status` and the auto mode billing notice opening only part of the address when they wrap",
+  "zh": "修复了 `/status` 中的帮助链接以及自动模式计费提示在换行时只打开部分地址的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

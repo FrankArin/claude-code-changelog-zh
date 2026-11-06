@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a note to `/loop` confirmations in cloud sessions that a timer stops with its container, with an offer of a loop that survives",
+  "zh": "在云 session 的 `/loop` 确认信息中新增说明：计时器会随其容器停止，并提供可存活的 loop 选项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

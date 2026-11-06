@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP tasks to work in the terminal without feature-flag fetching (Bedrock, Vertex, Foundry, LLM gateways, `DISABLE_TELEMETRY`); set `CLAUDE_CODE_DISABLE_MCP_TASKS=1` to turn them off",
+  "zh": "变更 MCP 任务，使其在终端中无需获取功能标志即可工作（Bedrock、Vertex、Foundry、LLM 网关、`DISABLE_TELEMETRY`）；设置 `CLAUDE_CODE_DISABLE_MCP_TASKS=1` 可将其关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

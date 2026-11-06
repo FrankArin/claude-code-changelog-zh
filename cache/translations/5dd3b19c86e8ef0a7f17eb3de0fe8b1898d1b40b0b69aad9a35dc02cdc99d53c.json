@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/context` at the terminal so the table Claude reads stays short: each list keeps its 10 largest rows, and MCP tools that load on demand share one row per server until they're called",
+  "zh": "改进终端中的 `/context`，让 Claude 读取的表格保持简短：每个列表只保留最大的 10 行，按需加载的 MCP 工具在被调用前按服务器合并为一行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

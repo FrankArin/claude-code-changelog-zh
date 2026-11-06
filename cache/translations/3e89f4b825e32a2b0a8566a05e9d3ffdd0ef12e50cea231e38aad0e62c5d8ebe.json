@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an optional `login_notice` setting to the Claude apps gateway that shows an operator-defined message on the gateway's browser verification page and on Claude Code's sign-in screen",
+  "zh": "为 Claude 应用网关新增可选的 `login_notice` 设置，可在网关的浏览器验证页面和 Claude Code 的登录界面上显示由运维人员定义的消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

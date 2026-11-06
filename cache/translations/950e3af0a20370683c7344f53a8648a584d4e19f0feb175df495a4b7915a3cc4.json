@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the agents view appearing to send a reply to a background session waiting on a permission prompt; the reply now stays in the box with a hint to open the session and answer",
+  "zh": "修复了 agents 视图看似向等待权限提示的后台 session 发送回复的问题；回复现在会留在输入框中，并提示打开该 session 进行回答",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

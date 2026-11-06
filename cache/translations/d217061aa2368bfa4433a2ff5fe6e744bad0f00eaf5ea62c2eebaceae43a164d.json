@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the artifact database error when an update targets a document that does not exist, and when the service pauses repeated refused writes",
+  "zh": "改进了 artifact 数据库错误提示：当更新目标文档不存在时，以及当服务暂停重复被拒绝的写入时",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

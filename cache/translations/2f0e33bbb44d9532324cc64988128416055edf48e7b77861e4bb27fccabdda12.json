@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed PostToolUse hooks to run, with up to 10 seconds to finish, on tool calls that finish after a new message interrupts the turn",
+  "zh": "变更 PostToolUse hook：当新消息中断该轮后，对随后完成的工具调用仍会运行，最多有 10 秒完成时间",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

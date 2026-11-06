@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mistyped model name, such as `opus-5-5`, telling you to update Claude Code instead of suggesting the model you meant",
+  "zh": "修复模型名拼写错误（如 `opus-5-5`）时提示更新 Claude Code，而不是建议你原本想用的模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

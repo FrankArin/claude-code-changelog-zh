@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/status` showing \"Auto mode server: Enabled\" when the server-side review isn't reaching the session, for example behind an LLM gateway that drops it",
+  "zh": "修复了当服务端审查未能到达 session（例如经过会丢弃该审查的 LLM 网关）时，`/status` 仍显示“Auto mode server: Enabled”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

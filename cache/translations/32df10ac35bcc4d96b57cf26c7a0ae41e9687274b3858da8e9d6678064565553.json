@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed `CLAUDE_RUNNER_CHECKOUT_PATH` so that each repository in a session gets its own folder: a folder name already taken in the session gets `-2`, `-3`, … at the end",
+  "zh": "自托管运行器：变更 `CLAUDE_RUNNER_CHECKOUT_PATH`，使 session 中的每个仓库获得独立文件夹：session 中已被占用的文件夹名会在末尾追加 `-2`、`-3`、…",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

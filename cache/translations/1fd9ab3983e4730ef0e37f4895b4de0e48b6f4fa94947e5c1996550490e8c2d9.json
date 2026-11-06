@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed subagents being told after compaction to expect a completion notice for background agents they neither started nor took over",
+  "zh": "修复了 subagents 在上下文压缩后被要求等待其既未启动也未接管的 background agents 完成通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

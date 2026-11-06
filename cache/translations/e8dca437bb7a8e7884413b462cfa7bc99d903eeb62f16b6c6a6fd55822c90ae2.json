@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+G not opening the external editor while typing an \"Other\" answer to a question in screen reader mode",
+  "zh": "修复在屏幕阅读器模式下回答问题的“Other”选项时，Ctrl+G 无法打开外部编辑器的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

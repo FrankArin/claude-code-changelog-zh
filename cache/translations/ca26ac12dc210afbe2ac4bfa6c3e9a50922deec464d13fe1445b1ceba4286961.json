@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed cloud sessions to drop session-scoped allow rules at a move to a new worker when their deny and ask rules can't all be kept, so you may be asked again",
+  "zh": "变更云 session：迁移到新运行器时，若 session 级 allow 规则无法与其 deny 和 ask 规则全部保留，则丢弃这些 allow 规则，因此可能会再次询问你",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

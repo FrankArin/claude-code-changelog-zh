@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the agents view preview cutting off long commands, results and status lines without an ellipsis, and dropping `**`, backticks and tags from commands waiting for approval",
+  "zh": "修复了 agents 视图预览截断长命令、结果和状态行时没有省略号，以及从等待批准的命令中丢失 `**`、反引号和标签的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

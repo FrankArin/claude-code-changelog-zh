@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed what Claude is told after safeguards stop a subagent: retry with a narrower prompt or tell you, instead of doing the work itself",
+  "zh": "变更安全防护阻止 subagent 后告知 Claude 的内容：改用更窄的 prompt 重试或告知你，而不是自行完成工作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}

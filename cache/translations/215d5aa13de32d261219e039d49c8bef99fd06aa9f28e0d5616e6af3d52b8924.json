@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_GATEWAY_LOG_FORMAT=json` to the Claude apps gateway: operational log lines become JSON with `severity`, `time` and `message`, for log collectors that read the level from a field",
+  "zh": "为 Claude 应用网关新增 `CLAUDE_GATEWAY_LOG_FORMAT=json`：运维日志行将变为包含 `severity`、`time` 和 `message` 的 JSON，供从字段读取级别的日志收集器使用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T18:59:18+00:00"
+}
