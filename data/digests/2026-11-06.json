@@ -4,12 +4,12 @@
   "versions": [
     "2.1.319"
   ],
-  "tldr": "新增 MCP 任务后台运行、权限拒绝替代提示等能力，并修复大量安全与稳定性问题。",
+  "tldr": "新增 MCP 任务后台化、权限拒绝替代提示等多项功能，并修复大量安全与稳定性问题。",
   "highlights": [
     {
       "title": "MCP 任务支持后台运行",
       "category": "新功能",
-      "detail": "MCP 服务器以任务方式运行工具调用时，Claude Code 会立即将其移至后台，完成后再告知 Claude 结果；可用 CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND 关闭。",
+      "detail": "MCP 服务器以任务方式运行工具调用时，Claude Code 会立即将其移至后台，并在完成时告知 Claude 结果；可用 CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND 改为等待。",
       "action": null,
       "example": {
         "lang": "bash",
@@ -17,80 +17,80 @@
         "caption": "相关环境变量"
       },
       "item_ids": [
-        "2.1.319-other-3",
-        "2.1.319-other-4",
-        "2.1.319-other-107"
+        "2.1.319-added-1",
+        "2.1.319-added-2"
       ],
       "version": "2.1.319"
     },
     {
       "title": "新增权限拒绝替代提示设置",
       "category": "新功能",
-      "detail": "permissions.denyInsteadOfPrompting 让本会等待权限提示的工具调用直接拒绝，并继续该轮次，适用于终端 session、subagent 和队友。",
+      "detail": "permissions.denyInsteadOfPrompting 让本会等待权限提示的工具调用被直接拒绝，且该轮次继续执行，适用于终端 session、subagent 和队友。",
       "action": null,
       "example": null,
       "item_ids": [
-        "2.1.319-other-5"
+        "2.1.319-added-3"
       ],
       "version": "2.1.319"
     },
     {
-      "title": "自动模式服务端检查行为变更",
+      "title": "自动模式在网关后行为变更",
       "category": "破坏性变更",
-      "detail": "关闭遥测或功能开关后，服务器无法检查的调用会被询问或拒绝，不再回退内置分类器；位于 LLM 网关后时需显式设置 CLAUDE_CODE_AUTO_MODE_SERVER=1。",
-      "action": "若依赖内置分类器或位于 LLM 网关之后，请设置 CLAUDE_CODE_AUTO_MODE_SERVER=0 或 =1 以保持预期行为。",
+      "detail": "关闭遥测或功能开关（含 LLM 网关后）时，服务器无法检查的调用会被询问或拒绝，不再回退内置分类器；需设置 CLAUDE_CODE_AUTO_MODE_SERVER=0 保留旧行为。",
+      "action": "如需继续使用内置分类器回退，请设置 CLAUDE_CODE_AUTO_MODE_SERVER=0；若托管设置已开启服务端检查，还需同时设置 CLAUDE_CODE_AUTO_MODE_SERVER=1。",
       "example": {
         "lang": "bash",
         "code": "CLAUDE_CODE_AUTO_MODE_SERVER=0",
-        "caption": "继续使用内置分类器"
+        "caption": "配置示例"
       },
       "item_ids": [
-        "2.1.319-other-1",
-        "2.1.319-other-2",
-        "2.1.319-other-79"
+        "2.1.319-changed-19",
+        "2.1.319-changed-20"
+      ],
+      "version": "2.1.319"
+    },
+    {
+      "title": "代理与设置变量限制",
+      "category": "破坏性变更",
+      "detail": "CLAUDE_CODE_PROXY_RESOLVES_HOSTS 不能再由设置文件设置，须在进程环境中设置；TLS 检查代理的自动证书修复在仅设置 ALL_PROXY 时不再运行。",
+      "action": "将 CLAUDE_CODE_PROXY_RESOLVES_HOSTS 移到进程环境；若仅用 ALL_PROXY，请改为设置 HTTPS_PROXY 为该代理的 http:// URL。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_PROXY_RESOLVES_HOSTS",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.319-changed-24",
+        "2.1.319-changed-33"
       ],
       "version": "2.1.319"
     },
     {
       "title": "修复多项权限绕过漏洞",
       "category": "安全",
-      "detail": "修复了 sed 在 accept-edits 和自动模式下跳过权限检查、环境变量前缀隐藏命令绕过 Bash 权限、worktree 创建沙箱逃逸等问题。",
+      "detail": "修复了 sed 在 accept-edits 和自动模式下可能跳过权限检查、构造环境变量前缀隐藏命令绕过 Bash 权限、以及创建 worktree 时的沙箱逃逸问题。",
       "action": null,
       "example": null,
       "item_ids": [
-        "2.1.319-other-78",
-        "2.1.319-other-80",
-        "2.1.319-other-82"
+        "2.1.319-fixes-117",
+        "2.1.319-fixes-119",
+        "2.1.319-fixes-121"
       ],
       "version": "2.1.319"
     },
     {
-      "title": "新增 /claude-api latency-optimize",
-      "category": "新功能",
-      "detail": "用于找出 Claude API 代码中的等待点，并针对评估尝试更快的设置。",
+      "title": "修复磁盘写满导致配置损坏",
+      "category": "修复",
+      "detail": "修复只读文件夹或 bind 挂载保存时磁盘写满导致 ~/.claude.json、设置和已编辑文件变空或被截断的问题；Windows 上保存也更不易被中断损坏。",
       "action": null,
-      "example": {
-        "lang": "bash",
-        "code": "/claude-api latency-optimize",
-        "caption": "命令示例"
-      },
-      "item_ids": [
-        "2.1.319-other-6"
-      ],
-      "version": "2.1.319"
-    },
-    {
-      "title": "移除 Chrome 快捷方式工具",
-      "category": "破坏性变更",
-      "detail": "内置 Claude in Chrome 工具中移除了 shortcuts_list 和 shortcuts_execute，依赖它们的流程将失效。",
-      "action": "改用其他方式列出并启动扩展中保存的快捷方式。",
       "example": null,
       "item_ids": [
-        "2.1.319-other-122"
+        "2.1.319-fixes-80",
+        "2.1.319-improvements-41"
       ],
       "version": "2.1.319"
     }
   ],
   "breaking": true,
-  "summary_hash": "9c9c44368da5c0c8512677e8f0ed47e3262946b0cc77b6c47d93d4abd55a93b0"
+  "summary_hash": "8a34c1e7a89a9416a6cd508a6fe9db700ecba25b1aa29a0a7b2597dd802db355"
 }

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the `claude-vscode.toggleDictation` command starting dictation in every open Claude view at once; it now acts only in the view you are using, and a second press stops it",
+  "zh": "\\[VSCode] 修复了 `claude-vscode.toggleDictation` 命令会同时在所有打开的 Claude 视图中启动听写的问题；现在只在你正在使用的视图中生效，再次按下即可停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T23:42:45+00:00"
+}

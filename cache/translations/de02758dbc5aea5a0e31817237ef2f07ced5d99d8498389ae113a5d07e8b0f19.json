@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the chat panel slowing down while a reply with many unclosed `$$` math fences, each shorter than the last, streams in",
+  "zh": "\\[VSCode] 修复了在流式接收包含大量未闭合 `$$` 数学公式围栏（每个都比前一个短）的回复时聊天面板变慢的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T23:42:45+00:00"
+}

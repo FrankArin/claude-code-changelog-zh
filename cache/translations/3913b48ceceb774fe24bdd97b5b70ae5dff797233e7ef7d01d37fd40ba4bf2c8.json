@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed scheduled tasks silently dropping a connector named memory: runs now keep it, mounted under that name plus a short suffix",
+  "zh": "\\[Cloud sessions] 修复了计划任务会静默丢弃名为 memory 的 connector 的问题：运行现在会保留它，挂载名称为该名称加一个短后缀",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T23:42:45+00:00"
+}

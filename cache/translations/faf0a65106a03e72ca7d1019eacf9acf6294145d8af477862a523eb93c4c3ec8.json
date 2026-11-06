@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed Send now on a waiting message in cloud sessions ending running background agents; they now keep running",
+  "zh": "\\[Cloud sessions] 修复了在 cloud sessions 中对等待中的消息点击 Send now 会终止正在运行的 background agents 的问题；它们现在会继续运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-06T23:42:45+00:00"
+}
