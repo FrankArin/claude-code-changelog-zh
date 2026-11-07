@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed CMYK JPEG images failing to attach with \"cannot decode\"; they are now converted and resized like other JPEGs",
+  "zh": "修复了 CMYK JPEG 图片因“cannot decode”而无法附加的问题；现在会像其他 JPEG 一样进行转换和缩放",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

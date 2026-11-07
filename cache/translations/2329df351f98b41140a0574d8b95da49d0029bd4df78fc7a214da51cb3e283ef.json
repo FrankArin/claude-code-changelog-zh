@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/resume` and `/continue` showing only 1-2 sessions in fullscreen mode on short terminals",
+  "zh": "修复在高度较小的终端上，全屏模式下 `/resume` 和 `/continue` 只显示 1-2 个 session 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

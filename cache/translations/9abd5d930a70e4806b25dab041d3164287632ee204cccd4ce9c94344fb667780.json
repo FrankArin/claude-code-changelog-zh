@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed every turn failing with HTTP 400 on third-party Anthropic-compatible endpoints (`ANTHROPIC_BASE_URL`) since 2.1.265: a regex in the Artifact tool's input schema that those endpoints reject",
+  "zh": "修复自 2.1.265 起在第三方 Anthropic 兼容端点（`ANTHROPIC_BASE_URL`）上每轮都因 HTTP 400 失败的问题：原因是 Artifact 工具输入 schema 中的正则表达式被这些端点拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

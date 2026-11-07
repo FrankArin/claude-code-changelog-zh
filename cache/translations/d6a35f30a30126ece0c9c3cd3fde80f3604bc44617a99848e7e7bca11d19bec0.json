@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plugin display metadata to prefer the marketplace entry over `plugin.json` on the Installed tab and `claude plugin details`, filling gaps from `plugin.json`",
+  "zh": "变更 plugin 显示元数据的优先级：在 Installed 标签页和 `claude plugin details` 中优先使用 marketplace 条目而非 `plugin.json`，缺失项由 `plugin.json` 补齐",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

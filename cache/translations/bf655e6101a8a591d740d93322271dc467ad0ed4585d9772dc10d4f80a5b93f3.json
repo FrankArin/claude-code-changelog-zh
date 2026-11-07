@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/btw` answers that contained made-up tool calls and output: the side question is now told not to write them, and any that appear are flagged as not executed",
+  "zh": "修复了 `/btw` 回答中包含编造的工具调用和输出的问题：现在会告知侧问题不要写入这些内容，若出现则标记为未执行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

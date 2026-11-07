@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed text fields outside the main prompt moving a leading `!` to the end of what you typed (`!foo` came out as `foo!`)",
+  "zh": "修复主 prompt 之外的文本字段会把开头的 `!` 移到输入内容末尾的问题（`!foo` 会变成 `foo!`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

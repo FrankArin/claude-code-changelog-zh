@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Improved reply speed: Claude now runs several read-only lookups (searching Slack, reading a thread, finding people) at once instead of one after another",
+  "zh": "\\[Claude Tag] 改进回复速度：Claude 现在会同时执行多项只读查询（搜索 Slack、读取线程、查找人员），而不再逐项执行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

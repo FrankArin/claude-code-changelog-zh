@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash commands with two directory changes, a subshell, or a `cd`+`git` chain skipping the prompt under `permissions.blockReadsOutsideWorkingDirectories` in bypass and auto mode",
+  "zh": "修复了在绕过模式和自动模式下，包含两次目录切换、一个子 shell 或 `cd`+`git` 链的 Bash 命令在 `permissions.blockReadsOutsideWorkingDirectories` 下跳过权限提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

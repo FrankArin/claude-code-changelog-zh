@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP servers configured as `http` that only speak the legacy HTTP+SSE transport never connecting; Claude Code now falls back to SSE as the MCP spec describes",
+  "zh": "修复了配置为 `http` 但仅支持旧版 HTTP+SSE 传输的 MCP server 始终无法连接的问题；Claude Code 现在会按 MCP 规范所述回退到 SSE",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

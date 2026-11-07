@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed saved scheduled tasks running in the wrong session after `.claude/scheduled_tasks.json` was copied into another folder, such as a new worktree",
+  "zh": "修复了 `.claude/scheduled_tasks.json` 被复制到其他文件夹（例如新的 worktree）后，已保存的定时任务在错误的 session 中运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

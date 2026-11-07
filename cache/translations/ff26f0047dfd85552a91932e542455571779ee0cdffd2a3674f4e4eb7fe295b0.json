@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `user.email` and `user.groups` to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions",
+  "zh": "新增将 `user.email` 和 `user.groups` 加入 Claude Desktop 和 Cowork 通过 Claude 应用网关发送的遥测数据，与终端 session 保持一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

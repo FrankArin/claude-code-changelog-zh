@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-12",
+  "versions": [
+    "2.1.270"
+  ],
+  "tldr": "修复只读 git 命令在会话运行一段时间后意外请求权限的回归问题。",
+  "highlights": [
+    {
+      "title": "修复只读 git 命令误请求权限",
+      "category": "修复",
+      "detail": "修复 2.1.269 引入的回归：会话运行一段时间后，Bash 中的只读 git 命令会意外弹出权限请求，现已恢复正常。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.270-other-1"
+      ],
+      "version": "2.1.270"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "9c29e07b75f47e0b85eeefb10c28099df09cfd1ce0aaf84bc87abe0f381fe6f8"
+}

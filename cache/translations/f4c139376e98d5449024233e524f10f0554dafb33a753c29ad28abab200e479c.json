@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed non-interactive sessions (`-p` with stream-json input, Agent SDK, cloud sessions) resetting the shell working directory at each new user message; a `cd` now persists across turns",
+  "zh": "修复了非交互式 session（`-p` 配合 stream-json 输入、Agent SDK、云端 session）在每条新用户消息时重置 shell 工作目录的问题；现在 `cd` 会跨轮次保持",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

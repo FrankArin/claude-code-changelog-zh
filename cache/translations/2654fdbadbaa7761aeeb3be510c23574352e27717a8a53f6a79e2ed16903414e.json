@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed threads occasionally going silent after a failed turn because the failure notice was dropped when Slack briefly rate-limited it; the notice is now retried",
+  "zh": "\\[Claude Tag] 修复了线程在轮次失败后偶尔静默的问题，原因是 Slack 短暂限流时失败通知被丢弃；现在会重试该通知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

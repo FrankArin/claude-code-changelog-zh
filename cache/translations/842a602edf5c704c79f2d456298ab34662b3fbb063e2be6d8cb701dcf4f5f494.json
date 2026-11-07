@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Remote Control to leave fewer empty sessions on claude.ai when setup fails on a flaky network",
+  "zh": "改进远程控制：网络不稳定导致设置失败时，在 claude.ai 上留下的空 session 更少",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

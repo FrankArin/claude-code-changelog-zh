@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed runaway ripgrep processes when viewing files in large or symlink-heavy workspaces",
+  "zh": "\\[VSCode] 修复了在大型或符号链接密集的工作区中查看文件时 ripgrep 进程失控的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

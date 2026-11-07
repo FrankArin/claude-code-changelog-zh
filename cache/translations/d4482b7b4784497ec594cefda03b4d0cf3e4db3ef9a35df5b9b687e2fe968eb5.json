@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `OTEL_METRICS_INCLUDE_REPOSITORY` to tag OpenTelemetry metrics and events with `vcs.*` repository attributes; commit events get `vcs.ref.head.*` with `OTEL_LOG_TOOL_DETAILS`",
+  "zh": "新增 `OTEL_METRICS_INCLUDE_REPOSITORY`，用于为 OpenTelemetry 指标和事件添加 `vcs.*` 仓库属性；配合 `OTEL_LOG_TOOL_DETAILS` 时，提交事件会带上 `vcs.ref.head.*`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

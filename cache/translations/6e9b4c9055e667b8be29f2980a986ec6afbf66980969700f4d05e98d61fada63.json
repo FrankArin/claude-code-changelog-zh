@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed prompt suggestions being dropped for text in Japanese, Chinese, Thai and other languages written without spaces between words",
+  "zh": "修复了日语、中文、泰语等词间无空格语言文本的 prompt 建议被丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed spinner tips suggesting commands that aren't available for your account type or are disabled in your session",
+  "zh": "修复加载提示推荐你的账户类型不可用或在当前 session 中已禁用的命令的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

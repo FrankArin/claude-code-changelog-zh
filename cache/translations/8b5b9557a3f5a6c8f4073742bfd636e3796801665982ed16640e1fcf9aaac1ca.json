@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resuming a conversation that ended with `/compact`: its restored-file notes now load in the same order on every resume",
+  "zh": "修复恢复以 `/compact` 结束的对话时，其恢复文件记录在每次恢复时加载顺序不一致的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

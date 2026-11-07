@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sub-agents and background agents being reported as failed, with their result never delivered, when the final streamed reply omitted token usage or carried no model id",
+  "zh": "修复当最终流式回复省略 token 用量或未携带模型 id 时，subagents 和后台 agents 被报告为失败且结果从未送达的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

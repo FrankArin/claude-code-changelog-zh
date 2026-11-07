@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where resuming a session after interrupting Claude mid-thought could change how earlier context was re-sent, hurting prompt-cache reuse",
+  "zh": "修复了在 Claude 思考中途打断后恢复 session 时，可能改变先前上下文重新发送方式、从而影响 prompt 缓存复用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the cloud-session GitHub error for an IP allow list, a suspended app installation or SAML single sign-on to show the cause instead of a generic install hint",
+  "zh": "改进云 session 在 IP 允许列表、应用安装被暂停或 SAML 单点登录情况下的 GitHub 错误提示，显示具体原因而不是通用的安装提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

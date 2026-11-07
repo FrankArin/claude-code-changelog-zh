@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude apps gateway sessions to export OpenTelemetry directly to a collector the gateway's managed settings name in `OTEL_EXPORTER_OTLP_ENDPOINT`, instead of through the gateway's relay; sessions without a named collector still use the relay",
+  "zh": "变更 Claude 应用网关 session 的 OpenTelemetry 导出方式：直接导出到网关托管设置中 `OTEL_EXPORTER_OTLP_ENDPOINT` 指定的 collector，而不再经由网关的中继；未指定 collector 的 session 仍使用中继",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

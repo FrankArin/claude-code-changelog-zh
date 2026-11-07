@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added support for a `multiplier` above 1, up to 10, in the `modelPricing` managed setting and the Claude apps gateway `pricing` block, for marked-up internal chargeback rates",
+  "zh": "在 `modelPricing` 托管设置和 Claude 应用网关的 `pricing` 块中，新增对大于 1、最高 10 的 `multiplier` 的支持，用于带加价的内部计费费率",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

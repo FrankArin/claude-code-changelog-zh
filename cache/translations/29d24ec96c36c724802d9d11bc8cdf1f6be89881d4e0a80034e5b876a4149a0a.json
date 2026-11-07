@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed missing cursor in the permission-rule, auto-mode-rule, add-directory, session-rename and feedback-review text fields when the terminal's native cursor is enabled",
+  "zh": "修复了启用终端原生光标时，权限规则、自动模式规则、添加目录、session 重命名和反馈审查文本框中光标缺失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

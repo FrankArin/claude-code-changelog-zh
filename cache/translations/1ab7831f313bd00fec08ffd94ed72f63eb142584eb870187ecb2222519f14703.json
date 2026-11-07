@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an enterprise `managed-mcp.json` that can't be read or parsed being ignored: it now keeps exclusive MCP control (user, project and plugin servers don't load) and warns at startup",
+  "zh": "修复企业 `managed-mcp.json` 无法读取或解析时被忽略的问题：现在会保持独占 MCP 控制（不加载用户、项目和 plugin 服务器），并在启动时发出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

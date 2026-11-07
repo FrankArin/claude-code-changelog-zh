@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed a push-triggered review that was queued behind a running review still posting after the pull request had been converted to draft",
+  "zh": "\\[Code Review] 修复了由推送触发、排在正在运行的审查之后的审查，在拉取请求已转为草稿后仍会发布的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

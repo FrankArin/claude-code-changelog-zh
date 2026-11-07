@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed a Slack Enterprise Grid channel losing its Claude settings (repository, environment, access) after a Slack admin moved it to another workspace",
+  "zh": "\\[Claude Tag] 修复了 Slack 管理员将 Slack Enterprise Grid 频道移动到其他工作区后，该频道丢失其 Claude 设置（仓库、环境、访问权限）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

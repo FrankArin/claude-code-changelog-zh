@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Changed memory in public channels: each channel now keeps its own notes, and Claude no longer recalls notes it saved in other public channels; workspace notes stay shared",
+  "zh": "\\[Claude Tag] 变更公开频道中的记忆：每个频道现在各自保留笔记，Claude 不再回忆其在其他公开频道中保存的笔记；工作区笔记仍保持共享",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

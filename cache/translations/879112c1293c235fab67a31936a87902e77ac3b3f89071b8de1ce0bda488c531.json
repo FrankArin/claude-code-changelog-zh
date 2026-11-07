@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the spinner status during long thinking: it now reads \"deep in thought\" after 45s, and shows \"picking the thought back up\" while recovering from the output-token limit",
+  "zh": "改进长时间思考时的加载指示器状态：超过 45 秒后显示“deep in thought”，从输出 token 限制恢复期间显示“picking the thought back up”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

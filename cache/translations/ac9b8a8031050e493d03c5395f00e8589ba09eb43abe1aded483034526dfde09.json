@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude occasionally dropping a message with an incorrect \"couldn't find a Claude Code environment\" notice right after your account token refreshed",
+  "zh": "\\[Claude Tag] 修复了账户 token 刷新后，Claude 偶尔会以错误的“找不到 Claude Code 环境”提示丢弃消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

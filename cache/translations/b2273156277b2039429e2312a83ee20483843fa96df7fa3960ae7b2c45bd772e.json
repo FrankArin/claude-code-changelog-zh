@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at `/mcp`",
+  "zh": "新增通知：MCP 服务器在 session 中途断开且自动重连放弃时发出通知，并指向 `/mcp`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

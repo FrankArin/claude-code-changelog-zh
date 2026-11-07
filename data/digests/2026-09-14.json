@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "versions": [
+    "2.1.271"
+  ],
+  "tldr": "新增远程快速模式、沙箱按命令域名白名单与多项修复，自动模式与 Monitor 行为有变更。",
+  "highlights": [
+    {
+      "title": "远程会话支持快速模式",
+      "category": "新功能",
+      "detail": "云端与自托管运行器会话可继承主机快速模式设置，或在会话内用 /fast 切换，受组织策略约束。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/fast",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.271-added-1"
+      ],
+      "version": "2.1.271"
+    },
+    {
+      "title": "沙箱按命令域名白名单",
+      "category": "新功能",
+      "detail": "自动模式下 Bash、PowerShell、Monitor 可随命令审核所需 host，仅对该命令开放，其余 host 一律拒绝。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.271-added-4"
+      ],
+      "version": "2.1.271"
+    },
+    {
+      "title": "自动模式权限判定变更",
+      "category": "破坏性变更",
+      "detail": "skill 与斜杠命令中的内联 ! shell 命令改走默认模式权限规则，不再由分类器处理；无规则可判定的命令将作为经审核的工具调用运行。",
+      "action": "检查依赖分类器放行的内联 ! 命令，必要时补充权限规则。",
+      "example": null,
+      "item_ids": [
+        "2.1.271-changed-11"
+      ],
+      "version": "2.1.271"
+    },
+    {
+      "title": "Monitor 监视改为限时",
+      "category": "破坏性变更",
+      "detail": "监视现在始终有截止时间（最长 30 分钟，单 prompt 运行 10 分钟），到期通知 Claude 重新设置，取代无超时的 persistent 选项。",
+      "action": "移除或调整依赖 persistent 无超时监视的配置。",
+      "example": null,
+      "item_ids": [
+        "2.1.271-changed-13"
+      ],
+      "version": "2.1.271"
+    },
+    {
+      "title": "修复策略缓存与刷新",
+      "category": "修复",
+      "detail": "切换账号、组织或 API key 后不再复用旧组织策略；策略在启动后加载或会话中途变更时，工具与命令列表会同步更新。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.271-fixes-38",
+        "2.1.271-fixes-39"
+      ],
+      "version": "2.1.271"
+    },
+    {
+      "title": "修复 Bash 权限检查漏洞",
+      "category": "安全",
+      "detail": "修复通配符展开、选项后文件、shell 变量声明标志及多次目录切换等场景下绕过读取检查或权限提示的问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.271-fixes-46",
+        "2.1.271-fixes-47",
+        "2.1.271-fixes-48",
+        "2.1.271-fixes-49"
+      ],
+      "version": "2.1.271"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "c3d39a1bc889c7357244becf3784a03791fd8bd3301b6edfee89ef547f46a75e"
+}

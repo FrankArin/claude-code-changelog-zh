@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed PowerShell tool commands sent to the background stopping when Claude Code exits",
+  "zh": "Windows：修复了发送到后台的 PowerShell 工具命令在 Claude Code 退出时停止的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Changed claude.ai/code for Free-plan users to open the plans page with a path to upgrade, instead of a \"Disabled by org admin\" page with no way forward",
+  "zh": "\\[Claude Code on the web] 变更了面向 Free 套餐用户的 claude.ai/code：现在会打开套餐页面并提供升级入口，而不再显示无法继续操作的“Disabled by org admin”页面",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

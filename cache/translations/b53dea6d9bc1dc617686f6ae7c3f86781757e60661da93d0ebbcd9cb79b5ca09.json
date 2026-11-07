@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `claude mcp serve`: a running tool call now sends a progress update every 30 seconds, so clients show it is still running and idle timeouts don't abort a long command that prints nothing",
+  "zh": "改进 `claude mcp serve`：运行中的工具调用现在每 30 秒发送一次进度更新，客户端可显示其仍在运行，空闲超时也不会中断不输出内容的长命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed organization policy limits not loading for the session when another Claude Code process refreshed the login at the same moment",
+  "zh": "修复了当另一个 Claude Code 进程同时刷新登录时，组织策略限制无法为 session 加载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

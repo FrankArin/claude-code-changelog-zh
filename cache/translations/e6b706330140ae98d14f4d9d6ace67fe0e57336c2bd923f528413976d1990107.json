@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Artifact tool's page read to state the capabilities and database rules the artifact service holds for the page, for anyone who can publish to it",
+  "zh": "改进 Artifact 工具的页面读取：向所有可发布到该页面的人说明 artifact 服务为该页面保存的能力和数据库规则",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

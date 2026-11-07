@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved documents and messages written for someone other than the user: Claude now writes them for that audience and names it at the top of its reply",
+  "zh": "\\[VSCode] 改进为他人（而非用户本人）撰写的文档和消息：Claude 现在会面向该受众撰写，并在回复顶部注明受众",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

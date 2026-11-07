@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where a marketplace entry path containing a backslash could bypass the containment check for fetched marketplaces on macOS and Linux",
+  "zh": "修复在 macOS 和 Linux 上，marketplace 条目路径包含反斜杠时可能绕过已获取 marketplace 的包含性检查的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

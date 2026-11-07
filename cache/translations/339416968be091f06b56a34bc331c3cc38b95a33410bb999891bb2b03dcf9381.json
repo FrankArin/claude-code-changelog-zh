@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the session list jumping down when the Account & usage header appeared a moment after opening the Claude side bar",
+  "zh": "\\[VSCode] 修复了打开 Claude 侧边栏后，“Account & usage”标题稍晚出现时 session 列表向下跳动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the Hooks and Permission rules dialogs reporting a save that landed as failed, and the Hooks dialog going blank under a plugin-only policy lock or showing color codes in save errors",
+  "zh": "\\[VSCode] 修复 Hooks 和 Permission rules 对话框将已成功的保存报告为失败的问题，以及 Hooks 对话框在仅 plugin 策略锁定下变为空白或在保存错误中显示颜色代码的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

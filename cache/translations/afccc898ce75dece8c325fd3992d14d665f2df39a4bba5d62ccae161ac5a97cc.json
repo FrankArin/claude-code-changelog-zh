@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed **Connect** on Tool access requests under Admin settings > Review requests failing with \"Authorization failed\" or showing the requested access bundle as deleted",
+  "zh": "\\[Claude Tag] 修复了在 Admin settings > Review requests 下对 Tool access 请求点击 **Connect** 时失败并提示“Authorization failed”，或将所请求的访问包显示为已删除的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

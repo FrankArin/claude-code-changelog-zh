@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed `/ultrareview --post` so a retry after a GitHub error posts the findings comment exactly once instead of never or twice; the comment now names the reviewed commit",
+  "zh": "\\[Code Review] 修复了 `/ultrareview --post`：GitHub 出错后重试时，发现评论现在恰好发布一次，而不再是不发布或发布两次；该评论现在会注明所审查的提交",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

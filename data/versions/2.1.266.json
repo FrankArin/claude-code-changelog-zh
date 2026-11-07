@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "version": "2.1.266",
+  "date": "2026-09-08",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "cb983a627527e185d98d209f2e9d818c424981da9d1ec044064b58fa6098ec90",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T05:05:51+00:00"
+  },
+  "groups": [
+    {
+      "kind": "other",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.266-other-1",
+          "en": "Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed",
+          "zh": "修复了 2.1.265 中影响 LLM 网关和代理配置的回归问题：未公开的 `CLAUDE_CODE_USE_GATEWAY` 环境变量此前仅在同时设置 `ANTHROPIC_BASE_URL` 和 `ANTHROPIC_AUTH_TOKEN` 时才生效，而在 2.1.265 中它开始单独强制进行 Cloud 网关登录，导致将其与 API key、`apiKeyHelper` 或自定义认证头一起设置的配置每次请求都失败并报错“Not signed in to the Cloud gateway”。现在该变量单独设置时重新被忽略；无需更改配置",
+          "hash": "3ad8b451d358a7c5c60e29cd7c463a88c37c2a6063a0e3f13e015cd03a45b3b0",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "修复 2.1.265 网关回归：单独设置 CLAUDE_CODE_USE_GATEWAY 时不再强制 Cloud 登录。",
+    "highlights": [
+      {
+        "title": "修复网关配置回归",
+        "category": "修复",
+        "detail": "2.1.265 中单独设置 CLAUDE_CODE_USE_GATEWAY 会强制 Cloud 网关登录，导致配合 API key、apiKeyHelper 或自定义认证头的配置每次请求报“Not signed in to the Cloud gateway”；现已恢复为单独设置时忽略该变量。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_CODE_USE_GATEWAY",
+          "caption": "相关环境变量"
+        },
+        "item_ids": [
+          "2.1.266-other-1"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

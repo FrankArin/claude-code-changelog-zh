@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resuming a workflow run after its container restarted; a resume whose run journal is missing now fails with a clear error instead of rerunning every agent",
+  "zh": "修复了容器重启后恢复 workflow 运行的问题；当运行日志缺失时，恢复现在会以明确的错误失败，而不是重新运行每个 agent",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

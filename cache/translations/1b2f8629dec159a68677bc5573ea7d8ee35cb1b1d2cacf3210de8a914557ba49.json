@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a deny or ask permission rule starting with `!` applying beyond the settings source that wrote it; such a rule now applies only within its own source, and a bare `!` negation is ignored",
+  "zh": "修复了以 `!` 开头的拒绝或询问权限规则超出写入它的设置来源生效的问题；此类规则现在仅在其自身来源内生效，单独的 `!` 否定会被忽略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

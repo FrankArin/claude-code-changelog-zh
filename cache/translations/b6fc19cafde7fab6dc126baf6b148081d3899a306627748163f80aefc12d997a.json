@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS` not extending SessionEnd hooks that have no per-hook `timeout` (they were still cancelled after 1.5 seconds)",
+  "zh": "修复了 `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS` 无法延长没有单独 `timeout` 的 SessionEnd hook 的问题（这些 hook 仍会在 1.5 秒后被取消）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

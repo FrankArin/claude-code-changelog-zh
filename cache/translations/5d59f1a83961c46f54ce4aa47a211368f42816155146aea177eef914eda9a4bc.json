@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved keyboard support over SSH and in unrecognized terminals: terminals that answer the kitty keyboard query (such as foot and Alacritty 0.16+) now get Shift+Enter and Ctrl+Shift shortcuts",
+  "zh": "改进通过 SSH 以及在未识别终端中的键盘支持：能响应 kitty 键盘查询的终端（如 foot 和 Alacritty 0.16+）现在支持 Shift+Enter 和 Ctrl+Shift 快捷键",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

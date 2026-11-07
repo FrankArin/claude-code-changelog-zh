@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sustained high CPU usage: a busy loop in long-running idle sessions no longer pins a CPU core, and rapid terminal focus reports during a session recap no longer keep the CPU high",
+  "zh": "修复持续高 CPU 占用：长时间运行的闲置 session 中的忙循环不再占满一个 CPU 核心，session 回顾期间频繁的终端焦点上报也不再让 CPU 保持高占用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude agents` session delete getting stuck when a worktree can't be removed: the message names the cause and next step, and for a git worktree ctrl+x again deletes the directory anyway",
+  "zh": "修复 `claude agents` 在无法移除 worktree 时 session 删除卡住的问题：提示信息会说明原因和下一步，对于 git worktree，再次按 ctrl+x 仍会删除该目录",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

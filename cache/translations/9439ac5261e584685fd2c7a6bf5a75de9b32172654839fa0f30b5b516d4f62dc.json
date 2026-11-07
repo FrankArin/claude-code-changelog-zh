@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/plugin` Discover/Browse and `claude plugin list --json --available` showing no description or display name for marketplace plugins whose metadata lives only in their `plugin.json`",
+  "zh": "修复 `/plugin` 的 Discover/Browse 以及 `claude plugin list --json --available` 对元数据仅存在于其 `plugin.json` 中的 marketplace plugins 不显示描述或显示名称的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed replying in an older Slack thread while Claude is mid-task sometimes restarting it from scratch and losing work it had not pushed yet",
+  "zh": "\\[Claude Tag] 修复了 Claude 执行任务期间在较早的 Slack thread 中回复时，有时会从头重新开始并丢失尚未推送的工作的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

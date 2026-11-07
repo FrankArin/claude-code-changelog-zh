@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address",
+  "zh": "新增网关启动警告：当 `access_control.allow_cidrs` 为空时发出警告，并在首次收到来自公网地址的请求时发出一次性警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

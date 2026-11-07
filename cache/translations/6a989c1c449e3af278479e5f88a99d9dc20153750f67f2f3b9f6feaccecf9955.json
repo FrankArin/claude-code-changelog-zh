@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Auto disappearing from the mode picker in new-tab or just-reloaded conversations when a project or local setting overrides the model named in `~/.claude/settings.json`",
+  "zh": "\\[VSCode] 修复了当项目或本地设置覆盖 `~/.claude/settings.json` 中指定的模型时，新标签页或刚重新加载的对话中 Auto 从模式选择器消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

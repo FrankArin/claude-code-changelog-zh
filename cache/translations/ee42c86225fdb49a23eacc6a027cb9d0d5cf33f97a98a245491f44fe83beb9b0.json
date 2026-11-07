@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added per-command `allowed_domains` to Bash, PowerShell and Monitor in auto mode with sandboxing: the hosts a command needs are reviewed with it and opened for it alone; other hosts are refused",
+  "zh": "在启用沙箱的自动模式下，为 Bash、PowerShell 和 Monitor 新增按命令的 `allowed_domains`：命令所需的 host 会随命令一起审核并仅对该命令开放；其他 host 一律拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

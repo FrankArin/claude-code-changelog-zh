@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-11",
+  "versions": [
+    "2.1.269"
+  ],
+  "tldr": "新增 plugin eval、/output-style 与多项 VSCode 功能，并修复大量终端、缓存与权限问题。",
+  "highlights": [
+    {
+      "title": "新增 plugin eval 命令",
+      "category": "新功能",
+      "detail": "可对 plugin 运行 eval 套件，输出 JSON 与 HTML 可复现评分报告，便于评估 plugin 质量。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin eval --help",
+        "caption": "查看 eval 用法"
+      },
+      "item_ids": [
+        "2.1.269-added-1"
+      ],
+      "version": "2.1.269"
+    },
+    {
+      "title": "新增 /output-style 切换",
+      "category": "新功能",
+      "detail": "可列出并切换输出样式，支持远程控制及云端、无头 session 使用。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/output-style [name]",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.269-added-2"
+      ],
+      "version": "2.1.269"
+    },
+    {
+      "title": "VSCode 新增 agent 地图与设置对话框",
+      "category": "新功能",
+      "detail": "底部胶囊按钮可查看 subagent 地图并停止 agent；新增 Hooks 与权限规则对话框，可直接编辑用户、项目、本地设置。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.269-added-8",
+        "2.1.269-added-9",
+        "2.1.269-added-11"
+      ],
+      "version": "2.1.269"
+    },
+    {
+      "title": "云端 skills 命名改为 anthropic-skills:",
+      "category": "改进",
+      "detail": "从 claude.ai 同步的 skills 改用 anthropic-skills:<name> 前缀，与 Claude Desktop 一致；无冲突时裸名称仍可用。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.269-changed-17"
+      ],
+      "version": "2.1.269"
+    },
+    {
+      "title": "修复权限规则与 tee 写入绕过",
+      "category": "安全",
+      "detail": "以 ! 开头的拒绝/询问规则不再跨设置来源生效；Edit 拒绝规则与写入路径检查现覆盖 Bash tee 写入的文件。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.269-fixes-39",
+        "2.1.269-fixes-68"
+      ],
+      "version": "2.1.269"
+    },
+    {
+      "title": "修复 prompt 缓存与终端输入问题",
+      "category": "修复",
+      "detail": "修复输出截断恢复后缓存部分失效、思考中断恢复影响缓存复用，以及慢速连接下杂散字符被输入 prompt 等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.269-fixes-33",
+        "2.1.269-fixes-34",
+        "2.1.269-fixes-69"
+      ],
+      "version": "2.1.269"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "95a0e4a7b7077c9d31b8f5dfa64ad1a60eeecdd3337f53272e88cb429f4e44c0"
+}

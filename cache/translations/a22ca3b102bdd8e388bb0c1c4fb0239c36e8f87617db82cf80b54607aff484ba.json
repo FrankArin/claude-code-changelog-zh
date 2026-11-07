@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sign-in with a Claude account to also request access to your claude.ai plugins",
+  "zh": "变更使用 Claude 账号登录的流程，同时请求访问你的 claude.ai plugins",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

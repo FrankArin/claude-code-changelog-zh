@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude replying \"The API rejected the request as invalid\" when the organization has run out of usage credits; the reply now says so and explains how to add more",
+  "zh": "\\[Claude Tag] 修复了当组织用量额度耗尽时 Claude 回复“The API rejected the request as invalid”的问题；现在回复会说明该情况并解释如何添加更多额度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

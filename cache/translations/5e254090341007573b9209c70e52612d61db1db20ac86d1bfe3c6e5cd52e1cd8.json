@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP servers reconnecting when an updated config only changed the order of the server URL's query parameters",
+  "zh": "修复了更新后的配置仅改变服务器 URL 查询参数顺序时，MCP 服务器重新连接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

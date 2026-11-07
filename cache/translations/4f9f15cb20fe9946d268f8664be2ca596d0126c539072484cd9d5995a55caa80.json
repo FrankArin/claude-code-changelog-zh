@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved PDF @-mentions to say \"page count unknown\" instead of a page count guessed from the file size when pdfinfo cannot count the pages",
+  "zh": "改进 PDF @ 提及：pdfinfo 无法统计页数时，显示“page count unknown”，不再根据文件大小猜测页数",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Fixed \"Invalid effort level\" errors when a routine resumes a session, or a session starts with no set effort, in orgs where an admin caps a model's effort",
+  "zh": "\\[Claude Code on the web] 修复了在管理员限制了某模型 effort 的组织中，例程恢复 session 或 session 启动时未设置 effort 会报 \"Invalid effort level\" 错误的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

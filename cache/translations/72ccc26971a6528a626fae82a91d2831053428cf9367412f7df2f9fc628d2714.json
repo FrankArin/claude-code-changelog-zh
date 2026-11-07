@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude apps gateway, Bedrock, Vertex AI, and Foundry sessions so that they no longer refresh a leftover claude.ai login that the session does not use",
+  "zh": "变更 Claude 应用网关、Bedrock、Vertex AI 和 Foundry 的 session，使其不再刷新 session 未使用的残留 claude.ai 登录",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

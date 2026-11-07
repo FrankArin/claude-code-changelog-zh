@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed PowerShell commands failing with \"Exit code 1\" and no output when the session's temp output path reaches 260 characters",
+  "zh": "Windows：修复了当 session 的临时输出路径达到 260 个字符时，PowerShell 命令以“Exit code 1”失败且无输出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

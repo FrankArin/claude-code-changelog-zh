@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifact publishing: a publish whose connection drops after reaching claude.ai is now re-sent safely instead of failing or creating a duplicate version",
+  "zh": "改进 artifact 发布：发布在到达 claude.ai 后连接中断时，现在会安全重发，而不是失败或创建重复版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

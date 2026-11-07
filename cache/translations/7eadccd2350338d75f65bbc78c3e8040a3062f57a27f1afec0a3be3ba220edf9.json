@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/workflows` agent detail: tool calls are marked running, failed or done, the subagent's task list is shown when it has one, and Enter unfolds the listed calls with their inputs and results",
+  "zh": "改进 `/workflows` 的 agent 详情：工具调用会标记为运行中、失败或完成，subagent 有任务列表时会显示，按 Enter 可展开所列调用及其输入和结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

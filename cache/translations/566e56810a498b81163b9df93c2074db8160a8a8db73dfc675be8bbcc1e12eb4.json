@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a spinner tip suggesting `/focus` for a view with just your prompt, a one-line work summary, and the response",
+  "zh": "新增加载提示，建议使用 `/focus` 获得仅包含你的 prompt、一行工作摘要和响应的视图",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

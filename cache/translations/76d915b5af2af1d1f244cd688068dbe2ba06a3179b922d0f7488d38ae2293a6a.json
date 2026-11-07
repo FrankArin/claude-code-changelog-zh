@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the task-tracking tools (TaskCreate/Get/Update/List, TodoWrite) to be offered only on Claude 3.x, Opus 4.0–4.7, Sonnet 4.0–4.6, Haiku 4.5; set `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` elsewhere",
+  "zh": "变更任务跟踪工具（TaskCreate/Get/Update/List、TodoWrite）的提供范围，仅在 Claude 3.x、Opus 4.0–4.7、Sonnet 4.0–4.6、Haiku 4.5 上提供；其他情况请设置 `CLAUDE_CODE_ENABLE_TODO_TOOLS=1`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

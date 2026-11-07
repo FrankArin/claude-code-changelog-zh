@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed `@Claude !restart` in a thread with its own session sometimes also posting a contradictory \"this thread is handled by the channel session\" notice",
+  "zh": "\\[Claude Tag] 修复了在拥有独立 session 的会话串中使用 `@Claude !restart` 时，有时还会同时发出矛盾的“此会话串由频道 session 处理”通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed two-key keyboard shortcuts cancelling silently when the second key arrived more than a second later, as happens inside tmux; they now wait 3 seconds and show a notice when they time out",
+  "zh": "修复双键键盘快捷键在第二个按键超过一秒后才到达（例如在 tmux 中）时静默取消的问题；现在会等待 3 秒，超时后显示提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Added taking back a queued message in a cloud session before Claude reads it: remove it from the queue, or press Esc or Up, and the text returns to the message box",
+  "zh": "\\[Claude Code on the web] 新增在云端 session 中撤回已排队消息的功能，可在 Claude 读取前将其从队列中移除，或按 Esc 或上方向键，文本会回到消息框",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

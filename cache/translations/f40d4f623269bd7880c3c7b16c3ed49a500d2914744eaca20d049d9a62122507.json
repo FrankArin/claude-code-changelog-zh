@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/install-github-app` reporting a SAML single sign-on block as \"admin permissions required\"",
+  "zh": "修复了 `/install-github-app` 将 SAML 单点登录拦截误报为“需要管理员权限”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

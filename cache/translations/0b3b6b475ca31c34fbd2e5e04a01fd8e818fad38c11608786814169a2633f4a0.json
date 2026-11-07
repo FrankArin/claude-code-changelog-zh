@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved prompt suggestion filtering for Japanese, Chinese and Korean text: mixed-script and single-word suggestions are kept, and meta or evaluative text is dropped as it is for English",
+  "zh": "改进日文、中文和韩文文本的 prompt 建议过滤：保留混合文字和单词建议，并像英文一样丢弃元信息或评价性文本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed the shared-session banner and Share dialog on sessions started from Slack claiming the whole organization could open the link; they now name the Slack channel's audience",
+  "zh": "\\[Claude Tag] 修复了从 Slack 启动的 session 上的共享 session 横幅和 Share 对话框声称整个组织都能打开链接的问题；现在会注明 Slack 频道的受众范围",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

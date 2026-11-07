@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the \"N MCP servers need authentication\" startup notice to announce each server once instead of at every launch",
+  "zh": "变更“N MCP servers need authentication”启动提示，改为每个服务器只提示一次，而不是每次启动都提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

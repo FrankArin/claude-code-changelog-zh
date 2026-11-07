@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/add-dir <subdirectory>` refusing to load a subdirectory's agents when managed settings lock only skills to plugins, and promising agents when only agents are locked",
+  "zh": "修复当托管设置仅将 skills 锁定到 plugins 时，`/add-dir <subdirectory>` 拒绝加载子目录的 agents 的问题，以及仅锁定 agents 时却仍承诺可加载 agents 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

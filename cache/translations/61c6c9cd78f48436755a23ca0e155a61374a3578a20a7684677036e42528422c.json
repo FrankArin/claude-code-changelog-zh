@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runner sessions silently losing all host config (settings, skills, plugins, MCP servers) when the host config directory exceeds 64 MiB; added `--host-config-snapshot disk|memory`",
+  "zh": "修复当主机配置目录超过 64 MiB 时，自托管运行器 session 静默丢失所有主机配置（设置、skills、plugins、MCP servers）的问题；新增 `--host-config-snapshot disk|memory`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

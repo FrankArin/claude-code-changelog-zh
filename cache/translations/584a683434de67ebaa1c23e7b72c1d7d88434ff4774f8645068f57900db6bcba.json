@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifact watching: a session can now watch up to 10 published artifacts at once for republishes made elsewhere, up from 5",
+  "zh": "改进 artifact 监视：单个 session 现在可同时监视最多 10 个已发布 artifact 在其他位置的重发布，此前为 5 个",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

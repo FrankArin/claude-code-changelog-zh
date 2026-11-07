@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the conversation summary produced by `/compact` and auto-compact mangling text that contained `$` sequences",
+  "zh": "修复 `/compact` 和自动上下文压缩生成的对话摘要会破坏包含 `$` 序列的文本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Changed the admin \"Share cloud sessions\" setting to live under Data and privacy instead of the Claude Code page, where Data and privacy admins can also manage it",
+  "zh": "\\[Claude Code on the web] 变更管理员“共享云 session”设置的位置，从 Claude Code 页面移至数据和隐私下，数据和隐私管理员也可在此管理该设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

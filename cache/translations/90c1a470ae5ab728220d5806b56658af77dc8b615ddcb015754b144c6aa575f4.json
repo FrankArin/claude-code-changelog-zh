@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plain `WebFetch` deny and ask rules to no longer apply to Artifact tool reads and updates; use an `Artifact` rule (or `WebFetch(domain:claude.ai)`) to block or gate them",
+  "zh": "变更普通 `WebFetch` 拒绝和询问规则，使其不再适用于 Artifact 工具的读取和更新；请使用 `Artifact` 规则（或 `WebFetch(domain:claude.ai)`）来阻止或限制这些操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

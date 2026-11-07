@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+O cancelling pending MCP server reconnects, and `/mcp` sent from Remote Control failing while the transcript view is open",
+  "zh": "修复了 Ctrl+O 取消待处理的 MCP 服务器重连，以及转录视图打开时从远程控制发送的 `/mcp` 失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

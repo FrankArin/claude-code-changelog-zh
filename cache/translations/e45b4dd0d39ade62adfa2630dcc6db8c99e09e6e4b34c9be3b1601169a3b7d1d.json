@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a running session silently switching to the organization's default model when another Claude Code process refreshed a stale model-access entry",
+  "zh": "修复当另一个 Claude Code 进程刷新了过期的模型访问条目时，正在运行的 session 静默切换到组织默认模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

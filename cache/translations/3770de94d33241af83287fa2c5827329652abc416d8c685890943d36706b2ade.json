@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter",
+  "zh": "Claude 应用网关新增：在 `gateway.yaml` 中设置 `pricing:` 后，已登录的 Claude Code 客户端会通过托管设置获得相同费率，使 `/cost` 和遥测数据与支出计量一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

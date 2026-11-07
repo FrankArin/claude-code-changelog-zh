@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed WebFetch hanging indefinitely on a server that keeps the response open without finishing; a fetch now fails after 300 seconds. Set `CLAUDE_CODE_WEBFETCH_DEADLINE_MS` to override the deadline (0 turns it off)",
+  "zh": "修复 WebFetch 在服务器保持响应打开却不结束时无限挂起的问题；现在 fetch 会在 300 秒后失败。可设置 `CLAUDE_CODE_WEBFETCH_DEADLINE_MS` 覆盖该截止时间（设为 0 则关闭）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

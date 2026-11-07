@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control clients attached to a Claude Desktop, VS Code or JetBrains session being refused when they ask for the session's context window usage",
+  "zh": "修复了连接到 Claude Desktop、VS Code 或 JetBrains session 的远程控制客户端在请求该 session 的上下文窗口用量时被拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

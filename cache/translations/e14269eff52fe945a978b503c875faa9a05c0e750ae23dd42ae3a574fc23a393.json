@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/add-dir` path input: the left and right arrow keys now move the cursor, and Enter adds only the typed path instead of also adding the highlighted completion",
+  "zh": "修复 `/add-dir` 路径输入：左右方向键现在移动光标，Enter 只添加输入的路径，而不再同时添加高亮的补全项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

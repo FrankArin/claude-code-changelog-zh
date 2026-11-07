@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the footer's prompt cache clock hiding its minutes when the panel is narrow",
+  "zh": "\\[VSCode] 修复了面板较窄时页脚的 prompt 缓存时钟隐藏其分钟数的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

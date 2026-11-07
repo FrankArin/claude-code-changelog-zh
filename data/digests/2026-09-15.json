@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-15",
+  "versions": [
+    "2.1.273",
+    "2.1.272"
+  ],
+  "tldr": "2.1.273 新增网关提示请求头、远程控制 session 分叉与 MCP 断连通知，并修复权限绕过、托管 MCP 设置被忽略及自动压缩过早触发等问题；2.1.272 为可靠性修复。",
+  "highlights": [
+    {
+      "title": "网关提示请求头",
+      "category": "新功能",
+      "detail": "为 LLM 网关新增请求类别、agent 类型、工具耗时与压缩状态等请求头，便于网关侧观测与路由。",
+      "action": "如需启用，设置环境变量 CLAUDE_CODE_GATEWAY_HINT_HEADERS=1。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_GATEWAY_HINT_HEADERS=1",
+        "caption": "启用网关提示请求头"
+      },
+      "version": "2.1.273",
+      "item_ids": [
+        "2.1.273-added-1"
+      ]
+    },
+    {
+      "title": "自动模式默认本地分类器",
+      "category": "改进",
+      "detail": "Bedrock、Vertex、Foundry 上的自动模式暂时默认使用本地分类器，行为与之前不同。",
+      "action": "若需使用平台服务端分类器，设置 CLAUDE_CODE_AUTO_MODE_SERVER=1。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_AUTO_MODE_SERVER=1",
+        "caption": "改用服务端分类器"
+      },
+      "version": "2.1.273",
+      "item_ids": [
+        "2.1.273-changed-6"
+      ]
+    },
+    {
+      "title": "权限检查绕过修复",
+      "category": "安全",
+      "detail": "修复 blockReadsOutsideWorkingDirectories 下无法分析的 Bash 命令跳过权限提示，以及绕过模式中子 shell 隐藏危险 rm 的问题。",
+      "action": null,
+      "example": null,
+      "version": "2.1.273",
+      "item_ids": [
+        "2.1.273-fixes-30"
+      ]
+    },
+    {
+      "title": "托管 MCP 设置被忽略修复",
+      "category": "修复",
+      "detail": "修复存在服务器托管设置时，MDM 或 managed-settings.json 中的 MCP 白名单、禁用列表与连接器开关被忽略的问题。",
+      "action": null,
+      "example": null,
+      "version": "2.1.273",
+      "item_ids": [
+        "2.1.273-fixes-32"
+      ]
+    },
+    {
+      "title": "自动压缩过早触发修复",
+      "category": "修复",
+      "detail": "修复上下文计量把 advisor-tool 轮次按约两倍计数，导致自动压缩在约一半真实窗口处触发的问题。",
+      "action": null,
+      "example": null,
+      "version": "2.1.273",
+      "item_ids": [
+        "2.1.273-fixes-41"
+      ]
+    },
+    {
+      "title": "远程控制 session 分叉",
+      "category": "新功能",
+      "detail": "可从 Claude 应用分叉由 --remote-control 或 /remote-control 启动的 session，分叉作为后台 session 在本机运行。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude --remote-control",
+        "caption": "命令示例"
+      },
+      "version": "2.1.273",
+      "item_ids": [
+        "2.1.273-added-3"
+      ]
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "4282eb918f127b76a73442978d3bbd0f9a3c52a3387ee51bec49ba69eb39cfc1"
+}

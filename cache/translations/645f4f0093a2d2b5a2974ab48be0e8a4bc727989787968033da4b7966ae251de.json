@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/model` warning about losing the conversation cache when switching back to the model the conversation actually ran on",
+  "zh": "修复 `/model` 在切回对话实际使用的模型时误报会丢失对话缓存的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

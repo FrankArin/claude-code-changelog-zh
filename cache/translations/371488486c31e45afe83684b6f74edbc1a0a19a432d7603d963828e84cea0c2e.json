@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cross-session messages held by the receiving session's permission-mode policy leaving no trace: headless senders now get a delivery notice, and `SendMessage` results no longer imply it was read",
+  "zh": "修复了接收方 session 的权限模式策略拦截的跨 session 消息不留痕迹的问题：无头发送方现在会收到投递通知，且 `SendMessage` 结果不再暗示消息已被读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

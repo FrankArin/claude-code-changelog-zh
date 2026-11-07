@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/output-style [name]` to list and switch output styles, including over Remote Control and in cloud and other headless sessions",
+  "zh": "新增 `/output-style [name]`，用于列出并切换输出样式，支持通过远程控制以及在云端和其他无头 session 中使用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

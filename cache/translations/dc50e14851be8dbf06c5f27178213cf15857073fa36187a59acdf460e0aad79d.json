@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Improved review comments that point to a second affected location to state that location's issue in a full sentence instead of a cut-off stub",
+  "zh": "\\[Code Review] 改进指向第二个受影响位置的审查评论：用完整句子说明该位置的问题，而不是截断的片段",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

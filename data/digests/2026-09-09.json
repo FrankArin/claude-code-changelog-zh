@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-09",
+  "versions": [
+    "2.1.267"
+  ],
+  "tldr": "新增 effort 上限与系统 prompt 快照开关，修复大量 prompt 缓存与恢复问题。",
+  "highlights": [
+    {
+      "title": "新增 effort 级别上限设置",
+      "category": "新功能",
+      "detail": "新增 maxEffortLevel，可顶层或按模型限制所有提供商的 effort 上限，用户仍可选更低级别。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.267-added-1"
+      ],
+      "version": "2.1.267"
+    },
+    {
+      "title": "新增系统 prompt 快照开关",
+      "category": "新功能",
+      "detail": "--system-prompt-snapshot off 让每次请求重新渲染系统 prompt，便于迭代 prompt 文本。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.267-added-2"
+      ],
+      "version": "2.1.267"
+    },
+    {
+      "title": "修复托管设置失效放行",
+      "category": "安全",
+      "detail": "allowedHttpHookUrls 等托管设置无法读取时改为一律拒绝，此前会放行一切。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.267-fixes-22"
+      ],
+      "version": "2.1.267"
+    },
+    {
+      "title": "修复 marketplace 路径绕过",
+      "category": "安全",
+      "detail": "macOS 和 Linux 上 marketplace 条目路径含反斜杠时可能绕过包含性检查，现已修复。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.267-fixes-18"
+      ],
+      "version": "2.1.267"
+    },
+    {
+      "title": "修复 prompt 缓存大量未命中",
+      "category": "修复",
+      "detail": "恢复 session、切换模型、MCP 工具变动等场景不再重写工具定义，避免缓存未命中并保留扩展思考。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.267-fixes-35",
+        "2.1.267-fixes-38",
+        "2.1.267-fixes-40"
+      ],
+      "version": "2.1.267"
+    },
+    {
+      "title": "修复大 session 恢复丢数据",
+      "category": "修复",
+      "detail": "transcript 超过 5 MB 时恢复不再丢弃并行工具调用及其 hook 输出。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.267-fixes-21"
+      ],
+      "version": "2.1.267"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "b92bbfc0d75d89c91d0e689665c31234d44294c9360cdf7125994b5d69e522a9"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the session list's Active filter hiding open idle sessions when Open is also checked in the filter menu",
+  "zh": "\\[VSCode] 修复了在筛选菜单中同时勾选 Open 时，session 列表的 Active 筛选会隐藏已打开的空闲 session 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

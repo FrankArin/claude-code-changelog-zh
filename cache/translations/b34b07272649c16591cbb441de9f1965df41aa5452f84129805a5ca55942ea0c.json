@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resume after the previous process died while a tool was running: the last prompt is no longer rewritten, and the interrupted tool call is kept and marked interrupted",
+  "zh": "修复上一进程在工具运行期间退出后的恢复：最后一个 prompt 不再被重写，被中断的工具调用会保留并标记为已中断",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

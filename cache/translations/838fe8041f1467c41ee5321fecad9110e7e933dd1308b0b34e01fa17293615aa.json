@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `permission_denials` in `--output-format stream-json` results omitting Read, Edit and Write calls blocked by a path-scoped deny rule",
+  "zh": "修复了 `--output-format stream-json` 结果中的 `permission_denials` 遗漏被路径范围 deny 规则阻止的 Read、Edit 和 Write 调用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

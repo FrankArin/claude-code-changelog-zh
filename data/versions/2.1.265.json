@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "version": "2.1.265",
+  "date": "2026-09-08",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "301f4c43a0ef841088c52d6b514971149144cb8c0157e9c8a9516c6f95a029ff",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T05:06:15+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.265-added-1",
+          "en": "Added `user.email` and `user.groups` to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions",
+          "zh": "新增将 `user.email` 和 `user.groups` 加入 Claude Desktop 和 Cowork 通过 Claude 应用网关发送的遥测数据，与终端 session 保持一致",
+          "hash": "5d2f0ed1774342f9d6bb2007fa04ee2bab71f45267c361c7e0b6cb05c9458ac7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-added-2",
+          "en": "Added support for pointing `--plugin-dir` at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up",
+          "zh": "新增支持将 `--plugin-dir` 指向一个包含多个 plugin 的文件夹：每个带清单的子文件夹都会加载，运行期间新增或移除的子文件夹也会被识别",
+          "hash": "0988daba0c1baaf483c8f8300de7a5aa60b89ad9808f866d52427df997a4e224",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-added-3",
+          "en": "Added a 1 GB cap on tool results saved to disk; the in-conversation preview says when a saved file was truncated",
+          "zh": "新增对保存到磁盘的工具结果设置 1 GB 上限；保存的文件被截断时，对话内预览会给出提示",
+          "hash": "699a7924f8978990ae5c383e632c9561dfc0e37a1302fab01dee0896a630770e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-added-4",
+          "en": "\\[VSCode] Added automatic archiving of sessions inactive for a set period (new \"Archive inactive sessions\" setting, default 14 days)",
+          "zh": "\\[VSCode] 新增自动归档在设定时长内无活动的 session（新增“Archive inactive sessions”设置，默认 14 天）",
+          "hash": "6fe91943d4bca94d38738b4ac80a2c991624d2ae222d6824fe582364ad7ccc06",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.265-changed-5",
+          "en": "Updated the `.claude` folder permission option to say what it actually allows: editing files in the project's `.claude` folder (or `~/.claude`) for the session",
+          "zh": "更新 `.claude` 文件夹权限选项的说明，明确其实际允许的操作：在本次 session 中编辑项目 `.claude` 文件夹（或 `~/.claude`）内的文件",
+          "hash": "56cdc3a66c31d394d3a482b20e77bd1e68d83487bcf53838b1ee3b3aa7c0da9c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-changed-6",
+          "en": "Changed machines with `forceLoginGatewayUrl` in managed settings to be Claude apps gateway sessions from startup, like `forceLoginMethod: \"gateway\"`; a leftover claude.ai login or API key is not used",
+          "zh": "变更在托管设置中配置了 `forceLoginGatewayUrl` 的机器从启动起即为 Claude 应用网关 session，与 `forceLoginMethod: \"gateway\"` 一致；残留的 claude.ai 登录或 API key 不会被使用",
+          "hash": "61145c726137224297563c01a0a723fb78ba07947ef2f9ee6656ef229426eb04",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-changed-7",
+          "en": "Changed image processing to use the runtime's built-in image support; the CLI no longer extracts a native image module to the temp directory",
+          "zh": "变更图像处理改用运行时内置的图像支持；CLI 不再将原生图像模块解压到临时目录",
+          "hash": "5cfddd3792a99e961819d8eeee9d847677ff3181bbe074554a661973bd31f4df",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-changed-8",
+          "en": "Changed plugin display metadata to prefer the marketplace entry over `plugin.json` on the Installed tab and `claude plugin details`, filling gaps from `plugin.json`",
+          "zh": "变更 plugin 显示元数据的优先级：在 Installed 标签页和 `claude plugin details` 中优先使用 marketplace 条目而非 `plugin.json`，缺失项由 `plugin.json` 补齐",
+          "hash": "d9d4213a3c67ef7190ee4f4b0f6001408557d79aa60c1f1c114b6f50d9176593",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-changed-9",
+          "en": "Changed Claude apps gateway sessions to export OpenTelemetry directly to a collector the gateway's managed settings name in `OTEL_EXPORTER_OTLP_ENDPOINT`, instead of through the gateway's relay; sessions without a named collector still use the relay",
+          "zh": "变更 Claude 应用网关 session 的 OpenTelemetry 导出方式：直接导出到网关托管设置中 `OTEL_EXPORTER_OTLP_ENDPOINT` 指定的 collector，而不再经由网关的中继；未指定 collector 的 session 仍使用中继",
+          "hash": "813ae8d077a9cf6188b126ef39120aae536e295816780a353e6b637b6ddf267d",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "7 improvements",
+      "heading_zh": "7 项改进",
+      "items": [
+        {
+          "id": "2.1.265-improvements-10",
+          "en": "Improved `--worktree` startup on large repositories: the new worktree is now checked out in parallel (git 2.32+)",
+          "zh": "改进大型仓库上的 `--worktree` 启动：新 worktree 现在并行检出（git 2.32+）",
+          "hash": "d820f9439a0cdd82461e550956933d308028e9020bdf97a62fa705600c6d9b75",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-improvements-11",
+          "en": "Improved `/workflows` agent detail: tool calls are marked running, failed or done, the subagent's task list is shown when it has one, and Enter unfolds the listed calls with their inputs and results",
+          "zh": "改进 `/workflows` 的 agent 详情：工具调用会标记为运行中、失败或完成，subagent 有任务列表时会显示，按 Enter 可展开所列调用及其输入和结果",
+          "hash": "23d7434f2ea2e1185374f34236ede92c4265c981937f4d78ec689a872cee0e95",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-improvements-12",
+          "en": "Improved slash commands typed mid-prompt: matches now show in a list (Tab opens it outside fullscreen) instead of a single suggestion, and a plugin skill is now found by its bare name",
+          "zh": "改进在 prompt 中间输入的斜杠命令：匹配项现在以列表显示（全屏模式下按 Tab 打开），而非仅显示单条建议；plugin skill 现在可通过其裸名称找到",
+          "hash": "04b283c34b94394495585eab1de29b33c69ae20a0623f144077f3035e9933809",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-improvements-13",
+          "en": "Improved remote MCP servers that need sign-in: Claude Code no longer registers an OAuth client with them until you actually authenticate",
+          "zh": "改进需要登录的远程 MCP 服务器：在你实际进行认证之前，Claude Code 不再向其注册 OAuth 客户端",
+          "hash": "e024367dd931e4bfc3401e5db5a9247b7ca3dc5c4705c9ac22a16405c12e9f12",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-improvements-14",
+          "en": "Improved the time to resume long sessions that read many files",
+          "zh": "改进恢复读取了大量文件的长时间 session 的速度",
+          "hash": "70984ce69bbfffcfb0479a623c3fa8ddf883e9c7c11d8d1574536e36167203c8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-improvements-15",
+          "en": "Improved the error shown when an image over the size limits cannot be decoded: it now names the cause and how to fix it instead of only citing the limit",
+          "zh": "改进超出大小限制的图像无法解码时的错误提示：现在会说明原因及修复方法，而不再只引用限制值",
+          "hash": "f42e58f9feabf3252926af0fb988a05fa50f63610b4dccb8b36901761a15a4bd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-improvements-16",
+          "en": "Improved the Artifact tool's read of an artifact someone else wrote: the summary now treats the page as untrusted content and flags embedded instructions rather than relaying them",
+          "zh": "改进 Artifact 工具读取他人写入的 artifact：摘要现在将该页面视为不可信内容，并标记其中嵌入的指令，而非转述它们",
+          "hash": "ad7c355c2ee658b59c5574e32d78a96f5d5e1d277d2c7dd43e7db23b0b151cf7",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "34 bug fixes",
+      "heading_zh": "34 项修复",
+      "items": [
+        {
+          "id": "2.1.265-fixes-17",
+          "en": "Fixed resuming a foreground-spawned subagent changing its tool list and system prompt prefix, which broke prompt-cache reuse for that agent",
+          "zh": "修复恢复前台启动的 subagent 时其工具列表和 system prompt 前缀发生变化、导致该 agent 的 prompt 缓存无法复用的问题",
+          "hash": "c5257badd08d5484556138cf38d0e0dec659d90d63c926b6d19a4bdbf82e7b35",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-18",
+          "en": "Fixed agent teammates and resumed subagents moving SubagentStart hook context and preloaded skills out of the prompt prefix on later turns, which broke prompt-cache reuse",
+          "zh": "修复 agent 队友和恢复的 subagent 在后续轮次中将 SubagentStart hook 上下文和预加载 skills 移出 prompt 前缀、导致 prompt 缓存无法复用的问题",
+          "hash": "4fd89ec742711c855a5e1bd4eafd5d3c37b62dc95018317fab043c766250f206",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-19",
+          "en": "Fixed resume after the previous process died while a tool was running: the last prompt is no longer rewritten, and the interrupted tool call is kept and marked interrupted",
+          "zh": "修复上一进程在工具运行期间退出后的恢复：最后一个 prompt 不再被重写，被中断的工具调用会保留并标记为已中断",
+          "hash": "65f77a5abebe539d4b9da4f37b14f5e35d502000bbbfd3346d0e74fc8654bdd4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-20",
+          "en": "Fixed `/model opusplan[1m]` being rejected with \"Model not found\"",
+          "zh": "修复 `/model opusplan[1m]` 被拒绝并提示“Model not found”的问题",
+          "hash": "0a36ea96de15be4a93ae699570e060006261c5d290c74a472fb4be0f24ae6a87",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-21",
+          "en": "Fixed syntax-highlighted code in permission prompts and messages sometimes omitting a character after a Ruby `?`, Erlang `$`, or Perl `$` sigil",
+          "zh": "修复权限提示和消息中带语法高亮的代码在 Ruby `?`、Erlang `$` 或 Perl `$` 符号后有时会漏掉一个字符的问题",
+          "hash": "60dcfa1b50b799bc397ce0ba128e29d9a981c36077d23ed391084e68a29d1747",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-22",
+          "en": "Fixed the fullscreen transcript jumping by one row whenever the slash-command or @-file suggestion list opened or closed",
+          "zh": "修复斜杠命令或 @ 文件建议列表打开或关闭时，全屏对话记录会跳动一行的问题",
+          "hash": "23d4da76c3a7ab0f9152eb1b41090dce7daaa27002a01a6e92406ae5b53ab041",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-23",
+          "en": "Fixed a plugin path containing a backslash bypassing the symlink containment check on macOS and Linux",
+          "zh": "修复在 macOS 和 Linux 上，包含反斜杠的 plugin 路径可绕过符号链接包含检查的问题",
+          "hash": "d7fbbc843bcf60f535dce6b1990561b28d0e062285250b8a4547b0ed7eb1582e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-24",
+          "en": "Fixed plugin directories whose names begin with two dots being wrongly refused as outside the plugin root",
+          "zh": "修复名称以两个点开头的 plugin 目录被错误地判定为位于 plugin 根目录之外而遭拒绝的问题",
+          "hash": "d6555482984be8afdd2ca01cc53e779c189ac71a8918de6d385b0a80fa456118",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-25",
+          "en": "Fixed VS Code and SDK sessions occasionally requiring re-login when a session was closed while refreshing its token",
+          "zh": "修复 VS Code 和 SDK session 在刷新 token 期间被关闭时，偶尔需要重新登录的问题",
+          "hash": "2afd2598234aef02945e32d66fbf4cbc6b690997910f449c70a2cfb13c0f2229",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-26",
+          "en": "Fixed Remote Control sessions sending the end-of-turn signal before the reply's last message, which could show a reply as finished in the Claude app before its last part arrived",
+          "zh": "修复 Remote Control session 在回复的最后一条消息之前就发送回合结束信号的问题；该问题可能导致 Claude 应用在回复的最后一部分到达之前就显示回复已完成",
+          "hash": "30ca3583dbe8d060e426501311f87f74b1ceabc26f4ef51db979c55913c0208f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-27",
+          "en": "Fixed background (`--bg`) sessions occasionally being retired mid-turn when a message arrived just before the idle timeout",
+          "zh": "修复后台（`--bg`）session 在空闲超时前刚好收到消息时，偶尔会在回合中途被回收的问题",
+          "hash": "22400e2565132064ac6eb492d15c7f675340d2af71bf0948f3a5960c37c303a5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-28",
+          "en": "Fixed Claude Code's own git status and diff probes running clean filters configured by a nested repository inside the working tree",
+          "zh": "修复 Claude Code 自身的 git status 和 diff 探测会运行工作树内嵌套仓库所配置的 clean 过滤器的问题",
+          "hash": "9050a0809a46fbac155eeeb4e75dda287bffb382e3f968becfa351d1136c9940",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-29",
+          "en": "Fixed the advisor tool and its instructions being re-decided per request from the request's model; the decision is now made once and announced in the conversation when it changes",
+          "zh": "修复 advisor 工具及其指令会按每次请求的模型逐次重新判定；现在只判定一次，并在判定结果变化时于对话中公布",
+          "hash": "c754915595aacd8279642cfa0cf9cfb55bbfce15e82d05da16adab75927fd26f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-30",
+          "en": "Fixed artifact publish accepting connector tool names the connector doesn't expose; the publish is now refused when none of the declared tools exist, and warned when only some don't",
+          "zh": "修复 artifact 发布时会接受 connector 并未提供的 connector 工具名的问题；现在若声明的工具全部不存在则拒绝发布，若只有部分不存在则给出警告",
+          "hash": "2e358614fa67da36899477d4872cb2bd007bee0b293f2ac5e5a684b4057ddcce",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-31",
+          "en": "Fixed `/add-dir <subdirectory>` refusing to load a subdirectory's agents when managed settings lock only skills to plugins, and promising agents when only agents are locked",
+          "zh": "修复当托管设置仅将 skills 锁定到 plugins 时，`/add-dir <subdirectory>` 拒绝加载子目录的 agents 的问题，以及仅锁定 agents 时却仍承诺可加载 agents 的问题",
+          "hash": "f1f20090b06d4477fb7278b7fd70a1a9200875fc611eb697e9cfdc60833fedc0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-32",
+          "en": "Fixed two-key keyboard shortcuts cancelling silently when the second key arrived more than a second later, as happens inside tmux; they now wait 3 seconds and show a notice when they time out",
+          "zh": "修复双键键盘快捷键在第二个按键超过一秒后才到达（例如在 tmux 中）时静默取消的问题；现在会等待 3 秒，超时后显示提示",
+          "hash": "01a96aa8106a5e41e50ef1aaed727c3804eaa9ac10294ba7929f7e5937c8e737",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-33",
+          "en": "Fixed forked skills (`context: fork`) not streaming their kickoff prompt and, with `--forward-subagent-text`, their text turns as progress events in stream-json",
+          "zh": "修复分叉的 skills（`context: fork`）在 stream-json 中未将其启动 prompt 以及（启用 `--forward-subagent-text` 时）其文本回合作为进度事件流式输出的问题",
+          "hash": "049954617e634238a33d8880aace29a8e7fb39f76e4bc77540e201aa9b575292",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-34",
+          "en": "Fixed a plugin's default component folder that the OS cannot check, such as a symlink loop, being silently skipped; it is now reported in `/plugin` with the error code",
+          "zh": "修复 plugin 的默认组件文件夹在操作系统无法检查时（例如符号链接循环）被静默跳过的问题；现在会在 `/plugin` 中报告并附上错误码",
+          "hash": "66496aa1b9030c71c3b9344636f2c3a7fa910f0f8ced4d99708c50b6629c7a0a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-35",
+          "en": "Fixed the Claude apps gateway's OTLP telemetry relay pausing all forwarding to a collector for 30 seconds after it rejected a few payloads as malformed or too large",
+          "zh": "修复 Claude 应用网关的 OTLP 遥测中继在 collector 以格式错误或过大为由拒绝少量负载后，暂停向该 collector 转发全部数据 30 秒的问题",
+          "hash": "3d0452593b24050169712f9a61528396ef92f7fb91efbbe44169236f8ea6cb38",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-36",
+          "en": "Fixed `/plugin` Discover/Browse and `claude plugin list --json --available` showing no description or display name for marketplace plugins whose metadata lives only in their `plugin.json`",
+          "zh": "修复 `/plugin` 的 Discover/Browse 以及 `claude plugin list --json --available` 对元数据仅存在于其 `plugin.json` 中的 marketplace plugins 不显示描述或显示名称的问题",
+          "hash": "8a06c3d4e67b0ac43c85333b43e60f5ed9a47e0a98fcc5c21a2562e5ab2660ec",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-37",
+          "en": "Fixed `/login` showing \"no gateway URL is configured\" when re-run in a session that signed in to a Claude apps gateway set by managed settings",
+          "zh": "修复在已登录由托管设置指定的 Claude 应用网关的 session 中重新运行 `/login` 时，显示“no gateway URL is configured”的问题",
+          "hash": "66488d0059e37528db027e5f24492d5bf68c8e301a295c9adbb3cde4187e6c5c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-38",
+          "en": "Fixed `/model` claiming a model was \"saved as your default\" when the settings file couldn't be written; it now says the save failed and why",
+          "zh": "修复 `/model` 在设置文件无法写入时仍声称模型已“saved as your default”的问题；现在会说明保存失败及原因",
+          "hash": "6548362f4c6c437be7a9d5b0d7a3802770edce72a5ef2684446287e98a464bb8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-39",
+          "en": "Fixed `/clear` from Remote Control waiting on SessionStart hooks and on open terminal dialogs before completing",
+          "zh": "修复从 Remote Control 执行 `/clear` 时会等待 SessionStart hooks 和打开的终端对话框完成后才结束的问题",
+          "hash": "4d41f88f495f07ad71a02a95db4a9217234f82563e121235444c54d71136845c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-40",
+          "en": "Fixed the `/config` dialog changing height when switching between its tabs",
+          "zh": "修复 `/config` 对话框在切换标签页时高度发生变化的问题",
+          "hash": "5a6e7c6b8b2fcbbd7d74c9c68cdc58da8277fed22b8d5954129da658c697682a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-41",
+          "en": "Fixed resuming a workflow run after its container restarted; a resume whose run journal is missing now fails with a clear error instead of rerunning every agent",
+          "zh": "修复了容器重启后恢复 workflow 运行的问题；当运行日志缺失时，恢复现在会以明确的错误失败，而不是重新运行每个 agent",
+          "hash": "703ade6ccf9e4e8203ae345bd8417dc6b5ef4ff6050a103b3d67a1d7eb76c95c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-42",
+          "en": "Fixed the `claude-api` skill's error-code reference: model access failures return 404 and unavailable beta headers return 400, not 403",
+          "zh": "修复了 `claude-api` skill 的错误码参考：模型访问失败返回 404，不可用的 beta 请求头返回 400，而非 403",
+          "hash": "1f8988306e08d21801bca98a3baf314aa7341401b55f66f4785004d535a15927",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-43",
+          "en": "Fixed non-interactive sessions (`-p` with stream-json input, Agent SDK, cloud sessions) resetting the shell working directory at each new user message; a `cd` now persists across turns",
+          "zh": "修复了非交互式 session（`-p` 配合 stream-json 输入、Agent SDK、云端 session）在每条新用户消息时重置 shell 工作目录的问题；现在 `cd` 会跨轮次保持",
+          "hash": "0c0be8994399296a09660aee9174ee83189d1aff5751dd8734ef06adb82484f4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-44",
+          "en": "Fixed MCP servers configured as `http` that only speak the legacy HTTP+SSE transport never connecting; Claude Code now falls back to SSE as the MCP spec describes",
+          "zh": "修复了配置为 `http` 但仅支持旧版 HTTP+SSE 传输的 MCP server 始终无法连接的问题；Claude Code 现在会按 MCP 规范所述回退到 SSE",
+          "hash": "237384b0db62dc9264f03daf3f382986643dfb033eef204700f66ad2126d2af3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-45",
+          "en": "Fixed some claude.ai connectors in cloud sessions showing as needing authentication even though they are connected in claude.ai (servers that answer an unsupported request with HTTP 401)",
+          "zh": "修复了云端 session 中部分 claude.ai connector 显示为需要认证的问题，即使它们已在 claude.ai 中连接（这些 server 对不支持的请求返回 HTTP 401）",
+          "hash": "b635744519f9ba0b44c7f27532983b5487b54dac3e066480eb569370b018a5cf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-46",
+          "en": "Fixed remote sessions keeping their sandbox container alive while a connector approval or sign-in link waits for you",
+          "zh": "修复了远程 session 在等待 connector 审批或登录链接期间仍保持其沙箱容器存活的问题",
+          "hash": "1b1a46dcf840285dc57ef5252f47c5912b88095ddc5833a0208fdd0e15f67ec7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-47",
+          "en": "Fixed resumed sessions showing long model-facing recovery instructions in \"background task didn't finish\" notices instead of a short status line",
+          "zh": "修复了恢复的 session 在“后台任务未完成”通知中显示冗长的面向模型的恢复说明，而非简短状态栏的问题",
+          "hash": "c883c2fe79ff782aa74c42fd5748b14cb787f59fec51267e1d4983185070e03d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-48",
+          "en": "Windows: Fixed Read, Write and Edit refusing every file (\"symlink resolution changed after permission was checked\") when running inside an AppContainer or restricted-token sandbox",
+          "zh": "Windows：修复了在 AppContainer 或受限 token 沙箱中运行时，Read、Write 和 Edit 拒绝所有文件的问题（“权限检查后符号链接解析发生变化”）",
+          "hash": "24a3a296fcc7dfc1b2fbf85795d94fb10837bd170923a738d647efb4d589f01c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-49",
+          "en": "\\[VSCode] Fixed the sidebar chat coming back blank after Reload Window or a restart when the conversation had been open for more than 10 minutes",
+          "zh": "\\[VSCode] 修复了对话已打开超过 10 分钟时，重新加载窗口或重启后侧边栏聊天变为空白的问题",
+          "hash": "b0d2fb869dd9a8fb6a8ae29b9401f0d3e8487bd6f46e5b259f97564e2e8766a4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.265-fixes-50",
+          "en": "\\[VSCode] Fixed the timeline dot sitting below the text on the \"Remote Control is active\" message",
+          "zh": "\\[VSCode] 修复了“远程控制已启用”消息中时间线圆点位于文字下方的问题",
+          "hash": "9ab43fe4647b005c9fc4ca06a5ee7f0c1de54064f79763e6efc11e52182bfca3",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增插件目录批量加载、工具结果 1GB 上限与 VSCode 自动归档，并修复大量缓存、MCP 与登录问题。",
+    "highlights": [
+      {
+        "title": "插件目录批量加载",
+        "category": "新功能",
+        "detail": "`--plugin-dir` 可指向包含多个插件的文件夹，每个带清单的子文件夹都会加载，运行期间新增或移除的子文件夹也会被识别。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.265-added-2"
+        ]
+      },
+      {
+        "title": "工具结果磁盘上限 1GB",
+        "category": "新功能",
+        "detail": "保存到磁盘的工具结果超过 1 GB 会被截断，对话内预览会提示，避免超大输出占满磁盘。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.265-added-3"
+        ]
+      },
+      {
+        "title": "VSCode 自动归档空闲会话",
+        "category": "新功能",
+        "detail": "新增“Archive inactive sessions”设置，默认 14 天，自动归档长时间无活动的 session。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.265-added-4"
+        ]
+      },
+      {
+        "title": "网关机器强制走网关登录",
+        "category": "破坏性变更",
+        "detail": "托管设置配置了 `forceLoginGatewayUrl` 的机器从启动起即为网关 session，残留的 claude.ai 登录或 API key 不再被使用。",
+        "action": "确认这些机器已通过网关完成认证，否则需重新登录。",
+        "example": null,
+        "item_ids": [
+          "2.1.265-changed-6"
+        ]
+      },
+      {
+        "title": "插件路径符号链接绕过修复",
+        "category": "安全",
+        "detail": "macOS 和 Linux 上含反斜杠的插件路径可绕过符号链接包含检查，现已修复，建议更新。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.265-fixes-23"
+        ]
+      },
+      {
+        "title": "多项缓存与连接修复",
+        "category": "修复",
+        "detail": "修复 subagent 恢复后 prompt 缓存失效、`/model opusplan[1m]` 被拒、旧版 HTTP+SSE MCP 服务器无法连接等问题。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/model opusplan[1m]",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.265-fixes-17",
+          "2.1.265-fixes-20",
+          "2.1.265-fixes-44"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed deny and ask permission rules on symlinked directories (`/etc`, `/tmp`, `/var` on macOS; `/bin` on Linux) not applying when a path was given by its real location, and Bash commands ignoring deny rules written on a symlinked path spelling",
+  "zh": "修复针对符号链接目录（macOS 上的 `/etc`、`/tmp`、`/var`；Linux 上的 `/bin`）的拒绝和询问权限规则在路径以真实位置给出时不生效的问题，以及 Bash 命令忽略按符号链接路径写法编写的拒绝规则的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

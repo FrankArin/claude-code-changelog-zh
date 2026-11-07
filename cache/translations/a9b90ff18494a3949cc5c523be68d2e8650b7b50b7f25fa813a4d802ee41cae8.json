@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/ultrareview --post` to post the PR comment directly when the findings arrive and print the comment link, instead of starting a second cloud session to post it",
+  "zh": "变更 `/ultrareview --post`：发现结果到达时直接发布 PR 评论并打印评论链接，而不再启动第二个云端 session 来发布",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resuming a foreground-spawned subagent changing its tool list and system prompt prefix, which broke prompt-cache reuse for that agent",
+  "zh": "修复恢复前台启动的 subagent 时其工具列表和 system prompt 前缀发生变化、导致该 agent 的 prompt 缓存无法复用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude starting a second copy of a background command (such as a watch task or dev server) that was still running after the conversation was compacted",
+  "zh": "修复了在对话经过上下文压缩后，Claude 为仍在运行的后台命令（如 watch 任务或开发服务器）启动第二份副本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

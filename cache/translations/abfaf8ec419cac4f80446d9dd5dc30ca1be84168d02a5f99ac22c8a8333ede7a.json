@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved prompt input responsiveness: keystrokes no longer occasionally wait a frame behind spinner or streaming repaints",
+  "zh": "改进 prompt 输入的响应速度：按键不再偶尔因加载指示器或流式重绘而延迟一帧",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

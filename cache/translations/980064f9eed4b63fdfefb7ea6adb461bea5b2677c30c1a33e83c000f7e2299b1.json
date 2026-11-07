@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed the current-file chip in the message box: an X now removes it, replacing the Hide toggle",
+  "zh": "\\[VSCode] 变更消息框中的当前文件标签：现在用 X 移除它，取代原来的隐藏开关",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

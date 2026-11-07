@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed a whole REVIEW\\.md being ignored because of an @-mention, a code span wrapped across lines, or a backticked HTML tag; only lines linking to changed files are withheld",
+  "zh": "\\[Code Review] 修复了因 @ 提及、跨行代码段或反引号包裹的 HTML 标签导致整个 REVIEW\\.md 被忽略的问题；现在仅保留链接到已更改文件的行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

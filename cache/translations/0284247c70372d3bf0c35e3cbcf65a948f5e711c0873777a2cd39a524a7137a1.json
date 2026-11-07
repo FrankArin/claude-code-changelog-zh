@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/bug` and `/feedback` reports to include only model-behavior params (model, system prompt, tools) from the last API request, omitting request metadata and `CLAUDE_CODE_EXTRA_BODY` fields",
+  "zh": "变更 `/bug` 和 `/feedback` 报告，仅包含最近一次 API 请求中的模型行为参数（模型、系统 prompt、工具），省略请求元数据和 `CLAUDE_CODE_EXTRA_BODY` 字段",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

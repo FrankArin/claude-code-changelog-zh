@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a plan preview that finished loading late sometimes hiding its comment box or showing an older plan",
+  "zh": "\\[VSCode] 修复了延迟完成加载的计划预览有时隐藏其评论框或显示较旧计划的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

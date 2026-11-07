@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a tool that disappears mid-conversation, from a disconnected MCP server or an upgrade, rewriting the tool list and discarding earlier thinking",
+  "zh": "修复工具在对话中途消失（因 MCP 服务器断开或升级）导致工具列表被重写并丢弃先前思考内容的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

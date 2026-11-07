@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed fast mode under `CLAUDE_CODE_RETRY_WATCHDOG` failing the turn on a usage-credits limit, or retrying an overload at fast speed, instead of falling back to standard speed",
+  "zh": "修复了在 `CLAUDE_CODE_RETRY_WATCHDOG` 下快速模式遇到用量额度限制时导致本轮失败，或以快速速度重试过载，而不是回退到标准速度的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

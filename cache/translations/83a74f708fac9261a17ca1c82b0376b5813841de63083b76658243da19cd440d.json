@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed forked skills (`context: fork`) not streaming their kickoff prompt and, with `--forward-subagent-text`, their text turns as progress events in stream-json",
+  "zh": "修复分叉的 skills（`context: fork`）在 stream-json 中未将其启动 prompt 以及（启用 `--forward-subagent-text` 时）其文本回合作为进度事件流式输出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed resuming a session from the session list ignoring `claudeCode.preferredLocation: \"sidebar\"` (it always opened a panel), and programmatic opens resetting that setting to \"panel\"",
+  "zh": "\\[VSCode] 修复了从 session 列表恢复 session 时忽略 `claudeCode.preferredLocation: \"sidebar\"` 的问题（此前总是打开面板），以及通过程序打开时会把该设置重置为 \"panel\" 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

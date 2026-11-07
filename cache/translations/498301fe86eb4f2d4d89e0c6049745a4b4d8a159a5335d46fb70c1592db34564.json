@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `effort:` frontmatter on custom commands, skills, and subagents being ignored on models whose default effort is still pinned (Opus 4.7, Opus 4.8, Fable 5)",
+  "zh": "修复自定义命令、skills 和 subagents 上的 `effort:` frontmatter 在默认 effort 仍被固定的模型（Opus 4.7、Opus 4.8、Fable 5）上被忽略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

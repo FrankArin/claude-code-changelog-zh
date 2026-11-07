@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resumed sessions showing long model-facing recovery instructions in \"background task didn't finish\" notices instead of a short status line",
+  "zh": "修复了恢复的 session 在“后台任务未完成”通知中显示冗长的面向模型的恢复说明，而非简短状态栏的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

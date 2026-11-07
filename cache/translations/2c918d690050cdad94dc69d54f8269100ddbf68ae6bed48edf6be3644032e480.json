@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed deleting the first message of a thread Claude had already replied in not ending Claude's work there; it now stops, as it did when a message with no replies was deleted",
+  "zh": "\\[Claude Tag] 修复了删除 Claude 已回复过的 thread 的首条消息后，Claude 在该 thread 的工作不会结束的问题；现在会像删除无回复的消息时一样停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

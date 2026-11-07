@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the spinner showing a doubled ellipsis (\"……\") on compaction status lines such as \"Running PreCompact hooks…\"",
+  "zh": "修复了加载指示器在“Running PreCompact hooks…”等上下文压缩状态行上显示重复省略号（“……”）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

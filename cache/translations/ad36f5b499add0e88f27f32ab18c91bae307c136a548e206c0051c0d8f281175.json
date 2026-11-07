@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode so a subagent reports back to its caller through a dedicated hand-back call that the safety classifier reviews, instead of its last message being reviewed after the fact",
+  "zh": "变更自动模式：subagent 改为通过一个由安全分类器审核的专用回传调用向其调用方报告，而不再事后审核其最后一条消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sustained high CPU usage and repeated tool-list requests when an MCP server sends `list_changed` notifications in a tight loop",
+  "zh": "修复了当 MCP 服务器在紧密循环中发送 `list_changed` 通知时，CPU 持续高占用并反复请求工具列表的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

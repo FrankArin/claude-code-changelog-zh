@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `permissions.blockReadsOutsideWorkingDirectories`: a memory directory chosen by a repository's settings is no longer loaded into the prompt, recalled, indexed, or used by memory extraction",
+  "zh": "修复 `permissions.blockReadsOutsideWorkingDirectories`：由仓库设置选择的内存目录不再被加载到 prompt、召回、索引或用于内存提取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

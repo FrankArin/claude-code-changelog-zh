@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control sessions sending the end-of-turn signal before the reply's last message, which could show a reply as finished in the Claude app before its last part arrived",
+  "zh": "修复 Remote Control session 在回复的最后一条消息之前就发送回合结束信号的问题；该问题可能导致 Claude 应用在回复的最后一部分到达之前就显示回复已完成",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

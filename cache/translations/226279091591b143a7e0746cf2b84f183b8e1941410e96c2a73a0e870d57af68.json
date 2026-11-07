@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed prompt caching and extended thinking breaking mid-session for SDK sessions using `excludeDynamicSections`: the first message is no longer re-rendered each request",
+  "zh": "修复使用 `excludeDynamicSections` 的 SDK session 在 session 中途出现 prompt 缓存和扩展思考失效的问题：首条消息不再在每次请求时重新渲染",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a red \"Claude Code process exited with code 4294967295\" banner appearing after completed turns on Windows",
+  "zh": "\\[VSCode] 修复了 Windows 上轮次完成后出现红色“Claude Code process exited with code 4294967295”横幅的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

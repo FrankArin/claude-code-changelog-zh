@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Read on macOS refusing a dragged-in screenshot, or any file the system reports under a second path, with \"symlink resolution changed after permission was checked\"",
+  "zh": "修复 macOS 上 Read 拒绝拖入的截图或系统以第二个路径报告的任何文件，并报出“symlink resolution changed after permission was checked”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

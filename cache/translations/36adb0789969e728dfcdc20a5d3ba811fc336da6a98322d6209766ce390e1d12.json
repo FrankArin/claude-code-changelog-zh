@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed artifact publish accepting connector tool names the connector doesn't expose; the publish is now refused when none of the declared tools exist, and warned when only some don't",
+  "zh": "修复 artifact 发布时会接受 connector 并未提供的 connector 工具名的问题；现在若声明的工具全部不存在则拒绝发布，若只有部分不存在则给出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

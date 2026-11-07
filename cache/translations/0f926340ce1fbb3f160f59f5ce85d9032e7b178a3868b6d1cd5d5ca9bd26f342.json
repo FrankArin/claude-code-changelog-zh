@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Bash tool's description guidance so Claude describes what a command does in plain words instead of echoing the command",
+  "zh": "改进 Bash 工具的描述指引，使 Claude 用通俗语言说明命令的作用，而不是复述命令本身",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

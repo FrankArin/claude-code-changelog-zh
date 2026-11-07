@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the main prompt dropping a `!` typed at the start while already in shell mode, so negated commands like `! grep …` can be typed",
+  "zh": "修复已在 shell 模式下时，主 prompt 丢弃开头输入的 `!` 的问题，现在可以输入 `! grep …` 这类取反命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

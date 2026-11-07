@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed terminal escape codes, line breaks and oversized text from a background task's on-disk record reaching the task list and task notifications when work is resumed",
+  "zh": "修复了恢复工作时，后台任务磁盘记录中的终端转义码、换行符和超大文本会进入任务列表和任务通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

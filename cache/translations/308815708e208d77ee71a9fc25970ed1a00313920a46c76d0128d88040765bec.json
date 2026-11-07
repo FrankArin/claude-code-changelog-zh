@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `@` file and `/` command suggestions not appearing after recalling a previous prompt with the up arrow and editing it",
+  "zh": "修复用上箭头调出之前的 prompt 并编辑后，`@` 文件和 `/` 命令建议不出现的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

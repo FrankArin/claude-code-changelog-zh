@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed workload identity federation via a profile (as claude-code-action configures it): processes sharing the profile could fail mid-run with `401 … jti reused`",
+  "zh": "修复通过 profile 进行的工作负载身份联合（如 claude-code-action 所配置的方式）：共享该 profile 的进程可能在运行中途失败并报 `401 … jti reused`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

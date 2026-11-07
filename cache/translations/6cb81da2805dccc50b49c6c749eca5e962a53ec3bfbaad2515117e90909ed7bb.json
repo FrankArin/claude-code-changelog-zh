@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the in-session SSL certificate and proxy connection errors to name the error code and what to fix, such as `NODE_EXTRA_CA_CERTS` for an untrusted corporate CA",
+  "zh": "改进会话内的 SSL 证书和代理连接错误提示，指明错误代码和需要修复的内容，例如企业 CA 不受信任时使用 `NODE_EXTRA_CA_CERTS`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

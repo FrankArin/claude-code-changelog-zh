@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed \"Report a problem\" still appearing, and `/bug` / `/feedback` opening a report form, for organizations that have product feedback disabled",
+  "zh": "\\[VSCode] 修复了已禁用产品反馈的组织仍显示“报告问题”，且 `/bug` / `/feedback` 仍会打开报告表单的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

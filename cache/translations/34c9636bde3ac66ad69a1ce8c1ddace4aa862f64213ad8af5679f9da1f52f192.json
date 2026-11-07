@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/insights` failing on Bedrock, Vertex, Foundry, and gateway deployments whose account can't reach the default Opus model by using the session model there instead",
+  "zh": "修复了 `/insights` 在 Bedrock、Vertex、Foundry 和网关部署上失败的问题：当账户无法访问默认 Opus 模型时，改为使用该处的 session 模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

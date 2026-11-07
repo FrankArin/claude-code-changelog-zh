@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude sometimes replying \"your message came through empty\" after an MCP tool call",
+  "zh": "修复 Claude 在 MCP 工具调用后有时回复“你的消息传来时是空的”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

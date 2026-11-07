@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the bundled `claude-api` skill to enable `eager_input_streaming` on streaming custom tools, and to start deliverable-shaped Managed Agents work with `user.define_outcome`",
+  "zh": "更新内置 `claude-api` skill，在流式自定义工具上启用 `eager_input_streaming`，并以 `user.define_outcome` 启动交付物形态的 Managed Agents 工作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

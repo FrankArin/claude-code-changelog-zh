@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the `.claude` folder permission option to say what it actually allows: editing files in the project's `.claude` folder (or `~/.claude`) for the session",
+  "zh": "更新 `.claude` 文件夹权限选项的说明，明确其实际允许的操作：在本次 session 中编辑项目 `.claude` 文件夹（或 `~/.claude`）内的文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

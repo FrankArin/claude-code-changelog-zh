@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin errors showing `[redacted URL]` in place of a relative Windows path with a folder name that starts with `@`",
+  "zh": "修复了 plugin 错误在显示以 `@` 开头的文件夹名的 Windows 相对路径时，显示为 `[redacted URL]` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

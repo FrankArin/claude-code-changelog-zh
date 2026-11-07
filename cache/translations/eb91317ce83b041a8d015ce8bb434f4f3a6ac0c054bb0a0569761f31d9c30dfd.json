@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/autofix-pr`: when `gh pr view` fails it now shows gh's own error (sign-in, SAML, rate limit) instead of a generic exit-code line",
+  "zh": "改进 `/autofix-pr`：当 `gh pr view` 失败时，现在显示 gh 自身的错误（登录、SAML、速率限制），而不是通用的退出码信息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

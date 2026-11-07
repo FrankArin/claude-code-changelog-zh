@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-08",
+  "versions": [
+    "2.1.266",
+    "2.1.265"
+  ],
+  "tldr": "2.1.266 修复了 2.1.265 的网关登录回归；2.1.265 带来插件目录批量加载、工具结果 1GB 上限、VSCode 自动归档，并含一项破坏性变更：强制网关登录的机器需确认认证。",
+  "highlights": [
+    {
+      "title": "修复网关配置回归",
+      "category": "修复",
+      "detail": "2.1.265 中单独设置 CLAUDE_CODE_USE_GATEWAY 会强制 Cloud 网关登录，导致配合 API key、apiKeyHelper 或自定义认证头的配置每次请求报“Not signed in to the Cloud gateway”；现已恢复为单独设置时忽略该变量。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_USE_GATEWAY",
+        "caption": "相关环境变量"
+      },
+      "version": "2.1.266",
+      "item_ids": [
+        "2.1.266-other-1"
+      ]
+    },
+    {
+      "title": "网关机器强制走网关登录",
+      "category": "破坏性变更",
+      "detail": "托管设置配置了 forceLoginGatewayUrl 的机器从启动起即为网关 session，残留的 claude.ai 登录或 API key 不再被使用。",
+      "action": "确认这些机器已通过网关完成认证，否则需重新登录。",
+      "example": null,
+      "version": "2.1.265",
+      "item_ids": [
+        "2.1.265-changed-6"
+      ]
+    },
+    {
+      "title": "插件路径符号链接绕过修复",
+      "category": "安全",
+      "detail": "macOS 和 Linux 上含反斜杠的插件路径可绕过符号链接包含检查，现已修复，建议更新。",
+      "action": null,
+      "example": null,
+      "version": "2.1.265",
+      "item_ids": [
+        "2.1.265-fixes-23"
+      ]
+    },
+    {
+      "title": "插件目录批量加载",
+      "category": "新功能",
+      "detail": "--plugin-dir 可指向包含多个插件的文件夹，每个带清单的子文件夹都会加载，运行期间新增或移除的子文件夹也会被识别。",
+      "action": null,
+      "example": null,
+      "version": "2.1.265",
+      "item_ids": [
+        "2.1.265-added-2"
+      ]
+    },
+    {
+      "title": "工具结果磁盘上限 1GB",
+      "category": "新功能",
+      "detail": "保存到磁盘的工具结果超过 1 GB 会被截断，对话内预览会提示，避免超大输出占满磁盘。",
+      "action": null,
+      "example": null,
+      "version": "2.1.265",
+      "item_ids": [
+        "2.1.265-added-3"
+      ]
+    },
+    {
+      "title": "VSCode 自动归档空闲会话",
+      "category": "新功能",
+      "detail": "新增“Archive inactive sessions”设置，默认 14 天，自动归档长时间无活动的 session。",
+      "action": null,
+      "example": null,
+      "version": "2.1.265",
+      "item_ids": [
+        "2.1.265-added-4"
+      ]
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "99e31618c2acd41920ec68afd3dd6c00f9f48bd6dac77364425d9681fa5fd68c"
+}

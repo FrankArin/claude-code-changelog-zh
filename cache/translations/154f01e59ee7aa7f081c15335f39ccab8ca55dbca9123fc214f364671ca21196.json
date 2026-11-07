@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skills synced from claude.ai staying available after your organization turns Skills off; they now move to the recoverable trash",
+  "zh": "修复从 claude.ai 同步的 skills 在组织关闭 Skills 后仍可用的问题；现在它们会被移入可恢复的回收站",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

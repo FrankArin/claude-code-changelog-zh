@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the system prompt on Bedrock, Vertex and Foundry to deliver environment, model and settings details as attachments, matching first-party sessions",
+  "zh": "变更 Bedrock、Vertex 和 Foundry 上的系统 prompt，改为以附件形式提供环境、模型和设置详情，与第一方 session 保持一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

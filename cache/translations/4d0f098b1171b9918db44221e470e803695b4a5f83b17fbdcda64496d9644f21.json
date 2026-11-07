@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Windows issues: the WSL install prompt no longer appears on machines without WSL installed, and IDE diagnostics are now returned correctly for Windows files when WSL is installed",
+  "zh": "\\[VSCode] 修复了 Windows 相关问题：未安装 WSL 的机器上不再出现 WSL 安装提示；已安装 WSL 时，Windows 文件的 IDE 诊断信息现在能正确返回",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

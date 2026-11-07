@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Improved the Environment picker in Claude Tag admin settings: options are labeled Anthropic-hosted or self-hosted, with links to edit that environment or create one",
+  "zh": "\\[Claude Tag] 改进 Claude Tag 管理设置中的 Environment 选择器：选项标注为 Anthropic-hosted 或 self-hosted，并提供编辑该环境或创建环境的链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

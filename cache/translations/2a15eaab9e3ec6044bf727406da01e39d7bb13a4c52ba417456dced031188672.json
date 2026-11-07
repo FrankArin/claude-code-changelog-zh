@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude going silent minutes after reinstalling the app when an Enterprise Grid was disconnected but one of its workspaces stayed connected",
+  "zh": "\\[Claude Tag] 修复了 Enterprise Grid 已断开但其中一个工作区仍保持连接时，重新安装应用几分钟后 Claude 静默无响应的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

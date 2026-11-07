@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added forking a session started with `claude --remote-control` or `/remote-control` from the Claude app; the fork runs as a background session on your computer",
+  "zh": "新增从 Claude 应用分叉由 `claude --remote-control` 或 `/remote-control` 启动的 session；分叉作为后台 session 在你的电脑上运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

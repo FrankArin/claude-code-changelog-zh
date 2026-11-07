@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/model` claiming a model was \"saved as your default\" when the settings file couldn't be written; it now says the save failed and why",
+  "zh": "修复 `/model` 在设置文件无法写入时仍声称模型已“saved as your default”的问题；现在会说明保存失败及原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed SDK prompt suggestions, side questions and `/rename` sending the conversation from before a compaction",
+  "zh": "修复 SDK prompt 建议、侧边问题和 `/rename` 发送上下文压缩之前的对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

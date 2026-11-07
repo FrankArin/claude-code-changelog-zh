@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Fixed creating a self-hosted environment from organization settings occasionally failing with a server error and leaving a half-created environment behind",
+  "zh": "\\[Claude Code on the web] 修复了从组织设置创建自托管环境时偶尔因服务器错误失败并留下创建到一半的环境的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed agent teammates and resumed subagents moving SubagentStart hook context and preloaded skills out of the prompt prefix on later turns, which broke prompt-cache reuse",
+  "zh": "修复 agent 队友和恢复的 subagent 在后续轮次中将 SubagentStart hook 上下文和预加载 skills 移出 prompt 前缀、导致 prompt 缓存无法复用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

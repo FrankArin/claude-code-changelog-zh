@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the artifact data-edit permission prompt in the terminal to a card that shows the document count and who can open the artifact",
+  "zh": "变更终端中 artifact 数据编辑权限提示，改为显示文档数量和可打开该 artifact 的人员的卡片",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

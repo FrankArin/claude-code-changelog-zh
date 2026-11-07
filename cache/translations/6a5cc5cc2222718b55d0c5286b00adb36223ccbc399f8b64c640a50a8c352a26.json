@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a second Claude process running through its full startup when a session tab's launch arrived more than half a second after its config read",
+  "zh": "\\[VSCode] 修复了当 session 标签页的启动请求在配置读取完成半秒多之后才到达时，第二个 Claude 进程会完整执行启动流程的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

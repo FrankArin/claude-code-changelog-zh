@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved hook feedback: while a SessionStart, UserPromptSubmit, PreToolUse or SessionEnd hook runs, the spinner says so with elapsed time, and Esc cancels a prompt waiting on a SessionStart hook",
+  "zh": "改进 hook 反馈：SessionStart、UserPromptSubmit、PreToolUse 或 SessionEnd hook 运行期间，加载指示器会显示其正在运行及已用时间；按 Esc 可取消等待 SessionStart hook 的 prompt",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

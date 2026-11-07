@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a plugin's default component folder that the OS cannot check, such as a symlink loop, being silently skipped; it is now reported in `/plugin` with the error code",
+  "zh": "修复 plugin 的默认组件文件夹在操作系统无法检查时（例如符号链接循环）被静默跳过的问题；现在会在 `/plugin` 中报告并附上错误码",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

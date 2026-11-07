@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed AWS connections refusing region-less endpoints such as Budgets, Savings Plans, WAF Classic and Import/Export; Global Accelerator requests now sign correctly",
+  "zh": "\\[Claude Tag] 修复了 AWS 连接拒绝无区域端点（如 Budgets、Savings Plans、WAF Classic 和 Import/Export）的问题；Global Accelerator 请求现在能正确签名",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

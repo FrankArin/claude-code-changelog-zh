@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a session rename being replaced by the generated name after a window reload when the session was renamed during a long turn",
+  "zh": "\\[VSCode] 修复了在长轮次期间重命名 session 后，窗口重新加载时重命名被生成的名称替换的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

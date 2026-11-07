@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Artifact tool's error when a publish includes a file type artifacts don't serve: Claude is told which types are served and what to do instead, and the terminal shows one plain line",
+  "zh": "改进 Artifact 工具在发布包含 artifact 不支持的文件类型时的错误提示：告知 Claude 支持哪些类型以及应如何处理，终端只显示一行简明信息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

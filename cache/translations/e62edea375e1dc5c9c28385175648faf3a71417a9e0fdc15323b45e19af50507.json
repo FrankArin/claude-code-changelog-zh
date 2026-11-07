@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/tui` refusing to restart because of an agent-team teammate that had already finished its work and was no longer shown in the agents panel",
+  "zh": "修复了 `/tui` 因某个 agent-team 队友已完成工作且不再显示在 agents 面板中而拒绝重启的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

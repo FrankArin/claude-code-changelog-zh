@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed 401/403 errors on Bedrock, Vertex and Foundry, and Claude apps gateway 403s, telling you to run `/login`; the message now names the credential to refresh or points to your gateway administrator",
+  "zh": "修复 Bedrock、Vertex 和 Foundry 上的 401/403 错误以及 Claude 应用网关 403 错误提示运行 `/login` 的问题；现在消息会指明需要刷新的凭证，或指向网关管理员",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

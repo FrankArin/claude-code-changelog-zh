@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Improved the network-path permission check for UNC paths when a mapped network drive was added with `--add-dir`",
+  "zh": "Windows：改进通过 `--add-dir` 添加映射网络驱动器时对 UNC 路径的网络路径权限检查",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

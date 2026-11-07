@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed settings file changes made outside the session going unnoticed on macOS machines whose system file-event service is saturated; the watcher now falls back to polling",
+  "zh": "修复了在系统文件事件服务饱和的 macOS 机器上，session 外部所做的设置文件变更未被察觉的问题；监视器现在会回退到轮询",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

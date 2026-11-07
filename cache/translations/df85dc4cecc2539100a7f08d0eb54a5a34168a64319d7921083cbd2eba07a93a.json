@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Artifact tool's read of an artifact someone else wrote: the summary now treats the page as untrusted content and flags embedded instructions rather than relaying them",
+  "zh": "改进 Artifact 工具读取他人写入的 artifact：摘要现在将该页面视为不可信内容，并标记其中嵌入的指令，而非转述它们",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

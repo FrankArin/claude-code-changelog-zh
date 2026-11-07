@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed the reply-mode card Claude posts on joining a busy channel saying it \"sees a lot of automated posts\" when the channel is only chatty or large; the card now names the real reason",
+  "zh": "\\[Claude Tag] 修复了 Claude 加入繁忙频道时发布的回复模式卡片在频道只是聊天活跃或规模较大时却称其“看到大量自动发帖”的问题；现在卡片会说明真实原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

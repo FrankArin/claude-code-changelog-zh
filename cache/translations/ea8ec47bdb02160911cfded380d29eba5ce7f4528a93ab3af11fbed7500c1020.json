@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added an Attach Open File setting that, when turned off, stops the open file from being added to messages; selected text is still attached",
+  "zh": "\\[VSCode] 新增“附加打开的文件”设置，关闭后不再将打开的文件添加到消息中；选中的文本仍会附加",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

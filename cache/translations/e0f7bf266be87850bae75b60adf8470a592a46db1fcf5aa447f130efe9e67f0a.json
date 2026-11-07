@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a long-running session recreating a stub `.git/info/exclude` after the repository's `.git` directory was removed or moved away",
+  "zh": "修复长时间运行的 session 在仓库的 `.git` 目录被删除或移走后重新创建占位 `.git/info/exclude` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

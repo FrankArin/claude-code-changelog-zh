@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed some artifact permission prompts to omit the \"don't ask again\" choice, matching the terminal",
+  "zh": "\\[VSCode] 变更部分 artifact 权限提示，省略“don't ask again”选项，与终端保持一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

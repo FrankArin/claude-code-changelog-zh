@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+  "zh": "修复 Bash 中的只读 git 命令在 session 运行一段时间后意外请求权限的问题（2.1.269 引入的回归）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:46+00:00"
+}

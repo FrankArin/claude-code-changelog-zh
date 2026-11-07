@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/autofix-pr` to say why GitHub webhook delivery couldn't be set up for the PR (for example, no linked GitHub account) instead of a generic warning",
+  "zh": "改进 `/autofix-pr`：说明为何无法为该 PR 设置 GitHub webhook 投递（例如未关联 GitHub 账号），而不是给出通用警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

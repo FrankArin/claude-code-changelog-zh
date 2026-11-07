@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a cached organization policy being reused after switching accounts, organizations, or API keys, and the policy not refreshing until the hourly check when the credential changes mid-session",
+  "zh": "修复切换账号、组织或 API key 后仍复用缓存的组织策略的问题，以及凭据在 session 中途变更时策略要等到每小时检查才刷新的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

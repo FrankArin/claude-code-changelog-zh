@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/remote-control` and other claude.ai-gated commands to suggest `/login` when signed out instead of showing a Claude for Enterprise migration message",
+  "zh": "修复了 `/remote-control` 及其他受 claude.ai 限制的命令在未登录时提示 `/login`，而非显示 Claude for Enterprise 迁移消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

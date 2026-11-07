@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed mixed right-to-left and English text rendering in the wrong order while typing in the message input",
+  "zh": "\\[VSCode] 修复了在消息输入框中输入时，从右到左文本与英文混排渲染顺序错误的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

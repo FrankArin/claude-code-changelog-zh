@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added mouse support to the `/config` panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted",
+  "zh": "全屏模式下为 `/config` 面板新增鼠标支持：滚轮可滚动设置列表，点击某项设置的值即可修改，指针所在行会高亮显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

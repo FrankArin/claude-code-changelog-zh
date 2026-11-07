@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed a workspace guest's top-level @mention in a channel where guests may use Claude sometimes getting a \"your Slack account isn't connected\" reply instead of an answer",
+  "zh": "\\[Claude Tag] 修复了在允许访客使用 Claude 的频道中，工作区访客的顶层 @提及 有时收到“你的 Slack 账号未连接”的回复而非答案的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

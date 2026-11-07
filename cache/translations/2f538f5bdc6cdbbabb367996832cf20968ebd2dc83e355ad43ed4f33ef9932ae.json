@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` re-running a turn that had failed with an API error over 6 hours earlier, or longer ago than `CLAUDE_CODE_RESUME_INTERRUPTED_TURN_MAX_AGE_MS` when set",
+  "zh": "修复了 `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` 重新运行一个在 6 小时前或更早因 API 错误而失败的轮次的问题，或在设置了 `CLAUDE_CODE_RESUME_INTERRUPTED_TURN_MAX_AGE_MS` 时超过该时长的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

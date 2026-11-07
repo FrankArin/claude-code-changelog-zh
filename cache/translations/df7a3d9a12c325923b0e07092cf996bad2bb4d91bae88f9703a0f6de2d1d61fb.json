@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added a link from a Slack channel's configure page back to the organization's Claude in Slack admin settings",
+  "zh": "\\[Claude Tag] 新增从 Slack 频道的配置页面返回组织 Claude in Slack 管理员设置的链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/resume` listing a `/fork` background session under its parent's name instead of its own `⑂` fork name",
+  "zh": "修复了 `/resume` 将 `/fork` 后台 session 列在其父 session 名称下、而非其自身的 `⑂` fork 名称下的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

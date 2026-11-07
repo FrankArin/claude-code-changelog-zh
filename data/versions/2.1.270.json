@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "version": "2.1.270",
+  "date": "2026-09-12",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "6194005c44933a3dbf5309c4dafef472d78bc0a03abcabf730ecfbd71b7e7564",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T05:03:46+00:00"
+  },
+  "groups": [
+    {
+      "kind": "other",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.270-other-1",
+          "en": "Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+          "zh": "修复 Bash 中的只读 git 命令在 session 运行一段时间后意外请求权限的问题（2.1.269 引入的回归）",
+          "hash": "9e7d0256d7003c3be35d5777d44084160379fdab5ff2d8ce32558c5bc5a2f596",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "修复只读 git 命令在会话运行一段时间后意外请求权限的回归问题。",
+    "highlights": [
+      {
+        "title": "修复只读 git 命令误请求权限",
+        "category": "修复",
+        "detail": "修复 2.1.269 引入的回归：会话运行一段时间后，Bash 中的只读 git 命令会意外弹出权限请求，现已恢复正常。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.270-other-1"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added the `gatewayInternalNetworks` managed setting, letting administrators allow `/login` to a Claude apps gateway on their organization's own public IPv4 block",
+  "zh": "新增 `gatewayInternalNetworks` 托管设置，允许管理员允许 `/login` 连接到位于其组织自有公网 IPv4 地址段上的 Claude 应用网关",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

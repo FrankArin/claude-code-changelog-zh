@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/fast off` answering \"Fast mode unavailable\" instead of turning fast mode off when the organization has fast mode disabled",
+  "zh": "修复了在组织已禁用快速模式时，`/fast off` 返回 \"Fast mode unavailable\" 而不是关闭快速模式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

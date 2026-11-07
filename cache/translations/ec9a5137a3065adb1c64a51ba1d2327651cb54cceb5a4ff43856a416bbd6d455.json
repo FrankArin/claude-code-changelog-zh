@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added automatic archiving of sessions inactive for a set period (new \"Archive inactive sessions\" setting, default 14 days)",
+  "zh": "\\[VSCode] 新增自动归档在设定时长内无活动的 session（新增“Archive inactive sessions”设置，默认 14 天）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

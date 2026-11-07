@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `allowManagedMcpServersOnly`, `deniedMcpServers` and `disableClaudeAiConnectors` set via MDM or `managed-settings.json` being ignored when server-managed settings are also present",
+  "zh": "修复同时存在服务器托管设置时，通过 MDM 或 `managed-settings.json` 设置的 `allowManagedMcpServersOnly`、`deniedMcpServers` 和 `disableClaudeAiConnectors` 被忽略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

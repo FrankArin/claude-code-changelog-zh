@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Artifact tool's error when a page declares a capability its contract version lacks: it now lists every supported capability and notes when a newer contract version has it",
+  "zh": "改进 Artifact 工具在页面声明其 contract 版本不支持的能力时的错误：现在会列出所有支持的能力，并说明哪个更新的 contract 版本支持该能力",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

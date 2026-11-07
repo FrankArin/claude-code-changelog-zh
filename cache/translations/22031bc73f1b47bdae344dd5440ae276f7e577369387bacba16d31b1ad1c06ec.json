@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the sidebar usage meter keeping a stale per-model weekly limit row after the account loses that limit",
+  "zh": "\\[VSCode] 修复了账号失去某项限制后，侧边栏用量计量仍保留过期的按模型每周限制行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

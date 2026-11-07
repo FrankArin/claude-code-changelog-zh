@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `--worktree` startup on large repositories: the new worktree is now checked out in parallel (git 2.32+)",
+  "zh": "改进大型仓库上的 `--worktree` 启动：新 worktree 现在并行检出（git 2.32+）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

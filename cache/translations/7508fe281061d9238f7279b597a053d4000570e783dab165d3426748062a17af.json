@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed stray characters like `22c`, or a terminal's color or version reply, being typed into the prompt at startup over slow connections (ssh, browser terminals)",
+  "zh": "修复了在慢速连接（ssh、浏览器终端）下启动时，`22c` 等杂散字符或终端的颜色或版本回复被输入到 prompt 中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

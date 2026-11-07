@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a \"Claude Code: Focus last message\" command that moves keyboard focus to the newest message in the conversation, for keyboard and screen reader users",
+  "zh": "\\[VSCode] 新增“Claude Code: Focus last message”命令，将键盘焦点移到对话中的最新消息，面向键盘和屏幕阅读器用户",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

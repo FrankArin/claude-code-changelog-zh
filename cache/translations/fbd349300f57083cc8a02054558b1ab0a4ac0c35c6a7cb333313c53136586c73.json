@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skills synced from claude.ai staying on disk indefinitely after signing out; copies not refreshed within `cleanupPeriodDays` now move to the recoverable trash at the next launch",
+  "zh": "修复从 claude.ai 同步的 skills 在退出登录后无限期留在磁盘上的问题；未在 `cleanupPeriodDays` 内刷新的副本现在会在下次启动时移入可恢复的回收站",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed the admin Memory page not listing Slack channels Claude set up on its own even when they had saved memory; admins can now open, edit and delete that memory",
+  "zh": "\\[Claude Tag] 修复了管理后台 Memory 页面未列出 Claude 自行设置的 Slack 频道（即使这些频道已保存 memory）的问题；管理员现在可以打开、编辑和删除该 memory",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

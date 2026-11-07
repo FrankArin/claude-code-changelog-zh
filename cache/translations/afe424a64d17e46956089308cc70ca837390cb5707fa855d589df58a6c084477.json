@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a prompt-cache break when a print-mode (`-p`) conversation is resumed interactively: the system prompt prefix no longer changes",
+  "zh": "修复以交互方式恢复 print 模式（`-p`）对话时 prompt 缓存中断的问题：系统 prompt 前缀不再变化",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

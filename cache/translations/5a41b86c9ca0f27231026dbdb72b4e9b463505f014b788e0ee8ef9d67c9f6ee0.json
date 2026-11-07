@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)",
+  "zh": "新增 `--system-prompt-snapshot off`，在每次请求时重新渲染系统 prompt，而不是复用对话中记录的 prompt（用于迭代 prompt 文本）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

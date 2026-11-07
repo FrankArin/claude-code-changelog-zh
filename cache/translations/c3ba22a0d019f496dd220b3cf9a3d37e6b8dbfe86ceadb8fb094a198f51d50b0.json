@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a Cancel button to the Switch account screen that returns to your session as the current account",
+  "zh": "\\[VSCode] 在切换账号界面新增取消按钮，可返回你的 session 并保持当前账号",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

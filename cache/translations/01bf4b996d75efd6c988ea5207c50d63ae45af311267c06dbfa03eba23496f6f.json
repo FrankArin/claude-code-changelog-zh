@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `claude plugin eval`: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see `claude plugin eval --help`",
+  "zh": "新增 `claude plugin eval`：针对 Claude Code 运行 plugin 的 eval 套件，获得可复现的评分结果（JSON + HTML 报告）；详见 `claude plugin eval --help`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

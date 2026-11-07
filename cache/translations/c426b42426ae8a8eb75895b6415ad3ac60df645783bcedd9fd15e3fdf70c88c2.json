@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Added a \"Discard unsaved changes?\" confirmation before the New routine page or the Edit routine dialog throws away a routine name, prompt or edit you typed",
+  "zh": "\\[Claude Code on the web] 新增“放弃未保存的更改？”确认提示，在新建例程页面或编辑例程对话框丢弃你输入的例程名称、prompt 或编辑内容之前显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

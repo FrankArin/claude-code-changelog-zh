@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool handles file edits (setting `bashEditDiffEnabled`)",
+  "zh": "当 Bash 工具处理文件编辑时，在 Bash 工具结果中新增该 Bash 命令所改动文件的 diff（设置 `bashEditDiffEnabled`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

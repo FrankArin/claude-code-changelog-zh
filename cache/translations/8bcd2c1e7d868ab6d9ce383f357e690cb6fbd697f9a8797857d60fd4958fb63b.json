@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed prompt cache misses in cloud sessions by waiting briefly for server configuration before the first request",
+  "zh": "修复了云 session 中 prompt 缓存未命中的问题：首次请求前会短暂等待服务器配置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

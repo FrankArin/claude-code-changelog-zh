@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed artifact database reads that save into the session scratchpad so they no longer stop for working-folder approval",
+  "zh": "变更保存到 session 暂存区的 artifact 数据库读取，使其不再因工作文件夹审批而中断",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

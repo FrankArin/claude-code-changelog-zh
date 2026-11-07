@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the prompt cache clock and reopen notice for a session compacted after its last reply and then closed, which now reads as cold when reopened",
+  "zh": "\\[VSCode] 修复了在最后一次回复后经过上下文压缩然后关闭的 session 的 prompt 缓存时钟和重新打开提示问题，现在重新打开时显示为冷缓存",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

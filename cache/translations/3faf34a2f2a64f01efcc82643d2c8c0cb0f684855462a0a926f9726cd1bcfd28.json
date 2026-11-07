@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the terminal's block cursor showing under the interface in rxvt-unicode after leaving or re-entering fullscreen",
+  "zh": "修复了在 rxvt-unicode 中退出或重新进入全屏后，终端块状光标显示在界面下方的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

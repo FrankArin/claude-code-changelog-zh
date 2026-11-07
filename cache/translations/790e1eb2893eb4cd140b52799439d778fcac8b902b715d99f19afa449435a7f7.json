@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a Hooks dialog to the command menu for viewing hooks and adding, editing, or removing them in user, project, and local settings; managed, plugin, and session hooks stay read-only",
+  "zh": "\\[VSCode] 在命令菜单中新增 Hooks 对话框，用于查看 hooks，并在用户、项目和本地设置中添加、编辑或删除 hooks；托管、plugin 和 session 的 hooks 保持只读",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

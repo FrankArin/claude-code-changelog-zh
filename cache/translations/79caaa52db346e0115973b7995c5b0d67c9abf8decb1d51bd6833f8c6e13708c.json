@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resuming a session after `/compact` or another slash command ran via `-p --resume`: a spurious \"Continue from where you left off.\" turn is no longer inserted",
+  "zh": "修复通过 `-p --resume` 执行 `/compact` 或其他斜杠命令后恢复 session 时，会插入多余的“Continue from where you left off.”轮次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

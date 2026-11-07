@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed F1/F2/F4 not working in kitty-protocol terminals and Delete in st, Alt+arrows acting as Escape in rxvt-unicode, and Shift+punctuation typing the unshifted key in WezTerm (regression in 2.1.247)",
+  "zh": "修复了 kitty 协议终端中 F1/F2/F4 无法使用、st 中 Delete 无法使用、rxvt-unicode 中 Alt+方向键被当作 Escape、以及 WezTerm 中 Shift+标点输入未加 Shift 的按键的问题（2.1.247 中的回归）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

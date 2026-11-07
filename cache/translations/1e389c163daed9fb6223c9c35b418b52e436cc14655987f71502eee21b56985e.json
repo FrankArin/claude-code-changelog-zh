@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed reopening a finished /ultrareview cloud session in the Claude app starting the whole review over again unprompted",
+  "zh": "\\[Code Review] 修复了在 Claude 应用中重新打开已完成的 /ultrareview 云 session 时，会在未提示的情况下重新开始整个评审的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

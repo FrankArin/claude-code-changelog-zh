@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error when a cloud session can't be created because your Claude login expired or was revoked: it now tells you to run `/login`",
+  "zh": "改进因 Claude 登录过期或被撤销而无法创建云端 session 时的错误提示：现在会提示运行 `/login`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a fullscreen rendering glitch where text kept a stale background color after the box around it lost its background",
+  "zh": "修复全屏渲染故障：当文本周围的框失去背景色后，文本仍保留过期的背景色",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

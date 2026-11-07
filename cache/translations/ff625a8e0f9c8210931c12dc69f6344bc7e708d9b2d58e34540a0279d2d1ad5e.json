@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved first-party sessions with telemetry disabled: an `alwaysLoad` MCP server that finishes connecting mid-conversation is usable on the next turn without a tool-search round trip",
+  "zh": "改进禁用遥测的第一方 session：在对话中途完成连接的 `alwaysLoad` MCP server 可在下一轮直接使用，无需工具搜索往返",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

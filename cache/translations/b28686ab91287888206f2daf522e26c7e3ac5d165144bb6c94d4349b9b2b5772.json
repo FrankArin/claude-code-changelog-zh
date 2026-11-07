@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Changed the Routines page on claude.ai/code to a new layout with Yours and Templates tabs and two-column routine cards that show run status, and removed its calendar view",
+  "zh": "\\[Claude Code on the web] 将 claude.ai/code 上的例程页面改为新布局，包含“你的”和“模板”两个标签页，以及显示运行状态的双列例程卡片，并移除了日历视图",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

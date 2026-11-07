@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error shown when an image over the size limits cannot be decoded: it now names the cause and how to fix it instead of only citing the limit",
+  "zh": "改进超出大小限制的图像无法解码时的错误提示：现在会说明原因及修复方法，而不再只引用限制值",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

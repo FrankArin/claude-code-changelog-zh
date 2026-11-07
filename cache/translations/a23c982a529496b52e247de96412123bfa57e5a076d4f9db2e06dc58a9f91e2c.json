@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode on Bedrock, Vertex and Foundry to use the local classifier by default for now; set `CLAUDE_CODE_AUTO_MODE_SERVER=1` to use the platform's server-side classifier",
+  "zh": "变更 Bedrock、Vertex 和 Foundry 上的自动模式，暂时默认使用本地分类器；设置 `CLAUDE_CODE_AUTO_MODE_SERVER=1` 可使用平台的服务端分类器",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

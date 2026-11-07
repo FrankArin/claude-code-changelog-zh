@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "version": "2.1.267",
+  "date": "2026-09-09",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "609b7a1997c13ec7b51d1933182342e84987af177f078fae1ac4b1b971a72248",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T05:05:45+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.267-added-1",
+          "en": "Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level",
+          "zh": "新增 `maxEffortLevel` 设置（顶层或 `modelSettings` 下的按模型设置）：限制所有提供商（包括 Bedrock、Vertex 和 Foundry）的 effort 级别上限；用户仍可选择更低的级别",
+          "hash": "0d7198137b5d0d12b1b245e0d2a4a7bec479227fbf4857e9c000692f744223d5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-added-2",
+          "en": "Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)",
+          "zh": "新增 `--system-prompt-snapshot off`，在每次请求时重新渲染系统 prompt，而不是复用对话中记录的 prompt（用于迭代 prompt 文本）",
+          "hash": "45822b0337d4ce2b7f40976a052fea35502a754463ce60c3e84812a7eaf1650e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-added-3",
+          "en": "\\[Claude Tag] Added a \"Use a custom connector\" link to the preset connection forms in Claude Tag admin settings, so you can switch to a custom connection without starting over",
+          "zh": "\\[Claude Tag] 在 Claude Tag 管理设置的预设连接表单中新增“使用自定义 connector”链接，无需从头开始即可切换到自定义连接",
+          "hash": "b18232d8cbef426d336d4d892ad00c7e7f8bbaa8be97a06675e96e5fa95cd95e",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.267-changed-4",
+          "en": "Self-hosted runner: Changed `--use-anthropic-git-proxy` to be reported to the server at registration and to print a warning for each session that still clones through the legacy git proxy",
+          "zh": "自托管运行器：变更 `--use-anthropic-git-proxy`，在注册时向服务器上报，并对每个仍通过旧版 git 代理克隆的 session 打印警告",
+          "hash": "e0b36378a940fe5dadf3e842db20cc7ea766fc59d37b818d983d15d71be8a3f8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-changed-5",
+          "en": "Gateway: Changed `forward_user_identity` upstreams to return a 429 as-is to a developer whose email was forwarded, instead of failing over to the next upstream, so the proxy's per-user limits hold",
+          "zh": "网关：变更 `forward_user_identity` 上游，对邮箱已被转发的开发者直接原样返回 429，而不是回退到下一个上游，从而保证代理的按用户限制生效",
+          "hash": "d07d76e4a20cbf546397d1f7259a94e9b83d2190283fd999ee4c12afe743d5e7",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "7 improvements",
+      "heading_zh": "7 项改进",
+      "items": [
+        {
+          "id": "2.1.267-improvements-6",
+          "en": "Improved the `/diff` panel: it no longer flashes \"0 files changed\" and a spinner before settling, and its empty state is centered in the panel",
+          "zh": "改进 `/diff` 面板：不再在稳定前闪现“0 files changed”和加载指示器，空状态在面板中居中显示",
+          "hash": "85addbd95ea34452a0e41151edefaeb9cfd64303ac37dbb6d342b86f1cbb8941",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-improvements-7",
+          "en": "Improved the Bash tool's description guidance so Claude describes what a command does in plain words instead of echoing the command",
+          "zh": "改进 Bash 工具的描述指引，使 Claude 用通俗语言说明命令的作用，而不是复述命令本身",
+          "hash": "a71724ddbe60406f6ff9219535a1cb5509fa48408ab68e5efb430664ba7acb96",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-improvements-8",
+          "en": "Improved sandbox guidance so Claude suggests `/copy` when clipboard commands such as `pbcopy` fail inside the sandbox",
+          "zh": "改进沙箱指引，当 `pbcopy` 等剪贴板命令在沙箱内失败时，Claude 会建议使用 `/copy`",
+          "hash": "568543ad0f687d19f01d6d4afa859258729df4931c24e9b02fbe2f0e2d128141",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-improvements-9",
+          "en": "Improved `--resume` first-render time for sessions with many Bash tool calls",
+          "zh": "改进包含大量 Bash 工具调用的 session 的 `--resume` 首次渲染时间",
+          "hash": "b8f9c828fa71f7b74db748f6bce675d5f0aa6c25da3dd4f654444ffb3e4ac9a9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-improvements-10",
+          "en": "Improved prompt input responsiveness: keystrokes no longer occasionally wait a frame behind spinner or streaming repaints",
+          "zh": "改进 prompt 输入的响应速度：按键不再偶尔因加载指示器或流式重绘而延迟一帧",
+          "hash": "6d362bad269c10fa8adfdcea40430565182bb806aab1331698d56f8bc6765227",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-improvements-11",
+          "en": "Improved prompt-cache stability: subagents and sessions started with `--system-prompt` or `--append-system-prompt` now record the system prompt and tool definitions once instead of re-rendering them",
+          "zh": "改进 prompt 缓存稳定性：通过 `--system-prompt` 或 `--append-system-prompt` 启动的 subagent 和 session 现在只记录一次系统 prompt 和工具定义，而不是重复渲染",
+          "hash": "6179f57e57b7c52fc2bedfd02994d8b613a34d20f17c4c095816b5f811e5f881",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-improvements-12",
+          "en": "Improved Artifact tool publish errors: when a publish is refused, the message now says why and what to do about it",
+          "zh": "改进 Artifact 工具发布错误：发布被拒绝时，消息现在会说明原因及处理方式",
+          "hash": "a7b575fe16188e9aefc61fbe43e893ffe95b83a21476d144dbe0b7d2cefb59ad",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "41 bug fixes",
+      "heading_zh": "41 项修复",
+      "items": [
+        {
+          "id": "2.1.267-fixes-13",
+          "en": "Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing",
+          "zh": "修复托管设置要求沙箱的组织在云端启动 Cowork 定时任务时失败的问题",
+          "hash": "2a1d0d56da5e2cfc4daf8932c1fb1a94b506919e63ddf4ca27cf2f5c8d2a6214",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-14",
+          "en": "Fixed `/context` and other local command output rendering blank on mobile clients",
+          "zh": "修复 `/context` 及其他本地命令输出在移动端客户端上渲染为空白的问题",
+          "hash": "3e36a17116b0787a8015fa6187a6039b0382dd3da9ade8bd7979e67f691636fd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-15",
+          "en": "Fixed shift+enter and option+backspace not working after reconnecting to a tmux or ssh session inside an agent view",
+          "zh": "修复在 agent 视图中重新连接到 tmux 或 ssh session 后 shift+enter 和 option+backspace 失效的问题",
+          "hash": "2a192d7794166cbee94701041a3fadb962d171a17ea4486057d2cd80a2d0cc0d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-16",
+          "en": "Fixed the dim last-prompt header not appearing at the top of the conversation when scrolling up in fullscreen mode",
+          "zh": "修复全屏模式下向上滚动时，对话顶部不显示暗色的上一条 prompt 标题的问题",
+          "hash": "5675d40e731686963e62afbcdeb79631fec128593d108364c0013282dd7c55c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-17",
+          "en": "Fixed Workflow `agent()` calls with large output schemas being refused in auto mode instead of being checked by the safety classifier",
+          "zh": "修复 Workflow 中输出 schema 较大的 `agent()` 调用在自动模式下被拒绝、而不是由安全分类器检查的问题",
+          "hash": "7b04def0496c0880a82e53b6dcdd1e215e50bb882006f0fb818507a1f9cb4526",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-18",
+          "en": "Fixed a case where a marketplace entry path containing a backslash could bypass the containment check for fetched marketplaces on macOS and Linux",
+          "zh": "修复在 macOS 和 Linux 上，marketplace 条目路径包含反斜杠时可能绕过已获取 marketplace 的包含性检查的问题",
+          "hash": "59d6a284d5d37bd0def9e5b082954f3492ddd24b7141ed687fb0d232af935f54",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-19",
+          "en": "Fixed expired AWS or Google Cloud credentials under a host app such as Claude Desktop retrying ten times with a generic \"request failed\" before the re-authenticate error appeared",
+          "zh": "修复在 Claude Desktop 等宿主应用下，AWS 或 Google Cloud 凭据过期时会先以通用的“request failed”重试十次、之后才出现重新认证错误的问题",
+          "hash": "494954998d0e2a59e90c0088f68700098643b4c206f07b8e5f1c16e685c28afd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-20",
+          "en": "Fixed resuming a session after `/compact` or another slash command ran via `-p --resume`: a spurious \"Continue from where you left off.\" turn is no longer inserted",
+          "zh": "修复通过 `-p --resume` 执行 `/compact` 或其他斜杠命令后恢复 session 时，会插入多余的“Continue from where you left off.”轮次的问题",
+          "hash": "635c43b32e3d8f61c62a5dc0cc34ccf10c0fb253d3162bfc26f2d8f601b09a47",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-21",
+          "en": "Fixed resuming a large session (transcript over 5 MB): parallel tool calls and their hook output are no longer dropped from the reloaded conversation",
+          "zh": "修复恢复大型 session（transcript 超过 5 MB）的问题：并行工具调用及其 hook 输出不再从重新加载的对话中被丢弃",
+          "hash": "9b1ba9ddf2e60b93c6ded76971933f4d9e1394a3a5fa2d9b53168a9a10a580a7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-22",
+          "en": "Fixed managed `allowedHttpHookUrls`, `httpHookAllowedEnvVars` and `allowedChannelPlugins` to admit nothing, not everything, when unreadable",
+          "zh": "修复托管设置 `allowedHttpHookUrls`、`httpHookAllowedEnvVars` 和 `allowedChannelPlugins` 在无法读取时放行一切而非一律拒绝的问题",
+          "hash": "5a1de807455ddf5a055f54527c5cfe70f53100858ab12804a68b2af96399e327",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-23",
+          "en": "Fixed `/login` on machines whose managed settings require Claude apps gateway sign-in: Esc now closes the dialog instead of doing nothing",
+          "zh": "修复在托管设置要求通过 Claude 应用网关登录的机器上 `/login` 的问题：Esc 现在会关闭对话框，而不是毫无反应",
+          "hash": "d16a2642f20a6491e0cc96198b00d93a61f7ea1ddd3b9d234baaf9f0acea5349",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-24",
+          "en": "Fixed artifact publishes cut off by a dropped connection mid-upload: they now retry once when Claude Code can tell the upload never completed, instead of reporting an unknown outcome",
+          "zh": "修复 artifact 发布在上传中途因连接中断而被截断的问题：当 Claude Code 能判断上传从未完成时，现在会重试一次，而不是报告结果未知",
+          "hash": "777b70656a3a4fb846aa6ba1cfe1a07b924c03662c5be616e24319471b488430",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-25",
+          "en": "Fixed `effort:` frontmatter on custom commands, skills, and subagents being ignored on models whose default effort is still pinned (Opus 4.7, Opus 4.8, Fable 5)",
+          "zh": "修复自定义命令、skills 和 subagents 上的 `effort:` frontmatter 在默认 effort 仍被固定的模型（Opus 4.7、Opus 4.8、Fable 5）上被忽略的问题",
+          "hash": "26ca4b85c2e302364d3328e1889e4421af4cd24075c493bfbed8bcbf7213a151",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-26",
+          "en": "Fixed artifact publish failing with an unhelpful error when the page file isn't valid UTF-8 or contains a replacement character (U+FFFD); the error now names the line and column to fix",
+          "zh": "修复页面文件不是有效 UTF-8 或包含替换字符（U+FFFD）时 artifact 发布失败并给出无用错误的问题；错误信息现在会指出需要修复的行和列",
+          "hash": "0cbe2a0db3d1624e996db2dc758112c9bfbf494bec4f47f90771f7552d6f1951",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-27",
+          "en": "Fixed `claude agents` `@` directory menu not listing repositories created after the session started",
+          "zh": "修复 `claude agents` 的 `@` 目录菜单不列出 session 启动后创建的仓库的问题",
+          "hash": "7f46c06f0c1abe292059eee76981fa379e6b2c26d62d764a77d0dedf808eee37",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-28",
+          "en": "Fixed Remote Control clients that join a Claude Desktop or VS Code session showing a stale permission mode until it was changed again",
+          "zh": "修复加入 Claude Desktop 或 VS Code session 的远程控制客户端显示过时权限模式、直到再次更改才更新的问题",
+          "hash": "66f2f1a6978dde2dd77776b9e4b003dde2da71ff1bb7b9c21d11bf5c70e5b56c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-29",
+          "en": "Fixed `claude remote-control` exiting and dropping every attached session when its server credential expires (about 30 days after start); the host now re-registers and keeps going",
+          "zh": "修复 `claude remote-control` 在其服务器凭据过期（约启动后 30 天）时退出并断开所有已连接 session 的问题；宿主现在会重新注册并继续运行",
+          "hash": "6bfacdc72568bc105ec4598b9922ae4ba807973c3375cfcb8fb77fa8106cd752",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-30",
+          "en": "Fixed the usage-limit warning flickering on and off during a session when requests for different models or modes report different limit windows",
+          "zh": "修复当不同模型或模式的请求报告不同的用量限制窗口时，用量限制警告在 session 期间反复闪烁的问题",
+          "hash": "ed5da95f4baa745557bc63fbcebb9364a4c34b75dc8449913fc478d97727aa7b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-31",
+          "en": "Fixed earlier reasoning being dropped when an MCP server re-sends, or a built-in tool re-renders, a tool the model already loaded",
+          "zh": "修复当 MCP 服务器重新发送、或内置工具重新渲染模型已加载的工具时，先前的推理内容被丢弃的问题",
+          "hash": "113504ec45f97120a387d8358537d33aef2f1f40f598a87566ce20f8e367cb66",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-32",
+          "en": "Fixed a tool that disappears mid-conversation, from a disconnected MCP server or an upgrade, rewriting the tool list and discarding earlier thinking",
+          "zh": "修复工具在对话中途消失（因 MCP 服务器断开或升级）导致工具列表被重写并丢弃先前思考内容的问题",
+          "hash": "7ac6f91a690ed52fd55ec072281c8c0690c81f89fd5ac9c410355cb38e4700de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-33",
+          "en": "Fixed a background worker forked from a conversation adding EnterWorktree to the conversation's tool block mid-session, which broke prompt-cache reuse",
+          "zh": "修复从对话派生的后台任务在 session 中途向对话的工具块添加 EnterWorktree、从而破坏 prompt 缓存复用的问题",
+          "hash": "293fc3bea0f7a0036a5b03199ea9544e89d715bbdbd51c7285cac0164d803795",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-34",
+          "en": "Fixed mid-session MCP and plugin tools being added to the tool list in sessions without ToolSearch, which broke prompt-cache reuse; supported models now receive them as deferred definitions",
+          "zh": "修复在没有 ToolSearch 的 session 中，session 中途添加的 MCP 和 plugin 工具被加入工具列表、从而破坏 prompt 缓存复用的问题；支持的模型现在会以延迟定义的形式收到这些工具",
+          "hash": "928966812bf3de3f97b067d6df63e4e71b8db55ef8105446376be6aa11223cad",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-35",
+          "en": "Fixed switching models with /model re-sending every tool definition (a prompt-cache miss); commit and PR attribution text now arrives as a conversation note that updates on model changes",
+          "zh": "修复用 /model 切换模型时重新发送每个工具定义（导致 prompt 缓存未命中）的问题；提交和 PR 归属文本现在以对话备注的形式到达，并随模型变更而更新",
+          "hash": "cc9eded2eaa80a52e4c9e7c5b9df2885c221432a10e50ef6b3e67dd6c978b075",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-36",
+          "en": "Fixed resumed sessions rewriting the inline tool set when an MCP connector reconnects at a different moment than before",
+          "zh": "修复当 MCP connector 在与之前不同的时机重连时，恢复的 session 重写内联工具集的问题",
+          "hash": "43082a3d46f924272e7145241c3baf550299f73013880293e1ce60803cb82989",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-37",
+          "en": "Fixed resumed sessions re-rendering tool descriptions instead of replaying the recorded ones when the first turn ran a tool",
+          "zh": "修复当第一轮运行了工具时，恢复的 session 重新渲染工具描述而非重放已记录描述的问题",
+          "hash": "98fe1fd3c9541d5458237b3771aa53c84e5fd7a63b054e5f49346cb752f375b5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-38",
+          "en": "Fixed prompt-cache misses and dropped extended thinking when a claude.ai connector's tools change between a session and its resume",
+          "zh": "修复当 claude.ai connector 的工具在 session 与其恢复之间发生变化时，prompt 缓存未命中并丢弃扩展思考的问题",
+          "hash": "5a183fd8ae6844930fdfd298833996ed022f7700e881a1a0f41aeca1b6ca7643",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-39",
+          "en": "Fixed resumed sessions rewriting earlier MCP tool announcements (and dropping extended thinking) before their connectors reconnect",
+          "zh": "修复恢复的 session 在其 connectors 重连之前重写先前的 MCP 工具公告（并丢弃扩展思考）的问题",
+          "hash": "0e8f6d56cd478c64743c1635e9b64cba7d813062bed20a080e2a5d9b4f35dfe7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-40",
+          "en": "Fixed a prompt-cache break when a print-mode (`-p`) conversation is resumed interactively: the system prompt prefix no longer changes",
+          "zh": "修复以交互方式恢复 print 模式（`-p`）对话时 prompt 缓存中断的问题：系统 prompt 前缀不再变化",
+          "hash": "dc33a0a39d8d41db3917685d2a7b746fa978ff0551a73e6e788aefa2ef90b2f6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-41",
+          "en": "\\[VSCode] Fixed the extension host hanging at 100% CPU when forking, editing an earlier message, or rewinding in a conversation whose saved transcript contains a cyclic parent link",
+          "zh": "\\[VSCode] 修复了在保存的对话记录包含循环父链接的会话中分叉、编辑较早消息或回退时，扩展宿主卡在 100% CPU 的问题",
+          "hash": "95b4a5990344c59096453392513b2857806d282af0677b5b6b29bd8cab5dec1e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-42",
+          "en": "\\[VSCode] Fixed pasting a screenshot on WSL2/WSLg inserting raw image bytes into the chat input; the image is now attached when the clipboard provides it, otherwise the paste is ignored",
+          "zh": "\\[VSCode] 修复了在 WSL2/WSLg 上粘贴截图时会将原始图像字节插入聊天输入框的问题；现在剪贴板提供图像时会附加该图像，否则忽略粘贴",
+          "hash": "affbe91158f354339d8e0f298eda660efffbb1bbf7b2dcd3f7a7f0278f2b4d88",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-43",
+          "en": "\\[VSCode] Fixed chat diff blocks always rendering with a dark editor theme; they now follow the active VS Code color theme, including high contrast",
+          "zh": "\\[VSCode] 修复了聊天差异块始终以深色编辑器主题渲染的问题；现在它们会跟随当前 VS Code 颜色主题，包括高对比度主题",
+          "hash": "e3352df39846d97f2bf45da10aab35296e61d6b655b9732b876c1f69a73f6076",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-44",
+          "en": "\\[VSCode] Fixed mixed right-to-left and English text rendering in the wrong order while typing in the message input",
+          "zh": "\\[VSCode] 修复了在消息输入框中输入时，从右到左文本与英文混排渲染顺序错误的问题",
+          "hash": "bd14069edddf21019c8585a925dba838c0af3c6eabfff8db941dfde973e88b64",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-45",
+          "en": "\\[VSCode] Fixed accepting an edit in the diff view on a file with Windows (CRLF) line endings failing with \"String not found in file\"",
+          "zh": "\\[VSCode] 修复了在差异视图中接受对使用 Windows（CRLF）行尾的文件的编辑时，报错“String not found in file”的问题",
+          "hash": "ac69f4444b6b41c61fe02d0b6d18398f0d48de7d44b5e360e1c60ecdbfe36e1e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-46",
+          "en": "\\[VSCode] Fixed @-mentions dropping files whose paths contain spaces",
+          "zh": "\\[VSCode] 修复了 @ 提及会丢弃路径中包含空格的文件的问题",
+          "hash": "e6146f266294d5d15e2e4079dea840e2885517aac3eacdac18bc8167c34092c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-47",
+          "en": "\\[VSCode] Fixed the sessions list view failing to load in windows connected over Remote-SSH when the workspace folder exists only on the remote host",
+          "zh": "\\[VSCode] 修复了通过 Remote-SSH 连接的窗口在工作区文件夹仅存在于远程主机时，sessions 列表视图无法加载的问题",
+          "hash": "9aa48fc1e2e7be6e015366edbd3cd53b116156cda3235d3cdde21d575c86fdc3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-48",
+          "en": "\\[VSCode] Fixed runaway ripgrep processes when viewing files in large or symlink-heavy workspaces",
+          "zh": "\\[VSCode] 修复了在大型或符号链接密集的工作区中查看文件时 ripgrep 进程失控的问题",
+          "hash": "1d5942f79c75ec9400269f4707aa0264911e2b426b100f1c50200175b95caf52",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-49",
+          "en": "\\[Claude Code on the web] Fixed GitHub Enterprise Server sessions showing your GitHub account as disconnected once its token expired; PR and issue operations now refresh it automatically",
+          "zh": "\\[Claude Code on the web] 修复了 GitHub Enterprise Server sessions 在其 token 过期后显示你的 GitHub 账户已断开连接的问题；PR 和 issue 操作现在会自动刷新该 token",
+          "hash": "56ec1cb76aa629cff65e3492a568bf1215d2743e080accf39d247516fa911065",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-50",
+          "en": "\\[Claude Code on the web] Fixed `gh` and GitHub API calls failing in organizations without the Claude GitHub App; they now use your connected GitHub account and say so when none is connected",
+          "zh": "\\[Claude Code on the web] 修复了在未安装 Claude GitHub App 的组织中 `gh` 和 GitHub API 调用失败的问题；现在它们会使用你已连接的 GitHub 账户，并在未连接任何账户时明确提示",
+          "hash": "a34c9713ddb43890375f54a0aa30fe4a19362a163e40a0b52fa5ff9be250795a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-51",
+          "en": "\\[Claude Tag] Fixed Claude replying \"The API rejected the request as invalid\" when the organization has run out of usage credits; the reply now says so and explains how to add more",
+          "zh": "\\[Claude Tag] 修复了当组织用量额度耗尽时 Claude 回复“The API rejected the request as invalid”的问题；现在回复会说明该情况并解释如何添加更多额度",
+          "hash": "ab1141b8c9cddc0a8633dd8fc98734c13647935565ea6f3c7482fd39043e003f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-52",
+          "en": "\\[Claude Tag] Fixed thread requests to edit or delete a message Claude posted at the channel's top level being answered with a correction instead of reaching the session that posted it",
+          "zh": "\\[Claude Tag] 修复了针对 Claude 在频道顶层发布的消息的编辑或删除请求被以更正回复作答，而未能送达发布该消息的 session 的问题",
+          "hash": "68199cede67ac5bf76c94c37b6757928fca8fa3ef7b87ecd0b7ae329a5d0558f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.267-fixes-53",
+          "en": "\\[Claude Tag] Fixed **Connect** on Tool access requests under Admin settings > Review requests failing with \"Authorization failed\" or showing the requested access bundle as deleted",
+          "zh": "\\[Claude Tag] 修复了在 Admin settings > Review requests 下对 Tool access 请求点击 **Connect** 时失败并提示“Authorization failed”，或将所请求的访问包显示为已删除的问题",
+          "hash": "14e2fd63673a5e422b94b7736ceea2100476ef33918d4b9c6735afb65d11387e",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增 effort 上限与系统 prompt 快照开关，修复大量 prompt 缓存与恢复问题。",
+    "highlights": [
+      {
+        "title": "新增 effort 级别上限设置",
+        "category": "新功能",
+        "detail": "新增 maxEffortLevel，可顶层或按模型限制所有提供商的 effort 上限，用户仍可选更低级别。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.267-added-1"
+        ]
+      },
+      {
+        "title": "新增系统 prompt 快照开关",
+        "category": "新功能",
+        "detail": "--system-prompt-snapshot off 让每次请求重新渲染系统 prompt，便于迭代 prompt 文本。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.267-added-2"
+        ]
+      },
+      {
+        "title": "修复托管设置失效放行",
+        "category": "安全",
+        "detail": "allowedHttpHookUrls 等托管设置无法读取时改为一律拒绝，此前会放行一切。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.267-fixes-22"
+        ]
+      },
+      {
+        "title": "修复 marketplace 路径绕过",
+        "category": "安全",
+        "detail": "macOS 和 Linux 上 marketplace 条目路径含反斜杠时可能绕过包含性检查，现已修复。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.267-fixes-18"
+        ]
+      },
+      {
+        "title": "修复 prompt 缓存大量未命中",
+        "category": "修复",
+        "detail": "恢复 session、切换模型、MCP 工具变动等场景不再重写工具定义，避免缓存未命中并保留扩展思考。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.267-fixes-35",
+          "2.1.267-fixes-38",
+          "2.1.267-fixes-40"
+        ]
+      },
+      {
+        "title": "修复大 session 恢复丢数据",
+        "category": "修复",
+        "detail": "transcript 超过 5 MB 时恢复不再丢弃并行工具调用及其 hook 输出。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.267-fixes-21"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

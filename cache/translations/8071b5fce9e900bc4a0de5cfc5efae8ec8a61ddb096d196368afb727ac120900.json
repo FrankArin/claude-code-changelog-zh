@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed custom agents, slash commands and output styles beyond the first not loading from a virtual drive that reports inode 0, such as an encrypted vault mounted as a Windows drive",
+  "zh": "修复在报告 inode 为 0 的虚拟驱动器（例如挂载为 Windows 驱动器的加密保险库）上，除第一个之外的自定义 agent、斜杠命令和输出样式无法加载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

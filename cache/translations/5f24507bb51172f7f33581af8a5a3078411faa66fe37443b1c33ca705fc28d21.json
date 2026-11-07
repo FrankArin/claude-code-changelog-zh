@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the attribution reminder overriding a CLAUDE.md or memory rule against commit and pull request attribution; lines set by managed settings still apply",
+  "zh": "修复了归属提醒覆盖 CLAUDE.md 或记忆规则中关于提交和拉取请求归属设置的问题；由托管设置设定的行仍然生效",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

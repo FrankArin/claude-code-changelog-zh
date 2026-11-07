@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed image processing to use the runtime's built-in image support; the CLI no longer extracts a native image module to the temp directory",
+  "zh": "变更图像处理改用运行时内置的图像支持；CLI 不再将原生图像模块解压到临时目录",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

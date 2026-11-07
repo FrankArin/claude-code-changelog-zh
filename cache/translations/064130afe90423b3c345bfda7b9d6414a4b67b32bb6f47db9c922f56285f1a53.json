@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `OTEL_LOG_TOOL_DETAILS=1` to also include real agent, skill, plugin and MCP server names on cost and token metrics",
+  "zh": "变更 `OTEL_LOG_TOOL_DETAILS=1`，使其在成本和 token 指标中也包含真实的 agent、skill、plugin 和 MCP 服务器名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

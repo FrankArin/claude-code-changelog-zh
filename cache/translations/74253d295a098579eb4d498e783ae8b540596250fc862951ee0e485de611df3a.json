@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode so that a skill's or slash command's inline `!` shell commands follow default-mode permission rules instead of the classifier; a command no rule decides runs as a reviewed tool call",
+  "zh": "变更自动模式：skill 或斜杠命令中的内联 `!` shell 命令改为遵循默认模式的权限规则，而不再由分类器处理；没有规则可判定的命令将作为经审核的工具调用运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

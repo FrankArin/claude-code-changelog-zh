@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifact database writes: an update can now remove a single field instead of rewriting the whole document",
+  "zh": "改进 artifact 数据库写入：更新现在可以删除单个字段，而无需重写整个文档",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed turns failing with \"API returned an empty or malformed response\" when an LLM gateway returns the non-streaming reply as `text/plain`",
+  "zh": "修复了当 LLM 网关以 `text/plain` 返回非流式回复时，本轮失败并报 \"API returned an empty or malformed response\" 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

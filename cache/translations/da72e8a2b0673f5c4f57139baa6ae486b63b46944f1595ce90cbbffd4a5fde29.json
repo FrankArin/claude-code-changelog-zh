@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved terminal rendering performance: large diffs and long transcripts render faster, with fewer slow frames",
+  "zh": "改进终端渲染性能：大型 diff 和长对话记录渲染更快，慢帧更少",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

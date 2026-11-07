@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/web-setup` errors: a refused GitHub token now lists the likely reasons and the fix, and a connection failure names a configured proxy or TLS certificate problem",
+  "zh": "改进 `/web-setup` 错误提示：GitHub token 被拒绝时现在会列出可能原因和修复方法，连接失败时会指明是已配置的代理还是 TLS 证书问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

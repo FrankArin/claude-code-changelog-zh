@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed policy-helper warnings not printing on headless (`-p`) runs",
+  "zh": "修复了无头（`-p`）运行时 policy-helper 警告不打印的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

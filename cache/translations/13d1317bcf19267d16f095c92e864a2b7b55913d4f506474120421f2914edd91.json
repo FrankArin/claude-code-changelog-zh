@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/plugin`: installing, enabling or disabling a plugin now takes effect when you close the menu; `/reload-plugins` is no longer needed afterwards",
+  "zh": "改进 `/plugin`：安装、启用或禁用 plugin 现在在关闭菜单时生效；之后不再需要 `/reload-plugins`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

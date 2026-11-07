@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed",
+  "zh": "修复了 2.1.265 中影响 LLM 网关和代理配置的回归问题：未公开的 `CLAUDE_CODE_USE_GATEWAY` 环境变量此前仅在同时设置 `ANTHROPIC_BASE_URL` 和 `ANTHROPIC_AUTH_TOKEN` 时才生效，而在 2.1.265 中它开始单独强制进行 Cloud 网关登录，导致将其与 API key、`apiKeyHelper` 或自定义认证头一起设置的配置每次请求都失败并报错“Not signed in to the Cloud gateway”。现在该变量单独设置时重新被忽略；无需更改配置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:51+00:00"
+}

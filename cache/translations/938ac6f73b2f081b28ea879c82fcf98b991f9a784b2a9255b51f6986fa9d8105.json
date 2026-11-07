@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `omitClaudeMd` to agent frontmatter and `--agents` JSON, letting custom and plugin subagents run without user, project and local CLAUDE.md files; managed policy files still load",
+  "zh": "在 agent frontmatter 和 `--agents` JSON 中新增 `omitClaudeMd`，使自定义和 plugin subagent 运行时不再加载用户、项目和本地 CLAUDE.md 文件；托管策略文件仍会加载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

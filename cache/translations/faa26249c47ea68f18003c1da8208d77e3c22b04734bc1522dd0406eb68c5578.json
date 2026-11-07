@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/mobile` to show a single QR code for claude.ai/mobile, which opens the right app store for your phone",
+  "zh": "改进 `/mobile`：为 claude.ai/mobile 显示单个二维码，可打开手机对应的应用商店",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

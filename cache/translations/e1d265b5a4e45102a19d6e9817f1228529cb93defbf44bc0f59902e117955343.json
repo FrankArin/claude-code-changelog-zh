@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resumed sessions rewriting the inline tool set when an MCP connector reconnects at a different moment than before",
+  "zh": "修复当 MCP connector 在与之前不同的时机重连时，恢复的 session 重写内联工具集的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:45+00:00"
+}

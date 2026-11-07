@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed organization plugins enabled through managed settings not loading in headless sessions and on Claude Desktop (once Desktop bundles this CLI version); they load from the next session",
+  "zh": "修复了通过托管设置启用的组织 plugin 在无头 session 和 Claude Desktop 上不加载的问题（待 Desktop 捆绑此 CLI 版本后）；它们会从下一个 session 开始加载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

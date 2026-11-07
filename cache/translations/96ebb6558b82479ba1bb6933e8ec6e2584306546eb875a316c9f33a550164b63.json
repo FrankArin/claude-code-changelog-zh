@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved auto mode denials: the message Claude receives now names the rule that blocked the action and asks Claude to try a safer method and finish unrelated work before stopping to ask you",
+  "zh": "改进自动模式拒绝：Claude 收到的消息现在会指明阻止该操作的规则，并要求 Claude 尝试更安全的方法、先完成无关工作，再停下来询问你",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

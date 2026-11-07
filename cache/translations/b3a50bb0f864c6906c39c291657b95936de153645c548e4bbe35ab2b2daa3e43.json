@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed org policy being fetched through, and rejected by, third-party local proxies set via `ANTHROPIC_UNIX_SOCKET`; they are again treated like other custom gateways, including for Remote Control",
+  "zh": "修复了通过 `ANTHROPIC_UNIX_SOCKET` 设置的第三方本地代理获取组织策略并被其拒绝的问题；现在它们再次与其他自定义网关同等对待，包括在远程控制中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP OAuth mishandling client registrations: denying consent forced a new one, one for another redirect URI was reused, and a concurrent write could delete a valid one or keep a mismatched one",
+  "zh": "修复了 MCP OAuth 对客户端注册处理不当的问题：拒绝授权会强制新建一个注册，针对其他重定向 URI 的注册被复用，并发写入可能删除有效注册或保留不匹配的注册",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude Code's own git status and diff probes running clean filters configured by a nested repository inside the working tree",
+  "zh": "修复 Claude Code 自身的 git status 和 diff 探测会运行工作树内嵌套仓库所配置的 clean 过滤器的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

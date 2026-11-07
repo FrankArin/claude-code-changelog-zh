@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved slash commands typed mid-prompt: matches now show in a list (Tab opens it outside fullscreen) instead of a single suggestion, and a plugin skill is now found by its bare name",
+  "zh": "改进在 prompt 中间输入的斜杠命令：匹配项现在以列表显示（全屏模式下按 Tab 打开），而非仅显示单条建议；plugin skill 现在可通过其裸名称找到",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

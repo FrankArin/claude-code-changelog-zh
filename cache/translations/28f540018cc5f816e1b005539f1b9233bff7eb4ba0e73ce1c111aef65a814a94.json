@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed skills synced from claude.ai in cloud sessions to be named `anthropic-skills:<name>`, matching Claude Desktop; the bare name still works when nothing else uses it",
+  "zh": "变更云端 session 中从 claude.ai 同步的 skills 的命名方式，改为 `anthropic-skills:<name>`，与 Claude Desktop 保持一致；当没有其他内容占用该名称时，裸名称仍然可用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

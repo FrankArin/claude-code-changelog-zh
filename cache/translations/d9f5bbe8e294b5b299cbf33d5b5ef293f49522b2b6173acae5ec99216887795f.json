@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved remote MCP servers that need sign-in: Claude Code no longer registers an OAuth client with them until you actually authenticate",
+  "zh": "改进需要登录的远程 MCP 服务器：在你实际进行认证之前，Claude Code 不再向其注册 OAuth 客户端",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:06:15+00:00"
+}

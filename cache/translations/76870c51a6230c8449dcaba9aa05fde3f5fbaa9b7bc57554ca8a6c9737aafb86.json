@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Artifact tool publish errors: a publish with no file now says to write the page to a file first, and an unsupported file type is reported before a missing favicon",
+  "zh": "改进 Artifact 工具的发布错误：未指定文件时提示先将页面写入文件；不支持的文件类型会在缺少 favicon 之前报告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

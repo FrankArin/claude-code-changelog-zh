@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "version": "2.1.273",
+  "date": "2026-09-15",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "0b0fd92bfa622263005f1effc50fe360b9aef2ca40dfe396a28a879caf63121f",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T05:02:51+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.273-added-1",
+          "en": "Added `x-claude-code-request-class`, `x-claude-code-agent-type`, `x-claude-code-prev-tool-durations`, `x-claude-code-compaction` and `x-claude-code-context-compacted` request headers for LLM gateways; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`",
+          "zh": "为 LLM 网关新增 `x-claude-code-request-class`、`x-claude-code-agent-type`、`x-claude-code-prev-tool-durations`、`x-claude-code-compaction` 和 `x-claude-code-context-compacted` 请求头；通过 `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1` 启用",
+          "hash": "e71592e82d612701d37d0c06234f0f3cb372f3f90ace23cb63af84545f41f310",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-added-2",
+          "en": "Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at `/mcp`",
+          "zh": "新增通知：MCP 服务器在 session 中途断开且自动重连放弃时发出通知，并指向 `/mcp`",
+          "hash": "c0f70f55652ca62e448b2fc52b1f17905a6877ecd92be3d2b87b0bfaafd330eb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-added-3",
+          "en": "Added forking a session started with `claude --remote-control` or `/remote-control` from the Claude app; the fork runs as a background session on your computer",
+          "zh": "新增从 Claude 应用分叉由 `claude --remote-control` 或 `/remote-control` 启动的 session；分叉作为后台 session 在你的电脑上运行",
+          "hash": "c3a23a02c80ff4b391cb4e4ab4cc74af8b414153a3f081ef1df3780cdc146f8c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-added-4",
+          "en": "\\[Claude Code on the web] Added a \"Discard unsaved changes?\" confirmation before the New routine page or the Edit routine dialog throws away a routine name, prompt or edit you typed",
+          "zh": "\\[Claude Code on the web] 新增“放弃未保存的更改？”确认提示，在新建例程页面或编辑例程对话框丢弃你输入的例程名称、prompt 或编辑内容之前显示",
+          "hash": "23b1f89ec3fa76630c32ad337b227638e593786929133e195bc752dc10d7b3f0",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.273-changed-5",
+          "en": "Reverted a 2.1.268 change that checked Read and Edit deny rules on Bash lines the permission checker can't analyze (`eval`, `env -C`); commands like `time -p make build` prompt again instead of being denied",
+          "zh": "回退了 2.1.268 的一项变更：该变更会在权限检查器无法分析的 Bash 行（`eval`、`env -C`）上检查 Read 和 Edit 拒绝规则；现在 `time -p make build` 这类命令会重新弹出权限提示，而不是被拒绝",
+          "hash": "33bf837c36fa654e06f8aaa36ce0b90a96bf9e429af41863d92c5eacc36d5487",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-changed-6",
+          "en": "Changed auto mode on Bedrock, Vertex and Foundry to use the local classifier by default for now; set `CLAUDE_CODE_AUTO_MODE_SERVER=1` to use the platform's server-side classifier",
+          "zh": "变更 Bedrock、Vertex 和 Foundry 上的自动模式，暂时默认使用本地分类器；设置 `CLAUDE_CODE_AUTO_MODE_SERVER=1` 可使用平台的服务端分类器",
+          "hash": "759d3863a7d0cfcf7f24ab14b24f3507f7feeef67da4195888090e921d433682",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-changed-7",
+          "en": "Changed `OTEL_LOG_TOOL_DETAILS=1` to also include real agent, skill, plugin and MCP server names on cost and token metrics",
+          "zh": "变更 `OTEL_LOG_TOOL_DETAILS=1`，使其在成本和 token 指标中也包含真实的 agent、skill、plugin 和 MCP 服务器名称",
+          "hash": "4fc3a82f410d747236684e9b22150221e0cd3e40a173c359bbd51a808a432091",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-changed-8",
+          "en": "Changed sign-in with a Claude account to also request access to your claude.ai plugins",
+          "zh": "变更使用 Claude 账号登录的流程，同时请求访问你的 claude.ai plugins",
+          "hash": "b460f49326a62fa9c4304c49eb274084cbd93ff1094138e074aca70c2529f466",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-changed-9",
+          "en": "Changed `/bug` and `/feedback` reports to include only model-behavior params (model, system prompt, tools) from the last API request, omitting request metadata and `CLAUDE_CODE_EXTRA_BODY` fields",
+          "zh": "变更 `/bug` 和 `/feedback` 报告，仅包含最近一次 API 请求中的模型行为参数（模型、系统 prompt、工具），省略请求元数据和 `CLAUDE_CODE_EXTRA_BODY` 字段",
+          "hash": "4596f104a57f5c777dc32cc5056dfcca904fc527bea3e6499eba556d3602af67",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-changed-10",
+          "en": "\\[Claude Code on the web] Changed the admin \"Share cloud sessions\" setting to live under Data and privacy instead of the Claude Code page, where Data and privacy admins can also manage it",
+          "zh": "\\[Claude Code on the web] 变更管理员“共享云 session”设置的位置，从 Claude Code 页面移至数据和隐私下，数据和隐私管理员也可在此管理该设置",
+          "hash": "1a8918d6ffcc549589c13a67a86b96c57de3d597d051c317e263f11e871a70a3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-changed-11",
+          "en": "\\[Claude Code on the web] Removed the full-page desktop-app download screen that new users without a cloud environment saw on Mac and Windows; they now go straight to setup",
+          "zh": "\\[Claude Code on the web] 移除没有云环境的新用户在 Mac 和 Windows 上看到的全屏桌面应用下载页面；他们现在直接进入设置流程",
+          "hash": "d85b902614fbe667f14296fc53ff8b722200e6de805cfebec74ba05cadbcc8e1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-changed-12",
+          "en": "\\[Claude Tag] Changed Claude to start watching related public channels on its own, such as an incident channel a conversation depends on, instead of only when asked",
+          "zh": "\\[Claude Tag] 变更 Claude 的行为：主动开始关注相关的公开频道（例如某段对话所依赖的事件频道），而不再仅在收到请求时才关注",
+          "hash": "b434d2275614772ed210dab08d06250285b62b29cc33b3badf11f7041b6ad3ce",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "17 improvements",
+      "heading_zh": "17 项改进",
+      "items": [
+        {
+          "id": "2.1.273-improvements-13",
+          "en": "Improved responsiveness in long sessions: hook progress and sub-agent activity no longer re-process the whole conversation on every update",
+          "zh": "改进长 session 中的响应速度：hook 进度和 subagent 活动不再在每次更新时重新处理整个对话",
+          "hash": "9f98991cbbb70c2bd4de510113e21d7fdda14dc5976003b3fe38ae2019d03961",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-14",
+          "en": "Improved the Artifact tool's error when a publish includes a file type artifacts don't serve: Claude is told which types are served and what to do instead, and the terminal shows one plain line",
+          "zh": "改进 Artifact 工具在发布包含 artifact 不支持的文件类型时的错误提示：告知 Claude 支持哪些类型以及应如何处理，终端只显示一行简明信息",
+          "hash": "2485b9abcd9653f096b20b49603e6cac0eb712549cf148e8e2d80351845b7c42",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-15",
+          "en": "Improved the Artifact tool's page read to state the capabilities and database rules the artifact service holds for the page, for anyone who can publish to it",
+          "zh": "改进 Artifact 工具的页面读取：向所有可发布到该页面的人说明 artifact 服务为该页面保存的能力和数据库规则",
+          "hash": "9087e479785028a8e2fdc2c481d917131346592287030cd96f007a536dbc9dc6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-16",
+          "en": "Improved artifact database writes: an update can now remove a single field instead of rewriting the whole document",
+          "zh": "改进 artifact 数据库写入：更新现在可以删除单个字段，而无需重写整个文档",
+          "hash": "ef10c1c89b56a2f88ec8600b39edd51979fd34b820f2280c5241680bc923b184",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-17",
+          "en": "Improved artifact publishing: a publish whose connection drops after reaching claude.ai is now re-sent safely instead of failing or creating a duplicate version",
+          "zh": "改进 artifact 发布：发布在到达 claude.ai 后连接中断时，现在会安全重发，而不是失败或创建重复版本",
+          "hash": "ec0896d20ef5fb756e52950df395dc03bf60db5e501d6959587e906a9db74739",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-18",
+          "en": "Improved the cloud-session GitHub error for an IP allow list, a suspended app installation or SAML single sign-on to show the cause instead of a generic install hint",
+          "zh": "改进云 session 在 IP 允许列表、应用安装被暂停或 SAML 单点登录情况下的 GitHub 错误提示，显示具体原因而不是通用的安装提示",
+          "hash": "62bd9b8c153755525ed70e32fcd1087a8b51db9cf9730ca2f12b94e7f29f9f9c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-19",
+          "en": "Improved `/autofix-pr`: when `gh pr view` fails it now shows gh's own error (sign-in, SAML, rate limit) instead of a generic exit-code line",
+          "zh": "改进 `/autofix-pr`：当 `gh pr view` 失败时，现在显示 gh 自身的错误（登录、SAML、速率限制），而不是通用的退出码信息",
+          "hash": "d46a8de05eca8ca8e67f78dbcf8a59fe352286f7adab9e2d4ea5fa445ff61b90",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-20",
+          "en": "Improved `/autofix-pr` to say why GitHub webhook delivery couldn't be set up for the PR (for example, no linked GitHub account) instead of a generic warning",
+          "zh": "改进 `/autofix-pr`：说明为何无法为该 PR 设置 GitHub webhook 投递（例如未关联 GitHub 账号），而不是给出通用警告",
+          "hash": "ee428287cff05d1f8a6dc094f34493fd06d99b998f2d625731460fb1ac344a1f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-21",
+          "en": "Improved `/web-setup` errors: a refused GitHub token now lists the likely reasons and the fix, and a connection failure names a configured proxy or TLS certificate problem",
+          "zh": "改进 `/web-setup` 错误提示：GitHub token 被拒绝时现在会列出可能原因和修复方法，连接失败时会指明是已配置的代理还是 TLS 证书问题",
+          "hash": "0c928d4c68bdc4ad953232809c90cc5ecf381031141fee2893106b67e2231af6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-22",
+          "en": "Improved the in-session SSL certificate and proxy connection errors to name the error code and what to fix, such as `NODE_EXTRA_CA_CERTS` for an untrusted corporate CA",
+          "zh": "改进会话内的 SSL 证书和代理连接错误提示，指明错误代码和需要修复的内容，例如企业 CA 不受信任时使用 `NODE_EXTRA_CA_CERTS`",
+          "hash": "63cdb9156f9e4d8566f0ef6073b83b4988981668cbd97c7bab6df2d56eeda3af",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-23",
+          "en": "Improved the error when a cloud session can't be created because your Claude login expired or was revoked: it now tells you to run `/login`",
+          "zh": "改进因 Claude 登录过期或被撤销而无法创建云端 session 时的错误提示：现在会提示运行 `/login`",
+          "hash": "328f5b04c0198f5ae64616bcb4a51ab704405b8ea872e8203a96f4a75e052730",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-24",
+          "en": "Improved the error shown when an MCP server's sign-in expires mid-session to say how to re-authenticate (`/mcp`)",
+          "zh": "改进 MCP 服务器登录在 session 中途过期时显示的错误，说明如何重新认证（`/mcp`）",
+          "hash": "f8d33e15bbb86465f57f2bdd42d1c43eae7b834ca00a27871aa7e7167494d239",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-25",
+          "en": "Windows: Improved the network-path permission check for UNC paths when a mapped network drive was added with `--add-dir`",
+          "zh": "Windows：改进通过 `--add-dir` 添加映射网络驱动器时对 UNC 路径的网络路径权限检查",
+          "hash": "4fa5590d9ace7128e0c44efcb11c9ab2b3df17ad204223b79a7ab530ff7ff2eb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-26",
+          "en": "\\[Claude Code on the web] Improved the routine detail page: menu and rename in the breadcrumb, the on/off switch and Run now at the top, and run history beside the routine's settings",
+          "zh": "\\[Claude Code on the web] 改进例程详情页：面包屑导航中提供菜单和重命名，顶部提供开关和 Run now，运行历史位于例程设置旁边",
+          "hash": "f99a1dac60a67178eecc6a881b455e303bb5cbc316a41fac6951455adf4a29cd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-27",
+          "en": "\\[Claude Tag] Improved AWS connection failures: when a request can't be signed, such as a hostname with no region, Claude is told why and how to fix it instead of a bare error",
+          "zh": "\\[Claude Tag] 改进 AWS 连接失败提示：当请求无法签名时（例如主机名没有区域），会告知 Claude 原因和修复方法，而不是只给出一个错误",
+          "hash": "b9982c81f9f2b21f21d16cdfedb532e21e741f2478c560a8d20292df6499adc9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-28",
+          "en": "\\[Code Review] Improved suggested fixes to say what the fix must keep working when other code depends on the behavior being changed",
+          "zh": "\\[Code Review] 改进建议修复：当其他代码依赖被修改的行为时，说明该修复必须保持哪些功能正常",
+          "hash": "f3e7fc5ea61e52d67e7325066b3906b626d42911f6b41710e1001397b048b24b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-improvements-29",
+          "en": "\\[Code Review] Improved review comments that point to a second affected location to state that location's issue in a full sentence instead of a cut-off stub",
+          "zh": "\\[Code Review] 改进指向第二个受影响位置的审查评论：用完整句子说明该位置的问题，而不是截断的片段",
+          "hash": "91bf8bbe5d77488bf05502fcb0e706089bd9c1aa059352be890c331516866b21",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "35 bug fixes",
+      "heading_zh": "35 项修复",
+      "items": [
+        {
+          "id": "2.1.273-fixes-30",
+          "en": "Fixed Bash commands the permission checker cannot fully analyze skipping the prompt under `permissions.blockReadsOutsideWorkingDirectories`, and a subshell hiding a dangerous `rm` in bypass mode",
+          "zh": "修复在 `permissions.blockReadsOutsideWorkingDirectories` 下，权限检查器无法完全分析的 Bash 命令跳过权限提示的问题，以及绕过模式下子 shell 隐藏危险 `rm` 的问题",
+          "hash": "54f1fe0faa1fb55c2110eff3ac05b0a448b0b15a741581d15696768df037da0b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-31",
+          "en": "Fixed skills synced from claude.ai staying available after your organization turns Skills off; they now move to the recoverable trash",
+          "zh": "修复从 claude.ai 同步的 skills 在组织关闭 Skills 后仍可用的问题；现在它们会被移入可恢复的回收站",
+          "hash": "7be76ed6ff9ce54daa001d3b0cbba3f95d9aec618efdb1641ec8fd9fe9647d17",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-32",
+          "en": "Fixed `allowManagedMcpServersOnly`, `deniedMcpServers` and `disableClaudeAiConnectors` set via MDM or `managed-settings.json` being ignored when server-managed settings are also present",
+          "zh": "修复同时存在服务器托管设置时，通过 MDM 或 `managed-settings.json` 设置的 `allowManagedMcpServersOnly`、`deniedMcpServers` 和 `disableClaudeAiConnectors` 被忽略的问题",
+          "hash": "05d2d3d25ecf3fb0a65b0c42aef6a4d9223a0a823c200e0943c2e8c9519c1406",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-33",
+          "en": "Fixed 401/403 errors on Bedrock, Vertex and Foundry, and Claude apps gateway 403s, telling you to run `/login`; the message now names the credential to refresh or points to your gateway administrator",
+          "zh": "修复 Bedrock、Vertex 和 Foundry 上的 401/403 错误以及 Claude 应用网关 403 错误提示运行 `/login` 的问题；现在消息会指明需要刷新的凭证，或指向网关管理员",
+          "hash": "f0232997333f2facb904975e7ca3f0fd81eb6e269e7b17bd9640ff849a038fb9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-34",
+          "en": "Fixed `/login`, `/upgrade`, and `/extra-usage` discarding earlier thinking from the conversation, which forced a full prompt-cache rewrite on the next request",
+          "zh": "修复 `/login`、`/upgrade` 和 `/extra-usage` 丢弃对话中先前 thinking 内容的问题，该问题会导致下一次请求强制完整重写 prompt 缓存",
+          "hash": "e8813d7ed30d0048926e4471d7cfec668fc6839c901fe8624f638576781286bd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-35",
+          "en": "Fixed auto mode stopping for approval when the Artifact tool uploads a file you attached to the chat in a cloud or Remote Control session",
+          "zh": "修复在云端或远程控制 session 中，Artifact 工具上传你附加到聊天的文件时自动模式停下来请求批准的问题",
+          "hash": "1fae6e91e5cc935394f55d4da7cc5d4938bba964aca33838e5beafbbd01fe39b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-36",
+          "en": "Fixed a long-running session recreating a stub `.git/info/exclude` after the repository's `.git` directory was removed or moved away",
+          "zh": "修复长时间运行的 session 在仓库的 `.git` 目录被删除或移走后重新创建占位 `.git/info/exclude` 的问题",
+          "hash": "9cee5820cc5beb33777c5bb2ae0bd564209a9b856fc9f5825cd51455062fc692",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-37",
+          "en": "Fixed the main prompt dropping a `!` typed at the start while already in shell mode, so negated commands like `! grep …` can be typed",
+          "zh": "修复已在 shell 模式下时，主 prompt 丢弃开头输入的 `!` 的问题，现在可以输入 `! grep …` 这类取反命令",
+          "hash": "aa650f16ca1ac14b8e843a22930a84e965e699840ffdd53951fc9822e08b094d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-38",
+          "en": "Fixed Read on macOS refusing a dragged-in screenshot, or any file the system reports under a second path, with \"symlink resolution changed after permission was checked\"",
+          "zh": "修复 macOS 上 Read 拒绝拖入的截图或系统以第二个路径报告的任何文件，并报出“symlink resolution changed after permission was checked”的问题",
+          "hash": "768c6a573620ec086421c19668e24506fca81207c7a7810fd650c0f8cee92c2b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-39",
+          "en": "Fixed `permissions.blockReadsOutsideWorkingDirectories`: a memory directory chosen by a repository's settings is no longer loaded into the prompt, recalled, indexed, or used by memory extraction",
+          "zh": "修复 `permissions.blockReadsOutsideWorkingDirectories`：由仓库设置选择的内存目录不再被加载到 prompt、召回、索引或用于内存提取",
+          "hash": "66e3413a2cc1f2a2a5b2fe18c03bc8c22bbff382e2788390e5c418136fdd709d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-40",
+          "en": "Fixed sub-agents and background agents being reported as failed, with their result never delivered, when the final streamed reply omitted token usage or carried no model id",
+          "zh": "修复当最终流式回复省略 token 用量或未携带模型 id 时，subagents 和后台 agents 被报告为失败且结果从未送达的问题",
+          "hash": "a76540a9f444392f5c07def65d2c4c36910bede633e9c7e7b33b8ff22955c3cc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-41",
+          "en": "Fixed the context meter and auto-compact counting advisor-tool turns at roughly twice their real context size, which made auto-compact fire at about half the real window",
+          "zh": "修复了上下文计量器和自动压缩在统计 advisor-tool 轮次时按约两倍于真实上下文大小计数的问题，该问题导致自动压缩在约一半的真实窗口处触发",
+          "hash": "e3c63b94bb40d011e542ba9e2cf4e4e16269fa1c8d767aa687d73756588996d1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-42",
+          "en": "Fixed `/tui` refusing to restart because of an agent-team teammate that had already finished its work and was no longer shown in the agents panel",
+          "zh": "修复了 `/tui` 因某个 agent-team 队友已完成工作且不再显示在 agents 面板中而拒绝重启的问题",
+          "hash": "b1e8998b53bc66659fde151884029809f8a638256d617d41aeb53444c4101de0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-43",
+          "en": "Fixed saved scheduled tasks running in the wrong session after `.claude/scheduled_tasks.json` was copied into another folder, such as a new worktree",
+          "zh": "修复了 `.claude/scheduled_tasks.json` 被复制到其他文件夹（例如新的 worktree）后，已保存的定时任务在错误的 session 中运行的问题",
+          "hash": "d22ed6d4b2884fb4bd0ee92b30088f8add7226a646025cf68e3d691d76f619e8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-44",
+          "en": "Fixed SDK and `--output-format stream-json` output dropping a subagent's remaining messages and final report after it is moved to the background mid-run (e.g. by `CLAUDE_AUTO_BACKGROUND_TASKS`)",
+          "zh": "修复了 SDK 和 `--output-format stream-json` 输出在 subagent 运行中途被移到后台（例如由 `CLAUDE_AUTO_BACKGROUND_TASKS` 触发）后，丢失该 subagent 剩余消息和最终报告的问题",
+          "hash": "0df37d766a9da04c094fa1676f5f4c62426fdda8e1df5f0329c2027eb6cc2ffd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-45",
+          "en": "Fixed `/install-github-app` reporting a SAML single sign-on block as \"admin permissions required\"",
+          "zh": "修复了 `/install-github-app` 将 SAML 单点登录拦截误报为“需要管理员权限”的问题",
+          "hash": "be076cd1ab67786de32aef7f3c94fbf643ad8f28dd17fca6b8f4aee27026fe37",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-46",
+          "en": "Fixed Remote Control clients attached to a Claude Desktop, VS Code or JetBrains session being refused when they ask for the session's context window usage",
+          "zh": "修复了连接到 Claude Desktop、VS Code 或 JetBrains session 的远程控制客户端在请求该 session 的上下文窗口用量时被拒绝的问题",
+          "hash": "241fa416c0e5f454fa874f02fdd8e0c6a86f3a31eb54307b7d897e85f70b020b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-47",
+          "en": "Fixed the spinner showing a doubled ellipsis (\"……\") on compaction status lines such as \"Running PreCompact hooks…\"",
+          "zh": "修复了加载指示器在“Running PreCompact hooks…”等上下文压缩状态行上显示重复省略号（“……”）的问题",
+          "hash": "4d4d4e1aac878c62ca228222a81545852f2070c043b5cf81d6aa3192a009e656",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-48",
+          "en": "Fixed a false-positive spinner tip suggesting the frontend-design plugin after reading or publishing Artifacts",
+          "zh": "修复了在读取或发布 Artifacts 后，加载指示器提示误报建议使用 frontend-design plugin 的问题",
+          "hash": "02fc2cfda12d0f249c96f8d7ed366f16e2936d422180d3ecb3805d7dc2f08a50",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-49",
+          "en": "\\[VSCode] Fixed \"Report a problem\" still appearing, and `/bug` / `/feedback` opening a report form, for organizations that have product feedback disabled",
+          "zh": "\\[VSCode] 修复了已禁用产品反馈的组织仍显示“报告问题”，且 `/bug` / `/feedback` 仍会打开报告表单的问题",
+          "hash": "f24384fcec9dd925c127dbabefb833c8f19e67e3189ebbe811600938e1e5face",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-50",
+          "en": "\\[VSCode] Fixed a red \"Claude Code process exited with code 4294967295\" banner appearing after completed turns on Windows",
+          "zh": "\\[VSCode] 修复了 Windows 上轮次完成后出现红色“Claude Code process exited with code 4294967295”横幅的问题",
+          "hash": "11357e08d36fc66cb7f37fee6ff676293066da9679a5b937d564fb6309743229",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-51",
+          "en": "\\[Claude Code on the web] Fixed routines losing access to an organization connector, and still calling the old one, after an admin removed and re-added that connector",
+          "zh": "\\[Claude Code on the web] 修复了管理员移除并重新添加组织 connector 后，例程失去对该 connector 的访问权限却仍调用旧 connector 的问题",
+          "hash": "7a836369fb4d1d6e8df3a888dc187454ed40217a7c435a878fa4e5bd26c3058e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-52",
+          "en": "\\[Claude Code on the web] Fixed creating a self-hosted environment from organization settings occasionally failing with a server error and leaving a half-created environment behind",
+          "zh": "\\[Claude Code on the web] 修复了从组织设置创建自托管环境时偶尔因服务器错误失败并留下创建到一半的环境的问题",
+          "hash": "89036ec327bd00b773e7e9fc63bc65f7f46100d66e8a9e6b132d7af6873d9f6a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-53",
+          "en": "\\[Claude Tag] Fixed Claude going silent minutes after reinstalling the app when an Enterprise Grid was disconnected but one of its workspaces stayed connected",
+          "zh": "\\[Claude Tag] 修复了 Enterprise Grid 已断开但其中一个工作区仍保持连接时，重新安装应用几分钟后 Claude 静默无响应的问题",
+          "hash": "4d0dc13ca43941573f3c6f2c30dcf15a2c81372ac3c5e2ea4e3680624c59bd1c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-54",
+          "en": "\\[Claude Tag] Fixed scheduled tasks set up in an organization-shared private Slack channel silently never posting; they now keep running in the thread they were created in",
+          "zh": "\\[Claude Tag] 修复了在组织共享的私有 Slack 频道中设置的定时任务静默地从不发布的问题；现在它们会继续在创建时所在的 thread 中运行",
+          "hash": "c7d545443ac6e3f93042930e9e599c8099e79930dc15a7a788cf5192c3536857",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-55",
+          "en": "\\[Claude Tag] Fixed replying in an older Slack thread while Claude is mid-task sometimes restarting it from scratch and losing work it had not pushed yet",
+          "zh": "\\[Claude Tag] 修复了 Claude 执行任务期间在较早的 Slack thread 中回复时，有时会从头重新开始并丢失尚未推送的工作的问题",
+          "hash": "c74b4eed8a8fabd8418f92e95044c0ec1761e473f0e3058c8d1222073a7b588b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-56",
+          "en": "\\[Claude Tag] Fixed Claude occasionally dropping a message with an incorrect \"couldn't find a Claude Code environment\" notice right after your account token refreshed",
+          "zh": "\\[Claude Tag] 修复了账户 token 刷新后，Claude 偶尔会以错误的“找不到 Claude Code 环境”提示丢弃消息的问题",
+          "hash": "71a6c0275ad939de120342a114922db158a3d2511bc7bcf5a1e66a8195beb20a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-57",
+          "en": "\\[Claude Tag] Fixed AWS connections refusing region-less endpoints such as Budgets, Savings Plans, WAF Classic and Import/Export; Global Accelerator requests now sign correctly",
+          "zh": "\\[Claude Tag] 修复了 AWS 连接拒绝无区域端点（如 Budgets、Savings Plans、WAF Classic 和 Import/Export）的问题；Global Accelerator 请求现在能正确签名",
+          "hash": "12229b22cf221134e3326ce6d7af020d6e7732d80b9ce4b7fee3452a29a6aebc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-58",
+          "en": "\\[Claude Tag] Fixed OAuth client-credentials and JWT-bearer connections failing with providers that return a lowercase token type; requests now send the standard Bearer scheme",
+          "zh": "\\[Claude Tag] 修复了 OAuth 客户端凭证和 JWT bearer 连接在提供方返回小写 token 类型时失败的问题；请求现在发送标准的 Bearer 方案",
+          "hash": "606b23392e17b692624f79d2be21b048ad867eca2463c426bbba87393e02d03e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-59",
+          "en": "\\[Claude Tag] Fixed adding a channel manager being refused on Enterprise Grid shared channels, on channels where Claude hasn't been used yet, and on legacy private channels",
+          "zh": "\\[Claude Tag] 修复了在 Enterprise Grid 共享频道、尚未使用过 Claude 的频道以及旧版私有频道中添加频道管理员被拒绝的问题",
+          "hash": "cd1314baef3e5b9c7ef16ee2de89dfb1947154af79fddc27dd22e09829585834",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-60",
+          "en": "\\[Claude Tag] Fixed the admin Memory page not listing Slack channels Claude set up on its own even when they had saved memory; admins can now open, edit and delete that memory",
+          "zh": "\\[Claude Tag] 修复了管理后台 Memory 页面未列出 Claude 自行设置的 Slack 频道（即使这些频道已保存 memory）的问题；管理员现在可以打开、编辑和删除该 memory",
+          "hash": "b816ea17b6dc738db38131ead98141825bb67cc00d7e0261f3c9499443a55cf0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-61",
+          "en": "\\[Code Review] Fixed merging the base branch into a PR whose earlier review listed \"Additional findings\" triggering a full re-review; these pushes now get the lighter follow-up review",
+          "zh": "\\[Code Review] 修复了将基础分支合并到 PR 时的问题：若该 PR 此前的审查列出了“Additional findings”，会触发完整重新审查；现在这类推送改为执行更轻量的后续审查",
+          "hash": "f7460fabc594dd2302bff97944f7d5795eac6693b6fe4570ceaa1002e9e1c961",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-62",
+          "en": "\\[Code Review] Fixed a whole REVIEW\\.md being ignored because of an @-mention, a code span wrapped across lines, or a backticked HTML tag; only lines linking to changed files are withheld",
+          "zh": "\\[Code Review] 修复了因 @ 提及、跨行代码段或反引号包裹的 HTML 标签导致整个 REVIEW\\.md 被忽略的问题；现在仅保留链接到已更改文件的行",
+          "hash": "daf489765465a78e4a933ce02f08cce9a269e695f42d0c62b0e40eab00555dd0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-63",
+          "en": "\\[Code Review] Fixed `/ultrareview --post` so a retry after a GitHub error posts the findings comment exactly once instead of never or twice; the comment now names the reviewed commit",
+          "zh": "\\[Code Review] 修复了 `/ultrareview --post`：GitHub 出错后重试时，发现评论现在恰好发布一次，而不再是不发布或发布两次；该评论现在会注明所审查的提交",
+          "hash": "c7e659077f86290712f12a3c5d8d60878d4218fa0f7d941653d3bc596ed9c639",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.273-fixes-64",
+          "en": "\\[Code Review] Fixed empty or content-identical pushes being re-reviewed on GitHub repositories whose owner or name contains a capital letter; these pushes are now skipped",
+          "zh": "\\[Code Review] 修复了在所有者或名称包含大写字母的 GitHub 仓库中，空推送或内容相同的推送被重新审查的问题；现在会跳过这类推送",
+          "hash": "5319595456c9d32f59015de10dc3a7ecf8c12ebe72289bd8dbb55207883cf005",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增网关提示头、远程控制分叉与 MCP 断连通知，并修复多项权限与上下文计量问题。",
+    "highlights": [
+      {
+        "title": "网关提示请求头",
+        "category": "新功能",
+        "detail": "为 LLM 网关新增请求类别、agent 类型、工具耗时与压缩状态等请求头，便于网关侧观测与路由。",
+        "action": "如需启用，设置环境变量 CLAUDE_CODE_GATEWAY_HINT_HEADERS=1。",
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_CODE_GATEWAY_HINT_HEADERS=1",
+          "caption": "启用网关提示请求头"
+        },
+        "item_ids": [
+          "2.1.273-added-1"
+        ]
+      },
+      {
+        "title": "远程控制 session 分叉",
+        "category": "新功能",
+        "detail": "可从 Claude 应用分叉由 --remote-control 或 /remote-control 启动的 session，分叉作为后台 session 在本机运行。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude --remote-control",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.273-added-3"
+        ]
+      },
+      {
+        "title": "自动模式默认本地分类器",
+        "category": "改进",
+        "detail": "Bedrock、Vertex、Foundry 上的自动模式暂时默认使用本地分类器，行为与之前不同。",
+        "action": "若需使用平台服务端分类器，设置 CLAUDE_CODE_AUTO_MODE_SERVER=1。",
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_CODE_AUTO_MODE_SERVER=1",
+          "caption": "改用服务端分类器"
+        },
+        "item_ids": [
+          "2.1.273-changed-6"
+        ]
+      },
+      {
+        "title": "权限检查绕过修复",
+        "category": "安全",
+        "detail": "修复 blockReadsOutsideWorkingDirectories 下无法分析的 Bash 命令跳过权限提示，以及绕过模式中子 shell 隐藏危险 rm 的问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.273-fixes-30"
+        ]
+      },
+      {
+        "title": "托管 MCP 设置被忽略修复",
+        "category": "修复",
+        "detail": "修复存在服务器托管设置时，MDM 或 managed-settings.json 中的 MCP 白名单、禁用列表与连接器开关被忽略的问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.273-fixes-32"
+        ]
+      },
+      {
+        "title": "自动压缩过早触发修复",
+        "category": "修复",
+        "detail": "修复上下文计量把 advisor-tool 轮次按约两倍计数，导致自动压缩在约一半真实窗口处触发的问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.273-fixes-41"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

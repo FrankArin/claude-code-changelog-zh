@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resumed headless sessions losing a turn's replies when the model was switched or a request was retried mid-turn",
+  "zh": "修复了恢复无头 session 时，若在回合中途切换模型或重试请求，会丢失该回合回复的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}

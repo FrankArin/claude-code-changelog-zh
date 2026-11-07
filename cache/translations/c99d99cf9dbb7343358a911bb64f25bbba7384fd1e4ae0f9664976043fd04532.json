@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed reviews ignoring a directory's CLAUDE.md conventions when the PR edited a root file (e.g. README.md) that only shares a name with a file that CLAUDE.md lists",
+  "zh": "\\[Code Review] 修复了当 PR 修改了根目录文件（如 README.md），而该文件仅与 CLAUDE.md 中列出的某个文件同名时，审查会忽略该目录 CLAUDE.md 约定的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

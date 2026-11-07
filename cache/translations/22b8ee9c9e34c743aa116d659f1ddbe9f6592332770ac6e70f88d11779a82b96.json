@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Fixed routines losing access to an organization connector, and still calling the old one, after an admin removed and re-added that connector",
+  "zh": "\\[Claude Code on the web] 修复了管理员移除并重新添加组织 connector 后，例程失去对该 connector 的访问权限却仍调用旧 connector 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

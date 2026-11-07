@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed OAuth client-credentials and JWT-bearer connections failing with providers that return a lowercase token type; requests now send the standard Bearer scheme",
+  "zh": "\\[Claude Tag] 修复了 OAuth 客户端凭证和 JWT bearer 连接在提供方返回小写 token 类型时失败的问题；请求现在发送标准的 Bearer 方案",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:02:51+00:00"
+}

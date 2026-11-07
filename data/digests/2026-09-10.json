@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-10",
+  "versions": [
+    "2.1.268"
+  ],
+  "tldr": "修复第三方端点 400 错误与高 CPU 占用，新增网关定价与多项 CLI JSON 输出。",
+  "highlights": [
+    {
+      "title": "任务跟踪工具范围收窄",
+      "category": "破坏性变更",
+      "detail": "TaskCreate/Get/Update/List 与 TodoWrite 仅在 Claude 3.x、Opus 4.0–4.7、Sonnet 4.0–4.6、Haiku 4.5 上提供，其他模型需显式开启。",
+      "action": "若在其他模型上依赖任务跟踪工具，请设置环境变量 CLAUDE_CODE_ENABLE_TODO_TOOLS=1。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_ENABLE_TODO_TOOLS=1",
+        "caption": "为其他模型启用任务跟踪工具"
+      },
+      "item_ids": [
+        "2.1.268-changed-14"
+      ],
+      "version": "2.1.268"
+    },
+    {
+      "title": "Artifact 权限规则调整",
+      "category": "破坏性变更",
+      "detail": "普通 WebFetch 拒绝与询问规则不再约束 Artifact 工具的读取和更新，需改用 Artifact 规则才能阻止或限制。",
+      "action": "如需限制 Artifact 操作，请将现有 WebFetch 规则改为 Artifact 规则或 WebFetch(domain:claude.ai)。",
+      "example": null,
+      "item_ids": [
+        "2.1.268-changed-17"
+      ],
+      "version": "2.1.268"
+    },
+    {
+      "title": "修复第三方端点 400 错误",
+      "category": "修复",
+      "detail": "自 2.1.265 起，使用 ANTHROPIC_BASE_URL 的兼容端点因 Artifact 工具 schema 中的正则被拒而每轮失败，现已修复。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "ANTHROPIC_BASE_URL",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.268-fixes-38"
+      ],
+      "version": "2.1.268"
+    },
+    {
+      "title": "修复高 CPU 占用",
+      "category": "修复",
+      "detail": "长时间闲置 session 的忙循环不再占满一个 CPU 核心，终端焦点频繁上报也不再让 CPU 持续高占用。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.268-fixes-41"
+      ],
+      "version": "2.1.268"
+    },
+    {
+      "title": "网关定价与访问控制",
+      "category": "新功能",
+      "detail": "gateway.yaml 支持 pricing 使 /cost 与遥测费率一致；allow_cidrs 为空时启动告警，并新增 gatewayInternalNetworks 托管设置。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/cost",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.268-added-1",
+        "2.1.268-added-2",
+        "2.1.268-added-3"
+      ],
+      "version": "2.1.268"
+    },
+    {
+      "title": "插件命令支持 JSON 输出",
+      "category": "新功能",
+      "detail": "plugin install/uninstall/update/enable/disable 新增 --json，list --json 每行新增 errorDetails/noteDetails，便于脚本化处理。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin install",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.268-added-6"
+      ],
+      "version": "2.1.268"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "9fefb7bb9628e8acd3c61248d57fdd7e3fe44ea8dcf58f2dfdc8dcfe3f09be1d"
+}

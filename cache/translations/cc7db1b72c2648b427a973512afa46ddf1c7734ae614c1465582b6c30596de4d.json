@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed local Cowork sessions set to skip all approvals: the Artifact tool now refuses a local file outside the session's folders, or behind a symlink, instead of reading it without asking",
+  "zh": "变更设置为跳过所有审批的本地 Cowork session：Artifact 工具现在会拒绝读取 session 文件夹之外或位于符号链接之后的本地文件，而不是未经询问直接读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:05:17+00:00"
+}

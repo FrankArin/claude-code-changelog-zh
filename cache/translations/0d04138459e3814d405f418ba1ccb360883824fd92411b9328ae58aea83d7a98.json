@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the default dynamic workflow size to small on Pro plans and lowered the medium size guideline from 15 to 10 agents",
+  "zh": "将 Pro 方案下动态工作流的默认规模改为小，并将中等规模的建议值从 15 个 agent 下调至 10 个",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

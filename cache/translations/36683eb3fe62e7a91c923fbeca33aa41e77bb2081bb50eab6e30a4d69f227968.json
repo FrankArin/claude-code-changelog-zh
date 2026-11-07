@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/resume` and `/teleport` keeping the previous conversation's file-read tracking, so Claude could edit files the resumed conversation had never read",
+  "zh": "修复 `/resume` 和 `/teleport` 保留上一个对话的文件读取记录，导致 Claude 可以编辑恢复后的对话从未读取过的文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:03:40+00:00"
+}

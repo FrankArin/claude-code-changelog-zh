@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved screen reader and keyboard accessibility in the slash-command menu, @-mention menu, output-style picker, Send/Stop button, permission and question cards, and onboarding checklist",
+  "zh": "\\[VSCode] 改进斜杠命令菜单、@ 提及菜单、输出样式选择器、发送/停止按钮、权限卡片和问题卡片以及入门清单的屏幕阅读器和键盘无障碍支持",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:04:31+00:00"
+}
