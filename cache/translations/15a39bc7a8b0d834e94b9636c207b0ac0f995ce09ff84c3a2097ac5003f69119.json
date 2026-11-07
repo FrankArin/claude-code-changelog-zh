@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed vim mode `cw` on a space, an empty line, a word's last letter or a one-letter word also changing the next word; word motions stopping inside words in Hindi, Bengali and other scripts; and `.`, `p` or `P` that inserts text starting with `!` switching to shell mode, losing text or editing the wrong character",
+  "zh": "修复 vim 模式 `cw` 在空格、空行、单词最后一个字母或单字母单词上也会改动下一个单词；印地语、孟加拉语等文字中单词移动停在单词内部；以及 `.`、`p` 或 `P` 插入以 `!` 开头的文本时切换到 shell 模式、丢失文本或编辑错误字符的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

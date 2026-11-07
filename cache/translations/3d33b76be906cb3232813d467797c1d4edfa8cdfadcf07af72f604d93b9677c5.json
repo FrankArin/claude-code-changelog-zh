@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed memory write conflicts in Cowork sessions showing Claude only the start and end of a memory file over about 10,800 characters, so the retried write dropped the middle",
+  "zh": "修复了 Cowork session 中的内存写入冲突：对于超过约 10,800 字符的内存文件，Claude 只能看到开头和结尾，导致重试写入时丢失中间内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

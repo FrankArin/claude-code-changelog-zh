@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude resuming a stopped request after you press Stop in Slack, for example when a check-in fired or a background task ended; messages sent mid-response are now read",
+  "zh": "\\[Claude Tag] 修复了在 Slack 中按下 Stop 后 Claude 仍恢复已停止请求的问题，例如在 check-in 触发或后台任务结束时；现在会读取响应过程中发送的消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

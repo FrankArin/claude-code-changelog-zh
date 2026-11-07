@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Artifact updates failing with \"File not found\" after a session resumes on another machine or its scratchpad is cleared: the page's last published version is restored",
+  "zh": "修复 session 在另一台机器上恢复或其暂存区被清空后，Artifact 更新失败并报“File not found”的问题：现在会恢复该页面最后发布的版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

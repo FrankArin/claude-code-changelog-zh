@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Improved the GitHub banner in Claude Tag admin settings to say why GitHub isn't connected: not signed in, app not linked or not installed, sign-in expired, or SSO not authorized",
+  "zh": "\\[Claude Tag] 改进 Claude Tag 管理设置中的 GitHub 横幅，说明 GitHub 未连接的原因：未登录、应用未关联或未安装、登录已过期，或 SSO 未授权",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

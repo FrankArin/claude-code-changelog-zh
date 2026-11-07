@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed /feedback, /bug and /share failing every send with \"Couldn't send feedback\" after a Remote Control Stop arrived while the dialog was open",
+  "zh": "修复对话框打开期间收到 Remote Control Stop 后，/feedback、/bug 和 /share 每次发送都失败并提示“Couldn't send feedback”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

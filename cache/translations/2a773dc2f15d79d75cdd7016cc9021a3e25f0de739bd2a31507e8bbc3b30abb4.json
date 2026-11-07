@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash permission checks for commands that loop over or assign certain special shell variables; these commands now ask for permission",
+  "zh": "修复了对循环遍历或赋值某些特殊 shell 变量的命令的 Bash 权限检查；这些命令现在会请求权限",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

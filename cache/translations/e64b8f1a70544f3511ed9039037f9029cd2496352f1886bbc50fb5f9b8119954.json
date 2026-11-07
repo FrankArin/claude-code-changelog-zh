@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed PgUp/PgDn in the `/skills` menu wrapping past the first or last skill instead of stopping there",
+  "zh": "修复了 `/skills` 菜单中 PgUp/PgDn 越过第一个或最后一个 skill 循环而非停在该处的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

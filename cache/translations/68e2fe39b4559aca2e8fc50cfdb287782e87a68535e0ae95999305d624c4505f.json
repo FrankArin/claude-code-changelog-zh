@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/help` and `/sandbox`: ←/→ and Tab switch tabs from inside a tab's list, and ↓ on an empty Custom commands tab in `/help` no longer leaves the keys stuck until Esc",
+  "zh": "改进 `/help` 和 `/sandbox`：←/→ 和 Tab 可在标签页内的列表中切换标签页；在 `/help` 中空的 Custom commands 标签页上按 ↓ 不再导致按键卡住直到按 Esc",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

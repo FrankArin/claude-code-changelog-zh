@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a `/btw` side question asked in a new conversation's first seconds occasionally showing another session's side-question history",
+  "zh": "\\[VSCode] 修复在新对话最初几秒内提出的 `/btw` 附带问题偶尔会显示其他 session 的附带问题历史",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

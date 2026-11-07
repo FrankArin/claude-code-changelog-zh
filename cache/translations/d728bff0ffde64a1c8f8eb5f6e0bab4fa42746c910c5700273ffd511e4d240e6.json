@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude in Slack offering to switch to models your organization can't use; it now lists and offers only models the switch will actually accept",
+  "zh": "\\[Claude Tag] 修复了 Slack 中 Claude 主动提议切换到组织无法使用的模型的问题；现在只列出并提供切换后实际可接受的模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

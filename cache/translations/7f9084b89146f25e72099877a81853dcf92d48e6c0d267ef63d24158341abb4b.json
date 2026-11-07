@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugins from the official marketplace being recorded without their commit in `installed_plugins.json`, and `installed_plugins.json` keeping the old commit after updating a pinned-commit plugin",
+  "zh": "修复了来自官方 marketplace 的 plugin 在 `installed_plugins.json` 中记录时缺少其 commit 的问题，以及更新固定 commit 的 plugin 后 `installed_plugins.json` 仍保留旧 commit 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

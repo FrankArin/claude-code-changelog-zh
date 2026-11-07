@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the plan approval card never offering auto mode: when auto mode is available, its first option is now \"Yes, and use auto mode\", as in the terminal",
+  "zh": "\\[VSCode] 修复了计划批准卡片从不提供自动模式的问题：当自动模式可用时，其第一个选项现在为“Yes, and use auto mode”，与终端中一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

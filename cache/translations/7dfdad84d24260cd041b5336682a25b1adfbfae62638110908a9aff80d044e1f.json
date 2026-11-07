@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Fable to always appear in `/model` on the Anthropic API; it is greyed out only when your organization's settings disable it",
+  "zh": "变更：在 Anthropic API 上，Fable 始终显示在 `/model` 中；仅当组织设置将其禁用时才置灰",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--strict-mcp-config` with an empty `--mcp-config` holding the first non-interactive turn for up to `MCP_TIMEOUT` on incidental MCP servers",
+  "zh": "修复了 `--strict-mcp-config` 搭配空的 `--mcp-config` 时，因附带加载的 MCP server 导致首个非交互轮次最长被阻塞 `MCP_TIMEOUT` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

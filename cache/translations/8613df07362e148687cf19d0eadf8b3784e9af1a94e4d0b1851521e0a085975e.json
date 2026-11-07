@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and `/status` shows it",
+  "zh": "在 Claude 应用网关登录中新增已登录账号：当网关指定该账号时，你需在凭据保存前确认，`/status` 会显示该账号",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

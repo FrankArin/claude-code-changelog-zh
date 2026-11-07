@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+C or Ctrl+D pressed twice in most dialogs (`/model`, `/effort`, `/config`, `/status`, `/usage`, `/plugin`, `/sandbox`, `/permissions`, `/artifacts`, `/mobile`, `/login`, `/upgrade`, `/usage-credits`, `/install-github-app`, `/setup-bedrock`, `/setup-vertex`) quitting Claude Code instead of closing the dialog",
+  "zh": "修复在大多数对话框中（`/model`、`/effort`、`/config`、`/status`、`/usage`、`/plugin`、`/sandbox`、`/permissions`、`/artifacts`、`/mobile`、`/login`、`/upgrade`、`/usage-credits`、`/install-github-app`、`/setup-bedrock`、`/setup-vertex`）连按两次 Ctrl+C 或 Ctrl+D 会退出 Claude Code 而不是关闭对话框的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

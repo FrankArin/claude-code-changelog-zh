@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed API errors from an HTML error page (such as a proxy's 429 or 502 page) printing the page's raw markup or leaving out the HTTP status, and error messages breaking onto a second line when the server's error text ended in a newline",
+  "zh": "修复来自 HTML 错误页面的 API 错误（例如代理的 429 或 502 页面）打印页面原始标记或缺少 HTTP 状态码的问题，以及服务器错误文本以换行结尾时错误消息换行到第二行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

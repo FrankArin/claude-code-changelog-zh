@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a headless resume (`claude -p --resume`, the SDK, a VS Code extension window reload) starting the session's cost and usage totals at zero; headless sessions now save their totals at exit",
+  "zh": "修复了无头恢复（`claude -p --resume`、SDK、VS Code 扩展窗口重载）将 session 的费用和用量总计从零开始的问题；无头 session 现在会在退出时保存其总计",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

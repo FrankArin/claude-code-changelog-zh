@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed a bullet in Claude's Slack reply whose text starts with +, - or \\* rendering as an empty bullet with a stray nested item; it now shows as one bullet with the character kept",
+  "zh": "\\[Claude Tag] 修复了 Claude 的 Slack 回复中以 +、- 或 \\* 开头的文本项被渲染为空项目符号并附带多余嵌套项的问题；现在会显示为一个保留该字符的项目符号",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Edit tool reporting \"Invalid regular expression: regular expression too large\" instead of \"String not found in file\" when a very large edit containing non-ASCII text did not match the file",
+  "zh": "修复了当包含非 ASCII 文本的超大编辑内容与文件不匹配时，Edit 工具报错“Invalid regular expression: regular expression too large”而非“String not found in file”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

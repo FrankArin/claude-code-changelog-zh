@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the dangerous-rm permission prompt to name the flagged rm command and suggest a `${VAR:?}` guard, so headless runs can recover",
+  "zh": "改进危险 rm 的权限提示：现在会指出被标记的 rm 命令，并建议使用 `${VAR:?}` 防护，使无头运行能够恢复",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

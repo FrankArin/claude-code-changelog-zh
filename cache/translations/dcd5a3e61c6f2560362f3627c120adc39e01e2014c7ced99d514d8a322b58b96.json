@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude's Slack search failing with an error whenever it searched within a single channel; it now returns that channel's matching messages",
+  "zh": "\\[Claude Tag] 修复了 Claude 的 Slack 搜索在单个频道内搜索时总是报错的问题；现在会返回该频道中匹配的消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

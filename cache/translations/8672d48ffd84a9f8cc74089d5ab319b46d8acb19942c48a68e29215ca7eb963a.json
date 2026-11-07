@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed New session opening another locked editor group whenever a file tab shared the group with your Claude tab",
+  "zh": "\\[VSCode] 修复当文件标签页与 Claude 标签页共享同一组时，New session 会打开另一个锁定的编辑器组的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

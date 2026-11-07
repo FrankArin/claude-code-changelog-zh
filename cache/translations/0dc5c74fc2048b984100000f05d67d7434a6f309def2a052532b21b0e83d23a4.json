@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Removed the startup notice that told you a one-off scheduled routine had run since your last session",
+  "zh": "移除启动时提示自上次 session 以来已运行一次性定时例程的通知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

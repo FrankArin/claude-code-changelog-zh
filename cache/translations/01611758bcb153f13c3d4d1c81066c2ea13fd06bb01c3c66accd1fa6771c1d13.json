@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/install-github-app`, `/desktop`, the `/permissions` auto mode environment prompts, and the `/plugin` \"Add marketplace?\" and \"Run this command?\" prompts: they now use the standard dialog frame with key hints, and Ctrl+C or Ctrl+D cancels them on the second press like other dialogs",
+  "zh": "改进 `/install-github-app`、`/desktop`、`/permissions` 的自动模式环境提示，以及 `/plugin` 的“Add marketplace?”和“Run this command?”提示：现在使用带按键提示的标准对话框框架，Ctrl+C 或 Ctrl+D 第二次按下时取消，与其他对话框一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

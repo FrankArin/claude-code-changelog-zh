@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--resume` and `--continue` dropping a conversation's earlier thinking when a built-in tool it started with has since been switched off by a server-side flag",
+  "zh": "修复了 `--resume` 和 `--continue` 在对话启动时使用的某个内置工具此后被服务端标志关闭时，丢弃该对话早期思考内容的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

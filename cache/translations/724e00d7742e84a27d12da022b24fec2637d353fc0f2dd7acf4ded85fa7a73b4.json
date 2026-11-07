@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the transcript creeping toward the bottom in small steps while a permission card waits and content keeps arriving",
+  "zh": "\\[VSCode] 修复权限卡片等待且内容持续到达时，对话记录会小步向底部缓慢移动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

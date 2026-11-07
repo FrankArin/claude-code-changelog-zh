@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-17",
+  "versions": [
+    "2.1.275",
+    "2.1.274"
+  ],
+  "tldr": "今日发布 2.1.275 与 2.1.274：新增立即发送排队消息、claude.ai 技能同步、插件安装指定市场、内存告警与 MCP 启动等待配置；修复插件凭据泄露等安全问题。注意 2.1.274 起部分安装默认升级到 v2 MCP 客户端，旧服务器可能不兼容。",
+  "highlights": [
+    {
+      "title": "MCP 客户端默认升级（破坏性变更）",
+      "category": "破坏性变更",
+      "detail": "Bedrock、Vertex、Foundry 及禁用遥测的安装默认改用 v2 MCP 客户端与新版协议协商，与其他安装一致；旧服务器可能不兼容。",
+      "action": "若直连 HTTP MCP 服务器出现兼容问题，设置 MCP_SDK_GENERATION=v1 或 MCP_PROTOCOL_NEGOTIATION=legacy 回退。",
+      "example": {
+        "lang": "bash",
+        "code": "MCP_SDK_GENERATION=v1",
+        "caption": "回退到 v1 MCP 客户端"
+      },
+      "version": "2.1.274",
+      "item_ids": [
+        "2.1.274-changed-14"
+      ]
+    },
+    {
+      "title": "插件凭据泄露修复",
+      "category": "安全",
+      "detail": "修复 plugin 与 marketplace 消息、日志及列表命令会显示存储在 git、ssh 或 URL 中的密码或 token 的问题，VS Code 对话框同步修复。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin marketplace list",
+        "caption": "命令示例"
+      },
+      "version": "2.1.275",
+      "item_ids": [
+        "2.1.275-fixes-41",
+        "2.1.275-fixes-85"
+      ]
+    },
+    {
+      "title": "npm 插件不再执行安装脚本",
+      "category": "改进",
+      "detail": "从 npm 源安装的 plugin 改用 npm pack --ignore-scripts 获取并校验完整性，不再运行包的安装脚本，降低供应链风险。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "npm pack --ignore-scripts",
+        "caption": "命令示例"
+      },
+      "version": "2.1.275",
+      "item_ids": [
+        "2.1.275-changed-18"
+      ]
+    },
+    {
+      "title": "立即发送排队消息",
+      "category": "新功能",
+      "detail": "新增 ctrl+enter 或 ctrl+x ctrl+s 快捷键，可中断当前回合并一次性发送所有排队消息，已发送与排队消息在模型接收前显示为灰色。",
+      "action": null,
+      "example": null,
+      "version": "2.1.275",
+      "item_ids": [
+        "2.1.275-added-2"
+      ]
+    },
+    {
+      "title": "同步 claude.ai 技能与插件",
+      "category": "新功能",
+      "detail": "登录 claude.ai 账号的终端 session 会自动同步该账号启用的 skill 和 plugin，可用配置项关闭。",
+      "action": null,
+      "example": null,
+      "version": "2.1.275",
+      "item_ids": [
+        "2.1.275-added-4"
+      ]
+    },
+    {
+      "title": "内存告警与 MCP 启动等待配置",
+      "category": "新功能",
+      "detail": "内存用量接近临界时显示可见警告并给出释放内存或安全重启步骤；新增环境变量限制首个非交互轮次等待 MCP 服务器连接的时长，设为 0 可完全不等待。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_MCP_STARTUP_WAIT_MS",
+        "caption": "相关环境变量"
+      },
+      "version": "2.1.274",
+      "item_ids": [
+        "2.1.274-added-1",
+        "2.1.274-added-2"
+      ]
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "0207a83579f7bb44dac9f9938cacc7544293f7053223463bd8935484ab6bdb43"
+}

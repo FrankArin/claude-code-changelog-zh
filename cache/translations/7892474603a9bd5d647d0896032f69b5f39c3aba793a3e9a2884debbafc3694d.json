@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+C or Ctrl+D pressed twice quitting Claude Code instead of closing the dialog in the remaining dialogs and pickers, such as `/memory`, `/hooks`, `/mcp` (including a server's sign-in screen), `/export`, `/copy`, `/theme`, and `/teleport`'s uncommitted-changes and login prompts (where Esc also quit)",
+  "zh": "修复在其余对话框和选择器中连按两次 Ctrl+C 或 Ctrl+D 会退出 Claude Code 而非关闭对话框的问题，涉及 `/memory`、`/hooks`、`/mcp`（包括服务器的登录界面）、`/export`、`/copy`、`/theme`，以及 `/teleport` 的未提交变更和登录提示（这些位置按 Esc 也会退出）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

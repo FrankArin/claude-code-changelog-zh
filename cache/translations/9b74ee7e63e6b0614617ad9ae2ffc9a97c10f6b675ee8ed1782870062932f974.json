@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed interactive startup waiting on the managed-settings network request (about 80 ms, 17+ seconds when the network is unreachable) when no MCP servers or plugins are configured",
+  "zh": "修复了未配置任何 MCP 服务器或 plugin 时，交互式启动仍等待托管设置的网络请求（约 80 毫秒，网络不可达时超过 17 秒）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

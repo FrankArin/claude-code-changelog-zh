@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Streamable HTTP MCP tool calls timing out after about 5 minutes even when a longer per-server `timeout` was set",
+  "zh": "修复了即使为单个服务器设置了更长的 `timeout`，Streamable HTTP MCP 工具调用仍会在约 5 分钟后超时的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

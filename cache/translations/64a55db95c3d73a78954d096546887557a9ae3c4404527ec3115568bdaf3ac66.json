@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed artifact watching in local sessions: a new version published elsewhere no longer starts a turn; Claude learns of it from a later Artifact tool result",
+  "zh": "变更本地 session 中的 artifact 监视：在其他位置发布的新版本不再启动一轮；Claude 会从后续的 Artifact 工具结果中获知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

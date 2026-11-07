@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "versions": [
+    "2.1.280"
+  ],
+  "tldr": "新增 Opus 5.5 并设为默认 Opus 模型，Pro/Team 默认改用 Opus，修复大量稳定性问题。",
+  "highlights": [
+    {
+      "title": "新增 Opus 5.5 默认模型",
+      "category": "新功能",
+      "detail": "claude-opus-5-5 成为默认 Opus 模型，1M 上下文，$4/$20 每 Mtok，缓存读取 $0.20。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.280-added-1"
+      ],
+      "version": "2.1.280"
+    },
+    {
+      "title": "Pro/Team 默认改用 Opus",
+      "category": "改进",
+      "detail": "Pro 与 Team Standard 计划默认模型由 Sonnet 改为 Opus，与 Max、Team Premium、Enterprise 一致。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.280-changed-14"
+      ],
+      "version": "2.1.280"
+    },
+    {
+      "title": "旧 effort 级别不再沿用",
+      "category": "改进",
+      "detail": "此前保存的 effort 级别不再套用到 Opus 5.5 等新模型，需重新选择，否则使用默认值。",
+      "action": "如需特定 effort 级别，请在新模型上用 /effort 重新设置。",
+      "example": {
+        "lang": "bash",
+        "code": "/effort",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.280-changed-15"
+      ],
+      "version": "2.1.280"
+    },
+    {
+      "title": "对话框确认键改为 Enter/Esc",
+      "category": "改进",
+      "detail": "误按 y/n 不再确认或关闭对话框，Enter 接受、Esc 取消；可自定义键位恢复旧行为。",
+      "action": "如需恢复 y/n 行为，在 keybindings.json 中绑定 confirm:yes/confirm:no。",
+      "example": null,
+      "item_ids": [
+        "2.1.280-fixes-52"
+      ],
+      "version": "2.1.280"
+    },
+    {
+      "title": "PermissionRequest hook 变更",
+      "category": "破坏性变更",
+      "detail": "agent 类型 hook 不再在 PermissionRequest 中运行，会报错并提示改用 command 或 http hook。",
+      "action": "将 PermissionRequest 的 agent 类型 hook 改为 command 或 http 类型。",
+      "example": null,
+      "item_ids": [
+        "2.1.280-changed-21"
+      ],
+      "version": "2.1.280"
+    },
+    {
+      "title": "修复符号链接写入审批",
+      "category": "安全",
+      "detail": "写入按实际落点判断，acceptEdits、允许规则和自动模式不再批准落到树外的写入。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.280-fixes-46"
+      ],
+      "version": "2.1.280"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "b17f6637fc80fef69c004cdeffa2ae122127bc4c0ce70f41556b942509447860"
+}

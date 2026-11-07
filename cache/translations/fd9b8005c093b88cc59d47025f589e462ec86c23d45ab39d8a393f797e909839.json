@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude in Slack promising an automatic restart, then failing generically, when a session's configuration is too large to start; the thread now says why and how to retry",
+  "zh": "\\[Claude Tag] 修复了 Slack 中 Claude 在 session 配置过大无法启动时承诺自动重启、随后却只给出笼统失败信息的问题；现在线程中会说明原因及重试方式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed interactive start-up hanging or showing an error for `ANTHROPIC_API_KEY` users when `~/.claude.json` holds a malformed `customApiKeyResponses` value",
+  "zh": "修复当 `~/.claude.json` 中的 `customApiKeyResponses` 值格式错误时，`ANTHROPIC_API_KEY` 用户的交互式启动挂起或报错的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

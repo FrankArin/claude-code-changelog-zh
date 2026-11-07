@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed subagent results to reach the main agent under a header marking them as subagent output, with the result indented, so text in a subagent's result cannot pass as the session's own instructions",
+  "zh": "变更：subagent 结果以标明其为 subagent 输出的标题送达主 agent，结果内容缩进显示，使 subagent 结果中的文本无法冒充 session 自身的指令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

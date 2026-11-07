@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed one-line pastes showing on their own lines in the sent message for prompts from VS Code or Remote Control and for expanded paste placeholders",
+  "zh": "修复来自 VS Code 或 Remote Control 的 prompt 以及展开的粘贴占位符在发送消息中单行粘贴内容单独成行显示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

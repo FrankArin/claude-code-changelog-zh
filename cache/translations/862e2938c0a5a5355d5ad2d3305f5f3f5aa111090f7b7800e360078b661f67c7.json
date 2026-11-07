@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the agent map showing agents a crash left unfinished as stopped instead of failed once the session is reopened",
+  "zh": "\\[VSCode] 修复重新打开 session 后，agent 图谱将因崩溃而未完成的 agent 显示为已停止而非失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

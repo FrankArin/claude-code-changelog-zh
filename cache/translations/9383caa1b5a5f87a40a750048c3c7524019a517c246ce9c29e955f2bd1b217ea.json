@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a stray `</ccmemory>`-style closing tag occasionally appearing in responses",
+  "zh": "修复了响应中偶尔出现多余的 `</ccmemory>` 样式闭合标签的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

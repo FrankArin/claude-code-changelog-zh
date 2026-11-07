@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a startup warning when a configured `otelHeadersHelper` fails, so sessions that silently export no telemetry are noticed",
+  "zh": "当配置的 `otelHeadersHelper` 失败时新增启动警告，以便发现静默不上报任何遥测数据的 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

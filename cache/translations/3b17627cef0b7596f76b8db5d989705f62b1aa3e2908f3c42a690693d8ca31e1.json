@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the transcript renumbering ordered lists in your own messages (typing \"3. 2. 1.\" displayed \"3. 4. 5.\"); numbers and \"N)\" markers now show as typed",
+  "zh": "修复了对话记录会对自己消息中的有序列表重新编号的问题（输入“3. 2. 1.”显示为“3. 4. 5.”）；数字和“N)”标记现在按输入原样显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

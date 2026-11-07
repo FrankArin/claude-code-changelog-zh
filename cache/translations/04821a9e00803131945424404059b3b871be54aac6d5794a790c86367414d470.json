@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/plugin` starting a second uninstall or update of the same plugin when Enter was pressed again while the first was still running",
+  "zh": "修复在首次卸载或更新仍在进行时再次按 Enter 会导致 `/plugin` 对同一 plugin 启动第二次卸载或更新的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

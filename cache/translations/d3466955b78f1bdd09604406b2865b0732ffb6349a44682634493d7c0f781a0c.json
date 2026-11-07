@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Fixed sessions sometimes flipping back to unread right after you mark them read",
+  "zh": "\\[Claude Code on the web] 修复 session 在标记为已读后偶尔又变回未读的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

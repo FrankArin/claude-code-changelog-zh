@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Slack replies arriving many minutes late, or never, after Claude's session crashed mid-task, such as on a failed setup script; it now restarts on its own within minutes",
+  "zh": "\\[Claude Tag] 修复了 Claude 的 session 在任务中途崩溃（例如 setup 脚本失败）后，Slack 回复延迟数分钟甚至始终不来的问题；现在会在几分钟内自行重启",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed permission dialogs and attachment checks reading a path under macOS's `/.vol`, `/.nofollow` or `/.resolve` (which can reach a network mount) before approval",
+  "zh": "修复了权限对话框和附件检查在批准前读取 macOS 的 `/.vol`、`/.nofollow` 或 `/.resolve` 下的路径（可能触及网络挂载）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

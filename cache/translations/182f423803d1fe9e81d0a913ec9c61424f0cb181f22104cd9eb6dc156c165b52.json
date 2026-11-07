@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed AskUserQuestion preview notes being attached to a previously chosen option instead of the highlighted one",
+  "zh": "修复了 AskUserQuestion 的预览备注被附加到之前选中的选项而非当前高亮选项的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

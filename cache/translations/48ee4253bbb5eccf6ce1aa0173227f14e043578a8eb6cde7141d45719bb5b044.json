@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifact publishing: a publish built on an older version is stopped before it is sent, with the newer page to merge",
+  "zh": "改进了 artifact 发布：基于较旧版本的发布会在发送前被拦截，并给出需要合并的较新页面",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

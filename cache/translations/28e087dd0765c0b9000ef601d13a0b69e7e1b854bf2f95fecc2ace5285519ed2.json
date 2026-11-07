@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a local `claude -p --resume` started with `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` not reporting background tasks the previous process left unfinished",
+  "zh": "修复了使用 `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` 启动的本地 `claude -p --resume` 不上报上一进程遗留未完成的后台任务的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

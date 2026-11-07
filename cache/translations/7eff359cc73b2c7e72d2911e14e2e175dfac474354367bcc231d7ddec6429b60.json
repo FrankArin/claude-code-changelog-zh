@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Changed organization environments to open as a read-only summary from the Code tab on Team and Enterprise plans, with editing under Admin settings → Cloud environments",
+  "zh": "\\[Claude Code on the web] 变更：在 Team 和 Enterprise 套餐下，组织环境从 Code 标签页打开时显示为只读摘要，编辑操作位于 Admin settings → Cloud environments",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

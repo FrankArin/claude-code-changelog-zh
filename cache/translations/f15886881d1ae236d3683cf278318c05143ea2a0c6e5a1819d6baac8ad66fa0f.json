@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a plugin loaded from a `.zip` being served from a stale extraction after several overlapping reloads",
+  "zh": "修复了从 `.zip` 加载的 plugin 在多次重叠重载后仍从过期的解压目录提供服务的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

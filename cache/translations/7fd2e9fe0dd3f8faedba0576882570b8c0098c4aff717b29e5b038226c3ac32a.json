@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Bash sandbox instructions on Bedrock, Vertex and Foundry to the first-party wording, which frames the sandbox as the boundary of what the task was given",
+  "zh": "变更：将 Bedrock、Vertex 和 Foundry 上的 Bash 沙箱说明改为第一方措辞，把沙箱描述为任务所获范围的边界",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

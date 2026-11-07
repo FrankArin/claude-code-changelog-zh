@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "versions": [
+    "2.1.278"
+  ],
+  "tldr": "自动模式默认改用服务端分类器且不计费，/status 新增显示该状态。",
+  "highlights": [
+    {
+      "title": "自动模式默认服务端分类器",
+      "category": "改进",
+      "detail": "Claude API、企业版及 Bedrock、Vertex、Foundry、网关上的自动模式默认使用服务端分类器，不收取分类器开销费用；计费回退时会发出警告。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_AUTO_MODE_SERVER=0",
+        "caption": "在 Bedrock、Vertex、Foundry 和网关上退出服务端分类器"
+      },
+      "item_ids": [
+        "2.1.278-other-1"
+      ],
+      "version": "2.1.278"
+    },
+    {
+      "title": "/status 显示分类器位置",
+      "category": "新功能",
+      "detail": "/status 新增 Auto mode server 行，可查看当前会话的自动模式分类器是否在服务端运行，便于排查计费与行为差异。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/status",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.278-other-2"
+      ],
+      "version": "2.1.278"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "fc624b684ff1ebdf058526b6f9d4713f5cdae27adb6e101ff85952a5cdd009b3"
+}

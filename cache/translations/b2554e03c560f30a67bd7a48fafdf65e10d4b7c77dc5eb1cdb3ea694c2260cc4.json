@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a skill you switched off showing the same red ✘ as a plugin that failed to load in `/plugin` and `/skills`; off now shows a dim ◯",
+  "zh": "修复了在 `/plugin` 和 `/skills` 中，已关闭的 skill 与加载失败的 plugin 显示相同的红色 ✘ 的问题；关闭状态现在显示为暗色 ◯",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

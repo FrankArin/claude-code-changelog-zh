@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/autocompact`'s footer hint to name ←/→, the keys that adjust other ordered values",
+  "zh": "将 `/autocompact` 的页脚提示改为指明 ←/→，即用于调整其他有序值的按键",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

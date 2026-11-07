@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed conversations failing every request with \"text content blocks must be non-empty\" when an earlier assistant turn held an empty text block beside other content, including after `--resume`",
+  "zh": "修复当较早的 assistant 轮次在其他内容旁包含空文本块时，对话的每个请求都因“text content blocks must be non-empty”而失败的问题，包括在 `--resume` 之后",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a Claude apps gateway warning when a replica has more requests open than the 256 it sends upstream at once, and a startup log line showing that limit",
+  "zh": "新增 Claude 应用网关警告：当副本打开的请求数超过其一次向上游发送的 256 个时触发；并新增启动日志行显示该上限",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

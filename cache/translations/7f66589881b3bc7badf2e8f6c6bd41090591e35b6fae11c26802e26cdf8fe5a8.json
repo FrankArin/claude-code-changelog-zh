@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+C needing three or four presses to exit while background subagents are running; two presses now exit",
+  "zh": "修复了后台 subagent 运行期间需按三四次 Ctrl+C 才能退出的问题；现在按两次即可退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

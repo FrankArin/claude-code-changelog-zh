@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/btw` asked while a tool is still running: the side question now knows that call is in progress instead of reading it as a failed one",
+  "zh": "改进在工具仍在运行时使用 `/btw` 的情况：附带问题现在知道该调用正在进行中，而不会将其理解为失败的调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

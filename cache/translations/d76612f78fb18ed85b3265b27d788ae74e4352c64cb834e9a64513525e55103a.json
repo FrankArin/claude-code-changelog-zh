@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a permission rule containing a NUL byte being expanded into a wildcard match; such a rule now matches nothing",
+  "zh": "修复了包含 NUL 字节的权限规则被展开为通配符匹配的问题；此类规则现在不匹配任何内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

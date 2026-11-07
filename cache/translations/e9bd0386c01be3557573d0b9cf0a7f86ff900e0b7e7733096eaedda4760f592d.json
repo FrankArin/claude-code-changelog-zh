@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `claude plugin install` on an already-installed plugin: it now says when the marketplace offers a newer version and names the `claude plugin update` command",
+  "zh": "改进对已安装 plugin 执行 `claude plugin install` 时的提示：现在会说明 marketplace 是否提供更新版本，并给出 `claude plugin update` 命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

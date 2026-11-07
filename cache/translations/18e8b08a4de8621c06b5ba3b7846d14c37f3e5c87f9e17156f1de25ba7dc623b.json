@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `\"type\": \"sdk\"` MCP entries in `.mcp.json`, settings, plugins and agent files to be skipped with a warning: only an SDK host application can register in-process servers",
+  "zh": "变更 `.mcp.json`、设置、plugin 和 agent 文件中的 `\"type\": \"sdk\"` MCP 条目，改为跳过并给出警告：只有 SDK 宿主应用才能注册进程内服务器",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

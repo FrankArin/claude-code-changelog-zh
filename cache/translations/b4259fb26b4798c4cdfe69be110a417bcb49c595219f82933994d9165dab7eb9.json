@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed error hints in Claude Desktop sessions to suggest slash commands like `/usage-credits` instead of CLI flags that cannot be used there",
+  "zh": "修复了 Claude Desktop session 中的错误提示建议使用 `/usage-credits` 等斜杠命令，而不是在那里无法使用的 CLI 标志的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added Amazon CloudWatch, CloudWatch Logs, Amazon SNS, Google Cloud Monitoring and Cloud Logging presets to an access bundle's Credentials tab in Claude Tag admin settings",
+  "zh": "\\[Claude Tag] 新增在 Claude Tag 管理设置的访问包 Credentials 标签页中添加 Amazon CloudWatch、CloudWatch Logs、Amazon SNS、Google Cloud Monitoring 和 Cloud Logging 预设",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

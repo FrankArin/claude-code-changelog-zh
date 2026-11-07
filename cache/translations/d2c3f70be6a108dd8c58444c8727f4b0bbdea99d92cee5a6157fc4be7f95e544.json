@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a crash (\"unrecoverable interface error\") when the prompt held text containing terminal color codes, for example a prompt recalled from history or text loaded from the external editor",
+  "zh": "修复了当 prompt 中包含终端颜色代码的文本（例如从历史记录中召回的 prompt 或从外部编辑器加载的文本）时崩溃（“unrecoverable interface error”）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

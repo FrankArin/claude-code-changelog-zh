@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "versions": [
+    "2.1.281"
+  ],
+  "tldr": "网关新增 Bedrock 角色与护栏、署名开关等能力，并修复大量会话恢复、流式响应与插件问题。",
+  "highlights": [
+    {
+      "title": "网关新增 Bedrock 能力",
+      "category": "新功能",
+      "detail": "Claude 应用网关的 Bedrock 上游支持 assume_role 与 guardrail，desktop 策略块支持新密钥，遥测可加固定标签。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/login",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.281-added-1",
+        "2.1.281-added-2",
+        "2.1.281-added-3",
+        "2.1.281-added-4"
+      ],
+      "version": "2.1.281"
+    },
+    {
+      "title": "可关闭提交与 PR 署名",
+      "category": "新功能",
+      "detail": "settings.json 支持 \"attribution\": false 隐藏所有署名；旧版 CLI 会跳过含该设置的配置文件，跨版本共享时请用对象形式。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.281-added-5"
+      ],
+      "version": "2.1.281"
+    },
+    {
+      "title": "自托管运行器改用 prompt 文件",
+      "category": "破坏性变更",
+      "detail": "系统 prompt 改经私有文件传递，大型 prompt 不再导致启动失败；追加 prompt 的包装脚本或 command hook 必须改用文件参数。",
+      "action": "将 --system-prompt / --append-system-prompt 改为 --system-prompt-file / --append-system-prompt-file",
+      "example": null,
+      "item_ids": [
+        "2.1.281-changed-20"
+      ],
+      "version": "2.1.281"
+    },
+    {
+      "title": "立即发送改为后台化工具",
+      "category": "改进",
+      "detail": "ctrl+enter 或 ctrl+x ctrl+s 不再取消本轮，而是把正在运行的工具移到后台，减少误中断。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.281-changed-14"
+      ],
+      "version": "2.1.281"
+    },
+    {
+      "title": "危险 rm 提示超时后拒绝",
+      "category": "改进",
+      "detail": "自动模式与 --dangerously-skip-permissions 下的危险 rm 提示等待 2 分钟后拒绝并给出改写建议，无人值守会话可继续。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_DANGEROUS_RM_TIMEOUT=1",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.281-changed-17"
+      ],
+      "version": "2.1.281"
+    },
+    {
+      "title": "修复会话恢复与流式响应",
+      "category": "修复",
+      "detail": "修复恢复超大或中断会话丢消息、历史被改写导致缓存失效，以及代理截断流、重复事件致工具重复执行等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.281-fixes-66",
+        "2.1.281-fixes-68",
+        "2.1.281-fixes-69",
+        "2.1.281-fixes-74",
+        "2.1.281-fixes-75"
+      ],
+      "version": "2.1.281"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "f8a4d740cff0c9015ac3b3b34aee77bded23cb0821b8b91d03686ff620415b04"
+}

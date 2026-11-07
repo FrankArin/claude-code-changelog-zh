@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/code-review` to use leaner inline review prompts for every model that has no tuned settings of its own, instead of spawning many review subagents",
+  "zh": "变更 `/code-review`，对所有没有自身调优设置的模型改用更精简的内联审查 prompt，不再生成大量审查 subagent",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

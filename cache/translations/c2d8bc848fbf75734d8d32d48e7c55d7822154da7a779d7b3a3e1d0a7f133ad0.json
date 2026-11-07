@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed rewound and forked conversations not keeping the permission mode you had picked for the original conversation",
+  "zh": "\\[VSCode] 修复回退和分叉的对话不会保留你为原对话选择的权限模式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the /plugin Installed list: rows now line up in columns (status, name, type, details) across every section",
+  "zh": "改进 /plugin 已安装列表：各行现在按列对齐（状态、名称、类型、详情），跨所有分区一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

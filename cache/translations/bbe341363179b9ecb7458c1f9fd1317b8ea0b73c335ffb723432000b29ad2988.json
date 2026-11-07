@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed renaming a running session reverting to the generated name (regression in 2.1.269)",
+  "zh": "\\[VSCode] 修复重命名运行中的 session 后会恢复为生成名称的问题（2.1.269 中的回归）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the UserPromptSubmit hook timeout notice and the debug log to name which hook command timed out",
+  "zh": "改进 UserPromptSubmit hook 超时提示和调试日志，现会指明是哪个 hook 命令超时",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

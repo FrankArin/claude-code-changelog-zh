@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the dangerous-rm check to also flag a removal at a shell variable followed by a top-level directory name, at a variable derived from the working directory, or at a backslash-only target",
+  "zh": "改进 dangerous-rm 检查：现在还会标记针对 shell 变量后接顶层目录名的删除、针对由工作目录派生的变量的删除，以及仅以反斜杠为目标的情况",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

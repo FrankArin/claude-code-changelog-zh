@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plugins installed from an npm source to be fetched with `npm pack --ignore-scripts` and integrity-verified, so a package's install scripts no longer run",
+  "zh": "变更从 npm 源安装的 plugin 改用 `npm pack --ignore-scripts` 获取并校验完整性，因此不再运行包的安装脚本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

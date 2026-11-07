@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated `/logout` for Claude apps gateway sign-ins to also end the session on gateways that advertise token revocation",
+  "zh": "更新 `/logout`，对 Claude 应用网关登录也会在声明支持 token 吊销的网关上结束 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

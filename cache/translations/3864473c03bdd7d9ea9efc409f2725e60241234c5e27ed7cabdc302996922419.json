@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added MCP URL-mode elicitation on 2026-07-28 protocol connections, so servers can ask Claude Code to open a browser-based flow; no waiting dialog is left on screen when the server has no way to confirm completion",
+  "zh": "新增 2026-07-28 协议连接上的 MCP URL 模式 elicitation，使服务器可以要求 Claude Code 打开基于浏览器的流程；当服务器无法确认完成时，屏幕上不会留下等待对话框",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

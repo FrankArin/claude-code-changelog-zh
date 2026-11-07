@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/plugin` → Installed and `/skills` crashing when a skill or legacy command is named like a built-in Object property such as `constructor` or `toString`",
+  "zh": "修复了当 skill 或旧版命令的名称与内置 Object 属性（如 `constructor` 或 `toString`）同名时，`/plugin` → Installed 和 `/skills` 崩溃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

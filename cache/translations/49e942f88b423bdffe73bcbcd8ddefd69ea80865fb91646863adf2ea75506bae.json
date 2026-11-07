@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them",
+  "zh": "新增立即发送快捷键（ctrl+enter，或 ctrl+x ctrl+s），可中断当前回合并一次性发送所有排队消息；已发送和排队中的消息在模型接收前显示为灰色",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

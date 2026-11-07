@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed remote sessions staying on \"needs approval\" with a stale prompt after a permission prompt and a sandbox network-access prompt overlapped and both were answered",
+  "zh": "修复了权限提示与沙箱网络访问提示重叠且两者均已应答后，远程 session 因过期的提示而停留在 \"needs approval\" 状态的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

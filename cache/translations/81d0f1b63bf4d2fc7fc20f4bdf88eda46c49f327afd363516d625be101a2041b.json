@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a session resumed after a restart during a pending permission prompt sending a different history than before, which broke the prompt cache from that point",
+  "zh": "修复在待处理的权限提示期间重启后恢复的 session 发送与之前不同的历史记录，导致从该处起 prompt 缓存失效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

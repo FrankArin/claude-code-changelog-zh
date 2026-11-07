@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved prompt handling in the chat box: invisible Unicode formatting and tag characters are removed from pasted text with a notice, and from anything else before it is sent",
+  "zh": "\\[VSCode] 改进聊天框中的 prompt 处理：粘贴文本中的不可见 Unicode 格式字符和标签字符会被移除并给出提示，其他内容在发送前也会被同样清理",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

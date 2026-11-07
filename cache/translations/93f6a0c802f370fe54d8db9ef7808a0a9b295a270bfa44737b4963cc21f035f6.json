@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `CLAUDE_CODE_AUTO_MODE_SERVER` to also apply on a direct Anthropic API connection: `0` opts out of the server-side auto mode classifier (the local classifier then counts toward usage), `1` opts in",
+  "zh": "变更 `CLAUDE_CODE_AUTO_MODE_SERVER`，使其在直接连接 Anthropic API 时也生效：`0` 表示退出服务端自动模式分类器（此时本地分类器计入用量），`1` 表示启用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

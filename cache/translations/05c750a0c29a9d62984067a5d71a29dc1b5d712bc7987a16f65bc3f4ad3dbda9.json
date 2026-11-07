@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed /workflows moving the pointer to a different run, and `x` stopping it, when a new run started while the list was open",
+  "zh": "修复列表打开期间有新运行启动时，/workflows 将指针移到其他运行、且 `x` 停止该运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

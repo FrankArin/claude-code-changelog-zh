@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed Bash commands on Linux reporting exit code 0 for failed commands when the shell is zsh",
+  "zh": "修复了 Linux 上沙箱化的 Bash 命令在 shell 为 zsh 时对失败命令报告退出码 0 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

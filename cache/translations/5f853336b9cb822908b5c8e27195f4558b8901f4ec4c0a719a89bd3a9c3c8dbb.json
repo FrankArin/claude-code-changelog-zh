@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed self-hosted runners to pass system prompts to Claude Code as private files instead of command-line text, so large prompts no longer fail the launch; a wrapper or `command` hook that appends `--system-prompt` or `--append-system-prompt` must switch to `--system-prompt-file` or `--append-system-prompt-file`",
+  "zh": "变更自托管运行器，改为以私有文件而非命令行文本向 Claude Code 传递系统 prompt，因此大型 prompt 不再导致启动失败；追加 `--system-prompt` 或 `--append-system-prompt` 的包装脚本或 `command` hook 必须改用 `--system-prompt-file` 或 `--append-system-prompt-file`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

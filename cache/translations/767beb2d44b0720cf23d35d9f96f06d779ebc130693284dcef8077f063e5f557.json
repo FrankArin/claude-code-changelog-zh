@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved pasted-text handling in the chat box: a paste over 800 characters or over 2 line breaks is now marked so Claude can tell it from what you typed",
+  "zh": "\\[VSCode] 改进聊天框中的粘贴文本处理：超过 800 个字符或超过 2 个换行的粘贴内容现在会被标记，以便 Claude 将其与你输入的内容区分开",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

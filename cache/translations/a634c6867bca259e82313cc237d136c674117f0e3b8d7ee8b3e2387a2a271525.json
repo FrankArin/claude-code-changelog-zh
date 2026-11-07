@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a scrollbar to the `/skills`, `/mcp` and `/plugin` Installed lists in fullscreen mode, like the one `/workflows` now has: it appears while the mouse is over the list and can be clicked or dragged",
+  "zh": "新增全屏模式下 `/skills`、`/mcp` 和 `/plugin` 已安装列表的滚动条，与 `/workflows` 现在的滚动条类似：鼠标悬停在列表上时出现，可点击或拖动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed a Slack request blocked by your organization's inference hook showing a generic retry notice; the thread now shows the hook's deny message and Claude doesn't retry",
+  "zh": "\\[Claude Tag] 修复了被组织 inference hook 拦截的 Slack 请求显示通用重试提示的问题；现在线程中会显示该 hook 的拒绝消息，且 Claude 不会重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

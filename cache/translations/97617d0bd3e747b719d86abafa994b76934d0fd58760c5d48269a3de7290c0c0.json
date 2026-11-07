@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally",
+  "zh": "新增 `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1`，用于唯一出口是正向代理的 Claude 应用网关：每个出站请求都把主机名交给代理，而不是在本地解析",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved plan-usage reads: editor windows and non-interactive sessions on one machine now share a read made in the last minute instead of each calling the usage endpoint",
+  "zh": "改进套餐用量读取：同一台机器上的编辑器窗口和非交互式 session 现在会共享最近一分钟内的一次读取，而不是各自调用用量端点",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

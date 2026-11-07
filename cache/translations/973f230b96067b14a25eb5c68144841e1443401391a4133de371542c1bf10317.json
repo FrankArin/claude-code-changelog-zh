@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Stop prompt hooks re-sending their whole prompt on every block in a conversation; repeat blocks now name the condition with a 500-character label",
+  "zh": "修复了 Stop prompt hook 在对话中每次拦截时都重新发送整个 prompt 的问题；重复拦截现在会用 500 字符的标签指明触发条件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

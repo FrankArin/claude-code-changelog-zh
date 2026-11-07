@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Opus 4.7, Opus 4.8 and Fable 5 to stop holding their launch-default effort over `/effort` in `-p` or the Agent SDK, a project, managed or `--settings` `effortLevel`, or a per-model level",
+  "zh": "变更 Opus 4.7、Opus 4.8 和 Fable 5，不再让它们的启动默认 effort 覆盖 `-p` 或 Agent SDK 中的 `/effort`、项目级、托管级或 `--settings` 的 `effortLevel`，以及按模型设置的级别",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

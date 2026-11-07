@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed voice dictation not stopping on Ctrl+C (the prompt cleared but the microphone kept recording), Esc not cancelling while a transcript was processing, and held Space starting dictation from the transcript view and vim NORMAL mode",
+  "zh": "修复语音听写无法通过 Ctrl+C 停止（prompt 已清空但麦克风仍在录音）、转写处理期间 Esc 无法取消，以及长按空格会从转写视图和 vim NORMAL 模式启动听写的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

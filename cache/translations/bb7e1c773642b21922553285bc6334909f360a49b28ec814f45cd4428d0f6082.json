@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `OTEL_LOG_RAW_API_BODIES=file:<dir>` output: a new `index.jsonl` and `request_body_id` / `message.id` event attributes link each response to its request file and transcript message",
+  "zh": "改进了 `OTEL_LOG_RAW_API_BODIES=file:<dir>` 输出：新增的 `index.jsonl` 以及 `request_body_id` / `message.id` 事件属性可将每个响应关联到其请求文件和对话记录消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

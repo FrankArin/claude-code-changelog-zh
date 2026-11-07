@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude folding a follow-up sent minutes after its last Slack message into it as a silent edit; late updates such as blockers now post as a new reply that notifies",
+  "zh": "\\[Claude Tag] 修复了 Claude 将其最后一条 Slack 消息发出几分钟后发送的后续消息静默合并为该消息编辑的问题；现在，诸如阻塞项之类的延迟更新会作为新回复发布并发送通知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

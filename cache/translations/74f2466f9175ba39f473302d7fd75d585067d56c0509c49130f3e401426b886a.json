@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved artifact publish results: they name the tab icon sent, warn when the page contains a NUL byte, and retry a flaky fetch of the newer page to merge after a stale publish",
+  "zh": "改进 artifact 发布结果：会说明发送的标签页图标，在页面包含 NUL 字节时发出警告，并在发布过期后重试获取较新页面以进行合并",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

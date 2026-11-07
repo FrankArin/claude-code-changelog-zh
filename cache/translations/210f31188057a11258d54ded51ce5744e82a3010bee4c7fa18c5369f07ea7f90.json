@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the `/workflows` and `/mcp` lists: they page (PgUp/PgDn, Home/End) and take j/k and the mouse like other lists, their arrows follow `select:previous`/`select:next` rebinds, and `x` in `/workflows` stops the run the pointer is on",
+  "zh": "改进 `/workflows` 和 `/mcp` 列表：支持分页（PgUp/PgDn、Home/End），与其他列表一样支持 j/k 和鼠标操作，箭头键遵循 `select:previous`/`select:next` 的重新绑定，`/workflows` 中按 `x` 会停止指针所在的那次运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the mouse wheel not scrolling selection lists with hidden options (such as `/model` and `/permissions`) in fullscreen mode",
+  "zh": "修复了全屏模式下鼠标滚轮无法滚动包含隐藏选项的选择列表（如 `/model` 和 `/permissions`）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/plugin` not stripping terminal control characters from messages on the Installed tab, such as the error of a failed plugin update",
+  "zh": "修复了 `/plugin` 未从 Installed 标签页的消息（例如 plugin 更新失败的错误）中移除终端控制字符的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

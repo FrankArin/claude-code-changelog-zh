@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed fullscreen mode freezing or blanking for several seconds when scrolling up past a large file diff",
+  "zh": "修复了全屏模式下向上滚动越过大型文件 diff 时冻结或空白数秒的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

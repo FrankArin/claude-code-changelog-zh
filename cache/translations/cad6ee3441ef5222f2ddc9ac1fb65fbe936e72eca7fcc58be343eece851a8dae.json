@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Enter on a selected agent panel row doing nothing when `keybindings.json` rebinds Enter in the Chat context, for example to `chat:queueSubmit`",
+  "zh": "修复了 `keybindings.json` 在 Chat 上下文中重新绑定 Enter（例如绑定到 `chat:queueSubmit`）时，在选中的 agent 面板行上按 Enter 无反应的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

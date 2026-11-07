@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed tool calls failing with \"Failed to get memory usage\", or being reported as failed after they ran, when Claude Code cannot read its own memory usage, for example when it has run out of file descriptors",
+  "zh": "修复了 Claude Code 无法读取自身内存用量时（例如文件描述符耗尽），工具调用报错 \"Failed to get memory usage\"，或在执行完成后被报告为失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Fixed the GitHub setup tip on claude.ai/code covering the repository picker's search box and rows while the picker is open; it now steps aside until the picker closes",
+  "zh": "\\[Claude Code on the web] 修复了 claude.ai/code 上的 GitHub 设置提示在选择器打开时遮挡仓库选择器的搜索框和列表行的问题；现在该提示会让开，直到选择器关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

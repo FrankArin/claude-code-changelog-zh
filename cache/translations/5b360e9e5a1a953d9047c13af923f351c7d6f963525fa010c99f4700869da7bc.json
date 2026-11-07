@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Removed the background Haiku auto-title request from `claude -p` runs launched outside an SDK or IDE",
+  "zh": "移除：在 SDK 或 IDE 之外启动的 `claude -p` 运行中，不再发起后台 Haiku 自动标题请求",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

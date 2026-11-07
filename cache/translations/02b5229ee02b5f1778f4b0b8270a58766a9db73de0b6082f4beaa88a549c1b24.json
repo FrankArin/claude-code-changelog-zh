@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a turn ending early with \"Path contains null bytes\" when a tool call's file path contained `\\u0000` written as an escape sequence; escaped control characters now stay as literal text",
+  "zh": "修复了当工具调用的文件路径包含以转义序列形式写入的 `\\u0000` 时，回合提前以“Path contains null bytes”结束的问题；转义的控制字符现在会保留为字面文本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

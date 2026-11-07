@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/plugin` Installed: an MCP server listed apart from its plugin now shows which plugin it belongs to",
+  "zh": "改进 `/plugin` 的已安装列表：与所属 plugin 分开列出的 MCP server 现在会显示它属于哪个 plugin",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

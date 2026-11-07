@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Improved Claude's live progress checklist in Slack: capped at 2,000 characters, reposted at most every 15 minutes in busy threads, with older \"Latest task list\" links updated",
+  "zh": "\\[Claude Tag] 改进了 Claude 在 Slack 中的实时进度清单：上限为 2,000 个字符，在繁忙线程中最多每 15 分钟重新发布一次，并更新较早的“最新任务列表”链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Bedrock, Vertex, Foundry and telemetry-disabled installs to use the v2 MCP client and MCP 2026-07-28 negotiation with direct HTTP servers by default, as other installs already do (opt out: `MCP_SDK_GENERATION=v1` or `MCP_PROTOCOL_NEGOTIATION=legacy`)",
+  "zh": "变更 Bedrock、Vertex、Foundry 和禁用遥测的安装，默认对直连 HTTP 服务器使用 v2 MCP 客户端和 MCP 2026-07-28 协商，与其他安装保持一致（退出方式：`MCP_SDK_GENERATION=v1` 或 `MCP_PROTOCOL_NEGOTIATION=legacy`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed failed auto-updates leaving large staged downloads behind in `~/.cache/claude/staging`",
+  "zh": "修复了自动更新失败后在 `~/.cache/claude/staging` 中遗留大型暂存下载文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

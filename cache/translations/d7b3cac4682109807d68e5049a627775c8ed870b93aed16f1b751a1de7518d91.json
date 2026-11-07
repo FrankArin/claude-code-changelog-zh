@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed self-hosted runners to skip a read-only repository the git host refuses at the access check instead of failing the session start",
+  "zh": "变更自托管运行器，在访问检查时跳过 git 主机拒绝的只读仓库，而不是让 session 启动失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

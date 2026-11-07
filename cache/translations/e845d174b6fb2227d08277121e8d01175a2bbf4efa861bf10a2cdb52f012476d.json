@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the `/workflows` detail view in fullscreen: it no longer draws a second horizontal rule under the pane's divider",
+  "zh": "改进全屏下 `/workflows` 的详情视图：不再在面板分隔线下方绘制第二条水平线",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed four dead documentation URLs (Pricing, Computer Use, Skills, CLI) in the bundled claude-api skill's live-sources table",
+  "zh": "修复内置 claude-api skill 的实时来源表中四个失效的文档 URL（Pricing、Computer Use、Skills、CLI）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

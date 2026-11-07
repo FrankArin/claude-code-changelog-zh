@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Artifact tool silently disappearing when your organization's policy can't be loaded (for example behind a web proxy); Claude now says what's blocking it",
+  "zh": "修复了无法加载组织策略时（例如在 Web 代理之后）Artifact 工具静默消失的问题；Claude 现在会说明受阻原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

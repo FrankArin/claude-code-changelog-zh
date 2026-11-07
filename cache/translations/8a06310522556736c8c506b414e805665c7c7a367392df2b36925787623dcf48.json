@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the same MCP server being connected twice when a plugin or claude.ai connector and a configured server spell its URL differently (host letter case, default port, trailing slash)",
+  "zh": "修复当 plugin 或 claude.ai connector 与已配置服务器对同一 URL 的写法不同（主机名大小写、默认端口、末尾斜杠）时同一 MCP 服务器被连接两次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

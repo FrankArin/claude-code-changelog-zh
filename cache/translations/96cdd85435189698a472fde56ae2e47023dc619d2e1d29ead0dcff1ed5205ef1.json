@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Console sign-in showing only \"Request failed with status code 400\" when the server refuses to create an API key; it now shows the server's message",
+  "zh": "修复了服务器拒绝创建 API key 时 Console 登录仅显示“Request failed with status code 400”的问题；现在会显示服务器返回的消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

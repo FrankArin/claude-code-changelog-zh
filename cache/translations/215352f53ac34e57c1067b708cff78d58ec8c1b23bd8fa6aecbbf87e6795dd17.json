@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a session failing on every turn and `/compact` when its saved history held a malformed notice about MCP tools that could not be loaded",
+  "zh": "修复了当 session 保存的历史记录中包含关于无法加载的 MCP 工具的格式错误通知时，该 session 在每一轮以及 `/compact` 时失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an unhandled promise rejection in the Claude apps gateway when Postgres drops a connection during a spend check",
+  "zh": "修复了 Postgres 在费用检查期间断开连接时，Claude 应用网关中出现未处理的 promise rejection 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

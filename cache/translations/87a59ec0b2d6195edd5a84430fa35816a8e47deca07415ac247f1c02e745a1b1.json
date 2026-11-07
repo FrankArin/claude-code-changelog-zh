@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added a Guests setting to the Add channel and Add workspace forms in Claude Tag admin settings, so owners can pick Inherit, Allow, Channel only or Restrict up front",
+  "zh": "\\[Claude Tag] 在 Claude Tag 管理设置的 Add channel 和 Add workspace 表单中新增 Guests 设置，所有者可预先选择 Inherit、Allow、Channel only 或 Restrict",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

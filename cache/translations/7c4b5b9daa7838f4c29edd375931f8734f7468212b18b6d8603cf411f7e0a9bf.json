@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long list rows, such as in the /remote-control menu, wrapping onto a second line in narrow terminals; they're now cut with …",
+  "zh": "修复窄终端中较长的列表行（如 /remote-control 菜单中的行）换行到第二行的问题；现在改用 … 截断",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

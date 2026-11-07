@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Read tool hanging instead of reporting an error when part of a large file could not be decoded under memory pressure",
+  "zh": "修复了 Read 工具在内存压力下无法解码大型文件的一部分时挂起而不报错的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

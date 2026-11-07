@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the large CLAUDE.md startup notice to also count instruction files together, so many mid-sized files and @-imports are caught",
+  "zh": "改进大型 CLAUDE.md 的启动提示：现在也会合并统计指令文件，从而能发现大量中等大小的文件和 @ 导入",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

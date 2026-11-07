@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a visible warning when memory usage is critical, with steps to free memory or restart safely",
+  "zh": "新增内存用量达到临界时的可见警告，并给出释放内存或安全重启的步骤",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

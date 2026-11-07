@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a claude.ai/code session opening empty or with only part of its conversation, with no error, when the server failed to return its history, part of it failed to load, or a network sign-in page answered in its place; it now shows an error and can be opened again",
+  "zh": "\\[VSCode] 修复服务器未能返回历史记录、部分历史加载失败或网络登录页代为响应时，claude.ai/code session 打开为空或仅显示部分对话且无错误提示的问题；现在会显示错误并可再次打开",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

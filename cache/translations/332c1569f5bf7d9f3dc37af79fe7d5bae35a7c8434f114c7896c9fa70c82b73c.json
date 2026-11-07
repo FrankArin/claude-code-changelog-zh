@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `claude_code.managed_settings_resolved` OTel event: managed-settings sources and policy helper state; redacted settings and digests with `OTEL_LOG_MANAGED_SETTINGS=1`",
+  "zh": "新增 `claude_code.managed_settings_resolved` OTel 事件：managed-settings 来源和策略辅助状态；设置 `OTEL_LOG_MANAGED_SETTINGS=1` 时对设置和摘要做脱敏",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

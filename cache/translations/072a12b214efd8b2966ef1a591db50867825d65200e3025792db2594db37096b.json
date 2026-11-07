@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed CLAUDE.md and rules files from an `--add-dir` directory inside the working directory being sent to the model twice in headless and SDK sessions",
+  "zh": "修复了工作目录内 `--add-dir` 目录中的 CLAUDE.md 和规则文件在无头会话和 SDK session 中被重复发送给模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

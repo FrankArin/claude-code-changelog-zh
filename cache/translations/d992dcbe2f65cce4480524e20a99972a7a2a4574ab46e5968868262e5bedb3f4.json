@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Monitor tool notifications: a script's final output and its exit now arrive as one notification instead of two, saving a model turn",
+  "zh": "改进了 Monitor 工具通知：脚本的最终输出和退出码现在合并为一条通知，而不再分成两条，从而节省一轮模型调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

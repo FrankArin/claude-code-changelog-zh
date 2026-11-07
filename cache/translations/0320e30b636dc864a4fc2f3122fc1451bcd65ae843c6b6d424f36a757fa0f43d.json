@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the error after a revoked claude.ai login blaming an expired Anthropic profile; it now leads with `/login`",
+  "zh": "修复了 claude.ai 登录被撤销后错误提示归咎于 Anthropic 配置文件过期的问题；现在会优先提示 `/login`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

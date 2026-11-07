@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed fullscreen sessions sometimes exiting with \"Claude Code exited after an unrecoverable interface error\" when typing fast or holding a key with the slash-command dropdown open",
+  "zh": "修复了全屏 session 在斜杠命令下拉菜单打开时快速输入或按住按键，偶尔以“Claude Code exited after an unrecoverable interface error”退出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

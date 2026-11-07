@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude in Chrome in auto mode to skip the extension's per-site check for classifier-approved calls, as bypass mode does, fixing `browser_batch` \"Permission denied\" after a redirect",
+  "zh": "变更自动模式下的 Claude in Chrome 对分类器批准的调用跳过扩展的逐站点检查，与 bypass 模式一致，修复重定向后 `browser_batch` 出现“Permission denied”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

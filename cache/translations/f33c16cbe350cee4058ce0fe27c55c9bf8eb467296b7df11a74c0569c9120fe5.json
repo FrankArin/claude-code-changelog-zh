@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added Export conversation, with a typed `/export`, to copy or save the conversation as plain text",
+  "zh": "\\[VSCode] 新增导出对话功能，支持输入 `/export`，将对话以纯文本复制或保存",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

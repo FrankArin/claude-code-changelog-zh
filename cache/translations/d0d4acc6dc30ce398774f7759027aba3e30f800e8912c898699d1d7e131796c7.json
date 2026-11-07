@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Grep and Glob reporting no matches when the search could not start because the system was out of processes, memory or file handles; they now return an error saying so",
+  "zh": "修复因系统进程、内存或文件句柄耗尽导致搜索无法启动时，Grep 和 Glob 报告无匹配的问题；现在会返回说明原因的明确错误",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

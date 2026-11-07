@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/plugin` Errors tab showing no confirmation after its last error is resolved",
+  "zh": "修复 `/plugin` 的 Errors 标签页在最后一个错误解决后不显示确认信息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

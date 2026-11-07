@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the prompt cache being lost when an MCP server disconnects mid-conversation, or is still connecting after a resume, while tool search is off (for example behind a proxy or gateway)",
+  "zh": "修复在工具搜索关闭时（例如经由代理或网关），MCP 服务器在对话中途断开或恢复后仍在连接导致 prompt 缓存丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

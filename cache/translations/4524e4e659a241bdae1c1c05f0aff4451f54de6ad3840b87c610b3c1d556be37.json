@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--plugin-dir` on a folder of plugins that also has a `.claude-plugin/marketplace.json` loading one empty plugin instead of the plugins in it",
+  "zh": "修复对同时包含 `.claude-plugin/marketplace.json` 的 plugin 文件夹使用 `--plugin-dir` 时只加载一个空 plugin、而非其中各 plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

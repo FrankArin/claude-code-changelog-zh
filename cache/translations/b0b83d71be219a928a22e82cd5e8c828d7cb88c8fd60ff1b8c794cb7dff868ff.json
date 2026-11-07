@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `/status` GitHub line to read \"Cloud sessions\", and `/web-setup`, `/ultrareview`, and teleport messages to say \"cloud session\" instead of \"Claude Code on the web\"",
+  "zh": "变更 `/status` 中的 GitHub 行显示为“Cloud sessions”，并将 `/web-setup`、`/ultrareview` 和 teleport 消息中的“Claude Code on the web”改为“cloud session”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

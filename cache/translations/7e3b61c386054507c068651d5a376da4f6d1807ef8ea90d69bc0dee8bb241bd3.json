@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed keys that arrive in one burst of input (e.g. over Remote Control), such as an arrow key followed by Enter, `x` or `s`, acting on the previous selection: a stale effort level in `/effort` and the model picker, and the previously highlighted row in `/skills`, the background task rows under the prompt, MCP server prompts and `/install-github-app`",
+  "zh": "修复一次性到达的按键输入（例如通过 Remote Control）作用于上一选项的问题，例如方向键后紧跟 Enter、`x` 或 `s`：`/effort` 和模型选择器中残留的 effort 级别，以及 `/skills`、prompt 下方的后台任务行、MCP 服务器 prompt 和 `/install-github-app` 中先前高亮的行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed fullscreen mode placing background-task completion notices beneath a long turn's collapsed tool row instead of where they arrived; each notice now closes the open row",
+  "zh": "修复全屏模式下后台任务完成通知被放在长回合折叠的工具行下方而非其到达位置的问题；现在每条通知都会关闭已展开的行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added Datadog presets for the US3, AP1, AP2 and US1-FED sites; new Datadog connections are now limited to Datadog's read and query API routes",
+  "zh": "\\[Claude Tag] 新增针对 US3、AP1、AP2 和 US1-FED 站点的 Datadog 预设；新的 Datadog 连接现仅限 Datadog 的读取和查询 API 路由",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

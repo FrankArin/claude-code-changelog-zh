@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude apps gateway to refuse to start when a `managedMcpServers` entry's `envHelper` path starts with `\\??\\` or `/??/`, a path form current Claude Desktop refuses to run",
+  "zh": "变更 Claude 应用网关：当 `managedMcpServers` 条目的 `envHelper` 路径以 `\\??\\` 或 `/??/` 开头时拒绝启动，当前 Claude Desktop 拒绝运行这种路径形式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

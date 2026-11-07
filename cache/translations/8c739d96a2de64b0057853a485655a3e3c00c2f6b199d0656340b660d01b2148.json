@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed one malformed `strictKnownMarketplaces` or `blockedMarketplaces` entry silently disabling the whole enterprise marketplace policy",
+  "zh": "修复了单个格式错误的 `strictKnownMarketplaces` 或 `blockedMarketplaces` 条目会静默禁用整个企业 marketplace 策略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

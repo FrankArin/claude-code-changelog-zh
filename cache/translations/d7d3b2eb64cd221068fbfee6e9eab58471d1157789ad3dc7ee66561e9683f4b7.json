@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `SubagentStop` hooks with a specific `matcher` firing for every stopping subagent whose agent type was empty",
+  "zh": "修复带有特定 `matcher` 的 `SubagentStop` hook 会对每个 agent 类型为空的停止 subagent 都触发的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

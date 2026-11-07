@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed macOS credential writes dropping stored MCP OAuth tokens or deleting the keychain entry when the login keychain was locked (e.g. right after wake)",
+  "zh": "修复登录钥匙串被锁定时（例如刚唤醒后）macOS 凭据写入会丢弃已存储的 MCP OAuth token 或删除钥匙串条目的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

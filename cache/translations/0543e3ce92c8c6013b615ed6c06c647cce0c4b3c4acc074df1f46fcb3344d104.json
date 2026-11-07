@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed @-mention file suggestions being buried below MCP resources when using a custom `fileSuggestion` command or typing `@.`/`@./`",
+  "zh": "修复使用自定义 `fileSuggestion` 命令或输入 `@.`/`@./` 时，@ 提及文件建议被埋在 MCP 资源下方的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

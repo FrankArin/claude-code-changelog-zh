@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed text selected with the mouse in the fullscreen `claude --resume` session picker never reaching the clipboard",
+  "zh": "修复了在全屏 `claude --resume` session 选择器中用鼠标选中的文本始终无法进入剪贴板的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

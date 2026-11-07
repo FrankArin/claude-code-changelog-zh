@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "version": "2.1.276",
+  "date": "2026-09-18",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "66593722e32a3ed71e0d266587af48ddb0fe747eb403e48526965d6db5d7403c",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T04:59:31+00:00"
+  },
+  "groups": [
+    {
+      "kind": "other",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.276-other-1",
+          "en": "Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
+          "zh": "修复 `ANTHROPIC_BASE_URL` 指向代理或网关时所有请求都因 `400 … Input tag 'advisor_20260301'` 而失败的问题（2.1.275 回归）",
+          "hash": "063967904f7419fd8e654fcee43b46a6171dc2a3b3be82ffde76b0cdf7d7f564",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "修复 2.1.275 回归：使用代理或网关时请求因未知输入标签报 400 失败。",
+    "highlights": [
+      {
+        "title": "修复代理网关 400 报错",
+        "category": "修复",
+        "detail": "2.1.275 回归导致 ANTHROPIC_BASE_URL 指向代理或网关时，所有请求因未知输入标签 advisor_20260301 被拒而失败；升级后恢复正常。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "ANTHROPIC_BASE_URL",
+          "caption": "相关环境变量"
+        },
+        "item_ids": [
+          "2.1.276-other-1"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

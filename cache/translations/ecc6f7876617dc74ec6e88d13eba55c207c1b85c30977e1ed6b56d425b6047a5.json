@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the agent panel's footer hint ignoring keys rebound in `keybindings.json`, and showing a stray `·` when the stop-all-agents shortcut is unbound",
+  "zh": "修复 agent 面板底部提示忽略在 `keybindings.json` 中重新绑定的按键，以及在停止所有 agent 的快捷键未绑定时显示多余 `·` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

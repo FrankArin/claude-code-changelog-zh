@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the time to resume long sessions that read many files; the restored file cache now matches the files as they were read",
+  "zh": "改进恢复读取大量文件的长 session 的耗时；恢复的文件缓存现在与文件被读取时的状态一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

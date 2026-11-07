@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a recursive `rm` whose target is only command-substitution output, such as `rm -rf \"$(pwd)\"`, running unprompted in auto and `--dangerously-skip-permissions` mode; it now asks even with a Bash allow rule, unless run with `CLAUDE_CODE_DISABLE_SUBSTITUTION_RM_PROMPT=1`",
+  "zh": "修复了目标仅为命令替换输出的递归 `rm`（如 `rm -rf \"$(pwd)\"`）在自动模式和 `--dangerously-skip-permissions` 模式下未经提示即执行的问题；现在即使有 Bash 允许规则也会询问，除非设置了 `CLAUDE_CODE_DISABLE_SUBSTITUTION_RM_PROMPT=1`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

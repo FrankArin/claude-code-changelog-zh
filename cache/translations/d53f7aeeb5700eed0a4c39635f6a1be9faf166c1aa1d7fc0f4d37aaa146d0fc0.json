@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `1` answering Yes in `/permissions`' delete and remove-directory confirms while the pointer is on No, which let a held `1` remove one workspace directory after another",
+  "zh": "修复在 `/permissions` 的删除和移除目录确认中，指针位于 No 时按 `1` 仍会回答 Yes，导致按住 `1` 会接连移除多个工作区目录的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

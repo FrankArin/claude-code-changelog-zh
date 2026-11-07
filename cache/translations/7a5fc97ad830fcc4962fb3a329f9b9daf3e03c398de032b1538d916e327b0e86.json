@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Fixed Claude's guidance when a cloud session on a personal account is denied GitHub access: it now links to claude.ai/connect-github instead of an admin settings page",
+  "zh": "\\[Claude Code on the web] 修复了个人账户上的云 session 被拒绝访问 GitHub 时 Claude 给出的指引：现在会链接到 claude.ai/connect-github，而不是管理员设置页面",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

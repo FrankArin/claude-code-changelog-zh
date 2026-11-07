@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP resource lists (the resource list tool and @-mention suggestions) to skip MCP Apps UI resources; reading one by URI still works",
+  "zh": "变更 MCP 资源列表（资源列表工具和 @ 提及建议）：跳过 MCP Apps UI 资源；按 URI 读取单个资源仍然可用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

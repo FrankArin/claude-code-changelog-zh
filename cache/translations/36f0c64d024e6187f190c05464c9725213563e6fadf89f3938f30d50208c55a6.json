@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `installed_plugins.json` being rewritten on nearly every start-up when plugin policy comes from remote managed settings, which made Claude Desktop reload every open session's plugins",
+  "zh": "修复了当 plugin 策略来自远程托管设置时，`installed_plugins.json` 几乎每次启动都会被重写，从而导致 Claude Desktop 重新加载所有已打开 session 的 plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

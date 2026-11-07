@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude sometimes replying twice when another app or bot @mentioned it in a top-level channel message",
+  "zh": "\\[Claude Tag] 修复了其他应用或机器人在频道顶层消息中 @提及 Claude 时，Claude 有时会回复两次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

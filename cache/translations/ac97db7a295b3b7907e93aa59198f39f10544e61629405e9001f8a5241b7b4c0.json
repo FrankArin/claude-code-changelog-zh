@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed scheduled and Run now routine runs to save data to, and republish the page of, an artifact you can edit without asking; public artifacts, first publishes and deletes still ask",
+  "zh": "变更定时和 Run now 例程运行可将数据保存到你可无需询问即可编辑的 artifact，并重新发布其页面；公开 artifact、首次发布和删除仍会询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

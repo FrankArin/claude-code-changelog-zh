@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resumed fork subagents rebuilding their tool list instead of re-sending the one they first used, which broke prompt caching for that agent",
+  "zh": "修复恢复的 fork subagent 重建工具列表而非重新发送其最初使用的工具列表，从而导致该 agent 的 prompt 缓存失效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

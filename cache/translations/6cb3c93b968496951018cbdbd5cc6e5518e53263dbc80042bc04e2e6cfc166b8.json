@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a line saying a background task's update is waiting when it finishes while a panel such as `/tasks` is open",
+  "zh": "新增一行提示：当 `/tasks` 等面板打开时，后台任务若在此刻完成，会提示其更新正在等待",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:59:26+00:00"
+}

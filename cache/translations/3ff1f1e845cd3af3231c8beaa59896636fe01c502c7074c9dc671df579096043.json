@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved pasted and attached images: they are now saved where Claude can open them as files without a permission prompt, including in Desktop and VS Code",
+  "zh": "改进粘贴和附加的图片：现在会保存到 Claude 无需权限提示即可作为文件打开的位置，包括 Desktop 和 VS Code",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

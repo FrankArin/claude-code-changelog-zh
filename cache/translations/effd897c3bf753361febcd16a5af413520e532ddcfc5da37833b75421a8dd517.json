@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Remote Control confirmation: its options are briefly inactive again after the terminal window regains focus, so a key pressed while switching back cannot answer it",
+  "zh": "改进远程控制确认：终端窗口重新获得焦点后，其选项会短暂再次失效，因此在切回时按下的按键无法作答",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

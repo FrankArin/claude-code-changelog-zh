@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `store.connect_timeout_seconds` to the Claude apps gateway config to lengthen the Postgres connect timeout (default 5 seconds), and improved the boot error when the database is unreachable to point to `store.postgres_url` and the configured timeout",
+  "zh": "在 Claude 应用网关配置中新增 `store.connect_timeout_seconds`，用于延长 Postgres 连接超时（默认 5 秒），并改进数据库不可达时的启动错误，指向 `store.postgres_url` 和已配置的超时",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

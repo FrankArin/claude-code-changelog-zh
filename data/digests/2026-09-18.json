@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-18",
+  "versions": [
+    "2.1.277",
+    "2.1.276"
+  ],
+  "tldr": "2.1.277 新增 AGENTS.md 支持与网关代理选项，移除 TaskOutput 工具（破坏性变更），并修复大量崩溃与挂起问题；2.1.276 修复了 2.1.275 在代理或网关下请求返回 400 的回归。",
+  "highlights": [
+    {
+      "title": "移除 TaskOutput 工具",
+      "category": "破坏性变更",
+      "detail": "Claude 改用 Read 读取后台任务输出，taskOutputMaxChars 与 TASK_MAX_OUTPUT_LENGTH 不再生效。",
+      "action": "检查依赖 TaskOutput 的脚本或配置，改用 Read 读取输出文件，并移除相关设置。",
+      "example": null,
+      "version": "2.1.277",
+      "item_ids": [
+        "2.1.277-changed-17"
+      ]
+    },
+    {
+      "title": "修复代理网关 400 报错",
+      "category": "修复",
+      "detail": "2.1.275 回归导致 ANTHROPIC_BASE_URL 指向代理或网关时，所有请求因未知输入标签 advisor_20260301 被拒而失败；升级后恢复正常。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "ANTHROPIC_BASE_URL",
+        "caption": "相关环境变量"
+      },
+      "version": "2.1.276",
+      "item_ids": [
+        "2.1.276-other-1"
+      ]
+    },
+    {
+      "title": "新增 AGENTS.md 支持",
+      "category": "新功能",
+      "detail": "没有 CLAUDE.md 的项目改为读取 AGENTS.md，可在 /config 的 Project instructions 下切换。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/config",
+        "caption": "命令示例"
+      },
+      "version": "2.1.277",
+      "item_ids": [
+        "2.1.277-added-1"
+      ]
+    },
+    {
+      "title": "网关出口边界与静态头",
+      "category": "新功能",
+      "detail": "新增 CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1 让主机名交由代理解析，并支持上游 headers 映射。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1",
+        "caption": "配置示例"
+      },
+      "version": "2.1.277",
+      "item_ids": [
+        "2.1.277-added-2",
+        "2.1.277-added-3"
+      ]
+    },
+    {
+      "title": "修复挂起、崩溃与工具误报",
+      "category": "修复",
+      "detail": "修复 -p 与 SDK 内部错误后挂起、空文本块导致请求失败、配置格式错误引发启动崩溃；Grep/Glob 资源耗尽时不再报无匹配，Write 目标为目录时明确报错，Edit 不再误判转义序列。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude -p",
+        "caption": "命令示例"
+      },
+      "version": "2.1.277",
+      "item_ids": [
+        "2.1.277-fixes-31",
+        "2.1.277-fixes-32",
+        "2.1.277-fixes-44",
+        "2.1.277-fixes-45",
+        "2.1.277-fixes-38",
+        "2.1.277-fixes-39",
+        "2.1.277-fixes-40"
+      ]
+    },
+    {
+      "title": "VSCode 多项增强",
+      "category": "改进",
+      "detail": "新增登出、复制回复、/tasks 任务地图与用量展示，并修复配置菜单与 effort 级别保存问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/logout",
+        "caption": "命令示例"
+      },
+      "version": "2.1.277",
+      "item_ids": [
+        "2.1.277-added-5",
+        "2.1.277-added-6",
+        "2.1.277-added-7",
+        "2.1.277-fixes-79"
+      ]
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "04fae6253baed5bc9095114681763a2ed0dba38a65e81f601671d4fff733cbc5"
+}

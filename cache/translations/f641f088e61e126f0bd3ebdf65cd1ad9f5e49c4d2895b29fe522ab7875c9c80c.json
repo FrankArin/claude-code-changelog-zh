@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved plugin hook-failure errors to name the offending plugin, and added a `claude plugin validate` warning when a shell-form hook leaves `${CLAUDE_PLUGIN_ROOT}` unquoted (it breaks on plugin paths with spaces)",
+  "zh": "改进 plugin hook 失败错误：现在会指明出错的 plugin；当 shell 形式的 hook 未给 `${CLAUDE_PLUGIN_ROOT}` 加引号时（plugin 路径含空格会出错），`claude plugin validate` 会给出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

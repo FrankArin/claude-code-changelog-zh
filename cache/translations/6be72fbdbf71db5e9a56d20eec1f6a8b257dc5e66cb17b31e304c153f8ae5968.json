@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Added a settings shortcut on the GitHub setup tip and a \"Troubleshoot GitHub connection\" link in the repository pickers, both opening your GitHub connection page",
+  "zh": "\\[Claude Code on the web] 新增 GitHub 设置提示上的设置快捷入口，以及仓库选择器中的“排查 GitHub 连接问题”链接，二者都会打开你的 GitHub 连接页面",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

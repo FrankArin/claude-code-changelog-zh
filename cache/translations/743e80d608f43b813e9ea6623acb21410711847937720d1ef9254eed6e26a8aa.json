@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the hover highlight lingering on a list row in fullscreen mode after scrolling or filtering moved it away from the mouse",
+  "zh": "修复全屏模式下滚动或筛选使列表行移离鼠标后，悬停高亮仍残留的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

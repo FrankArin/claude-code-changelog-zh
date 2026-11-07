@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed New session in a Claude editor tab to open in the sidebar when Preferred Location is set to Sidebar, instead of always opening another tab",
+  "zh": "\\[VSCode] 变更：当 Preferred Location 设为 Sidebar 时，在 Claude 编辑器标签页中新建的 session 改为在侧边栏中打开，而不再总是打开另一个标签页",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

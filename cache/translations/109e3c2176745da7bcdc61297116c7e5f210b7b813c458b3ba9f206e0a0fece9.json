@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runner sessions failing every turn with a 401 after a few failed token refreshes, until the next scheduled refresh; the runner now keeps retrying, and fetches a new token after a 401",
+  "zh": "修复了自托管运行器 session 在几次 token 刷新失败后，每轮都因 401 失败、直到下一次计划刷新才恢复的问题；运行器现在会持续重试，并在收到 401 后获取新 token",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

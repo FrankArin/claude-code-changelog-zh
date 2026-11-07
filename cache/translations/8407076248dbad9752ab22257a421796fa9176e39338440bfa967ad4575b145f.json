@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the session list showing when a session was last reopened, such as after a window reload, instead of when its last message was sent",
+  "zh": "\\[VSCode] 修复 session 列表显示 session 最后被重新打开的时间（例如窗口重新加载后），而非最后一条消息发送时间的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

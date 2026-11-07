@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See [https://code.claude.com/docs/en/auto-mode-classifier-billing](https://code.claude.com/docs/en/auto-mode-classifier-billing.md)",
+  "zh": "变更 Claude API 和企业版用户以及 Bedrock、Vertex、Foundry 和网关上的自动模式，默认使用服务端分类器，该分类器不收取分类器开销费用（在 Bedrock、Vertex、Foundry 和网关上可通过 `CLAUDE_CODE_AUTO_MODE_SERVER=0` 退出）；对计费回退发出警告。参见 [https://code.claude.com/docs/en/auto-mode-classifier-billing](https://code.claude.com/docs/en/auto-mode-classifier-billing.md)",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:43+00:00"
+}

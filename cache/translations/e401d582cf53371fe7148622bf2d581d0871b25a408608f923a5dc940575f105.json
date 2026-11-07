@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background plugin marketplace auto-update ignoring git credential helpers, so private-repo marketplaces were re-cloned every run or never updated",
+  "zh": "修复了后台 plugin marketplace 自动更新忽略 git 凭据助手，导致私有仓库 marketplace 每次运行都被重新克隆或从不更新的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

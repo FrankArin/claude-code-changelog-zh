@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "version": "2.1.278",
+  "date": "2026-09-19",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "b5916d7a39ec4fbf273db7d93891650cd49a932563899f96a54b5f3e0f662c7e",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T04:58:43+00:00"
+  },
+  "groups": [
+    {
+      "kind": "other",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.278-other-1",
+          "en": "Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See [https://code.claude.com/docs/en/auto-mode-classifier-billing](https://code.claude.com/docs/en/auto-mode-classifier-billing.md)",
+          "zh": "变更 Claude API 和企业版用户以及 Bedrock、Vertex、Foundry 和网关上的自动模式，默认使用服务端分类器，该分类器不收取分类器开销费用（在 Bedrock、Vertex、Foundry 和网关上可通过 `CLAUDE_CODE_AUTO_MODE_SERVER=0` 退出）；对计费回退发出警告。参见 [https://code.claude.com/docs/en/auto-mode-classifier-billing](https://code.claude.com/docs/en/auto-mode-classifier-billing.md)",
+          "hash": "e228e087e8356f49e3ef2e4956445f22bedfbb11b56d02237a3a40e99aa384f5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.278-other-2",
+          "en": "Added an `Auto mode server` row to `/status` showing whether this session's auto mode classifier runs on the server",
+          "zh": "在 `/status` 中新增 `Auto mode server` 行，显示当前 session 的自动模式分类器是否在服务端运行",
+          "hash": "155dddd1553f813608eb26f5c1a6372604fc5e1f8a8f1158cfb085ca6d966daa",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "自动模式默认改用服务端分类器且不计费，/status 新增显示该状态。",
+    "highlights": [
+      {
+        "title": "自动模式默认服务端分类器",
+        "category": "改进",
+        "detail": "Claude API、企业版及 Bedrock、Vertex、Foundry、网关上的自动模式默认使用服务端分类器，不收取分类器开销费用；计费回退时会发出警告。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_CODE_AUTO_MODE_SERVER=0",
+          "caption": "在 Bedrock、Vertex、Foundry 和网关上退出服务端分类器"
+        },
+        "item_ids": [
+          "2.1.278-other-1"
+        ]
+      },
+      {
+        "title": "/status 显示分类器位置",
+        "category": "新功能",
+        "detail": "/status 新增 Auto mode server 行，可查看当前会话的自动模式分类器是否在服务端运行，便于排查计费与行为差异。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/status",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.278-other-2"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

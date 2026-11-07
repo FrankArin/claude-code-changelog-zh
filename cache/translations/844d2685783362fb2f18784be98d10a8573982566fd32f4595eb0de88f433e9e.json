@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/install-github-app`: the GitHub CLI check and repository selection steps now show \"Esc to cancel\"",
+  "zh": "改进 `/install-github-app`：GitHub CLI 检查和仓库选择步骤现在会显示“Esc to cancel”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

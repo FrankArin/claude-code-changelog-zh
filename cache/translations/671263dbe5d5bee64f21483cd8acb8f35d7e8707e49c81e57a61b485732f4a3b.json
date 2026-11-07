@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Artifact tool to ask for a one-word tab icon on a first publish instead of an emoji favicon",
+  "zh": "变更 Artifact 工具在首次发布时要求填写一个单词的标签页图标，而不是 emoji favicon",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

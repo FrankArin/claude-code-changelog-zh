@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Claude apps gateway boot: it now tries the first Postgres connection up to three times before exiting, so a database that is reachable a few seconds late no longer fails the boot",
+  "zh": "改进了 Claude 应用网关的启动：现在会在退出前最多尝试三次首次 Postgres 连接，因此晚几秒才可达的数据库不再导致启动失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

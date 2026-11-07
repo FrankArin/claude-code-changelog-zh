@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skills in `~/.claude/skills/` being moved to `~/.claude/skills/.trash/` when a `manifest.json` in that folder listed their names",
+  "zh": "修复了当 `~/.claude/skills/` 中的 `manifest.json` 列出了 skill 名称时，该目录下的 skill 被移动到 `~/.claude/skills/.trash/` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

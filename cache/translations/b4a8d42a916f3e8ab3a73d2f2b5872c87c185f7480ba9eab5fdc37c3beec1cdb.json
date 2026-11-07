@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude apps gateway cutting every open stream on SIGTERM: it now lets in-flight requests finish for up to 25 seconds before exiting (`CLAUDE_GATEWAY_DRAIN_TIMEOUT_MS`)",
+  "zh": "修复了 Claude 应用网关在收到 SIGTERM 时切断所有打开流的问题：现在会允许进行中的请求最多 25 秒内完成后再退出（`CLAUDE_GATEWAY_DRAIN_TIMEOUT_MS`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

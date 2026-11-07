@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the invisible-character cleanup removing the zero-width non-joiner that Persian and Arabic text uses to attach a suffix to a Latin word or number, such as the plural of \"PDF\"",
+  "zh": "修复不可见字符清理会移除波斯语和阿拉伯语文本用于将后缀附加到拉丁词或数字上的零宽不连字符的问题，例如 \"PDF\" 的复数形式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

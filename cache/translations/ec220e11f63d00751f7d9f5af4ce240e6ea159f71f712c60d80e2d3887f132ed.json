@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added syncing of the skills and plugins enabled on your claude.ai account to terminal sessions signed in with it; opt out with `syncClaudeAiSkills: false` or `syncClaudeAiPlugins: false`",
+  "zh": "新增将 claude.ai 账号中启用的 skill 和 plugin 同步到使用该账号登录的终端 session；可通过 `syncClaudeAiSkills: false` 或 `syncClaudeAiPlugins: false` 关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

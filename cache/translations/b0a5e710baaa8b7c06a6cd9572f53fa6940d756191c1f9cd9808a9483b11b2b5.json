@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Artifact tool's publish and read results: they now say who can open the page and what the owner's Share menu offers",
+  "zh": "改进 Artifact 工具的发布和读取结果：现在会说明谁可以打开该页面，以及所有者的 Share 菜单提供哪些选项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

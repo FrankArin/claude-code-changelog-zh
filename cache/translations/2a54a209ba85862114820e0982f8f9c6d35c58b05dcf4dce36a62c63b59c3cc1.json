@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed lists such as a skill's state options in `/plugin` not being answerable by typing a number in screen-reader mode",
+  "zh": "修复屏幕阅读器模式下无法通过输入数字回答列表（如 `/plugin` 中 skill 的状态选项）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

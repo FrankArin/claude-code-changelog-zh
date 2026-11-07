@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed conversations with the advisor on failing every turn with API Error 400 \"Input tag 'advisor\\_20260301'\" behind a proxy or gateway that doesn't support it; the request now retries without it",
+  "zh": "修复了启用 advisor 的对话在经过不支持该功能的代理或网关时，每一轮都因 API 错误 400“Input tag 'advisor\\_20260301'”而失败的问题；现在请求会在不带该标签的情况下重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

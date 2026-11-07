@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/ultrareview` reporting a stopped cloud review as completed or as an error to retry, and waiting out the full timeout when its session was deleted or the signed-in account changed",
+  "zh": "修复了 `/ultrareview` 将已停止的云端审查报告为已完成或报告为可重试错误，以及在其 session 被删除或登录账号变更时仍等待完整超时的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:58:37+00:00"
+}

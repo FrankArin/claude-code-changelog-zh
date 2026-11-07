@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added attach conditions for access bundles in Claude Tag settings: an Owner can let a bundle also apply in channels with guests or Slack Connect channels, not just member-only",
+  "zh": "\\[Claude Tag] 新增在 Claude Tag 设置中为访问包添加附加条件：Owner 可让访问包也适用于有访客的频道或 Slack Connect 频道，而不仅限于仅成员频道",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

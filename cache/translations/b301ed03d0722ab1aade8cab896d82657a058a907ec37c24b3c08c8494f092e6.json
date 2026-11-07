@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved responsiveness when the terminal is slow or paused: output no longer falls further behind while the terminal catches up",
+  "zh": "改进终端缓慢或暂停时的响应性：终端追赶时输出不再进一步落后",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

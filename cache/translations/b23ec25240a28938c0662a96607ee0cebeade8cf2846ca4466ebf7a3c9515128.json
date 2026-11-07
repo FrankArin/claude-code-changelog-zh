@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/install-github-app` updating the workflow after \"Skip workflow update\" was chosen, running setup twice on a repeated Enter, and ↑ on the repository step blocking a typed repository name when no repository was detected",
+  "zh": "修复 `/install-github-app` 在选择了“Skip workflow update”后仍更新 workflow、重复按 Enter 时运行两次设置，以及未检测到仓库时在仓库步骤按 ↑ 阻止输入仓库名的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

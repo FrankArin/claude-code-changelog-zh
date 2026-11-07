@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `CLAUDE_CODE_RETRY_WATCHDOG` sessions failing on the first 5xx or dropped connection after a run of 429/529 waits, and sleeping uncapped and silently on a long `Retry-After` from a 5xx",
+  "zh": "修复 `CLAUDE_CODE_RETRY_WATCHDOG` session 在一连串 429/529 等待后遇到首个 5xx 或连接断开时失败，以及遇到 5xx 返回的长 `Retry-After` 时无上限地静默休眠的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:57:39+00:00"
+}

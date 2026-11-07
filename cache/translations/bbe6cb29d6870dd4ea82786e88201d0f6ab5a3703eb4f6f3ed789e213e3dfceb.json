@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed pull requests with more than 100 Claude reviews getting a full re-review on every clean merge from the base branch instead of the lighter merge-focused review",
+  "zh": "\\[Code Review] 修复了拥有超过 100 条 Claude 审查的 pull request 在每次从基础分支干净合并时都会进行完整重新审查、而不是较轻量的以合并为重点的审查的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}

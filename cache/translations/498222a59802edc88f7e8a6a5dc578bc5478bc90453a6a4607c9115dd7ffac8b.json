@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Artifact tool asking you to approve an update to an artifact that it then refused because the session had not read the latest version",
+  "zh": "修复了 Artifact 工具要求你批准对 artifact 的更新、随后又因 session 尚未读取最新版本而拒绝该更新的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:01:09+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/update-config` writing `Write(path)` permission rules, which file permission checks don't match, instead of `Edit(path)` rules",
+  "zh": "修复 `/update-config` 写入 `Write(path)` 权限规则（文件权限检查无法匹配）而非 `Edit(path)` 规则的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T05:00:13+00:00"
+}
