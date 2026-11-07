@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Read tool's message for binary files: it now points Claude to a skill or a shell command that can read the format",
+  "zh": "改进 Read 工具针对二进制文件的提示：现在会引导 Claude 使用可读取该格式的 skill 或 shell 命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

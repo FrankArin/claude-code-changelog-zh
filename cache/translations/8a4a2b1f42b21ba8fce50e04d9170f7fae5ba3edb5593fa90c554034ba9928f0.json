@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin LSP servers receiving literal `${user_config.*}` and `${CLAUDE_PLUGIN_ROOT}` placeholders in `initializationOptions` and `settings` instead of substituted values or manifest defaults",
+  "zh": "修复 plugin LSP 服务器在 `initializationOptions` 和 `settings` 中收到字面量 `${user_config.*}` 和 `${CLAUDE_PLUGIN_ROOT}` 占位符，而非替换后的值或清单默认值的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

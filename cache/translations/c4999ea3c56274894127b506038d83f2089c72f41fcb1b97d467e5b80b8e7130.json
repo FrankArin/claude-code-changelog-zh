@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cloud sessions sometimes losing the earlier conversation when the session restarted while it was being compacted",
+  "zh": "修复云 session 在上下文压缩期间重启时有时丢失先前对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

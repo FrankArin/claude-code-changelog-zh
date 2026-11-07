@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin marketplace add --sparse` and `git-subdir` plugin installs failing with \"transport 'http' not allowed\" when the repository is served over plain http",
+  "zh": "修复当仓库通过纯 http 提供时，`claude plugin marketplace add --sparse` 和 `git-subdir` plugin 安装因“transport 'http' not allowed”而失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

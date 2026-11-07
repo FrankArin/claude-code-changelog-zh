@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines",
+  "zh": "修复在受管机器上，针对复合 shell 命令嵌套部分的 deny 或 ask 规则无法覆盖用户安装的 mod 的批准的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:38+00:00"
+}

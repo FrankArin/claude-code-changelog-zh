@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Claude apps gateway's error when Amazon Bedrock rejects a model ID: developers now see which model is unavailable, and the gateway log names the ID that was sent",
+  "zh": "改进 Claude 应用网关在 Amazon Bedrock 拒绝模型 ID 时的错误提示：开发者现在能看到哪个模型不可用，网关日志会记录实际发送的 ID",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

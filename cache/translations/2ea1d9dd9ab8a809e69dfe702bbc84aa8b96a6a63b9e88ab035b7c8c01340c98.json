@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `CLAUDE_CODE_USER_DIALOG_TIMEOUT_MS=5m` being read as 5 ms and cancelling remote dialogs at once; values with a unit suffix now fall back to `dialogExpiry`",
+  "zh": "修复了 `CLAUDE_CODE_USER_DIALOG_TIMEOUT_MS=5m` 被解析为 5 毫秒并立即取消远程对话框的问题；带单位后缀的值现在会回退到 `dialogExpiry`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

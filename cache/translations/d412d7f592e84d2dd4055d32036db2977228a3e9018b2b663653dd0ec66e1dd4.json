@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Bash changed-files view: when a chained command includes git merge, pull or checkout, it lists the files without full diffs",
+  "zh": "改进 Bash 变更文件视图：当链式命令包含 git merge、pull 或 checkout 时，列出文件但不显示完整 diff",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

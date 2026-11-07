@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control uploading a session's starting history again after every credential recovery",
+  "zh": "修复了 Remote Control 在每次凭据恢复后重新上传会话起始历史的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

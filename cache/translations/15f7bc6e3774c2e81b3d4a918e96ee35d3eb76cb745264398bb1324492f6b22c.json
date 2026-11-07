@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed headless (`-p` / SDK) sessions occasionally ignoring SIGTERM when a supervisor such as `timeout` or systemd sends SIGCONT alongside it",
+  "zh": "修复了无头（`-p` / SDK）session 在 `timeout` 或 systemd 等监督进程同时发送 SIGCONT 时偶尔忽略 SIGTERM 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a plugin's `tool.call` hook making Bash fail and file searches read the wrong folder in subagents that run in a worktree",
+  "zh": "修复了 plugin 的 `tool.call` hook 导致 Bash 失败，以及在工作流中运行的 subagent 里文件搜索读取错误文件夹的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

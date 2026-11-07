@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed scheduled tasks (`/loop` with an interval, reminders) silently not coming back on resume once the conversation was compacted; covers compactions made from this version on",
+  "zh": "修复了定时任务（带间隔的 `/loop`、提醒）在对话经过上下文压缩后恢复时静默不再触发的问题；覆盖从本版本起进行的上下文压缩",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runners: Changed `claude --environment <id>` to create its session through the current Sessions API; printed and JSON session ids keep their session\\_… form",
+  "zh": "自托管运行器：变更 `claude --environment <id>`，改为通过当前的 Sessions API 创建 session；打印和 JSON 中的 session id 保持 session\\_… 形式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

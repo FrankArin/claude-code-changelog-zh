@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `sandbox.credentials.files` entries on git config files not taking effect while `permissions.blockReadsOutsideWorkingDirectories` is on",
+  "zh": "修复了开启 `permissions.blockReadsOutsideWorkingDirectories` 时，git 配置文件上的 `sandbox.credentials.files` 条目不生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

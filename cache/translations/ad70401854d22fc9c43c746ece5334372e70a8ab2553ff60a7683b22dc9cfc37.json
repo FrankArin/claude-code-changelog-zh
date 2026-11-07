@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added an Edit button to the Allowed domains card on a channel's Configure page, so Enterprise admins can open the access bundle that sets the channel's domains",
+  "zh": "\\[Claude Tag] 在频道 Configure 页面的 Allowed domains 卡片上新增 Edit 按钮，使 Enterprise 管理员可以打开设置该频道域名的访问包",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

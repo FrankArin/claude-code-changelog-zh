@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed keybindings.json checks: a lone \" \" (space key) is no longer reported as an error, and keys like \"ctrl+ k\" now get a warning",
+  "zh": "修复了 keybindings.json 校验：单独的 \" \"（空格键）不再被报为错误，而 \"ctrl+ k\" 这类键现在会给出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

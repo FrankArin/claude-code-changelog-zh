@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin test` reporting mods as turned off remotely when it had only read an out-of-date saved setting",
+  "zh": "修复 `claude plugin test` 在仅读取到过期的已保存设置时，将 mods 报告为已被远程关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

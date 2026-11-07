@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed screen reader mode refusing Enter with nothing typed on /rewind's summarize options, whose added context is optional",
+  "zh": "修复了屏幕阅读器模式下在 /rewind 的 summarize 选项上未输入内容时按 Enter 被拒绝的问题，因为其附加上下文是可选的",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

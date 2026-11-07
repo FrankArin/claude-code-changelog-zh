@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `CLAUDE_CODE_DISABLE_ATTACHMENTS` so a repository's `.claude/settings.json` or `.claude/settings.local.json` can no longer set it; shell, user and managed settings still can",
+  "zh": "变更 `CLAUDE_CODE_DISABLE_ATTACHMENTS`：仓库的 `.claude/settings.json` 或 `.claude/settings.local.json` 不再能设置它；shell、用户和托管设置仍可设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

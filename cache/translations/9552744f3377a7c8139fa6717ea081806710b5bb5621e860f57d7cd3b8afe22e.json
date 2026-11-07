@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed one-shot `claude -p` and Agent SDK runs stopping a background command 5 seconds after the final result, and one-shot `claude -p` runs dropping a scheduled wakeup; both are now waited for",
+  "zh": "修复了一次性 `claude -p` 和 Agent SDK 运行在最终结果后 5 秒停止后台命令，以及一次性 `claude -p` 运行丢弃已安排的唤醒的问题；现在两者都会等待完成",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

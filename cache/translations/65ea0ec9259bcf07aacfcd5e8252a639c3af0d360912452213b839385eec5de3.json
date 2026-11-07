@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude sometimes posting a spend limit notice in Slack when the real cause was that your organization had run out of usage credits",
+  "zh": "\\[Claude Tag] 修复了 Claude 有时在 Slack 中发布支出限制通知，而实际原因是你的组织用完了用量额度的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long sessions with hundreds of images getting stuck on \"Request rejected as unprocessable by the model\" errors",
+  "zh": "修复了包含数百张图片的长 session 卡在“Request rejected as unprocessable by the model”错误上的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

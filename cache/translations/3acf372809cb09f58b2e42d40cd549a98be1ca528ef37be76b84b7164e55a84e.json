@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed text with a tab, a stray escape and a C1 control, or a short text with a tab and CRLF line endings, drawing over the rows below it",
+  "zh": "修复包含制表符、游离转义符和 C1 控制符的文本，或包含制表符和 CRLF 行尾的短文本，绘制时覆盖下方行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:38+00:00"
+}

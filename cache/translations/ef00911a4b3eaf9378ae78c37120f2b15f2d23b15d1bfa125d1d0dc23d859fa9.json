@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a freeze before the first request and in the `/sandbox` Config tab on Linux and WSL when a sandbox read rule such as `~/**/.env` covers a large folder",
+  "zh": "修复了在 Linux 和 WSL 上，当 `~/**/.env` 等沙箱读取规则覆盖较大文件夹时，首次请求前以及 `/sandbox` 配置标签页中出现的卡死问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc after an `n:` or Ctrl+F search in the agents view moving focus to a section header, where Ctrl+X twice would delete every session in the section",
+  "zh": "修复在 agents 视图中执行 `n:` 或 Ctrl+F 搜索后按 Esc 会将焦点移到分组标题，此时连按两次 Ctrl+X 会删除该分组中所有 session 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

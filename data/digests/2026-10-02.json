@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-02",
+  "versions": [
+    "2.1.288"
+  ],
+  "tldr": "新增会话查找、prompt 恢复与 gh api，修复恢复丢上下文、超时重试及多项权限安全问题。",
+  "highlights": [
+    {
+      "title": "新增会话查找与 prompt 恢复",
+      "category": "新功能",
+      "detail": "Ctrl+F 可按名称查找 session，Alt+↑/↓ 在 agents 视图分组间跳转；Ctrl+C 清空的草稿（含粘贴文本和图片）可用上方向键找回。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.288-added-3",
+        "2.1.288-added-6"
+      ],
+      "version": "2.1.288"
+    },
+    {
+      "title": "内置 gh api 与 OAuth 重认证",
+      "category": "新功能",
+      "detail": "无 GitHub CLI 的云 session 可用内置 gh api；MCP server 在工具调用中请求更多 OAuth scope 时会提示重新认证。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.288-added-2",
+        "2.1.288-added-4"
+      ],
+      "version": "2.1.288"
+    },
+    {
+      "title": "后台命令时限仅限无人值守",
+      "category": "改进",
+      "detail": "后台命令时间限制只在 -p、Agent SDK、CI 和云 session 中生效，终端、桌面应用和 VS Code 不再受限。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.288-changed-8"
+      ],
+      "version": "2.1.288"
+    },
+    {
+      "title": "恢复与超时问题修复",
+      "category": "修复",
+      "detail": "修复 --resume 丢失压缩后上下文、最后一条回复未保存、对话记录被截断，以及响应中途超时导致整轮失败的问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.288-fixes-26",
+        "2.1.288-fixes-28",
+        "2.1.288-fixes-29",
+        "2.1.288-fixes-30"
+      ],
+      "version": "2.1.288"
+    },
+    {
+      "title": "权限与安全修复",
+      "category": "安全",
+      "detail": "修复 bash -c 中危险 rm 在 bypassPermissions 下静默执行、BASHPID 算术求值绕过检查，以及 hook 匹配失败时被跳过的问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.288-fixes-72",
+        "2.1.288-fixes-46",
+        "2.1.288-fixes-75"
+      ],
+      "version": "2.1.288"
+    },
+    {
+      "title": "命令更名：project purge",
+      "category": "破坏性变更",
+      "detail": "claude project purge 更名为 claude purge，旧名称仍可用但会打印提示，建议更新脚本和文档。",
+      "action": "将脚本和文档中的 claude project purge 替换为 claude purge",
+      "example": {
+        "lang": "bash",
+        "code": "claude purge",
+        "caption": "新的清理命令"
+      },
+      "item_ids": [
+        "2.1.288-changed-10"
+      ],
+      "version": "2.1.288"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "ce9ff4f888eb7f773e36f8e9259c5afbfae2efcd795b3c1ce4d4f6e6398730af"
+}

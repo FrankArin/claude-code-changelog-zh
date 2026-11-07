@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude logs`, `stop`, `kill`, `rm` and `claude daemon status`, `stop`, `uninstall` sometimes signing you out when your login had expired or was about to",
+  "zh": "修复了当登录已过期或即将过期时，`claude logs`、`stop`、`kill`、`rm` 以及 `claude daemon status`、`stop`、`uninstall` 有时会将你登出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

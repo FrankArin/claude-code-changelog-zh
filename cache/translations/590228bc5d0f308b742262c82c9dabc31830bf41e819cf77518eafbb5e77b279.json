@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/feedback` returning to the drafts list after Ctrl+O or Ctrl+Z while a report was sending, leaving the send impossible to cancel",
+  "zh": "修复了报告发送期间按 Ctrl+O 或 Ctrl+Z 后 `/feedback` 返回草稿列表、导致发送无法取消的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

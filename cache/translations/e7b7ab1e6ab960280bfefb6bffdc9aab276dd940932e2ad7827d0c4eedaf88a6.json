@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash permission checks auto-approving some read-only commands (such as `rg` or `git grep`) whose arguments the shell would still expand as wildcards; these now prompt for approval",
+  "zh": "修复了 Bash 权限检查会自动批准某些只读命令（如 `rg` 或 `git grep`）的问题，这些命令的参数仍会被 shell 按通配符展开；现在这些命令会请求批准",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed commands that pipe a heredoc into another command (`cat <<EOF | python3`) asking for approval on every run",
+  "zh": "修复了将 heredoc 通过管道传入另一条命令（`cat <<EOF | python3`）的沙箱命令每次运行都会请求批准的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

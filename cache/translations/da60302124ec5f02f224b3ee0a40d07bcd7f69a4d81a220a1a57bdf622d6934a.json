@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a background session's `/loop` silently stopping when the session's process restarted (for example after a crash), because its pending wakeup was lost",
+  "zh": "修复了后台 session 的 `/loop` 在 session 进程重启时（例如崩溃后）静默停止的问题，原因是其待处理的唤醒丢失",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

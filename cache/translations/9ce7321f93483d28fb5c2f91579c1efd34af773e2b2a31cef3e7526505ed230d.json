@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude agents` offering bypass permissions that background sessions then ignored when consent was saved only in `.claude/settings.local.json` or a `--settings` file; it now asks for consent first, and a session that ignores bypass shows a short notice that stays",
+  "zh": "修复了 `claude agents` 提供 bypass 权限但后台会话随后忽略的问题，当同意仅保存在 `.claude/settings.local.json` 或 `--settings` 文件中时；现在会先请求同意，忽略 bypass 的会话会显示一条常驻的简短提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an organization's plugin being unloaded on its own reload, or after another plugin crashed, when it returned a `$` name that a user-installed mod had added; the mod is now unloaded instead",
+  "zh": "修复组织的 plugin 在自身重新加载时，或在另一个 plugin 崩溃后，因返回了用户安装的 mod 添加的 `$` 名称而被卸载的问题；现在改为卸载该 mod",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

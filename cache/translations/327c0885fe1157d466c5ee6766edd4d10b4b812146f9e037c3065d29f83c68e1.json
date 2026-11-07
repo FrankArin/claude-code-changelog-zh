@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `agent.spawn` for teammates, one agent id across plugin hook events, and idle and waiting states in `$.agent.list()`",
+  "zh": "新增面向队友的 `agent.spawn`，plugin hook 事件中统一使用同一个 agent id，并在 `$.agent.list()` 中新增空闲和等待状态",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:38+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Improved the earlier Claude in Slack app's reply when it can't start a session: it now says what failed and who can fix it, in full only once per thread",
+  "zh": "\\[Claude Tag] 改进早期 Claude in Slack 应用无法启动 session 时的回复：现在会说明失败原因及可修复者，每个线程仅完整显示一次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

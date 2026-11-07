@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "versions": [
+    "2.1.293"
+  ],
+  "tldr": "新增 Haiku 5.5 默认模型，修复上下文压缩误判、内存泄漏与多项会话问题",
+  "highlights": [
+    {
+      "title": "新增 Haiku 5.5 默认模型",
+      "category": "新功能",
+      "detail": "claude-haiku-5-5 成为 Anthropic API 上的默认 Haiku 模型，支持 1M 上下文，价格更低；prompt 超过 100K 时按高价档计费。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.293-added-1"
+      ],
+      "version": "2.1.293"
+    },
+    {
+      "title": "修复压缩后重复已完成工作",
+      "category": "修复",
+      "detail": "此前 Claude 可能把压缩前自己最后的操作误认为压缩后已完成，从而撤回或重做已完成的工作，现已修正。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.293-fixes-19"
+      ],
+      "version": "2.1.293"
+    },
+    {
+      "title": "修复 HTTP MCP 内存泄漏",
+      "category": "修复",
+      "detail": "HTTP MCP 连接此前会保留发送过的每个请求直到连接关闭，长时间会话内存持续增长，现已释放。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.293-fixes-20"
+      ],
+      "version": "2.1.293"
+    },
+    {
+      "title": "修复 CLI 命令导致登出",
+      "category": "修复",
+      "detail": "登录过期或即将过期时，claude logs、stop、kill、rm 及 daemon 子命令有时会把用户登出，现已修复。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude logs",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.293-fixes-27"
+      ],
+      "version": "2.1.293"
+    },
+    {
+      "title": "修复后台会话忽略 bypass",
+      "category": "修复",
+      "detail": "claude agents 授予的 bypass 权限在同意仅存于本地设置文件时被后台会话忽略；现在会先请求同意，被忽略的会话显示常驻提示。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude agents",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.293-fixes-40"
+      ],
+      "version": "2.1.293"
+    },
+    {
+      "title": "修复 Bash 查看文件不加载规则",
+      "category": "修复",
+      "detail": "通过 cat、head、tail、sed -n、grep 等命令查看文件时，路径作用域规则和嵌套 CLAUDE.md 未加载，现已与 Read 工具一致。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.293-fixes-44"
+      ],
+      "version": "2.1.293"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "3ab35202e86da80a05cc9fcf17bf2a768b1b2ec03d81019e660527e858dff748"
+}

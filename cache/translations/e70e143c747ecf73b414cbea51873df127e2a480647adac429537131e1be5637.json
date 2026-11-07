@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the usage limit alert repeating once per background agent when agents failed on a limit that had already stopped the main conversation",
+  "zh": "修复了当 agents 因已停止主对话的用量限制而失败时，用量限制警报按每个后台 agent 重复一次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

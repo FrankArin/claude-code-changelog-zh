@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed some pasted text reaching Claude as typed text when several pastes overlapped in one prompt",
+  "zh": "修复了当一个 prompt 中有多次粘贴重叠时，部分粘贴文本以键入文本形式到达 Claude 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

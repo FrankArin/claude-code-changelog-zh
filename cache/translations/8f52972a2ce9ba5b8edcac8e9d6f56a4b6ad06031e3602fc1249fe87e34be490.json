@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a tampered on-disk cache of server-managed settings being able to switch off or unseat the built-in policy plugin while the settings fetch failed",
+  "zh": "修复了在设置获取失败期间，被篡改的服务器托管设置磁盘缓存能够关闭或替换内置策略 plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

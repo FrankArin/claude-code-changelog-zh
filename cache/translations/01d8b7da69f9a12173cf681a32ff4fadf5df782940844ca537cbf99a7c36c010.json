@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Reverted the 2.1.290 fix for cloud sessions staying asleep after a container restart lost a pending `/loop` wakeup or scheduled task; Claude is no longer told, and the session stays asleep",
+  "zh": "回退了 2.1.290 中针对容器重启丢失待处理的 `/loop` 唤醒或计划任务后云 session 仍保持休眠的修复；现在不再告知 Claude，session 保持休眠",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

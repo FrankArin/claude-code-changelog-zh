@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed repeated Ctrl+X in the agents view deleting the whole next section after the bottom session of a section was deleted",
+  "zh": "修复在 agents 视图中，删除某个分组的底部 session 后反复按 Ctrl+X 会删除整个下一个分组的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

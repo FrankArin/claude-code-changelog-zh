@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Improved Bash tool speed by removing a subshell that ran before every command",
+  "zh": "Windows：移除每条命令前运行的子 shell，提升 Bash 工具速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

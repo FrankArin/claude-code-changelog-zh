@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Changed the organization-wide and default spend limit boxes on Claude Tag's spend limits page in admin settings to save only when you press Save or Enter, not when you click away",
+  "zh": "\\[Claude Tag] 变更管理设置中 Claude Tag 用量限制页面上的组织级和默认支出上限输入框：仅在按 Save 或 Enter 时保存，点击别处不再保存",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed reviews ignoring a CLAUDE.md's rules when the pull request edits that file; reviews now use its version from the base branch",
+  "zh": "\\[Code Review] 修复了 pull request 编辑 CLAUDE.md 时审查忽略其规则的问题；现在审查会使用基础分支中的版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

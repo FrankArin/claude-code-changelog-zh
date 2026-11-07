@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed Code Review skipping a pull request after a new push when its review had failed twice on the previous commit; it now reviews the latest commit",
+  "zh": "\\[Code Review] 修复当 Code Review 在上一个提交上两次审查失败后，新推送后跳过拉取请求的问题；现在会审查最新提交",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

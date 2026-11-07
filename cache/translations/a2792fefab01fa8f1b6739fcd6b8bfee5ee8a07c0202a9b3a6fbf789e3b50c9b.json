@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a second `gcpAuthRefresh`/`awsAuthRefresh` browser sign-in opening when a laptop wakes from sleep while another Claude Code process is signing in",
+  "zh": "修复了当另一个 Claude Code 进程正在登录时笔记本从睡眠唤醒，导致第二次 `gcpAuthRefresh`/`awsAuthRefresh` 浏览器登录被打开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

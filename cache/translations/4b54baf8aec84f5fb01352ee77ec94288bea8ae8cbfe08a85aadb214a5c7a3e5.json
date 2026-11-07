@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed errors reading \"Premature close\" instead of naming the missing program when a tool Claude Code runs, such as git or gh, is not installed (macOS, Linux)",
+  "zh": "修复当 Claude Code 运行的工具（如 git 或 gh）未安装时，错误信息显示“Premature close”而非指明缺失程序的问题（macOS、Linux）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude Tag admin settings offering a \"Remove this scope\" option, which always failed, on channels whose settings were created automatically",
+  "zh": "\\[Claude Tag] 修复 Claude Tag 管理设置在设置自动创建的频道上提供“Remove this scope”选项（该选项总是失败）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

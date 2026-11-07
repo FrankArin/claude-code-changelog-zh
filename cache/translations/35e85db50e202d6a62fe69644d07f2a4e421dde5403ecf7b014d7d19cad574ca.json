@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed turning off prompt suggestions through a cloud environment's environment variables having no effect in new cloud sessions",
+  "zh": "\\[Cloud sessions] 修复通过云环境的环境变量关闭 prompt 建议在新云 session 中无效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

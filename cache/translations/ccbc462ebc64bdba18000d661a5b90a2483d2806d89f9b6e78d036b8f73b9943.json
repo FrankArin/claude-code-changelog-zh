@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed scheduled routines in Slack channels running on a model other than the channel's default; each run that starts a new session now uses the current default model",
+  "zh": "\\[Claude Tag] 修复了 Slack 频道中的定时例程使用非频道默认模型运行的问题；现在每次启动新 session 的运行都会使用当前默认模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

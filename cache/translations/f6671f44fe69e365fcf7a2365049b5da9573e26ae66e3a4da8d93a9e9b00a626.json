@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed saved scheduled tasks created after `/resume`, `/branch` or `/clear` never firing, and saved tasks ignoring later creates and deletes after two writes to the tasks file milliseconds apart",
+  "zh": "修复了在 `/resume`、`/branch` 或 `/clear` 之后创建的已保存定时任务从不触发的问题，以及在对任务文件相隔毫秒的两次写入之后，已保存任务忽略后续创建和删除的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

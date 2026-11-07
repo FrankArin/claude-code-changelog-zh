@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Bash tool to ask for permission before running `pyright`, which is no longer treated as a read-only command",
+  "zh": "变更 Bash 工具：运行 `pyright` 前会请求权限，`pyright` 不再被视为只读命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed pressing Stop while a self-hosted runner was still starting not cancelling the queued message, which could then run once the runner was up",
+  "zh": "\\[Cloud sessions] 修复自托管运行器仍在启动时按 Stop 不会取消已排队的消息、导致运行器启动后该消息仍可能被执行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

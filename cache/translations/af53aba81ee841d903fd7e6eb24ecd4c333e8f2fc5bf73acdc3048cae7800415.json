@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed the orchestrator to sleep 4 to 6 seconds between polls instead of a constant 5, so several replicas for one environment stop polling at the same moment",
+  "zh": "自托管运行器：将编排器在轮询之间的休眠改为 4 到 6 秒，而不是固定 5 秒，避免同一环境的多个副本在同一时刻停止轮询",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

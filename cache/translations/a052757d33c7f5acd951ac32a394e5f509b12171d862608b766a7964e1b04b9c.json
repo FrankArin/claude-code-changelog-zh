@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed multi-line `!` shell blocks in skills and commands failing when the file is saved with CRLF line endings",
+  "zh": "Windows：修复了当文件以 CRLF 行尾保存时，skills 和命令中的多行 `!` shell 块失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

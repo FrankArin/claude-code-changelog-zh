@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the explanation Claude gives when the server refuses a file it sends from a Remote Control or cloud session, such as an oversized image",
+  "zh": "改进服务器拒绝 Claude 从 Remote Control 或 cloud session 发送的文件（例如过大的图片）时 Claude 给出的说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

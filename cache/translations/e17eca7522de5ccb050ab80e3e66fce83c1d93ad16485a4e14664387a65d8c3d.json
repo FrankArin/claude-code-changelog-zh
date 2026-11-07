@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed opening a tool's input or output in an editor tab failing with \"Timeout waiting after 1000ms\" on remote hosts such as WSL when the tab is slow to appear",
+  "zh": "\\[VSCode] 修复在 WSL 等远程主机上，当编辑器标签页出现较慢时，在编辑器标签页中打开工具输入或输出会失败并报“Timeout waiting after 1000ms”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

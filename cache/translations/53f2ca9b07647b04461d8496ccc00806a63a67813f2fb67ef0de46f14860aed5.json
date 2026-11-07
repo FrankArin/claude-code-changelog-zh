@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Remote Control's recovery from an expired server credential: sessions stay connected during renewal and are kept if it gives up after a server outage",
+  "zh": "改进远程控制在服务器凭据过期后的恢复：session 在续期期间保持连接，若在服务器故障后放弃续期则保留 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

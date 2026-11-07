@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Claude posting a failure warning, such as a spend limit notice, in a Slack thread when a background event like GitHub activity woke it and nobody was waiting on a reply",
+  "zh": "\\[Claude Tag] 修复当 GitHub 活动等后台事件唤醒 Claude 且无人等待回复时，Claude 仍在 Slack 频道中发布失败警告（例如支出限额通知）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

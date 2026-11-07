@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the order of agent lists and of MCP servers announced to the model: names with non-ASCII characters now sort after ASCII names",
+  "zh": "调整了向模型公布的 agent 列表和 MCP 服务器顺序：含非 ASCII 字符的名称现在排在 ASCII 名称之后",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

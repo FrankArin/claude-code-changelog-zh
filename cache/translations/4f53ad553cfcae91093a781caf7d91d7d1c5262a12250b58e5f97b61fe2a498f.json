@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for",
+  "zh": "为 Agent 工具新增 `effort` 参数，让 Claude 按你指定的 effort 级别运行 subagent",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

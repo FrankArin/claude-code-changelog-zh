@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a cause of fullscreen sessions on slow or busy machines exiting with \"Claude Code exited after an unrecoverable interface error\" while a scroll key was held in a long conversation",
+  "zh": "修复了在缓慢或繁忙的机器上，长对话中按住滚动键时全屏 session 以“Claude Code exited after an unrecoverable interface error”退出的一个原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

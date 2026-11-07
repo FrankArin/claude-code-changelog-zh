@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved screen reader mode: short announcements, such as a deleted word, now stay on screen until your next key press or until something above them on screen changes",
+  "zh": "改进屏幕阅读器模式：简短播报（例如删除一个词）现在会留在屏幕上，直到你下次按键或屏幕上方的某些内容发生变化",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

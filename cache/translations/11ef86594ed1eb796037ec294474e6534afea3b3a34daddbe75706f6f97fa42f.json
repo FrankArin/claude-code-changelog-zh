@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed screen reader mode listing arrow keys that do nothing in /permissions and /mcp, and saying \"Select with numbers\" in empty menus or while a search box has the keys",
+  "zh": "修复屏幕阅读器模式在 /permissions 和 /mcp 中列出无作用的箭头键，以及在空菜单中或搜索框占用按键时仍提示“Select with numbers”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

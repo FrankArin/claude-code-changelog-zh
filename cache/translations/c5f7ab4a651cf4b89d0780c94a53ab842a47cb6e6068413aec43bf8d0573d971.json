@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Claude in Chrome message in claude.ai cloud sessions when the browser can't be reached: Claude is now told it may continue with alternatives if the user prefers",
+  "zh": "改进了 claude.ai 云端 session 中浏览器无法访问时显示的 Claude in Chrome 消息：现在会告知 Claude，如果用户愿意，可以继续使用替代方案",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

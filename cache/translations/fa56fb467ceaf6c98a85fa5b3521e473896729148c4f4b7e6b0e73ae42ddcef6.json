@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the running-tool dot and three spinners still moving with the \"Reduce motion\" setting on, and /rewind's confirm screen updating its \"ago\" time while you type a note",
+  "zh": "修复开启“Reduce motion”设置后运行中工具圆点和三个加载动画仍在移动，以及 /rewind 的确认界面在你输入备注时仍更新“ago”时间的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

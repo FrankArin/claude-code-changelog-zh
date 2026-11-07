@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Bash edit diff note to say the listed files changed while the command ran, which can include writes by other processes",
+  "zh": "改进了 Bash 编辑 diff 说明，改为说明所列文件在命令运行期间发生了变更，其中可能包括其他进程的写入",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

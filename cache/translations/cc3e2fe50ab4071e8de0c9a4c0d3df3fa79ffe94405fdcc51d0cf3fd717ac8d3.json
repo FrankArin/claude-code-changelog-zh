@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed approval prompts offering \"Always allow\" for connector tools that an organization set to require approval; the choice had no effect",
+  "zh": "\\[Cloud sessions] 修复了审批提示为组织设置为需要审批的 connector 工具提供“始终允许”选项的问题；该选项此前没有效果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

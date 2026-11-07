@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a stall when an MCP server's tool listing contains very long runs of combining characters",
+  "zh": "修复了 MCP 服务器的工具列表包含超长连续组合字符时卡顿的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

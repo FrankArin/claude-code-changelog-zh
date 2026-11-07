@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a claude.ai connector staying on \"Needs authentication\" after you authorize it: the MCP servers dialog now offers Check connection",
+  "zh": "\\[VSCode] 修复 claude.ai connector 在授权后仍停留在“Needs authentication”的问题：MCP servers 对话框现在提供 Check connection",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

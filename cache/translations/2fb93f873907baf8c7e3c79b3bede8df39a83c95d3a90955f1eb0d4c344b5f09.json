@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a project `CLAUDE.md`, rule or `AGENTS.md` symlinked outside the working directories loading under `permissions.blockReadsOutsideWorkingDirectories` or a `Read` deny rule",
+  "zh": "修复了符号链接到工作目录之外的 project `CLAUDE.md`、规则或 `AGENTS.md` 在 `permissions.blockReadsOutsideWorkingDirectories` 或 `Read` 拒绝规则下仍被加载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

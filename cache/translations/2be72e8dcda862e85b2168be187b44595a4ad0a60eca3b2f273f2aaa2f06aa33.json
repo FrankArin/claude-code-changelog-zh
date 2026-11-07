@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mod's button sometimes running a different button's action when pressed on a view drawn before Claude Code restarted",
+  "zh": "修复在 Claude Code 重启前绘制的视图上按下 mod 的按钮时，有时执行另一个按钮操作的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

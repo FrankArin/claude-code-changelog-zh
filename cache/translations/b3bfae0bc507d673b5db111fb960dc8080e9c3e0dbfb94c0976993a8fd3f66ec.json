@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed members with the Claude Tag Admin permission getting \"Couldn't load memory files\" on the Activity page's Memory tab; they can now read workspace and channel memory",
+  "zh": "\\[Claude Tag] 修复了拥有 Claude Tag Admin 权限的成员在活动页面的 Memory 标签页上遇到“无法加载记忆文件”的问题；他们现在可以读取工作区和频道记忆",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

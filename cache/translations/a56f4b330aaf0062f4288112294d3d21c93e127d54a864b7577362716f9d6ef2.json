@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the line a mod's author sees when its band or pane fails to draw: it names the mod and says nothing was drawn",
+  "zh": "改进 mod 作者在其 band 或窗格绘制失败时看到的提示行：会指明是哪个 mod，并说明未绘制任何内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:38+00:00"
+}

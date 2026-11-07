@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed WebFetch silently dropping page text past 100,000 characters; it now says how much was unread and takes an `offset` to read on",
+  "zh": "修复了 WebFetch 静默丢弃超过 100,000 字符的页面文本的问题；现在会说明有多少内容未读取，并接受 `offset` 参数以继续读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

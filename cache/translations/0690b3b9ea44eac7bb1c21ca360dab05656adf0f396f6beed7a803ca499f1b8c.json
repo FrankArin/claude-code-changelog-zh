@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed message timestamps to show by default (turn them off with the Claude Code: Show Message Timestamps setting)",
+  "zh": "\\[VSCode] 变更消息时间戳，现在默认显示（可通过 Claude Code: Show Message Timestamps 设置关闭）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

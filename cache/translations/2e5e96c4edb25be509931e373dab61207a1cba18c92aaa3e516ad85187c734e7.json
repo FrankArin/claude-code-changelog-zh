@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed agent names to allow at most 256 characters: a longer one is rejected, and a skill's or a plugin file's `name` longer than that is ignored",
+  "zh": "变更 agent 名称：最多允许 256 个字符，更长的名称会被拒绝；skill 或 plugin 文件中超过该长度的 `name` 会被忽略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

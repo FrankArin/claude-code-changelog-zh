@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin eval` refusing every Bash-granting run on Macs with Docker Desktop (links under `~/.docker/bin`); the refusal now names which part of a credential store held the link",
+  "zh": "修复了 `claude plugin eval` 在装有 Docker Desktop 的 Mac 上拒绝所有授予 Bash 的运行（`~/.docker/bin` 下的链接）的问题；拒绝信息现在会指明凭据存储中持有该链接的部分",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

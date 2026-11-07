@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plan mode not being restored when resuming a session from the `claude --resume` session picker or with `/resume`",
+  "zh": "修复了通过 `claude --resume` session 选择器或使用 `/resume` 恢复 session 时，计划模式未被恢复的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

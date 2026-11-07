@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed SVG, HEIC, TIFF and other less common image files failing to attach; they now attach as regular files",
+  "zh": "\\[Cloud sessions] 修复了 SVG、HEIC、TIFF 及其他较少见的图片文件无法附加的问题；现在它们会作为普通文件附加",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

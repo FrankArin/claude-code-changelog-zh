@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc, or No without feedback, on a permission prompt not stopping the turn when `←` had just been pressed to move the session to the background",
+  "zh": "修复了刚按 `←` 将 session 移至后台后，在权限提示上按 Esc 或选择 No 且不填写反馈时未能停止本轮的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

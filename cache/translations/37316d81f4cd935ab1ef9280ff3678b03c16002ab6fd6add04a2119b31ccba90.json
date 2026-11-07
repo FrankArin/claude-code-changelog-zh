@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved plugin listings to note when a plugin's dependencies were not installed, and updating a plugin now retries an install that did not finish",
+  "zh": "改进 plugin 列表，标注 plugin 的依赖未安装的情况；更新 plugin 时现在会重试未完成的安装",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

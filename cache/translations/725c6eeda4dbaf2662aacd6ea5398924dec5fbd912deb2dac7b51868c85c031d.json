@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed file links in the plan preview tab doing nothing when clicked; they now open the file like links in chat replies",
+  "zh": "\\[VSCode] 修复计划预览标签页中的文件链接点击后无反应的问题；现在会像聊天回复中的链接一样打开文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

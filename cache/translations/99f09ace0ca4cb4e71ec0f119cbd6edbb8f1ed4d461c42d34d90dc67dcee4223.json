@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a memory leak where an HTTP MCP connection kept every request it had sent until it closed",
+  "zh": "修复了一处内存泄漏：HTTP MCP 连接会保留其发送过的每个请求，直到连接关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

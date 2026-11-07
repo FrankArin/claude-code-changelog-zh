@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed screen reader mode leaving out the top lines of a second approval prompt, a changed /config row or the rejected-plan line when the previous screen was taller than the terminal window",
+  "zh": "修复当上一屏内容高于终端窗口时，屏幕阅读器模式遗漏第二个审批提示的顶部行、变更的 /config 行或被拒绝计划行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

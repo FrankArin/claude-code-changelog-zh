@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed requests failing behind proxies and gateways that reject one of Claude Code's beta headers with a status other than 400, or together with a second beta",
+  "zh": "修复在拒绝 Claude Code 某个 beta 头（返回非 400 状态码，或与另一个 beta 头一同拒绝）的代理和网关后请求失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

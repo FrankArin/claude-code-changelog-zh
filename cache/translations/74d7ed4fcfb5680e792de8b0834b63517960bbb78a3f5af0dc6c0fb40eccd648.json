@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--include-partial-messages` sending a cut-short reply's `message_stop` late or never, so apps could show the reply as still in progress",
+  "zh": "修复 `--include-partial-messages` 对被截断的回复延迟发送或从不发送 `message_stop`，导致应用将回复显示为仍在进行中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

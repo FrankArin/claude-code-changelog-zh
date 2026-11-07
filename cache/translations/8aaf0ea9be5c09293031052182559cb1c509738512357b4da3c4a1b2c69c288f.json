@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the opt-in New Conversation shortcut (Cmd/Ctrl+N) starting a conversation in every visible Claude view instead of only the one you are in",
+  "zh": "\\[VSCode] 修复可选启用的 New Conversation 快捷键（Cmd/Ctrl+N）会在所有可见的 Claude 视图中新建对话、而不是仅在当前视图中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

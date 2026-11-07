@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Claude in Chrome message in cloud sessions when the browser can't be reached: if you belong to more than one organization, it now says the extension must be signed in to the same one, and how to change that",
+  "zh": "改进了云 session 中无法访问浏览器时 Chrome 中的 Claude 的提示消息：如果你属于多个组织，现在会说明扩展必须登录到同一个组织，以及如何更改",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

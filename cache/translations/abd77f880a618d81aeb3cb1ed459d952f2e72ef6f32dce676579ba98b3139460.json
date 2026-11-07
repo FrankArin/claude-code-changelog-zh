@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Bedrock, Vertex, Mantle: Fixed model availability checks under `CLAUDE_CODE_SKIP_*_AUTH` sending a different `Authorization` header than real requests when `ANTHROPIC_CUSTOM_HEADERS` repeats it",
+  "zh": "Bedrock、Vertex、Mantle：修复在 `CLAUDE_CODE_SKIP_*_AUTH` 下，当 `ANTHROPIC_CUSTOM_HEADERS` 重复设置时，模型可用性检查发送的 `Authorization` 头与真实请求不一致的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

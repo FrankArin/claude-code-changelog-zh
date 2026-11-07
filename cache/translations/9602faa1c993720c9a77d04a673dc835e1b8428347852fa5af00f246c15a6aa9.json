@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the footer's agents count disappearing after a momentary failure to read the sessions folder (for example, too many open files)",
+  "zh": "修复了页脚的 agents 计数在短暂无法读取 sessions 文件夹（例如打开文件过多）后消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

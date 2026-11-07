@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control not receiving messages for minutes at a time when a reconnect request got no response; it now gives up after 30 seconds and retries",
+  "zh": "修复了远程控制在重连请求无响应时可能连续数分钟收不到消息的问题；现在会在 30 秒后放弃并重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

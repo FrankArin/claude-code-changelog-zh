@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed subagents and `--agent` sessions being told a built-in tool was disabled for the whole session when only their own tool list left it out",
+  "zh": "修复了 subagents 和 `--agent` 会话被告知某个内置工具在整个会话中被禁用的问题，而实际上只是它们自己的工具列表未包含该工具",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

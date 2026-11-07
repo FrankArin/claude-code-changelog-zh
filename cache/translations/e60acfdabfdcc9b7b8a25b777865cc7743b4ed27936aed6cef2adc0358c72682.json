@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed editing or duplicating a routine turning off its push notifications when the routine had no saved notification setting",
+  "zh": "\\[Cloud sessions] 修复了在例程没有已保存的通知设置时，编辑或复制例程会关闭其推送通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Slack threads woken only by GitHub pull request activity or a routine staying on their original model after an admin changed the channel or workspace default model",
+  "zh": "\\[Claude Tag] 修复了仅由 GitHub pull request 活动或例程唤醒的 Slack 线程在管理员更改频道或工作区默认模型后仍停留在原模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

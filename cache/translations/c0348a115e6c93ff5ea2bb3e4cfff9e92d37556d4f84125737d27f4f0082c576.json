@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resuming a conversation started on 2.1.286 or earlier dropping the model's earlier thinking",
+  "zh": "修复恢复在 2.1.286 或更早版本中开始的对话时丢失模型先前 thinking 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

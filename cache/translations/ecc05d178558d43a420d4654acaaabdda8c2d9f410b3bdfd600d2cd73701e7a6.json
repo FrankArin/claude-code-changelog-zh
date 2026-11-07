@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--output-format stream-json` and the SDK not streaming the turns of a `context: fork` skill run by typing `/<skill>` as the prompt, as they do for the Skill tool's fork",
+  "zh": "修复 `--output-format stream-json` 和 SDK 在以 `/<skill>` 作为 prompt 输入运行 `context: fork` skill 时，未像 Skill 工具的 fork 那样流式输出各轮次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

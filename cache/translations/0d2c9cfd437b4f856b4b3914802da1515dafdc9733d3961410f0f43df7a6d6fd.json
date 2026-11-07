@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Improved the built-in `gh api`: a refused gh command now prints its `gh api` equivalent, `--paginate` follows every page of a repository's lists, and a nested `claude` no longer removes it",
+  "zh": "自托管运行器：改进内置 `gh api`：被拒绝的 gh 命令现在会打印其对应的 `gh api` 写法，`--paginate` 会跟随仓库列表的每一页，嵌套的 `claude` 不再将其移除",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skills not being found when asked for by the name in SKILL.md when their folder has a different name (for example a non-English name): the skill listing now shows both names",
+  "zh": "修复了当 skill 的文件夹名称与 SKILL.md 中的名称不同（例如非英文名称）时，按 SKILL.md 中的名称查找不到该 skill 的问题：skill 列表现在会同时显示两个名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

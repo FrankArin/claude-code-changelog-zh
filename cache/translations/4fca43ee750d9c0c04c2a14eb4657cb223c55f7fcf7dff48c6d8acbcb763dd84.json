@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed headless `--json-schema` runs exiting non-zero with `is_error: true` on a `success` result when the connection dropped after the structured output was already delivered",
+  "zh": "修复了无头 `--json-schema` 运行在结构化输出已交付后连接断开时，以非零状态退出且 `success` 结果带有 `is_error: true` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

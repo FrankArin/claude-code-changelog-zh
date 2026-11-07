@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `--max-findings <n>|all` to /code-review to report more or fewer findings than the usual limit; the choice is reused until you pass `--max-findings default`",
+  "zh": "为 /code-review 新增 `--max-findings <n>|all`，可报告比通常上限更多或更少的发现；该选择会一直复用，直到传入 `--max-findings default`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

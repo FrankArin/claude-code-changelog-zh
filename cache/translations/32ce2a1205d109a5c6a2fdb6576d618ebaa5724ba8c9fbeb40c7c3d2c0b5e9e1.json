@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the background daemon's log to write a multi-line message as one JSON-quoted line",
+  "zh": "变更后台守护进程的日志：多行消息会写成一行 JSON 引号字符串",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

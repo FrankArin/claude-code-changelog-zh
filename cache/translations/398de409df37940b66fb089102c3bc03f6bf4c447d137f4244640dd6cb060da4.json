@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the background daemon's log passing terminal control characters to the screen under `claude daemon run` and `claude daemon logs`; they now show as `\\uXXXX` escapes",
+  "zh": "修复了后台守护进程日志在 `claude daemon run` 和 `claude daemon logs` 下将终端控制字符传给屏幕的问题；现在显示为 `\\uXXXX` 转义",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

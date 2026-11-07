@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/autocompact` to save the auto-compact window per model, so each model keeps its own setting when you switch",
+  "zh": "变更 `/autocompact`，按模型分别保存自动压缩窗口，切换模型时各自保留自己的设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

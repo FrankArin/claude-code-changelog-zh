@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/ultrareview` upload on Linux wrongly refusing some repositories, such as one inside another checkout, over a settings file that \"could not be parsed\" while a sandboxed command was running",
+  "zh": "修复了 Linux 上 `/ultrareview` 上传因沙箱命令运行期间设置文件“无法解析”而错误拒绝某些仓库（例如位于另一个检出目录内的仓库）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

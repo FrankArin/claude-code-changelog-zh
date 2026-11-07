@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed replies sent from `claude agents` just after a background session crashed being refused after 2 seconds: they are now retried for up to 12 seconds while the session restarts",
+  "zh": "修复在后台 session 刚崩溃后从 `claude agents` 发送的回复会在 2 秒后被拒绝的问题：现在会在 session 重启期间最多重试 12 秒",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

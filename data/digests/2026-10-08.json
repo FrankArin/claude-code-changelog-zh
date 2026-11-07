@@ -2,43 +2,25 @@
   "schema_version": 1,
   "date": "2026-10-08",
   "versions": [
-    "2.1.295"
+    "2.1.295",
+    "2.1.294"
   ],
-  "tldr": "新增 hook 失败阻断、终端状态协议与网关上游控制，并修复大量稳定性问题。",
+  "tldr": "2.1.295 引入 hook 失败阻断、终端状态协议与网关上游控制，并含 MCP 协议协商默认变更等破坏性变更；2.1.294 修复 hook 放行问题。",
   "highlights": [
     {
-      "title": "Hook 失败可阻断操作",
-      "category": "新功能",
-      "detail": "命令和 HTTP hook 支持 onFailure: \"block\"，无法启动、超时或异常退出的 hook 会阻止该操作而非放行。",
-      "action": null,
-      "example": null,
+      "title": "MCP 协议协商默认变更",
+      "category": "破坏性变更",
+      "detail": "claude.ai connector 在未获取 flag 的安装中默认协商 MCP 协议版本 2026-07-28，旧服务端可能不兼容。",
+      "action": "如遇兼容问题，设置 MCP_PROTOCOL_NEGOTIATION=legacy 回退。",
+      "example": {
+        "lang": "bash",
+        "code": "MCP_PROTOCOL_NEGOTIATION=legacy",
+        "caption": "回退到旧版 MCP 协议协商"
+      },
+      "version": "2.1.295",
       "item_ids": [
-        "2.1.295-added-1"
-      ],
-      "version": "2.1.295"
-    },
-    {
-      "title": "终端状态协议支持",
-      "category": "新功能",
-      "detail": "支持 OSC 7501，兼容终端可显示 Claude Code 正在工作、等待操作或已完成。",
-      "action": null,
-      "example": null,
-      "item_ids": [
-        "2.1.295-added-2"
-      ],
-      "version": "2.1.295"
-    },
-    {
-      "title": "网关上游超时与模型过滤",
-      "category": "新功能",
-      "detail": "网关新增 timeouts.upstream_ttfb_ms 限制上游首字节等待，并支持按上游配置 models 列表（含 * 通配符）。",
-      "action": null,
-      "example": null,
-      "item_ids": [
-        "2.1.295-added-6",
-        "2.1.295-added-8"
-      ],
-      "version": "2.1.295"
+        "2.1.295-changed-22"
+      ]
     },
     {
       "title": "Bedrock token 计数需新权限",
@@ -50,25 +32,45 @@
         "code": "/context",
         "caption": "命令示例"
       },
+      "version": "2.1.295",
       "item_ids": [
         "2.1.295-improvements-34"
-      ],
-      "version": "2.1.295"
+      ]
     },
     {
-      "title": "MCP 协议协商默认变更",
-      "category": "破坏性变更",
-      "detail": "claude.ai connector 在未获取 flag 的安装中默认协商 MCP 协议版本 2026-07-28，旧服务端可能不兼容。",
-      "action": "如遇兼容问题，设置 MCP_PROTOCOL_NEGOTIATION=legacy 回退。",
-      "example": {
-        "lang": "bash",
-        "code": "MCP_PROTOCOL_NEGOTIATION=legacy",
-        "caption": "回退到旧版 MCP 协议协商"
-      },
+      "title": "Hook 失败可阻断操作",
+      "category": "新功能",
+      "detail": "命令和 HTTP hook 支持 onFailure: \"block\"，无法启动、超时或异常退出的 hook 会阻止该操作而非放行。",
+      "action": null,
+      "example": null,
+      "version": "2.1.295",
       "item_ids": [
-        "2.1.295-changed-22"
-      ],
-      "version": "2.1.295"
+        "2.1.295-added-1"
+      ]
+    },
+    {
+      "title": "修复 hook 放行被阻止操作",
+      "category": "修复",
+      "detail": "以指令形式编写的 prompt 和 agent hook 此前会放行本应阻止的操作，现已修复，hook 拦截更可靠。",
+      "action": null,
+      "example": null,
+      "version": "2.1.294",
+      "item_ids": [
+        "2.1.294-other-1"
+      ]
+    },
+    {
+      "title": "终端状态协议与网关上游控制",
+      "category": "新功能",
+      "detail": "支持 OSC 7501 显示工作/等待/完成状态；网关新增 timeouts.upstream_ttfb_ms 限制上游首字节等待，并支持按上游配置 models 列表（含 * 通配符）。",
+      "action": null,
+      "example": null,
+      "version": "2.1.295",
+      "item_ids": [
+        "2.1.295-added-2",
+        "2.1.295-added-6",
+        "2.1.295-added-8"
+      ]
     },
     {
       "title": "修复 1m 模型请求失败",
@@ -80,12 +82,12 @@
         "code": "[1m]",
         "caption": "配置示例"
       },
+      "version": "2.1.295",
       "item_ids": [
         "2.1.295-fixes-47"
-      ],
-      "version": "2.1.295"
+      ]
     }
   ],
   "breaking": true,
-  "summary_hash": "7cabf5a5428de18b4f4177af10c38a0f0f304b10ac8a40c24f57df79f9e8280f"
+  "summary_hash": "bc69d6d9582882139a43145184a1e8854dbc5c1acbebf14470cf4fe82e99b98e"
 }

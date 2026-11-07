@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a notebook or PDF read on macOS and Windows being able to return a file outside what was approved, through a link swapped in mid-read",
+  "zh": "修复了在 macOS 和 Windows 上读取 notebook 或 PDF 时，通过读取中途替换的链接返回已批准范围之外文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin hooks reading an empty `answer` on `turn.complete` for a subagent that hands its report back in auto mode",
+  "zh": "修复了 plugin hooks 在 `turn.complete` 时读取到空 `answer` 的问题：该 subagent 在自动模式下交回其报告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

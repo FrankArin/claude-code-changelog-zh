@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude leaving out your organization's design systems when starting slides or a design with the Artifact tool on Team and Enterprise plans or machines with managed settings",
+  "zh": "修复了在 Team 和 Enterprise 计划或配置了托管设置的机器上，使用 Artifact 工具开始幻灯片或设计时，Claude 遗漏你组织的设计系统的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved MCP startup in headless mode: a remote server whose first connect fails transiently is now retried without waiting for the slowest server to finish connecting",
+  "zh": "改进无头模式下的 MCP 启动：首次连接出现瞬时失败的远程服务器现在会重试，而无需等待最慢的服务器完成连接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed mid-response API timeouts failing the turn: non-interactive sessions and subagents now continue from the partial response, and thinking-only responses are retried",
+  "zh": "修复响应中途 API 超时导致本轮失败的问题：非交互式 session 和 subagent 现在会从部分响应继续，仅有 thinking 的响应会重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

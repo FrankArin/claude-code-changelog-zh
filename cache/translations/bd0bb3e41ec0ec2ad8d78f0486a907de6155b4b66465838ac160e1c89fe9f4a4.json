@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin `tool.call` hooks seeing some tool calls before misnamed parameters were repaired; a hook now sees the arguments the tool will run with",
+  "zh": "修复 plugin 的 `tool.call` hooks 在参数名错误被修复前就看到部分工具调用的问题；现在 hook 看到的是工具实际运行所用的参数",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

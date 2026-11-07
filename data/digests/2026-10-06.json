@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-06",
+  "versions": [
+    "2.1.292",
+    "2.1.291"
+  ],
+  "tldr": "2.1.292 新增插件安装指定市场与 Agent effort 参数，本地 MCP 默认协商新协议（破坏性变更），并修复多项权限绕过安全问题；2.1.291 修复云端会话权限回复丢失与退出时消息丢失两个回归。",
+  "highlights": [
+    {
+      "title": "本地 MCP 默认新协议",
+      "category": "破坏性变更",
+      "detail": "stdio MCP 服务器连接默认协商 2026-07-28 协议版本，旧服务器可能受影响。",
+      "action": "若本地 MCP 服务器不兼容，设置 MCP_PROTOCOL_NEGOTIATION=legacy 退回旧行为。",
+      "example": {
+        "lang": "bash",
+        "code": "MCP_PROTOCOL_NEGOTIATION=legacy",
+        "caption": "退出新协议协商"
+      },
+      "version": "2.1.292",
+      "item_ids": [
+        "2.1.292-changed-9"
+      ]
+    },
+    {
+      "title": "UNC 路径权限绕过修复",
+      "category": "安全",
+      "detail": "修复从网络（UNC）路径读取文件时 PreToolUse hook 批准与自动模式绕过权限提示的问题。",
+      "action": null,
+      "example": null,
+      "version": "2.1.292",
+      "item_ids": [
+        "2.1.292-fixes-35"
+      ]
+    },
+    {
+      "title": "沙箱与符号链接越权修复",
+      "category": "安全",
+      "detail": "修复沙箱读取暂存文件、托管沙箱路径重定向及 macOS/Windows 读取中途替换链接导致越权访问的问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/ultrareview",
+        "caption": "命令示例"
+      },
+      "version": "2.1.292",
+      "item_ids": [
+        "2.1.292-fixes-30",
+        "2.1.292-fixes-31",
+        "2.1.292-fixes-32"
+      ]
+    },
+    {
+      "title": "插件安装支持指定市场",
+      "category": "新功能",
+      "detail": "claude plugin install 新增 --marketplace，可按需添加市场并沿用相同策略检查后安装插件。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin install",
+        "caption": "命令示例"
+      },
+      "version": "2.1.292",
+      "item_ids": [
+        "2.1.292-added-1"
+      ]
+    },
+    {
+      "title": "Agent 工具新增 effort 参数",
+      "category": "新功能",
+      "detail": "可指定 subagent 运行的 effort 级别，便于按任务复杂度控制投入。",
+      "action": null,
+      "example": null,
+      "version": "2.1.292",
+      "item_ids": [
+        "2.1.292-added-2"
+      ]
+    },
+    {
+      "title": "修复云端会话权限回复丢失与退出时消息丢失",
+      "category": "修复",
+      "detail": "修复 2.1.290 引入的云端 session 权限提示回复丢失回归，以及 2.1.288 引入的退出时 session 最后几条消息丢失回归。",
+      "action": null,
+      "example": null,
+      "version": "2.1.291",
+      "item_ids": [
+        "2.1.291-other-1",
+        "2.1.291-other-2"
+      ]
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "5f3e2b0eda21739ccbb2eaa11f24f42dc26158bb18d7f12274e9e0795a8ba81d"
+}

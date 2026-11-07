@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a claude.ai-synced skill's edited description sometimes not reaching the model until a new conversation or `/clear`",
+  "zh": "修复了从 claude.ai 同步的 skill 的已编辑描述有时要等到新对话或 `/clear` 后才传给模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

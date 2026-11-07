@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the agent map showing a nested sub-agent with \"Tool calls (0)\" and placing the agents it starts under the main agent",
+  "zh": "\\[VSCode] 修复 agent 图将嵌套 subagent 显示为“Tool calls (0)”并将其启动的 agents 置于主 agent 下的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

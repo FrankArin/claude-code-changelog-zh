@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Edit and Retry in Cowork cloud sessions refusing a message sent before `/compact` even though its history was still saved",
+  "zh": "修复了 Cowork 云 session 中的 Edit and Retry 拒绝在 `/compact` 之前发送的消息的问题，即使其历史记录仍已保存",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

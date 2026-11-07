@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the branch switch dialog offering to switch when it could not check for uncommitted changes",
+  "zh": "\\[VSCode] 修复分支切换对话框在无法检查未提交更改时仍提供切换选项的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

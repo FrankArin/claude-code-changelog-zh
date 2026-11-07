@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "version": "2.1.291",
+  "date": "2026-10-06",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "bb6a0da0a503bf594eaafe0a8640ffa1bf60cac002aa8240f7b76ab678d1c08c",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T04:45:54+00:00"
+  },
+  "groups": [
+    {
+      "kind": "other",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.291-other-1",
+          "en": "Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts",
+          "zh": "修复了 2.1.290 中的一处回归问题：云端 session 可能丢失对权限提示的回复",
+          "hash": "e010c7ef42620d0bb8068a956f395b8004a75d6632e7891448672dbb67ccb97e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.291-other-2",
+          "en": "Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
+          "zh": "修复了 2.1.288 中的一处回归问题：退出时 session 的最后几条消息可能丢失",
+          "hash": "1ca2c93309b222663c4d1be89d3cb9906f4007ac593bae86002c901b44f7f5a6",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "修复两个回归问题：云端会话权限回复丢失、退出时会话末尾消息丢失。",
+    "highlights": [
+      {
+        "title": "修复云端会话权限回复丢失",
+        "category": "修复",
+        "detail": "修复 2.1.290 引入的回归：云端 session 可能丢失对权限提示的回复，影响权限确认流程。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.291-other-1"
+        ]
+      },
+      {
+        "title": "修复退出时消息丢失",
+        "category": "修复",
+        "detail": "修复 2.1.288 引入的回归：退出时 session 最后几条消息可能丢失，影响会话记录完整性。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.291-other-2"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

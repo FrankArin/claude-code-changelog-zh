@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a cloud session showing a turn that never ended when its worker was stopped just as the turn finished",
+  "zh": "修复云 session 在回合刚结束时其 worker 被停止、却显示一个永不结束的回合的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

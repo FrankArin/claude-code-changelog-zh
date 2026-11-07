@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a crash (\"Maximum call stack size exceeded\") when a response nested lists or quotes thousands of levels deep",
+  "zh": "修复了响应中列表或引号嵌套数千层时导致的崩溃（“Maximum call stack size exceeded”）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "versions": [
+    "2.1.287"
+  ],
+  "tldr": "新增 Claude Mods 与 You should know 内置 mod，Opus 4.7+ 默认 1M 上下文，大量修复与体验改进。",
+  "highlights": [
+    {
+      "title": "新增 Claude Mods 与内置 mod",
+      "category": "新功能",
+      "detail": "plugin 可修改更深层行为；内置 mod“You should know”由侧边 agent 标记遗漏内容，需手动开启。",
+      "action": "如需启用，运行 /plugin enable cc-plugin-you-should-know@builtin（仅限开启遥测的第一方 session）。",
+      "example": {
+        "lang": "bash",
+        "code": "/plugin enable cc-plugin-you-should-know@builtin",
+        "caption": "开启内置 mod"
+      },
+      "item_ids": [
+        "2.1.287-added-1",
+        "2.1.287-added-2"
+      ],
+      "version": "2.1.287"
+    },
+    {
+      "title": "Opus 4.7+ 默认 1M 上下文",
+      "category": "改进",
+      "detail": "Bedrock、Vertex、Foundry 和 Claude 应用网关上 Opus 4.7+ 与 Fable 默认使用 1M 上下文，无需 [1m] 后缀。",
+      "action": "若需保持 200K，设置 CLAUDE_CODE_DISABLE_1M_CONTEXT=1。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_1M_CONTEXT=1",
+        "caption": "保持 200K 上下文"
+      },
+      "item_ids": [
+        "2.1.287-changed-11"
+      ],
+      "version": "2.1.287"
+    },
+    {
+      "title": "MCP URL prompt 与兼容开关",
+      "category": "新功能",
+      "detail": "支持 2025-11-25 协议中的 MCP 服务器 URL prompt（如登录）；个别服务器更新后可能无法连接。",
+      "action": "若某服务器无法连接，在其 MCP 配置项中添加 \"bareElicitationCapability\": true。",
+      "example": null,
+      "item_ids": [
+        "2.1.287-added-5"
+      ],
+      "version": "2.1.287"
+    },
+    {
+      "title": "敏感写入需人工确认",
+      "category": "安全",
+      "detail": "经符号链接写入敏感文件或写出工作树的 shell 写入，以及整工具 Bash 允许规则命中的敏感路径写入，现在会标明落点并等待确认。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.287-changed-10",
+        "2.1.287-changed-13"
+      ],
+      "version": "2.1.287"
+    },
+    {
+      "title": "agents 视图与斜杠命令行为变更",
+      "category": "改进",
+      "detail": "agents 视图新增 n:<text> 过滤器并显示折叠分组内匹配项；claude agents 回复改为排队消息，轮次中发送的斜杠命令延后执行。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude agents",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.287-added-3",
+        "2.1.287-changed-12"
+      ],
+      "version": "2.1.287"
+    },
+    {
+      "title": "多项稳定性修复",
+      "category": "修复",
+      "detail": "修复远程控制重连卡死、Bedrock/Vertex 模型检查忽略 availableModels、危险 rm 丢失询问保护、屏幕阅读器模式多处问题等。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/model",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.287-fixes-41",
+        "2.1.287-fixes-44",
+        "2.1.287-fixes-49",
+        "2.1.287-fixes-63"
+      ],
+      "version": "2.1.287"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "142d40a1cf6f607bd6ed880ed9e34b91e4c8ac1dd9895f0b5c350bdf0f0c4d2e"
+}

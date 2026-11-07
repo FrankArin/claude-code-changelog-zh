@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed tool-row file links, session-list links and two hints showing in plain text",
+  "zh": "\\[VSCode] 修复工具行中的文件链接、session 列表链接和两处提示以纯文本显示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

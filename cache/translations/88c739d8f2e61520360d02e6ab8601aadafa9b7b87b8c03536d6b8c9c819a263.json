@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Grep and Glob reporting no matches when the file or folder they were given could not be read; Claude now retries once or tells you",
+  "zh": "修复了 Grep 和 Glob 在无法读取所给文件或文件夹时报告无匹配的问题；Claude 现在会重试一次或告知你",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

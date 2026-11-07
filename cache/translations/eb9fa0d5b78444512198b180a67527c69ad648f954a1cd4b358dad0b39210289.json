@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added workflow agents to the `agent.spawn` mod hook, with their run and index, so a mod can refuse them",
+  "zh": "为 `agent.spawn` mod hook 新增 workflow agents，附带其运行和索引，使 mod 可以拒绝它们",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

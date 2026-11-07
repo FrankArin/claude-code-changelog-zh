@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `--marketplace <source>` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it",
+  "zh": "为 `claude plugin install` 新增 `--marketplace <source>`：按需添加 marketplace，遵循与 `claude plugin marketplace add` 相同的策略检查，然后从中安装 plugin",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

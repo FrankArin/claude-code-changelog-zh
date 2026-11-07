@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed History on a never-run routine's page still saying \"No runs yet\" after you pressed Run now; it now shows the new run",
+  "zh": "\\[Cloud sessions] 修复了从未运行过的例程页面上，点击“立即运行”后历史记录仍显示“尚无运行记录”的问题；现在会显示新的运行记录",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a folder's CLAUDE.md being attached a second time after resuming a session or after a compaction",
+  "zh": "修复了恢复 session 或上下文压缩后，文件夹的 CLAUDE.md 被再次附加的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

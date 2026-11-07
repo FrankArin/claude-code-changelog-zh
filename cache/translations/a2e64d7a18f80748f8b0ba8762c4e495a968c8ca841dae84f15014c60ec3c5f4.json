@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+  "zh": "改进了对 Stop 和 SubagentStop 上以指令形式编写（如“如果构建失败就继续”）的 `prompt` hook 的判定方式，使 Claude 更不容易提前停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:44:33+00:00"
+}

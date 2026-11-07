@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the effort level changing when a flagged message is retried on a fallback model that has a different level saved in settings",
+  "zh": "修复了被标记的消息在回退模型上重试时 effort 级别发生变化的问题：该模型在设置中保存了不同的级别",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude purge` stopping silently (exit 0, or a hang in a terminal) when a file or folder could not be deleted; it now deletes the rest, lists what it could not delete, and exits 1",
+  "zh": "修复了 `claude purge` 在无法删除文件或文件夹时静默停止的问题（退出码为 0，或在终端中卡住）；现在会删除其余内容、列出无法删除的项并以退出码 1 退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

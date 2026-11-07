@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed LSP tool calls hanging indefinitely when a language server uses dynamic capability registration or stops responding; requests now time out after 60s (per-server `requestTimeout`)",
+  "zh": "修复了当语言服务器使用动态能力注册或停止响应时，LSP 工具调用无限挂起的问题；请求现在会在 60 秒后超时（按服务器配置的 `requestTimeout`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

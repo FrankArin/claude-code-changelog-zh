@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `←` backgrounding a session after 10 seconds while the prompt held unsent text (it now cancels the move) or a question was waiting for your answer",
+  "zh": "修复了 prompt 中仍有未发送文本时按 `←` 将 session 转入后台需等待 10 秒的问题（现在会取消该操作），以及有提问等待回答时同样存在的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

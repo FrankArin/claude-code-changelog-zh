@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cloud sessions that restarted on a newly picked model replying with that model after the server refused it",
+  "zh": "修复在重新选择模型后重启的云 session 在服务器拒绝该模型后仍以该模型回复的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

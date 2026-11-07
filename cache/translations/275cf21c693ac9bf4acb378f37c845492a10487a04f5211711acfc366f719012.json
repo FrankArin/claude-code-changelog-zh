@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed finding comments and their \"Why this was flagged\" text stopping mid-sentence; they now end on a complete sentence",
+  "zh": "\\[Code Review] 修复发现评论及其“Why this was flagged”文本在句子中途截断的问题；现在会以完整句子结尾",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

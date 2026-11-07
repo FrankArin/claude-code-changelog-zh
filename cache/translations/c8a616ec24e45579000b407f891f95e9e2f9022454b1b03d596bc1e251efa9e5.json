@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash permission checks not applying Read deny rules or the outside-directory read block to a wildcard in some option values of read-only commands",
+  "zh": "修复了 Bash 权限检查在某些只读命令的选项值中遇到通配符时，未应用 Read 拒绝规则或目录外读取拦截的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

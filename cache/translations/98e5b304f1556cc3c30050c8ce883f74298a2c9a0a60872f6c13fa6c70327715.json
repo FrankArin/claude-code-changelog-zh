@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/claude-api managed-agents-onboard <url>` to set up the Managed Agents pattern a page describes as `ant apply` files",
+  "zh": "新增 `/claude-api managed-agents-onboard <url>`，用于按页面描述的 `ant apply` 文件搭建 Managed Agents 模式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

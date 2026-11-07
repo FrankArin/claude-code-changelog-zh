@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved delivery of files Claude sends from cloud sessions and Remote Control: an upload that fails on a timeout, a network error or a 502, 503 or 504 is now retried once",
+  "zh": "改进 Claude 从 cloud session 和 Remote Control 发送文件的投递：因超时、网络错误或 502、503、504 而失败的上传现在会重试一次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

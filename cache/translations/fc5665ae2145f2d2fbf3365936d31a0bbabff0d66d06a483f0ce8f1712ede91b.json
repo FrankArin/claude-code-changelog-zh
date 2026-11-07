@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/config`: settings that cycle show ‹ › and step both ways with ←/→, narrow terminals stack each value under its label, and PgUp/PgDn page the list",
+  "zh": "改进 `/config`：可循环切换的设置会显示 ‹ ›，并可用 ←/→ 双向切换；窄终端下每个值堆叠在其标签下方；PgUp/PgDn 可翻页列表",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

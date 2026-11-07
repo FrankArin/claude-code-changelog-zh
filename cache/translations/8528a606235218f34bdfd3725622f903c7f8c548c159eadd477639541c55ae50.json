@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed supervised and background sessions ending when a plugin's on-screen handler threw asynchronously",
+  "zh": "修复当 plugin 的屏幕内处理器异步抛出异常时，受监督的 session 和后台 session 结束的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:38+00:00"
+}

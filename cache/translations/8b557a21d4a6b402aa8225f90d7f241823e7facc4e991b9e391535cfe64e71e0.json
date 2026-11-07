@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed what a mod's `$.process.spawn` rejects with when another mod denies it after the child ran: it now says the call ran and a plugin withheld its result",
+  "zh": "变更 mod 的 `$.process.spawn` 在子进程已运行后又被另一个 mod 拒绝时的报错内容：现在会说明该调用已执行，且某个 plugin 扣留了其结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

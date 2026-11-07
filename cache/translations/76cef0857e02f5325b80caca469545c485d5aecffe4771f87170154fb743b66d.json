@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed URL allow and deny patterns with a wildcard inside an `xn--` host label matching differently from one process to the next",
+  "zh": "修复了 `xn--` 主机标签内包含通配符的 URL 允许和拒绝模式在不同进程间匹配结果不一致的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

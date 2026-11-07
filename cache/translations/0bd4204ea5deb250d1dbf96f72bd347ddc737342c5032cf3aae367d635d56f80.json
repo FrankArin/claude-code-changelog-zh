@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a large paste expanded in place being sent to the model as typed text after the next keystroke when it held accents stored as separate characters, as macOS file names do",
+  "zh": "修复当大段粘贴内容包含以独立字符存储的重音符号（如 macOS 文件名中的情况）时，原地展开后在下一次按键时被作为键入文本发送给模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

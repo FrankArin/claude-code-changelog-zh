@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/login` in a `--bare` session running a sign-in the session never reads, which could replace your saved login; it now says which credentials work",
+  "zh": "修复了 `--bare` session 中的 `/login` 执行了该 session 从不读取的登录、可能替换你已保存登录信息的问题；现在会说明哪些凭据可用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed two pastes that overlap in one prompt being sent to the model partly as typed text instead of as one pasted block",
+  "zh": "修复了同一 prompt 中两段相互重叠的粘贴内容被部分作为键入文本而非一个粘贴块发送给模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

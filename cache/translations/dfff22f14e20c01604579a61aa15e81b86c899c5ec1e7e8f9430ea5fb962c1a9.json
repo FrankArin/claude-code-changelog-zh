@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `agentId` to the `tool.check` event of plugin hooks, so a hook can tell a subagent's permission check from the main session's",
+  "zh": "在 plugin hooks 的 `tool.check` 事件中新增 `agentId`，使 hook 能区分 subagent 的权限检查与主 session 的权限检查",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

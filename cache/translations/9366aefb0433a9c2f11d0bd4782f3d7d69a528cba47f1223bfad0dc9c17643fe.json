@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP URL prompts from servers that can't report when you're done to wait for \"I'm done, continue\" before the tool call continues, so you can finish in the browser first",
+  "zh": "变更无法报告你何时完成的 server 所发出的 MCP URL 提示，改为等待“I'm done, continue”后工具调用才继续，以便你先在浏览器中完成操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

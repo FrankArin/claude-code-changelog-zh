@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed the working indicator in a cloud session spinning on for several seconds after Claude's reply had finished; it now stops with the reply",
+  "zh": "\\[Cloud sessions] 修复了云 session 中工作指示器在 Claude 回复结束后仍持续旋转数秒的问题；现在它会随回复一起停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

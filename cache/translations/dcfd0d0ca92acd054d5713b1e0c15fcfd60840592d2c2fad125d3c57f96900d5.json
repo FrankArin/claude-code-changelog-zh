@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Cowork cloud sessions staying marked as waiting for input after a WebFetch permission prompt for an unapproved URL went unanswered for five minutes",
+  "zh": "修复 Cowork 云 session 在针对未批准 URL 的 WebFetch 权限提示五分钟内无人应答后，仍标记为等待输入的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

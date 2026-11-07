@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude being told to page large MCP results saved as JSON with Read's offset and limit, which cannot split one long line",
+  "zh": "修复了 Claude 被指示使用 Read 的 offset 和 limit 分页读取保存为 JSON 的大型 MCP 结果的问题，因为这种方式无法拆分单个长行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

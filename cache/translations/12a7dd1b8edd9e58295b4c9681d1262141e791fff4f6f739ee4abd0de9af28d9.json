@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how quickly large files open in a plugin code pane by laying the highlighted view out once at its final width",
+  "zh": "改进 plugin 代码窗格中大文件的打开速度：高亮视图按最终宽度一次性布局",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:38+00:00"
+}

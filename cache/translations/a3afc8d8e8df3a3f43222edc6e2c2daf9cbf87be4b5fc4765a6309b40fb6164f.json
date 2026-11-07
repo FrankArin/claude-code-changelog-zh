@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed skills and custom commands to refuse a `!` shell command that contains raw control characters other than tab and newline, with a message that shows where they are",
+  "zh": "变更 skills 和自定义命令：拒绝包含除制表符和换行符以外原始控制字符的 `!` shell 命令，并提示这些字符所在的位置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed session titles, memory recall and prompt hooks failing on Mantle or behind gateways that reject structured outputs; added `CLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTS` to turn structured outputs off",
+  "zh": "修复在 Mantle 上或经由拒绝结构化输出的网关时，session 标题、记忆召回和 prompt hook 失败的问题；新增 `CLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTS` 以关闭结构化输出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

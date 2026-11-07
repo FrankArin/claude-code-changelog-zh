@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Remote Control] Fixed a computer that just started Remote Control taking up to a minute to appear in the Remote Control menu of a new session; it now appears within seconds",
+  "zh": "\\[Remote Control] 修复了刚启动 Remote Control 的计算机最多需要一分钟才出现在新 session 的 Remote Control 菜单中的问题；现在几秒内即可出现",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

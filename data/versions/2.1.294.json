@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "version": "2.1.294",
+  "date": "2026-10-08",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "6b262593d9ace1ed4c0428af10dd959f34bc5ff15ecae31b9825c331e12689e7",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-07T04:44:33+00:00"
+  },
+  "groups": [
+    {
+      "kind": "other",
+      "heading_en": "Changes",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.294-other-1",
+          "en": "Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block",
+          "zh": "修复了以指令形式编写（如“阻止执行……的命令”）的 `prompt` 和 `agent` hook 会放行本应阻止的操作的问题",
+          "hash": "6b45c62a01c9be49b3d88e8f29ea47eb2ddf5a40f4b5aaba50442598a16da9de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.294-other-2",
+          "en": "Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+          "zh": "改进了对 Stop 和 SubagentStop 上以指令形式编写（如“如果构建失败就继续”）的 `prompt` hook 的判定方式，使 Claude 更不容易提前停止",
+          "hash": "4252ca0418c9fcc5e4eda486c5e8b6aa434b5e8ae8c58c6ff97abc3ed3edb44e",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "修复指令式 prompt/agent hook 放行本应阻止操作的问题，并改进 Stop hook 判定。",
+    "highlights": [
+      {
+        "title": "修复 hook 放行被阻止操作",
+        "category": "修复",
+        "detail": "以指令形式编写的 prompt 和 agent hook 此前会放行本应阻止的操作，现已修复，hook 拦截更可靠。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.294-other-1"
+        ]
+      },
+      {
+        "title": "改进 Stop hook 判定",
+        "category": "改进",
+        "detail": "Stop 和 SubagentStop 上指令式 prompt hook 的判定方式已优化，Claude 更不容易在任务未完成时提前停止。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.294-other-2"
+        ]
+      }
+    ],
+    "breaking": false
+  }
+}

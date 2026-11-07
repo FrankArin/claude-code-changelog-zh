@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin validate` listing a `$.state` value read through a top-level `var` that was declared again or reassigned; such a module is now refused",
+  "zh": "修复 `claude plugin validate` 列出通过顶层 `var` 读取的 `$.state` 值的问题，该 `var` 曾被重复声明或重新赋值；此类模块现在会被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved MCP startup behind a network proxy: a server the proxy blocks (HTTP 403) is no longer retried three times",
+  "zh": "改进网络代理后的 MCP 启动：被代理拦截（HTTP 403）的服务器不再重试三次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

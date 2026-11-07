@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "versions": [
+    "2.1.290"
+  ],
+  "tldr": "新增 mod hook 字段与 attach/logs 命令，调整多项权限与配置行为，并修复大量卡死与安全问题。",
+  "highlights": [
+    {
+      "title": "新增 mod hook 字段与类型",
+      "category": "新功能",
+      "detail": "turn.step 增加 serverToolUses，tool.check 增加 agentId 与 ceiling，并新增 ThemeKey/Color 类型，便于 mod 区分 subagent 权限与主题配色。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.290-added-1",
+        "2.1.290-added-2",
+        "2.1.290-added-3",
+        "2.1.290-added-4"
+      ],
+      "version": "2.1.290"
+    },
+    {
+      "title": "按名称操作 session",
+      "category": "新功能",
+      "detail": "claude attach 与 claude logs 支持用 session 名称的一部分代替 id，减少查找完整 id 的麻烦。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude attach <name>",
+        "caption": "用名称片段附加到 session"
+      },
+      "item_ids": [
+        "2.1.290-added-7"
+      ],
+      "version": "2.1.290"
+    },
+    {
+      "title": "项目设置不再能开启 Chrome",
+      "category": "破坏性变更",
+      "detail": "Claude in Chrome 不再由项目设置文件开启，需改用 --chrome、/chrome 或用户设置。",
+      "action": "若依赖项目设置启用 Chrome，请改用 --chrome、/chrome 或用户级设置。",
+      "example": {
+        "lang": "bash",
+        "code": "/chrome",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.290-changed-17"
+      ],
+      "version": "2.1.290"
+    },
+    {
+      "title": "附件开关与网关主机限制",
+      "category": "破坏性变更",
+      "detail": "仓库设置不再能设置 CLAUDE_CODE_DISABLE_ATTACHMENTS；云 session 中 gh api 拒绝 GH_HOST/GH_REPO 指向的非 github.com 主机。",
+      "action": "改用 shell、用户或托管设置配置该变量；访问其他主机请用 --hostname 或完整 URL。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_ATTACHMENTS",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.290-changed-34",
+        "2.1.290-changed-36"
+      ],
+      "version": "2.1.290"
+    },
+    {
+      "title": "权限检查更严格",
+      "category": "改进",
+      "detail": "pyright、更多 ps 形式及含通配符展开的只读命令改为请求批准；修复变量前缀、PreToolUse 改写输入等绕过权限规则的问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "git grep",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.290-changed-18",
+        "2.1.290-changed-23",
+        "2.1.290-fixes-124",
+        "2.1.290-fixes-164"
+      ],
+      "version": "2.1.290"
+    },
+    {
+      "title": "修复卡死与越界读取",
+      "category": "修复",
+      "detail": "修复超长消息、密钥扫描、大段粘贴与工具输出导致的卡顿，以及符号链接中途替换可读取批准范围外文件的问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.290-fixes-92",
+        "2.1.290-fixes-96",
+        "2.1.290-fixes-106",
+        "2.1.290-fixes-151"
+      ],
+      "version": "2.1.290"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "1dec14a4f5b5210318a38995bc815c0a109181bb531aab78beb45b52ae81f800"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a skill name in pasted text being treated as typed when an accent typed or pasted right after the paste merged into its last letter",
+  "zh": "修复了粘贴后紧接着输入或粘贴的重音字符并入最后一个字母时，粘贴文本中的 skill 名称被当作手动输入的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

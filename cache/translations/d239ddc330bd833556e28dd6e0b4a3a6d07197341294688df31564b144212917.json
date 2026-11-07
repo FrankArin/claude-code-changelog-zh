@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the npm auto-updater reporting success when the platform-native binary failed to download and only the placeholder `claude` stub was installed",
+  "zh": "修复了 npm 自动更新器在平台原生二进制下载失败、仅安装了占位 `claude` 存根时仍报告成功的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

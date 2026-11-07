@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed path-scoped rules and nested CLAUDE.md files not loading when Claude views a file with a single-file cat, head, tail, sed -n or grep command in the Bash tool instead of the Read tool",
+  "zh": "修复了 Claude 在 Bash 工具中通过单文件 cat、head、tail、sed -n 或 grep 命令（而非 Read 工具）查看文件时，路径作用域规则和嵌套 CLAUDE.md 文件未加载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

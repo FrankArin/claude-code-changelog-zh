@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error shown when a cloud session is started without a claude.ai sign-in: it now names `claude auth login` and /login and no longer blames API-key authentication",
+  "zh": "改进未登录 claude.ai 就启动云 session 时显示的错误：现在会指明 `claude auth login` 和 /login，不再归咎于 API 密钥认证",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

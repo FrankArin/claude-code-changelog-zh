@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/advisor` pairing checks: Sonnet 5.5 can now advise Opus 4.7 and 4.8, and advisors the API would refuse are flagged up front instead of being silently dropped",
+  "zh": "修复了 `/advisor` 配对检查：Sonnet 5.5 现在可以为 Opus 4.7 和 4.8 提供建议，API 会拒绝的 advisor 会提前标记出来，而不是被静默丢弃",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

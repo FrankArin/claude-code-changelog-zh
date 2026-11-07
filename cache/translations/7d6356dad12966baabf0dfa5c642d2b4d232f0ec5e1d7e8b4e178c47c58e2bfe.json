@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed background sessions waiting on a scheduled wakeup (`/loop`): they are now left running through updates and low memory, where being restarted or shut down could silently lose the wakeup",
+  "zh": "变更等待计划唤醒（`/loop`）的后台 session：现在在更新和内存不足时保持运行，因为重启或关闭可能静默丢失唤醒",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

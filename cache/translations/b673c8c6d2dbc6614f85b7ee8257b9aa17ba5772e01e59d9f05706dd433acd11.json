@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the interactive session's WebSearch budget to refill over time (100 calls/hour; `CLAUDE_CODE_WEB_SEARCH_REFILLS_PER_HOUR` sets the rate, 0 turns it off) instead of ending after 200 calls",
+  "zh": "变更交互式 session 的 WebSearch 预算，改为随时间补充（每小时 100 次调用；`CLAUDE_CODE_WEB_SEARCH_REFILLS_PER_HOUR` 设置速率，设为 0 则关闭），而不是在 200 次调用后结束",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

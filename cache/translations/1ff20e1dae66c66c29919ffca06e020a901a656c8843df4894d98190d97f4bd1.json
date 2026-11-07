@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal",
+  "zh": "为镜像中没有 GitHub CLI 的云 session 新增内置 `gh api`，并修复内置命令会把文件名、jq 过滤器或 GitHub 错误中的控制字符发送到终端的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

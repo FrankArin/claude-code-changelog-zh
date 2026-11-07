@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed stopping a status line, hook, or shell command sometimes terminating an unrelated process that had been given the same process ID",
+  "zh": "Windows：修复了停止状态栏、hook 或 shell 命令时，有时会终止被分配了相同进程 ID 的无关进程的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

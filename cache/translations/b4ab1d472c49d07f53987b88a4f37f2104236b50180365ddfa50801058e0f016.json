@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a plugin's served `$` method restarting the hook origin, which could run a guard hook with a `.catch` above it again without end",
+  "zh": "修复 plugin 提供的 `$` 方法重启 hook 源的问题，该问题可能导致带有上方 `.catch` 的 guard hook 无休止地重复运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a tab restored after a reload starting a second Claude process on a conversation the side bar already has open; it now shows the \"still open somewhere else\" notice",
+  "zh": "\\[VSCode] 修复重新加载后恢复的标签页在侧边栏已打开的对话上启动第二个 Claude 进程的问题；现在会显示“still open somewhere else”提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pasted text that begins and ends with the same words sometimes being sent to Claude as if it had been typed",
+  "zh": "修复了首尾为相同词语的粘贴文本有时被当作手动输入发送给 Claude 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:01+00:00"
+}

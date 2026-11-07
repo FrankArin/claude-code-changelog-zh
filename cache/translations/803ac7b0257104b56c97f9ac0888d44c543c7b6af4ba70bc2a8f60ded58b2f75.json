@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Reverted a 2.1.288 change to `claude auth status` that may have made sign-outs more frequent",
+  "zh": "\\[VSCode] 回退了 2.1.288 中对 `claude auth status` 的一项变更，该变更可能导致退出登录更频繁",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:38+00:00"
+}

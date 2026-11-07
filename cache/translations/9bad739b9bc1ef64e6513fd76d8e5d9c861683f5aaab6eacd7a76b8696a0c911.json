@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the InstructionsLoaded hook omitting agent\\_id and agent\\_type when a subagent's file access loads a rule or nested CLAUDE.md; rules and nested CLAUDE.md files loaded on file access now also report effort",
+  "zh": "修复了 subagent 的文件访问加载规则或嵌套 CLAUDE.md 时，InstructionsLoaded hook 遗漏 agent\\_id 和 agent\\_type 的问题；文件访问时加载的规则和嵌套 CLAUDE.md 文件现在也会报告 effort",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

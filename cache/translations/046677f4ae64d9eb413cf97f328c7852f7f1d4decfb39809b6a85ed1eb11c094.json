@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images",
+  "zh": "新增对用 Ctrl+C 清空的 prompt 的恢复：在空 prompt 上按上方向键可找回草稿，包括粘贴的文本和图片",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a dangerous `rm` (such as one on `/` or the home directory) losing its always-ask safeguard when the same command also redirected output to a `~` or wildcard path",
+  "zh": "修复了危险的 `rm`（例如针对 `/` 或主目录的 `rm`）在同时将输出重定向到 `~` 或通配符路径时丢失始终询问保护的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:49:19+00:00"
+}

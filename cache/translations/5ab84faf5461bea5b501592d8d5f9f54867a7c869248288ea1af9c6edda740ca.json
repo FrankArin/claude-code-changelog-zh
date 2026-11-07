@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude agents` failing with \"Couldn't restart the background service\" and background sessions stopping after a Homebrew upgrade (takes effect from the upgrade after this one)",
+  "zh": "修复了 `claude agents` 报错“Couldn't restart the background service”，以及通过 Homebrew 升级后后台 session 停止的问题（从本次升级之后的下一次升级起生效）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

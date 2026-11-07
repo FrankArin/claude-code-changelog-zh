@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cross-session delivery notices showing two sessions with similar names as one recipient, and the expiry notice blaming the desktop app when a terminal session let the message lapse",
+  "zh": "修复了跨 session 投递通知将两个名称相似的 session 显示为同一接收方的问题，以及当终端 session 让消息过期时，过期通知错误归咎于桌面应用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

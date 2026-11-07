@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `NO_PROXY` being ignored for Claude Code's own API requests (sign-in, policy, feedback, artifacts) when `HTTPS_PROXY` is set",
+  "zh": "修复了设置 `HTTPS_PROXY` 时，Claude Code 自身的 API 请求（登录、策略、反馈、artifacts）忽略 `NO_PROXY` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

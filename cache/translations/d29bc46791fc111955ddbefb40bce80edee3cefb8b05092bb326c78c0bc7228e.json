@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved cloud sessions after a restart: Claude is now told which stopped background agents it can resume by id",
+  "zh": "改进了重启后的云端 session：现在会告知 Claude 哪些已停止的后台 agent 可以按 id 恢复",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

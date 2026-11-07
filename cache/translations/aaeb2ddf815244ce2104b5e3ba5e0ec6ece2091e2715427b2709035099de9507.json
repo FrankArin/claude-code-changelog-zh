@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `disableClaudeAiConnectors` and `allowedMcpServers` URL rules not being applied to some MCP entries declared in `.mcp.json`, plugins or agents",
+  "zh": "修复了 `disableClaudeAiConnectors` 和 `allowedMcpServers` 的 URL 规则未应用于 `.mcp.json`、plugins 或 agents 中声明的部分 MCP 条目的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

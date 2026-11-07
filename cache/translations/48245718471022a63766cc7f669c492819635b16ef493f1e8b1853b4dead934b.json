@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `prompt.autocomplete`, an event a mod hooks to add its own rows to the prompt box's autocomplete list",
+  "zh": "新增 `prompt.autocomplete`，mod 可挂接此事件，向 prompt 框的自动补全列表添加自己的行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:45:48+00:00"
+}

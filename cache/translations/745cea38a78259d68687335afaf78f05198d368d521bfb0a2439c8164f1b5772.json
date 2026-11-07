@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed unbounded memory use when an HTTP MCP server sends a very large response",
+  "zh": "修复了 HTTP MCP 服务器发送超大响应时内存占用无上限的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:47:22+00:00"
+}

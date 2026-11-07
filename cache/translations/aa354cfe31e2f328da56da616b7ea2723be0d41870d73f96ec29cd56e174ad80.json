@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Stop during Bedrock credential lookup sometimes moving the session to a fallback model instead of ending the request",
+  "zh": "修复了在 Bedrock 凭据查找期间按下 Stop 有时会将 session 切换到回退模型而非结束请求的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:48:24+00:00"
+}

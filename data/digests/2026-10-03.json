@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "versions": [
+    "2.1.289"
+  ],
+  "tldr": "新增 agent.spawn 与 agent 空闲状态，修复多项权限规则绕过与渲染卡死问题。",
+  "highlights": [
+    {
+      "title": "新增 agent.spawn 与空闲状态",
+      "category": "新功能",
+      "detail": "plugin hook 事件统一使用同一 agent id，$.agent.list() 新增空闲和等待状态，便于队友协作与状态追踪。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.289-added-1"
+      ],
+      "version": "2.1.289"
+    },
+    {
+      "title": "修复权限规则绕过",
+      "category": "安全",
+      "detail": "Bash deny/ask 规则此前会漏掉环境变量前缀、裸变量赋值后的命令，以及符号链接文件的 Read 规则，现已覆盖。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "TZ=\"$HOME\" rm -rf build",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.289-fixes-16",
+        "2.1.289-fixes-17",
+        "2.1.289-fixes-7",
+        "2.1.289-fixes-5"
+      ],
+      "version": "2.1.289"
+    },
+    {
+      "title": "修复 plugin 可改写 MCP 描述",
+      "category": "安全",
+      "detail": "用户安装的 plugin 不再能改写组织管理的 MCP server 登录工具描述，避免误导性提示。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.289-fixes-12"
+      ],
+      "version": "2.1.289"
+    },
+    {
+      "title": "修复渲染卡死与崩溃",
+      "category": "修复",
+      "detail": "含大量未闭合 script 标签或深层嵌套替换的短代码块、非法边框样式、异常 mod 绘制等不再导致终端卡死或 session 结束。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.289-fixes-6",
+        "2.1.289-fixes-13",
+        "2.1.289-fixes-14",
+        "2.1.289-fixes-19",
+        "2.1.289-fixes-26"
+      ],
+      "version": "2.1.289"
+    },
+    {
+      "title": "修复 plugin 列表与校验",
+      "category": "修复",
+      "detail": "plugin list/eval/update 不再显示本地 marketplace 的过期副本，符号链接 --plugin-dir 支持热重载，validate 不再误判。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin validate",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.289-fixes-8",
+        "2.1.289-fixes-18",
+        "2.1.289-fixes-23"
+      ],
+      "version": "2.1.289"
+    },
+    {
+      "title": "回退 VSCode 登录变更",
+      "category": "改进",
+      "detail": "撤销 2.1.288 中可能导致退出登录更频繁的 claude auth status 变更，VSCode 用户登录状态更稳定。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude auth status",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.289-changed-2"
+      ],
+      "version": "2.1.289"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "4234d061f16549cfcc444d8b8efe662616ff721e753e2c6f0c32005ffc9b2e71"
+}
