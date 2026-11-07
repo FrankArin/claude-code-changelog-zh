@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a session teleported from the web dropping the messages sent while Claude was working",
+  "zh": "\\[VSCode] 修复了从网页版传送过来的 session 会丢失 Claude 工作期间发送的消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

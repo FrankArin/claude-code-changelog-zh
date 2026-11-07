@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin uninstall` removing the other of two installed plugins whose ids differ only in case, with its options and secrets, when the one named had no `enabledPlugins` entry at that scope",
+  "zh": "修复当指定的 plugin 在该作用域下没有 `enabledPlugins` 条目时，`claude plugin uninstall` 误删两个 id 仅大小写不同的已安装 plugin 中的另一个（连同其选项和密钥）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

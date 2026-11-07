@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed artifact watching: a watch that was armed automatically (not one you asked for) now ends after 3.5 hours with no activity; publishing or watching the artifact again re-arms it",
+  "zh": "变更 artifact 监视：自动启用的监视（并非你主动请求的监视）在 3.5 小时无活动后结束；再次发布或监视该 artifact 会重新启用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

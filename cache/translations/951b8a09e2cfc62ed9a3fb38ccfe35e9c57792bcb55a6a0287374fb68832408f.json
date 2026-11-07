@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an `Artifact` allow rule (\"don't ask again\") letting the Artifact tool publish a file outside the working directories without asking; add the file's folder with `--add-dir` for the rule to cover it",
+  "zh": "修复了 `Artifact` 允许规则（“不再询问”）导致 Artifact 工具未经询问即可在工作目录之外发布文件的问题；需用 `--add-dir` 添加该文件所在文件夹，规则才能覆盖它",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

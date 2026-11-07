@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/plugin` configure screen: boolean options are now a true/false choice instead of free text, number options refuse invalid input, and ←/→ change an options field instead of switching tabs",
+  "zh": "修复 `/plugin` 配置界面：布尔选项现在是 true/false 选择而非自由文本，数字选项会拒绝无效输入，←/→ 用于修改选项字段而不是切换标签页",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

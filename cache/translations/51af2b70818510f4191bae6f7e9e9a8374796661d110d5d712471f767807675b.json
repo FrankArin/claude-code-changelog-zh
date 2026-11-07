@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved subagents in auto mode: a subagent's run now ends as soon as it hands its report back to its caller, instead of taking extra turns that reach no one",
+  "zh": "改进自动模式下的 subagent：subagent 的运行现在会在把报告交回调用方后立即结束，而不再执行无人接收的额外轮次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

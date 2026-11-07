@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed the Manage plugins dialog to ask before removing a marketplace or turning off a plugin that your project's shared `.claude/settings.json` turns on",
+  "zh": "\\[VSCode] 变更“管理 plugin”对话框：在移除 marketplace 或关闭由项目共享的 `.claude/settings.json` 启用的 plugin 之前会先询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

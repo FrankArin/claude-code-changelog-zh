@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/hooks`: the closing line of a hook's detail screen now says \"this hook\" instead of \"it\"",
+  "zh": "改进 `/hooks`：hook 详情页的结尾行现在显示“this hook”而非“it”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

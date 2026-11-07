@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Added attaching a repository from a different GitHub owner, such as a fork's upstream, to a running cloud session that already has one, including sessions started from Slack",
+  "zh": "\\[Cloud sessions] 支持向已有仓库的运行中云 session（包括从 Slack 启动的 session）附加来自不同 GitHub 所有者的仓库，例如 fork 的上游仓库",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

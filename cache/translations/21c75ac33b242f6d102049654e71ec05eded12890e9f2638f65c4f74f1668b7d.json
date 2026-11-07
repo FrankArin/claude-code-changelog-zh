@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/claude-api` eval runner scaffold and report builder writing through a symlink or hard link planted at an output file",
+  "zh": "修复了 `/claude-api` eval 运行器脚手架和报告生成器会通过输出文件上植入的符号链接或硬链接写入的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `.claude/settings.local.json` allow rules being held back outside a git repository when git's trace2 output is configured",
+  "zh": "修复了在配置了 git 的 trace2 输出时，`.claude/settings.local.json` 的允许规则在 git 仓库之外无法生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

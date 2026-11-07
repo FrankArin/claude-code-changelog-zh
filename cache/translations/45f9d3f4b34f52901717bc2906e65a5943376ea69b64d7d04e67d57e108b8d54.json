@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the theme picker to a scrolling list that fits your terminal instead of pushing the preview off screen; number keys no longer pick a theme",
+  "zh": "将主题选择器改为适配终端高度的滚动列表，不再把预览挤出屏幕；数字键不再用于选择主题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

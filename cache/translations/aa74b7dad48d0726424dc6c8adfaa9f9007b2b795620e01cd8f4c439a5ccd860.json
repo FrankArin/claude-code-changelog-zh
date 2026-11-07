@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `claude plugin configure <plugin>` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`",
+  "zh": "新增 `claude plugin configure <plugin>`，用于显示某个 plugin 的选项以及哪些选项尚未设置，或通过 `--values-stdin` 从 stdin 读取并保存新值",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

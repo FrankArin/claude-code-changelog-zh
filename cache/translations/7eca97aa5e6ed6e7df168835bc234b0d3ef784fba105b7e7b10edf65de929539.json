@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added option previews to question cards in the chat panel: the highlighted choice's mockup or snippet shows beside or under the options",
+  "zh": "\\[VSCode] 在聊天面板的问题卡片中新增选项预览：高亮选项的示意图或代码片段会显示在选项旁边或下方",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

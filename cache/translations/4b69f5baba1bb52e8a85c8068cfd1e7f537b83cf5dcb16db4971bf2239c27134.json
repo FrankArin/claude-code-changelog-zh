@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed opening a conversation that is already open in another window or app starting a second copy of it without warning; it now asks first",
+  "zh": "\\[VSCode] 修复打开已在另一窗口打开的对话，或应用未经提示就启动该对话的第二份副本的问题；现在会先询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

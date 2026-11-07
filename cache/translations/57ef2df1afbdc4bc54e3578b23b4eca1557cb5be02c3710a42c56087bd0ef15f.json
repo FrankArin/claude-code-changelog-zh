@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed settings dialogs reporting a failed save, without re-checking, when Claude Code printed more than 1 MB of output",
+  "zh": "\\[VSCode] 修复了当 Claude Code 输出超过 1 MB 时，设置对话框报告保存失败且不重新检查的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

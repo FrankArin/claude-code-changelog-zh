@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Reverted the 2.1.282 reservation of the `claude-ai` name: skills, commands, workflows and MCP servers' skills and prompts so named load again, and `Skill(claude-ai:*)` rules are ordinary prefix rules",
+  "zh": "撤销 2.1.282 对 `claude-ai` 名称的保留：以此命名的 skill、命令、工作流以及 MCP 服务器的 skill 和 prompt 重新可以加载，`Skill(claude-ai:*)` 规则恢复为普通前缀规则",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

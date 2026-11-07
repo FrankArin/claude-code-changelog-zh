@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode to use the server-side classifier by default on a direct Anthropic API connection when telemetry is off (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out)",
+  "zh": "变更自动模式：在遥测关闭时，直连 Anthropic API 的情况下默认使用服务端分类器（`CLAUDE_CODE_AUTO_MODE_SERVER=0` 可退出）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash and PowerShell hiding a full disk quota behind \"Exit code 1\" and leaving large output files in temp",
+  "zh": "修复了 Bash 和 PowerShell 将磁盘配额已满隐藏在“Exit code 1”之后，并在临时目录中留下大型输出文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

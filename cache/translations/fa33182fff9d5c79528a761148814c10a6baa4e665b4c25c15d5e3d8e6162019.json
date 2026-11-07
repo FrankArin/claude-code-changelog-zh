@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed artifact publishing to refuse a file on a network share (a `\\\\host\\share` path or a `/net` automount) unless it is on a mapped network drive added with `--add-dir`",
+  "zh": "变更 artifact 发布：拒绝发布位于网络共享上的文件（`\\\\host\\share` 路径或 `/net` 自动挂载），除非该文件位于通过 `--add-dir` 添加的映射网络驱动器上",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

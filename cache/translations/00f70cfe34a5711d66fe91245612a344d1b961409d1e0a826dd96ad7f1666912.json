@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed SDK sessions losing a deferred tool call or finished tool result when a turn ended early, a held approval prompt after a worker restart, and a non-streaming fallback's `result.usage`",
+  "zh": "修复 SDK session 在回合提前结束时丢失延迟的工具调用或已完成的工具结果、worker 重启后仍挂起审批提示，以及非流式回退的 `result.usage` 问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

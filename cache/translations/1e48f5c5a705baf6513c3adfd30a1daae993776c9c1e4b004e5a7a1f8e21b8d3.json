@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added rows under a message that open to the terminal output, browser tab, browser instructions and selected code sent with it",
+  "zh": "\\[VSCode] 在消息下方新增若干行，展开后可查看随消息发送的终端输出、浏览器标签页、浏览器指令和所选代码",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

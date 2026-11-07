@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed list screens (`/artifacts`, `/mcp`, `/skills`, `/hooks` and others) to always line up each row's details in one column after the names",
+  "zh": "变更列表界面（`/artifacts`、`/mcp`、`/skills`、`/hooks` 等）：现在每行的详情始终对齐在名称后的同一列",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

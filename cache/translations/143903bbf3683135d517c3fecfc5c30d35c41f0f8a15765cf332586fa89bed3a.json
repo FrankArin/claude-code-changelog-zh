@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Changed `MCP_DISCOVERY_CACHE=1`, when set in your cloud environment's variables rather than a settings file, to reuse your connectors' tool lists after a session restart; other MCP servers are no longer cached and connect at startup",
+  "zh": "\\[Cloud sessions] 变更 `MCP_DISCOVERY_CACHE=1`：当它设置在云环境变量中而非设置文件中时，session 重启后会复用 connector 的工具列表；其他 MCP 服务器不再缓存，并在启动时连接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

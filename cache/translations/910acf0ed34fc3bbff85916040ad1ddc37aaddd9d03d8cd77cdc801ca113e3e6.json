@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Ultracode into its own toggle in `/effort` (Tab, or `/effort ultracode [on|off]`): it no longer forces xhigh effort and stays on at any effort level",
+  "zh": "变更：Ultracode 成为 `/effort` 中的独立开关（Tab，或 `/effort ultracode [on|off]`）：不再强制 xhigh effort，且在任何 effort 级别都保持开启",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

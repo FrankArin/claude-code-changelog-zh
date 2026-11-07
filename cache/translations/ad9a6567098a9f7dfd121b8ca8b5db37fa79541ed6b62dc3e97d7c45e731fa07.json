@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sandbox settings so project settings cannot widen or turn off an admin-required sandbox, replace the proxy behind a managed deny list, extend a strict allowlist, or reopen managed read-denies",
+  "zh": "变更沙箱设置：项目设置不能再放宽或关闭管理员要求的沙箱、替换托管拒绝列表背后的代理、扩展严格允许列表，或重新开启托管的读取拒绝项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed skill folders, command files and workflow commands in the `anthropic-skills` or `claude-ai` namespace to no longer load; a plugin so named still loads but yields name ties to synced skills",
+  "zh": "变更 `anthropic-skills` 或 `claude-ai` 命名空间下的 skill 文件夹、命令文件和工作流命令，使其不再加载；同名 plugin 仍会加载，但会与同步的 skills 产生名称冲突",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `keybindings.json` silently accepting a misspelled modifier such as `ctl+k`; it now warns in the debug log and suggests the fix",
+  "zh": "修复了 `keybindings.json` 静默接受拼写错误的修饰键（如 `ctl+k`）的问题；现在会在调试日志中发出警告并给出修正建议",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

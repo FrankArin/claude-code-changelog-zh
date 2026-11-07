@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the compaction spinner: its timer now starts when compaction begins and it counts the summary's tokens as they stream, replacing the percentage bar",
+  "zh": "改进上下文压缩的加载指示器：计时器现在从上下文压缩开始时启动，并随摘要流式输出统计其 token，取代百分比进度条",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

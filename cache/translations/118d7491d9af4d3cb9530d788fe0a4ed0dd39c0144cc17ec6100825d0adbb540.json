@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed prompt suggestions in the terminal to appear less often after 20 in a row go unused; using one brings them back",
+  "zh": "终端中的 prompt 建议在连续 20 次未被使用后出现频率降低；使用一次即可恢复",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

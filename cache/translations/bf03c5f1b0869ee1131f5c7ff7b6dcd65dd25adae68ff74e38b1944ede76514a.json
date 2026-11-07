@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed vim mode leaving the cursor past the end of a prompt recalled from history or pulled back from the queue in normal mode, so `x` did nothing",
+  "zh": "修复 vim 模式在普通模式下从历史记录召回或从队列取回的 prompt 时光标停留在末尾之后、导致 `x` 无效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

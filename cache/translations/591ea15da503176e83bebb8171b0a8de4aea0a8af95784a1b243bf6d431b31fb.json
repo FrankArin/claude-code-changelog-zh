@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude's built-in keybindings guide saying chords time out after 1 second instead of 3, and calling `cmd` an alias of `meta`, which could produce `cmd+` shortcuts most terminals never send",
+  "zh": "修复了 Claude 内置快捷键指南中的错误：称组合键在 1 秒后超时（实际为 3 秒），并将 `cmd` 称为 `meta` 的别名，这可能导致生成大多数终端从不发送的 `cmd+` 快捷键",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

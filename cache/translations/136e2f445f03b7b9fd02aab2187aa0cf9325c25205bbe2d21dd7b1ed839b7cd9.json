@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Team and Enterprise sessions, and sessions whose sign-in plan Claude Code can't determine, to withhold WebFetch until the organization policy loads if it couldn't be loaded at startup",
+  "zh": "变更 Team 和 Enterprise session，以及 Claude Code 无法确定登录计划的 session：如果在启动时无法加载组织策略，则在策略加载完成前暂不提供 WebFetch",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

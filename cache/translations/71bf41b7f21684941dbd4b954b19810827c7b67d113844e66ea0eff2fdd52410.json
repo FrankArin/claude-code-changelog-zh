@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed usage-limit warnings suggesting `/upgrade` to users already on the highest Max plan; the warnings and `/upgrade` itself now point at `/usage-credits` when it is available",
+  "zh": "修复了用量限制警告向已处于最高 Max 套餐的用户建议 `/upgrade` 的问题；现在这些警告和 `/upgrade` 本身在可用时会指向 `/usage-credits`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

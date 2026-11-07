@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-30",
+  "versions": [
+    "2.1.286"
+  ],
+  "tldr": "新增权限计数、VSCode 书签与问题预览，改进提交前 verify 与列表交互，并修复大量会话、MCP 与凭据脱敏问题。",
+  "highlights": [
+    {
+      "title": "权限提示显示排队计数",
+      "category": "新功能",
+      "detail": "多个权限请求堆积时，提示中会显示类似“2 of 5”的计数，便于判断还有多少待处理请求。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.286-added-1"
+      ],
+      "version": "2.1.286"
+    },
+    {
+      "title": "VSCode 书签与问题预览",
+      "category": "新功能",
+      "detail": "可保存 Claude 回复到书签侧边栏；问题卡片会预览选项示意图或代码，回答后 Questions 行保留问答记录。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.286-added-3",
+        "2.1.286-added-4",
+        "2.1.286-added-5"
+      ],
+      "version": "2.1.286"
+    },
+    {
+      "title": "提交前自动运行 verify skill",
+      "category": "改进",
+      "detail": "项目或用户 skill 中存在名为 verify 的 skill 时，Claude 会在提交前运行它，仅文档和仅测试的提交除外。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.286-improvements-24"
+      ],
+      "version": "2.1.286"
+    },
+    {
+      "title": "--bare 行为收紧",
+      "category": "破坏性变更",
+      "detail": "--bare 现在只连接命令行指定的 MCP 服务器，不发送系统提醒、不启动后台任务，shell 命令超时后直接停止而非转后台。",
+      "action": "若依赖 --bare 下的后台任务或超时转后台行为，请改用非 --bare 模式或调整脚本。",
+      "example": null,
+      "item_ids": [
+        "2.1.286-changed-10"
+      ],
+      "version": "2.1.286"
+    },
+    {
+      "title": "修复凭据与 URL 密码泄露",
+      "category": "安全",
+      "detail": "修复 MCP 错误信息、百分号编码 token、含不可见字符的键名及含标点的 URL 密码在日志和转录中未被完整脱敏的问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.286-fixes-54",
+        "2.1.286-fixes-55",
+        "2.1.286-fixes-56",
+        "2.1.286-fixes-57"
+      ],
+      "version": "2.1.286"
+    },
+    {
+      "title": "修复恢复会话丢失轮次",
+      "category": "修复",
+      "detail": "--resume 和 --continue 在较早会话崩溃或被终止时，不再丢失并行工具调用之后的所有轮次。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude --resume",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.286-fixes-41"
+      ],
+      "version": "2.1.286"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "564475908e549d58c95b9a1f2a0136826973f65b028c4f9ab202e9b09554b847"
+}

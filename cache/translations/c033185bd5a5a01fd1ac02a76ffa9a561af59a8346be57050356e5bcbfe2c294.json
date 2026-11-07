@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added certificate client authentication (`private_key_jwt`) between the Claude apps gateway and its identity provider, for identity providers that issue certificate credentials instead of client secrets",
+  "zh": "在 Claude 应用网关与其身份提供商之间新增证书客户端认证（`private_key_jwt`），适用于签发证书凭据而非客户端密钥的身份提供商",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

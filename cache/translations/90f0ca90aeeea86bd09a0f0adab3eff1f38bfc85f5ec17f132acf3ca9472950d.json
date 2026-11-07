@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `store.readiness_grace_seconds` to the Claude apps gateway so `/readyz` can stay ready through a short Postgres outage such as a database failover",
+  "zh": "为 Claude 应用网关新增 `store.readiness_grace_seconds`，使 `/readyz` 能在 Postgres 短暂中断（如数据库故障转移）期间保持就绪",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

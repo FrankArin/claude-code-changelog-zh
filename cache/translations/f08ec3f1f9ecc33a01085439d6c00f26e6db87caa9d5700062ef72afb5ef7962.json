@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pasted multi-line text being submitted line by line after the terminal's bracketed paste mode was reset mid-session",
+  "zh": "修复了终端括号粘贴模式在 session 中途被重置后，粘贴的多行文本被逐行提交的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

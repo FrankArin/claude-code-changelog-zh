@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/ultrareview` failing to upload the working tree when started from a git worktree that the Claude desktop app created on macOS or Linux",
+  "zh": "修复了在 macOS 或 Linux 上从 Claude 桌面应用创建的 git worktree 中启动时，`/ultrareview` 无法上传工作树的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

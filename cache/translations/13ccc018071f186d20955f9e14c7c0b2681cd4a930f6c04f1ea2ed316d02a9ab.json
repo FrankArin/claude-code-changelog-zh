@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed dismissing a row (x) in `/artifacts` unlinking its file from the artifact, so publishing the same file again created a new artifact instead of updating it",
+  "zh": "修复在 `/artifacts` 中关闭某一行（x）会将其文件从 artifact 解除关联，导致再次发布同一文件时创建新 artifact 而不是更新它的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

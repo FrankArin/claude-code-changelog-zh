@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved startup: `claude -p` and Claude Code Remote no longer load the interactive UI, and the auto-mode classifier's rules and the Artifact tool load on first use instead of at launch",
+  "zh": "改进启动：`claude -p` 和 Claude Code Remote 不再加载交互式 UI，自动模式分类器的规则和 Artifact 工具改为首次使用时加载，而非启动时加载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed rules symlinked into `.claude/rules` from outside the project being skipped without ever showing the external-imports approval prompt; a `.claude` directory symlinked from outside the project now asks for the same approval",
+  "zh": "修复了从项目外部符号链接到 `.claude/rules` 的规则被跳过且从未显示外部导入批准提示的问题；现在从项目外部符号链接的 `.claude` 目录也会请求同样的批准",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

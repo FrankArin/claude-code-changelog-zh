@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cloud sessions with very large histories never waking up because the container was stopped while the transcript was still loading",
+  "zh": "修复了历史记录极大的云端 session 因容器在转录仍在加载时被停止而始终无法唤醒的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

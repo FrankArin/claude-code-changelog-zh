@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sessions behind a custom `ANTHROPIC_BASE_URL` to use the 1M context window of models that have one (Opus 4.7+, Sonnet 5+, Fable); run `/autocompact 200k` if your gateway stops at 200K",
+  "zh": "变更使用自定义 `ANTHROPIC_BASE_URL` 的 session，使其使用具备 1M 上下文窗口的模型的 1M 上下文窗口（Opus 4.7+、Sonnet 5+、Fable）；如果你的网关止步于 200K，请运行 `/autocompact 200k`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

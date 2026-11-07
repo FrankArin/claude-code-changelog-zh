@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added Claude apps gateway startup warnings when a managed policy's `availableModels` is empty, or leaves out the model Claude Code starts on without setting `model` or `enforceAvailableModels`",
+  "zh": "当托管策略的 `availableModels` 为空，或未设置 `model` 或 `enforceAvailableModels` 却遗漏了 Claude Code 启动时使用的模型时，新增 Claude 应用网关启动警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

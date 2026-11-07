@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed \"@claude review\" requests going silent when GitHub failed to return the pull request: the request is retried once, and a comment explains if it still fails",
+  "zh": "\\[Code Review] 修复了 GitHub 未能返回拉取请求时“@claude review”请求静默失败的问题：该请求会重试一次，若仍失败则通过评论说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

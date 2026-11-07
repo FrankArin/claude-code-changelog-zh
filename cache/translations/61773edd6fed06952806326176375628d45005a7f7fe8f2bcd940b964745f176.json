@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude mcp get` showing no Type, Command, Args, or Environment for stdio servers whose config entry omits the `type` field",
+  "zh": "修复了 `claude mcp get` 对配置条目省略 `type` 字段的 stdio 服务器不显示 Type、Command、Args 或 Environment 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

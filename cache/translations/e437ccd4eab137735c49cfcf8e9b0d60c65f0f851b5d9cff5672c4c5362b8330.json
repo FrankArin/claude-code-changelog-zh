@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved auto-memory loading: invisible characters and tags that imitate Claude Code's own markup are neutralized in `MEMORY.md` and recalled memory notes before they reach Claude",
+  "zh": "改进自动记忆加载：在 `MEMORY.md` 和召回的 memory 笔记中，模仿 Claude Code 自身标记的不可见字符和标签会在到达 Claude 之前被中和",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

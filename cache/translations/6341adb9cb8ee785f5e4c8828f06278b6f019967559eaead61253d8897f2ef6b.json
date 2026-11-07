@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the weekly Fable limit not appearing in `/usage` and the VS Code usage meters when telemetry is disabled",
+  "zh": "修复禁用遥测时每周 Fable 用量限制未显示在 `/usage` 和 VS Code 用量计量中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

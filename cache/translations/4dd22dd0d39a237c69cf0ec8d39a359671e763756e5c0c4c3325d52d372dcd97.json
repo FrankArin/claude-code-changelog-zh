@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude Code refusing to start when the OS denies reading the managed settings file; it now warns and starts without that file's policies. Other read errors and unparseable files stop every session",
+  "zh": "修复操作系统拒绝读取托管设置文件时 Claude Code 拒绝启动的问题；现在会发出警告并在缺少该文件策略的情况下启动。其他读取错误和无法解析的文件仍会终止所有 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

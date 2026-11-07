@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/claude-api` eval runner scaffold counting responses cut off at `max_tokens` in the score averages; they are now marked truncated and counted separately",
+  "zh": "修复了 `/claude-api` eval 运行器脚手架将因 `max_tokens` 被截断的响应计入评分平均值的问题；现在这些响应会被标记为截断并单独统计",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

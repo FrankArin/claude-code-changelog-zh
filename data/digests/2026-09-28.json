@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28",
+  "versions": [
+    "2.1.284"
+  ],
+  "tldr": "新增 Sonnet 5.5 默认模型与网关支出显示，自动模式成为默认，修复大量流式与 VSCode 问题。",
+  "highlights": [
+    {
+      "title": "Sonnet 5.5 成为默认",
+      "category": "新功能",
+      "detail": "新增 claude-sonnet-5-5，1M 上下文，$2/$10 每 Mtok，缓存读取 $0.20，成为 Anthropic API 上的默认 Sonnet 模型。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.284-added-1"
+      ],
+      "version": "2.1.284"
+    },
+    {
+      "title": "默认以自动模式启动",
+      "category": "破坏性变更",
+      "detail": "未配置权限模式时，终端与 VS Code 在所有套餐和提供商上默认以自动模式启动，读取工作目录外文件会提示。",
+      "action": "如需保持旧行为，请在设置中显式配置 permissions.defaultMode。",
+      "example": null,
+      "item_ids": [
+        "2.1.284-changed-15",
+        "2.1.284-added-2"
+      ],
+      "version": "2.1.284"
+    },
+    {
+      "title": "Ultracode 改为独立开关",
+      "category": "破坏性变更",
+      "detail": "Ultracode 不再强制 xhigh effort，改为 /effort 中的独立开关，在任何 effort 级别都保持开启。",
+      "action": "若依赖 Ultracode 自动提升 effort，请手动选择所需 effort 级别。",
+      "example": {
+        "lang": "bash",
+        "code": "/effort ultracode [on|off]",
+        "caption": "切换 Ultracode 开关"
+      },
+      "item_ids": [
+        "2.1.284-changed-16",
+        "2.1.284-added-4"
+      ],
+      "version": "2.1.284"
+    },
+    {
+      "title": "网关支出与遥测增强",
+      "category": "新功能",
+      "detail": "/usage 与状态栏显示网关美元支出限额；telemetry.forward_to 支持 Google Cloud OTLP 导出，并新增 private_key_jwt 客户端认证。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/usage",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.284-added-3",
+        "2.1.284-added-8",
+        "2.1.284-added-9"
+      ],
+      "version": "2.1.284"
+    },
+    {
+      "title": "流式与重试修复",
+      "category": "修复",
+      "detail": "修复流损坏时显示原始错误或写入 undefined、thinking 后过载不重试、压缩后仍提示 Prompt is too long 等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.284-fixes-44",
+        "2.1.284-fixes-45",
+        "2.1.284-fixes-46"
+      ],
+      "version": "2.1.284"
+    },
+    {
+      "title": "插件预授权收紧",
+      "category": "安全",
+      "detail": "在 allowManagedPermissionRulesOnly 下，marketplace、claude.ai 和 npm 插件不再通过 allowed-tools 自我预授权，仅官方或受管来源保留。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.284-fixes-69"
+      ],
+      "version": "2.1.284"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "0fa76d3a78a7c21a53d007d76bff8c80dd478fcf09ef5d68a4c9c9647ddf7dce"
+}

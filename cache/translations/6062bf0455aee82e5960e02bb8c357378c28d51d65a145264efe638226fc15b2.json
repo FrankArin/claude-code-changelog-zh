@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed vim mode: after editing in the external editor (Ctrl+G), `x` or `r` in NORMAL mode no longer breaks a pasted-text placeholder at the end of the prompt",
+  "zh": "修复了 vim 模式的问题：在外部编辑器（Ctrl+G）中编辑后，NORMAL 模式下的 `x` 或 `r` 不再破坏 prompt 末尾的粘贴文本占位符",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

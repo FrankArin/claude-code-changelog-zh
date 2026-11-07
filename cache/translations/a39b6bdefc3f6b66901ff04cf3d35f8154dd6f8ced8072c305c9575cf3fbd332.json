@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the usage-limit wait: the limit's state and the countdown with the usage-credits option now show as one block under the prompt, and limit messages no longer repeat the countdown",
+  "zh": "改进用量限制等待：限制状态和带用量额度选项的倒计时现在作为一个区块显示在 prompt 下方，限制消息不再重复倒计时",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

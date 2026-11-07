@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the model fallback notice and the autocompact-thrashing error to say when a fallback dropped the context window from 1M to 200K tokens",
+  "zh": "改进模型回退提示和自动上下文压缩反复触发的错误，说明回退何时将上下文窗口从 1M 降至 200K tokens",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

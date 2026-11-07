@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved list scrollbars in fullscreen mode: in most lists the bar no longer shifts as the \"N more\" rows come and go, and it now has ↑/↓ arrows you can click or hold to scroll",
+  "zh": "改进全屏模式下的列表滚动条：在大多数列表中，滚动条不再随“N more”行的出现和消失而移动，并且现在带有 ↑/↓ 箭头，可点击或按住滚动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

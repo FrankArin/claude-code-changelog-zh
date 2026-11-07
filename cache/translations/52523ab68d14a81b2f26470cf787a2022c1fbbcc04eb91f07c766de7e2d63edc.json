@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the agent panel footer wrapping onto two lines with long rebound keys, and its \"Esc to collapse\" hint ignoring a rebound collapse key",
+  "zh": "修复 agent 面板页脚在按键被重新绑定为较长组合时折成两行的问题，以及其“Esc to collapse”提示忽略重新绑定的折叠键的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

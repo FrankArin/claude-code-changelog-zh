@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a session whose model is unavailable, with no fallback model left, showing a bare \"is currently unavailable\" message (or \"Something went wrong\" in cloud sessions) instead of the model-unavailable notice and its Learn more link",
+  "zh": "修复当 session 的模型不可用且没有可回退的模型时，仅显示 \"is currently unavailable\"（云 session 中为 \"Something went wrong\"），而不显示模型不可用提示及其 Learn more 链接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

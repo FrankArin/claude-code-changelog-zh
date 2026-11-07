@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `/workflows` run list to size itself like other lists: half the terminal inline, and it keeps its title on screen when the prompt shows below",
+  "zh": "`/workflows` 运行列表现在像其他列表一样调整自身尺寸：在终端内联时占一半，且当 prompt 显示在下方时标题保持在屏幕上",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

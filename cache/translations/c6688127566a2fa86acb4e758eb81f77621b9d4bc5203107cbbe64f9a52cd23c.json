@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed artifact database write results telling Claude that every viewer sees a write to a viewer's private `data/users/` subtree, and added a \"view\" level to `as_level`",
+  "zh": "修复了 artifact 数据库写入结果会告知 Claude 每位查看者都能看到对某位查看者私有 `data/users/` 子树的写入的问题，并为 `as_level` 新增了 \"view\" 级别",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

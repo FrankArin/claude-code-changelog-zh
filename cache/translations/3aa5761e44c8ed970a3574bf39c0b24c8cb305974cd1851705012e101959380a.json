@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Escape stopping the running turn instead of closing the command menu after clicking one of its rows",
+  "zh": "\\[VSCode] 修复了点击命令菜单的某一行后，按 Escape 会停止正在运行的轮次而不是关闭命令菜单的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

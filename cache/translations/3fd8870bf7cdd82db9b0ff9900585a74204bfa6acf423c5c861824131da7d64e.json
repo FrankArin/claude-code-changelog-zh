@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed headless sessions repeating the \"MCP servers require authentication\" reminder after a successful re-authentication when the MCP discovery cache is enabled",
+  "zh": "修复了在启用 MCP 发现缓存时，无头 session 在成功重新认证后仍重复出现“MCP servers require authentication”提醒的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

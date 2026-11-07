@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/status` listing an Anthropic profile beside an API key as if both were in effect; the profile is now marked as not in use",
+  "zh": "修复了 `/status` 将 Anthropic 配置文件与 API key 并列显示、仿佛两者同时生效的问题；现在该配置文件会标记为未使用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

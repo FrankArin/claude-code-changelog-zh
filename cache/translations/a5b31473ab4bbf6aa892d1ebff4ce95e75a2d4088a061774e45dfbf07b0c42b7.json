@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed permission dialogs in screen-reader mode reading quoted commands and paths as if they were the dialog's own text",
+  "zh": "修复了屏幕阅读器模式下权限对话框将引用的命令和路径当作对话框自身文本读取的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

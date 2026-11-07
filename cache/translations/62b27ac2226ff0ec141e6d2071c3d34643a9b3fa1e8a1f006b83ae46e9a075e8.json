@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `Skill(anthropic-skills:*)` and `Skill(claude-ai:*)` allow rules to cover only skills synced from claude.ai, not plugins or other skills that merely use such a name",
+  "zh": "变更 `Skill(anthropic-skills:*)` 和 `Skill(claude-ai:*)` 允许规则，使其仅覆盖从 claude.ai 同步的 skills，而不覆盖仅使用此类名称的 plugins 或其他 skills",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

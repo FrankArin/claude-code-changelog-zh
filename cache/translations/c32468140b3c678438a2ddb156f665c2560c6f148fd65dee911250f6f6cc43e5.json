@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed keys typed quickly together (type-ahead, key repeat, bursts over ssh or tmux) sometimes being handled against stale state",
+  "zh": "修复了快速连续输入的按键（预输入、按键重复、通过 ssh 或 tmux 的突发输入）有时基于过期状态处理的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

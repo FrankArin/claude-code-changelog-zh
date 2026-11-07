@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude remote-control --debug` failing with \"Unknown argument: --debug\", although Remote Control's own eligibility error says to run with `--debug`",
+  "zh": "修复了 `claude remote-control --debug` 报“Unknown argument: --debug”失败的问题，尽管 Remote Control 自身的资格错误提示要求使用 `--debug` 运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

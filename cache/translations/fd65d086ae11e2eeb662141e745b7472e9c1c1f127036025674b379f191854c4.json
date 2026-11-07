@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed tab bars in dialogs such as `/config` and `/plugin` breaking the title and tab labels mid-word in a narrow terminal; a tab that doesn't fit now moves to the next line whole",
+  "zh": "修复在窄终端中 `/config` 和 `/plugin` 等对话框的标签栏将标题和标签文字从词中间断开的问题；放不下的标签现在会整体移到下一行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

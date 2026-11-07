@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added dollar amounts to the Claude apps gateway spend limit in `/usage` and the status line (for example \"$271.40 / $500.00 spent this month\") when the gateway runs this version or later; the status line's `rate_limits.spend_limit` also gains `used_usd`, `limit_usd` and `period`",
+  "zh": "当 Claude 应用网关运行此版本或更高版本时，在 `/usage` 和状态栏中为网关支出限额新增美元金额（例如“本月已花费 $271.40 / $500.00”）；状态栏的 `rate_limits.spend_limit` 也新增 `used_usd`、`limit_usd` 和 `period`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

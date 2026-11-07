@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed Code Review giving up without posting a finished review when an unsubmitted review under its GitHub App was open on the pull request; it now retries the post first",
+  "zh": "\\[Code Review] 修复了当其 GitHub App 下存在未提交的 review 在拉取请求上打开时，Code Review 会放弃且不发布已完成的 review 的问题；现在会先重试发布",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

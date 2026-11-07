@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29",
+  "versions": [
+    "2.1.285"
+  ],
+  "tldr": "新增桌面启动、插件配置与多个环境变量，并修复大量问题；MCP 名称与设置行为有变更需注意。",
+  "highlights": [
+    {
+      "title": "新增桌面与插件配置命令",
+      "category": "新功能",
+      "detail": "新增 claude --desktop 打开桌面应用，以及 claude plugin configure 查看和保存插件选项，安装时也可直接配置 .mcpb 服务器设置。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin configure <plugin>",
+        "caption": "查看并配置插件选项"
+      },
+      "item_ids": [
+        "2.1.285-added-2",
+        "2.1.285-added-3",
+        "2.1.285-added-4"
+      ],
+      "version": "2.1.285"
+    },
+    {
+      "title": "新增多个环境变量与设置",
+      "category": "新功能",
+      "detail": "可用 CLAUDE_CODE_DISABLE_WEB_FETCH 关闭 WebFetch，用 CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES 限制超时重发；管理端可用 allowedProviders 限制 API 提供方。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_WEB_FETCH",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.285-added-1",
+        "2.1.285-added-5",
+        "2.1.285-added-6"
+      ],
+      "version": "2.1.285"
+    },
+    {
+      "title": "MCP 名称 widgets 被保留",
+      "category": "破坏性变更",
+      "detail": "云 session 和自托管运行器中 widgets 及近似拼写（如 widgets_）成为保留名称，自建同名 MCP 服务器将不再加载。",
+      "action": "重命名使用 widgets 或近似拼写的自建 MCP 服务器。",
+      "example": null,
+      "item_ids": [
+        "2.1.285-changed-20"
+      ],
+      "version": "2.1.285"
+    },
+    {
+      "title": "Windows 环境变量不再注入",
+      "category": "破坏性变更",
+      "detail": "项目和本地设置中的 env 不再设置 ALLUSERSPROFILE、SystemDrive、CommonProgramFiles，依赖这些变量的配置会失效。",
+      "action": "改为在用户或托管设置中设置这些变量。",
+      "example": null,
+      "item_ids": [
+        "2.1.285-changed-22"
+      ],
+      "version": "2.1.285"
+    },
+    {
+      "title": "自定义网关上下文窗口变化",
+      "category": "改进",
+      "detail": "使用自定义 ANTHROPIC_BASE_URL 的 session 对支持模型启用 1M 上下文；若网关仅支持 200K 需手动调整。",
+      "action": "网关止步 200K 时运行 /autocompact 200k。",
+      "example": {
+        "lang": "bash",
+        "code": "/autocompact 200k",
+        "caption": "将自动压缩窗口设为 200K"
+      },
+      "item_ids": [
+        "2.1.285-changed-14"
+      ],
+      "version": "2.1.285"
+    },
+    {
+      "title": "修复托管设置与凭据泄露",
+      "category": "修复",
+      "detail": "托管设置文件不可读时改为警告启动；脱敏日志不再泄露含 @ 或 %40 的 URL 密码；ultrareview 上传不再包含凭据文件。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/ultrareview",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.285-fixes-53",
+        "2.1.285-fixes-58",
+        "2.1.285-fixes-88"
+      ],
+      "version": "2.1.285"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "c975d22b41320ceef39b10796a8f8fefdea1ff7f475194a85074af839c4ff98d"
+}

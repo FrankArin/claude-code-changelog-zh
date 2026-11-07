@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you can allow that one read and still be asked about later ones",
+  "zh": "自动模式在读取工作目录之外的文件前会显示提示，现新增“是，但下次再询问”选项，可允许这一次读取，之后仍会询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

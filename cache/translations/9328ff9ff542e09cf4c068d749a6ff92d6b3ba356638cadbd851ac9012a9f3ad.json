@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/recap` to decline with a short notice when it arrives relayed from a chat thread (your own included) or from a routine or webhook; typed in the terminal, the Claude apps, Remote Control, `-p` or an SDK host, it runs as before",
+  "zh": "变更 `/recap`：当它从聊天线程（包括你自己的线程）、例程或 webhook 转发而来时，改为以简短提示拒绝；在终端、Claude 应用、远程控制、`-p` 或 SDK 宿主中直接输入时，行为与之前一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin uninstall reporting success and deleting the plugin's saved options when its settings file still enabled it or could not be read; it now stops and names the file",
+  "zh": "修复了 plugin 卸载在其设置文件仍启用该 plugin 或无法读取时报告成功并删除该 plugin 已保存选项的问题；现在会停止并指出该文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugins enabled on claude.ai occasionally going missing from Claude Code for a session after a transient server error",
+  "zh": "修复了在 claude.ai 上启用的 plugin 在遇到临时服务器错误后，偶尔会在某个 session 中从 Claude Code 里消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `Skill(anthropic-skills:<name>)` deny rules to also block that skill when Claude Desktop delivers it as a plugin, and `Skill(skill:<name>)` denies to match the skill's alias and display name",
+  "zh": "`Skill(anthropic-skills:<name>)` 拒绝规则现在也会在 Claude Desktop 将该 skill 作为 plugin 提供时阻止该 skill，`Skill(skill:<name>)` 拒绝规则现在会匹配 skill 的别名和显示名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

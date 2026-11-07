@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a repeat MCP sign-in request from Claude replacing the pending sign-in link, which could stop that link from working",
+  "zh": "修复了来自 Claude 的重复 MCP 登录请求替换待处理的登录链接、可能导致该链接失效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the output style picker: it now opens on your current style instead of Default, with each style's description on the line under its name; number keys no longer pick a style",
+  "zh": "改进输出样式选择器：现在会打开到你当前的样式而非 Default，每个样式的描述显示在其名称下一行；数字键不再用于选择样式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES` environment variable to cap re-sends of a non-streaming fallback request that timed out",
+  "zh": "新增 `CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES` 环境变量，用于限制超时的非流式回退请求的重发次数",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

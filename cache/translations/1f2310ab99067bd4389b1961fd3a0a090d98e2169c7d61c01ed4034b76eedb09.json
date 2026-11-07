@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed safety-related model switches in sessions that pin an Opus model with `ANTHROPIC_DEFAULT_OPUS_MODEL` or `modelOverrides`: on the Anthropic API, the API now picks the model to switch to for each kind of flag, not the pinned model",
+  "zh": "变更：在使用 `ANTHROPIC_DEFAULT_OPUS_MODEL` 或 `modelOverrides` 固定 Opus 模型的 session 中，与安全相关的模型切换行为：在 Anthropic API 上，现由 API 为每类标记选择要切换到的模型，而非固定模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

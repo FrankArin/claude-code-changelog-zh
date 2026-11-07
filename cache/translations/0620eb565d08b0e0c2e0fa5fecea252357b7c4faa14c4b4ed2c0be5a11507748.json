@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions failing on every turn with an \"Invalid `data` in `redacted_thinking` block\" API error; Claude Code now drops the conversation's thinking blocks and retries once",
+  "zh": "修复了 session 在每一轮都因“Invalid `data` in `redacted_thinking` block”API 错误而失败的问题；Claude Code 现在会丢弃对话的思考块并重试一次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

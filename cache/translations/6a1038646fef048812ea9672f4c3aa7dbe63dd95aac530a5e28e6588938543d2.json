@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed CLAUDE.md and rules being read at startup through a repository symlink reaching macOS's `/Network` via `..` or a `/.vol`-style kernel path, or a rules link to macOS's `/home` being listed",
+  "zh": "修复了启动时通过仓库符号链接读取 CLAUDE.md 和规则的问题：该链接经 `..` 或 `/.vol` 风格的内核路径到达 macOS 的 `/Network`，或指向 macOS `/home` 的规则链接被列出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

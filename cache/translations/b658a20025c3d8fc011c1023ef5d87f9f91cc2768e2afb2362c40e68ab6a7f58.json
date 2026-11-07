@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude mcp list` leaving out WebSocket (`ws`) MCP servers; each is now listed with its URL and health status",
+  "zh": "修复了 `claude mcp list` 遗漏 WebSocket（`ws`）MCP 服务器的问题；现在每个服务器都会列出其 URL 和健康状态",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

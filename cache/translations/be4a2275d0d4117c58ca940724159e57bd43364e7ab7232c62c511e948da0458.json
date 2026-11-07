@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved commit guidance: when your project or user skills include one named `verify`, Claude is now told to run it right before committing, except for docs-only and tests-only commits",
+  "zh": "改进提交指引：当项目或用户 skill 中包含名为 `verify` 的 skill 时，Claude 现在会在提交前立即运行它，仅文档和仅测试的提交除外",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

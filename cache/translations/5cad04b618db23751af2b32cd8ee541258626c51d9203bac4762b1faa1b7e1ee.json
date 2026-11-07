@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed worktree checkouts failing certificate verification (for example on Git LFS downloads) when the CA certificate is passed to git as `GIT_CONFIG_COUNT` environment pairs",
+  "zh": "修复了当 CA 证书以 `GIT_CONFIG_COUNT` 环境变量对的形式传给 git 时，worktree 检出无法通过证书验证（例如 Git LFS 下载）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

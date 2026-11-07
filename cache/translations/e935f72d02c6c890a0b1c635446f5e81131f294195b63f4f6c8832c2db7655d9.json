@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Agent SDK sessions crashing when a user message contains an image with a malformed `source`, and failing on every later turn after a malformed document block; a malformed image is now replaced with an explanatory note",
+  "zh": "修复 Agent SDK session 在用户消息包含 `source` 格式错误的图片时崩溃，以及在出现格式错误的文档块后后续每一轮都失败的问题；格式错误的图片现在会被替换为说明性提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP tool calls in a resumed session failing with \"No such tool available\" while their server was still connecting; the call now waits up to 10 seconds for the server",
+  "zh": "修复恢复的 session 中 MCP 工具调用在其服务器仍在连接时以 \"No such tool available\" 失败的问题；现在该调用会最多等待服务器 10 秒",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

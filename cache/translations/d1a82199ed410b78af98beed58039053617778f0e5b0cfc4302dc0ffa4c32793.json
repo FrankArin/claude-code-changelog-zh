@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed `claude --bg` and the agents view refusing a folder that `claude` already trusts when its trust record was saved with different letter case",
+  "zh": "Windows：修复了当 `claude` 已信任的文件夹的信任记录以不同大小写保存时，`claude --bg` 和 agents 视图拒绝该文件夹的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

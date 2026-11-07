@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Claude apps gateway answering `431 Request Header Fields Too Large` to every request from a sign-in whose identity provider lists many groups; it now accepts request headers up to 256 KiB",
+  "zh": "修复了当登录所用身份提供方列出大量群组时，Claude 应用网关对每个请求都返回 `431 Request Header Fields Too Large` 的问题；现在可接受最大 256 KiB 的请求头",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

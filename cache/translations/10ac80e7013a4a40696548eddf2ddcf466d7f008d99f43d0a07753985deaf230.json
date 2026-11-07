@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed markdown links in the Warp terminal rendering as plain text instead of clickable hyperlinks",
+  "zh": "修复了 Warp 终端中 Markdown 链接被渲染为纯文本而非可点击超链接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

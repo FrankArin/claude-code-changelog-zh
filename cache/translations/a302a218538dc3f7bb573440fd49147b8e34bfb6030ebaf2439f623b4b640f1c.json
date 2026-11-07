@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `/doctor prompt-audit` (also `/checkup prompt-audit`) to audit your CLAUDE.md files, skills, agents and commands for prompting patterns written for older models",
+  "zh": "新增 `/doctor prompt-audit`（也可用 `/checkup prompt-audit`），用于审计 CLAUDE.md 文件、skills、agents 和命令中为旧模型编写的 prompting 模式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

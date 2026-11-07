@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the time to resume very large sessions, including ones that were never compacted",
+  "zh": "改进了恢复超大 session 的速度，包括从未做过上下文压缩的 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

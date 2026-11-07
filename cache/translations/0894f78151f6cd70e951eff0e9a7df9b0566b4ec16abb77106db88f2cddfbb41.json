@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the non-interactive first turn to still wait up to 2s for connecting MCP servers named by `--allowedTools` or an `mcp_tool` hook, even when `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` is `0`",
+  "zh": "变更：非交互式首轮仍会最多等待 2 秒，以连接由 `--allowedTools` 或 `mcp_tool` hook 指定的 MCP 服务器，即使 `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` 为 `0`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

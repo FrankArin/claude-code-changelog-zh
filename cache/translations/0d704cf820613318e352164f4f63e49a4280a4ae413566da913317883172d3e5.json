@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed project and local settings to ignore OpenTelemetry variables that turn on export, set its endpoint, or capture content, like `CLAUDE_CODE_ENABLE_TELEMETRY` and `OTEL_LOG_*`",
+  "zh": "变更项目与本地设置：忽略用于开启导出、设置导出端点或捕获内容的 OpenTelemetry 变量，如 `CLAUDE_CODE_ENABLE_TELEMETRY` 和 `OTEL_LOG_*`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude -p` and Python Agent SDK sessions on third-party providers or with telemetry off to start in auto mode when no permission mode is configured, like interactive sessions; `--permission-mode` still overrides it",
+  "zh": "变更 `claude -p` 和 Python Agent SDK session 在第三方提供方上或遥测关闭时的行为：未配置权限模式时以自动模式启动，与交互式 session 一致；`--permission-mode` 仍可覆盖",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

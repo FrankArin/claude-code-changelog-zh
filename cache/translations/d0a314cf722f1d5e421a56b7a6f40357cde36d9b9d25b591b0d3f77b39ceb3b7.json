@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Cloud sessions] Fixed routine runs whose cloud session never started showing as Succeeded in the Runs pane, the routine's page and the sidebar; they now show as Failed",
+  "zh": "\\[Cloud sessions] 修复了 cloud session 从未启动的 routine 运行在 Runs 面板、routine 页面和侧边栏中显示为 Succeeded 的问题；现在它们显示为 Failed",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

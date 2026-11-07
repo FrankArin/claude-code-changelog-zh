@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed `/feedback` on Vertex, Bedrock and Foundry being refused after you pressed Send; the report is now saved on this computer, as the terminal does",
+  "zh": "\\[VSCode] 修复了在 Vertex、Bedrock 和 Foundry 上，按下 Send 后 `/feedback` 被拒绝的问题；现在与终端一致，报告会保存在本机",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

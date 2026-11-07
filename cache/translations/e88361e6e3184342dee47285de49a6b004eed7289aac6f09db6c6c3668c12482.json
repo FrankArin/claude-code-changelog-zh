@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed every request failing with a 400 error in conversations whose history holds web search results the API cannot decrypt (for example, from a turn answered through a third-party gateway)",
+  "zh": "修复了对话历史中包含 API 无法解密的网页搜索结果（例如来自通过第三方网关回答的轮次）时，所有请求都以 400 错误失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

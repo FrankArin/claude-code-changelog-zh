@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed hooks and SDK permission callbacks seeing a missing or outdated plan on ExitPlanMode when the plan was written in the same response",
+  "zh": "修复当 plan 在同一响应中写入时，hooks 和 SDK 权限回调在 ExitPlanMode 上看到缺失或过期的 plan 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

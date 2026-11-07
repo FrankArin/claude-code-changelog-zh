@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Explore subagent switching to Opus on the Claude API when the session runs a model ID Claude Code doesn't recognize, such as a custom model behind a proxy; Explore now inherits that model",
+  "zh": "修复了当 session 运行 Claude Code 无法识别的模型 ID（例如代理后面的自定义模型）时，Explore subagent 在 Claude API 上切换到 Opus 的问题；Explore 现在会继承该模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

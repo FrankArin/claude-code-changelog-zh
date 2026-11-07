@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed `git` asking credential helpers to store the sandbox proxy's login, which printed \"failed to store\"",
+  "zh": "修复了沙箱中的 `git` 要求凭据助手存储沙箱代理的登录信息、从而打印“failed to store”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

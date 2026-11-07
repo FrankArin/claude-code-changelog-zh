@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed `/ultrareview` uploading a linked worktree of a repository rooted at your home folder in some cases",
+  "zh": "Windows：修复了 `/ultrareview` 在某些情况下上传以主目录为根的仓库的链接 worktree 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

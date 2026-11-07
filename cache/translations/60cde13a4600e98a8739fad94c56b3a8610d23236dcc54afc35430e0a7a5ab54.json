@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/model` picker showing \"+1 model\" below the list after scrolling to the last model; the count now covers only the models below the visible rows",
+  "zh": "修复了 `/model` 选择器在滚动到最后一个模型后于列表下方显示“+1 model”的问题；现在计数只包含可见行下方的模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

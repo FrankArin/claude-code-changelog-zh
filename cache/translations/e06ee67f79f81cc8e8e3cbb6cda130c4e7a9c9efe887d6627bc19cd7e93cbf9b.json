@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved plugin marketplace errors to name why a git address is refused instead of citing enterprise policy",
+  "zh": "改进 plugin marketplace 错误：说明 git 地址被拒绝的原因，而不再引用企业策略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

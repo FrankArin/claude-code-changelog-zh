@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed logs and transcripts showing part of a URL password that contains punctuation such as `)`, quotes, `]`, `&` or a second `@`, or that runs past a `/` to a bracketed host such as `[::1]` in an ssh URL",
+  "zh": "修复了日志和转录显示部分 URL 密码的问题，这些密码包含 `)`、引号、`]`、`&` 或第二个 `@` 等标点，或在 ssh URL 中越过 `/` 延伸到 `[::1]` 这类带方括号的主机",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

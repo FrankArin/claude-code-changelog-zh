@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed /memory so that Auto-memory can no longer be turned on from a background session or from a session one of Claude Code's own tools started; turning it off there still works",
+  "zh": "变更 /memory：Auto-memory 不能再从后台 session 或由 Claude Code 自身工具启动的 session 中开启；在这些场景中关闭仍然有效",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

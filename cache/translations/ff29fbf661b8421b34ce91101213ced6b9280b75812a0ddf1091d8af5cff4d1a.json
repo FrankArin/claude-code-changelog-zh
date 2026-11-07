@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the notice shown when a Sonnet model's safeguards flag a message to explain why it happened and to offer editing and retrying",
+  "zh": "变更：Sonnet 模型的安全防护标记某条消息时显示的通知，现会说明原因并提供编辑和重试选项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

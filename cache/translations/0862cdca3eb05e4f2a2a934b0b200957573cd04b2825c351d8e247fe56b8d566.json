@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed background Bash and PowerShell commands to stop after a time limit (their `timeout` with `run_in_background`, default 30 min, max 2 h); Claude is notified when one is stopped",
+  "zh": "变更后台 Bash 和 PowerShell 命令，使其在达到时限后停止（即配合 `run_in_background` 使用的 `timeout`，默认 30 分钟，最长 2 小时）；命令被停止时会通知 Claude",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

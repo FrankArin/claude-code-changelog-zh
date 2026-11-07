@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Artifact tool sometimes reporting a publish as a conflict with another session after retrying a temporary server error, when the first attempt had actually succeeded",
+  "zh": "修复了 Artifact 工具在重试临时服务器错误后，有时将发布报告为与另一 session 冲突的问题，而实际上首次尝试已成功",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

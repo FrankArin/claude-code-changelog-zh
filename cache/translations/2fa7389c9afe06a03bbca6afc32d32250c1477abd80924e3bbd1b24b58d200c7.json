@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/exit`'s Remove worktree to run after Claude Code stops the servers and shells it started there, which on Windows could keep the folder from being deleted",
+  "zh": "变更 `/exit` 的 Remove worktree：现在会在 Claude Code 停止其在该 worktree 中启动的服务器和 shell 之后执行，因为在 Windows 上这些进程可能导致文件夹无法删除",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

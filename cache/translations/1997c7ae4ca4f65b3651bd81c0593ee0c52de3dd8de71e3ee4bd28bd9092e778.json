@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control marking a message as read as soon as it arrived instead of when Claude started on it, and losing a message still queued when the terminal quit (it now arrives on the next resume)",
+  "zh": "修复 Remote Control 在消息到达时就将其标记为已读，而不是在 Claude 开始处理时标记；并修复终端退出时仍排队的消息丢失的问题（现在会在下次恢复时到达）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

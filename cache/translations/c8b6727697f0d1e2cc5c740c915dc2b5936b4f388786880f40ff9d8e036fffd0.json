@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed lists with a scrollbar, such as `/skills` and `/mcp`, being two columns narrower outside fullscreen mode, where the scrollbar can never appear",
+  "zh": "修复带滚动条的列表（如 `/skills` 和 `/mcp`）在非全屏模式下少两列宽度的问题，该模式下滚动条永远不会出现",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

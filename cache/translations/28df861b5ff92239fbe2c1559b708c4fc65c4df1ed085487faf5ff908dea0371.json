@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved first-request latency by reusing the preconnected API connection",
+  "zh": "通过复用预连接的 API 连接改进首次请求延迟",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

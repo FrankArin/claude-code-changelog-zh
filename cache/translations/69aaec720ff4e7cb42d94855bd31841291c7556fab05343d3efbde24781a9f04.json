@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin validate` saying Claude Code accepts a plugin or marketplace name it cannot install; such names in `marketplace.json` now fail validation",
+  "zh": "修复 `claude plugin validate` 声称 Claude Code 接受某个实际无法安装的 plugin 或 marketplace 名称的问题；`marketplace.json` 中的此类名称现在会校验失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

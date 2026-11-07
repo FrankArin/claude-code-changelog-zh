@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved recovery from an `installed_plugins.json` that cannot be read at all: its contents are kept in a file beside it before it is rebuilt, and `claude plugin list` names that file",
+  "zh": "改进 `installed_plugins.json` 完全无法读取时的恢复：重建前先将其内容保存到旁边的文件中，`claude plugin list` 会指出该文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

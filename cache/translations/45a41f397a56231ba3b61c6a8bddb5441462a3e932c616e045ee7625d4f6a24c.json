@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the external editor (Ctrl+G): editors that take a line number now open on the line your cursor is on in the prompt",
+  "zh": "改进外部编辑器（Ctrl+G）：接受行号的编辑器现在会打开到 prompt 中光标所在的行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

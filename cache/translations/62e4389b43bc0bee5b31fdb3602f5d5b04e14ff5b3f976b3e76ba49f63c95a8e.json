@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin errors for a marketplace Claude Code refuses to load: they now say why and how to fix it instead of \"not found\"",
+  "zh": "修复了 Claude Code 拒绝加载某个 marketplace 时的 plugin 错误：现在会说明原因和修复方法，而不是显示“not found”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plugin installs to refuse npm sources that are git repositories or folders, and to install plugin dependencies only from registry packages",
+  "zh": "变更 plugin 安装：拒绝作为 git 仓库或文件夹的 npm 源，并且只从 registry 包安装 plugin 依赖",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/install-github-app` saying \"cancelled\" and then still pushing the branch and saving the API key secret; leaving now stops the remaining steps and reports what was already done",
+  "zh": "修复了 `/install-github-app` 显示“cancelled”后仍推送分支并保存 API 密钥 secret 的问题；现在退出会停止剩余步骤并报告已完成的操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

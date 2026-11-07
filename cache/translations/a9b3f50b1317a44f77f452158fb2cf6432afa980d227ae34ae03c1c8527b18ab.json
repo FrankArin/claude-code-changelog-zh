@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Improved the Code Review check run to say when your repository's REVIEW\\.md wasn't applied, for example on a very large pull request or when REVIEW\\.md is a symbolic link",
+  "zh": "\\[Code Review] 改进 Code Review 检查运行，在仓库的 REVIEW\\.md 未被应用时给出说明，例如在非常大的 pull request 上或 REVIEW\\.md 是符号链接时",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

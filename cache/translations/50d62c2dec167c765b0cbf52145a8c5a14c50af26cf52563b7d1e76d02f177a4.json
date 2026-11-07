@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/compact`, `/clear`, and `/rewind` typed while viewing a background agent's or teammate's transcript silently acting on the main conversation: a dialog now names the target and asks first",
+  "zh": "修复了在查看后台 agent 或队友的记录时输入 `/compact`、`/clear` 和 `/rewind` 会静默作用于主对话的问题：现在会弹出对话框指明目标并先询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

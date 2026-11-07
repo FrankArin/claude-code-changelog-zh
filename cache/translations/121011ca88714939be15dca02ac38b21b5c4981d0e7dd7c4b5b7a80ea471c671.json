@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an unanswered Fable usage-credits prompt switching models in SDK-hosted sessions such as Claude Desktop; the turn now ends instead, and Remote Control clients now see the model-switch notice",
+  "zh": "修复了在 SDK 托管的 session（如 Claude Desktop）中，未回答的 Fable 用量额度提示导致切换模型的问题；现在该轮会直接结束，Remote Control 客户端现在也能看到模型切换通知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

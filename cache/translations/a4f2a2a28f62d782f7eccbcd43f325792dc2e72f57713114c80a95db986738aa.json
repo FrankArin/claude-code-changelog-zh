@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed managed `sandbox` settings being ignored entirely when one nested value was invalid; the invalid value now fails closed and the rest of the block still applies",
+  "zh": "修复了托管 `sandbox` 设置中某个嵌套值无效时整个设置被完全忽略的问题；现在无效值会按失败关闭处理，该块的其余部分仍然生效",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

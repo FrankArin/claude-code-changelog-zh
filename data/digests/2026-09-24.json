@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-24",
+  "versions": [
+    "2.1.282"
+  ],
+  "tldr": "新增 maxProseWidth 等设置，收紧遥测与托管设置，修复思考丢失、恢复与 vim 模式等大量问题。",
+  "highlights": [
+    {
+      "title": "新增正文宽度设置",
+      "category": "新功能",
+      "detail": "maxProseWidth 可在宽终端中限制 Claude 正文宽度，表格和代码块仍保持全宽，改善长文阅读体验。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.282-added-1"
+      ],
+      "version": "2.1.282"
+    },
+    {
+      "title": "项目设置遥测变量被忽略",
+      "category": "破坏性变更",
+      "detail": "项目与本地设置中用于开启导出、设置导出端点或捕获内容的 OpenTelemetry 变量不再生效，启动时会提示被忽略的变量。",
+      "action": "如需启用遥测，请将相关 OTEL 变量移至用户级或托管设置中。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_ENABLE_TELEMETRY",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.282-changed-13",
+        "2.1.282-added-2"
+      ],
+      "version": "2.1.282"
+    },
+    {
+      "title": "anthropic-skills 命名空间变更",
+      "category": "破坏性变更",
+      "detail": "该命名空间下的 skill 文件夹、命令文件和工作流命令不再加载；同名 MCP server 不再列出 skills 或 prompts，允许规则仅覆盖 claude.ai 同步的 skills。",
+      "action": "重命名相关 MCP server 或迁移自定义 skills 到其他命名空间。",
+      "example": null,
+      "item_ids": [
+        "2.1.282-changed-15",
+        "2.1.282-changed-16",
+        "2.1.282-changed-17"
+      ],
+      "version": "2.1.282"
+    },
+    {
+      "title": "自动模式默认用服务端分类器",
+      "category": "改进",
+      "detail": "遥测关闭且直连 Anthropic API 时，自动模式默认使用服务端分类器；可用 CLAUDE_CODE_AUTO_MODE_SERVER=0 退出。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_AUTO_MODE_SERVER=0",
+        "caption": "退出服务端分类器"
+      },
+      "item_ids": [
+        "2.1.282-changed-11"
+      ],
+      "version": "2.1.282"
+    },
+    {
+      "title": "修复扩展思考丢失",
+      "category": "修复",
+      "detail": "继续或恢复会话、使用即时斜杠命令、以 --tools 重启等场景不再丢弃先前的扩展思考，避免 API 丢弃推理。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/model",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.282-fixes-29",
+        "2.1.282-fixes-30",
+        "2.1.282-fixes-31"
+      ],
+      "version": "2.1.282"
+    },
+    {
+      "title": "修复会话恢复与请求失败",
+      "category": "修复",
+      "detail": "含无法解密网页搜索结果的对话不再全部 400 失败；redacted_thinking 错误会丢弃思考块重试，摘要被拒时回退其他模型。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.282-fixes-28",
+        "2.1.282-fixes-32",
+        "2.1.282-fixes-33"
+      ],
+      "version": "2.1.282"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "a92cf3b1100d019756f1ecfd80301794b6ceba9a36f531eb86d7807774c7cdf0"
+}

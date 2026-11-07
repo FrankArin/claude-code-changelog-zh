@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Bash, PowerShell and Monitor permission prompts to show the command between dashed lines, matching file edit prompts",
+  "zh": "改进 Bash、PowerShell 和 Monitor 权限提示，在虚线之间显示命令，与文件编辑提示一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

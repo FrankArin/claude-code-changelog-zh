@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed typing a message during an automatic usage-limit wait taking the wait out of the \"Continue automatically at usage limit\" setting's control when that turn hit the limit again",
+  "zh": "修复了在自动用量限制等待期间输入消息后，当该轮次再次触及限制时，该等待脱离“Continue automatically at usage limit”设置控制的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

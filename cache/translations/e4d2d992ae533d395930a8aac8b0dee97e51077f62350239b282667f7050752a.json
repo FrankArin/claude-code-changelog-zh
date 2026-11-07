@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed retries after a dropped connection mid-response to share one budget with the rest of the request's retries, so a failing request gives up sooner",
+  "zh": "变更：响应中途连接断开后的重试与请求其余重试共享同一预算，使失败的请求更早放弃",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

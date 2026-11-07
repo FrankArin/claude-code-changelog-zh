@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed artifact publishes failing when Claude gave the version a label longer than 60 characters; the label is now shortened",
+  "zh": "修复 Claude 为版本指定的标签超过 60 个字符时 artifact 发布失败的问题；现在会缩短该标签",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

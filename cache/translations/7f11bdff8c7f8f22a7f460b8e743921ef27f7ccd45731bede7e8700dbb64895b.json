@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed a Slack channel losing its Claude settings when an Enterprise Grid admin moves it to another workspace and the first post afterward doesn't mention Claude",
+  "zh": "\\[Claude Tag] 修复了当 Enterprise Grid 管理员将 Slack 频道移至其他工作区，且之后的第一条消息未提及 Claude 时，该频道丢失其 Claude 设置的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

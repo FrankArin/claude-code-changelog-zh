@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cloud sessions that restarted after their conversation was compacted refusing the next update to an artifact the session had already read or published",
+  "zh": "修复对话经过上下文压缩后重启的云 session 拒绝该 session 已读取或发布的 artifact 的下一次更新的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

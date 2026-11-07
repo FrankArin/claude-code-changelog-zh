@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `sparsePaths` plugin marketplaces cloning empty and replacing a working local copy on older git (before 2.39), which failed every refresh with \"marketplace.json file is no longer present\"",
+  "zh": "修复 `sparsePaths` plugin marketplace 在旧版 git（2.39 之前）上克隆为空并替换可用的本地副本，导致每次刷新都以 \"marketplace.json file is no longer present\" 失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

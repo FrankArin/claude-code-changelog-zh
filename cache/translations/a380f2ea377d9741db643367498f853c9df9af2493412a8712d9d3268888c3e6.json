@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Clawd mascot's feet in the start-up banner to sit under the corners of his body",
+  "zh": "调整启动横幅中 Clawd 吉祥物的脚部位置，使其位于身体两角下方",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

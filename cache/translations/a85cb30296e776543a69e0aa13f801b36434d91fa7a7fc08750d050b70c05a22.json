@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Remote Control message that arrived while Claude Code was exiting being marked delivered and then never answered; it now stays queued for the session's next run",
+  "zh": "修复了在 Claude Code 退出时到达的远程控制消息被标记为已送达、之后却从未得到回复的问题；现在该消息会保留在队列中，等待该 session 下次运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Artifact tool so that when Claude is given a claude.ai chat or project link, an artifact from a chat, or an artifact id on its own, it asks for the right link or the content instead of stopping",
+  "zh": "改进 Artifact 工具：当 Claude 收到 claude.ai 聊天或项目链接、来自聊天的 artifact 或单独的 artifact id 时，会请求正确的链接或内容，而不是停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

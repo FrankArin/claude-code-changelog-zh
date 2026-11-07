@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/tasks`: rows show a status icon, the name and whole facts, the title and key hints stay on screen with many tasks, and the list gains paging keys, the mouse wheel and clicks",
+  "zh": "改进 `/tasks`：每行显示状态图标、名称和完整事实，任务较多时标题和按键提示仍留在屏幕上，列表新增翻页键、鼠标滚轮和点击操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the protocol page a Claude apps gateway serves at `/protocol`: it now says not to reject unknown input and matches what Claude Code sends today",
+  "zh": "改进 Claude 应用网关在 `/protocol` 提供的协议页面：现在会说明不要拒绝未知输入，并与 Claude Code 当前发送的内容一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

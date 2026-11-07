@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Vertex AI: Fixed web search not being offered for models Claude Code doesn't recognize yet, such as newly released ones",
+  "zh": "Vertex AI：修复了 Claude Code 尚不认识的模型（例如新发布的模型）不提供网页搜索的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/artifacts` to show its filter tabs beside the title with one-word labels (All, Mine, Shared), using the same tab bar as `/config` and `/plugin`",
+  "zh": "变更 `/artifacts`：筛选标签页改为显示在标题旁，使用单词标签（All、Mine、Shared），并与 `/config` 和 `/plugin` 使用相同的标签栏",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Remote Control: a `/btw` side question asked of a session hosted by an app such as Claude Desktop now sees the turn in progress, not only the last finished one",
+  "zh": "改进远程控制：对由 Claude Desktop 等应用托管的 session 提出 `/btw` 附带问题时，现在能看到进行中的轮次，而不仅是上一个已完成的轮次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

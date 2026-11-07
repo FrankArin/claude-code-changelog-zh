@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/claude-api`: `hillclimb` no longer spends rounds on prompt rewordings too small for the eval to measure, and an extra page you ask for beside `report.html` is built as one local file that loads nothing from the network",
+  "zh": "改进 `/claude-api`：`hillclimb` 不再把轮次花在 eval 无法衡量的 prompt 措辞微调上；在 `report.html` 旁额外请求的页面会构建为单个本地文件，不从网络加载任何内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

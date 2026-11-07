@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved validation of git URLs for plugins, marketplaces and the current repository's remote",
+  "zh": "改进对 plugin、marketplace 以及当前仓库远程地址的 git URL 校验",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

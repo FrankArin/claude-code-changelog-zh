@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a rare auth failure when two sessions recover a login refresh lock left by a crashed process at the same time",
+  "zh": "修复了两个 session 同时恢复崩溃进程遗留的登录刷新锁时偶发的认证失败问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

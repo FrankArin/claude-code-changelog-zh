@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added direct messages with Claude for members on an Enterprise plan Standard or Usage-Based Chat seat who also have Cowork; a seat that includes Claude Code is no longer required",
+  "zh": "\\[Claude Tag] 新增与 Claude 的直接消息功能，适用于 Enterprise 计划中 Standard 或 Usage-Based Chat 席位且同时拥有 Cowork 的成员；不再要求席位包含 Claude Code",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

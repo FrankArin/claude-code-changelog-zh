@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>`",
+  "zh": "新增 `claude --desktop`，用于在当前目录打开 Claude 桌面应用，或通过 `--continue` / `--resume <id>` 打开某个 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved pictures Claude sends as BMP, HEIC, HEIF, AVIF or TIFF files: the Claude apps now show a preview where Claude Code can convert them",
+  "zh": "改进 Claude 以 BMP、HEIC、HEIF、AVIF 或 TIFF 文件发送的图片：在 Claude Code 能转换它们的情况下，Claude 应用现在会显示预览",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

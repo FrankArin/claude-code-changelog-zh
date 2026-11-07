@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Code Review] Fixed the organization menu in Code Review's \"Add a repository\" dialog showing only a few of your GitHub organizations; it now loads more as you scroll",
+  "zh": "\\[Code Review] 修复 Code Review 的 \"Add a repository\" 对话框中组织菜单只显示少数几个 GitHub 组织的问题；现在滚动时会加载更多",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

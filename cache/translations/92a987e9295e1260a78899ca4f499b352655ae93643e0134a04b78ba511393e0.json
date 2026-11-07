@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed \"Prompt is too long\" errors that persisted after compacting: when the compacted request is still too long, Claude Code now compacts once more, keeping less of the recent conversation",
+  "zh": "修复上下文压缩后仍持续出现 \"Prompt is too long\" 错误的问题：当压缩后的请求仍然过长时，Claude Code 现在会再压缩一次，保留更少的近期对话",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

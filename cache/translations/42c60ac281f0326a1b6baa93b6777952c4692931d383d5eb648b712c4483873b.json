@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved SDK liveness during a non-streaming fallback request: with partial messages on, a `ping` stream event is now sent every 30 seconds on the Anthropic API, Claude Platform on AWS and gateways",
+  "zh": "改进非流式回退请求期间 SDK 的存活检测：开启部分消息后，在 Anthropic API、Claude Platform on AWS 和网关上现在每 30 秒发送一次 `ping` 流事件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

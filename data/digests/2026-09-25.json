@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-25",
+  "versions": [
+    "2.1.283"
+  ],
+  "tldr": "新增模型管控设置与 prompt 审计，改进列表交互和启动延迟，修复大量 MCP、插件与 VSCode 问题。",
+  "highlights": [
+    {
+      "title": "新增模型管控设置",
+      "category": "新功能",
+      "detail": "新增 availableModelsMatch 与 deniedModels 托管设置，可精确限定允许的模型版本并额外屏蔽指定模型。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.283-added-2",
+        "2.1.283-added-3"
+      ],
+      "version": "2.1.283"
+    },
+    {
+      "title": "新增 prompt 审计命令",
+      "category": "新功能",
+      "detail": "/doctor prompt-audit 可检查 CLAUDE.md、skills、agents 和命令中为旧模型编写的提示模式，并优先列出过期路径与矛盾指令。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/doctor prompt-audit",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.283-added-5",
+        "2.1.283-improvements-34"
+      ],
+      "version": "2.1.283"
+    },
+    {
+      "title": "默认权限模式变化",
+      "category": "破坏性变更",
+      "detail": "在第三方提供商上或关闭遥测时，未配置权限模式的交互式 session 现在以自动模式启动，行为与以往不同。",
+      "action": "如需保持原有权限行为，请显式设置 permissions.defaultMode。",
+      "example": null,
+      "item_ids": [
+        "2.1.283-changed-12"
+      ],
+      "version": "2.1.283"
+    },
+    {
+      "title": "列表交互统一改进",
+      "category": "改进",
+      "detail": "/tasks、/mcp、/help 等列表支持翻页键、鼠标滚轮和点击，任务较多时标题与按键提示保持可见。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/mcp",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.283-improvements-26",
+        "2.1.283-improvements-28",
+        "2.1.283-improvements-29"
+      ],
+      "version": "2.1.283"
+    },
+    {
+      "title": "启动与首响延迟优化",
+      "category": "改进",
+      "detail": "claude -p 与 Remote 不再加载交互式 UI，规则和 Artifact 工具改为按需加载，并复用预连接以加快首次请求。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude -p",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.283-improvements-37",
+        "2.1.283-improvements-38",
+        "2.1.283-improvements-39"
+      ],
+      "version": "2.1.283"
+    },
+    {
+      "title": "MCP 与插件多项修复",
+      "category": "修复",
+      "detail": "修复后台任务进度丢失、404 后服务器假连接、插件缓存丢失与 installed_plugins.json 记录被覆盖等问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude plugin",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.283-fixes-43",
+        "2.1.283-fixes-45",
+        "2.1.283-fixes-60"
+      ],
+      "version": "2.1.283"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "846542871ba6b67076abe27c8c9e9e43621807920bea069cf85268ce304e71ea"
+}

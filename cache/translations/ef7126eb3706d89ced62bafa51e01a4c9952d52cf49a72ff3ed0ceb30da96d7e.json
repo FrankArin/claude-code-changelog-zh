@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed auto mode skipping its classifier for Artifact tool asset uploads and reads of someone else's artifact when you had approved that artifact earlier in another permission mode",
+  "zh": "修复了自动模式在以下情况下跳过其分类器的问题：上传 Artifact 工具资源，以及读取他人的 artifact，而此前你已在另一种权限模式下批准过该 artifact",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

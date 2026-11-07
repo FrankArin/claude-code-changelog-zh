@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a message from another agent with no recorded sender showing as raw XML in the chat",
+  "zh": "\\[VSCode] 修复了来自其他 agent、且未记录发送者的消息在聊天中显示为原始 XML 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

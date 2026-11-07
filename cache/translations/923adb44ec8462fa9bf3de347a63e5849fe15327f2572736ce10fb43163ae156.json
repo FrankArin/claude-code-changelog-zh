@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Updated the `claude-api` skill to recommend `ant apply` for keeping Managed Agents resources as version-controlled files",
+  "zh": "更新 `claude-api` skill，推荐使用 `ant apply` 将 Managed Agents 资源保存为受版本控制的文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

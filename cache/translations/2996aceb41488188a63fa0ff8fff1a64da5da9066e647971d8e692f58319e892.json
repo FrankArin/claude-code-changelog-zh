@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added bookmarks: save Claude's responses and keep them in view in a Bookmarks side panel",
+  "zh": "\\[VSCode] 新增书签：保存 Claude 的回复，并在书签侧边栏中持续显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

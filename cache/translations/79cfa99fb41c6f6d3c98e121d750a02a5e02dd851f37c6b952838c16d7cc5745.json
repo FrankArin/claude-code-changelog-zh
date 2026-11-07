@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed the earlier Claude in Slack app's progress card for sessions on a GitHub Enterprise Server repository: it now names the repository and offers a working Create PR button",
+  "zh": "\\[Claude Tag] 修复 Slack 中较早的 Claude 应用针对 GitHub Enterprise Server 仓库上的 session 显示进度卡片的问题：现在会显示仓库名称并提供可用的 Create PR 按钮",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

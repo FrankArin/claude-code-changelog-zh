@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a stale character left in the last column of a diff when a redrawn line's CJK character or emoji wrapped to the next row",
+  "zh": "修复了重绘行的 CJK 字符或 emoji 换行到下一行时，diff 最后一列残留旧字符的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

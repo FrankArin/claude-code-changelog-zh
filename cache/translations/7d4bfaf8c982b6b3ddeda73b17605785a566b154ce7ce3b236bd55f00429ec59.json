@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an overloaded or server error arriving right after a thinking block ending the turn with an error instead of being retried",
+  "zh": "修复在 thinking 块之后紧接着收到过载或服务器错误时，直接以错误结束本轮而不重试的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

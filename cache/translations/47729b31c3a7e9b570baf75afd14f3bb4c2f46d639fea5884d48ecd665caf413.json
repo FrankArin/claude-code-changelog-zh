@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed files attached to a message sent over Remote Control being left out after a single failed download; a network error, timeout or server error is now retried up to twice",
+  "zh": "修复通过远程控制发送的消息所附文件在单次下载失败后被丢弃的问题；网络错误、超时或服务器错误现在最多重试两次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

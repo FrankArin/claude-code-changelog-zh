@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added an Ultracode on/off switch under the Effort slider, replacing the slider's Ultracode stop; the model pill shows \"· Ultracode\" at any effort level",
+  "zh": "\\[VSCode] 在 Effort 滑块下方新增 Ultracode 开关，取代滑块的 Ultracode 档位；模型标签在任何 effort 级别都显示“· Ultracode”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

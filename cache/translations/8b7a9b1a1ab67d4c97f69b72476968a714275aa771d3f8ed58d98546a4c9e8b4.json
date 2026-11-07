@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Slack threads whose model has been retired falling back to another model on every reply, slower and with a fallback note each time; the thread now moves to a working model",
+  "zh": "\\[Claude Tag] 修复了 Slack 线程中模型已停用时每次回复都回退到其他模型的问题，此前每次回复都更慢且附带回退提示；现在该线程会切换到可用的模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

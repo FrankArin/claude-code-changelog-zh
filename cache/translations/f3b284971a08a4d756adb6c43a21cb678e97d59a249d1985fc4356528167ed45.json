@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the terminal cursor jumping from the `/skills` search box to the skill list while typing, which could hide the caret and put IME input in the wrong place",
+  "zh": "修复输入时终端光标从 `/skills` 搜索框跳到 skill 列表的问题，该问题可能隐藏光标并使输入法输入落到错误位置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a key pressed the instant the terminal regained focus answering the Remote Control enable prompt before its short safety delay restarted",
+  "zh": "修复了终端刚重新获得焦点时按下的键在其短暂安全延迟重新开始之前就应答了 Remote Control 启用提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

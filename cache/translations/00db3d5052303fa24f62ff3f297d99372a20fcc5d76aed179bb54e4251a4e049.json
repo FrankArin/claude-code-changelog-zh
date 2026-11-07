@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP sign-in for a server with no valid URL failing with an opaque SDK error; `/mcp` no longer offers Authenticate for such servers",
+  "zh": "修复对没有有效 URL 的服务器进行 MCP 登录时以晦涩的 SDK 错误失败的问题；`/mcp` 不再为此类服务器提供 Authenticate 选项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

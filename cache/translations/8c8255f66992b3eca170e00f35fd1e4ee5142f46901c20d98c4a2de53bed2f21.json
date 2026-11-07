@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` with `CLAUDE_CODE_FORK_SUBAGENT=1`: a subagent's own Agent call now runs in the foreground, so the subagent gets the child's result",
+  "zh": "修复 `claude -p` 配合 `CLAUDE_CODE_FORK_SUBAGENT=1` 的问题：subagent 自身的 Agent 调用现在在前台运行，因此 subagent 能拿到子级的结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

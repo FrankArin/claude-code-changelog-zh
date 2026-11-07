@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed switching models mid-session with a `set_model` request (such as the Agent SDK's `setModel`) leaving the new model on the built-in output-token limit and auto-compact window until restart",
+  "zh": "修复通过 `set_model` 请求（例如 Agent SDK 的 `setModel`）在 session 中途切换模型后，新模型在重启前仍沿用内置输出 token 上限和自动上下文压缩窗口的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a rebound agent panel close key (`footer:close`) typing \"x\" instead of itself on the row of the agent you're viewing",
+  "zh": "修复了重新绑定的 agent 面板关闭键（`footer:close`）在你正在查看的 agent 所在行上输入“x”而不是其自身的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

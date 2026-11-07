@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed vim mode cursor placement: after `dd`, `dj`, `dG` or a whole-line `p`/`P` it lands on the first non-blank, `yy` no longer moves it, and Esc after an emoji no longer leaves it inside the emoji",
+  "zh": "修复 vim 模式的光标位置：执行 `dd`、`dj`、`dG` 或整行 `p`/`P` 后光标落在首个非空白字符上，`yy` 不再移动光标，emoji 后按 Esc 不再使光标停留在 emoji 内部",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed safeguard block messages on Amazon Bedrock and Bedrock Mantle not showing a request ID; block messages now also show the message ID",
+  "zh": "修复了 Amazon Bedrock 和 Bedrock Mantle 上的防护拦截消息不显示请求 ID 的问题；拦截消息现在还会显示消息 ID",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:55:01+00:00"
+}

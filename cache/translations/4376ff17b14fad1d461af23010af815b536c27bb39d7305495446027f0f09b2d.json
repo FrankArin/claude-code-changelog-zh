@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Claude apps gateway's spend meter pricing 1-hour prompt cache writes at the cheaper 5-minute rate, and counting only the first model call's input tokens on streamed turns that run a server-side tool such as web search",
+  "zh": "修复了 Claude 应用网关的用量计费器将 1 小时 prompt 缓存写入按更便宜的 5 分钟费率计价的问题，以及对于运行服务端工具（如网页搜索）的流式轮次只统计第一次模型调用的输入 token 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:51:18+00:00"
+}

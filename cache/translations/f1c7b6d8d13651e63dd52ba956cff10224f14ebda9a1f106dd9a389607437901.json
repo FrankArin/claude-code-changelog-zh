@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an approved Edit never going through when its target is a device, such as a file symlinked to /dev/null, and the approval came from the IDE diff view or changed the edit",
+  "zh": "修复了当已批准的 Edit 目标为设备（例如符号链接到 /dev/null 的文件），且批准来自 IDE diff 视图或修改了编辑内容时，该 Edit 始终无法执行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}

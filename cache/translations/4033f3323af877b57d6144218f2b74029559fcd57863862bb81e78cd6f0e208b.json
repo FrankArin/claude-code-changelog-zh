@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions launched without the `SendMessage` tool (such as by Claude Desktop) still being told to message other sessions with it",
+  "zh": "修复了在未使用 `SendMessage` 工具的情况下启动的 session（例如由 Claude Desktop 启动）仍被告知要用它向其他 session 发消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:53:26+00:00"
+}

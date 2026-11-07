@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the footer's agents pill drawing its icon off-center, with the status dot against the edge, in narrow panels",
+  "zh": "\\[VSCode] 修复了窄面板中页脚的 agents 胶囊图标绘制偏移、状态圆点贴边的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:54:15+00:00"
+}

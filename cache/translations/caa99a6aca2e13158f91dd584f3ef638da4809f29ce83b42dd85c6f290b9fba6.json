@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a failing API request being retried up to 21 times when streaming kept failing; the non-streaming fallback now shares the request's retry budget instead of getting a fresh set of retries",
+  "zh": "修复了流式传输持续失败时，失败的 API 请求最多重试 21 次的问题；非流式回退现在共享该请求的重试预算，而不再获得一组全新的重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-07T04:52:31+00:00"
+}
