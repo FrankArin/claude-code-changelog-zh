@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "versions": [
+    "2.1.322"
+  ],
+  "tldr": "Vertex 的 global、us、eu 区域新增快速模式，被拒绝时自动回退标准速度。",
+  "highlights": [
+    {
+      "title": "Vertex 新增快速模式",
+      "category": "新功能",
+      "detail": "在 Vertex 的 global、us、eu 区域可使用快速模式；若 Vertex 拒绝请求，会自动回退到标准速度，不影响正常使用。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.322-other-1"
+      ],
+      "version": "2.1.322"
+    }
+  ],
+  "breaking": false,
+  "summary_hash": "2923cab1e7111e6c9d4b5ec2030476b8f1487eede61466da4c39176f93f29a9b"
+}
