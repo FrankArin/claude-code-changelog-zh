@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a turn ending with \"API Error: EPROTO: The TLS handshake failed\" when the connection broke partway through a reply; the partial reply is kept or the request is retried, as before 2.1.302",
+  "zh": "修复了回复中途连接断开时，回合以“API Error: EPROTO: The TLS handshake failed”结束的问题；现在会保留部分回复或重试请求，与 2.1.302 之前的行为一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

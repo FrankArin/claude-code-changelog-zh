@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed messages from a Claude Desktop Code tab session to your other sessions staying paused after you typed while Claude was still working",
+  "zh": "修复了 Claude Desktop Code 标签页 session 发往其他 session 的消息在 Claude 仍在工作时你输入内容后保持暂停的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

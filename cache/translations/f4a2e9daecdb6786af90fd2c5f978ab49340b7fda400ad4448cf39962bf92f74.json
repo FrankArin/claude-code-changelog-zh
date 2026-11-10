@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a warning above the prompt box when both an auth token and an API key are set, matching the terminal's startup warning",
+  "zh": "\\[VSCode] 当同时设置了认证 token 和 API key 时，在 prompt 框上方新增警告，与终端的启动警告一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

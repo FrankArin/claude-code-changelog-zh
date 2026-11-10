@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an MCP server sometimes showing as connected with no tools after it was reconnected or the session's directory changed while its tools were still loading",
+  "zh": "修复了 MCP server 在重新连接后、或在其工具仍在加载时 session 目录发生变化后，有时显示为已连接但没有工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

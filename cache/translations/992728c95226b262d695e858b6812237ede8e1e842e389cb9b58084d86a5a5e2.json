@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the account email check to refuse only a shell command that holds your email and names a User-Agent, without asking, so other commands and scheduled runs no longer stop at its prompt",
+  "zh": "变更账户邮箱检查：仅对包含你的邮箱且声明了 User-Agent 的 shell 命令直接拒绝、不再询问，因此其他命令和定时运行不再停在其提示处",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

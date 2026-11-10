@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed project skills, commands and agents staying missing after their folder was removed and came back mid-session, such as with `git stash`, including after entering a worktree",
+  "zh": "修复了项目 skill、命令和 agent 在其文件夹于 session 中途被删除后又恢复（例如通过 `git stash`）后仍显示缺失的问题，包括进入 worktree 之后",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

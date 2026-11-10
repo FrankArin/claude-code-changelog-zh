@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Gateway: Changed Bedrock, Vertex and Foundry upstreams to ignore the `ANTHROPIC_*_BASE_URL` variables in the gateway's environment. Set `base_url` on the upstream to use another endpoint",
+  "zh": "网关：变更 Bedrock、Vertex 和 Foundry 上游，忽略网关环境中的 `ANTHROPIC_*_BASE_URL` 变量。要使用其他端点，请在上游设置 `base_url`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

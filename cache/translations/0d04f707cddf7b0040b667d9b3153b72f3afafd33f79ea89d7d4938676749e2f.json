@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `pkill`, `pgrep` and `pidwait` in cloud sessions matching the session's own parent processes",
+  "zh": "修复了云 session 中的 `pkill`、`pgrep` 和 `pidwait` 匹配到该 session 自身父进程的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

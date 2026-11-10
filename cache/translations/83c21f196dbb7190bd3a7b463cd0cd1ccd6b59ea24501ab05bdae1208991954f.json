@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed fast mode losing replies, switching models or retrying for minutes when fast serving is rate-limited, overloaded or failing; it now tries standard speed on the same model first",
+  "zh": "修复了快速模式在快速服务被限流、过载或故障时丢失回复、切换模型或重试数分钟的问题；现在会先在同一模型上尝试标准速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

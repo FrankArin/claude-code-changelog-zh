@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Claude apps gateway's spend limit error: the reset now shows in your local time, such as \"resets 4pm (America/Los\\_Angeles)\"",
+  "zh": "改进了 Claude 应用网关的支出限额错误：重置时间现在按本地时间显示，例如 \"resets 4pm (America/Los\\_Angeles)\"",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

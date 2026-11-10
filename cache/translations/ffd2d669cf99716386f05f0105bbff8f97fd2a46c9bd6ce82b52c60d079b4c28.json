@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sign-in, token refresh and logout waiting indefinitely when something on the network accepts the connection but never answers the TLS handshake",
+  "zh": "修复了网络上某处接受连接但从不响应 TLS 握手时，登录、token 刷新和登出无限等待的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

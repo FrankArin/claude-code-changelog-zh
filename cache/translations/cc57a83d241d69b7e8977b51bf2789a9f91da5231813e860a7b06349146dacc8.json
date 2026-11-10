@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed saved Fable 5.1 model picks to move to `fable`: on Pro and Max plans at once, on Team and Enterprise plans once your organization allows it; use `/model claude-fable-5-1` to switch back",
+  "zh": "变更已保存的 Fable 5.1 模型选择，改为迁移到 `fable`：Pro 和 Max 方案立即生效，Team 和 Enterprise 方案在组织允许后生效；使用 `/model claude-fable-5-1` 可切回",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

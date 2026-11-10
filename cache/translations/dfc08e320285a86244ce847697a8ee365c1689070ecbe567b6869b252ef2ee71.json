@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude agents` ignoring `--permission-mode`, `--dangerously-skip-permissions`, `--model`, `--effort` or `--agent` typed before `agents` when a flag such as `--verbose` was also on the line",
+  "zh": "修复了 `claude agents` 忽略在 `agents` 之前输入的 `--permission-mode`、`--dangerously-skip-permissions`、`--model`、`--effort` 或 `--agent` 的问题：当命令行中同时带有 `--verbose` 等标志时会出现该问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

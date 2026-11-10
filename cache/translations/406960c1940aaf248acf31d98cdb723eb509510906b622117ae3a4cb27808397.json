@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Edit changing the first of several matches, replacing a whole file on an empty `old_string`, or editing a notebook as text, on network paths (UNC shares, WSL folders, `/net` mounts)",
+  "zh": "修复了在网络路径（UNC 共享、WSL 文件夹、`/net` 挂载）上，Edit 更改多个匹配项中的第一个、在 `old_string` 为空时替换整个文件或将 notebook 作为文本编辑的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

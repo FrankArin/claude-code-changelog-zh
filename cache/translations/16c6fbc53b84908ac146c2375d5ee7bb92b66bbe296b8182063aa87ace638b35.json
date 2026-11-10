@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved sessions with more images than fit in one request: Claude is told whether it has already seen a dropped image, and repeat reads of an unchanged image are limited",
+  "zh": "改进图片数量超出单次请求容量的 session：会告知 Claude 是否已看过被丢弃的图片，并限制对未变更图片的重复读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

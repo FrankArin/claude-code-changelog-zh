@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the agent view's row for a `claude --bg --worktree` session that couldn't set up its worktree: it now shows the error from its beginning, not an internal tag or its last 200 characters",
+  "zh": "改进 agent 视图中无法设置 worktree 的 `claude --bg --worktree` session 行：现在从开头显示错误，而不是内部标记或其最后 200 个字符",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

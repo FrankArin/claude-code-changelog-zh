@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude remote-control` accepting a `y` typed without Enter at its first-run question when the terminal's input ended",
+  "zh": "修复 `claude remote-control` 在首次运行提问时，若终端输入已结束，会接受未按 Enter 输入的 `y` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

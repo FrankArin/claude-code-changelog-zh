@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Cyber Verification Program sentence on a cyber safeguard block to use the same words as claude.ai",
+  "zh": "变更网络安全防护拦截提示中的 Cyber Verification Program 语句，使其与 claude.ai 使用相同措辞",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

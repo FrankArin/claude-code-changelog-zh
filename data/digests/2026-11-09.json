@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "versions": [
+    "2.1.321"
+  ],
+  "tldr": "新增默认 Fable 5.2 模型与多项安全修复，网关与权限行为有变更需注意。",
+  "highlights": [
+    {
+      "title": "新增默认 Fable 5.2 模型",
+      "category": "新功能",
+      "detail": "claude-fable-5-2 成为默认 Fable 模型，1M 上下文，$8/$40 每 Mtok，缓存读取 $0.20。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.321-added-1"
+      ],
+      "version": "2.1.321"
+    },
+    {
+      "title": "Fable 5.1 选择迁移至 fable",
+      "category": "破坏性变更",
+      "detail": "已保存的 Fable 5.1 选择会迁移到 fable；Pro/Max 立即生效，Team/Enterprise 需组织允许。",
+      "action": "如需继续使用旧模型，运行 /model claude-fable-5-1 切回。",
+      "example": {
+        "lang": "bash",
+        "code": "/model claude-fable-5-1",
+        "caption": "切回 Fable 5.1"
+      },
+      "item_ids": [
+        "2.1.321-changed-9"
+      ],
+      "version": "2.1.321"
+    },
+    {
+      "title": "网关忽略 ANTHROPIC_*_BASE_URL",
+      "category": "破坏性变更",
+      "detail": "Bedrock、Vertex、Foundry 上游不再读取网关环境中的 ANTHROPIC_*_BASE_URL 变量。",
+      "action": "如需自定义端点，请在上游设置 base_url。",
+      "example": {
+        "lang": "bash",
+        "code": "ANTHROPIC_*_BASE_URL",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.321-changed-20"
+      ],
+      "version": "2.1.321"
+    },
+    {
+      "title": "修复 MCP OAuth 令牌泄露",
+      "category": "安全",
+      "detail": "服务器重定向时，MCP OAuth 请求不再把刷新令牌等机密发送到另一主机。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.321-fixes-45"
+      ],
+      "version": "2.1.321"
+    },
+    {
+      "title": "修复沙箱与权限绕过",
+      "category": "安全",
+      "detail": "只读 Bash 命令不再无提示在沙箱外运行；Bash 权限检查不再从错误文件夹判断写入；cp/mv 写入目录时拒绝规则与保护文件提示现已生效。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.321-fixes-46",
+        "2.1.321-fixes-47",
+        "2.1.321-fixes-48"
+      ],
+      "version": "2.1.321"
+    },
+    {
+      "title": "mod 工具调用不再触发权限提示",
+      "category": "改进",
+      "detail": "mod 自身工具调用不再触发权限提示，deny 规则与组织策略仍生效；自动与 bypass 模式下 mod 无需询问即可启用。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.321-changed-7",
+        "2.1.321-changed-8"
+      ],
+      "version": "2.1.321"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "fac6c9851d2f96a083e448ec8b7262ef778c0b2a5dfce5329cce8ef335e699ee"
+}

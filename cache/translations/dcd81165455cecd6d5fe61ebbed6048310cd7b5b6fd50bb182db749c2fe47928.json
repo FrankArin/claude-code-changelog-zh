@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `policy_mode: layered` in the Claude apps gateway: managed MCP servers now add up over every matching policy, `match: {}` included, so a gateway already on it serves more after the upgrade",
+  "zh": "变更 Claude 应用网关中的 `policy_mode: layered`：托管的 MCP 服务器现在会在所有匹配的策略上累加，包括 `match: {}`，因此已启用该模式的网关在升级后会提供更多内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

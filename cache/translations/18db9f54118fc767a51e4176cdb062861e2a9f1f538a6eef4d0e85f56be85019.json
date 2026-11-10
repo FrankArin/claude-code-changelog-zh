@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed remote sessions giving no reply after a restart when a `UserPromptSubmit` hook blocked a replayed permission answer; these hooks no longer run on that replay",
+  "zh": "修复远程 session 在重启后无回复的问题：当 `UserPromptSubmit` hook 阻止了重放的权限应答时会出现该问题；这些 hook 不再在该重放中运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

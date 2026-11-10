@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved auto mode in headless sessions, the desktop app and VS Code: reports from background subagents that wait together are answered in one model call, as in the terminal",
+  "zh": "改进无头 session、桌面应用和 VS Code 中的自动模式：同时等待的后台 subagent 报告会在一次模型调用中一并回复，与终端中一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

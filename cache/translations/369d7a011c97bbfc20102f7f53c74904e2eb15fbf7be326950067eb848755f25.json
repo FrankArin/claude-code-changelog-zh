@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Cowork cloud sessions: a PostToolUse hook can no longer replace the answer to AskUserQuestion or the plan in ExitPlanMode's result; Claude reads the originals",
+  "zh": "变更 Cowork 云 session：PostToolUse hook 不能再替换 AskUserQuestion 的答案或 ExitPlanMode 结果中的计划；Claude 读取原始内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

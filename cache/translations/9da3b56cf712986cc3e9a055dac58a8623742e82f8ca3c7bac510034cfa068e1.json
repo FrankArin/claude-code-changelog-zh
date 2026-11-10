@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed background command notifications and TaskStop results to show Claude only the start and end of a command over 1,000 characters, which saves context",
+  "zh": "变更后台命令通知和 TaskStop 结果：对于超过 1,000 个字符的命令，只向 Claude 显示开头和结尾，以节省上下文",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed project skills, commands and agents disappearing from the menu in SDK and desktop sessions after Claude entered a worktree",
+  "zh": "修复了 SDK 和桌面应用 session 中，Claude 进入 worktree 后项目 skill、命令和 agent 从菜单中消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-10T01:55:00+00:00"
+}
