@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude agents` losing a typed prompt: Esc now needs a second press to clear it, and ctrl+y restores it",
+  "zh": "修复了 `claude agents` 丢失已输入 prompt 的问题：现在 Esc 需要按第二次才会清除，ctrl+y 可恢复",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

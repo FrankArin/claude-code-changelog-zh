@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Bash permission checks so the same command more reliably gets the same answer on a slow or busy machine",
+  "zh": "改进了 Bash 权限检查，使同一命令在缓慢或繁忙的机器上更可靠地得到相同结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

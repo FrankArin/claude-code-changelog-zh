@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a permission prompt when Claude read the output of its own background command or agent after entering a worktree",
+  "zh": "修复了 Claude 进入 worktree 后读取自身后台命令或 agent 输出时出现权限提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

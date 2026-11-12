@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where the Bash sandbox could switch off during a session",
+  "zh": "修复了 Bash 沙箱可能在 session 期间被关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

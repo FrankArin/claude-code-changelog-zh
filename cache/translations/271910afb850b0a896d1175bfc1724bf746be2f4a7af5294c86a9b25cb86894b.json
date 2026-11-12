@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a resumed session joining your next message to an old interrupted message that was not resumed",
+  "zh": "修复恢复的 session 将你的下一条消息拼接到未恢复的旧中断消息上的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

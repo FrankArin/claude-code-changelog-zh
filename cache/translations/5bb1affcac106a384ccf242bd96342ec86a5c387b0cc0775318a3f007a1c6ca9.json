@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[VSCode] Fixed the sign-in screen showing the login choices again after a pasted code; it now shows \"Signing in…\" until the sign-in finishes",
+  "zh": "[VSCode] 修复了粘贴验证码后登录界面再次显示登录选项的问题；现在会显示\"正在登录…\"直到登录完成",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

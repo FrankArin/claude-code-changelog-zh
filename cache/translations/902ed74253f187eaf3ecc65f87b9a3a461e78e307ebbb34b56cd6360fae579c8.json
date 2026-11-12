@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` silently using another model in text output when settings block the requested one; it now warns on stderr",
+  "zh": "修复了当设置阻止使用所请求的模型时，`claude -p` 在文本输出中静默改用其他模型的问题；现在会在 stderr 上发出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

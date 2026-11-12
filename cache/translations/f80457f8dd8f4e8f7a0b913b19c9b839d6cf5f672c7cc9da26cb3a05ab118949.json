@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a background session sending a conversation under another sign-in when its named Anthropic profile is missing, changed or overridden; it now stops and says so",
+  "zh": "修复了后台 session 在其命名 Anthropic 配置文件缺失、变更或被覆盖时，以其他登录方式发送对话的问题；现在会停止并给出提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

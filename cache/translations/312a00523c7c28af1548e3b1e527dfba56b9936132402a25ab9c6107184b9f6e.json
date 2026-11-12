@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the fullscreen header naming the session's effort level for a viewed subagent on a different model, which that subagent doesn't use",
+  "zh": "修复了全屏标题栏在查看使用其他模型的 subagent 时显示该 session 的 effort 级别的问题，因为该 subagent 并不使用该级别",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

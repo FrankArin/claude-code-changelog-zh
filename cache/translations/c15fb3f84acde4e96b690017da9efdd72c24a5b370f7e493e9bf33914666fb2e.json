@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Edit and Bash running out of memory on certain `/proc` files, and Edit hanging or running out of memory on devices and named pipes",
+  "zh": "修复了 Edit 和 Bash 在特定 `/proc` 文件上内存耗尽的问题，以及 Edit 在设备和命名管道上挂起或内存耗尽的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

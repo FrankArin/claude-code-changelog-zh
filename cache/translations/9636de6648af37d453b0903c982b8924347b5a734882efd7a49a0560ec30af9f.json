@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed documents created through the Claude Docs connector not opening in your browser when you work in a terminal",
+  "zh": "修复了在终端中工作时，通过 Claude Docs connector 创建的文档无法在浏览器中打开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

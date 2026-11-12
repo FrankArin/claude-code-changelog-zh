@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions that kept failing after a Claude apps gateway sign-in expired: once you sign in again with `/login` in another terminal, they carry on at the next message",
+  "zh": "修复了 Claude 应用网关登录过期后持续失败的 session：在另一个终端中用 `/login` 重新登录后，它们会在下一条消息时继续运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

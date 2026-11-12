@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Tag] Fixed scheduled tasks in a Slack channel moved between Enterprise Grid workspaces failing to use Slack until someone posted there",
+  "zh": "[Claude Tag] 修复了在 Enterprise Grid 工作区之间迁移的 Slack 频道中，定时任务在有人于该频道发帖前无法使用 Slack 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

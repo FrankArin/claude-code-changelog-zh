@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_CODE_DISABLE_AGENT_PROGRESS_SUMMARIES` (available since 2.1.318): set it to `1` to turn off subagent progress summaries and the requests that write them (anthropics/claude-code#86879)",
+  "zh": "新增 `CLAUDE_CODE_DISABLE_AGENT_PROGRESS_SUMMARIES`（自 2.1.318 起可用）：设为 `1` 可关闭 subagent 进度摘要及生成这些摘要的请求（anthropics/claude-code#86879）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

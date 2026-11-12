@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/stickers` to say that the sticker pack is all claimed for now, instead of opening a page in the browser",
+  "zh": "变更 `/stickers`：改为提示贴纸包目前已全部领取完毕，而不再在浏览器中打开页面",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the tip after a slow worktree creation suggesting a `sparsePaths` list without `.claude`, which left worktrees without your project settings and rules",
+  "zh": "修复了 worktree 创建缓慢后的提示建议使用不含 `.claude` 的 `sparsePaths` 列表、导致 worktree 缺少项目设置和规则的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

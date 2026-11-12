@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin installs hiding what a plugin's install command wrote to stderr when that command succeeded, such as a note that the plugin has no skills yet",
+  "zh": "修复了插件安装成功时，插件安装命令写入 stderr 的内容被隐藏的问题，例如插件尚无 skill 的提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

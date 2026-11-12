@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an expired claude.ai login showing \"Credit balance too low\" when a saved Console key or `ant auth login` profile without credit was used instead",
+  "zh": "修复了 claude.ai 登录过期时，在使用已保存的 Console key 或无额度的 `ant auth login` 配置文件的情况下，显示“Credit balance too low”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

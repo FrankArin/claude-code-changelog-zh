@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `awsAuthRefresh` or `gcpAuthRefresh` command sometimes running twice for one request when three or more sessions needed a fresh sign-in at once",
+  "zh": "修复了三个或更多 session 同时需要重新登录时，`awsAuthRefresh` 或 `gcpAuthRefresh` 命令有时会针对同一请求运行两次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

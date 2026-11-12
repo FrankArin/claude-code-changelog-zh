@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an MCP server staying disconnected with no tools after an Agent SDK app or `claude -p` caller removed and re-added it, when a tool call had tried to reach it in between",
+  "zh": "修复了 Agent SDK 应用或 `claude -p` 调用方移除并重新添加 MCP 服务器后，若期间有工具调用尝试访问该服务器，则服务器保持断开且无工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

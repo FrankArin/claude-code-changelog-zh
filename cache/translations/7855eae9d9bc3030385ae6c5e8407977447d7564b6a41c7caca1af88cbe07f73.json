@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[VSCode] Fixed a response that was discarded because its tool call could not be parsed still showing after Claude retried",
+  "zh": "[VSCode] 修复了因工具调用无法解析而被丢弃的响应在 Claude 重试后仍显示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `engines[\"claude-code\"]` to `plugin.json`: plugins outside their stated Claude Code version range are not installed, updated or loaded, and install and update pick the newest version that fits",
+  "zh": "在 `plugin.json` 中新增 `engines[\"claude-code\"]`：超出所声明 Claude Code 版本范围的 plugin 不会被安装、更新或加载，安装和更新时会选择符合范围的最新版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

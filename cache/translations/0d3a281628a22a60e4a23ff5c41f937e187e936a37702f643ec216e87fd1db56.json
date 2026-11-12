@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed how many messages each of your sessions on the same machine can send the others without a prompt from you, from about 20 to 100,000",
+  "zh": "变更了同一台机器上各 session 之间无需你提示即可互相发送的消息数量，从约 20 条改为 100,000 条",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed sessions left running at shutdown, and finished sessions holding their slot, when the disk stops responding",
+  "zh": "Remote Control：修复磁盘无响应时，关闭时仍有 session 在运行，以及已结束的 session 仍占用其槽位的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

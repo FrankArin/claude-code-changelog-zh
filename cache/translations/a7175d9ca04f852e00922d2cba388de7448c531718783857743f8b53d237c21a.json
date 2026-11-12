@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed project (`.mcp.json`) MCP server approvals to match the server's exact name; an approval entry written in another spelling now asks again",
+  "zh": "变更项目（`.mcp.json`）MCP 服务器审批：改为匹配服务器的精确名称；以其他拼写写入的审批条目现在会重新询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Code on the web] Improved adding a repository Claude can't access to a cloud session: a short message and a Reconnect GitHub button replace the long error",
+  "zh": "[Claude Code 网页版] 改进向云 session 添加 Claude 无法访问的仓库的体验：用简短提示和 Reconnect GitHub 按钮替代冗长的错误信息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

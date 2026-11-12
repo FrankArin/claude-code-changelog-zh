@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control showing nothing while Claude Code asks whether to use usage credits: the question now also shows in the Claude app",
+  "zh": "修复 Claude Code 询问是否使用用量额度时 Remote Control 不显示任何内容的问题：该问题现在也会在 Claude 应用中显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

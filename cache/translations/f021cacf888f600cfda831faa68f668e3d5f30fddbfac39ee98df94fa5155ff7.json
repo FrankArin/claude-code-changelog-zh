@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` re-running a turn that a hook's `continue: false` had stopped",
+  "zh": "修复了 `CLAUDE_CODE_RESUME_INTERRUPTED_TURN` 重新执行已被 hook 的 `continue: false` 停止的轮次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Code on the web] Fixed the Stop button disappearing from a cloud session five minutes into a reply that had shown nothing yet while Claude was still working",
+  "zh": "[Claude Code 网页版] 修复云 session 在 Claude 仍在工作、回复尚未显示任何内容时，回复进行五分钟后 Stop 按钮消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

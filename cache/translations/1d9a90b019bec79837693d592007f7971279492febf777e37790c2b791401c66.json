@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Code on the web] Added a warning to a cloud session's Delete dialog when deleting it will pause scheduled tasks that run in that session",
+  "zh": "[Claude Code on the web] 在云 session 的删除对话框中新增警告：删除该 session 会暂停在其中运行的定时任务",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

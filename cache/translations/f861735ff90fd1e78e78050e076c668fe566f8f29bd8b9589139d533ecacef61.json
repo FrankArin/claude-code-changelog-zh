@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude --teleport` opening an empty session when the server could not find the session's history, and `claude -p --teleport` exiting without an error when the resume failed",
+  "zh": "修复了服务器找不到 session 历史时 `claude --teleport` 打开空 session 的问题，以及恢复失败时 `claude -p --teleport` 未报错就退出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

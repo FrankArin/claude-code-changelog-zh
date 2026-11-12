@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plan files sometimes being written outside the project when `plansDirectory` is set; a write that can't be shown to stay inside the project is now refused",
+  "zh": "修复了设置 `plansDirectory` 时计划文件有时被写到项目之外的问题；无法确认写入保持在项目内的写入现在会被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

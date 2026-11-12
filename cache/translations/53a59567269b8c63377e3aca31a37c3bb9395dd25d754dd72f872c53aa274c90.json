@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Cloud sessions: Fixed an answer to Claude's question being lost after a restart in a long conversation",
+  "zh": "云 session：修复了长对话中重启后对 Claude 提问的回答丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

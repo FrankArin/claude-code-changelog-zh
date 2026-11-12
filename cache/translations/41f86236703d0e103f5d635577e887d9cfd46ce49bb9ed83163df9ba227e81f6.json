@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed browser tool calls (Claude in Chrome, the desktop browser pane) to refuse some escaped or JSON-text inputs and tell Claude how to respell them",
+  "zh": "变更浏览器工具调用（Chrome 中的 Claude、桌面浏览器面板）：拒绝部分转义或 JSON 文本输入，并告知 Claude 如何重新拼写",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/upgrade` and Ctrl+clicked links in fullscreen failing silently when no browser can open: the address is now shown",
+  "zh": "修复了全屏模式下 `/upgrade` 和 Ctrl+点击的链接在无浏览器可打开时静默失败的问题：现在会显示地址",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

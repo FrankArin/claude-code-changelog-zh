@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed auto mode running behind a gateway at `ANTHROPIC_BASE_URL` on a model whose gateway name contains \"haiku\"; such a model, other than `claude-haiku-5-5`, is now refused, as Haiku 4.5 is",
+  "zh": "修复了自动模式在 `ANTHROPIC_BASE_URL` 网关后运行、且模型网关名称包含“haiku”时的问题；此类模型（`claude-haiku-5-5` 除外）现在会被拒绝，与 Haiku 4.5 一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

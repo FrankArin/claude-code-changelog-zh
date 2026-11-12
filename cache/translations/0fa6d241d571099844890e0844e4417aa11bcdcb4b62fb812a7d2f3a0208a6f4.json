@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Tag] Fixed the Approve and post card in a DM with Claude appearing for private or Slack Connect channels, where Claude can't post; Claude now gets the reason and shows no card",
+  "zh": "[Claude Tag] 修复了在与 Claude 的私信中，对于 Claude 无法发帖的私有频道或 Slack Connect 频道仍显示“批准并发布”卡片的问题；现在 Claude 会获知原因且不显示卡片",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

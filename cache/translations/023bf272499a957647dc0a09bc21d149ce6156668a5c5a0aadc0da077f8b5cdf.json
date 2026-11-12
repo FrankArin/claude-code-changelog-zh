@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed what happens when a tool's permission check fails with an error after a `PreToolUse` hook returned \"allow\": Claude Code now decides the call as if no hook had answered",
+  "zh": "变更了 `PreToolUse` hook 返回“allow”后工具权限检查出错时的行为：Claude Code 现在会按没有 hook 应答来处理该调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

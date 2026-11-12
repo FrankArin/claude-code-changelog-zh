@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Option-key hint appearing while typing ø or π inside words on Danish, Norwegian, Faroese and Greek keyboard layouts",
+  "zh": "修复了在丹麦语、挪威语、法罗语和希腊语键盘布局下，在单词内输入 ø 或 π 时出现 Option 键提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

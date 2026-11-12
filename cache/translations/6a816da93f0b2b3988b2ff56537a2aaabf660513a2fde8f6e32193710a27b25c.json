@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions opened before a sign-in keeping signed-out feature flags after the sign-in",
+  "zh": "修复了登录前打开的 session 在登录后仍保留已登出状态的功能标志的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

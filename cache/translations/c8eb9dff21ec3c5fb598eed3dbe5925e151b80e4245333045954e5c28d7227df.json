@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a stopped MCP call, or a stopped shell command in fullscreen, reading as \"Called\" or \"Ran\" in a collapsed tool group: it now says no result was recorded and shows its input",
+  "zh": "修复了已停止的 MCP 调用或全屏模式下已停止的 shell 命令在折叠的工具组中显示为“Called”或“Ran”的问题：现在会说明未记录结果并显示其输入",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

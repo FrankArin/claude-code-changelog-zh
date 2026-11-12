@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where part of a saved session could be lost on NFS or FUSE file systems when Claude Code discarded a reply",
+  "zh": "修复了在 NFS 或 FUSE 文件系统上，Claude Code 丢弃一条回复时已保存 session 的部分内容可能丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

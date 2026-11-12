@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed other devices and phone notifications not showing what Claude is asking permission for when `DISABLE_TELEMETRY` or `DO_NOT_TRACK` is set",
+  "zh": "Remote Control：修复设置 `DISABLE_TELEMETRY` 或 `DO_NOT_TRACK` 时，其他设备和手机通知不显示 Claude 正在请求何种权限的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

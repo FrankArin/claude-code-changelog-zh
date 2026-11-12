@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/diff` waiting for Claude to finish before closing the diff panel in fullscreen",
+  "zh": "修复了在全屏模式下 `/diff` 等待 Claude 完成才关闭 diff 面板的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background sessions moving between a profile and the stored login when an update restarted them",
+  "zh": "修复了后台 session 在更新重启时于配置文件和已存储登录之间切换的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

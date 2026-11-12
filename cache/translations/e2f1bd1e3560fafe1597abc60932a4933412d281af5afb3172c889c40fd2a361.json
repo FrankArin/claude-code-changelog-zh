@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Claude Desktop and cloud sessions for claude.ai accounts with more than 2,000 plugins turned on: a shorter wait at startup, and Claude can now say why plugins are missing",
+  "zh": "改进了启用了超过 2,000 个 plugin 的 claude.ai 账户在 Claude Desktop 和云 session 中的体验：启动等待更短，Claude 现在可以说明 plugin 缺失的原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

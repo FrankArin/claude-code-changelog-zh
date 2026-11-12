@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a multi-row status line being pushed off screen by a long prompt in the fullscreen renderer",
+  "zh": "修复了在全屏渲染器中，多行状态栏被过长的 prompt 挤出屏幕的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

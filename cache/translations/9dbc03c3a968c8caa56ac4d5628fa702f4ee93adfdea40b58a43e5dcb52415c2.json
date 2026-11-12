@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed self-hosted runners under `--trust-workspace false` and VS Code sessions in an untrusted folder: the repository's settings can no longer disable your hooks or turn plugins on or off",
+  "zh": "变更 `--trust-workspace false` 下的自托管运行器以及不受信任文件夹中的 VS Code session：仓库的设置不再能禁用你的 hooks 或开启、关闭 plugins",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

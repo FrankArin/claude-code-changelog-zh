@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved sign-in errors in `/login` and `claude setup-token` for a rejected, unreachable or timed-out request: they now say what happened and what to check",
+  "zh": "改进了 `/login` 和 `claude setup-token` 中针对请求被拒绝、无法访问或超时的登录错误：现在会说明发生了什么以及需要检查什么",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

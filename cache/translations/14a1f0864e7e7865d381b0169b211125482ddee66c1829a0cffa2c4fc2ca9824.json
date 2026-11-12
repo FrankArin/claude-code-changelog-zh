@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugins with `defaultEnabled: false` staying off in a claude.ai chat's cloud session after you turn them on in claude.ai",
+  "zh": "修复了在 claude.ai 中启用 `defaultEnabled: false` 的 plugins 后，它们在 claude.ai 聊天的云端 session 中仍保持关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

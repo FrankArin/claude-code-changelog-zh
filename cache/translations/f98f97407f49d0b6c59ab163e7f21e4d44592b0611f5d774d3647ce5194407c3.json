@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[VSCode] Fixed the diff tab not opening for multi-line edits on files with CRLF line endings",
+  "zh": "[VSCode] 修复了在 CRLF 行尾的文件上进行多行编辑时 diff 标签页不打开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

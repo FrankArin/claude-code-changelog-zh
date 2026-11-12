@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error for an MCP tool call whose connector ID is mistyped by a character or two: for a server that the host application registered, it now names the tool to call",
+  "zh": "改进了 MCP 工具调用中 connector ID 拼错一两个字符时的错误提示：对于宿主应用注册的服务器，现在会指出应调用的工具",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

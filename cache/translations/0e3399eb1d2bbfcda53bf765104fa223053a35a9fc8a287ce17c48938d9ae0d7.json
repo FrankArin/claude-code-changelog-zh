@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a progress heartbeat every 30 seconds while hooks run long in `claude -p` and SDK sessions, so a host such as Claude Desktop won't end the turn as hung (once it includes this version)",
+  "zh": "在 `claude -p` 和 SDK session 中 hooks 长时间运行时，每 30 秒发送一次进度心跳，避免 Claude Desktop 等宿主将本轮判定为挂起而结束（待其包含此版本后生效）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

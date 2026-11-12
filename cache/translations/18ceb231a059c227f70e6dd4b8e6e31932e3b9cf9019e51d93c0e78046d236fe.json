@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Bash permission checks: some commands that could run differently from how they were checked now ask for permission",
+  "zh": "改进了 Bash 权限检查：部分命令的实际运行方式可能与检查时不同，现在会请求权限",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the spend limit menu offering a lower limit when your current limit couldn't be loaded",
+  "zh": "修复当前限额无法加载时，支出限额菜单仍提供更低限额的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

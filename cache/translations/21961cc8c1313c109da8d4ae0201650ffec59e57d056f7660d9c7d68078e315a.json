@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed computer use on macOS to refuse key chords that hold Space with Control or Option, and more system shortcuts that need your grant",
+  "zh": "变更 macOS 上的计算机使用：拒绝按住 Space 加 Control 或 Option 的组合键，以及更多需要你授权的系统快捷键",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the model picker and `/model` showing a picked effort level that `CLAUDE_CODE_EFFORT_LEVEL` overrides",
+  "zh": "修复了模型选择器和 `/model` 显示所选 effort 级别、但该级别会被 `CLAUDE_CODE_EFFORT_LEVEL` 覆盖的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

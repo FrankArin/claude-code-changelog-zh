@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed accents and other combining marks sometimes landing left of the text, leaving stale copies on screen, or silently disappearing when text wraps",
+  "zh": "修复了重音符号及其他组合标记有时出现在文本左侧、在屏幕上留下残留副本，或在文本换行时悄然消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

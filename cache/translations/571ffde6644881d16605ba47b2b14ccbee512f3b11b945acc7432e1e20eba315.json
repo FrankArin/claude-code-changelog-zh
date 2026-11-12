@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Code Review] Added a Download CSV button to Code Review admin settings: export review costs per repository by month, week or day, for one repository, one GitHub organization or all",
+  "zh": "[Code Review] 在 Code Review 管理设置中新增“下载 CSV”按钮：可按月、周或日导出单个仓库、单个 GitHub 组织或全部仓库的审查费用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

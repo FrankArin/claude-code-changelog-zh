@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude rm` and the agents view to say a session is removed from the list, not deleted; `claude rm` help says the conversation is kept and `claude --resume` lists it",
+  "zh": "变更 `claude rm` 和 agents 视图：改为说明 session 已从列表中移除，而非已删除；`claude rm` 的帮助说明对话会被保留，并可通过 `claude --resume` 列出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

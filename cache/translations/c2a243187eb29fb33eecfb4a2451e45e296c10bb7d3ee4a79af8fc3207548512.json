@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed sessions from the desktop app showing as idle on your phone while background subagents were still running",
+  "zh": "Remote Control：修复来自桌面应用的 session 在后台 subagent 仍在运行时，在手机上显示为空闲的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

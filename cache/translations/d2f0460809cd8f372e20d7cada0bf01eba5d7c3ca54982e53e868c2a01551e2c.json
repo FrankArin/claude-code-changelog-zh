@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed split-pane agent teammates to check that requests come from their team lead: one that outlives its lead has its asks refused, and plan approvals must be re-sent after `/clear` or `/resume`",
+  "zh": "变更分屏 agent 队友：改为校验请求来自其团队负责人；存活时间超过负责人的队友，其请求会被拒绝，且 `/clear` 或 `/resume` 后计划审批必须重新发送",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

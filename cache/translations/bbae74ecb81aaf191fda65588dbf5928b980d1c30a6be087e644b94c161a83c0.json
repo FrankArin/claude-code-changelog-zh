@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed subagent transcripts and large tool results being saved apart from the session's transcript after entering a worktree created by a `WorktreeCreate` hook or belonging to a nested repository",
+  "zh": "修复了进入由 `WorktreeCreate` hook 创建的 worktree 或属于嵌套仓库的 worktree 后，subagent 记录和大型工具结果与 session 记录分开保存的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

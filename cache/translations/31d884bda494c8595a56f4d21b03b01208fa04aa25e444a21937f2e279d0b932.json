@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed OpenTelemetry exports failing when a proxy took over 10 seconds to reach the collector; it now has 25 seconds, also the most that `OTEL_EXPORTER_OTLP_TIMEOUT` can allow (previously 30)",
+  "zh": "修复了代理连接 collector 耗时超过 10 秒时 OpenTelemetry 导出失败的问题；现在超时时间为 25 秒，这也是 `OTEL_EXPORTER_OTLP_TIMEOUT` 允许的最大值（此前为 30）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

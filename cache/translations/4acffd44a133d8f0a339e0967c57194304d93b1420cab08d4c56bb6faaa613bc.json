@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed start-up to stop when a `--settings` file isn't valid JSON and has a `sandbox` key, even one that turns the sandbox off",
+  "zh": "变更了启动流程，当 `--settings` 文件不是有效 JSON 且包含 `sandbox` 键时停止启动，即使该键会关闭沙箱",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

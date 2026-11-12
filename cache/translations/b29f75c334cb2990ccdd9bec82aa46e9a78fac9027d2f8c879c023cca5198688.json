@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the misleading \"not cached\" error for a plugin only a repository's settings enable: it now says it isn't installed, gives the install command, and shows in text and stream-json `-p` runs",
+  "zh": "修复了仅由仓库设置启用的 plugin 会报出误导性的“not cached”错误的问题：现在会提示该 plugin 未安装、给出安装命令，并在文本和 stream-json 的 `-p` 运行中显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

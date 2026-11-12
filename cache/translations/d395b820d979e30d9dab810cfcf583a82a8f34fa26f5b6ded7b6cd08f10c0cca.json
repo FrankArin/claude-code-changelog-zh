@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Reverted the exit code of an on-demand runner whose work order was superseded to 1; 2.1.321 and 2.1.322 had changed it to 0",
+  "zh": "自托管运行器：将工单被取代的按需运行器的退出码恢复为 1；2.1.321 和 2.1.322 曾将其改为 0",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

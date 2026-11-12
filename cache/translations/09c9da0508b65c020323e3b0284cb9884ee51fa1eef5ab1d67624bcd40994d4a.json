@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Stop pressed right after sending a message showing as an error in remote and SDK sessions while a `UserPromptSubmit` or plugin prompt hook was still running",
+  "zh": "修复了在 `UserPromptSubmit` 或插件 prompt hook 仍在运行时，发送消息后立即按下停止在远程和 SDK session 中显示为错误的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

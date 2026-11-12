@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a message dropping out of a cloud session's conversation when the session restarted before Claude replied",
+  "zh": "修复了当 session 在 Claude 回复前重启时，消息从云 session 对话中丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

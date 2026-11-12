@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `MCP_SDK_GENERATION=v1` to run the v2 MCP client in a compatibility mode (earlier handshake, relaxed OAuth sign-in checks), because the v1 MCP client is removed",
+  "zh": "变更了 `MCP_SDK_GENERATION=v1`，改为以兼容模式运行 v2 MCP 客户端（更早的握手、放宽的 OAuth 登录检查），因为 v1 MCP 客户端已被移除",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

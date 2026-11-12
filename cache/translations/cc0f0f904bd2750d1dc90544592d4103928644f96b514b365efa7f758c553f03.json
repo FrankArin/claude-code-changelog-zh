@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved start-up on Linux when `/home` is an autofs map: Claude Code no longer looks up files in `/home` itself. Set `CLAUDE_CODE_AUTOMOUNT_ROOTS` for a map root deeper than one folder below `/`",
+  "zh": "改进了 Linux 上 `/home` 为 autofs 映射时的启动：Claude Code 不再在 `/home` 本身中查找文件。对于位于 `/` 下一层以上目录的映射根，请设置 `CLAUDE_CODE_AUTOMOUNT_ROOTS`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

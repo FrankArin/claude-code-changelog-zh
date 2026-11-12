@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/usage` showing a whole-session percentage beside a subagent type's name, and saying sessions ran 8 hours when it only counts hours with requests",
+  "zh": "修复 `/usage` 在 subagent 类型名称旁显示整个 session 的百分比，以及仅统计有请求的小时数却显示 session 运行了 8 小时的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

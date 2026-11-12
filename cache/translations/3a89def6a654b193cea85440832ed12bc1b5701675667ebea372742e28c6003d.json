@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed a `/skill` or `@file` typed between two files picked in claude.ai or the desktop app, or after a picked file and a link, to no longer take effect",
+  "zh": "变更在 claude.ai 或桌面应用中两个已选文件之间、或已选文件与链接之后输入的 `/skill` 或 `@file`：不再生效",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

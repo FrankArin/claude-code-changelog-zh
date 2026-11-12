@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Tag] Added a Scope filter to the Network events tab of Claude Tag's Activity page, so admins can download one scope's events instead of the whole organization's",
+  "zh": "[Claude Tag] 在 Claude Tag 活动页面的网络事件标签页中新增范围筛选器，管理员可下载单个范围的事件，而无需下载整个组织的事件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

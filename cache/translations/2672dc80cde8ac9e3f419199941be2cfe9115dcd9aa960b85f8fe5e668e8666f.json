@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed read-only git commands needing approval, or being refused under `claude -p`, when `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` is set on Linux",
+  "zh": "修复了在 Linux 上设置 `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` 时，只读 git 命令需要审批或在 `claude -p` 下被拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed mods: a `*`, namespace or negated hook on `engine.create` now only observes. To add or withhold a `$` noun, hook `engine.create` by name",
+  "zh": "变更了 mods：`engine.create` 上的 `*`、命名空间或取反 hook 现在仅作观察。要添加或保留 `$` 名词，请按名称 hook `engine.create`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

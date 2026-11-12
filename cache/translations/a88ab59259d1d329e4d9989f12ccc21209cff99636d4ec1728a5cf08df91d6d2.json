@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_CODE_RESUME_HINT_COMMAND`, which a program that starts Claude Code can set to have the exit hint name its own resume command",
+  "zh": "新增 `CLAUDE_CODE_RESUME_HINT_COMMAND`，启动 Claude Code 的程序可设置该项，使退出提示显示其自己的恢复命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "versions": [
+    "2.1.323"
+  ],
+  "tldr": "新增实验性 Code Mode 与插件版本约束，修复大量权限、登录与沙箱问题，并有多项行为变更。",
+  "highlights": [
+    {
+      "title": "新增实验性 Code Mode",
+      "category": "新功能",
+      "detail": "Claude 可通过编写 JavaScript 调用工具，需主动启用；组织也可选择关闭。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.323-other-1"
+      ],
+      "version": "2.1.323"
+    },
+    {
+      "title": "插件版本范围约束",
+      "category": "新功能",
+      "detail": "plugin.json 支持 engines[\"claude-code\"]，超出声明版本范围的插件不会被安装、更新或加载。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.323-other-2"
+      ],
+      "version": "2.1.323"
+    },
+    {
+      "title": "未知模型上下文改为 1M",
+      "category": "破坏性变更",
+      "detail": "无法识别的模型 ID 默认上下文窗口从 200K 改为 1M，其他厂商小窗口模型可能每轮失败。",
+      "action": "如需保持 200K，请设置 CLAUDE_CODE_DISABLE_1M_CONTEXT=1",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_1M_CONTEXT=1",
+        "caption": "保持 200K 上下文窗口"
+      },
+      "item_ids": [
+        "2.1.323-other-204",
+        "2.1.323-other-205"
+      ],
+      "version": "2.1.323"
+    },
+    {
+      "title": "移除 subagentStatusLine",
+      "category": "破坏性变更",
+      "detail": "该设置已移除，subagent 行始终使用默认外观；仍含该键的设置文件照常加载。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.323-other-247"
+      ],
+      "version": "2.1.323"
+    },
+    {
+      "title": "代理仅认 HTTPS_PROXY",
+      "category": "破坏性变更",
+      "detail": "组织设置与策略请求不再使用仅由 ALL_PROXY 设置的代理。",
+      "action": "若网络需要代理，请为这些请求设置 HTTPS_PROXY",
+      "example": null,
+      "item_ids": [
+        "2.1.323-other-203"
+      ],
+      "version": "2.1.323"
+    },
+    {
+      "title": "修复多项权限绕过",
+      "category": "安全",
+      "detail": "修复 Bash 通配符规则、sudo/env 包装、rm 路径判断、Write/Edit 绕过 Read 拒绝规则及沙箱逃逸等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.323-other-55",
+        "2.1.323-other-57",
+        "2.1.323-other-49",
+        "2.1.323-other-60",
+        "2.1.323-other-59"
+      ],
+      "version": "2.1.323"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "10c1efc75a4140573991ec44d824ba9bfa37215a087887188eab74824a7e1033"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the billing notice naming your `ant auth login` organization when a custom `X-Api-Key` header is set",
+  "zh": "修复了设置自定义 `X-Api-Key` 请求头时，计费通知显示你的 `ant auth login` 组织的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

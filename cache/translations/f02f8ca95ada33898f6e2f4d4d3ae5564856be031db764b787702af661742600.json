@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed OpenTelemetry export failing silently when an `otlp` exporter had an endpoint but no `OTEL_EXPORTER_OTLP_PROTOCOL`: it now defaults to `http/protobuf`",
+  "zh": "修复当 `otlp` exporter 配置了 endpoint 但未设置 `OTEL_EXPORTER_OTLP_PROTOCOL` 时，OpenTelemetry 导出静默失败的问题：现在默认使用 `http/protobuf`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

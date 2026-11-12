@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed false \"needs input\" notifications in `claude agents` after replying to a blocked session, and repeated ones after a background turn ended with no text and only basic tools such as Bash or Read",
+  "zh": "修复了在 `claude agents` 中回复被阻塞的 session 后出现错误的“需要输入”通知，以及后台回合结束时没有文本、仅使用 Bash 或 Read 等基础工具后重复出现该通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

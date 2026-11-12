@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where the Write and Edit tools could write to a path covered by a `Read` deny rule",
+  "zh": "修复了 Write 和 Edit 工具可能写入被 `Read` 拒绝规则覆盖的路径的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed project settings sometimes being read through a symbolic link that leads to a different folder than the one Claude Code checked",
+  "zh": "修复了项目设置有时会通过一个指向与 Claude Code 所检查目录不同的符号链接被读取的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

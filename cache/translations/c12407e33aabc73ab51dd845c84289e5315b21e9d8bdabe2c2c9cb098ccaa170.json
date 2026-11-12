@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed workflows so that a prompt an app marks as not typed no longer reaches their agents as your request",
+  "zh": "变更 workflow：应用标记为非用户输入的 prompt 不再作为你的请求传给其 agents",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

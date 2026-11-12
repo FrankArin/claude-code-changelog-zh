@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed some Claude in Chrome tool calls, such as `browser_batch`, not showing the tool's name in the fullscreen transcript (ctrl+o) or in a subagent's progress",
+  "zh": "修复了部分 Claude in Chrome 工具调用（如 `browser_batch`）在全屏记录（ctrl+o）或 subagent 进度中不显示工具名称的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

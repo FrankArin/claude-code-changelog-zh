@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "macOS: Fixed \"Not logged in · Please run /login\" coming back right after a successful `/login` or a token refresh when the keychain was slow to answer",
+  "zh": "macOS：修复了 `/login` 成功或 token 刷新后，因钥匙串响应缓慢而立即重新出现“Not logged in · Please run /login”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

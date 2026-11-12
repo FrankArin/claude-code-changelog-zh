@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an interactive `--chrome` session giving no reason for starting without Claude in Chrome when your organization's policy turns it off: a line now says so",
+  "zh": "修复了交互式 `--chrome` 会话在组织策略关闭 Claude in Chrome 时启动却不说明原因的问题：现在会显示一行说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

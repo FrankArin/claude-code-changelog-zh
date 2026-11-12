@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a resumed cloud session making a model call nobody asked for when files arrived right after a chat's first reply",
+  "zh": "修复了恢复的云 session 在聊天首次回复后立即收到文件时发起无谓模型调用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash commands that write a file with `cat > file <<EOF` being shown as \"Read 1 file\"",
+  "zh": "修复了使用 `cat > file <<EOF` 写入文件的 Bash 命令被显示为“Read 1 file”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[VSCode] Changed opening a Claude Code on the web session in a folder where Claude Code's sandbox is on: the extension no longer switches to the session's branch for you, and the dialog says why",
+  "zh": "[VSCode] 变更在已开启 Claude Code 沙箱的文件夹中打开 Claude Code 网页版 session 的行为：扩展不再自动切换到该 session 的分支，对话框会说明原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

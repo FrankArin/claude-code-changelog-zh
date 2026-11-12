@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/logout` in a background session, which had no effect: it now signs out every session on the computer, deletes stored MCP logins and plugin secrets, and ends the session, as in a terminal",
+  "zh": "变更了后台 session 中的 `/logout`（此前无效）：现在它会退出该计算机上的所有 session，删除已存储的 MCP 登录信息和 plugin 密钥，并结束该 session，与终端中一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

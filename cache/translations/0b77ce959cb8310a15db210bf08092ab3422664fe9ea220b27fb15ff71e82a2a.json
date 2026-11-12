@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed scheduled tasks from an ended session sometimes not running after another session in the same folder used `/clear`, `/resume` or `/branch`",
+  "zh": "修复了已结束 session 的定时任务在同一文件夹中的另一 session 使用 `/clear`、`/resume` 或 `/branch` 后有时不运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

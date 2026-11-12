@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long tool results staying on disk after a session run with `--no-session-persistence`; they are now removed on normal exit, Ctrl+C or SIGTERM",
+  "zh": "修复了使用 `--no-session-persistence` 运行的 session 结束后长工具结果仍留在磁盘上的问题；现在会在正常退出、Ctrl+C 或 SIGTERM 时将其删除",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

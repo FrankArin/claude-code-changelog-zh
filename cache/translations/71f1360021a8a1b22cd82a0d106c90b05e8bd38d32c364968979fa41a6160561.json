@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Code on the web] Fixed removing a repository from a scheduled task silently moving its GitHub trigger to another repository; Save now waits until you pick one",
+  "zh": "[Claude Code 网页版] 修复从定时任务中移除仓库时其 GitHub 触发器被静默转移到另一个仓库的问题；现在 Save 会等待你选择仓库",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

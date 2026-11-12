@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Claude Desktop session getting stuck as busy after another of your sessions sent it the same message twice or many messages at once",
+  "zh": "修复了 Claude Desktop session 在另一个 session 向它重复发送同一条消息或同时发送多条消息后卡在忙碌状态的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

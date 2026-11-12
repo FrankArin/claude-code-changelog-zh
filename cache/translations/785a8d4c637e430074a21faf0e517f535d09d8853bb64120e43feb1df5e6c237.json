@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed marketplace and plugin installs to fail when a git submodule isn't on the commit its repository records",
+  "zh": "变更 marketplace 和 plugin 安装：当 git 子模块不在其仓库记录的提交上时，安装将失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

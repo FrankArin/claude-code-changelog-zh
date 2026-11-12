@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/security-review` to ask before Claude runs it, and skills' inline git commands to stop in bare-repository worktrees and similar folders until you allow them, outside auto mode and bypass",
+  "zh": "变更了 `/security-review`，在 Claude 运行前会先询问；并将 skills 中的内联 git 命令改为在裸仓库 worktree 及类似文件夹中暂停，直到你允许，自动模式和 bypass 除外",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

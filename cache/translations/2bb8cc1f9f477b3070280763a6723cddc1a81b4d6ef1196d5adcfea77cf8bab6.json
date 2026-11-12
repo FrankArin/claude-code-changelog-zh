@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the error shown when Amazon Bedrock refuses your account a model: it no longer says to refresh your AWS credentials, it says to enable the model",
+  "zh": "修复了 Amazon Bedrock 拒绝为你的账户提供某个模型时显示的错误：不再提示刷新 AWS 凭证，而是提示启用该模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

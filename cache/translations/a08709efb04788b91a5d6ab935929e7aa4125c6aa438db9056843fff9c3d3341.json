@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed the host exiting, or stopping reading a session's output, in verbose or debug mode when a tool call's `command` was a number, boolean or object",
+  "zh": "Remote Control：修复在 verbose 或 debug 模式下，当工具调用的 `command` 为数字、布尔值或对象时，宿主退出或停止读取 session 输出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

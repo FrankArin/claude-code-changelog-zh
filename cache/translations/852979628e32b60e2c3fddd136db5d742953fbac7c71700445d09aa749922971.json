@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a start-up warning for Bash allow rules with a `*` in a variable's value, such as `Bash(PORT=* npm run dev)`",
+  "zh": "对于变量值中含 `*` 的 Bash 允许规则（如 `Bash(PORT=* npm run dev)`），新增启动警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/mcp` and `/plugins` opening an MCP server's page with the cursor on \"Disable\" when the server needs authentication but still holds its sign-in; the page now offers \"Reconnect\" and opens on it",
+  "zh": "修复了当 MCP 服务器需要认证但仍保留登录状态时，`/mcp` 和 `/plugins` 打开该服务器页面时光标停在“禁用”上的问题；页面现在提供“重新连接”并默认选中该项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

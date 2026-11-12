@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed skill files sent from Cowork cloud sessions sometimes failing to upload on the first try",
+  "zh": "修复了从 Cowork 云 session 发送的 skill 文件有时首次上传失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

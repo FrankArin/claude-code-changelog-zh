@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed worktree creation to refuse checkouts whose `.git` folders are links or hold hard links, such as git-new-workdir layouts and `cp -al` copies; use a plain clone",
+  "zh": "变更 worktree 创建：拒绝 `.git` 文件夹为链接或含硬链接的检出，例如 git-new-workdir 布局和 `cp -al` 副本；请使用普通克隆",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

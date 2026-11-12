@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a misspelled keybinding modifier, such as `ctl+k`, binding the bare key; the binding is now ignored",
+  "zh": "修复了拼错的键位修饰符（如 `ctl+k`）会绑定裸键的问题；现在该绑定会被忽略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

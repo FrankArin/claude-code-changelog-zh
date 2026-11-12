@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `ps` processes piling up when the process listing Claude Code runs before stopping a command takes too long",
+  "zh": "修复了 Claude Code 在停止命令前运行的进程列表耗时过长时，`ps` 进程堆积的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Claude apps gateway's `/v1/models` to state `max_input_tokens` for models whose context window is certain on every upstream",
+  "zh": "改进了 Claude 应用网关的 `/v1/models`，对于在所有上游的上下文窗口都确定的模型，现在会标明 `max_input_tokens`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

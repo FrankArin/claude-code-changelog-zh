@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed Claude Code running a `.cmd` or `.bat` wrapper found beside a program's `.exe` in the same PATH folder (a `git.cmd` next to `git.exe`, say); it now runs the `.exe`, as `cmd.exe` would",
+  "zh": "Windows：修复了 Claude Code 运行与程序 `.exe` 位于同一 PATH 文件夹旁的 `.cmd` 或 `.bat` 包装脚本的问题（例如 `git.exe` 旁的 `git.cmd`）；现在会像 `cmd.exe` 那样运行 `.exe`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

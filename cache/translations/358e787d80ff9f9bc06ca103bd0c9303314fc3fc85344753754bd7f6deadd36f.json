@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed `claude remote-control` reconnecting as a new computer when restarted in the same folder more than 4 hours after it stopped; it now keeps its identity for up to 30 days",
+  "zh": "Remote Control：修复 `claude remote-control` 在同一文件夹中停止运行超过 4 小时后重启时被识别为新计算机的问题；现在其身份最多可保留 30 天",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

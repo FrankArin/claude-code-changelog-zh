@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed screen reader mode dropping dictated or pasted text, and emoji, typed into an answer to a question or permission prompt",
+  "zh": "修复了屏幕阅读器模式下，在回答提问或权限提示时输入的口述文本、粘贴文本和 emoji 被丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

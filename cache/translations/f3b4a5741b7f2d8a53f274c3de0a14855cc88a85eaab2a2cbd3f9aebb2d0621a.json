@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `ExitWorktree`, the worktree exit dialog and `/resume` leaving the session in the wrong folder when the folder the shell was in before entering the worktree had been deleted",
+  "zh": "修复了 `ExitWorktree`、worktree 退出对话框和 `/resume` 在进入 worktree 前 shell 所在文件夹已被删除时，使 session 停留在错误文件夹的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

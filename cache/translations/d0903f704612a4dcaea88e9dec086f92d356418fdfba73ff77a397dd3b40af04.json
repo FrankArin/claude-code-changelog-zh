@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash allow rules with an attached wildcard, such as `Bash(ls*)`, skipping the permission prompt in some cases; a rule that names a variable, such as `Bash(NODE_ENV*)`, now asks",
+  "zh": "修复了带通配符的 Bash 允许规则（如 `Bash(ls*)`）在某些情况下跳过权限提示的问题；指定变量的规则（如 `Bash(NODE_ENV*)`）现在会询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

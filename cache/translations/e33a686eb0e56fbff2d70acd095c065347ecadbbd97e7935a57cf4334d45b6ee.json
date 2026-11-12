@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the context window assumed for a model ID that Claude Code doesn't recognize from 200K to 1M; use `/autocompact` to compact earlier, or `CLAUDE_CODE_DISABLE_1M_CONTEXT=1` to keep 200K",
+  "zh": "变更了 Claude Code 无法识别的模型 ID 所假定的上下文窗口，从 200K 改为 1M；可用 `/autocompact` 提前压缩，或设置 `CLAUDE_CODE_DISABLE_1M_CONTEXT=1` 保持 200K",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

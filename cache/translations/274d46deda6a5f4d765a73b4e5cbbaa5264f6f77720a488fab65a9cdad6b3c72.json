@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed shell commands failing with \"Working directory was deleted\" on drives where a folder's real path can't be resolved",
+  "zh": "Windows：修复了在无法解析文件夹真实路径的驱动器上，shell 命令因“工作目录已被删除”而失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

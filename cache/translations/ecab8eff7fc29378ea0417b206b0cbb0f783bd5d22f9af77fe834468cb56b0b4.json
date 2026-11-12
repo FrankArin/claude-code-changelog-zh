@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the \"Not now\" choice when Claude Code asks to turn on the mods it writes in a session: it now says when they load",
+  "zh": "改进了 Claude Code 询问是否启用其在 session 中编写的 mod 时的“Not now”选项：现在会说明它们何时加载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

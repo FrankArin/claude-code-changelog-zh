@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `claude -p` warning about an ended claude.ai login to say that `claude auth logout` also removes saved MCP server logins and plugin secrets",
+  "zh": "修复了 `claude -p` 关于 claude.ai 登录已结束的警告，现在会说明 `claude auth logout` 也会移除已保存的 MCP 服务器登录和 plugin 密钥",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

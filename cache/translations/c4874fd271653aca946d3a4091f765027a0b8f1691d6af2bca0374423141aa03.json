@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a session on a named Anthropic profile moving to another sign-in when `/fork`, the Left arrow or `--bg` continued it in the background; reopen any session that was open during the update",
+  "zh": "修复了使用命名 Anthropic 配置文件的 session 在 `/fork`、左箭头或 `--bg` 于后台继续时切换到其他登录方式的问题；请重新打开更新期间处于打开状态的任何 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

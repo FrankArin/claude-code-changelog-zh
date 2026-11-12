@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a wait chosen in the usage limit menu silently moving to a later reset when its request was refused; the menu now opens",
+  "zh": "修复在用量限制菜单中选择的等待时间在请求被拒绝时静默改为更晚的重置时间的问题；现在会打开菜单",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

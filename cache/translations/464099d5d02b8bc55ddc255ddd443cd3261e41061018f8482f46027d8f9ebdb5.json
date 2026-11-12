@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash permission prompts offering \"don't ask again\" for commands that write to sensitive paths such as `.git` or `.claude`, where the saved rule did not stop the next prompt",
+  "zh": "修复了 Bash 权限提示对写入 `.git` 或 `.claude` 等敏感路径的命令提供“不再询问”选项的问题，此前保存的规则无法阻止下一次提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

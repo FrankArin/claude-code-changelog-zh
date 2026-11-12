@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed \"don't ask again\" so an allow rule that looks like it holds a secret, or would be saved to a `settings.local.json` that git tracks, lasts for the session only and isn't saved",
+  "zh": "变更了“不再询问”，使看起来包含密钥、或将被保存到 git 跟踪的 `settings.local.json` 的允许规则仅在当前 session 内有效且不会被保存",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

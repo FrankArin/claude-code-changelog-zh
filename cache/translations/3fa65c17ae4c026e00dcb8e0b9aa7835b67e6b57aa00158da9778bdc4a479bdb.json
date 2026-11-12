@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `--permission-mode auto` or a settings `defaultMode: auto` starting in a mode that could allow more when auto mode was unavailable. It now starts in Manual mode, which asks first",
+  "zh": "修复了 `--permission-mode auto` 或设置中的 `defaultMode: auto` 在自动模式不可用时以可能允许更多操作的权限模式启动的问题。现在会以 Manual 模式启动，先进行询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the sandbox on macOS and Linux: `git worktree add`, `move` and `remove` now fail read-only, as do commits in a worktree the session wasn't started in or given, even one inside the project",
+  "zh": "变更了 macOS 和 Linux 上的沙箱：`git worktree add`、`move` 和 `remove` 现在会以只读方式失败，在 session 未启动或未指定的 worktree 中提交也会失败，即使该 worktree 位于项目内",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

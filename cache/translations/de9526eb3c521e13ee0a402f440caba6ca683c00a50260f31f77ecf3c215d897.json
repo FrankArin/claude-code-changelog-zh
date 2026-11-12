@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `CLAUDE_CODE_TRANSCRIPT_LOCAL_GC` dropping messages from the saved transcript when another process rewrote the file while it was being trimmed",
+  "zh": "修复 `CLAUDE_CODE_TRANSCRIPT_LOCAL_GC` 在裁剪已保存的 transcript 时，若另一进程同时重写该文件，会导致消息被丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

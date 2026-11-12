@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a case where some `lsof` commands ran without a permission prompt",
+  "zh": "修复了某些 `lsof` 命令在没有权限提示的情况下运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

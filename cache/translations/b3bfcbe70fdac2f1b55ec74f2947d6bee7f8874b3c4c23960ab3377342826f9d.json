@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved installing with the install script: the latest version is no longer downloaded twice",
+  "zh": "改进了使用安装脚本进行安装的流程：不再重复下载最新版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

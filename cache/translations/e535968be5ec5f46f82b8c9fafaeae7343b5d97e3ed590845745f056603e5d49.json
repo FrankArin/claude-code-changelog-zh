@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed organization settings and policy requests to no longer use a proxy set only by `ALL_PROXY`; set `HTTPS_PROXY` if your network needs a proxy for them",
+  "zh": "变更了组织设置和策略请求，不再使用仅由 `ALL_PROXY` 设置的代理；如果你的网络需要代理，请为它们设置 `HTTPS_PROXY`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

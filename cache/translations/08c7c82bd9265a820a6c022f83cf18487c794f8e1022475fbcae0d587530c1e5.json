@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude doctor` and `/status` saying a linked managed settings file is still read when it could not be read",
+  "zh": "修复了 `claude doctor` 和 `/status` 在链接的托管设置文件无法读取时仍显示其会被读取的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the move-to-background key doing nothing in `claude attach` and `claude agents` sessions; to detach with Ctrl+B d, press d within 800 ms of Ctrl+B",
+  "zh": "修复了在 `claude attach` 和 `claude agents` session 中移到后台快捷键无效的问题；如需用 Ctrl+B d 分离，请在按下 Ctrl+B 后 800 毫秒内按 d",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

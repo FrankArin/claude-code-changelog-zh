@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `glab config set` without `--global` or `--host`, and `glab config edit --local`, to fail read-only inside the Bash sandbox; run them outside it",
+  "zh": "变更了不带 `--global` 或 `--host` 的 `glab config set` 以及 `glab config edit --local`，使其在 Bash 沙箱内以只读方式失败；请在沙箱外运行它们",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

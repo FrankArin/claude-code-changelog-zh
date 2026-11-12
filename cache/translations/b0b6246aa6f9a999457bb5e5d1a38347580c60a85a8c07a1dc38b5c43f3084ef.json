@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a broken emoji character in a tool call's parameter name being resent with later requests, which strict JSON parsers reject",
+  "zh": "修复了工具调用参数名中损坏的 emoji 字符会随后续请求重发并被严格 JSON 解析器拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

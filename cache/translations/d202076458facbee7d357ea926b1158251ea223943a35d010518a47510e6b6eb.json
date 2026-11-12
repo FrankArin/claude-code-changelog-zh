@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sessions on other vendors' models with a smaller window: once full, they can fail every turn until `/clear`, so set `CLAUDE_CODE_DISABLE_1M_CONTEXT=1` before they fill",
+  "zh": "变更了在其他厂商模型上、窗口更小的 session：一旦填满，可能每一轮都失败直到 `/clear`，因此请在填满前设置 `CLAUDE_CODE_DISABLE_1M_CONTEXT=1`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

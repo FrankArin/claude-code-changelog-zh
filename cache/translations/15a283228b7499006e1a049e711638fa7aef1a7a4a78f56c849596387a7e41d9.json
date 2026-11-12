@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude being told that automatic model switching is off when safeguards stopped a subagent whose model had no other model to switch to",
+  "zh": "修复了保护机制停止一个模型没有其他模型可切换的 subagent 时，Claude 被告知自动模型切换已关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE` in Anthropic-hosted cloud sessions to stop applying to auto-memory extraction and, in some sessions, to `/btw`; the main conversation still follows it",
+  "zh": "变更了 Anthropic 托管的云 session 中的 `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`，使其不再作用于自动记忆提取，并在部分 session 中不再作用于 `/btw`；主对话仍遵循该设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

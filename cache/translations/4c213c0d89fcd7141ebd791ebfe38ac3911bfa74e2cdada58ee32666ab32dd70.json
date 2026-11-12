@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an approved plan being answered with \"You are not in plan mode\" when the approval arrived after the session's process had restarted, in cloud, self-hosted runner and SDK sessions",
+  "zh": "修复了在云、自托管运行器和 SDK session 中，当审批在 session 进程重启后到达时，已批准的 plan 被回复“你不在 plan 模式”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

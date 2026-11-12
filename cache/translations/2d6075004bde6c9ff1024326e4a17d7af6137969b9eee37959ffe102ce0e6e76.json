@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed HTTP hooks failing with HTTP 500 on Linux when `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` is set and `sandbox.enabled` is off",
+  "zh": "修复了在 Linux 上设置了 `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` 且 `sandbox.enabled` 关闭时，HTTP hooks 因 HTTP 500 失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

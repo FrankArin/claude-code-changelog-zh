@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed WebFetch dropping empty table cells and shifting later values a column left",
+  "zh": "修复了 WebFetch 丢弃空表格单元格并导致后续值左移一列的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

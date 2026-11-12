@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[VSCode] Fixed the \"You've hit your Fable limit\" line staying in the VS Code and JetBrains panels after you pick another model",
+  "zh": "[VSCode] 修复了选择其他模型后，VS Code 和 JetBrains 面板中仍保留\"你已达到 Fable 用量限制\"提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

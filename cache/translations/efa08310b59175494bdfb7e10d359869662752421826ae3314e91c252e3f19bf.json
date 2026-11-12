@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed running `/compact` again, or after a command such as `/context`, summarizing away a message that Claude had not answered yet",
+  "zh": "修复再次运行 `/compact`，或在 `/context` 等命令之后运行时，将 Claude 尚未回复的消息摘要掉的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

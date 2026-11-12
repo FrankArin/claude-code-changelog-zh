@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed requests sent without streaming failing on errors that streamed requests recover from, such as a rejected image, thinking block or beta header",
+  "zh": "修复了非流式请求在流式请求可恢复的错误上失败的问题，例如被拒绝的图片、thinking 块或 beta 请求头",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

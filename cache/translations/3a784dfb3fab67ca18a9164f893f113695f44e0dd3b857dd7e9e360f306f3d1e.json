@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude mcp add --help` splitting long example commands across lines in narrow terminals and pipes, so a pasted example ran without its header",
+  "zh": "修复了 `claude mcp add --help` 在窄终端和管道中会把较长的示例命令折行，导致粘贴的示例缺少开头部分仍能运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed claude.ai chats and Cowork tasks to check a plugin file for secret keys before sending it, and to ask first if it may hold one",
+  "zh": "变更 claude.ai 聊天和 Cowork 任务：发送 plugin 文件前先检查其中是否含密钥，若可能含有则先询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

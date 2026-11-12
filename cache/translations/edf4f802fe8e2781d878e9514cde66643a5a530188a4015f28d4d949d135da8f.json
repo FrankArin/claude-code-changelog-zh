@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash deny and ask rules missing some commands run through `sudo`, `env` and similar wrappers",
+  "zh": "修复了 Bash 拒绝和询问规则遗漏通过 `sudo`、`env` 及类似包装器运行的某些命令的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/memory` showing wrong or roundabout paths for folders whose names start with the working directory's or home folder's name, and losing slashes in the file path on Windows",
+  "zh": "修复了 `/memory` 对名称以工作目录或主目录名称开头的文件夹显示错误或绕弯路径的问题，以及 Windows 上文件路径丢失斜杠的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

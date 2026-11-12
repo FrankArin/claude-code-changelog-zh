@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Fable limit message in `-p`, SDK, IDE and cloud sessions: it now says when the limit resets, along with how to continue",
+  "zh": "改进了 `-p`、SDK、IDE 和云 session 中的 Fable 限制消息：现在会说明限制何时重置以及如何继续",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

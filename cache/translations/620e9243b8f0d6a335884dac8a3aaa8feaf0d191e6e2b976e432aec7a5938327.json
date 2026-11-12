@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed marketplaces named `npm`, `pip`, `uv`, `cargo`, `github` or `gh` being refused as reserved names",
+  "zh": "修复了名为 `npm`、`pip`、`uv`、`cargo`、`github` 或 `gh` 的 marketplace 被当作保留名称拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

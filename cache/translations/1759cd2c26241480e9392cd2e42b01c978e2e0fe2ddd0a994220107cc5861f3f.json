@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed headless sessions ending when an SDK host sent a null entry in an MCP server's tools list",
+  "zh": "修复了 SDK 宿主在 MCP 服务器的工具列表中发送 null 条目时无头 session 结束的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

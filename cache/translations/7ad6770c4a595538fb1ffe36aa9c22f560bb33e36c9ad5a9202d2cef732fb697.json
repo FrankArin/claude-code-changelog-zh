@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/export` silently stopping early after a long run of calls to an MCP tool that is no longer loaded",
+  "zh": "修复了在长时间连续调用一个已不再加载的 MCP 工具后，`/export` 会静默提前终止的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

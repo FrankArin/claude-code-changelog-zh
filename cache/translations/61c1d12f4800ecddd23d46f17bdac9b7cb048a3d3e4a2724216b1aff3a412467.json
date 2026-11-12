@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"Now using usage credits\" notice repeating or not showing past the weekly Fable limit when Claude Code made a quick side request on a smaller model, such as naming the session",
+  "zh": "修复当 Claude Code 在较小模型上发起快速附带请求（例如为 session 命名）时，“Now using usage credits”提示重复出现，或在超过每周 Fable 限额后不再显示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

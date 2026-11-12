@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Deprecated a plugin's `agent` setting: it still applies, and now warns at startup, in `claude plugin list` and in `claude plugin validate`",
+  "zh": "弃用了 plugin 的 `agent` 设置：该设置仍然生效，但现在会在启动时、`claude plugin list` 和 `claude plugin validate` 中发出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

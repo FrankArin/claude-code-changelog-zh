@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed a session at a connector's approval prompt or sign-in inside a running tool to be released as paused at the idle or lifetime limit; a late answer resumes from a fresh clone",
+  "zh": "自托管运行器：变更了处于 connector 审批提示或运行中工具内登录的 session，使其在空闲或生命周期上限时以暂停状态释放；迟到的回答会从全新克隆恢复",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

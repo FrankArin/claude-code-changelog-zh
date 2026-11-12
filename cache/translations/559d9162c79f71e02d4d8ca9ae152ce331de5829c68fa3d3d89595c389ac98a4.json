@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a `/diff to close` hint to the diff panel, and the keys that focus and close a panel to the `?` shortcut guide",
+  "zh": "diff 面板新增 `/diff to close` 提示，`?` 快捷键指南新增聚焦和关闭面板的按键说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

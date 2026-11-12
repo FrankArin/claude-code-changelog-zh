@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control showing a session as running while it waited on a permission prompt that can only be answered in the terminal",
+  "zh": "修复 Remote Control 在 session 等待只能在终端中回答的权限提示时仍显示为运行中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

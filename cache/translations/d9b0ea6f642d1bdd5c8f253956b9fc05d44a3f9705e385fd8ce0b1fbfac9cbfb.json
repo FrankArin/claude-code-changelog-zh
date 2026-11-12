@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP tool calls ending in the sign-in server's error, such as `TOKEN_EXPIRED`, instead of asking you to sign in again",
+  "zh": "修复了 MCP 工具调用以登录服务器的错误（例如 `TOKEN_EXPIRED`）结束，而非提示你重新登录的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

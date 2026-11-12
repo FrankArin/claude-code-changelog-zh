@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[Claude Code on the web] Added a failure notification when a scheduled task's run can't start because its settings require a sandbox that isn't available where it runs",
+  "zh": "[Claude Code 网页版] 新增失败通知：当定时任务的运行因其设置要求沙箱、而运行位置不支持沙箱而无法启动时发出通知",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

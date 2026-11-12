@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "macOS: Changed the Bash sandbox so `lsof` and similar tools may show less about processes a command did not start",
+  "zh": "macOS：变更了 Bash 沙箱，使 `lsof` 及类似工具对命令未启动的进程可能显示更少信息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

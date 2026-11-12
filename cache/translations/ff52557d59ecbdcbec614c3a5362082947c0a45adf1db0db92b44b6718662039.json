@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude plugin install` and `/plugin` to show a warning instead of success when a plugin's install command writes to stderr",
+  "zh": "变更 `claude plugin install` 和 `/plugin`：当 plugin 的安装命令向 stderr 写入内容时，显示警告而非成功",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}

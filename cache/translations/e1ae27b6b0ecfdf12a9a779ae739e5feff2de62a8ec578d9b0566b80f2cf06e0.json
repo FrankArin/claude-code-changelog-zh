@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "[VSCode] Fixed the \"Buy usage credits on claude.ai\" button counting as agreement to pay for Fable while usage credits were off",
+  "zh": "[VSCode] 修复了在用量额度关闭时，\"Buy usage credits on claude.ai\" 按钮仍被视为同意为 Fable 付费的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-12T23:25:21+00:00"
+}
