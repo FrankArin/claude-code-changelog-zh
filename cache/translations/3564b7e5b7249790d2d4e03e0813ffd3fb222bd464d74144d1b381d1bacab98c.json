@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/feedback` and `/bug` to upload other sessions only when they were recorded by the signed-in account or organization",
+  "zh": "修复了 `/feedback` 和 `/bug` 仅上传由已登录账户或组织记录的其它 session 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed commands being able to write to the native updater's download folder in some cases",
+  "zh": "修复了沙箱化命令在某些情况下可写入原生更新器下载文件夹的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

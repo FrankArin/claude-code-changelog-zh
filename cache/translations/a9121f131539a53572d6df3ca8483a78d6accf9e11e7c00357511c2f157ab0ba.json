@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `-p` and SDK runs in a worktree or submodule mounted into a container to apply `.claude/settings.local.json` allow rules only once the folder is trusted",
+  "zh": "在挂载到容器中的 worktree 或子模块里运行 `-p` 和 SDK 时，`.claude/settings.local.json` 的允许规则现在仅在文件夹被信任后才会应用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

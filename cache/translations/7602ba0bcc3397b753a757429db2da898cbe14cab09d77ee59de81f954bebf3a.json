@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed startup warnings about permission rules and the \"N MCP servers need authentication\" notice being recorded as seen when they were scrolled out of view",
+  "zh": "修复启动时关于权限规则的警告和“N MCP servers need authentication”提示在滚动出视野时被记录为已读的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

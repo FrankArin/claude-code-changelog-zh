@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` text output on a terminal passing control sequences other than text styling; pipes and files are unchanged",
+  "zh": "修复 `claude -p` 在终端上的文本输出会传递除文本样式外的控制序列的问题；管道和文件输出不受影响",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

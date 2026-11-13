@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the red error shown when Claude tries a command only you can run: a dim line now says it runs only when you type it at the prompt",
+  "zh": "修复 Claude 尝试执行只有你能运行的命令时显示的红色错误：现在改为一行暗色文字，说明该命令仅在你于 prompt 中输入时才会运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

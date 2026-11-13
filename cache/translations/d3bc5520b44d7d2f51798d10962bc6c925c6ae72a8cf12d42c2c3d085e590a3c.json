@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed leftover `.oauth_refresh.lock.owner.tmp.*` files piling up in the config directory",
+  "zh": "修复残留的 `.oauth_refresh.lock.owner.tmp.*` 文件在配置目录中堆积的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

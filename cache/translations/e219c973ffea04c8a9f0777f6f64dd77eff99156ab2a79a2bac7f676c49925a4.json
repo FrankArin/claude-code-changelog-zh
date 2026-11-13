@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude -p` with no cached account data to wait for that data before its first request, so a first run in a clean environment can start a few seconds later",
+  "zh": "无缓存账户数据时，`claude -p` 现在会在首次请求前等待该数据，因此在干净环境中首次运行可能延迟几秒启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

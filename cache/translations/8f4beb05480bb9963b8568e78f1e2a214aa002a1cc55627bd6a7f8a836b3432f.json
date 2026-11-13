@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a Console sign-in that creates no API key",
+  "zh": "\\[VSCode] 新增 Console 登录方式，不创建 API key",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:54+00:00"
+}

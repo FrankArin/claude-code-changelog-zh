@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the account email check: it now also refuses your email as a client's identity in scripts a command runs, file writes, web fetches and MCP calls",
+  "zh": "改进了账户邮箱检查：现在还会在命令运行的脚本、文件写入、网页抓取和 MCP 调用中拒绝将你的邮箱作为客户端身份",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

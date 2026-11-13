@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the messages shown when a background session can't use its session's API key or token: they no longer suggest adding the key to settings",
+  "zh": "改进后台 session 无法使用其 session 的 API key 或 token 时显示的提示：不再建议将 key 添加到设置中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

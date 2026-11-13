@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the programs that Claude Code's sandbox starts for its own use, such as its network bridge, to run without Claude Code's sign-in tokens and API keys in their environment",
+  "zh": "Claude Code 沙箱为自身使用而启动的程序（例如其网络桥接）现在运行时环境中不再包含 Claude Code 的登录 token 和 API 密钥",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

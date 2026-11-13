@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed \"Always allow\" in Desktop, IDE and SDK hosts: a rule alone is offered only when saving it would allow that command again, so a scheduled task that relied on one can now wait for you",
+  "zh": "变更 Desktop、IDE 和 SDK 宿主中的“始终允许”：仅当保存规则后能再次允许该命令时才单独提供规则，因此依赖该规则的定时任务现在可能会等待你确认",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

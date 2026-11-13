@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude's instructions to keep files you'll want out of its temporary scratchpad folder, which can be cleared",
+  "zh": "调整了 Claude 的指令，使其将你希望保留的文件放在临时暂存文件夹之外，该文件夹可能被清空",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

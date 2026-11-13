@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `claude remote-control`: it now exits with status 4 when it stops by itself (single-session runs still exit 0) and 69 when it can't register, so a service manager can start it again",
+  "zh": "改进 `claude remote-control`：自行停止时现在以状态码 4 退出（单 session 运行仍以 0 退出），无法注册时以 69 退出，便于服务管理器重新启动它",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

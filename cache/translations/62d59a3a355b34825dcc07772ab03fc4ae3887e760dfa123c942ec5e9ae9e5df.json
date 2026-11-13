@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed EnterWorktree to refuse a `WorktreeCreate` hook path that goes through a symlink inside the project; have the hook print the real path",
+  "zh": "变更 EnterWorktree：拒绝经过项目内符号链接的 `WorktreeCreate` hook 路径；请让 hook 输出真实路径",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude Code on the web, cloud scheduled tasks and Cowork cloud sessions to start despite `sandbox.failIfUnavailable`: the hosted container has no command sandbox",
+  "zh": "网页版 Claude Code、云端定时任务和 Cowork 云 session 现在即使设置了 `sandbox.failIfUnavailable` 也会启动：托管容器没有命令沙箱",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background sessions started on your claude.ai login using (and billing) an API key or token from the shell that started the background service",
+  "zh": "修复了使用 claude.ai 登录启动的后台 session 却使用（并计费）启动后台服务的 shell 中的 API key 或 token 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

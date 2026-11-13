@@ -3,13 +3,13 @@
   "version": "2.1.323",
   "date": "2026-11-12",
   "source_url": "https://code.claude.com/docs/en/changelog",
-  "source_hash": "002460abc768fd0d4b66f29614ad25f27bad8d3649dd6feeb9a2d2b12fadb2db",
+  "source_hash": "c45ff7f08aa47676814429ac957c5b6f41d87833fa8fca76a033e407c647a328",
   "translation": {
     "provider": "api.deepseek.com",
     "model": "deepseek-chat",
     "prompt_version": "v1",
     "glossary_version": "v2",
-    "translated_at": "2026-11-13T05:27:01+00:00"
+    "translated_at": "2026-11-13T21:15:00+00:00"
   },
   "groups": [
     {
@@ -19,9 +19,9 @@
       "items": [
         {
           "id": "2.1.323-added-1",
-          "en": "Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see [https://code.claude.com/docs/en/code-mode](https://code.claude.com/docs/en/code-mode) to turn it on, or to turn it off for an organization",
-          "zh": "新增 Code Mode（实验性，需主动启用）：Claude 通过编写 JavaScript 来调用其工具；参见 [https://code.claude.com/docs/en/code-mode](https://code.claude.com/docs/en/code-mode) 了解如何启用，或如何为组织关闭该功能",
-          "hash": "5d2c82109aa5b84f2a293ce060e8e9b3ff26cd8da4302fc281614ffe6cb65b03",
+          "en": "Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see [https://code.claude.com/docs/en/code-mode](https://code.claude.com/docs/en/code-mode.md) to turn it on, or to turn it off for an organization",
+          "zh": "新增 Code Mode（实验性，需主动启用），在该模式下 Claude 编写 JavaScript 来调用其工具；参见 [https://code.claude.com/docs/en/code-mode](https://code.claude.com/docs/en/code-mode.md) 了解如何启用，或如何为组织关闭该功能",
+          "hash": "da9a89e3d9484943213d235252931ea65dc98df8f62ac05517c7ac531377a6ad",
           "status": "translated"
         },
         {
@@ -2100,12 +2100,12 @@
     }
   ],
   "summary": {
-    "tldr": "新增实验性 Code Mode 与插件版本约束，大量权限与沙箱安全修复，多项行为变更需注意。",
+    "tldr": "新增实验性 Code Mode 与插件版本约束，强化沙箱与权限检查，修复大量登录、MCP 与云会话问题。",
     "highlights": [
       {
         "title": "新增实验性 Code Mode",
         "category": "新功能",
-        "detail": "Claude 可通过编写 JavaScript 调用工具，需主动启用；组织也可选择关闭。",
+        "detail": "需主动启用，启用后 Claude 通过编写 JavaScript 调用工具，可参考文档了解启用方式或为组织关闭。",
         "action": null,
         "example": null,
         "item_ids": [
@@ -2113,9 +2113,9 @@
         ]
       },
       {
-        "title": "插件版本范围约束",
+        "title": "插件可声明版本范围",
         "category": "新功能",
-        "detail": "plugin.json 支持 engines[\"claude-code\"]，超出范围的插件不会被安装、更新或加载。",
+        "detail": "plugin.json 支持 engines[\"claude-code\"]，超出范围的插件不会被安装、更新或加载，安装时自动选符合范围的最新版本。",
         "action": null,
         "example": null,
         "item_ids": [
@@ -2123,10 +2123,10 @@
         ]
       },
       {
-        "title": "未知模型上下文改为 1M",
+        "title": "未知模型上下文窗口改为 1M",
         "category": "破坏性变更",
-        "detail": "无法识别的模型 ID 默认上下文窗口由 200K 改为 1M；小窗口的第三方模型可能每轮失败直到 /clear。",
-        "action": "在填满前设置 CLAUDE_CODE_DISABLE_1M_CONTEXT=1 保持 200K，或用 /autocompact 提前压缩。",
+        "detail": "无法识别的模型 ID 默认按 1M 上下文处理；在其他厂商的小窗口模型上可能每轮失败，需提前压缩或关闭 1M。",
+        "action": "若使用第三方小窗口模型，请在填满前设置 CLAUDE_CODE_DISABLE_1M_CONTEXT=1 保持 200K。",
         "example": {
           "lang": "bash",
           "code": "CLAUDE_CODE_DISABLE_1M_CONTEXT=1",
@@ -2138,39 +2138,36 @@
         ]
       },
       {
-        "title": "组织策略代理需 HTTPS_PROXY",
+        "title": "代理设置需改用 HTTPS_PROXY",
         "category": "破坏性变更",
-        "detail": "组织设置和策略请求不再使用仅由 ALL_PROXY 设置的代理，网络依赖代理的用户可能无法拉取策略。",
-        "action": "为这些请求设置 HTTPS_PROXY。",
+        "detail": "组织设置和策略请求不再使用仅由 ALL_PROXY 配置的代理，依赖代理的网络可能无法获取策略。",
+        "action": "为组织设置和策略请求设置 HTTPS_PROXY。",
         "example": null,
         "item_ids": [
           "2.1.323-changed-32"
         ]
       },
       {
+        "title": "沙箱与权限检查加固",
+        "category": "安全",
+        "detail": "修复多处权限绕过：通配符允许规则、sudo/env 包装命令、符号链接写权限、Read 拒绝规则被 Write/Edit 绕过等。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.323-fixes-138",
+          "2.1.323-fixes-140",
+          "2.1.323-changed-41",
+          "2.1.323-fixes-143"
+        ]
+      },
+      {
         "title": "移除 subagentStatusLine 设置",
         "category": "破坏性变更",
-        "detail": "该设置被移除，subagent 行始终使用默认外观；含该键的设置文件仍可正常加载。",
+        "detail": "该设置已移除，subagent 行固定使用默认外观；仍保留该键的设置文件可正常加载，不会报错。",
         "action": null,
         "example": null,
         "item_ids": [
           "2.1.323-changed-76"
-        ]
-      },
-      {
-        "title": "多项权限与沙箱漏洞修复",
-        "category": "安全",
-        "detail": "修复通配符允许规则、sudo/env 包装、符号链接、Read 拒绝规则被绕过及沙箱可被关闭等问题。",
-        "action": null,
-        "example": null,
-        "item_ids": [
-          "2.1.323-fixes-129",
-          "2.1.323-fixes-132",
-          "2.1.323-fixes-137",
-          "2.1.323-fixes-138",
-          "2.1.323-fixes-140",
-          "2.1.323-fixes-143",
-          "2.1.323-fixes-147"
         ]
       }
     ],

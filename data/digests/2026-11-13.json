@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "versions": [
+    "2.1.325"
+  ],
+  "tldr": "沙箱 Bash 默认走权限流程，多项安全修复，VSCode 新增 prompt 建议与 Console 登录。",
+  "highlights": [
+    {
+      "title": "沙箱 Bash 默认需授权",
+      "category": "破坏性变更",
+      "detail": "沙箱内 Bash 命令不再默认无提示运行，改为走常规权限流程；托管设置下需在最高优先级来源显式开启才能保持静默。",
+      "action": "如需保持无提示运行，在最高优先级托管来源设置 sandbox.autoAllowBashIfSandboxed: true",
+      "example": null,
+      "item_ids": [
+        "2.1.325-changed-7",
+        "2.1.325-changed-8"
+      ],
+      "version": "2.1.325"
+    },
+    {
+      "title": "只读 git 命令先询问",
+      "category": "破坏性变更",
+      "detail": "在非项目或未受信任仓库中执行只读 git 命令会先询问；用 --add-dir 指定仓库可恢复无提示运行。",
+      "action": "用 --add-dir 指定该仓库，而非 additionalDirectories 设置",
+      "example": null,
+      "item_ids": [
+        "2.1.325-changed-9"
+      ],
+      "version": "2.1.325"
+    },
+    {
+      "title": "定时任务 skill 需授权",
+      "category": "破坏性变更",
+      "detail": "定时任务和 /loop 运行声明 allowed-tools 或 hooks 的 skill 前会先询问，无人值守任务可能因此等待确认。",
+      "action": "将 Skill(name) 加入 permissions.allow 以无人值守运行",
+      "example": {
+        "lang": "bash",
+        "code": "/loop",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.325-changed-10",
+        "2.1.325-changed-11"
+      ],
+      "version": "2.1.325"
+    },
+    {
+      "title": "plugin 与 marketplace 变更",
+      "category": "破坏性变更",
+      "detail": "pluginDigests 已弃用并被忽略；嵌套 skill 不再从上层 session 加载；marketplace 的 ref 支持任意提交 ID，旧客户端无法克隆此类固定引用。",
+      "action": "在 plugin 文件夹中启动 Claude Code；移除 pluginDigests 配置",
+      "example": null,
+      "item_ids": [
+        "2.1.325-changed-15",
+        "2.1.325-changed-17",
+        "2.1.325-changed-32"
+      ],
+      "version": "2.1.325"
+    },
+    {
+      "title": "修复 zstd 解码安全问题",
+      "category": "安全",
+      "detail": "修复 zstd 压缩响应解码方式中的安全问题，并收紧 Bash 权限检查、沙箱对 worktree 设置与共享 git 目录的保护。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.325-fixes-52",
+        "2.1.325-fixes-117",
+        "2.1.325-fixes-118",
+        "2.1.325-fixes-125",
+        "2.1.325-fixes-126"
+      ],
+      "version": "2.1.325"
+    },
+    {
+      "title": "VSCode 新增 prompt 建议",
+      "category": "新功能",
+      "detail": "终端中显示下一条 prompt 建议，按 Tab 接受；同时新增不创建 API key 的 Console 登录方式。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.325-added-4",
+        "2.1.325-added-5"
+      ],
+      "version": "2.1.325"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "efbc919f7fa5c9a6adf7ea8c49b4b8d3699675ebacfc15fcac9c842d22142793"
+}

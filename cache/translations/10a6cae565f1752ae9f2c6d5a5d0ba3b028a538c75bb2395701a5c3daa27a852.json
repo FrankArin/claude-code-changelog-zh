@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an MCP task getting stuck after its question was closed with Esc or asked again: the footer now says it needs your input, and Enter in `/tasks` shows the question again",
+  "zh": "修复了 MCP 任务在其问题被 Esc 关闭或再次询问后卡住的问题：页脚现在会提示需要你输入，在 `/tasks` 中按 Enter 可再次显示该问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

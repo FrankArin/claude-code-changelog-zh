@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed one invalid value in an Agent SDK `applyFlagSettings()` call silently discarding all settings from earlier calls; a call that would do this is now refused with an error",
+  "zh": "修复了 Agent SDK `applyFlagSettings()` 调用中一个无效值会静默丢弃此前所有调用设置的问题；现在会拒绝这类调用并报错",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

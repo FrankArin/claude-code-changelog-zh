@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Slack app tips showing when your organization's policy denies cloud sessions",
+  "zh": "修复当你的组织策略禁止云 session 时仍显示 Slack 应用提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

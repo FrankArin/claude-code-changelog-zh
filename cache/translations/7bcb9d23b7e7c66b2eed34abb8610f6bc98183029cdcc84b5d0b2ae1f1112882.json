@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the sign-in screen offering sign-ins that the managed `allowedProviders` setting refuses",
+  "zh": "\\[VSCode] 修复了登录界面提供被托管 `allowedProviders` 设置拒绝的登录方式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

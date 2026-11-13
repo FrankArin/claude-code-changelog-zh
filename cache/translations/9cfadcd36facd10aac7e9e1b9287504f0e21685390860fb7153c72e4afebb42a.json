@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the `claude --desktop` sign-in error to name the API key, provider or setting that stops a Claude account sign-in from working",
+  "zh": "改进 `claude --desktop` 的登录错误提示，指明是哪个 API key、provider 或设置导致 Claude 账号登录无法正常工作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

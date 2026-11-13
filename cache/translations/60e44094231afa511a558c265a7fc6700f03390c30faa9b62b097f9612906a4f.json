@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the `/voice` \"No audio detected\" message on macOS and Windows: it now says where to pick your microphone",
+  "zh": "改进 macOS 和 Windows 上 `/voice` 的“No audio detected”提示：现在会说明在哪里选择麦克风",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

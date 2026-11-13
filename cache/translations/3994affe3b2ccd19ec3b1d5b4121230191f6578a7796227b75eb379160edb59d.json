@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed deny rules not being applied to a permission approval that arrives after Claude Code restarts, in self-hosted runner and `claude remote-control` sessions",
+  "zh": "修复了在自托管运行器和 `claude remote-control` session 中，Claude Code 重启后到达的权限批准未应用拒绝规则的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

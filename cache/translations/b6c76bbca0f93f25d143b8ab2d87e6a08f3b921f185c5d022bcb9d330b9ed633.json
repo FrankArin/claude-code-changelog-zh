@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Removed \"ask your admin to raise it\" from spend limit and shared budget errors in cloud sessions and under Remote Control",
+  "zh": "移除了云 session 和远程控制下支出限制及共享预算错误中的“请让管理员提高限额”提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

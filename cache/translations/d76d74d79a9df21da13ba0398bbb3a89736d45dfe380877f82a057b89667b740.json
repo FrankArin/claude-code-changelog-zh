@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed a start-up stall that could last about a second when a PATH entry sits under a folder your account cannot open",
+  "zh": "Windows：修复了当某个 PATH 条目位于你的账户无法打开的文件夹下时，启动可能卡顿约一秒的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

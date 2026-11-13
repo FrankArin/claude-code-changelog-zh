@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed some artifact publishes skipping the confirmation for pages that people outside your organization can see when \"don't ask again\" had been chosen for Artifact",
+  "zh": "修复了部分 artifact 发布在已为 Artifact 选择“不再询问”时，跳过对组织外部人员可见页面的确认的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

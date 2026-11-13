@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude starting work by itself when you resumed a session that ended during a Code Mode script; it now waits for your next prompt",
+  "zh": "修复了恢复一个在 Code Mode 脚本执行期间结束的 session 时 Claude 自行开始工作的问题；现在它会等待你的下一条 prompt",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

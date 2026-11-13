@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/stats` showing an Active days total that was one day too high",
+  "zh": "修复 `/stats` 显示的活跃天数总计多算一天的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

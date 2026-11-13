@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/security-review` and skills' inline git commands stopping with an error in worktrees of bare repositories, `--separate-git-dir` checkouts and Android `repo` checkouts",
+  "zh": "修复 `/security-review` 和 skills 中的内联 git 命令在裸仓库的 worktree、`--separate-git-dir` 检出和 Android `repo` 检出中报错停止的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

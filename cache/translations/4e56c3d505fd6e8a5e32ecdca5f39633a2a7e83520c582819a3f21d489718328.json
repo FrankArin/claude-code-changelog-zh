@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin eval --output-dir ''` writing the report into the current folder; it now exits with an error",
+  "zh": "修复 `claude plugin eval --output-dir ''` 将报告写入当前文件夹的问题；现在会报错退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

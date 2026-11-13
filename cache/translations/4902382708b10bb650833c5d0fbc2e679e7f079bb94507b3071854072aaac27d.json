@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plugins of a remote marketplace that managed settings declare, enable and list in `prependPlugins` or `appendPlugins` to count as the organization's; `pluginDigests` is deprecated and ignored",
+  "zh": "变更远程 marketplace 的 plugins：由托管设置声明、启用并列入 `prependPlugins` 或 `appendPlugins` 的 plugins 视为组织所有；`pluginDigests` 已弃用并被忽略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

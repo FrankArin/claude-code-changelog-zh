@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a slash command's `allowed-tools` grants applying to background agents woken during or after its turn",
+  "zh": "修复了斜杠命令的 `allowed-tools` 授权会作用于其轮次期间或之后被唤醒的后台 agent 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

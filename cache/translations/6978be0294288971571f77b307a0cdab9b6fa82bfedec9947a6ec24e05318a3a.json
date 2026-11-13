@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a gap in Bash permission checks where some compound commands could run without asking; these now ask for permission",
+  "zh": "修复了 Bash 权限检查中的一处缺口：某些复合命令可能在未询问的情况下运行；现在这些命令会请求权限",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

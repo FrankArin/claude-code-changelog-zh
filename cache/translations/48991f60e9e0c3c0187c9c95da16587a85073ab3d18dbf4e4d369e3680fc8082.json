@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed focus view hiding the reply to your prompt when a scheduled task replied after it",
+  "zh": "修复专注视图在定时任务回复你的 prompt 后隐藏该回复的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

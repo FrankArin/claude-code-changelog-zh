@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a background MCP task's question opening over a message you were still typing; it now waits until you send or clear the draft, and the spinner and turn timer keep running",
+  "zh": "修复了后台 MCP 任务的问题会覆盖你正在输入的消息弹出的问题；现在会等你发送或清空草稿后再显示，且加载指示器和轮次计时器会继续运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

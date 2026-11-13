@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a security issue in how zstd-compressed responses are decoded",
+  "zh": "修复 zstd 压缩响应解码方式中的安全问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a field to paste the redirect URL when signing in to an MCP server from the panel in SSH, WSL and container windows",
+  "zh": "\\[VSCode] 在 SSH、WSL 和容器窗口中从面板登录 MCP server 时，新增用于粘贴重定向 URL 的字段",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:54+00:00"
+}

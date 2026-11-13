@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed worktree isolation: an isolated worktree session or agent is now refused `git bisect run`, `git maintenance register|start` and `scalar`'s set-up commands, and is told what still works",
+  "zh": "变更 worktree 隔离：隔离的 worktree session 或 agent 现在会被拒绝执行 `git bisect run`、`git maintenance register|start` 以及 `scalar` 的初始化命令，并会被告知哪些操作仍可用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

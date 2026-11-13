@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude Desktop and SDK sessions listing a folder's own MCP servers (`.mcp.json`, local) as host-added or not at all, and not connecting WebSocket ones, after a folder move or pre-warmed start",
+  "zh": "修复了 Claude Desktop 和 SDK session 在文件夹移动或预热启动后，将文件夹自身的 MCP server（`.mcp.json`，本地）列为由宿主添加或完全不列出，以及不连接 WebSocket 类型 server 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

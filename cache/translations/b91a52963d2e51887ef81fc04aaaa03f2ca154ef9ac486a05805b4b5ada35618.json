@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a saved `sonnet[1m]` model setting being rewritten on a new install to a model id the API rejects",
+  "zh": "修复已保存的 `sonnet[1m]` 模型设置在全新安装时被改写为 API 拒绝的模型 id 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

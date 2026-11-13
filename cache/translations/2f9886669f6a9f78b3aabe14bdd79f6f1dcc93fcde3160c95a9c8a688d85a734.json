@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed subagents with their own model being moved to the plan-mode model when the model setting is `opusplan` or `haiku`",
+  "zh": "修复当模型设置为 `opusplan` 或 `haiku` 时，拥有自己模型的 subagent 被切换到 plan 模式模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

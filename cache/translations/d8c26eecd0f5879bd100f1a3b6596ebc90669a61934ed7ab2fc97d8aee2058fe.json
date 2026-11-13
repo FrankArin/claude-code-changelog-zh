@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Esc on a background MCP task's question to \"answer later\": nothing is sent to the server, and the question stays in `/tasks`",
+  "zh": "将后台 MCP 任务提问时的 Esc 改为“稍后回答”：不向服务器发送任何内容，问题保留在 `/tasks` 中",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

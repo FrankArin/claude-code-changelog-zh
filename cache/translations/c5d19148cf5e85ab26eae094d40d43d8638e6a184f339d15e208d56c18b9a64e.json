@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a note for Claude when a sandboxed `git checkout`, `git stash` or autostash pull cannot update protected files such as those in `.claude`",
+  "zh": "当沙箱中的 `git checkout`、`git stash` 或 autostash pull 无法更新受保护文件（如 `.claude` 中的文件）时，向 Claude 新增一条提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:54+00:00"
+}

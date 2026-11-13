@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed requests for settings, permission rules, hooks or status over a cloud or self-hosted session's connection to return less or be refused; what applies in the session is unchanged",
+  "zh": "通过云或自托管 session 的连接请求设置、权限规则、hooks 或状态时，现在会返回更少内容或被拒绝；session 中实际生效的内容不变",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

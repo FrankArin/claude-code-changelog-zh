@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved startup with a keyless Console sign-in or other Anthropic profile login: a token that is still valid is read without waiting for the credentials lock",
+  "zh": "改进了使用无密钥 Console 登录或其他 Anthropic 配置文件登录时的启动：仍然有效的 token 无需等待凭据锁即可读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

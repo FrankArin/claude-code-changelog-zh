@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background MCP tasks that stopped updating after another call to the same server lost the connection, when a later call reconnects",
+  "zh": "修复了后台 MCP 任务在后续调用重新连接后，因对同一 server 的另一次调用丢失连接而停止更新的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

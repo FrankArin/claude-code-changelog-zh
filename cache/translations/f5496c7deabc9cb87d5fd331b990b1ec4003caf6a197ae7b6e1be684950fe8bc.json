@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/voice` saying voice mode changed when managed settings, `--settings`, or the project's `.claude/settings.json` or `.claude/settings.local.json` kept it as it was; it now says what holds it",
+  "zh": "修复当托管设置、`--settings` 或项目的 `.claude/settings.json` 或 `.claude/settings.local.json` 保持语音模式不变时，`/voice` 仍提示语音模式已更改的问题；现在会说明是什么在维持该设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

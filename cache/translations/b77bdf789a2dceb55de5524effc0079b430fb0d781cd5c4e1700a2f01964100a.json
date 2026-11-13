@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plugin marketplace and plugin downloads to use a CONNECT tunnel when `ALL_PROXY` is the only proxy set; a proxy that refuses CONNECT now fails them",
+  "zh": "当 `ALL_PROXY` 是唯一设置的代理时，plugin marketplace 和 plugin 下载现在使用 CONNECT 隧道；拒绝 CONNECT 的代理现在会导致这些操作失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

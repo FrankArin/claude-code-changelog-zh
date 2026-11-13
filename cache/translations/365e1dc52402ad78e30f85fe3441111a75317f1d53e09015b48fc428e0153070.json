@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed managed settings that turn the sandbox on: to keep commands running without prompts, set `sandbox.autoAllowBashIfSandboxed: true` in your highest-ranking managed source",
+  "zh": "变更启用沙箱的托管设置：如需保持命令无提示运行，请在最高优先级的托管来源中设置 `sandbox.autoAllowBashIfSandboxed: true`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:54+00:00"
+}

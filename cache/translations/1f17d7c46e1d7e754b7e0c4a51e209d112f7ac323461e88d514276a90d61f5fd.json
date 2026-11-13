@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed scheduled tasks and `/loop` to ask before running a skill that declares `allowed-tools` or hooks; add `Skill(name)` to `permissions.allow` to run it unattended",
+  "zh": "变更定时任务和 `/loop`：运行声明了 `allowed-tools` 或 hooks 的 skill 前会先询问；将 `Skill(name)` 加入 `permissions.allow` 即可无人值守运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude auth status` and other short commands leaving a lock behind on a Console profile, which made the next session hang for about a minute",
+  "zh": "修复 `claude auth status` 等短命令在 Console 配置上遗留锁，导致下一个 session 挂起约一分钟的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

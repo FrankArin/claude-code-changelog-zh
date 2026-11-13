@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the bundled dataviz skill's part-to-whole advice for static images and for parts with a natural order, such as age bands",
+  "zh": "改进内置 dataviz skill 中关于部分与整体关系的建议，涵盖静态图片以及具有自然顺序的部分（如年龄段）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

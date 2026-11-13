@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the sandbox to refuse sandboxed writes to `.claude` settings, skills, agents, commands and hooks in added directories, as it does in the launch folder",
+  "zh": "变更沙箱：拒绝沙箱内对已添加目录中 `.claude` 设置、skills、agents、commands 和 hooks 的写入，与启动文件夹中的行为一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

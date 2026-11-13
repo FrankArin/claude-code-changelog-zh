@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed deny and ask permission rules starting with `mcp__plugin_*_` missing a plugin's MCP server or tool spelled in another letter case",
+  "zh": "修复了以 `mcp__plugin_*_` 开头的拒绝和询问权限规则无法匹配大小写不同的 plugin MCP 服务器或工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

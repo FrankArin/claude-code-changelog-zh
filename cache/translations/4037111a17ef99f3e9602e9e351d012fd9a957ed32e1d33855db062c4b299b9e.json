@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed AWS `credential_process` helpers and Google Cloud default credentials failing when Claude Code is started without a `HOME` environment variable",
+  "zh": "修复了在未设置 `HOME` 环境变量时启动 Claude Code，AWS `credential_process` 辅助程序和 Google Cloud 默认凭证失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

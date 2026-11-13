@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `CLAUDE_CODE_MAX_CONTEXT_TOKENS` to also set the context window of unrecognized model IDs that start with `claude-`, such as a gateway's `claude-sonnet-latest`",
+  "zh": "`CLAUDE_CODE_MAX_CONTEXT_TOKENS` 现在也会为以 `claude-` 开头的未识别模型 ID 设置上下文窗口，例如网关的 `claude-sonnet-latest`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

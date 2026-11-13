@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved the note shown for an untrusted folder: it now says why the extension is off and how to turn it on",
+  "zh": "\\[VSCode] 改进不受信任文件夹的提示：现在会说明扩展为何被关闭以及如何开启",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

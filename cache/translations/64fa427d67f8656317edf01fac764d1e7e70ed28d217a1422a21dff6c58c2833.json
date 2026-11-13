@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a session sometimes going back to an earlier permission mode after a subagent's plan was approved",
+  "zh": "修复了 subagent 的计划获批后，session 有时会退回先前权限模式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

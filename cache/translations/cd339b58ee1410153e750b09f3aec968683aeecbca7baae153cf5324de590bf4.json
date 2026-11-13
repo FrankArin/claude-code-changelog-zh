@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved the error shown when the system refuses to run Claude Code: it now says your IT team can allow a blocked program",
+  "zh": "\\[VSCode] 改进系统拒绝运行 Claude Code 时显示的错误：现在会说明你的 IT 团队可以放行被阻止的程序",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

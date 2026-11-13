@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed marketplace `ref` to accept the full ID of any commit on a branch or tag; clients before this version can't clone such a pin, so a marketplace pinned this way stops loading there",
+  "zh": "marketplace 的 `ref` 现在接受分支或标签上任意提交的完整 ID；此版本之前的客户端无法克隆此类固定引用，因此以这种方式固定的 marketplace 在这些客户端上会停止加载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

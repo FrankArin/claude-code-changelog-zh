@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Changed `/resume` and `/teleport` to disconnect first when the connected session has a share link, or when that can't be checked; run `/remote-control` to connect again",
+  "zh": "远程控制：当已连接的 session 带有分享链接，或无法检查是否存在分享链接时，`/resume` 和 `/teleport` 现在会先断开连接；运行 `/remote-control` 可重新连接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

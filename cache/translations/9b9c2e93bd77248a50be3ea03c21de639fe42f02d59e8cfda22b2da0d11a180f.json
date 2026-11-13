@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/cost`, `$.session.usage()`, `--max-budget-usd` and the cost and token metrics to count a mod's `$.model.complete` and `$.model.classify` calls",
+  "zh": "`/cost`、`$.session.usage()`、`--max-budget-usd` 以及成本和 token 指标现在会计入 mod 的 `$.model.complete` 和 `$.model.classify` 调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

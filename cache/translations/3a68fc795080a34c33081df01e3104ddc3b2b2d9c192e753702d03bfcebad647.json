@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP elicitation requests being cancelled without asking in headless mode after a server's connection was replaced during a tool call",
+  "zh": "修复了在无头模式下，server 连接在工具调用期间被替换后，MCP elicitation 请求未经询问即被取消的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

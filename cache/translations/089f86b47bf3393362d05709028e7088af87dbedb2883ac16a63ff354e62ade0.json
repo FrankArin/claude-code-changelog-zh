@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved the sign-in card to say what to do when the browser shows a connection error for localhost",
+  "zh": "\\[VSCode] 改进登录卡片，说明当浏览器对 localhost 显示连接错误时该怎么做",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

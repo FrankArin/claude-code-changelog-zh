@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the permission prompt for MCP tools not saying why Claude Code asks when a safety check raises the question",
+  "zh": "\\[VSCode] 修复了当安全检查触发询问时，MCP 工具的权限提示未说明 Claude Code 为何询问的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

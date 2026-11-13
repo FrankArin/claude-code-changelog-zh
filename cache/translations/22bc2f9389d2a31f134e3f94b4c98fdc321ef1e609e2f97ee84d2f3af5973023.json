@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an approved plan edit being lost when the `plansDirectory` folder can't take it: the plan is now saved in the default plans folder, and a warning says where and why",
+  "zh": "修复当 `plansDirectory` 文件夹无法接收时，已批准的 plan 编辑丢失的问题：现在 plan 会保存到默认 plans 文件夹，并给出警告说明保存位置和原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

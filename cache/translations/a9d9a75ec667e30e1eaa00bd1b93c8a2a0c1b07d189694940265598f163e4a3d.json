@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `worktree.sparsePaths` and sparse plugin and marketplace clones leaving out the repository's root files on older git versions, such as 2.34",
+  "zh": "修复了在较旧 git 版本（如 2.34）上，`worktree.sparsePaths` 以及稀疏 plugin 和 marketplace 克隆遗漏仓库根目录文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the `HTTPS authentication failed` message for private plugin marketplaces: it now says git's terminal prompts and askpass programs are disabled, and it also appears with newer git versions",
+  "zh": "改进私有 plugin marketplace 的 `HTTPS authentication failed` 提示：现在会说明 git 的终端提示和 askpass 程序已禁用，并且在较新版本的 git 中也会显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T21:14:55+00:00"
+}
