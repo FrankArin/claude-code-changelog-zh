@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see [https://code.claude.com/docs/en/code-mode](https://code.claude.com/docs/en/code-mode) to turn it on, or to turn it off for an organization",
+  "zh": "新增 Code Mode（实验性，需主动启用）：Claude 通过编写 JavaScript 来调用其工具；参见 [https://code.claude.com/docs/en/code-mode](https://code.claude.com/docs/en/code-mode) 了解如何启用，或如何为组织关闭该功能",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

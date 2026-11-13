@@ -4,7 +4,7 @@
   "versions": [
     "2.1.323"
   ],
-  "tldr": "新增实验性 Code Mode 与插件版本约束，修复大量权限、登录与沙箱问题，并有多项行为变更。",
+  "tldr": "新增实验性 Code Mode 与插件版本约束，大量权限与沙箱安全修复，多项行为变更需注意。",
   "highlights": [
     {
       "title": "新增实验性 Code Mode",
@@ -13,75 +13,77 @@
       "action": null,
       "example": null,
       "item_ids": [
-        "2.1.323-other-1"
+        "2.1.323-added-1"
       ],
       "version": "2.1.323"
     },
     {
       "title": "插件版本范围约束",
       "category": "新功能",
-      "detail": "plugin.json 支持 engines[\"claude-code\"]，超出声明版本范围的插件不会被安装、更新或加载。",
+      "detail": "plugin.json 支持 engines[\"claude-code\"]，超出范围的插件不会被安装、更新或加载。",
       "action": null,
       "example": null,
       "item_ids": [
-        "2.1.323-other-2"
+        "2.1.323-added-2"
       ],
       "version": "2.1.323"
     },
     {
       "title": "未知模型上下文改为 1M",
       "category": "破坏性变更",
-      "detail": "无法识别的模型 ID 默认上下文窗口从 200K 改为 1M，其他厂商小窗口模型可能每轮失败。",
-      "action": "如需保持 200K，请设置 CLAUDE_CODE_DISABLE_1M_CONTEXT=1",
+      "detail": "无法识别的模型 ID 默认上下文窗口由 200K 改为 1M；小窗口的第三方模型可能每轮失败直到 /clear。",
+      "action": "在填满前设置 CLAUDE_CODE_DISABLE_1M_CONTEXT=1 保持 200K，或用 /autocompact 提前压缩。",
       "example": {
         "lang": "bash",
         "code": "CLAUDE_CODE_DISABLE_1M_CONTEXT=1",
         "caption": "保持 200K 上下文窗口"
       },
       "item_ids": [
-        "2.1.323-other-204",
-        "2.1.323-other-205"
+        "2.1.323-changed-33",
+        "2.1.323-changed-34"
       ],
       "version": "2.1.323"
     },
     {
-      "title": "移除 subagentStatusLine",
+      "title": "组织策略代理需 HTTPS_PROXY",
       "category": "破坏性变更",
-      "detail": "该设置已移除，subagent 行始终使用默认外观；仍含该键的设置文件照常加载。",
+      "detail": "组织设置和策略请求不再使用仅由 ALL_PROXY 设置的代理，网络依赖代理的用户可能无法拉取策略。",
+      "action": "为这些请求设置 HTTPS_PROXY。",
+      "example": null,
+      "item_ids": [
+        "2.1.323-changed-32"
+      ],
+      "version": "2.1.323"
+    },
+    {
+      "title": "移除 subagentStatusLine 设置",
+      "category": "破坏性变更",
+      "detail": "该设置被移除，subagent 行始终使用默认外观；含该键的设置文件仍可正常加载。",
       "action": null,
       "example": null,
       "item_ids": [
-        "2.1.323-other-247"
+        "2.1.323-changed-76"
       ],
       "version": "2.1.323"
     },
     {
-      "title": "代理仅认 HTTPS_PROXY",
-      "category": "破坏性变更",
-      "detail": "组织设置与策略请求不再使用仅由 ALL_PROXY 设置的代理。",
-      "action": "若网络需要代理，请为这些请求设置 HTTPS_PROXY",
-      "example": null,
-      "item_ids": [
-        "2.1.323-other-203"
-      ],
-      "version": "2.1.323"
-    },
-    {
-      "title": "修复多项权限绕过",
+      "title": "多项权限与沙箱漏洞修复",
       "category": "安全",
-      "detail": "修复 Bash 通配符规则、sudo/env 包装、rm 路径判断、Write/Edit 绕过 Read 拒绝规则及沙箱逃逸等问题。",
+      "detail": "修复通配符允许规则、sudo/env 包装、符号链接、Read 拒绝规则被绕过及沙箱可被关闭等问题。",
       "action": null,
       "example": null,
       "item_ids": [
-        "2.1.323-other-55",
-        "2.1.323-other-57",
-        "2.1.323-other-49",
-        "2.1.323-other-60",
-        "2.1.323-other-59"
+        "2.1.323-fixes-129",
+        "2.1.323-fixes-132",
+        "2.1.323-fixes-137",
+        "2.1.323-fixes-138",
+        "2.1.323-fixes-140",
+        "2.1.323-fixes-143",
+        "2.1.323-fixes-147"
       ],
       "version": "2.1.323"
     }
   ],
   "breaking": true,
-  "summary_hash": "10c1efc75a4140573991ec44d824ba9bfa37215a087887188eab74824a7e1033"
+  "summary_hash": "ad15eb475fa8ff5502c54038da9f88f859d07113968ec58faa896a98df33177b"
 }

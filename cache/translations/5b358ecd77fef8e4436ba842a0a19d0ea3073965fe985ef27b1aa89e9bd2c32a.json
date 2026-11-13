@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Improved the message when some network secrets can't be added to a new cloud environment: it lists each host, says why where it can, and stays until you dismiss it",
+  "zh": "\\[Claude Code on the web] 改进部分网络密钥无法添加到新云环境时的提示：会列出每个主机，尽可能说明原因，并保持显示直到你关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

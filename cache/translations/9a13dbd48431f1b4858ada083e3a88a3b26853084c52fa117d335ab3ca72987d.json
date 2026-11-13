@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed \"Couldn't load this conversation's saved history\" appearing in a new chat whose Claude process had restarted before the first prompt",
+  "zh": "\\[VSCode] 修复了在首个 prompt 之前 Claude 进程已重启的新聊天中显示“无法加载此对话的已保存历史记录”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

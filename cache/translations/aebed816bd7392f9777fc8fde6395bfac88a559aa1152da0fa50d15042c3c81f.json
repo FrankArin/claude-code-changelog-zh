@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Fixed Remove connector in Claude Tag admin settings being refused when access bundles also held its credentials; it now removes those set on the connector and leaves the bundles' own",
+  "zh": "\\[Claude Tag] 修复了当访问捆绑包也持有 connector 的凭据时，Claude Tag 管理设置中的移除 connector 操作被拒绝的问题；现在会移除在 connector 上设置的凭据，并保留捆绑包自身的凭据",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

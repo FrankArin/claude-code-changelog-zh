@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added Claude Tag sessions started in Slack to the Compliance API on Enterprise plans, in beta: list the sessions and read their transcripts",
+  "zh": "\\[Claude Tag] 新增在 Enterprise 计划中将 Slack 中启动的 Claude Tag sessions 纳入 Compliance API（beta）：可列出这些 sessions 并读取其对话记录",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

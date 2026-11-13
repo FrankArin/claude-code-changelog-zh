@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Remote Control] Added a Try again button to the error shown when the computer running your session is signed out of Claude Code",
+  "zh": "\\[Remote Control] 新增 Try again 按钮：当运行你 session 的计算机已退出 Claude Code 登录时，在显示的错误中提供该按钮",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

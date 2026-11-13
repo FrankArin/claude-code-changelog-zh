@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Tag] Added a Retry button to a Slack channel's Configure page for when its settings fail to load",
+  "zh": "\\[Claude Tag] 新增在 Slack 频道的 Configure 页面中，当设置加载失败时显示 Retry 按钮",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

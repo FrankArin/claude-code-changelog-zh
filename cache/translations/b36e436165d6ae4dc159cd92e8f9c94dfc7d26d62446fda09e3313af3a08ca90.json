@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Improved the new-session repository picker when GitHub single sign-on hides organizations: it now says so even with other repositories listed, and links to reconnect GitHub",
+  "zh": "\\[Claude Code on the web] 改进新 session 的仓库选择器在 GitHub 单点登录隐藏组织时的表现：即使已列出其他仓库也会说明该情况，并提供重新连接 GitHub 的链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[Claude Code on the web] Added the No repository option to the repository picker for new sessions on a self-hosted environment",
+  "zh": "\\[Claude Code on the web] 新增在自托管环境中为新 sessions 选择仓库时提供 No repository 选项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-13T05:27:01+00:00"
+}
