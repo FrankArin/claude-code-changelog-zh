@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a multi-line shell command filling the screen in fullscreen while it runs",
+  "zh": "修复了全屏模式下多行 shell 命令运行时占满屏幕的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

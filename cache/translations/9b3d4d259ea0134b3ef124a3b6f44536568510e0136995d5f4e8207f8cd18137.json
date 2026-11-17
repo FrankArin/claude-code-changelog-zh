@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background subagents started in Code Mode failing when they preload a skill with an inline `!` command",
+  "zh": "修复了 Code Mode 中启动的后台 subagents 在预加载含内联 `!` 命令的 skill 时失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

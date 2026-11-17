@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed PreToolUse hooks in managed settings leaving no OpenTelemetry `tool_decision` event or `permission_denials` entry when they refused a direct tool call",
+  "zh": "修复了托管设置中的 PreToolUse hook 在拒绝直接工具调用时，不产生 OpenTelemetry `tool_decision` 事件或 `permission_denials` 条目的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

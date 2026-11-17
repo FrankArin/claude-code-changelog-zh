@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the computer use macOS permissions panel to ignore j and k; the arrow keys and Ctrl+P/Ctrl+N still move the selection",
+  "zh": "变更了 computer use 的 macOS 权限面板，使其忽略 j 和 k；方向键和 Ctrl+P/Ctrl+N 仍可移动选择",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

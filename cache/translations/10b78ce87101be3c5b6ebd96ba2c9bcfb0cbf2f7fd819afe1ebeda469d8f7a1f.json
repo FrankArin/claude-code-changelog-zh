@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved on/off settings to read `on` / `off` in `/config`, `/memory` and auto mode setup",
+  "zh": "改进开关类设置，在 `/config`、`/memory` 和自动模式设置中显示为 `on` / `off`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

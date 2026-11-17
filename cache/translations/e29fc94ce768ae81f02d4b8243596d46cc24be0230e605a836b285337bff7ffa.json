@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed empty placeholder files, including `.git/config.lock`, sometimes being left in the project on Linux when Claude Code was stopped during a sandboxed command",
+  "zh": "修复了在 Linux 上，当 Claude Code 在沙箱命令执行期间被停止时，项目中有时会残留空占位文件（包括 `.git/config.lock`）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

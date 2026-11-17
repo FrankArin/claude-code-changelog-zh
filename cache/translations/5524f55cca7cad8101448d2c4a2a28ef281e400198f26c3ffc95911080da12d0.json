@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed \"esc to interrupt\" missing beside a custom status line and showing while Esc would go to a panel or footer item",
+  "zh": "修复自定义状态栏旁缺少“esc to interrupt”，以及在 Esc 会跳转到面板或页脚项时仍显示该提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

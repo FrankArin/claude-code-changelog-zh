@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed a hook's `\"decision\": \"block\"` to hold in more cases, so a hook that always prints one may start blocking calls",
+  "zh": "变更：hook 的 `\"decision\": \"block\"` 在更多情况下生效，因此始终输出该值的 hook 可能开始阻止调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

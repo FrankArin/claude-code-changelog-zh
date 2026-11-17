@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Removed the spinner tip that suggested `/clear` 30 minutes into a running turn",
+  "zh": "移除了在回合运行 30 分钟后建议执行 `/clear` 的加载提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

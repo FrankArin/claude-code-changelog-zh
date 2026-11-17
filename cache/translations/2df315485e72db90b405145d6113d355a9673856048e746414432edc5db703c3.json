@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved CPU use when more than 20 subagents are running: token counts of background agents whose transcript isn't open now update every 5 seconds",
+  "zh": "改进了同时运行 20 个以上 subagent 时的 CPU 占用：未打开对话记录的后台 agent 的 token 计数现在每 5 秒更新一次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the spinner tip flashing back and the screen bouncing as a reply finished",
+  "zh": "修复回复结束时加载提示闪烁回退、屏幕跳动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

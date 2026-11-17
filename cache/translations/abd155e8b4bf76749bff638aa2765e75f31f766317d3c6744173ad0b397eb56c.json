@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed sign-in ending when a verification code, a web address or a code from another sign-in attempt is pasted; the panel now says what to paste instead",
+  "zh": "\\[VSCode] 修复了粘贴验证码、网址或其他登录尝试的代码时登录中断的问题；面板现在会提示应粘贴的内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

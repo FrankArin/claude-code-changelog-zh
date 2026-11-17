@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude mcp serve` to ignore `sandbox.excludedCommands`",
+  "zh": "变更了 `claude mcp serve`，使其忽略 `sandbox.excludedCommands`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

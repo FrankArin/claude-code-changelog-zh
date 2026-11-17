@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed workflow resume telling Claude every finished agent would be reused after a call failed; Claude is now told how many results were reused and where reuse stopped",
+  "zh": "修复工作流恢复时在某个调用失败后仍告知 Claude 所有已完成的 agent 都会被复用的问题；现在会告知 Claude 复用了多少结果以及复用在哪里停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

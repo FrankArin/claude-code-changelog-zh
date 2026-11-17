@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/` menu, `/skills` and `/plugin` repeating rows and losing the cursor when two skills or commands in one place share a name",
+  "zh": "修复当同一位置的两个 skill 或命令同名时，`/` 菜单、`/skills` 和 `/plugin` 重复显示行并丢失光标的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the automatic session recap being sent after a reply billed to usage credits; `/recap` still works",
+  "zh": "修复了在回复计入用量额度后仍发送自动 session 摘要的问题；`/recap` 仍可正常使用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

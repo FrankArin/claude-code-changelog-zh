@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed URLs that wrap over several lines not being clickable in terminals with link support that Claude Code doesn't recognize, and labeled links in the Rex terminal",
+  "zh": "修复在 Claude Code 无法识别的支持链接的终端中，跨多行换行的 URL 无法点击的问题，以及 Rex 终端中带标签链接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long background agent and background command results wrapping under the bullet instead of lining up with their text",
+  "zh": "修复较长的后台 agent 和后台命令结果换行到项目符号下方、而非与其文本对齐的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

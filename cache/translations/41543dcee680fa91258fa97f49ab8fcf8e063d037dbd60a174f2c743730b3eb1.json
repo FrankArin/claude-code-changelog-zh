@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved commands that are off for your provider, sign-in or an environment variable such as `DISABLE_TELEMETRY` to say why instead of \"Unknown command\"",
+  "zh": "改进因你的提供商、登录方式或 `DISABLE_TELEMETRY` 等环境变量而不可用的命令：现在会说明原因，而非显示“Unknown command”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the background service ending your own processes, such as an SSH login, when a process number on its list had been reused by another user's process",
+  "zh": "修复当后台服务列表中的进程号被其他用户的进程复用时，后台服务错误结束你自己的进程（如 SSH 登录）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

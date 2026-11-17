@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a reply in a remote session running again after a restart when Stop had been pressed while Claude Code was restarting",
+  "zh": "修复在 Claude Code 重启期间按下 Stop 后，远程 session 中的回复在重启后再次运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

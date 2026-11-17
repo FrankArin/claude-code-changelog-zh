@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Ctrl+R search, the model picker, plan approval, question previews, background shell output and `/plugin` install choices being cut off in short fullscreen windows",
+  "zh": "修复在全屏短窗口中 Ctrl+R 搜索、模型选择器、计划审批、问题预览、后台 shell 输出和 `/plugin` 安装选项被截断的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved list navigation: more lists wrap at both ends, checkbox lists in slash commands take Home and End, and `/permissions` says when a search finds nothing",
+  "zh": "改进列表导航：更多列表支持两端循环，斜杠命令中的复选框列表支持 Home 和 End 键，`/permissions` 在搜索无结果时会给出提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `--add-dir` and `/add-dir` in local terminal sessions to show the trust prompt for a folder you have not trusted yet; `claude --bg` refuses such a folder",
+  "zh": "变更本地终端 session 中的 `--add-dir` 和 `/add-dir`，对尚未信任的文件夹显示信任提示；`claude --bg` 会拒绝此类文件夹",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error when a PreToolUse hook exits 127, saying its check may not have run",
+  "zh": "改进了 PreToolUse hook 以 127 退出时的错误提示，说明其检查可能未运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

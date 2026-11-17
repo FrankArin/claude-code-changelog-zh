@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed subagents isolated in a worktree to refuse, in any repository, some git commands in Bash that can rewrite branches shared with your checkout; sessions are not affected",
+  "zh": "变更了隔离在 worktree 中的 subagent：在任何仓库中，它们都会拒绝 Bash 中某些可能重写与你检出共享分支的 git 命令；session 不受影响",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

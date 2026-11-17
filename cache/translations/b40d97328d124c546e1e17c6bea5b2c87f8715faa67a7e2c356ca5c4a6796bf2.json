@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP tools with a root `anyOf` or `oneOf` showing Claude only the first branch's form of an argument; text such as `42` can now arrive as a number where another branch takes one",
+  "zh": "修复根级 `anyOf` 或 `oneOf` 的 MCP 工具只向 Claude 展示参数第一个分支形式的问题；现在 `42` 这样的文本可以在另一分支接受数字时以数字形式传入",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

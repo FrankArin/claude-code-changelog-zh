@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `--bare` sessions on an unapproved API key: moving one to the background is now refused in most setups, and `claude --bare --bg` exits with an error if the background service lacks the key",
+  "zh": "变更使用未批准 API key 的 `--bare` session：在多数配置下，将其移至后台现在会被拒绝；若后台服务缺少该 key，`claude --bare --bg` 会报错退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

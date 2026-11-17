@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude self-hosted-runner` asking for new tokens nonstop when a refreshed token was already due, such as when the machine's clock runs ahead",
+  "zh": "修复了当刷新后的 token 已到期（例如机器时钟超前）时，`claude self-hosted-runner` 不停请求新 token 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

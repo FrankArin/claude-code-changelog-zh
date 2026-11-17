@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the footer after Ctrl+C stops background agents: it now offers `↓ to resume subagent` while a stopped subagent is listed",
+  "zh": "改进 Ctrl+C 停止后台 agent 后的页脚：当有已停止的 subagent 列出时，现在会提示 `↓ to resume subagent`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

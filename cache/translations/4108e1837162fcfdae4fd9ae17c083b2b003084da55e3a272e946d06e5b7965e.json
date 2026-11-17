@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the PowerShell tool to ask before some more commands; unattended runs refuse them unless an allow rule, auto mode or bypass permissions mode allows them",
+  "zh": "变更了 PowerShell 工具，使更多命令会先询问；无人值守运行会拒绝这些命令，除非允许规则、自动模式或绕过权限模式允许它们",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

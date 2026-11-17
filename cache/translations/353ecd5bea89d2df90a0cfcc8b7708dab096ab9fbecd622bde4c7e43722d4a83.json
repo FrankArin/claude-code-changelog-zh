@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resumed sessions losing earlier conversation history when Claude Code ran low on memory",
+  "zh": "修复了 Claude Code 内存不足时，恢复的 session 丢失较早对话历史的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

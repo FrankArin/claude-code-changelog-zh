@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the transcript dropping a few rows, or the prompt jumping up, as a reply started streaming",
+  "zh": "修复回复开始流式输出时对话记录丢失几行或 prompt 向上跳动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

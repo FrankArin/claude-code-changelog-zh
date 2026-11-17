@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/usage` in fullscreen mode to show plan limit bars before session cost for subscribers; `/cost` still starts with cost",
+  "zh": "全屏模式下的 `/usage` 对订阅用户改为先显示套餐限额条，再显示 session 费用；`/cost` 仍以费用开头",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

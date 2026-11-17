@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a message explaining why MCP servers stop loading when an administrator adds `managed-mcp.json` during a session",
+  "zh": "新增提示信息，说明管理员在 session 进行中添加 `managed-mcp.json` 后 MCP 服务器为何停止加载",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

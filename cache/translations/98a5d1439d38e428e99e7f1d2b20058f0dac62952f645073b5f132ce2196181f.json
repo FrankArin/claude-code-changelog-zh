@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/terminal-setup` not naming the tmux settings that Shift+Enter needs, and promising Shift+Enter in Windows Terminal before 1.25, where it sends the prompt",
+  "zh": "修复了 `/terminal-setup` 未说明 Shift+Enter 所需的 tmux 设置，以及在 1.25 之前的 Windows Terminal 中承诺支持 Shift+Enter（实际会发送 prompt）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

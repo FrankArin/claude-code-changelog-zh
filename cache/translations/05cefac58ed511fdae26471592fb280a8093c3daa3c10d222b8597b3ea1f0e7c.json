@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the jump-to-bottom pill disappearing in fullscreen while more of the reply was still below",
+  "zh": "修复全屏模式下回复下方仍有内容时，跳到底部的胶囊按钮消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

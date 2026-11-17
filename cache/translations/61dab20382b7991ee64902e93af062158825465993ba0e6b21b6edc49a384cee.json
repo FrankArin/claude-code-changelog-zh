@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude Desktop's Code tab blaming the internet connection when a certificate's signature couldn't be verified",
+  "zh": "修复 Claude Desktop 的 Code 标签页在无法验证证书签名时误报网络连接问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed `/ide` in a second Claude Code session silently losing the editor connection back to the first session; the newest connection now wins and the displaced session shows how to switch back",
+  "zh": "\\[VSCode] 修复了在第二个 Claude Code session 中执行 `/ide` 时，编辑器连接被静默切回第一个 session 的问题；现在最新的连接生效，被替换的 session 会提示如何切回",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

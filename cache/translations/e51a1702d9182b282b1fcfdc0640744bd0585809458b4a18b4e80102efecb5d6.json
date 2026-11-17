@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed subagents whose `disallowedTools` lists `Artifact` still being offered artifact tools in some cloud sessions",
+  "zh": "修复了 `disallowedTools` 中列出 `Artifact` 的 subagent 在某些云端 session 中仍被提供 artifact 工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed a `managed-mcp.json` added mid-session so it may apply at the next check; restart open sessions for it to apply in full",
+  "zh": "变更：session 进行中添加的 `managed-mcp.json` 可能在下次检查时生效；请重启已打开的 session 以使其完全生效",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the agent rows under the prompt showing an agent as busy after its turn ended: the row now says what it is waiting on, and `/tasks` names the subagent behind each background command",
+  "zh": "修复了 prompt 下方的 agent 行在其回合结束后仍显示为忙碌的问题：该行现在会说明它在等待什么，且 `/tasks` 会指明每个后台命令背后的 subagent",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed files Claude sends from cloud and Remote Control sessions failing at once when a proxy answers an upload with its own HTTP 502, 504 or 520 to 524; the upload now gets a second try",
+  "zh": "修复了当代理以自己的 HTTP 502、504 或 520 至 524 响应上传时，Claude 从云端和远程控制 session 发送的文件会立即失败的问题；现在上传会再重试一次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"done\" line showing after a turn that failed or was refused at a permission prompt",
+  "zh": "修复在权限提示处失败或被拒绝的一轮对话后仍显示“done”行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

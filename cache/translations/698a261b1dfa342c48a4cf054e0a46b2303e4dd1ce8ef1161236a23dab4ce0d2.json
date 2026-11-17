@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode",
+  "zh": "新增支持在启用 agent teams 时开启 Code Mode；如果你已开启，启用 teams 的 session 现在会以 Code Mode 启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

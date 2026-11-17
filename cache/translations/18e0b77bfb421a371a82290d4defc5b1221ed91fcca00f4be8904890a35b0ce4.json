@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed the text of extension errors in event listeners, views and activation to stay out of the editor's own error telemetry",
+  "zh": "\\[VSCode] 事件监听器、视图和激活过程中的扩展错误文本改为不进入编辑器自身的错误遥测",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

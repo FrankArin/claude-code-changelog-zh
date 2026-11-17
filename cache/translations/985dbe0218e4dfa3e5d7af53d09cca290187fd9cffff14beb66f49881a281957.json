@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `--await-initialize` to be refused with `--bg` or `--worktree --tmux`, which never read the initialize request, instead of starting without the fields it carries",
+  "zh": "`--await-initialize` 与 `--bg` 或 `--worktree --tmux` 同时使用时改为被拒绝，因为这些模式从不读取初始化请求，而不是在缺少其携带字段的情况下启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

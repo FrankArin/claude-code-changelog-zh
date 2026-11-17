@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/context` grid, API errors such as \"Credit balance too low\", \"Waiting for API response\" and retry notices, \"esc to interrupt\" and \"Interrupted\" being cut off or jumbled in narrow terminals",
+  "zh": "修复在窄终端中 `/context` 网格、诸如“Credit balance too low”的 API 错误、“Waiting for API response”和重试提示、“esc to interrupt”和“Interrupted”被截断或错乱的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

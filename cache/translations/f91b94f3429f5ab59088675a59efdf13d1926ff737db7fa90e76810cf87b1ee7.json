@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Remote Control: replies from `claude remote-control`, Claude Desktop and VS Code sessions now stream to your phone or browser as they are written",
+  "zh": "改进了 Remote Control：来自 `claude remote-control`、Claude Desktop 和 VS Code session 的回复现在会边生成边流式传输到你的手机或浏览器",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

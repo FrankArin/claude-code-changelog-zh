@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an `esc to stop` footer hint in a subagent's view where Esc would stop it",
+  "zh": "在 subagent 视图中，当 Esc 会停止该 subagent 时，新增 `esc to stop` 页脚提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

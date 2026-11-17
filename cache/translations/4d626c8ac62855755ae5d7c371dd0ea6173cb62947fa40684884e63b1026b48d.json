@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude editing `~/.claude/keybindings.json`, which has no effect in Claude Desktop, when asked to change a shortcut there",
+  "zh": "修复了要求 Claude 更改快捷键时，Claude 会编辑 `~/.claude/keybindings.json` 的问题，该文件在 Claude Desktop 中不起作用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Monitor: when a watch expires with no events and its command wrote to stderr, Claude is now told so and told which file holds the output",
+  "zh": "改进 Monitor：当监视到期且无事件、其命令写入了 stderr 时，现在会告知 Claude，并告知输出所在的文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

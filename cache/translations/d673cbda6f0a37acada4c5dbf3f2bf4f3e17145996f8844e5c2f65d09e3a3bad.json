@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed enabled plugins that were refused for a malformed `plugin.json` display field: they now load, with their hooks and MCP servers; administrators should check the plugins they deploy",
+  "zh": "变更因 `plugin.json` 展示字段格式错误而被拒绝的已启用 plugin：现在会加载，包括其 hook 和 MCP server；管理员应检查所部署的 plugin",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

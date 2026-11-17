@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` showing nothing in the terminal while it retried an overloaded or failing API request, or when it failed with its text output redirected or captured",
+  "zh": "修复了 `claude -p` 在重试过载或失败的 API 请求时，或在文本输出被重定向或捕获而失败时，终端中不显示任何内容的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

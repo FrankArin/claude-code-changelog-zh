@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the folder trust prompt, at launch and in `/cd`, to name the project settings files Claude Code will load; at launch it also marks files that run commands",
+  "zh": "改进了启动时和 `/cd` 中的文件夹信任提示，现在会列出 Claude Code 将加载的项目设置文件；启动时还会标记会执行命令的文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

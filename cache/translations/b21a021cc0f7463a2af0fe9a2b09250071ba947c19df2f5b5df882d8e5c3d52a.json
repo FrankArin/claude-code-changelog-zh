@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Tab and Shift+Tab not moving between fields in an MCP server's input form, and a required field there keeping its tick after being emptied",
+  "zh": "修复 Tab 和 Shift+Tab 无法在 MCP 服务器输入表单的字段间移动，以及必填字段清空后仍保留勾选标记的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error shown when the API refuses a Console sign-in: it now says to run `/login` instead of pointing to an admin setting",
+  "zh": "改进 API 拒绝 Console 登录时显示的错误：现在提示运行 `/login`，而非指向管理员设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

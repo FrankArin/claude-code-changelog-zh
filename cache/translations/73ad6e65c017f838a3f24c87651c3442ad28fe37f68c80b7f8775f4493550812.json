@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed worktree creation, `/teleport` and IDE checkouts to run git with a stricter `PATH`; a git filter or helper may need its full path",
+  "zh": "worktree 创建、`/teleport` 和 IDE 检出改为使用更严格的 `PATH` 运行 git；git filter 或 helper 可能需要提供完整路径",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

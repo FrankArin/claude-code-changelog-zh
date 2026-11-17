@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude's file tools to refuse writes to Claude Code's sign-in files, such as `.credentials.json`",
+  "zh": "变更了 Claude 的文件工具，使其拒绝写入 Claude Code 的登录文件，例如 `.credentials.json`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

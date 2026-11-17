@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Claude in Chrome permission requests from a terminal session over Remote Control: on claude.ai they now name the site Claude wants to act on, also when it is already allowed",
+  "zh": "改进了通过 Remote Control 从终端 session 发起的 Claude in Chrome 权限请求：在 claude.ai 上现在会指明 Claude 想要操作的站点，即使该站点已被允许也会显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the Claude apps gateway sign-in screens: the sign-in address is a link and `c` copies it",
+  "zh": "改进 Claude 应用网关登录界面：登录地址显示为链接，按 `c` 可复制",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

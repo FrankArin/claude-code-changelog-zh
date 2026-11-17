@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed collapsed tool lines reading \"Ran\" or \"Called\" while still asking permission, and \"Running…\" or \"Reading…\" again when a panel opened after a call was stopped or refused",
+  "zh": "修复折叠的工具行在仍请求权限时显示“Ran”或“Called”，以及调用被停止或拒绝后打开面板时又显示“Running…”或“Reading…”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

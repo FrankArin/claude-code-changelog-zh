@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved dialogs, panels and the transcript: errors, warnings and confirmations in many dialogs start with ✘, ⚠ or ✔, and loading lines, status rows, counts and durations look and read more alike",
+  "zh": "改进对话框、面板和对话记录：许多对话框中的错误、警告和确认信息以 ✘、⚠ 或 ✔ 开头，加载行、状态行、计数和时长的外观与读法更加一致",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

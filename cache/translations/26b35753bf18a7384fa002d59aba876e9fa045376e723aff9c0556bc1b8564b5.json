@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plugin uninstall to also delete the files extracted from the plugin's MCP bundles (`.mcpb`, `.dxt`), unless another plugin uses the same bundle",
+  "zh": "变更 plugin 卸载，同时删除从该 plugin 的 MCP 包（`.mcpb`、`.dxt`）中解压的文件，除非其他 plugin 使用同一包",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

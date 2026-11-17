@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the screen freezing for seconds when showing long newly created files in the permission prompt and the Ctrl+O transcript",
+  "zh": "修复了在权限提示和 Ctrl+O 记录中显示较长的刚创建文件时屏幕卡住数秒的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

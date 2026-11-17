@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed agent view so that quitting with Ctrl+C twice, Ctrl+D twice or `/exit` after pressing `←` in an empty conversation ends that session, instead of leaving it running for 5 minutes",
+  "zh": "变更 agent 视图：在空对话中按 `←` 后，连续两次 Ctrl+C、两次 Ctrl+D 或执行 `/exit` 会结束该 session，而不是让它继续运行 5 分钟",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

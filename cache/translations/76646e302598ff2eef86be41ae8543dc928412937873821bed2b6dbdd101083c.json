@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed automatic compaction in plan mode to use the model answering you, such as Opus with `opusplan`, so it can cost more",
+  "zh": "变更 plan 模式下的自动上下文压缩，改用正在答复你的模型，例如 `opusplan` 下的 Opus，因此可能增加费用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

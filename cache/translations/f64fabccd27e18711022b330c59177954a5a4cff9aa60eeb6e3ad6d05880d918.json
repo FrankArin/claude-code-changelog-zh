@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `ExitWorktree` to refuse removing a worktree while a background subagent or shell command may still be running in it, unless Claude passes `discard_changes`",
+  "zh": "变更了 `ExitWorktree`：当后台 subagent 或 shell 命令可能仍在该 worktree 中运行时，拒绝移除该 worktree，除非 Claude 传入 `discard_changes`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

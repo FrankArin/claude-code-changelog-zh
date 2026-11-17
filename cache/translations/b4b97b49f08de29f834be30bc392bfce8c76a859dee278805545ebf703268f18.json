@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a hint in the empty prompt that says what to do after a request fails",
+  "zh": "在空 prompt 中新增提示，说明请求失败后该怎么做",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

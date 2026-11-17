@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved hook failures, blocks and timeouts in the transcript: failures are now red instead of grey, a hook that stops Claude is yellow, and the reason is shown under them",
+  "zh": "改进了对话记录中 hook 失败、拦截和超时的显示：失败现在显示为红色而非灰色，阻止 Claude 继续的 hook 显示为黄色，并在其下方显示原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

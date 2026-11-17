@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/plugin` Discover and marketplace lists: they fit short windows with the cursor and key hints on screen, and Home, End, PgUp, PgDn, the mouse wheel and clicks now work",
+  "zh": "改进 `/plugin` 的 Discover 和 marketplace 列表：在短窗口中也能显示光标和按键提示，Home、End、PgUp、PgDn、鼠标滚轮和点击现在均可用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

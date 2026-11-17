@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Bash sandbox to keep its state in some cases during a session, until you run `/sandbox` or `/cd`; Bash may ask first",
+  "zh": "变更了 Bash 沙箱，使其在某些情况下于 session 期间保留状态，直到你运行 `/sandbox` 或 `/cd`；Bash 可能会先询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

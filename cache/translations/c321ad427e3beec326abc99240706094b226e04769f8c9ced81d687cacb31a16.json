@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed valid PDFs being dropped from the conversation after the API rejected a different PDF read in the same batch",
+  "zh": "修复了同一批次中另一个 PDF 读取被 API 拒绝后，有效 PDF 被从对话中丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

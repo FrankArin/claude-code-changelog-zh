@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the terminal not showing an artifact's link after Claude publishes or updates it",
+  "zh": "修复了 Claude 发布或更新 artifact 后终端不显示其链接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

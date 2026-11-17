@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/effort` slider ignoring mouse clicks in fullscreen mode",
+  "zh": "修复了全屏模式下 `/effort` 滑块忽略鼠标点击的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

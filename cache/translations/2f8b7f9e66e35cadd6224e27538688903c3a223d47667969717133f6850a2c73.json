@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/feedback` and `/bug` sending the report when you typed a space on the confirmation screen, and losing the typed report after Ctrl+O or Ctrl+Z",
+  "zh": "修复了 `/feedback` 和 `/bug` 在确认界面输入空格就发送报告，以及按 Ctrl+O 或 Ctrl+Z 后丢失已输入报告的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

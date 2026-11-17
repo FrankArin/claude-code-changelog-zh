@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed HTTP hooks to ignore `Content-Length` and `Transfer-Encoding` in their `headers` setting; the request's length comes from its body",
+  "zh": "变更 HTTP hook，忽略其 `headers` 设置中的 `Content-Length` 和 `Transfer-Encoding`；请求长度由请求体决定",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

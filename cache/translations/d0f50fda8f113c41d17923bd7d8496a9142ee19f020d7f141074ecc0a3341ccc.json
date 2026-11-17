@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long command output ending mid-line in the expanded view with no sign it was cut; it now names the saved file",
+  "zh": "修复了展开视图中长命令输出在行中间结束且没有任何截断提示的问题；现在会显示保存的文件名",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

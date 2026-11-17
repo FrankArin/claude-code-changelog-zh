@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed fullscreen `/cd` to refuse \"Yes\" while its trust prompt doesn't fit, with a line saying to make the window taller",
+  "zh": "全屏 `/cd` 在其信任提示无法完整显示时改为拒绝 \"Yes\"，并提示将窗口调高",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

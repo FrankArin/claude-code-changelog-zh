@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/privacy-settings` toggle sometimes saving the opposite of what the screen showed on a quick double press, changing your setting on keys pressed after Esc, and not saying when a save failed",
+  "zh": "修复了 `/privacy-settings` 开关在快速连按时有时保存与屏幕显示相反的值、按 Esc 后的按键仍会更改设置，以及保存失败时不提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

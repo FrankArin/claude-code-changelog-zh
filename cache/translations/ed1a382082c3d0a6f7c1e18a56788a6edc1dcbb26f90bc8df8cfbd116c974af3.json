@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed your OFF answer to the updated terms being replaced when keys were typed while it was saving, at startup and in `/privacy-settings`",
+  "zh": "修复了在启动时和 `/privacy-settings` 中，对更新条款选择 OFF 后保存期间按键导致该选择被替换的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

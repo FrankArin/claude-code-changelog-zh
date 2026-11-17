@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/clear --help` and other built-in commands running at an idle prompt instead of showing usage; added `/help <command>`",
+  "zh": "修复 `/clear --help` 等内置命令在空闲 prompt 下直接执行而不显示用法的问题；新增 `/help <command>`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

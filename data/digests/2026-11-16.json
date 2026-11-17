@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "versions": [
+    "2.1.326"
+  ],
+  "tldr": "大幅收紧沙箱与权限检查，新增 Code Mode 与多项提示，并修复大量 UI 与稳定性问题。",
+  "highlights": [
+    {
+      "title": "沙箱与权限显著收紧",
+      "category": "破坏性变更",
+      "detail": "Bash/PowerShell 沙箱默认不再写入敏感主目录，更多命令会先询问或被拒绝，hook 的 block 决策生效范围扩大，可能影响现有自动化流程。",
+      "action": "检查依赖自动放行的脚本与 hook；必要时用 sandbox.filesystem.allowWrite 或允许规则放行。",
+      "example": null,
+      "item_ids": [
+        "2.1.326-changed-17",
+        "2.1.326-changed-19",
+        "2.1.326-changed-23",
+        "2.1.326-changed-40"
+      ],
+      "version": "2.1.326"
+    },
+    {
+      "title": "自动模式默认与策略变更",
+      "category": "破坏性变更",
+      "detail": "HIPAA 配置组织及策略未加载时的 session 默认以自动模式启动；托管 autoMode.environment 不含 \"$defaults\" 时会替换全部内置条目。",
+      "action": "如需保持 Manual 模式请设置 disableAutoMode；托管环境列表请加入 \"$defaults\" 或复制敏感条目。",
+      "example": null,
+      "item_ids": [
+        "2.1.326-changed-13",
+        "2.1.326-changed-14",
+        "2.1.326-changed-45"
+      ],
+      "version": "2.1.326"
+    },
+    {
+      "title": "插件与信任行为调整",
+      "category": "破坏性变更",
+      "detail": "展示字段格式错误的 plugin 现在会加载（含 hook 与 MCP server）；--add-dir 对未信任文件夹显示信任提示，--trust-workspace false 下忽略更多仓库设置。",
+      "action": "管理员应审查已部署 plugin；自托管运行器请改在用户或托管设置中配置相关值。",
+      "example": {
+        "lang": "bash",
+        "code": "/add-dir",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.326-changed-46",
+        "2.1.326-changed-47",
+        "2.1.326-changed-49"
+      ],
+      "version": "2.1.326"
+    },
+    {
+      "title": "新增 Code Mode 与启动提示",
+      "category": "新功能",
+      "detail": "启用 agent teams 时可开启 Code Mode；新增 --allowedTools 等参数格式警告、/status 功能关闭原因行、Ctrl+O 查看隐藏启动提示。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/status",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.326-added-1",
+        "2.1.326-added-2",
+        "2.1.326-added-4",
+        "2.1.326-added-6"
+      ],
+      "version": "2.1.326"
+    },
+    {
+      "title": "性能与交互改进",
+      "category": "改进",
+      "detail": "提升输入、流式输出与窗口调整响应速度，降低空闲 CPU 占用，Windows 首条 Bash 命令约快一秒，/update-config 上下文占用大幅下降。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/update-config",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.326-improvements-84",
+        "2.1.326-improvements-86",
+        "2.1.326-improvements-88",
+        "2.1.326-improvements-100"
+      ],
+      "version": "2.1.326"
+    },
+    {
+      "title": "修复渲染与登录问题",
+      "category": "修复",
+      "detail": "修复流式输出丢行、全屏滚动空白、粘贴与撤销异常、/login 验证码显示及多处 MCP 与后台 agent 状态错误。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude auth login",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.326-fixes-257",
+        "2.1.326-fixes-261",
+        "2.1.326-fixes-188",
+        "2.1.326-fixes-201"
+      ],
+      "version": "2.1.326"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "1537291a62b399b6383613bc7a387c315a4fde61b8a1dc0be368f3d8dc9d4ecb"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Bash permission checks: some commands now ask first, or are refused where no one can answer",
+  "zh": "改进 Bash 权限检查：部分命令现在会先询问，或在无人可应答时被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

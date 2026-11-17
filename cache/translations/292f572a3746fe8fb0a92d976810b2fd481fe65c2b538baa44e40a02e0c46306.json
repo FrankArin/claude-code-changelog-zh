@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed code or a diff pasted into a prompt losing its indentation in the transcript, and a pasted diff's added lines showing as removed",
+  "zh": "修复了粘贴到 prompt 中的代码或 diff 在记录中丢失缩进的问题，以及粘贴的 diff 中新增行显示为删除行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

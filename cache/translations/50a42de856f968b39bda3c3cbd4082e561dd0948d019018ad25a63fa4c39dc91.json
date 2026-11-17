@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed image-heavy sessions on Vertex AI getting stuck on a 400 error about the request size exceeding a 30 MB limit, instead of compacting and retrying",
+  "zh": "修复了 Vertex AI 上图片较多的 session 因请求大小超过 30 MB 限制而卡在 400 错误、无法进行上下文压缩并重试的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

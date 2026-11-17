@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the pinned prompt in fullscreen showing an older question while a reply streams, and being copied with the reply when you drag a selection past the top",
+  "zh": "修复了全屏模式下固定显示的 prompt 在回复流式输出时仍显示较早的问题，以及拖动选区越过顶部时该 prompt 会随回复一起被复制的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

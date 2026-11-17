@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Changed how it connects through a proxy: requests now use a CONNECT tunnel, so a proxy that refuses CONNECT stops Remote Control with an error",
+  "zh": "远程控制：变更通过代理连接的方式：请求现在使用 CONNECT 隧道，因此拒绝 CONNECT 的代理会使远程控制报错停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

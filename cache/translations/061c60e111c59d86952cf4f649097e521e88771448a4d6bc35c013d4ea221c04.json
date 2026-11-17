@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Option+T typing † instead of toggling thinking over SSH from iTerm2 when Option isn't set as Meta",
+  "zh": "修复了在 iTerm2 中通过 SSH 使用且 Option 未设为 Meta 时，Option+T 输入 † 而不是切换思考模式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

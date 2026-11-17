@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved alignment and spacing in `/btw`, `/help`, `/scroll-speed`, the settings error dialog and dialogs that suggest a plugin or setting",
+  "zh": "改进 `/btw`、`/help`、`/scroll-speed`、设置错误对话框以及建议 plugin 或设置的对话框中的对齐和间距",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

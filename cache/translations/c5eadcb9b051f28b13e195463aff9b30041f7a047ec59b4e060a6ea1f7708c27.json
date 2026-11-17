@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Up, Down, End and mouse clicks putting the cursor on the wrong row of a prompt that wraps",
+  "zh": "修复了 Up、Down、End 和鼠标点击在换行的 prompt 中把光标放到错误行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

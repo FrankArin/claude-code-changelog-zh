@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a failed MCP `headersHelper`, or one not run in an untrusted folder, making other sessions start without that server, for most servers with no stored OAuth refresh token",
+  "zh": "修复了 MCP `headersHelper` 执行失败、或在不受信任的文件夹中未运行，导致其他 session 启动时缺少该服务器的问题；该问题影响大多数没有存储 OAuth 刷新 token 的服务器",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

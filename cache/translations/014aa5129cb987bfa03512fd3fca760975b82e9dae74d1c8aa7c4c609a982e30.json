@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the suggested next prompt sometimes being a bare tag, such as `<signal type=\"empty\" />`",
+  "zh": "修复了建议的下一个 prompt 有时只是一个裸标签的问题，例如 `<signal type=\"empty\" />`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

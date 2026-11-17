@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed first-run setup to preselect the \"Auto (match terminal)\" theme instead of Dark mode",
+  "zh": "首次运行设置改为预选 \"Auto (match terminal)\" 主题，而不是深色模式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugin and marketplace requests waiting forever when `ALL_PROXY` is the only proxy set and the proxy never answers; they now fail after 25 seconds",
+  "zh": "修复当仅设置了 `ALL_PROXY` 且代理始终无响应时，plugin 和 marketplace 请求无限等待的问题；现在会在 25 秒后失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an edited typed answer to Claude's question sending the old text when you moved on without pressing Enter",
+  "zh": "修复了修改对 Claude 提问的输入答案后，未按 Enter 就继续操作时仍发送旧文本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

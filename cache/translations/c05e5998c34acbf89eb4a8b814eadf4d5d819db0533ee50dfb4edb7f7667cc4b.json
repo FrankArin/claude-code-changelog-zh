@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/copy` and `/export` saying \"copied to clipboard\" over SSH when the terminal may not have copied anything",
+  "zh": "修复了在 SSH 环境下 `/copy` 和 `/export` 显示“已复制到剪贴板”，但终端可能并未复制任何内容的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

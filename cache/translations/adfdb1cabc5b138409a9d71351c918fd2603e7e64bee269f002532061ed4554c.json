@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a rebound `chat:submit` key doing nothing while the slash command or @ file menu was open",
+  "zh": "修复重新绑定的 `chat:submit` 键在斜杠命令或 @ 文件菜单打开时不起作用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

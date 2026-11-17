@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `?` shortcuts list running its columns together in narrow terminals and being cut off at the bottom in short fullscreen windows",
+  "zh": "修复了 `?` 快捷键列表在窄终端中各列挤在一起，以及在较矮的全屏窗口中底部被截断的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

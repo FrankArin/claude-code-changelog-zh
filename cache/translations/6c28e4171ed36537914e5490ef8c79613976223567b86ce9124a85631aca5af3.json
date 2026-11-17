@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"background agents launched\" line stopping at two when Claude starts three or more agents in one reply",
+  "zh": "修复了当 Claude 在一条回复中启动三个或更多 agent 时，“background agents launched”行停在两个的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

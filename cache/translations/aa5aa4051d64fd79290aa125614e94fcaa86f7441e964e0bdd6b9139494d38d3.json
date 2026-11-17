@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a half-written reply sitting frozen with no spinner while Claude Code retried after a mid-response server error",
+  "zh": "修复 Claude Code 在响应中途遇到服务器错误后重试时，写到一半的回复卡住且不显示加载指示器的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

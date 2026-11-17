@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a misleading \"Dangerous rm operation\" warning in the Bash permission prompt on some commands with no rm that Claude Code can't read reliably",
+  "zh": "修复在某些不含 rm、Claude Code 无法可靠解析的命令上，Bash 权限提示中误报“Dangerous rm operation”警告的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

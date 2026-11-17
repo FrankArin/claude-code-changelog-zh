@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/resume` search saying \"No sessions match\" for older sessions that exist, and a typed number opening a session instead of searching",
+  "zh": "修复 `/resume` 搜索对确实存在的较早 session 显示“No sessions match”，以及输入数字会打开 session 而不是执行搜索的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

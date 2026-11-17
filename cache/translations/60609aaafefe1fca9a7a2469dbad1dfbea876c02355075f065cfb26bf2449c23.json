@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error for a settings or `.mcp.json` file with broken JSON: it now gives the line and column",
+  "zh": "改进设置文件或 `.mcp.json` 文件 JSON 损坏时的错误：现在会给出行号和列号",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

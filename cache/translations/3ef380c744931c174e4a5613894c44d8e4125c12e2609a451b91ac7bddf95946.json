@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a settings file saved with an error mid-session being skipped silently; a warning now names the file",
+  "zh": "修复了在 session 中途保存时出错的设置文件被静默跳过的问题；现在会给出警告并指明该文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed bold text showing as raw `**` in Japanese, Chinese and Korean replies when it starts or ends with punctuation",
+  "zh": "修复了日文、中文和韩文回复中加粗文本以标点开头或结尾时显示为原始 `**` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

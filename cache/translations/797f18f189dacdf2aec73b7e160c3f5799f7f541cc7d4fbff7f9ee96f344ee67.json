@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed the QR code in `/remote-control` being cut off in short terminal windows such as 80×24",
+  "zh": "远程控制：修复在 80×24 等较矮的终端窗口中 `/remote-control` 的二维码被截断的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

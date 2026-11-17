@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Ctrl+C hint on a background MCP task's question saying \"cancel\" when the second press leaves the question to answer later",
+  "zh": "修复后台 MCP 任务的问题上 Ctrl+C 提示显示“cancel”，但第二次按下实际是留待稍后回答该问题的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

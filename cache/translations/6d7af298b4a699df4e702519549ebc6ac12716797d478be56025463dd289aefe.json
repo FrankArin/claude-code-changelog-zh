@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a running command showing no output or timer when its collapsed row was clicked open in fullscreen mode",
+  "zh": "修复了全屏模式下点击展开正在运行的命令的折叠行时不显示输出或计时器的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

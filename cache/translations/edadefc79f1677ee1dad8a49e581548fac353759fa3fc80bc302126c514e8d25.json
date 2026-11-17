@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sandboxed commands on macOS, Linux and WSL to no longer write to some sensitive home folders by default; some can be allowed with `sandbox.filesystem.allowWrite` in user or managed settings",
+  "zh": "变更了 macOS、Linux 和 WSL 上的沙箱命令，使其默认不再写入某些敏感主目录文件夹；部分文件夹可通过用户或托管设置中的 `sandbox.filesystem.allowWrite` 允许写入",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

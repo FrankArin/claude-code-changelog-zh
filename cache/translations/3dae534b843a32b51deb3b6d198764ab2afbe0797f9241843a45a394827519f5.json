@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a past conversation resumed from agent view being sent on the background service's sign-in when the service doesn't have the terminal's API key or token",
+  "zh": "修复了从 agent 视图恢复的历史对话在后台服务没有终端 API 密钥或 token 时，使用后台服务的登录凭据发送的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

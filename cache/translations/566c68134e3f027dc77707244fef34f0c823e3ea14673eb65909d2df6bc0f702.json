@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude auth logout` leaving credentials behind, and token refresh failing, when only a Console profile's credentials are on a drive that rejects folder timestamps",
+  "zh": "修复了当仅有 Console 配置文件的凭据位于拒绝文件夹时间戳的驱动器上时，`claude auth logout` 遗留凭据以及 token 刷新失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added Ctrl+O to show hidden startup notices",
+  "zh": "新增 Ctrl+O 用于显示隐藏的启动提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a startup warning when an `--allowedTools`, `--disallowedTools` or `--tools` value has an entry that doesn't look like a complete rule",
+  "zh": "新增启动警告：当 `--allowedTools`、`--disallowedTools` 或 `--tools` 的值中有条目不像完整规则时提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

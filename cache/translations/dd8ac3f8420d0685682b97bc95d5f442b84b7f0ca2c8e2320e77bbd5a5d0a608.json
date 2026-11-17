@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed some worktree sessions to skip some plugin settings; a notice names what was skipped",
+  "zh": "变更部分 worktree session，跳过部分 plugin 设置；通知中会说明跳过了哪些内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the Sandbox dialog creating empty files and folders in the home directory and the project's `.git` folder while the sandbox is off",
+  "zh": "\\[VSCode] 修复了沙箱关闭时 Sandbox 对话框在主目录和项目的 `.git` 文件夹中创建空文件和文件夹的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

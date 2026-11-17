@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background sessions losing the LLM gateway your shell exported after a crash, after a reopen from another folder, or when the background service lacks it: they now stop before any model request",
+  "zh": "修复后台 session 在崩溃后、从其他文件夹重新打开后，或后台服务缺少 shell 导出的 LLM 网关时丢失该网关的问题：现在会在任何模型请求前停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

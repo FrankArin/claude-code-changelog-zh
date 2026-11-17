@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a crashed Node or Python hook showing only the first line of its stack trace; the error is now shown, and Ctrl+O shows up to 10,000 characters of the output",
+  "zh": "修复了崩溃的 Node 或 Python hook 只显示堆栈跟踪第一行的问题；现在会显示错误，按 Ctrl+O 可查看最多 10,000 个字符的输出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

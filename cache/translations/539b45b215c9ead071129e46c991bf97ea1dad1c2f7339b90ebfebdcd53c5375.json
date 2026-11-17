@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed finished tool groups in fullscreen counting a search or listing also as a shell command, and the tool timer there counting time at a permission prompt or queued behind another command",
+  "zh": "修复了全屏模式下已完成的工具组将搜索或列表也计为 shell 命令的问题，以及该处的工具计时器将等待权限提示或排队在其他命令之后的时间计入的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

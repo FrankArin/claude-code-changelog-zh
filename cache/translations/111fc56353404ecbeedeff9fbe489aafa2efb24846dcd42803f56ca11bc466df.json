@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sessions that start in auto by default to take a server-managed `defaultMode` once settings load, or Manual if settings fail with no stored copy and policy fails or requires it",
+  "zh": "变更：默认以自动模式启动的 session 会在设置加载后采用服务器管理的 `defaultMode`；若设置加载失败且无已存储副本，且策略加载失败或要求如此，则采用 Manual 模式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

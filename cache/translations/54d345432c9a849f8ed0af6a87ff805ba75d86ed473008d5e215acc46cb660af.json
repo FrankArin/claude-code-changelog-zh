@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the transcript share question for Pro and Max users staying open after the next message, `/clear` or `/resume`",
+  "zh": "修复了 Pro 和 Max 用户的对话记录分享询问在下一条消息、`/clear` 或 `/resume` 之后仍然保持打开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed failed, blocked or refused commands looking like passing ones in a collapsed tool line: it now shows \"· 1 failed\" or says they did not run",
+  "zh": "修复折叠的工具行中失败、被阻止或被拒绝的命令看起来像成功命令的问题：现在会显示“· 1 failed”，或说明它们未运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

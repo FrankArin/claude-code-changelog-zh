@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed some Bash commands on macOS that ran before to ask or be refused",
+  "zh": "变更：macOS 上一些此前可运行的 Bash 命令现在会询问或被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

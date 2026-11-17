@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed model requests failing on a one-off authentication error (401) in Claude Desktop's Code tab: they are now sent once more first",
+  "zh": "修复了 Claude Desktop 的 Code 标签页中因一次性认证错误（401）导致模型请求失败的问题：现在会先再发送一次",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

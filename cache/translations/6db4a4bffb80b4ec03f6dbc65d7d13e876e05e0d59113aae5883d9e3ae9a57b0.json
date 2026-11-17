@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `/claude-api` skill to build agents on Managed Agents by default, unless you want to host the agent loop yourself",
+  "zh": "`/claude-api` skill 改为默认在 Managed Agents 上构建 agent，除非你想自行托管 agent 循环",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed some tool calls in bypass permissions mode to ask for approval, or be denied where no one can be asked",
+  "zh": "变更了绕过权限模式下的部分工具调用，使其请求批准，或在无人可询问时被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

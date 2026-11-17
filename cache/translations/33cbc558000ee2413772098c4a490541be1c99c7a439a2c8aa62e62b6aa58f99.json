@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved key hints in many dialogs and the `?` lists: they show the keys that work, in one order and wording, and fit narrow windows; deeper screens in `/hooks` and `/permissions` say Esc goes back",
+  "zh": "改进许多对话框和 `?` 列表中的按键提示：以统一的顺序和措辞显示可用的按键，并适配窄窗口；`/hooks` 和 `/permissions` 的更深层界面会说明按 Esc 返回",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/btw` showing only a lead-in such as \"Let me check that file.\" with no notice when the model tried to use a tool (anthropics/claude-code#90314)",
+  "zh": "修复模型尝试使用工具时 `/btw` 只显示“Let me check that file.”之类的引导语且没有任何提示的问题（anthropics/claude-code#90314）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/autocompact` and `/scroll-speed` with a slider that shows every value, takes Home, End and (in fullscreen) clicks, and fits narrow terminals",
+  "zh": "改进 `/autocompact` 和 `/scroll-speed`，滑块会显示每个值，支持 Home、End 键和（全屏下）点击，并适配窄终端",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

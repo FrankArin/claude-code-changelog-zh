@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude saying that an administrator can turn on Claude in Chrome when your organization's policy disables it, in apps that provide its tools such as Claude Desktop's Code tab",
+  "zh": "修复了在提供其工具的应用（如 Claude Desktop 的 Code 标签页）中，当组织策略禁用 Claude in Chrome 时，Claude 却称管理员可以启用的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

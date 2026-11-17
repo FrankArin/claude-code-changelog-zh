@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Ctrl+O transcript hinting Ctrl+B to background a command in fullscreen, where it pages up, and showing no sign that Claude is still working",
+  "zh": "修复 Ctrl+O 对话记录在全屏模式下提示用 Ctrl+B 将命令转入后台（实际是向上翻页），且未显示 Claude 仍在工作的迹象的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

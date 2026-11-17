@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc doing nothing while the first-run sign-in waits for the browser or a pasted code; it now goes back one screen",
+  "zh": "修复了首次运行登录等待浏览器或粘贴登录码时按 Esc 无反应的问题；现在会返回上一屏",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

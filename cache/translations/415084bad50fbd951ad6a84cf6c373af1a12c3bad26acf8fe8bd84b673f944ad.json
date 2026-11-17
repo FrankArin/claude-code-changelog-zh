@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pressing `c` to copy an MCP sign-in URL leaving a stray `c` in the paste field",
+  "zh": "修复按 `c` 复制 MCP 登录 URL 时在粘贴字段中留下多余 `c` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

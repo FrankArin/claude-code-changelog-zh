@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude not being told that a remote MCP server's question was declined when the server then failed the tool call",
+  "zh": "修复远程 MCP 服务器的问题被拒绝后该服务器又使工具调用失败时，Claude 未被告知该问题已被拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

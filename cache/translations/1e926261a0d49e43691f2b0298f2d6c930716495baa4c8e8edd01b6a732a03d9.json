@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sandboxed commands failing to start on Linux when the home or config directory is reached through a symlink into `/net` and sandbox settings deny reads of it",
+  "zh": "修复了在 Linux 上，当主目录或配置目录通过符号链接指向 `/net` 且 sandbox 设置禁止读取该路径时，沙箱命令无法启动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a long queued message hiding Claude's reply while it streams, and erasing it from scrollback in the classic renderer",
+  "zh": "修复经典渲染器下较长的排队消息在流式输出时遮挡 Claude 的回复、并从滚动缓冲区中将其抹除的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

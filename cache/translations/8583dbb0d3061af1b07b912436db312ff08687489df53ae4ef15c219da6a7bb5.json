@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved long menus such as `/permissions`, `/resume` and `/model` to say how many rows are above and below, and the `/` and `@` menus to count hidden rows outside fullscreen and screen reader mode",
+  "zh": "改进 `/permissions`、`/resume` 和 `/model` 等长菜单，显示上方和下方各有多少行；`/` 和 `@` 菜单在非全屏和屏幕阅读器模式下会统计隐藏行数",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

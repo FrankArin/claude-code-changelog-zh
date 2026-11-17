@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude mcp add-json` answering most mistakes with \"Invalid configuration: : Invalid input\"; it now says what to change",
+  "zh": "修复 `claude mcp add-json` 对大多数错误都回答“Invalid configuration: : Invalid input”的问题；现在会说明需要修改什么",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

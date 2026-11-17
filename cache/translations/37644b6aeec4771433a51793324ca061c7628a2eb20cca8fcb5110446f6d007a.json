@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed terminals that support the Program Status Protocol (OSC 7501) not seeing Claude Code as waiting on you while the folder trust prompt is open (anthropics/claude-code#105801)",
+  "zh": "修复了支持 Program Status Protocol (OSC 7501) 的终端在文件夹信任提示打开时未将 Claude Code 显示为等待你操作的问题（anthropics/claude-code#105801）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

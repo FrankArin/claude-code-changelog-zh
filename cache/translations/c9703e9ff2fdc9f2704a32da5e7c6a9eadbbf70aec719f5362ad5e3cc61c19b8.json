@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed stopped and failed agents looking like running ones in the agent rows under the prompt, or showing \"Done\" when run in parallel, and a stopped agent's last command still showing \"Running…\"",
+  "zh": "修复了已停止和失败的 agent 在 prompt 下方的 agent 行中看起来像运行中的 agent，或在并行运行时显示“Done”，以及已停止 agent 的最后一条命令仍显示“Running…”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

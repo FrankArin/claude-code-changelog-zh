@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long `/btw` answers looking finished and ignoring PgUp, PgDn, Home, End and the mouse wheel",
+  "zh": "修复较长的 `/btw` 回答看起来已结束，且忽略 PgUp、PgDn、Home、End 和鼠标滚轮的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

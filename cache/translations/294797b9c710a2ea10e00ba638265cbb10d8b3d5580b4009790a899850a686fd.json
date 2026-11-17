@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed saved memories not being listed in the Memory dialog, or RAM use growing without end, when the memory folder held symlink loops, and a hang when it held a named pipe",
+  "zh": "\\[VSCode] 修复了记忆文件夹中存在符号链接循环时，已保存的记忆未在 Memory 对话框中列出或 RAM 占用无限增长的问题，以及存在命名管道时出现的卡死问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mod's `Text` with `wrap=\"truncate-end\"` losing rows on the terminal when it holds a line feed",
+  "zh": "修复 mod 的 `Text` 在 `wrap=\"truncate-end\"` 且包含换行符时在终端中丢失行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

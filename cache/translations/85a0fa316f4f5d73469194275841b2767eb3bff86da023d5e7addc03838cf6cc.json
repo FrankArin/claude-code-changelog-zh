@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed long single-line messages showing \"(0 lines hidden)\" instead of how much text is hidden",
+  "zh": "修复了长单行消息显示“(0 lines hidden)”而非实际隐藏文本量的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

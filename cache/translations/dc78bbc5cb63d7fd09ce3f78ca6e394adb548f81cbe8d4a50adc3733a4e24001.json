@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/model` showing your saved model as \"Default (recommended)\": Default now names your plan's default model, and choosing it in the terminal switches you back to that default",
+  "zh": "修复 `/model` 将已保存的模型显示为“Default (recommended)”的问题：现在 Default 会指明你所在方案的默认模型，在终端中选择它会切换回该默认模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

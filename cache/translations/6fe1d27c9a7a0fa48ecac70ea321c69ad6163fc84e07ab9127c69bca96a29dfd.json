@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed compaction on Bedrock, Vertex and Foundry, and with telemetry turned off, sometimes replying to one of your messages instead of summarizing, or leaving Claude's last reply out of the summary",
+  "zh": "修复了在 Bedrock、Vertex 和 Foundry 上，以及关闭遥测时，上下文压缩有时会回复你的某条消息而不是进行摘要，或摘要中遗漏 Claude 最后一条回复的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

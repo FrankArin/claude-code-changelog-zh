@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed claude.ai chats and Cowork tasks asking about a plugin file only because it holds a Word, Excel or other zip-type file; such files are now read for secret keys first",
+  "zh": "修复了 claude.ai 聊天和 Cowork 任务仅因 plugin 文件包含 Word、Excel 或其他 zip 类型文件就对其进行询问的问题；现在会先读取此类文件以检查密钥",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

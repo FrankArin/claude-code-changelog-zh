@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a line of a long list or code block going missing from scrollback, and text jumping a row, while a response streams",
+  "zh": "修复响应流式输出时长列表或代码块中的某一行从滚动缓冲区中丢失、以及文本跳动一行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

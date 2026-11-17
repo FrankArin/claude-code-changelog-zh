@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the welcome header outside fullscreen mode showing the session's model while viewing a subagent or teammate that runs on a different model",
+  "zh": "修复了非全屏模式下的欢迎标题在查看运行于不同模型的 subagent 或队友时显示 session 模型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

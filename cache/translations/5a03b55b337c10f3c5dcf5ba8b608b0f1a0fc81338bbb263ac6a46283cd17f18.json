@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a note in `/plugin` and `claude plugin list` when a malformed `plugin.json` field such as `author` or `homepage` is ignored",
+  "zh": "当 `plugin.json` 中 `author` 或 `homepage` 等字段格式错误被忽略时，在 `/plugin` 和 `claude plugin list` 中新增提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed holding Esc over typed text opening Rewind after the text was cleared",
+  "zh": "修复在已输入文本上按住 Esc 时，文本被清除后仍打开 Rewind 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

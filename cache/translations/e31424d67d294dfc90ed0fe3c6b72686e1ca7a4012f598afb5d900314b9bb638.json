@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the `/login` screen: the code goes in a proper text field, a rejected code says why under it, and pasting in a short window scrolls the field into view",
+  "zh": "改进 `/login` 界面：验证码输入到正规文本框中，被拒绝的验证码会在下方说明原因，在短窗口中粘贴时会将输入框滚动到可见位置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed some file tools to refuse some device and process files",
+  "zh": "变更了部分文件工具，使其拒绝部分设备文件和进程文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

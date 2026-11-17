@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Up and Esc moving the main conversation's queued messages into the prompt box of a subagent or teammate you are viewing",
+  "zh": "修复了 Up 和 Esc 将主对话的排队消息移入你正在查看的 subagent 或队友的 prompt 框的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

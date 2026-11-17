@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc doing nothing while an MCP server reconnects: Esc, or Ctrl+C pressed twice, now closes the wait and the reconnect continues in the background",
+  "zh": "修复 MCP 服务器重连时按 Esc 无反应的问题：现在按 Esc，或连按两次 Ctrl+C，会关闭等待，重连在后台继续",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

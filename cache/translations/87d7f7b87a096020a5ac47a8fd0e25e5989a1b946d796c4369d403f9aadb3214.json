@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed how `allowedHttpHookUrls` and `httpHookAllowedEnvVars` apply to hooks from managed settings",
+  "zh": "变更 `allowedHttpHookUrls` 和 `httpHookAllowedEnvVars` 对来自托管设置的 hook 的适用方式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

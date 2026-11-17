@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed settings files with values nested thousands of levels deep crashing Claude Code or applying only some of the time; values past 64 levels are now dropped with a warning",
+  "zh": "修复了值嵌套数千层深的设置文件导致 Claude Code 崩溃或仅偶尔生效的问题；超过 64 层的值现在会被丢弃并给出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the panel showing no \"Open artifact\" link after Claude publishes an artifact",
+  "zh": "\\[VSCode] 修复了 Claude 发布 artifact 后，面板不显示“Open artifact”链接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

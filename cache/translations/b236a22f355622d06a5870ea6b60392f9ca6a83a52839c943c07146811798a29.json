@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed \"Esc again to clear\" staying on screen after a second Esc would no longer clear the prompt",
+  "zh": "修复再次按 Esc 已无法清除 prompt 时，“Esc again to clear”仍留在屏幕上的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a hang on malformed glob patterns in settings, plugin marketplace entries and Grep file filters",
+  "zh": "修复设置、plugin marketplace 条目和 Grep 文件过滤器中格式错误的 glob 模式导致卡死的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

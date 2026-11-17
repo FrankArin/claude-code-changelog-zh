@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed text being drawn out of place after skin-tone or joined emoji, symbols such as ✌ and ☝, and Hindi, Tamil and other Indic vowel signs in terminals that draw them wider",
+  "zh": "修复了在将字符绘制得更宽的终端中，肤色或组合 emoji、✌ 和 ☝ 等符号，以及印地语、泰米尔语等印度语系元音符号之后文本错位的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

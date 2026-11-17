@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed buttons with no visible border in the high-contrast themes, and the dark welcome art on the sign-in screen in Light High Contrast",
+  "zh": "\\[VSCode] 修复了高对比度主题下按钮边框不可见的问题，以及 Light High Contrast 下登录界面深色欢迎图案的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

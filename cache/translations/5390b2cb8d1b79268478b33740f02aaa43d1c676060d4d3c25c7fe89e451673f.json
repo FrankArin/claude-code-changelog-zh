@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/rewind` saying \"No code changes\" when a shell command changed files it can't restore; a turn whose changes weren't tracked now reads \"Code changes unknown\"",
+  "zh": "修复了 shell 命令改动了 `/rewind` 无法恢复的文件时，`/rewind` 提示“No code changes”的问题；改动未被跟踪的轮次现在显示“Code changes unknown”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

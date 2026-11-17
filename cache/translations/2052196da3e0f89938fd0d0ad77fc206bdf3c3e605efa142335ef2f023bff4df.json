@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the usage-limit banner's \"Request more\" button for Team and Enterprise members coming back after each press without sending anything, after you signed in again during a session",
+  "zh": "\\[VSCode] 修复了 Team 和 Enterprise 成员的用量限制横幅中“Request more”按钮在会话期间重新登录后每次按下都会重新出现且不发送任何内容的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

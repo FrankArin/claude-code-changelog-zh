@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed asterisks disappearing from your own prompts in the transcript, such as `src/**/*.ts` or `2*3*4`",
+  "zh": "修复了记录中自己输入的 prompt 里星号消失的问题，例如 `src/**/*.ts` 或 `2*3*4`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

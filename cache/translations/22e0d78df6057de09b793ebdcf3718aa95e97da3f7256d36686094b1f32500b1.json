@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed a managed `autoMode.environment` list without `\"$defaults\"` to replace every built-in entry in Claude Desktop and Agent SDK apps too; add `\"$defaults\"` or copy the sensitive-target ones",
+  "zh": "变更托管 `autoMode.environment` 列表：不含 `\"$defaults\"` 时，在 Claude Desktop 和 Agent SDK 应用中也会替换所有内置条目；请添加 `\"$defaults\"` 或复制敏感目标条目",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

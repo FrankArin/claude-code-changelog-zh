@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed edits in a session's mods folder to ask more often, and sandboxed commands to write to fewer folders; if every edit asks, remove any link there to an unreadable or network path",
+  "zh": "变更：对 session 的 mods 文件夹中的编辑会更频繁地询问，沙箱化命令可写入的文件夹更少；如果每次编辑都会询问，请移除其中指向不可读或网络路径的链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

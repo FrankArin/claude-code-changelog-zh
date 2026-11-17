@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the shell prompt being drawn over the last screen after quitting with Ctrl+C or Ctrl+D at a sign-in or first-run step",
+  "zh": "修复了在登录或首次运行步骤按 Ctrl+C 或 Ctrl+D 退出后，shell 提示符被绘制在最后一屏之上的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

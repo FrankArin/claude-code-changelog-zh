@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a message typed over the startup auto mode offer being lost, and its Enter accepting the offer",
+  "zh": "修复了在启动时的自动模式提议上输入的消息会丢失、且其 Enter 会接受该提议的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

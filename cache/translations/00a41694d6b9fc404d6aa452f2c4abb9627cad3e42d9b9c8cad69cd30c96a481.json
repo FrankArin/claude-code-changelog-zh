@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a tool call to an MCP server that an SDK host had just removed reconnecting to it, or reporting that it needs authentication",
+  "zh": "修复对 SDK 宿主刚刚移除的 MCP 服务器的工具调用会重新连接该服务器，或报告其需要认证的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

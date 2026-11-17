@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the API retry notice sitting at \"Retrying in 0s\" during the next attempt, now \"retrying…\", and the \"will retry in\" countdown freezing when a reply stalled or with Reduce motion on",
+  "zh": "修复 API 重试提示在下一次尝试期间停留在“Retrying in 0s”（现为“retrying…”）的问题，以及回复停滞或开启 Reduce motion 时“will retry in”倒计时冻结的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

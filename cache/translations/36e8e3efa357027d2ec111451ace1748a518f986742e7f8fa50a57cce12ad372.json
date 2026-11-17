@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the sign-in screen showing briefly each time a panel or window opened while signed in to Console without an API key",
+  "zh": "\\[VSCode] 修复了在未使用 API key 登录 Console 的情况下，每次打开面板或窗口时登录界面短暂闪现的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}

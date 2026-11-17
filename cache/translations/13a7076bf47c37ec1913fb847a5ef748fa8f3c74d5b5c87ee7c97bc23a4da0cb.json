@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/plugin` Errors and Stats tabs: long errors no longer fill the screen, uninstalling from an error asks first, and long skill names no longer break the table",
+  "zh": "改进 `/plugin` 的 Errors 和 Stats 标签页：长错误不再占满屏幕，从错误中卸载前会先确认，长 skill 名称不再破坏表格",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-17T01:53:15+00:00"
+}
