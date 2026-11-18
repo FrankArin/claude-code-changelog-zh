@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a click followed by Enter in `/plugin` installing or disabling a plugin",
+  "zh": "修复在 `/plugin` 中先点击再按 Enter 会安装或禁用 plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

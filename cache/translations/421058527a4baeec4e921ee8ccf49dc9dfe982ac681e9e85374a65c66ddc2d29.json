@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the warning shown when an API key and an Anthropic profile are both set: it now says which one is in use and how to switch to the profile",
+  "zh": "改进同时设置 API key 和 Anthropic 配置文件时显示的警告：现在会说明正在使用哪一个，以及如何切换到该配置文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

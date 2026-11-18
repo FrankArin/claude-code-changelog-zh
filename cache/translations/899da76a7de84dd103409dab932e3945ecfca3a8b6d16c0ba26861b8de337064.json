@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved MCP server pages in `/mcp`: local, remote and agent servers share one layout, menus end in Back, and actions are no longer numbered outside screen reader mode; use the arrow keys and Enter",
+  "zh": "改进 `/mcp` 中的 MCP 服务器页面：本地、远程和 agent 服务器共用同一布局，菜单以 Back 结尾，非屏幕阅读器模式下操作不再编号；使用方向键和 Enter",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a new artifact that you approved being refused in a cloud scheduled task's session, in organizations that require approval of each new artifact",
+  "zh": "修复了在要求每个新 artifact 都需审批的组织中，你已批准的新 artifact 在云定时任务的 session 中被拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

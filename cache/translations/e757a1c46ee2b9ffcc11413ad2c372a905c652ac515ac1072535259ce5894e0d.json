@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed up and down losing the cursor's column over a short or blank line",
+  "zh": "修复了上下移动时经过短行或空行后光标列位置丢失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

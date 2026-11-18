@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how soon the Bash tool's diff of changed files is ready in auto and bypass permissions modes",
+  "zh": "改进自动模式和绕过权限模式下 Bash 工具变更文件 diff 的就绪速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

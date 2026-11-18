@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed MCP server logs to record the mode, action, and field names of elicitation requests and hook answers, not their full contents",
+  "zh": "将 MCP 服务器日志改为记录 elicitation 请求和 hook 应答的模式、操作和字段名，而非其完整内容",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

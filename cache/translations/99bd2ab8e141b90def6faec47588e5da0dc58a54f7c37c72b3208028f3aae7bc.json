@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added \"Claude Code: Add to Chat\" to the Explorer's right-click menu, which @-mentions the selected files and folders in the chat",
+  "zh": "\\[VSCode] 在资源管理器的右键菜单中新增“Claude Code: Add to Chat”，可在聊天中以 @ 提及选中的文件和文件夹",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

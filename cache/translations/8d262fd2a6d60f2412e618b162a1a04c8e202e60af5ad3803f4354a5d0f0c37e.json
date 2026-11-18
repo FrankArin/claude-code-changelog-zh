@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the first subagent on a model to wait up to 1.5 seconds (10 in `claude -p`) for that model's settings from Anthropic, instead of starting without them",
+  "zh": "将某个模型上的首个 subagent 改为最多等待 1.5 秒（`claude -p` 中为 10 秒）以获取来自 Anthropic 的该模型设置，而非在缺少设置的情况下启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

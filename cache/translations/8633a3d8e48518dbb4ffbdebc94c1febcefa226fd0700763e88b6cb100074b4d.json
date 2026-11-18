@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/autofix-pr` holding the keyboard after Esc while it stopped the cloud session; the dialog now closes at once, and a stop that fails is reported afterwards with a link",
+  "zh": "修复了 `/autofix-pr` 在停止云端 session 时按 Esc 后仍占用键盘的问题；对话框现在会立即关闭，停止失败会在之后附带链接报告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude getting a long managed PostToolUse hook output twice when a mod added context to the tool call",
+  "zh": "修复了当 mod 为工具调用添加上下文时，Claude 两次收到较长的托管 PostToolUse hook 输出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

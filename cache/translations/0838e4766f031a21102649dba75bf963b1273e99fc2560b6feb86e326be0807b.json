@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed messages to cloud and Remote Control sessions being reported as failed with a stale address after a timeout or rate limit; Claude now says when a message may have arrived",
+  "zh": "修复了发往云端和 Remote Control session 的消息在超时或触发速率限制后，被以过期地址报告为发送失败的问题；现在 Claude 会说明消息可能已经送达",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

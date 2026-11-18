@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed first-run setup to skip terminal setup in remote VS Code, Cursor and Devin Desktop sessions, where it cannot change settings",
+  "zh": "变更首次运行设置：在远程 VS Code、Cursor 和 Devin Desktop 会话中跳过终端设置，因为这些会话无法更改设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

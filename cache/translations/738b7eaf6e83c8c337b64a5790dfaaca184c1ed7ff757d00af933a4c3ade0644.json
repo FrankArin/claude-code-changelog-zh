@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed artifact approval in organizations that require it for each new artifact: an artifact that only a plugin created or allowed can be refused",
+  "zh": "变更要求每个新 artifact 都需审批的组织中的 artifact 审批：仅由 plugin 创建或允许的 artifact 可被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

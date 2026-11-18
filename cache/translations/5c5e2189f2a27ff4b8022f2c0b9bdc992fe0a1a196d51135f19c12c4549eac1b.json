@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the prompt freezing after rejecting a write to a very large file; a rejected write now shows a short preview",
+  "zh": "修复了拒绝写入超大文件后 prompt 冻结的问题；被拒绝的写入现在会显示简短预览",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

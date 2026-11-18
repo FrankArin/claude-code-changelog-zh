@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed tasks created after `/clear` being lost, and cleared tasks coming back, when a cloud or self-hosted runner session with no feature flags loaded resumed later",
+  "zh": "修复了未加载任何功能标志的云端或自托管运行器 session 稍后恢复时，`/clear` 之后创建的任务丢失、已清除的任务重新出现的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

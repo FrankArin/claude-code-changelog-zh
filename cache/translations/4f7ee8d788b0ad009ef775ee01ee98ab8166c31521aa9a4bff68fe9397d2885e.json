@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a remote session forgetting messages sent after Stop was pressed during a restart, if Claude Code then crashed",
+  "zh": "修复了远程 session 在重启期间按下 Stop 后发送的消息，若 Claude Code 随后崩溃则被遗忘的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

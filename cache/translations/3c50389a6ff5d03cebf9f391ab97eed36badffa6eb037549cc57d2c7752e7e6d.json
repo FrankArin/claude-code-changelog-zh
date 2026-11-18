@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed sessions with nobody to ask to refuse a new artifact at once, with no permission prompt, in organizations that require approval of each one",
+  "zh": "在要求逐个审批的组织中，将无人可询问的 session 改为立即拒绝新 artifact，且不显示权限提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

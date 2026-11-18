@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a rare display fault that could freeze the screen or end the session",
+  "zh": "修复了可能导致屏幕卡死或 session 结束的罕见显示故障",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

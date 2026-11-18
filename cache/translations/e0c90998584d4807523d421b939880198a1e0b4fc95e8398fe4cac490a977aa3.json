@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the arrow keys on most permission prompts to stop at No instead of wrapping around; a number past the last answer moves to No",
+  "zh": "变更大多数权限提示中的方向键在 No 处停止，而不是循环回绕；超出最后一个答案的数字会移到 No",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

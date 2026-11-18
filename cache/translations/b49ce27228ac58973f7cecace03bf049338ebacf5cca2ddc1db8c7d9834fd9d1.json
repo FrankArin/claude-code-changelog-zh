@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a nested `claude` with its own token being refused by `forceLoginOrgUUID`: commands that don't get the session's token no longer get its `CLAUDE_CODE_OAUTH_SCOPES`; set it on any that need it",
+  "zh": "修复了带有自身 token 的嵌套 `claude` 被 `forceLoginOrgUUID` 拒绝的问题：未获得该 session token 的命令不再获得其 `CLAUDE_CODE_OAUTH_SCOPES`；需要它的命令请自行设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

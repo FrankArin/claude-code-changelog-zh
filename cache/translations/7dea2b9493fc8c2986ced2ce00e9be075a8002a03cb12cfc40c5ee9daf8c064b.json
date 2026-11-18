@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `--worktree` with a relative `--add-dir` beside the launch folder to give the Bash sandbox that folder, not one beside the worktree",
+  "zh": "将 `--worktree` 配合位于启动文件夹旁的相对 `--add-dir` 改为向 Bash 沙箱提供该文件夹，而非 worktree 旁的文件夹",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

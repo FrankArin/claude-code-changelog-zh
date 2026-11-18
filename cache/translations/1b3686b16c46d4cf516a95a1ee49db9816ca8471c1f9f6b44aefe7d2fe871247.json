@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/artifacts` showing part of your list, or \"No artifacts yet\", when a request for more of the list failed: it now tries again, then warns if it can't load the whole list",
+  "zh": "修复了请求加载更多列表失败时 `/artifacts` 只显示部分列表或显示“No artifacts yet”的问题：现在会重试，若无法加载完整列表则给出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

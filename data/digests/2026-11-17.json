@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "versions": [
+    "2.1.327"
+  ],
+  "tldr": "大幅收紧权限与沙箱检查，新增 /status 诊断与 stdin 方式添加 MCP，修复大量卡死与恢复问题。",
+  "highlights": [
+    {
+      "title": "权限与沙箱检查收紧",
+      "category": "破坏性变更",
+      "detail": "工作目录判定范围、符号链接、blockReadsOutsideWorkingDirectories 及 auto 模式允许规则均更严格，部分原本放行的 Bash 命令现在会被询问或拒绝。",
+      "action": "检查现有权限规则与 auto 模式工作流，必要时补充显式允许规则。",
+      "example": {
+        "lang": "bash",
+        "code": "/usr/bin/npm run:*",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.327-changed-16",
+        "2.1.327-changed-17",
+        "2.1.327-changed-18",
+        "2.1.327-changed-19",
+        "2.1.327-changed-21"
+      ],
+      "version": "2.1.327"
+    },
+    {
+      "title": "worktree 与 MCP 写入更安全",
+      "category": "破坏性变更",
+      "detail": "ExitWorktree 移除含未保存工作的 worktree 前会询问；claude mcp add --scope project 遇到无 mcpServers 键的 .mcp.json 会停止而非覆盖。",
+      "action": "无人应答场景下需配置允许规则，或先整理 .mcp.json 结构。",
+      "example": {
+        "lang": "bash",
+        "code": "claude mcp add --scope project",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.327-changed-13",
+        "2.1.327-changed-14"
+      ],
+      "version": "2.1.327"
+    },
+    {
+      "title": "/status 集中诊断问题",
+      "category": "新功能",
+      "detail": "列出损坏的 agent、skill、命令与 output style 文件、键位绑定错误、不可用沙箱、被忽略的权限设置及永不匹配的 hook。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/status",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.327-added-4"
+      ],
+      "version": "2.1.327"
+    },
+    {
+      "title": "MCP 可从 stdin 添加",
+      "category": "新功能",
+      "detail": "claude mcp add-json <name> - 从 stdin 读取服务器 JSON，避免 token 出现在命令行；仅在 session 外可用。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude mcp add-json <name> -",
+        "caption": "从 stdin 读取 MCP 服务器 JSON"
+      },
+      "item_ids": [
+        "2.1.327-added-2"
+      ],
+      "version": "2.1.327"
+    },
+    {
+      "title": "修复多处卡死与数据丢失",
+      "category": "修复",
+      "detail": "修复内存不足后白屏、超长 @ 提及与 WebFetch URL 卡顿、恢复 session 丢失消息、/export 静默覆盖文件等问题。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/export",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.327-fixes-99",
+        "2.1.327-fixes-103",
+        "2.1.327-fixes-104",
+        "2.1.327-fixes-77",
+        "2.1.327-fixes-86"
+      ],
+      "version": "2.1.327"
+    },
+    {
+      "title": "启动与 PowerShell 提速",
+      "category": "改进",
+      "detail": "Windows 无 Git Bash 时启动更快，PowerShell 每条命令约快半秒；首条 Bash 命令的 shell 启动文件可能提前运行。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_DISABLE_SHELL_HEAD_START=1",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.327-improvements-58",
+        "2.1.327-improvements-60",
+        "2.1.327-improvements-48"
+      ],
+      "version": "2.1.327"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "4d812b8a75df3d3824557a995525f954f5aa42ec138f116aba696c56cf6115db"
+}

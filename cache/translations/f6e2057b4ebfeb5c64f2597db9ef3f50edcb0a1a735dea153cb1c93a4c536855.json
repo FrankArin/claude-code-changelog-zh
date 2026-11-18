@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed two sign-in error messages that pointed to the Claude subscription option on computers where `forceLoginMethod` is set to `console`",
+  "zh": "修复在 `forceLoginMethod` 设为 `console` 的计算机上，两条登录错误消息仍指向 Claude 订阅选项的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

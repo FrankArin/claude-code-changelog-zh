@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude agents` and `claude rm` refusing to remove a fully pushed session (\"The worktree has unpushed commits\") when its worktree has a file or folder named `HEAD` at the top level",
+  "zh": "修复了当 session 的 worktree 顶层存在名为 `HEAD` 的文件或文件夹时，`claude agents` 和 `claude rm` 拒绝移除已完全推送的 session（提示 \"The worktree has unpushed commits\"）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

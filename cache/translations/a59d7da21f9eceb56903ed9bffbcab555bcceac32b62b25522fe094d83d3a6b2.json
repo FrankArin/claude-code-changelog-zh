@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved sandboxed shell commands: Claude now sees when a command exempt from the sandbox stayed in it because its permission check relied on the sandbox",
+  "zh": "改进沙箱化 shell 命令：当某条豁免沙箱的命令因其权限检查依赖沙箱而仍留在沙箱中时，Claude 现在能看到这一情况",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

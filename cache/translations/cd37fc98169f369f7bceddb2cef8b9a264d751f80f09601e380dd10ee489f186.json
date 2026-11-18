@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude mcp add --scope project` to stop, instead of overwriting the file, when `.mcp.json` lists its servers at the top level with no `mcpServers` key",
+  "zh": "变更 `claude mcp add --scope project`：当 `.mcp.json` 在顶层列出服务器且没有 `mcpServers` 键时停止，而不是覆盖文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

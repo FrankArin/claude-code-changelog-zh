@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the MCP tool list in `/mcp` and `/plugin` losing your place when going back from a tool",
+  "zh": "修复了在 `/mcp` 和 `/plugin` 的 MCP 工具列表中从某个工具返回时丢失当前位置的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

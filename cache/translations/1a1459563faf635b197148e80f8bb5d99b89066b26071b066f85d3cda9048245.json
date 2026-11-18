@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a terminal session's diff showing the previous proposed edit after you typed in it and Claude edited the same file again",
+  "zh": "\\[VSCode] 修复在终端 session 中键入内容、且 Claude 再次编辑同一文件后，diff 仍显示上一次提议的编辑的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

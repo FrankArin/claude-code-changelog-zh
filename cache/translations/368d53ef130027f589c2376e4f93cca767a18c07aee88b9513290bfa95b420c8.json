@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Remote Control: Fixed stopping the server in worktree mode deleting a running session's git-ignored files, such as `.env`",
+  "zh": "Remote Control：修复在 worktree 模式下停止服务器时删除运行中 session 的 git 忽略文件（如 `.env`）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

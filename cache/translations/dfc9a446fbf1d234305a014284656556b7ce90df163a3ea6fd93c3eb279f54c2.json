@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"+N lines\" count being too high for command output with links or colors, and the transcript's `?` help hiding how to exit in a short window",
+  "zh": "修复了带链接或颜色的命令输出中“+N lines”计数偏高，以及窗口较矮时对话记录的 `?` 帮助隐藏退出方式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

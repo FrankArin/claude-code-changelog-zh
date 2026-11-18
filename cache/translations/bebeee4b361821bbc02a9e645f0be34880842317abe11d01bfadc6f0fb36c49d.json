@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/plugin`: the question before removing a marketplace now says that its plugins' settings and saved data are deleted, and a marketplace's page no longer shows another marketplace's error",
+  "zh": "改进 `/plugin`：移除 marketplace 前的提问现在会说明其 plugins 的设置和已保存数据将被删除，且 marketplace 页面不再显示其他 marketplace 的错误",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

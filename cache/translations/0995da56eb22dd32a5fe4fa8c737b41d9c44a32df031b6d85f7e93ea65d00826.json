@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved long replies on unrecognized models: a reply cut at 32,000 output tokens now continues with a limit of 128,000",
+  "zh": "改进未识别模型上的长回复：在 32,000 输出 token 处截断的回复现在会以 128,000 的限制继续",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

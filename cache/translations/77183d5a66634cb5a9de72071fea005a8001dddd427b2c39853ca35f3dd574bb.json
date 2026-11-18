@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed in-process agent teammates on a different model from the lead compacting at the lead's context limit and on the wrong model; they now use their own limit and model, at that model's rate",
+  "zh": "修复了与负责人使用不同模型的进程内 agent 队友按负责人的上下文限制和错误模型进行上下文压缩的问题；它们现在使用自己的限制和模型，并按该模型的费率计费",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

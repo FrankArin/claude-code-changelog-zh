@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a half-typed `!` command running on an extra Enter after the usage limit menu",
+  "zh": "修复在用量限制菜单之后，输入到一半的 `!` 命令因多按一次 Enter 而执行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

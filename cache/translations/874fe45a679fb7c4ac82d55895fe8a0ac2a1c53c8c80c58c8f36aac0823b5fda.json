@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed headless sessions losing stored messages on resume when a message was sent again with the same UUID after the process was killed",
+  "zh": "修复了无头 session 在进程被终止后以相同 UUID 再次发送某条消息时，恢复时丢失已存储消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

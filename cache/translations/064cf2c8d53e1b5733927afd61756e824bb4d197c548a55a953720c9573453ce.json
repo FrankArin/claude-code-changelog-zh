@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/install-github-app`: the repository, secret and API key steps use the standard list and keys, with shorter messages, a spinner and clearer errors",
+  "zh": "改进 `/install-github-app`：仓库、密钥和 API key 步骤使用标准列表和按键，消息更简短，带加载指示器，错误更清晰",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

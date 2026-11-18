@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a second `x` on a task's details in `/tasks` stopping the next task too",
+  "zh": "修复了在 `/tasks` 中任务详情上第二次按 `x` 会同时停止下一个任务的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

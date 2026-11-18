@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved speed of the Bash permission check on very deeply nested missing paths on macOS and Linux, and of secret masking on very long text with a URL",
+  "zh": "改进 macOS 和 Linux 上对嵌套极深的缺失路径进行 Bash 权限检查的速度，以及超长含 URL 文本的密钥掩码速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

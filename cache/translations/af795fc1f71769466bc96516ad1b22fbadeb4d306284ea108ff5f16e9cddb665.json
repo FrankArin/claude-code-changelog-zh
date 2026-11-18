@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a false crash report and exit code when a suspended session resumes, or at exit, where a Linux security policy blocks a process from signalling itself",
+  "zh": "修复了挂起的 session 恢复时或退出时出现误报崩溃报告和退出码的问题，该问题发生在 Linux 安全策略阻止进程向自身发送信号的情况下",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

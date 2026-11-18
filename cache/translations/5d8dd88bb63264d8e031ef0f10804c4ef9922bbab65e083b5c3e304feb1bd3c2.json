@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Bash commands whose variables expand to very long text to be denied, with a message that says to use shorter values or a file",
+  "zh": "将变量展开为超长文本的 Bash 命令改为拒绝执行，并提示改用更短的值或文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

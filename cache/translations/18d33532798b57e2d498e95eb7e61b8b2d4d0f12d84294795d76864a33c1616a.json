@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Artifact publish prompt to stop offering \"don't ask again\" in subagents and after a background task result, someone else's message or a compaction",
+  "zh": "将 Artifact 发布提示改为在 subagent 中、后台任务结果之后、他人消息之后或上下文压缩之后不再提供“不再询问”选项",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

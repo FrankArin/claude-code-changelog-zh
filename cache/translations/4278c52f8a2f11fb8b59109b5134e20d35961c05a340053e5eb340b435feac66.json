@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/sandbox` and most `/config` value lists to be unnumbered outside screen reader mode; use the arrow keys and Enter",
+  "zh": "将 `/sandbox` 和大多数 `/config` 值列表改为在屏幕阅读器模式之外不显示编号；使用方向键和 Enter 操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `permissions.blockReadsOutsideWorkingDirectories` to refuse more Bash commands that name a path under a Read or Edit deny rule, where it used to ask",
+  "zh": "变更 `permissions.blockReadsOutsideWorkingDirectories`，对更多指定了 Read 或 Edit 拒绝规则下路径的 Bash 命令予以拒绝，而此前是询问",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

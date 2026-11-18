@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a settings change from `/config` and similar commands failing to save with no warning; a line under the prompt now says so",
+  "zh": "修复了通过 `/config` 及类似命令修改设置时保存失败却没有任何警告的问题；现在 prompt 下方会有一行提示说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

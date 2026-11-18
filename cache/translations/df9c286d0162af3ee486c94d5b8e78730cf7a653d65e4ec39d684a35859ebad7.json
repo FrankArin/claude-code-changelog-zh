@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cloud sessions breaking when a program left thousands of connections open to the session's network proxy",
+  "zh": "修复了当某个程序向 session 的网络代理留下数千个打开的连接时，云端 session 中断的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

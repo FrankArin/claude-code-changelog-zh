@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a running Code Mode script in auto mode getting permission prompts and denials once Claude started a second script that auto mode also allowed",
+  "zh": "修复了自动模式下正在运行的 Code Mode 脚本在 Claude 启动第二个同样被自动模式允许的脚本后收到权限提示并被拒绝的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

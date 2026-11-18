@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a blank screen and stray mouse codes in the shell after quitting with ctrl+c just after ← opens the agents view",
+  "zh": "修复了按 ← 打开 agents 视图后立即按 ctrl+c 退出时，shell 出现空白屏幕和残留鼠标转义码的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

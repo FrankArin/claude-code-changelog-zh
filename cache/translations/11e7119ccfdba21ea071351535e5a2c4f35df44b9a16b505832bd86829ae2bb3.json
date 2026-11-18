@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a turn hanging when a mod's `$.model.complete` or `$.model.classify` call met a usage limit: the call now gets the API's error at once; mods should handle that error",
+  "zh": "修复了 mod 的 `$.model.complete` 或 `$.model.classify` 调用遇到用量限制时导致回合挂起的问题：现在该调用会立即收到 API 的错误；mod 应处理该错误",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

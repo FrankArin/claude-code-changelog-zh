@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Edit refusing with \"File has not been read yet\" after a compaction on unchanged files outside the project that Claude had already read in full",
+  "zh": "修复了在项目外未更改的文件上执行上下文压缩后，Edit 以“File has not been read yet”拒绝的问题，这些文件 Claude 此前已完整读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

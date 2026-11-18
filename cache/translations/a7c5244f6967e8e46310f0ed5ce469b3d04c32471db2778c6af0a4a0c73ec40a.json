@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed fullscreen text selection to leave out the glyph of system, thinking and inbound message lines",
+  "zh": "变更全屏文本选择，不再包含系统、思考和入站消息行的字形",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

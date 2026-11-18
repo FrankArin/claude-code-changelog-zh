@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the reminder about a completed subagent after compaction: if Claude can't read the agent's output file, it is now told to ask the agent with `SendMessage`",
+  "zh": "改进上下文压缩后关于已完成 subagent 的提醒：如果 Claude 无法读取该 agent 的输出文件，现在会告知其用 `SendMessage` 询问该 agent",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

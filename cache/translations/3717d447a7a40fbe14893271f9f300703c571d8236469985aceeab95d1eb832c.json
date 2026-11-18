@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added support for naming a session's billing group with the `attributionProject` setting, for Claude apps gateways that set `admin.billing_group_tag`",
+  "zh": "新增通过 `attributionProject` 设置为 session 的计费组命名，适用于设置了 `admin.billing_group_tag` 的 Claude 应用网关",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

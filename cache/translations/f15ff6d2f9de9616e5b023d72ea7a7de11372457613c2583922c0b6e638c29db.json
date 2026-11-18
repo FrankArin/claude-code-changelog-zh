@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed terminal display faults: most scrambled scrollback in Ghostty on resize, link addresses hidden in Windows Terminal under old tmux and in VTE 0.50.0, and no selection highlight with 16 colors",
+  "zh": "修复了终端显示故障：Ghostty 中调整窗口大小时大部分滚动缓冲区内容错乱、旧版 tmux 和 VTE 0.50.0 下 Windows Terminal 中链接地址被隐藏，以及 16 色模式下没有选中高亮",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

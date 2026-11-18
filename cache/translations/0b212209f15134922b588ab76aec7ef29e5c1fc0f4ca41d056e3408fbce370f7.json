@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved speed of reading large PNG images, and the quality of the JPEG sent in their place",
+  "zh": "改进读取大型 PNG 图片的速度，以及替代发送的 JPEG 的质量",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

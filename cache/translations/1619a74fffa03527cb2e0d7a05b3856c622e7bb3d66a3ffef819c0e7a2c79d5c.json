@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/config` saying the dialog was dismissed instead of \"Set theme to …\" after changing the theme",
+  "zh": "修复更改主题后 `/config` 显示对话框已关闭，而非“Set theme to …”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

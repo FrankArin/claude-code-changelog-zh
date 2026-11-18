@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a compaction right after a reply cut at the output token limit losing that reply's tool call and its result",
+  "zh": "修复了在回复因达到输出 token 上限而被截断后立即进行上下文压缩时，丢失该回复的工具调用及其结果的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

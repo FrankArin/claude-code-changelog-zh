@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved narrow terminals: `/status`, forms and detail screens lay out better, `/model` and `/effort` fit at about 40 columns, and key hints such as `←/→ to adjust` stay",
+  "zh": "改进窄终端：`/status`、表单和详情页布局更好，`/model` 和 `/effort` 在约 40 列宽度下可正常显示，`←/→ to adjust` 等按键提示保留",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

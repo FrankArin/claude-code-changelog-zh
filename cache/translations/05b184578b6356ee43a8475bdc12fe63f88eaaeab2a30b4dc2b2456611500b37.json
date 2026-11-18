@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `claude mcp add-json <name> -` to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a Claude Code session",
+  "zh": "新增 `claude mcp add-json <name> -`，从 stdin 读取服务器的 JSON，使 token 不必出现在命令行上；在 Claude Code session 内不可用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Removed unused tools from the IDE connection (openFile, saveDocument, getOpenEditors and related)",
+  "zh": "\\[VSCode] 从 IDE 连接中移除未使用的工具（openFile、saveDocument、getOpenEditors 及相关工具）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

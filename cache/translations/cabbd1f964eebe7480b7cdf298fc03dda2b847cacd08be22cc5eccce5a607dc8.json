@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed stalls on a compaction reply with thousands of unclosed tags and on some very long WebFetch URLs; WebFetch now refuses a URL over 2,000 characters before any permission prompt",
+  "zh": "修复了上下文压缩回复中包含数千个未闭合标签时以及某些超长 WebFetch URL 导致的卡顿；WebFetch 现在会在任何权限提示之前拒绝超过 2,000 个字符的 URL",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

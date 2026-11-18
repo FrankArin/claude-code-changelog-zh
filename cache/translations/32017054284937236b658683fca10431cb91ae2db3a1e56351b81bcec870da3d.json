@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed subagents launched without a model to stay on the model they started on when resumed, including after `/model`",
+  "zh": "将未指定模型启动的 subagent 改为在恢复时保持其启动时所用的模型，包括在 `/model` 之后",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

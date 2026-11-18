@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the main conversation not being told a background agent had finished when the subagent that started it ended by itself without reading the result, outside auto mode",
+  "zh": "修复了在自动模式之外，启动后台 agent 的 subagent 未读取结果便自行结束时，主对话未被告知该后台 agent 已完成的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

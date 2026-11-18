@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Read tool reporting 512KB instead of the real size when a file of 10 MB or more is too large to read at once",
+  "zh": "修复了当文件达到 10 MB 或更大而无法一次读取时，Read 工具报告 512KB 而非实际大小的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved resuming very long sessions: a transcript read that ends early is now retried once, so messages are lost less often",
+  "zh": "改进恢复超长会话：提前结束的转录读取现在会重试一次，从而减少消息丢失",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

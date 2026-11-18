@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `permissions.blockReadsOutsideWorkingDirectories` to ask about more Bash commands in bypass and auto modes, and to deny some in auto mode",
+  "zh": "变更 `permissions.blockReadsOutsideWorkingDirectories`，在 bypass 和 auto 模式下对更多 Bash 命令进行询问，并在 auto 模式下拒绝其中一些",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

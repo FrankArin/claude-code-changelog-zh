@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `ExitWorktree` to ask before removing a worktree that may hold unsaved work; refused in don't-ask mode or with nobody to answer, unless an allow rule, auto or bypass permissions mode allows it",
+  "zh": "变更 `ExitWorktree` 在移除可能含有未保存工作的 worktree 前先询问；在 don't-ask 模式下或无人可应答时拒绝，除非允许规则、auto 或 bypass 权限模式允许",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Grep repeating or skipping results when paging with `head_limit` and `offset`; content and count results are now sorted by file path",
+  "zh": "修复了使用 `head_limit` 和 `offset` 分页时 Grep 重复或跳过结果的问题；内容和计数结果现在按文件路径排序",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

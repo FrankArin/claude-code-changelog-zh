@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved commits on newer models and in PowerShell: Claude is now told not to commit files that likely contain secrets",
+  "zh": "改进较新模型和 PowerShell 中的提交：现在会告知 Claude 不要提交可能包含密钥的文件",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

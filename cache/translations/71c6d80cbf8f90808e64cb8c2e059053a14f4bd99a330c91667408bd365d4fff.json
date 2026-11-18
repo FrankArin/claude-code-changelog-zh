@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+C twice not closing `/chrome` from its browser list",
+  "zh": "修复在 `/chrome` 的浏览器列表中按两次 Ctrl+C 无法关闭 `/chrome` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

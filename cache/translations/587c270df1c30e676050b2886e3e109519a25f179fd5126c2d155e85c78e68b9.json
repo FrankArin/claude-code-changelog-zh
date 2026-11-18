@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed auto mode to ignore more allow rules that run any package, like `Bash(pnpm dlx *)`, and path or version forms of ones it already ignored (`/usr/bin/npm run:*`); the safety check decides those",
+  "zh": "变更 auto 模式以忽略更多运行任意包的允许规则，如 `Bash(pnpm dlx *)`，以及它已忽略规则的路径或版本形式（`/usr/bin/npm run:*`）；这些由安全检查决定",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

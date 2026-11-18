@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runners with `--use-anthropic-git-proxy` deleting a non-empty directory named by `GIT_CONFIG_GLOBAL` at startup: the runner now keeps it, ignores the variable and warns",
+  "zh": "修复使用 `--use-anthropic-git-proxy` 的自托管运行器在启动时删除 `GIT_CONFIG_GLOBAL` 指定的非空目录的问题：运行器现在会保留该目录、忽略该变量并发出警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

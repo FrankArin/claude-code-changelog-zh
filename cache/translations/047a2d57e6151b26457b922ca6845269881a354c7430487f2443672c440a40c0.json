@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed artifact publishes failing with \"the source file changed between approval and publish\" when a synced or remote-backed folder had only changed the file's timestamp",
+  "zh": "修复了同步或远程支持的文件夹仅更改了文件时间戳时，artifact 发布以“the source file changed between approval and publish”失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

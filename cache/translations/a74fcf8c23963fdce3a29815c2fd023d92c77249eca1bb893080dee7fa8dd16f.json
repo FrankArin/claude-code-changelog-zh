@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude plugin eval` to keep its deny rules over a plugin's permission hook, and to flag calls the hook let through",
+  "zh": "将 `claude plugin eval` 改为其拒绝规则优先于 plugin 的权限 hook，并标记被该 hook 放行的调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

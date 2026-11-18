@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cases where a session resumed after an empty reply or a killed command lost an answer, or brought back a rewound prompt, after another crash or a move to the background",
+  "zh": "修复了在空回复或命令被终止后恢复的 session 在再次崩溃或转入后台后丢失答案，或恢复出已回退的 prompt 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

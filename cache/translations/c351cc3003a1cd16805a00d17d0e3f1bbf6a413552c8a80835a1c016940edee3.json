@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed some `--worktree` starts with a relative `--add-dir` above the launch folder, such as `..`, to give the Bash sandbox, and a `--bg` session, only the worktree",
+  "zh": "将部分 `--worktree` 启动配合位于启动文件夹上方的相对 `--add-dir`（如 `..`）改为仅向 Bash 沙箱和 `--bg` session 提供 worktree",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

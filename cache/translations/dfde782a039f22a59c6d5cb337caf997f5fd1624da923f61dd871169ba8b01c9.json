@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/export` overwriting an existing file without asking: the dialog now asks, and `/export <name>` keeps the file and says to run `/export`",
+  "zh": "修复 `/export` 未经询问即覆盖已有文件的问题：对话框现在会询问，`/export <name>` 会保留文件并提示运行 `/export`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}

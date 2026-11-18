@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Anthropic-hosted cloud sessions to ignore more of a repository's flag and plugin delivery settings; its `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` now acts at most as `DISABLE_TELEMETRY`",
+  "zh": "变更 Anthropic 托管的云会话，使其忽略更多仓库的 flag 和 plugin 交付设置；其 `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` 现在最多只相当于 `DISABLE_TELEMETRY`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-18T02:12:04+00:00"
+}
