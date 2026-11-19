@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed managed `PostToolUse` hooks to no longer fire for calls refused before they ran: no log entry, rewrite, block or stop there; `PostToolBatch` gets most, not marked as refused",
+  "zh": "变更管理型 `PostToolUse` hook，不再对运行前被拒绝的调用触发：不记录日志、不重写、不阻止、不停止；`PostToolBatch` 会收到大部分调用，但不标记为已拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

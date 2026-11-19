@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a warning when a message from a session that skips permission prompts may be held and dropped by a cloud session",
+  "zh": "新增警告：来自跳过权限提示的 session 的消息可能被云 session 扣留并丢弃",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

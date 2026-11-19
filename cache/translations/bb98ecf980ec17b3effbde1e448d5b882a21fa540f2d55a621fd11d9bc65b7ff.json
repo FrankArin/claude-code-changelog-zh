@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `\"onFailure\": \"block\"` for `mcp_tool` hooks, as for command and HTTP hooks: a hook whose call fails blocks the action",
+  "zh": "新增 `mcp_tool` hook 的 `\"onFailure\": \"block\"`，与 command 和 HTTP hook 一致：调用失败的 hook 会阻止该操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed how a sandbox that can't start is reported, unless `sandbox.failIfUnavailable` is set: the next sandboxed Bash command is refused and says that the sandbox is off for the session",
+  "zh": "变更无法启动的沙箱的报告方式（除非设置了 `sandbox.failIfUnavailable`）：下一条沙箱内 Bash 命令会被拒绝，并提示该 session 的沙箱已关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

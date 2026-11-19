@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a mod saved just after a turn began sometimes reloading mid-turn instead of at the turn's end",
+  "zh": "修复了在回合刚开始后保存的 mod 有时会在回合中途重新加载、而不是在回合结束时重新加载的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

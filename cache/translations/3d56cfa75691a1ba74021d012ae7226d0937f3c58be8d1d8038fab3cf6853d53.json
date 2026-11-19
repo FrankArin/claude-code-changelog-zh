@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude being told that cloud sessions can never reply; it now learns when a reply can come and how else to get the result",
+  "zh": "修复 Claude 被告知云端 session 永远无法回复的问题；现在它会了解何时可以收到回复，以及获取结果的其他方式",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

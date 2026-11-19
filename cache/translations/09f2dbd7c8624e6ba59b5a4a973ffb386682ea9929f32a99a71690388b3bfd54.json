@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed `CLAUDE_RUNNER_SESSION_UUID` and `CLAUDE_CODE_REMOTE_SESSION_UUID` to both be set for the session and its `checkout`, `post-session` and `spawn-runner` hooks",
+  "zh": "自托管运行器：变更 `CLAUDE_RUNNER_SESSION_UUID` 和 `CLAUDE_CODE_REMOTE_SESSION_UUID`，使二者同时为 session 及其 `checkout`、`post-session` 和 `spawn-runner` hook 设置",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

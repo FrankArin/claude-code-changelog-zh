@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc not dismissing the transcript share question for Pro and Max users",
+  "zh": "修复了 Pro 和 Max 用户按 Esc 无法关闭对话记录分享询问的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

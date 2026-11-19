@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/code-review` on most models to report only bugs and CLAUDE.md violations; run `/simplify` for reuse, simplification and efficiency cleanups",
+  "zh": "变更大多数模型上的 `/code-review`，仅报告 bug 和 CLAUDE.md 违规；如需复用、简化和效率清理，请运行 `/simplify`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

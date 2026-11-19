@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_CODE_DISABLE_DEFERRED_TOOL_RESUME`, which lets a host stop `claude -p --resume` and `--continue` from running a tool call that a hook deferred",
+  "zh": "新增 `CLAUDE_CODE_DISABLE_DEFERRED_TOOL_RESUME`，让宿主阻止 `claude -p --resume` 和 `--continue` 执行被 hook 延迟的工具调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

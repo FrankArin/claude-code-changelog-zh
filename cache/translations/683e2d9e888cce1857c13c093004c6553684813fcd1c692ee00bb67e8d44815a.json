@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed a failed start's message losing the words that say what failed when a checkout hook or git printed a lot",
+  "zh": "自托管运行器：修复了当 checkout hook 或 git 输出大量内容时，启动失败消息丢失说明失败原因的文字的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

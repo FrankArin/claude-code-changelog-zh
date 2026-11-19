@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+C showing no exit warning while the `?` shortcuts list is open",
+  "zh": "修复了在 `?` 快捷键列表打开时按 Ctrl+C 不显示退出警告的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/plugin` reopening a skill, or closing the open page, when a slow save or removal finished after you went back",
+  "zh": "修复了在返回后缓慢的保存或移除才完成时，`/plugin` 重新打开某个 skill 或关闭当前页面的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

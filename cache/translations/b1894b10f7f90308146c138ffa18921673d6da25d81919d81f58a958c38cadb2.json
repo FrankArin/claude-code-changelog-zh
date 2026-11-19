@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Remote Control not showing a running workflow's agents when a session run by an IDE extension or other SDK app is opened over an hour after the workflow last made progress",
+  "zh": "修复当由 IDE 扩展或其他 SDK 应用运行的 session 在工作流最后一次取得进展一小时后才打开时，Remote Control 不显示正在运行的工作流的 agent 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

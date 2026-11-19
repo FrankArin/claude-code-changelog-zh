@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude not being told when a self-hosted session starts without one of its repositories, and why",
+  "zh": "修复了自托管 session 在缺少某个仓库时启动，Claude 却未被告知此事及原因的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how Claude starts dev servers in Code Mode's auto and bypass modes: Claude is told to run them as background tasks that show in `/tasks`",
+  "zh": "改进 Claude 在 Code Mode 的自动模式和绕过模式下启动开发服务器的方式：告知 Claude 将其作为后台任务运行，并在 `/tasks` 中显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

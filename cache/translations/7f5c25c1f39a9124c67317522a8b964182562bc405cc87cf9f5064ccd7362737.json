@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode edits: an edit that changes nothing no longer stops a script, and Claude is told where a failed edit matches or comes closest",
+  "zh": "改进 Code Mode 的编辑：不产生任何改动的编辑不再中断脚本，并告知 Claude 失败的编辑在何处匹配或最接近匹配",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

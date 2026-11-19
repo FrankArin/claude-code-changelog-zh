@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the computer use approval dialog: it now shows each app's level of access and plainer warnings",
+  "zh": "改进计算机使用审批对话框：现在会显示每个应用的访问级别，并给出更通俗的警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

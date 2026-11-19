@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runners: a session that resumes in a new Claude config directory no longer loses its task list",
+  "zh": "修复了自托管运行器：在新 Claude 配置目录中恢复的 session 不再丢失其任务列表",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

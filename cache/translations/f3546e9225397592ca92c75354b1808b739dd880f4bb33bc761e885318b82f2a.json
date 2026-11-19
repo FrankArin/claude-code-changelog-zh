@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode losing a loaded skill, hook context or a note typed with a permission approval when resuming a session in which one reply ran several scripts",
+  "zh": "修复了在恢复某个 session（其中一次回复运行了多个脚本）时，Code Mode 丢失已加载的 skill、hook 上下文或随权限批准输入的备注的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

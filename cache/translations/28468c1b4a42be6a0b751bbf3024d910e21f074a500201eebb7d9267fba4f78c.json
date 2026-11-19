@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/exit` and Ctrl+D describing running work differently, and `/exit` warning about a workflow that had stopped",
+  "zh": "修复了 `/exit` 和 Ctrl+D 对正在运行的工作描述不一致的问题，以及 `/exit` 对已停止的 workflow 发出警告的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

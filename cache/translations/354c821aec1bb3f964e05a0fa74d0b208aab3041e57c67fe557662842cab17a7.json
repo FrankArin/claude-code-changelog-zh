@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runners with Anthropic-managed git being unable to fetch or push where the machine's git config sets `http.proactiveAuth`",
+  "zh": "修复了使用 Anthropic 托管 git 的自托管运行器在机器 git 配置设置了 `http.proactiveAuth` 时无法 fetch 或 push 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

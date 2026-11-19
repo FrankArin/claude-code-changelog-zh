@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Send now in the desktop app and SDK hosts telling Claude that a stopped web search found no results",
+  "zh": "修复桌面应用和 SDK 宿主中的 Send now 告知 Claude 已停止的网页搜索未找到结果的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

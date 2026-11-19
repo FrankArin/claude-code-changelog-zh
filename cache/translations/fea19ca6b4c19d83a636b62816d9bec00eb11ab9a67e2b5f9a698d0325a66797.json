@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode to show the command a script is running, and its output, while it runs",
+  "zh": "改进 Code Mode，在脚本运行期间显示其正在执行的命令及输出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

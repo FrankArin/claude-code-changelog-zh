@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude calling an artifact private after reading one in a shared folder or publishing to another organization's, and saying only named people can open one when its folder's people can too",
+  "zh": "修复了 Claude 在读取共享文件夹中的 artifact 或将其发布到其他组织的文件夹后，将该 artifact 称为私有，并在其所在文件夹的成员也能打开时却称只有被点名的人才能打开的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

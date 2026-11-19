@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude -p` with `CLAUDE_CODE_FORK_SUBAGENT=0` to count a background subagent and those it waits for against one 10-minute wait; raise `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS` for longer chains",
+  "zh": "变更 `claude -p` 在 `CLAUDE_CODE_FORK_SUBAGENT=0` 时的行为：一个后台 subagent 及其等待的 subagent 合并计入一次 10 分钟等待；更长的链可调高 `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

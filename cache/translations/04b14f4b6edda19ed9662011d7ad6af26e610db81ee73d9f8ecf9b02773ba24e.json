@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+click opening a link twice in GNOME Terminal, side mouse buttons acting as clicks, and the first wheel notch in the other direction being ignored after a pause, in fullscreen mode",
+  "zh": "修复全屏模式下 GNOME Terminal 中 Ctrl+click 重复打开链接、鼠标侧键被当作点击，以及暂停后反方向滚动的第一个滚轮刻度被忽略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode refusing scripts that use both a top-level `await` and a top-level `return`",
+  "zh": "修复了 Code Mode 拒绝同时使用顶层 `await` 和顶层 `return` 的脚本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

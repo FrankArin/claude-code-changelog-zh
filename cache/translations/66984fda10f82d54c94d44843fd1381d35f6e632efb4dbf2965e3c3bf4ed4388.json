@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed all running sessions being stopped when a proxy or web filter answered a poll with HTTP 200 and a body such as `{}`; the runner now retries such a poll",
+  "zh": "自托管运行器：修复了当代理或网页过滤器以 HTTP 200 和 `{}` 之类的响应体回应轮询时，所有运行中的 session 被停止的问题；运行器现在会重试此类轮询",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

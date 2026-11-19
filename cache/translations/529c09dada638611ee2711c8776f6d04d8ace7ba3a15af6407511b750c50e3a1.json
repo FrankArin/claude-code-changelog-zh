@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed automatic compaction reusing the session's earlier system prompt instead of rebuilding it the way `/compact` does",
+  "zh": "修复自动上下文压缩复用 session 先前的 system prompt、而非像 `/compact` 那样重新构建的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

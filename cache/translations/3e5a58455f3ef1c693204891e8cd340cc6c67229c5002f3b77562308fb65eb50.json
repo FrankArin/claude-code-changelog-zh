@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `claude -p` text output to say on stderr when a message from another session is held or dropped, and how to allow it",
+  "zh": "改进 `claude -p` 的文本输出：当来自其他 session 的消息被暂存或丢弃时，在 stderr 中说明，并给出允许该消息的方法",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

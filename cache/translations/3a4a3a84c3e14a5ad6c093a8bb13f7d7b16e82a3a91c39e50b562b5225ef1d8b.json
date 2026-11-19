@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed pasted text to be marked for Claude as pasted, on third-party providers or with telemetry or feature flags turned off",
+  "zh": "变更在第三方提供商上或关闭遥测、功能开关时，粘贴的文本会向 Claude 标记为已粘贴",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

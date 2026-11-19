@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed some Claude Desktop sessions on third-party providers, other than scheduled tasks, ending for good with \"Prompt is too long\" after large tool results; the largest are now left out",
+  "zh": "修复了第三方提供商上部分 Claude Desktop session（计划任务除外）在产生大型工具结果后因“Prompt is too long”而永久结束的问题；现在会省略最大的结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude starting a turn by itself in Code Mode when Esc was followed by a command such as `/model`",
+  "zh": "修复在 Code Mode 中按 Esc 后跟 `/model` 等命令时，Claude 自行开始一轮对话的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

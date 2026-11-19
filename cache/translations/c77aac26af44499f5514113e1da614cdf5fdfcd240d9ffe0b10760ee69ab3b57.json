@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed self-hosted runners at `--capacity 1` to refuse a session earlier when the path of a repository it pushes to is a symbolic link",
+  "zh": "变更 `--capacity 1` 的自托管运行器：当其推送到的仓库路径为符号链接时，更早拒绝 session",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

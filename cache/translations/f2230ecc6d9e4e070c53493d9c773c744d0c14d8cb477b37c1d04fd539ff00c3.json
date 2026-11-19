@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved memory use and response time in long SDK and desktop sessions that run slow commands or tools",
+  "zh": "改进运行慢命令或工具的长时间 SDK 和桌面 session 的内存占用和响应时间",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed text copied in fullscreen mode including the quote bar, losing spaces at line wraps when a drag scrolled upward, or missing words under the \"Jump to bottom\" pill",
+  "zh": "修复全屏模式下复制文本时包含引用栏、拖动向上滚动时换行处丢失空格，或 \"Jump to bottom\" 悬浮按钮下方文字缺失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

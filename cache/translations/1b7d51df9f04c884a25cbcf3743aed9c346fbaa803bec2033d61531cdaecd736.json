@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Shift+Enter in Konsole outside tmux and ssh, and Alt shortcuts on non-Latin keyboard layouts in terminals that speak the kitty keyboard protocol",
+  "zh": "修复在 tmux 和 ssh 之外的 Konsole 中 Shift+Enter 失效，以及支持 kitty 键盘协议的终端中非拉丁键盘布局下 Alt 快捷键失效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Bash commands in zsh stopping with a \"not found\" error at a word that starts with `=`, such as `echo ====` or `[ a == b ]`; `=cmd` no longer expands to a command's path",
+  "zh": "修复 zsh 中的 Bash 命令在以 `=` 开头的词处（如 `echo ====` 或 `[ a == b ]`）以“not found”错误停止的问题；`=cmd` 不再展开为命令路径",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

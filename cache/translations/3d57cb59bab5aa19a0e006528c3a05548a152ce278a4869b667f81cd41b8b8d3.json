@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode scripts in auto and bypass-permissions modes failing to call an MCP server that had connected while the previous script was running",
+  "zh": "修复了自动模式和绕过权限模式下 Code Mode 脚本无法调用在上一个脚本运行期间已连接的 MCP 服务器的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

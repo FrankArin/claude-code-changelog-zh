@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/bug` to ask Yes or No before sending, so repeated Enters no longer send a report or open GitHub",
+  "zh": "变更 `/bug`：发送前先询问是或否，连续按 Enter 不再发送报告或打开 GitHub",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

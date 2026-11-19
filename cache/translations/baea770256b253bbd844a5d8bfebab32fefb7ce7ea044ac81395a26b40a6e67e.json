@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a remote session losing a turn's tool calls and results when its runner or worker was lost after a dropped model stream had been retried",
+  "zh": "修复远程 session 在模型流中断并重试后，其运行器或 worker 丢失时丢失某一轮的工具调用和结果的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

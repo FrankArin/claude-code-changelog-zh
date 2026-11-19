@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Added an orchestrator metric, `claude_code_self_hosted_orchestrator_sessions_given_up_total`, that counts by cause how often Anthropic gave up starting a runner for a session",
+  "zh": "自托管运行器：新增 orchestrator 指标 `claude_code_self_hosted_orchestrator_sessions_given_up_total`，按原因统计 Anthropic 放弃为 session 启动运行器的次数",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

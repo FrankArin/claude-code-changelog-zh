@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the permission prompt cutting off its No button, reply field or title when the panel is low or a command, URL or description is long",
+  "zh": "\\[VSCode] 修复面板高度不足或命令、URL、描述过长时，权限提示的 No 按钮、回复输入框或标题被截断的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

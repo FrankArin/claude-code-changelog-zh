@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed sessions with Anthropic-managed git losing git access to GitHub after a script or hook in the session ran `claude` again",
+  "zh": "自托管运行器：修复了使用 Anthropic 托管 git 的 session 在其中的脚本或 hook 再次运行 `claude` 后失去对 GitHub 的 git 访问的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

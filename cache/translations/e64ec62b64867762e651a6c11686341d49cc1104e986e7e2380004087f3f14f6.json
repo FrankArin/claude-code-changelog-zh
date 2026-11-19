@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Fixed pasting in other apps freezing while Claude Code is suspended with Ctrl+Z, when `xclip` or `wl-copy` is installed",
+  "zh": "Linux：修复安装 `xclip` 或 `wl-copy` 时，Claude Code 被 Ctrl+Z 挂起期间在其他应用中粘贴卡住的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

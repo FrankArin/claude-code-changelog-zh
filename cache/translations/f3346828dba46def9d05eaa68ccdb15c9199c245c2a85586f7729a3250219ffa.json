@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude in Code Mode not being told to run workflows only when you ask, or the workflow size you set in `/config`",
+  "zh": "修复 Code Mode 中的 Claude 未被告知仅在用户要求时才运行工作流，以及未被告知在 `/config` 中设置的工作流规模的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

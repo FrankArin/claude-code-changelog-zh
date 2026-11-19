@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode: Claude is now told which tool calls were still running when a script failed",
+  "zh": "改进 Code Mode：脚本失败时，现在会告知 Claude 哪些工具调用仍在运行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

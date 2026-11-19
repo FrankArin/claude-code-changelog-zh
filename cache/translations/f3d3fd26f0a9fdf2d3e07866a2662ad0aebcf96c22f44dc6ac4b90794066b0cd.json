@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Added `claude_code_self_hosted_orchestrator_session_queue_wait_by_reason_seconds` to the orchestrator's `/metrics`, so a re-opened session's wait can be told from a new one's",
+  "zh": "自托管运行器：新增 orchestrator 的 `/metrics` 中的 `claude_code_self_hosted_orchestrator_session_queue_wait_by_reason_seconds`，以便区分重新打开的 session 与新建 session 的等待时间",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

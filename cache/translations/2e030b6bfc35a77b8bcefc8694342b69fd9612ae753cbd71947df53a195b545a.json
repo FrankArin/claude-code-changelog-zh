@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/goal` removing a skill's Stop hook, or ending early on another hook's result, when both had the same wording",
+  "zh": "修复了当 skill 的 Stop hook 与另一个 hook 的结果措辞相同时，`/goal` 会移除该 skill 的 Stop hook 或提前结束的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

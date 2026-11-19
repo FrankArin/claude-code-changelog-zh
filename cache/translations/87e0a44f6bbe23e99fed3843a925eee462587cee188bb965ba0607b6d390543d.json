@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed a runner that exited without telling the server when setup failed after it had registered; it now deregisters with a reason, and an on-demand runner reports the failed start",
+  "zh": "自托管运行器：修复了运行器在注册后设置失败时退出却未告知服务器的问题；现在它会带原因注销，按需运行器会报告启动失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

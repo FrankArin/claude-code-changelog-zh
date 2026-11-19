@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed cloud and Remote Control sessions that just started, or have an @ in their title, being unreachable in cross-session messaging from a session with Remote Control on",
+  "zh": "修复刚启动或标题中含 @ 的云端 session 和 Remote Control session，在开启 Remote Control 的 session 进行跨 session 消息传递时无法访问的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

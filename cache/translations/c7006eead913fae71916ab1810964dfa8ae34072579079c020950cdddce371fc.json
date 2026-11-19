@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Improved Code Mode by telling Claude that scripts' shell commands run in Git Bash and that PowerShell aliases run instead of functions with the same name",
+  "zh": "Windows：改进 Code Mode，告知 Claude 脚本的 shell 命令在 Git Bash 中运行，且 PowerShell 别名会优先于同名函数执行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

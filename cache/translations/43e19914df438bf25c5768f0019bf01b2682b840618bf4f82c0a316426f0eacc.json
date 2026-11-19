@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved resumed self-hosted runner sessions: Claude now checks whether its earlier work is still there, and says what is missing",
+  "zh": "改进恢复的自托管运行器 session：Claude 现在会检查其先前的工作是否仍然存在，并说明缺少了什么",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

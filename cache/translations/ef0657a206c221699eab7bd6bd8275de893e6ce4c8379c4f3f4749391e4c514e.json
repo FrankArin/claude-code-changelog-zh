@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a paste or a terminal's reply being typed into the prompt when a slow connection cut it in two",
+  "zh": "修复慢速连接将粘贴内容或终端回复截成两段时被输入到 prompt 中的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

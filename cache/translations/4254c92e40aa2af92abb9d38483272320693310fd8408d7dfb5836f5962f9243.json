@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how soon managed-settings plugins from a git marketplace load on a fresh machine in `claude -p`, SDK and Claude Desktop sessions; a short run may exit up to 30 seconds later",
+  "zh": "改进来自 git marketplace 的 managed-settings plugin 在新机器上于 `claude -p`、SDK 和 Claude Desktop session 中的加载速度；短时运行可能最多延迟 30 秒退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

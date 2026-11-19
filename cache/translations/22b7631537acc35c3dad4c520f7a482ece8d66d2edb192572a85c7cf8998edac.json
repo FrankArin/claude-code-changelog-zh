@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode refusing valid scripts that start with a `{` block",
+  "zh": "修复了 Code Mode 拒绝以 `{` 块开头的有效脚本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

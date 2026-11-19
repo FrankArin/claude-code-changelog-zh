@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Bash sandbox on Linux renaming `.git/HEAD` after each command when the branch name is not valid UTF-8",
+  "zh": "修复了 Linux 上 Bash 沙箱在分支名不是有效 UTF-8 时于每条命令后重命名 `.git/HEAD` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

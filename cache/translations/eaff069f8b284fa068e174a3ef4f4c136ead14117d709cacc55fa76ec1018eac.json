@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc often being lost at a permission prompt or question when you typed straight after it; in terminals that send Alt as Esc and a key, an unused Alt or Option key now declines there",
+  "zh": "修复在权限提示或提问后立即输入时 Esc 经常丢失的问题；在将 Alt 作为 Esc 加按键发送的终端中，未使用的 Alt 或 Option 键现在会在该处表示拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

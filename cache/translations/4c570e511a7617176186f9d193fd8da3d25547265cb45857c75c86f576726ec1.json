@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Ctrl+R search in fullscreen mode and the `/theme` color editor picking the wrong row when keys arrive together, and keys being dropped there and in the search of `/config` and `/plugin`",
+  "zh": "修复了全屏模式下 Ctrl+R 搜索以及 `/theme` 颜色编辑器在按键同时到达时选错行的问题，并修复了此处以及 `/config` 和 `/plugin` 搜索中按键被丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/code-review` to mark each finding Important, Pre-existing or Nit on most models, and to end each summary with a suggested fix; a clean review's list now reads \"Code review found no issues.\"",
+  "zh": "变更 `/code-review`，在大多数模型上将每个发现标记为 Important、Pre-existing 或 Nit，并在每个摘要末尾给出建议修复；无问题的审查列表现在显示为“Code review found no issues.”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

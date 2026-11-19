@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed holding Enter in `/plugin` turning off several installed plugins",
+  "zh": "修复了在 `/plugin` 中按住 Enter 会关闭多个已安装 plugin 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

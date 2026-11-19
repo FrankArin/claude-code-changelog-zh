@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Added `--repository-folder` to name the folder that sessions use for a repository at `--capacity 1`, in place of its path under the base folder, which can't be a symbolic link",
+  "zh": "自托管运行器：新增 `--repository-folder`，用于在 `--capacity 1` 时指定 session 为仓库使用的文件夹，替代其在基础文件夹下的路径（该路径不能是符号链接）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

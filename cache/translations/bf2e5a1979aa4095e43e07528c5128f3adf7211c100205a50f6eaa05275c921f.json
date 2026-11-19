@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed deletion of a kept clone's objects or refs, and of commits that existed only there, after a temporary disk error; that start now fails instead",
+  "zh": "自托管运行器：修复了临时磁盘错误后保留的克隆的对象或引用、以及仅存在于该处的提交被删除的问题；现在这种启动会直接失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

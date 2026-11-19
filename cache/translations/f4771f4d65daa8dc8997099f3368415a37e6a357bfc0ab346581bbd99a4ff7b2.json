@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Code Mode to no longer run UserPromptSubmit hooks, managed ones included, on scripts' output; to redact that output, use a PostToolUse hook with `updatedToolOutput`",
+  "zh": "变更 Code Mode，不再对脚本输出运行 UserPromptSubmit hook（包括管理型 hook）；如需对该输出脱敏，请使用带 `updatedToolOutput` 的 PostToolUse hook",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

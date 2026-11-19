@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a crash at startup when `FORCE_COLOR` is set to a negative number",
+  "zh": "修复了 `FORCE_COLOR` 设为负数时启动崩溃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

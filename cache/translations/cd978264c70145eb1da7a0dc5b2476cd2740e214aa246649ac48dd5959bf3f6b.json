@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an @-mentioned small file not being attached in Code Mode after a script had read or written it",
+  "zh": "修复了在脚本读取或写入某个通过 @ 提及的小文件后，Code Mode 未附加该文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

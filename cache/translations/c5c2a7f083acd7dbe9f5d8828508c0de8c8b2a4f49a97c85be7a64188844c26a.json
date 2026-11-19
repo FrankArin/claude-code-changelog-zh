@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the token counts on the spinner and for subagents counting a retried reply twice, missing replies that were not streamed, and standing still while Claude thinks",
+  "zh": "修复了加载指示器上的 token 计数以及 subagent 的 token 计数问题：重试的回复被重复计数、未流式传输的回复被漏计、Claude 思考时计数停滞不动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

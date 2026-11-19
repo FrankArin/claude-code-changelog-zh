@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode's speed in auto and bypass-permissions modes by removing a 0.75 second pause after most scripts",
+  "zh": "改进 Code Mode 在自动模式和绕过权限模式下的速度：移除大多数脚本后 0.75 秒的暂停",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

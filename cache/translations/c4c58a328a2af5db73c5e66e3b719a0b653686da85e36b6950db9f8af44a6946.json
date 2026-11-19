@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Fixed Ctrl+V missing the clipboard image, pasting an old one or hanging",
+  "zh": "Linux：修复 Ctrl+V 漏掉剪贴板图片、粘贴旧图片或卡住的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}

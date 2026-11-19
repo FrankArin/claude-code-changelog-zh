@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed auto mode failing every turn outside Claude Desktop with `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS` set behind a gateway rejecting betas, on Bedrock, Agent Platform, Foundry or Claude apps gateway",
+  "zh": "修复了在 Claude Desktop 之外、通过网关设置 `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS` 且网关拒绝 beta 功能时，以及在 Bedrock、Agent Platform、Foundry 或 Claude 应用网关上，自动模式每轮都失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-19T02:20:40+00:00"
+}
