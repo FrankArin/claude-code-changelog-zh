@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a line above the message box after you decline the trust prompt, with Review trust to bring the prompt back without reloading the window",
+  "zh": "\\[VSCode] 在你拒绝信任提示后，在消息框上方新增一行，包含 Review trust，可在不重新加载窗口的情况下重新显示该提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

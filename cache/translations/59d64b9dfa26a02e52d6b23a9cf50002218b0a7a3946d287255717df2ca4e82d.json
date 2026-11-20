@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/auto-mode-setup` ignoring recent auto mode denials when it scans a project for rules to suggest; it may now offer allow rules from them, and you review each before it's saved",
+  "zh": "修复了 `/auto-mode-setup` 在扫描项目以建议规则时忽略近期自动模式拒绝记录的问题；现在它可能会据此提供允许规则，每条规则保存前都会由你审核",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

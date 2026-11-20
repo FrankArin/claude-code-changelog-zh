@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed Down to stop at the last item of a permission prompt instead of wrapping to Yes",
+  "zh": "\\[VSCode] 变更 Down 键行为，在权限提示的最后一项停止，而不再回绕到 Yes",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

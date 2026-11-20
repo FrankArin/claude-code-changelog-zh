@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed macOS login renewal to test the Keychain with a `Claude Code-write-check` item",
+  "zh": "变更 macOS 登录续期，改用 `Claude Code-write-check` 项测试钥匙串",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a false \"Couldn't save this change\" warning after adding a permission rule or directory in a subfolder or worktree whose own `.claude/settings.local.json` is unreadable or malformed",
+  "zh": "修复了在子文件夹或 worktree 中添加权限规则或目录后，若其自身的 `.claude/settings.local.json` 不可读或格式错误，会出现错误的“Couldn't save this change”警告的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

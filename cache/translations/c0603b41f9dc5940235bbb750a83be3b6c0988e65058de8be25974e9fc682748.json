@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed files accepted through the IDE diff being saved without their last newline, and losing their byte order mark (BOM) when an edit was accepted by saving the diff in VS Code",
+  "zh": "修复了通过 IDE diff 接受的文件在保存时丢失末尾换行符的问题，以及当在 VS Code 中通过保存 diff 接受编辑时丢失字节顺序标记（BOM）的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed saved scheduled tasks: in new signed-in sessions, most saved by earlier versions need scheduling again, though `--resume` of their own session still runs them",
+  "zh": "变更已保存的定时任务：在新的已登录 session 中，大多数由早期版本保存的任务需要重新调度，但用 `--resume` 恢复其所属 session 时仍会运行它们",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

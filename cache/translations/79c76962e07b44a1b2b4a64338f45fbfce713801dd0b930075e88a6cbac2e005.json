@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a runaway loop in Code Mode filling the machine's memory; it is now stopped at a limit",
+  "zh": "修复了 Code Mode 中失控循环占满机器内存的问题；现在会在达到上限时停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed panels and questions being cut off at the prompt in fullscreen, `/help`, history search and the background tasks list losing rows or titles in short windows, and tables wrapping in dialogs",
+  "zh": "修复了全屏模式下提示符处的面板和问题被截断、`/help`、历史搜索和后台任务列表在较矮窗口中丢失行或标题，以及对话框中的表格换行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

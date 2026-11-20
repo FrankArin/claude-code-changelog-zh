@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a custom cancel key not working in `/add-dir`, `/tui` feedback and the save-workflow form",
+  "zh": "修复自定义取消键在 `/add-dir`、`/tui` 反馈和保存工作流表单中不生效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

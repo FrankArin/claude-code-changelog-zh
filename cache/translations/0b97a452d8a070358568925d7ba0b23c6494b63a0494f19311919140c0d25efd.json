@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed remote MCP servers in self-hosted runner sessions staying without tools, or (over https) disconnected, after a timeout or network error",
+  "zh": "修复了自托管运行器 session 中的远程 MCP 服务器在超时或网络错误后一直无工具可用，或（通过 https）断开连接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

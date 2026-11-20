@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/code-review <pr number>` sometimes reviewing the checked-out branch instead of the pull request without saying so: it now reads the pull request with `gh pr diff`, or says when it can't",
+  "zh": "修复了 `/code-review <pr number>` 有时在未说明的情况下审查已检出的分支而非 pull request 的问题：现在会通过 `gh pr diff` 读取 pull request，无法读取时会明确说明",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

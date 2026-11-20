@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed auto-scroll, the PR status badge, the auto-compact warning and the ultracode tag not following the `/config` switches that control them in a running session",
+  "zh": "修复在运行中的 session 里，自动滚动、PR 状态徽章、自动压缩警告和 ultracode 标签不跟随控制它们的 `/config` 开关的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

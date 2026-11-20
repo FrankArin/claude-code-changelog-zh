@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed sessions on self-hosted environments not starting from a git remote with an SSH host alias, GitHub SSH certificates or a GHE.com SSH user; an unresolved alias's error gives two git commands",
+  "zh": "修复了自托管环境中的 session 无法从带有 SSH 主机别名、GitHub SSH 证书或 GHE.com SSH 用户的 git 远程启动的问题；未解析别名的错误会给出两条 git 命令",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

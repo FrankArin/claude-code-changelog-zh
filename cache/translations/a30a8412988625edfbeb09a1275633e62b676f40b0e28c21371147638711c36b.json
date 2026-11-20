@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/tui` and other in-place restarts to wait briefly for a login refresh, so they are less likely to sign you out",
+  "zh": "改进 `/tui` 及其他原地重启，短暂等待登录刷新，降低将你登出的可能性",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

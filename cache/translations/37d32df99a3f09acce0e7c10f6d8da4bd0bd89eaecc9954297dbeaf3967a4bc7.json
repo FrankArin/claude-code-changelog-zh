@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pressing Esc twice to clear a mistyped code ending the sign-in in `/install-github-app`",
+  "zh": "修复了在 `/install-github-app` 中按两次 Esc 清除输错的代码时导致登录结束的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

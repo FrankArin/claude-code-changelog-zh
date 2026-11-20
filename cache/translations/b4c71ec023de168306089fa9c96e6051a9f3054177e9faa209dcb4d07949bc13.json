@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed characters disappearing from the prompt when its text held a color code that sets several styles and a keyword or command was highlighted",
+  "zh": "修复当 prompt 文本包含设置多种样式的颜色代码且有关键词或命令被高亮时，字符从 prompt 中消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

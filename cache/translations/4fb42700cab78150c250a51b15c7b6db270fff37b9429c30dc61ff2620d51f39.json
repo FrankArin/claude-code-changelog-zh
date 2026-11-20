@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed repeated sign-outs on macOS when Claude Code could read the Keychain but not save to it. That session now stops at expiry and says why, and other sessions stay signed in",
+  "zh": "修复了 macOS 上 Claude Code 能读取钥匙串但无法写入时反复退出登录的问题。该 session 现在会在到期时停止并说明原因，其他 session 保持登录状态",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

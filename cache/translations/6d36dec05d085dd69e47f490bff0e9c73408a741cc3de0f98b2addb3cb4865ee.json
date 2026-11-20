@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Agent tool's `effort` parameter being ignored for named teammates in agent teams",
+  "zh": "修复了 agent teams 中 Agent 工具的 `effort` 参数对具名队友被忽略的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `/code-review` findings card often showing \"high\" for a review that ran at medium, on most models",
+  "zh": "修复了在大多数模型上，`/code-review` 发现卡片对以 medium 级别运行的审查经常显示“high”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

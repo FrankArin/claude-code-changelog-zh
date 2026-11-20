@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added support for turning on Code Mode while OpenTelemetry events and metrics are enabled; each tool call the code makes sends its events; tracing still keeps it off",
+  "zh": "新增支持：在启用 OpenTelemetry 事件和指标的同时开启 Code Mode；代码发起的每次工具调用都会发送其事件；启用追踪时仍会保持关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

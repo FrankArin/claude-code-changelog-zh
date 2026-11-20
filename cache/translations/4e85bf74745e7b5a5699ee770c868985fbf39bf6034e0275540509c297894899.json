@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a \"Server message\" row to a server's page in `/mcp` that shows the JSON-RPC error message of a remote HTTP MCP server that refuses the connection",
+  "zh": "在 `/mcp` 中服务器的页面上新增“Server message”一行，显示拒绝连接的远程 HTTP MCP 服务器的 JSON-RPC 错误消息",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

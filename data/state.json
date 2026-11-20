@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "last_fetch_at": "2026-11-19T20:02:40+00:00",
+  "last_fetch_at": "2026-11-20T02:03:58+00:00",
   "last_source_etag": null,
-  "last_version": "2.1.328",
-  "translated_versions": 57,
+  "last_version": "2.1.329",
+  "translated_versions": 58,
   "usage": {
     "2026-11-04": {
       "prompt_tokens": 512947,
@@ -84,6 +84,11 @@
       "prompt_tokens": 41770,
       "completion_tokens": 13938,
       "total_tokens": 55708
+    },
+    "2026-11-20": {
+      "prompt_tokens": 39626,
+      "completion_tokens": 13840,
+      "total_tokens": 53466
     }
   }
 }

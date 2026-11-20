@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runner sessions being shown as having stopped responding while Claude Code was still starting",
+  "zh": "修复了自托管运行器 session 在 Claude Code 仍在启动时被显示为已停止响应的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

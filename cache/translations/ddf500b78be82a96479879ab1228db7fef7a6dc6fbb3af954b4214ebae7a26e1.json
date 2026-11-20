@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed short tool inputs and outputs cut off at the panel's edge with no way to read the rest (they now open in an editor tab), and dragging to select text also opening one",
+  "zh": "\\[VSCode] 修复了较短的 tool 输入和输出在面板边缘被截断且无法查看其余内容的问题（现改为在编辑器标签页中打开），以及拖动选择文本时也会打开标签页的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

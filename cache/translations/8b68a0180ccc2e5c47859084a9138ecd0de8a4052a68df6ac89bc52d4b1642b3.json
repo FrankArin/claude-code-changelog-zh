@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed screen readers not announcing a permission request that arrived while the Account & Usage dialog was open until that dialog was closed",
+  "zh": "\\[VSCode] 修复了 Account & Usage 对话框打开期间收到权限请求时，屏幕阅读器不播报、直到该对话框关闭才播报的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

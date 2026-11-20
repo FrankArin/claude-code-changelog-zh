@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a new skills, commands or agents folder being missed when `--add-dir` names the working directory or Claude Code starts in the home folder",
+  "zh": "修复了当 `--add-dir` 指定工作目录或 Claude Code 在主目录中启动时，新的 skills、commands 或 agents 文件夹被遗漏的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

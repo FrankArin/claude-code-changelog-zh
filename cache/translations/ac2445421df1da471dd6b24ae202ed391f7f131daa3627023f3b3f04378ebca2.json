@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the limit banner not saying when usage credits are in use, and the session survey covering that banner and the usage credits card",
+  "zh": "\\[VSCode] 修复了使用用量额度时限制横幅未说明这一点，以及 session 调查问卷遮挡该横幅和用量额度卡片的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed dictation errors wrapping into a narrow column, the spinner turning while a question card waits, and a NUL symbol after each letter in the output of a failed UTF-16 command",
+  "zh": "\\[VSCode] 修复了听写错误被折行到狭窄列中、问题卡片等待时加载指示器仍在旋转，以及失败的 UTF-16 命令输出中每个字母后出现 NUL 符号的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

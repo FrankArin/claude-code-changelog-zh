@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed key hints in permission prompts, questions, `/model` and `/rewind` ignoring `keybindings.json`",
+  "zh": "修复权限提示、提问、`/model` 和 `/rewind` 中的按键提示忽略 `keybindings.json` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

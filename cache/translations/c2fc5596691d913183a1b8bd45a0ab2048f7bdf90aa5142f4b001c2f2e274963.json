@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed repositories with unusual characters in their address path to clone anew in a new folder; rules and volumes naming the old one stop applying, and the old clone stays put",
+  "zh": "自托管运行器：变更地址路径中含特殊字符的仓库，改为在新文件夹中重新克隆；引用旧文件夹的规则和卷将不再生效，旧克隆保持原位",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

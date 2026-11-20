@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a status line script that prints without end freezing the prompt and using gigabytes of memory",
+  "zh": "修复了状态栏脚本无限输出导致 prompt 卡死并占用数 GB 内存的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

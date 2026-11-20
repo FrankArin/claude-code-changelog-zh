@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed command output to show hidden characters and control sequences other than plain colors as symbols, so Persian, Khmer, Lao, Sinhala and Malayalam text can look broken or out of order",
+  "zh": "\\[VSCode] 变更命令输出，将纯颜色以外的隐藏字符和控制序列显示为符号，因此波斯文、高棉文、老挝文、僧伽罗文和马拉雅拉姆文可能显示错乱或顺序颠倒",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

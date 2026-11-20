@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load",
+  "zh": "在 Claude Desktop 及其他非交互式宿主中，当托管设置里的 hooks 加载失败时，在对话中新增警告",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

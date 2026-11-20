@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Gateway: Changed the start-up warning shown while `access_control.allow_cidrs` is empty to a notice at every start, boxed in text logs: never expose the gateway to the public internet",
+  "zh": "网关：将 `access_control.allow_cidrs` 为空时显示的启动警告改为每次启动时的提示，并在文本日志中加框显示：切勿将网关暴露到公网",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

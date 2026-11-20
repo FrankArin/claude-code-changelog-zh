@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a proposed-edit diff tab staying open, with an Accept button that did nothing, after its terminal Claude Code session disconnected",
+  "zh": "\\[VSCode] 修复了终端中的 Claude Code session 断开后，提议编辑的 diff 标签页仍保持打开且 Accept 按钮无响应的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

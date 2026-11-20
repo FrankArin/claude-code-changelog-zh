@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude not being told that a connected MCP server's tools could not be loaded, and taking it for a server with no tools, in sessions with tool search",
+  "zh": "修复了在启用工具搜索的 session 中，Claude 未被告知已连接的 MCP 服务器的工具无法加载，而将其误认为没有工具的服务器的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

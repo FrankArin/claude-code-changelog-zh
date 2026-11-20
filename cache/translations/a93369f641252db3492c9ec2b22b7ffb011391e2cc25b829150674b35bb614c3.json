@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode scripts receiving a \"moved to the background\" message as data from most MCP calls over two minutes: the script now waits up to ten minutes, then gets an error",
+  "zh": "修复了 Code Mode 脚本在大多数超过两分钟的 MCP 调用中把“moved to the background”消息当作数据接收的问题：脚本现在最多等待十分钟，然后收到错误",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

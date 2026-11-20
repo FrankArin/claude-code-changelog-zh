@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/usage` saying usage credits are off when they had run out or reached the monthly limit, and `/model` not telling Pro and Max users when that limit blocks a model that runs on usage credits",
+  "zh": "修复了 `/usage` 在用量额度已用完或达到月度上限时仍显示用量额度已关闭的问题，以及 `/model` 在该上限阻止依赖用量额度的模型时未告知 Pro 和 Max 用户的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/code-review` with no target on most models to review the whole branch against the default branch, and fixed it losing the diff on multi-commit branches",
+  "zh": "变更 `/code-review`：在大多数模型上不带目标时，改为对照默认分支审查整个分支，并修复其在多提交分支上丢失 diff 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

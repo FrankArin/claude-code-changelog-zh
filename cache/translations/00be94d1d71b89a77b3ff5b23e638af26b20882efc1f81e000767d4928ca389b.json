@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Remote Control diff listing a file twice when the branch renamed it and it was then edited",
+  "zh": "修复当分支重命名文件后又编辑该文件时，Remote Control 差异将文件列出两次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

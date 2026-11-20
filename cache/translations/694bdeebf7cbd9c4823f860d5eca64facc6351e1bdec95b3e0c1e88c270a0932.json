@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a permission prompt moving keyboard focus away from the details you were scrolling as its buttons switched on",
+  "zh": "\\[VSCode] 修复了权限提示的按钮启用时，键盘焦点从正在滚动查看的详情上移走的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

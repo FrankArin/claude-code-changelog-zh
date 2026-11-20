@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/usage-credits` asking Pro and Max users to log in again after opening the browser, and the link disappearing after 8 seconds if the browser doesn't open and a task stops for usage credits",
+  "zh": "修复了 `/usage-credits` 在 Pro 和 Max 用户打开浏览器后要求重新登录的问题，以及浏览器未打开时链接在 8 秒后消失、任务因用量额度而停止的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

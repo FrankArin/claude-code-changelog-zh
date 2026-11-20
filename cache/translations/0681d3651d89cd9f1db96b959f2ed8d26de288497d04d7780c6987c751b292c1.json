@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed `--repository-folder` to take most folders in the base folder at `--capacity 1` (above 1, one there stops start-up); another repository's session overlapping one is refused",
+  "zh": "自托管运行器：变更 `--repository-folder`，在 `--capacity 1` 时接受基础文件夹中的大多数文件夹（大于 1 时，其中存在一个会阻止启动）；另一仓库的 session 与其重叠时会被拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

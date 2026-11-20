@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed a second host name's clone of the same owner/name to go under `_repos/clones/<host>/` in the base folder; no clone moves",
+  "zh": "自托管运行器：变更第二个主机名对同一 owner/name 的克隆，改为放在基础文件夹下的 `_repos/clones/<host>/`；不会移动任何克隆",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

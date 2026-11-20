@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Code Mode to also start when telemetry, nonessential traffic or feature flags are turned off; an administrator can keep it off in managed settings",
+  "zh": "变更 Code Mode，在遥测、非必要流量或功能开关关闭时也会启动；管理员可在托管设置中将其保持关闭",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

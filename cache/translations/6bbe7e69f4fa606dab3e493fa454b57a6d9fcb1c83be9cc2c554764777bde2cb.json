@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Claude Docs connector's tools going missing when a plugin or MCP server at the same address failed to connect, and its error wrongly suggesting `/login`",
+  "zh": "修复了当同一地址的 plugin 或 MCP 服务器连接失败时，Claude Docs connector 的工具消失，且其错误信息错误地建议使用 `/login` 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a removed plugin's MCP server staying connected in headless sessions after `reload_plugins` or when the account's plugin list drops it",
+  "zh": "修复了在无头 session 中，执行 `reload_plugins` 后或账户的 plugin 列表移除某个 plugin 后，已移除 plugin 的 MCP 服务器仍保持连接的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

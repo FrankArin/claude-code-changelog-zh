@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved memory use in long sessions that edit many files, and in long Claude Desktop sessions on macOS and Linux with many large MCP tool results",
+  "zh": "改进长时间编辑大量文件的 session 的内存占用，以及 macOS 和 Linux 上包含大量大型 MCP 工具结果的长时间 Claude Desktop session 的内存占用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

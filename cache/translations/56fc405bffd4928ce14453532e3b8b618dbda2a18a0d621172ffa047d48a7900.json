@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Improved start-up and the first search on PCs where Claude Code's search program starts slowly",
+  "zh": "Windows：改进 Claude Code 搜索程序启动缓慢的 PC 上的启动和首次搜索",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

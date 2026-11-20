@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Code Mode so a PreToolUse hook that errors no longer refuses a script's tool call, as outside Code Mode; set `\"onFailure\": \"block\"` on a command, HTTP or MCP tool hook that must refuse",
+  "zh": "变更 Code Mode：出错的 PreToolUse hook 不再像 Code Mode 之外那样拒绝脚本的工具调用；对于必须拒绝的命令、HTTP 或 MCP 工具 hook，请设置 `\"onFailure\": \"block\"`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

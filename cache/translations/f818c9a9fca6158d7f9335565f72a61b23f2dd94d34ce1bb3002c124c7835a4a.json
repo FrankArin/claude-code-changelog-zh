@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an empty, frozen screen after approving managed settings while the --resume picker, the trust dialog or another set-up screen was waiting",
+  "zh": "修复了在 `--resume` 选择器、信任对话框或其他设置界面等待时批准托管设置后出现空白冻结屏幕的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

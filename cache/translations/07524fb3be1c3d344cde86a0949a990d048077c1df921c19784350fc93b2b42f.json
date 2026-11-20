@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/terminal-setup` corrupting VS Code settings or keybindings files around block comments, and reporting success while losing the Shift+Enter binding where keybindings.json has an unclosed string",
+  "zh": "修复了 `/terminal-setup` 在块注释附近损坏 VS Code 设置或 keybindings 文件的问题，以及当 keybindings.json 中存在未闭合字符串时报告成功却丢失 Shift+Enter 绑定的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

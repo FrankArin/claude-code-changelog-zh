@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a Code Mode script's call with no argument failing with a missing-parameter error on tools that need none",
+  "zh": "修复了 Code Mode 脚本对不需要参数的工具进行无参数调用时因缺少参数而失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -2,31 +2,21 @@
   "schema_version": 1,
   "date": "2026-11-19",
   "versions": [
-    "2.1.328"
+    "2.1.328",
+    "2.1.329"
   ],
-  "tldr": "新增自动模式与多项 Code Mode、自托管运行器改进，并修复大量问题。",
+  "tldr": "2026-11-19 发布 2.1.328 与 2.1.329 两个版本，均含破坏性变更：Code Mode 的 hook 行为、/code-review 范围、定时任务调度及 max_tokens 重试策略均有调整，需按提示迁移配置。",
   "highlights": [
-    {
-      "title": "新增自动模式",
-      "category": "新功能",
-      "detail": "在 Bedrock、Agent Platform、Foundry 和 Claude 应用网关上的 Opus 4.6 与 Sonnet 4.6 支持自动模式；未指定权限模式的交互式 session 会以该模式启动。",
-      "action": null,
-      "example": null,
-      "item_ids": [
-        "2.1.328-added-1"
-      ],
-      "version": "2.1.328"
-    },
     {
       "title": "Code Mode 不再运行 UserPromptSubmit",
       "category": "破坏性变更",
       "detail": "Code Mode 不再对脚本输出运行 UserPromptSubmit hook（含管理型 hook），依赖该 hook 脱敏脚本输出的配置会失效。",
       "action": "改用带 updatedToolOutput 的 PostToolUse hook 对脚本输出脱敏。",
       "example": null,
+      "version": "2.1.328",
       "item_ids": [
         "2.1.328-changed-16"
-      ],
-      "version": "2.1.328"
+      ]
     },
     {
       "title": "/code-review 范围收窄",
@@ -38,21 +28,10 @@
         "code": "/code-review",
         "caption": "命令示例"
       },
+      "version": "2.1.328",
       "item_ids": [
         "2.1.328-changed-17"
-      ],
-      "version": "2.1.328"
-    },
-    {
-      "title": "PostToolUse 不再触发被拒调用",
-      "category": "破坏性变更",
-      "detail": "管理型 PostToolUse hook 不再对运行前被拒绝的调用触发，依赖它记录或拦截被拒调用的审计流程会缺失数据。",
-      "action": null,
-      "example": null,
-      "item_ids": [
-        "2.1.328-changed-20"
-      ],
-      "version": "2.1.328"
+      ]
     },
     {
       "title": "自托管运行器 gh api 默认关闭",
@@ -60,27 +39,49 @@
       "detail": "按名称保护 Claude 的 GitHub 工具时，内置 gh api 默认关闭，依赖它的 session 将无法调用。",
       "action": "需要时用 --use-anthropic-gh true 开启。",
       "example": null,
+      "version": "2.1.328",
       "item_ids": [
         "2.1.328-changed-31"
-      ],
-      "version": "2.1.328"
+      ]
     },
     {
-      "title": "修复 zsh 等号词报错",
-      "category": "修复",
-      "detail": "修复 zsh 中 echo ==== 或 [ a == b ] 等以 = 开头的词导致命令以 not found 中断的问题。",
-      "action": null,
-      "example": {
-        "lang": "json",
-        "code": "[ a == b ]",
-        "caption": "配置示例"
-      },
+      "title": "定时任务需重新调度",
+      "category": "破坏性变更",
+      "detail": "早期版本保存的定时任务在新登录 session 中大多需重新调度；用 --resume 恢复原 session 时仍会运行。",
+      "action": "在新 session 中重新创建需要的定时任务，或使用 --resume 恢复原 session。",
+      "example": null,
+      "version": "2.1.329",
       "item_ids": [
-        "2.1.328-fixes-54"
-      ],
-      "version": "2.1.328"
+        "2.1.329-changed-9"
+      ]
+    },
+    {
+      "title": "Code Mode hook 失败不再拦截",
+      "category": "破坏性变更",
+      "detail": "Code Mode 中出错的 PreToolUse hook 不再拒绝脚本的工具调用；需要强制拒绝的命令、HTTP 或 MCP 工具 hook 须显式配置。",
+      "action": "对必须拒绝的 hook 设置 \"onFailure\": \"block\"。",
+      "example": null,
+      "version": "2.1.329",
+      "item_ids": [
+        "2.1.329-changed-20"
+      ]
+    },
+    {
+      "title": "移除 max_tokens 自动重试",
+      "category": "破坏性变更",
+      "detail": "不再按 max_tokens 错误指定的上限自动重试；位于输出 token 更少的网关之后时需手动设置上限。",
+      "action": "将 CLAUDE_CODE_MAX_OUTPUT_TOKENS 设为网关允许的上限。",
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_CODE_MAX_OUTPUT_TOKENS",
+        "caption": "相关环境变量"
+      },
+      "version": "2.1.329",
+      "item_ids": [
+        "2.1.329-changed-27"
+      ]
     }
   ],
   "breaking": true,
-  "summary_hash": "afda64cff8968a496b85f6ef12bb6a16ce8e584e7b5a4810379d796efe9a2234"
+  "summary_hash": "073c476e6dd41e413bdc9108e1cb6f30d6a69eb2d1feb6ee074b7417ec9801dd"
 }

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed keys pressed while an input method (IME) is composing moving focus on or declining a permission prompt, running menu rows and closing dialogs (anthropics/claude-code#106358)",
+  "zh": "\\[VSCode] 修复在输入法（IME）组词期间按下的按键会移动焦点、拒绝权限提示、执行菜单行或关闭对话框的问题（anthropics/claude-code#106358）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

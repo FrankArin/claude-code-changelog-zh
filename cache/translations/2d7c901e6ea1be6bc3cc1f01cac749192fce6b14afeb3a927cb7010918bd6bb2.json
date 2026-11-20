@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode: after starting a subagent, Claude now gets the same guidance on waiting as outside Code Mode",
+  "zh": "改进 Code Mode：启动 subagent 后，Claude 现在会收到与 Code Mode 之外相同的等待指引",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

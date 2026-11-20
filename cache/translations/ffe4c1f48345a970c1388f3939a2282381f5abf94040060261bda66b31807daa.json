@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/passes` showing the wrong number of passes after a server error, and offering usage credits for sharing when no guest passes are left",
+  "zh": "修复了 `/passes` 在服务器出错后显示错误的通行证数量，以及在没有剩余访客通行证时仍提供共享用量额度的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

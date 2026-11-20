@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the \"Jump to bottom\" pill staying hidden after copying text and scrolling away, the row under it going blank when its label changed, and quick PageUp presses scrolling too far in fullscreen",
+  "zh": "修复复制文本并滚动离开后“Jump to bottom”胶囊仍保持隐藏、其标签变化时下方行变为空白，以及全屏下快速按 PageUp 滚动过远的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved how fast a Claude Desktop Code session with Remote Control on is ready for the next message after an answer",
+  "zh": "改进开启远程控制的 Claude Desktop Code session 在回答后准备接收下一条消息的速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

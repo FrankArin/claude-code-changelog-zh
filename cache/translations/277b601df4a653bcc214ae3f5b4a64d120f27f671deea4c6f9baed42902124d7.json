@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a half-written plan comment being lost or moved to another passage, and an input method's Enter sending the comment, ending a session rename or picking an @-mentioned file",
+  "zh": "\\[VSCode] 修复写到一半的 plan 评论丢失或被移到另一段落，以及输入法的 Enter 键会发送评论、结束 session 重命名或选中 @ 提及的文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

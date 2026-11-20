@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved cloud sessions to retry plugins that failed to download at startup",
+  "zh": "改进云 session，对启动时下载失败的 plugin 进行重试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

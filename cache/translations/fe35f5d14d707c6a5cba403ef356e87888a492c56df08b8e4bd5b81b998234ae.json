@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed 'Exit and stop tasks' to end this session's scheduled tasks so they don't run again on resume, unless you exit while Claude is responding",
+  "zh": "变更“Exit and stop tasks”，使其结束本次 session 的定时任务，以免在恢复时再次运行，除非你在 Claude 正在响应时退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

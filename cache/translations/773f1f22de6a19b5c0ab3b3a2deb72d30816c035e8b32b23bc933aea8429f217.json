@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the line about earlier messages on resume blaming a damaged file when the file was intact",
+  "zh": "修复恢复时关于更早消息的提示在文件完好时误称文件已损坏的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

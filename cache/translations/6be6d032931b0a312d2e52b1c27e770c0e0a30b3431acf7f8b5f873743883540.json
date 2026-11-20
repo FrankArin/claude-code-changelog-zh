@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed background MCP tasks that stalled after a slow reconnect: Claude Code now reconnects most HTTP MCP servers by itself when one is left on an older protocol version",
+  "zh": "修复了后台 MCP 任务在缓慢重连后停滞的问题：当某个 HTTP MCP server 停留在较旧的协议版本时，Claude Code 现在会自动重连大多数 HTTP MCP server",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

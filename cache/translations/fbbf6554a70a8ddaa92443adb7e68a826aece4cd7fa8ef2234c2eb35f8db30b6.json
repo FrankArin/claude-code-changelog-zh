@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode ignoring an MCP tool's request to end the turn when the tool was called from a script that Claude waits for",
+  "zh": "修复了当 MCP 工具从 Claude 等待的脚本中调用时，Code Mode 忽略该工具结束本轮请求的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

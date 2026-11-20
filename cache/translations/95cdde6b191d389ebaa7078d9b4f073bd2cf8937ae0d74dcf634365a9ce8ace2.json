@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed picking a cloud session in `/teleport` replacing your open conversation: the pick now starts a new session, as `/clear` does, and `/resume` brings the old one back",
+  "zh": "修复了在 `/teleport` 中选择云 session 会替换当前打开的对话的问题：现在选择会像 `/clear` 一样启动新 session，而 `/resume` 可以恢复原来的对话",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}

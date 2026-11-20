@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed dropping an Explorer folder onto the chat inserting nothing on VS Code 1.103 to 1.139 or in a floating chat window, and the drop highlight vanishing with a false \"Hold Shift\" hint",
+  "zh": "\\[VSCode] 修复了在 VS Code 1.103 至 1.139 或浮动聊天窗口中，将资源管理器文件夹拖放到聊天中不插入任何内容，以及拖放高亮消失并错误显示“Hold Shift”提示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-20T02:03:48+00:00"
+}
