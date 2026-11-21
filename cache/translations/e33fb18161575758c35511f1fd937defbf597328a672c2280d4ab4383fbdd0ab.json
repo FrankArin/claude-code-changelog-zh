@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude -p` on Google Cloud's Agent Platform ignoring `--settings '{\"fastMode\":true}'` when the model comes from `ANTHROPIC_MODEL` or a settings file; such runs now bill at the fast mode price",
+  "zh": "修复了在 Google Cloud 的 Agent Platform 上，当模型来自 `ANTHROPIC_MODEL` 或设置文件时，`claude -p` 忽略 `--settings '{\"fastMode\":true}'` 的问题；此类运行现在按快速模式价格计费",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

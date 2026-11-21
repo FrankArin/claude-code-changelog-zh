@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Added a notice when Anthropic-managed git refuses a plugin's own repository, naming the plugin and what to do",
+  "zh": "自托管运行器：新增提示，当 Anthropic 管理的 git 拒绝某个 plugin 自身的仓库时显示，并指明该 plugin 及应如何处理",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode: Claude is now told how to look at images and PDFs",
+  "zh": "改进 Code Mode：现在会告知 Claude 如何查看图片和 PDF",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

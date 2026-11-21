@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed link reference definitions being dropped from CLAUDE.md and memory files that contain an HTML comment",
+  "zh": "修复了包含 HTML 注释的 CLAUDE.md 和记忆文件中链接引用定义被丢弃的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

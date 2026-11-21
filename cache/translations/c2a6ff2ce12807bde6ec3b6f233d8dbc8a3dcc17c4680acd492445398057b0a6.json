@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed recurring scheduled tasks and `/loop` to run up to 30 days instead of 7 while their session keeps running, and say when they end; tasks made before this release still end at 7 days",
+  "zh": "将周期性计划任务和 `/loop` 的运行时长从 7 天改为最长 30 天（在其 session 持续运行期间），并说明其结束时间；本次发布之前创建的任务仍在 7 天后结束",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

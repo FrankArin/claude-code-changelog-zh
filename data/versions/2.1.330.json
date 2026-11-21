@@ -1,0 +1,1127 @@
+{
+  "schema_version": 1,
+  "version": "2.1.330",
+  "date": "2026-11-20",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "7643cb7b2c34978a1659875e106346a08c86ef0c60d80a2b407b57146053db46",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-21T01:08:55+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.330-added-1",
+          "en": "Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after `claude auth login`, Claude Code applies the organization's settings and uses its cloud provider or gateway",
+          "zh": "新增登录 Anthropic 企业管理控制台中管理的组织：执行 `claude auth login` 后，Claude Code 会应用该组织的设置，并使用其云服务商或网关",
+          "hash": "8d92bd8e4d50313cab5c61e301325453cc8843a0c33b2cc1fb670740f18b9256",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-2",
+          "en": "Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and Enterprise on macOS and Linux; turn automatic charts off in `/config`",
+          "zh": "新增 easel，这是一个内置 mod，在被要求时以及 MCP 指标结果下方绘制图表，适用于 macOS 和 Linux 上的 Pro、Max 以及（如可用）Team 和 Enterprise；可在 `/config` 中关闭自动图表",
+          "hash": "57bccaee618eb3c745cf736d4cab9afa1a97bfffbb561e6de9b57fd74f5d23fa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-3",
+          "en": "Added `CLAUDE_CODE_FULL_SIGN_IN_LINK=1` to print the full sign-in link, if the short one shows an error or a script reads values from it",
+          "zh": "新增 `CLAUDE_CODE_FULL_SIGN_IN_LINK=1`，用于打印完整的登录链接，适用于短链接报错或脚本从中读取值的情况",
+          "hash": "ffe5c68ceaa228d94feb91df02ff5e9ca64f6b66a6a23b742c3561ff6f2c24c9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-4",
+          "en": "Self-hosted runner: Added `--start-dir` / `SELF_HOSTED_RUNNER_START_DIR` to have Claude start its work in a folder of a repository, while settings and hooks load as without it",
+          "zh": "自托管运行器：新增 `--start-dir` / `SELF_HOSTED_RUNNER_START_DIR`，让 Claude 在仓库的某个文件夹中开始工作，同时设置和 hooks 的加载方式与不使用时相同",
+          "hash": "b15cca3e40b20eeb2f55fe2f569f6c3817cca42af78817c645ed68d8488e5e73",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-5",
+          "en": "Added a notice in cloud and self-hosted runner sessions when a plugin marketplace can't be fetched because its repository isn't one of the session's",
+          "zh": "在云端和自托管运行器 session 中新增提示：当某个 plugin marketplace 因其仓库不属于该 session 的仓库而无法获取时显示",
+          "hash": "5089a89a05852b4365cc639dfede459500a2df87ba442221e1d6c3236532924e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-6",
+          "en": "Self-hosted runner: Added a notice when Anthropic-managed git refuses a plugin's own repository, naming the plugin and what to do",
+          "zh": "自托管运行器：新增提示，当 Anthropic 管理的 git 拒绝某个 plugin 自身的仓库时显示，并指明该 plugin 及应如何处理",
+          "hash": "5b5c311b1a900b99b9081f83012aaad5f19d4fb1c19762c81a64b384d1f2c609",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-7",
+          "en": "Added `commandPrinted` to `claude plugin install --json` results, true when the plugin's install command wrote to stderr, and `commandFailed` when it exited with an error, was killed or timed out",
+          "zh": "在 `claude plugin install --json` 结果中新增 `commandPrinted`，当 plugin 的安装命令写入 stderr 时为 true；并新增 `commandFailed`，当该命令以错误退出、被终止或超时时为 true",
+          "hash": "80a4b705eac2fac0ca38e74296fcf06482498ee3dae5b2227af402a998cd515b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-8",
+          "en": "Added `claude_code_self_hosted_runner_order_to_registered_seconds` to the self-hosted runner's `/metrics`: seconds from work order issued to registration accepted, on orchestrator-spawned runners",
+          "zh": "在自托管运行器的 `/metrics` 中新增 `claude_code_self_hosted_runner_order_to_registered_seconds`：在由编排器启动的运行器上，从下发工单到注册被接受的秒数",
+          "hash": "e396f6fc78ad7c70cb2df9227c6474afa603aab7c8ee8096d124d498318299cf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-9",
+          "en": "Added `claude_code_self_hosted_runner_order_to_first_session_seconds` to the self-hosted runner's `/metrics`: seconds from work order to first session handed over, on runners started for a session",
+          "zh": "在自托管运行器的 `/metrics` 中新增 `claude_code_self_hosted_runner_order_to_first_session_seconds`：在为某个 session 启动的运行器上，从下发工单到移交首个 session 的秒数",
+          "hash": "0b15154fb5dd77647439731524338ca8bad07c933a71bf09c93b8f377c39bbcc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-10",
+          "en": "\\[VSCode] Added `/fork` to fork a conversation after its last reply (anthropics/claude-code#69272)",
+          "zh": "\\[VSCode] 新增 `/fork`，可在对话的最后一条回复之后分叉该对话（anthropics/claude-code#69272）",
+          "hash": "9fb29f2be2e9aa8c07827c55575822ede4c64d8ac00a49c83b047087f4f3fc89",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-11",
+          "en": "\\[VSCode] Added `/workflows`, which opens the agent map with running workflows",
+          "zh": "\\[VSCode] 新增 `/workflows`，用于打开显示运行中工作流的 agent 图",
+          "hash": "13b39c768d65c1458efad0dbe8177e388cbbc82c8ef1650b533907b57d92e6a3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-12",
+          "en": "\\[VSCode] Added the `claudeCode.escapeStopsClaude` setting; turn it off so Escape does not stop Claude (anthropics/claude-code#91536)",
+          "zh": "\\[VSCode] 新增 `claudeCode.escapeStopsClaude` 设置；将其关闭后，按 Escape 不会停止 Claude（anthropics/claude-code#91536）",
+          "hash": "88b5fba60b7e437cc5dfe22c1cf737803f75683867c28562503a8136ae65665c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-13",
+          "en": "\\[VSCode] Added the `claudeCode.pinPrompt` setting to let your message scroll away instead of staying pinned",
+          "zh": "\\[VSCode] 新增 `claudeCode.pinPrompt` 设置，让你的消息随滚动移出，而不是固定显示",
+          "hash": "42aadbf4ed023bd6ae2934da703de1475a05772f464e9ed92f74901eb6338f9b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-14",
+          "en": "\\[VSCode] Added the `claudeCode.contextUsageThreshold` setting for when the context indicator shows (anthropics/claude-code#93036)",
+          "zh": "\\[VSCode] 新增 `claudeCode.contextUsageThreshold` 设置，用于控制上下文指示器何时显示（anthropics/claude-code#93036）",
+          "hash": "0072ef5c078ad0e103bd9e3af1862161c78b48614da3e22246afe654f0639716",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-15",
+          "en": "\\[VSCode] Added a `prompt` argument to the \"Open in Side Bar\" command for keybindings and extensions",
+          "zh": "\\[VSCode] 为“Open in Side Bar”命令新增 `prompt` 参数，供快捷键绑定和扩展使用",
+          "hash": "559dcbdb0d2d186c4daeb8e2b7ec6c86598b3ed3e334841a56a156fd1c9978dc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-added-16",
+          "en": "\\[VSCode] Added Move up and Move down to a session group's menu (anthropics/claude-code#98654)",
+          "zh": "\\[VSCode] 在 session 分组菜单中新增“上移”和“下移”（anthropics/claude-code#98654）",
+          "hash": "15bc84d8807dd8b05d240f50cb92cbd136043f7ac872b5c117c51fbac79e962d",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.330-changed-17",
+          "en": "Reverted 2.1.329's removal of the automatic retry when `max_tokens` exceeds a model's or gateway's limit",
+          "zh": "回退了 2.1.329 中对 `max_tokens` 超过模型或网关限制时自动重试的移除",
+          "hash": "2ed1f6aa9bd9f3581190efcc3a37dbaa11c47cbbd945d121eba97f0b84668e96",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-18",
+          "en": "Changed recurring scheduled tasks and `/loop` to run up to 30 days instead of 7 while their session keeps running, and say when they end; tasks made before this release still end at 7 days",
+          "zh": "将周期性计划任务和 `/loop` 的运行时长从 7 天改为最长 30 天（在其 session 持续运行期间），并说明其结束时间；本次发布之前创建的任务仍在 7 天后结束",
+          "hash": "9287c3be55156defdc999d42275fb270477c1afc53448e70c12aabc406a2cc5f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-19",
+          "en": "Changed more `rm` commands aimed at the root, home, a top-level folder or the working folder to ask for approval; where nobody can answer, they're refused",
+          "zh": "更多针对根目录、主目录、顶层文件夹或工作文件夹的 `rm` 命令改为请求批准；在无人可应答的情况下则直接拒绝",
+          "hash": "8f0f7cc0898c5758ca01c976a59945e1ca249da167a16a7f8c64003548d42ea1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-20",
+          "en": "Changed `deniedMcpServers` name entries to hide only the named claude.ai connector, not others at its URL; to block them all, deny its exact URL",
+          "zh": "`deniedMcpServers` 的名称条目改为仅隐藏指定的 claude.ai connector，而不隐藏同一 URL 上的其他 connector；如需全部阻止，请拒绝其确切 URL",
+          "hash": "75baa8398b8c9d68405be6cdba74816dfbd86e123325a0caad333f3fe0298fe4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-21",
+          "en": "Changed `claude --teleport` in some setups to print the git commands for switching branch instead of running them; with `-p` it exits 1 until you switch",
+          "zh": "变更：在某些环境中，`claude --teleport` 改为打印用于切换分支的 git 命令，而不再直接执行；使用 `-p` 时，在你切换分支前会以状态码 1 退出",
+          "hash": "b9e327ffba617597669340b85fc67b77fc8b1682c840477db5925b8ae08421c2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-22",
+          "en": "Changed unrecognized model names containing \"sonnet\" or \"haiku\" to use the shorter system prompt, like other unrecognized names; `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` gives every model the full one",
+          "zh": "变更：名称中包含 \"sonnet\" 或 \"haiku\" 的未识别模型，现在与其他未识别名称一样使用较短的系统提示词；设置 `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` 可为所有模型提供完整提示词",
+          "hash": "a196357e1382656af2c7cca244887567f63e2eb8b8166ce2cd3f55d68e60633f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-23",
+          "en": "Changed skills that Claude runs with a `model` setting, other than `context: fork` skills, to leave subagents, forks, compaction and `/recap` on the session's model",
+          "zh": "变更：Claude 通过 `model` 设置运行的 skill（`context: fork` 的 skill 除外）现在会让 subagent、fork、上下文压缩和 `/recap` 继续使用 session 的模型",
+          "hash": "909c635e97b3f4e23d4621250f6069cbea78d6048bae50ea576643212f6ef83e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-24",
+          "en": "Changed a subagent's model fallback to carry over: agents with no model and forks it then starts run on the fallback, and the agents they start use its Bedrock region",
+          "zh": "变更：subagent 的模型回退现在会延续：未设置模型的 agent 及其随后启动的 fork 会使用回退模型，它们启动的 agent 则使用该回退模型的 Bedrock 区域",
+          "hash": "b61d5d773684a88efbd1fbf755858eea9f30321bd4d24d5023f022f0f6800134",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-25",
+          "en": "Self-hosted runner: Changed `spawn-runner` hooks to start while earlier ones still run, up to `--hook-concurrency` per orchestrator (4 by default); set it to 1 if yours can't run beside another",
+          "zh": "自托管运行器：变更：`spawn-runner` hook 现在会在之前的 hook 仍在运行时启动，每个编排器最多并发 `--hook-concurrency` 个（默认 4）；如果你的 hook 无法与其他 hook 并行运行，请将其设为 1",
+          "hash": "aee6f4909fcd4a664ba27b304cd74628a4ebec033ee9de9ef8e489f15d5e67fa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-26",
+          "en": "Self-hosted runner: Changed Bash commands to skip the file diff when nothing needs it, so transcripts can lack it; set `bashEditDiffEnabled` to true in managed settings to get every diff",
+          "zh": "自托管运行器：变更：Bash 命令在不需要文件 diff 时会跳过生成，因此 transcript 中可能缺少该 diff；在托管设置中将 `bashEditDiffEnabled` 设为 true 可获取所有 diff",
+          "hash": "09b7a2497e24fc46dfb264d49a7776517d9a2a6cb98716686747a544f0e98e83",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-27",
+          "en": "Changed self-hosted runners to stop a session's start at once, without trying other runners, when a checkout hook exits with status 108",
+          "zh": "变更：当 checkout hook 以状态码 108 退出时，自托管运行器会立即停止该 session 的启动，不再尝试其他运行器",
+          "hash": "67ed68e041529031de85bd196eaef44a6c073577af7bb005c1c0205181409bc4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-28",
+          "en": "Changed prompt hooks to accept model aliases such as `haiku` or `sonnet` in their `model` field",
+          "zh": "变更：prompt hook 的 `model` 字段现在接受 `haiku` 或 `sonnet` 等模型别名",
+          "hash": "c7ff9319cbdefc45a91b82f419cdaea5d8610e19b27379487880f92811683c22",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-29",
+          "en": "Changed `/design-sync`'s fallback build of the reference Storybook to use only a Storybook installed in the project",
+          "zh": "变更：`/design-sync` 回退构建参考 Storybook 时，现在只使用项目中安装的 Storybook",
+          "hash": "c29c11d32669549e2857cf5d7b560d3122827b862ba675ae8a4fee72acaf4fbb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-changed-30",
+          "en": "Changed subagent progress summaries in terminal sessions signed in to a Claude apps gateway to be written from short notes instead of the whole conversation, using far fewer tokens",
+          "zh": "变更：在登录 Claude 应用网关的终端 session 中，subagent 进度摘要现在基于简短笔记而非完整对话生成，使用的 token 大幅减少",
+          "hash": "3859df69dbb646cdb7247b19f5fa3c813df1850198512cfa8c85aa802e57370c",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "14 improvements",
+      "heading_zh": "14 项改进",
+      "items": [
+        {
+          "id": "2.1.330-improvements-31",
+          "en": "Improved the claude.ai sign-in link shown by /login, `claude auth login` and `claude setup-token`: it is now much shorter",
+          "zh": "改进：`/login`、`claude auth login` 和 `claude setup-token` 显示的 claude.ai 登录链接现在短得多",
+          "hash": "e1e9924fa2edc4f4d4e2856d319b0f5763bb27b7ffcd8ce2346d6f99e3041e4a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-32",
+          "en": "Windows: Improved Grep and Glob speed by no longer starting a console host for each built-in ripgrep search on a local path",
+          "zh": "Windows：改进：在本地路径上执行内置 ripgrep 搜索时不再为每次搜索启动控制台宿主，从而提升 Grep 和 Glob 的速度",
+          "hash": "646f31a9d30394840ded522571704db8435dbd0d83ac404a825af91b6e1a7170",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-33",
+          "en": "Improved the speed of file diffs",
+          "zh": "改进：提升了文件 diff 的速度",
+          "hash": "3f6956a6a11469f0bd1c720f45808b5848d1d9c2d5ea95a22f3438acca02d501",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-34",
+          "en": "Improved `/config` search: most settings whose name starts with what you type come first, \"effort\" finds Model, and \"dark\" or \"light\" finds Theme",
+          "zh": "改进：`/config` 搜索：名称以输入内容开头的设置大多排在前面，输入 \"effort\" 可找到 Model，输入 \"dark\" 或 \"light\" 可找到 Theme",
+          "hash": "93848aae0301819cf90ce717e66a3fbb698eea3999c7f229a8fff1bc45e7d75f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-35",
+          "en": "Improved `/resume`: sessions where you only opened a screen such as `/model` and left are no longer listed",
+          "zh": "改进：`/resume`：仅打开过 `/model` 等界面后离开的 session 不再列出",
+          "hash": "f3e61947fdcde1978c595538e1ff2179f9f91d74b458a395adfd6335fd628745",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-36",
+          "en": "Improved Reconnect in `/mcp` and `/plugin`: a server's page now stays open, with the cause in view, when the server still fails or needs sign-in",
+          "zh": "改进：`/mcp` 和 `/plugin` 中的重新连接：当服务器仍然失败或需要登录时，服务器页面会保持打开并显示原因",
+          "hash": "bc97c0c36cc6cf41b8228eb072537fa63bac23ddb4e37d0de7f0859b1dd3d6ea",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-37",
+          "en": "Improved the error on macOS when sandbox deny lists are too long: it now names the long lists and how to shorten them",
+          "zh": "改进：macOS 上沙箱拒绝列表过长时的错误提示：现在会指出过长的列表以及如何缩短它们",
+          "hash": "fd8349297a70d209425fa65b455ab121c939736f07259534eabca0ed8bb29848",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-38",
+          "en": "Improved `/plugin` in fullscreen mode: the page of a plugin with errors now starts with those errors",
+          "zh": "改进：全屏模式下的 `/plugin`：有错误的 plugin 页面现在会先显示这些错误",
+          "hash": "93ddedb59019b5198bf772d42dcfa9e975ce605c8697ac960e9551d19193c5c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-39",
+          "en": "Improved `/ultrareview`'s cost confirmation on Team and Enterprise plans: it now says how much of your monthly spend limit is left when that is less than a review usually costs",
+          "zh": "改进：Team 和 Enterprise 方案下 `/ultrareview` 的费用确认：当每月支出限额剩余额度低于一次评审的通常费用时，现在会显示剩余额度",
+          "hash": "ef9b3ed729514fb241d965dbf4c364ef6a5f91d36e3eb82c9e193208f06ce6c4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-40",
+          "en": "Improved self-hosted runner sessions on Amazon Bedrock or Google Cloud's Agent Platform to say so when they start on another default model because your account refused the first",
+          "zh": "改进：在 Amazon Bedrock 或 Google Cloud 的 Agent Platform 上运行的自托管运行器 session，如果因你的账户拒绝了首个模型而改用其他默认模型启动，现在会明确说明",
+          "hash": "bbf377a88ce313f36ac8a6e4ee2f60f421da898d17a7790d7cfd4fa46077c15d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-41",
+          "en": "Windows: Improved the error when a session's folder is on a drive Claude Code can't verify: it says why, and whether retrying can help",
+          "zh": "Windows：改进 session 文件夹位于 Claude Code 无法验证的驱动器时的错误提示：说明原因，并提示重试是否有帮助",
+          "hash": "c22ee526f7f297a2d502f94ea37e4ce2878ae5641c46793c7c3c7ead7756c82d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-42",
+          "en": "Improved Code Mode: Claude is now told how to look at images and PDFs",
+          "zh": "改进 Code Mode：现在会告知 Claude 如何查看图片和 PDF",
+          "hash": "43a7a8753e73d582fe6b35a0aa62ac54663a23c0f9ca16afe07d6c186dd8ec69",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-43",
+          "en": "Improved Code Mode: after Esc, \"Interrupted\" now shows under the stopped command in place of a red error",
+          "zh": "改进 Code Mode：按 Esc 后，已停止的命令下方现在显示“Interrupted”，不再显示红色错误",
+          "hash": "146cea8b6e6fa364eeead58b827bdd1b5fc383a754f2563941053895ca7ea424",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-improvements-44",
+          "en": "Improved Code Mode: the terminal freezes for far less time after a subagent's script makes thousands of tool calls",
+          "zh": "改进 Code Mode：subagent 的脚本发起数千次工具调用后，终端卡顿的时间大幅缩短",
+          "hash": "050b324b51f88e7c54aed98ce5bbae10b8468d01a9bbd4f87a9b41eb051372d1",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "98 bug fixes",
+      "heading_zh": "98 项修复",
+      "items": [
+        {
+          "id": "2.1.330-fixes-45",
+          "en": "Fixed Claude Code freezing for up to several minutes right after compacting a very long conversation",
+          "zh": "修复对超长对话进行上下文压缩后，Claude Code 立即卡住长达数分钟的问题",
+          "hash": "faca27ecfcaf961d5a811063b3cfad2fd19ba531f12b4af5cd8fba47ba4b3689",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-46",
+          "en": "Fixed WebFetch freezing the session for minutes on some pages, and returning an empty result for some others",
+          "zh": "修复 WebFetch 在某些页面上使 session 卡住数分钟，以及在另一些页面上返回空结果的问题",
+          "hash": "812ed562f9d23fcf7c33bf69f5cd128b1ad6e6dfb39dd3bb7cad83afdf68e982",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-47",
+          "en": "Fixed `ExitWorktree` and the worktree exit dialog deleting a worktree that another running Claude Code session was working in",
+          "zh": "修复 `ExitWorktree` 和 worktree 退出对话框删除另一个正在运行的 Claude Code session 正在使用的 worktree 的问题",
+          "hash": "985d3db34c6014aadef4aefdbf26ddd9d84704d47899f6145d4e5df6421427ce",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-48",
+          "en": "Fixed changes to user settings being lost when several Claude Code processes saved them at the same time",
+          "zh": "修复多个 Claude Code 进程同时保存用户设置时，用户设置的更改丢失的问题",
+          "hash": "db3ae44424443b991945538c92694b39b21218df4a074cade98fdf2751cc8e94",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-49",
+          "en": "Fixed `--continue` and `--resume` opening an empty session or failing when the last saved message had a missing or invalid timestamp",
+          "zh": "修复最后保存的消息时间戳缺失或无效时，`--continue` 和 `--resume` 打开空 session 或失败的问题",
+          "hash": "2d7d858aaf33b6eefba476b448c1e502cdc28c26d3082716c2edd7e3302d7be5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-50",
+          "en": "Fixed the first prompt after a sleep of two minutes or more waiting three minutes on a connection that had died, on Linux and WSL",
+          "zh": "修复 Linux 和 WSL 上休眠两分钟或更久后，首个 prompt 在已断开的连接上等待三分钟的问题",
+          "hash": "4ed976b7c2feac8c7693ded4cb30c42ee7ac7102c805154815958479b8113cec",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-51",
+          "en": "Fixed turns failing with \"JSON schema is invalid\", and session files growing by many megabytes, when many MCP tools have an input schema that the API refuses",
+          "zh": "修复大量 MCP 工具的输入 schema 被 API 拒绝时，轮次失败并报“JSON schema is invalid”，以及 session 文件增大数 MB 的问题",
+          "hash": "6596709500184ffb01a70753982c53f3c91ecde161f572c15a31b72a20edf325",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-52",
+          "en": "Linux: Fixed Bash commands waiting seconds and showing no file diff for the rest of a session in slow repositories with large ignored folders such as `node_modules`",
+          "zh": "Linux：修复在包含 `node_modules` 等大型忽略文件夹的缓慢仓库中，Bash 命令等待数秒，且 session 剩余时间内不显示文件 diff 的问题",
+          "hash": "6fd919191455aefcd88775c128ed5d99531505035134a47fc11a51163ffa1b26",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-53",
+          "en": "Windows: Fixed Bash commands running slower for the rest of a session after Git Bash took 10 to 60 seconds to start, on machines with no custom start-up files",
+          "zh": "Windows：修复在没有自定义启动文件的机器上，Git Bash 启动耗时 10 至 60 秒后，session 剩余时间内 Bash 命令运行变慢的问题",
+          "hash": "4e6251425fd6652cdc6b99a0f893c55025baf7e5b00ad93c0b6ccbf192836af4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-54",
+          "en": "Fixed `/rewind` sometimes restoring an older version of a file when two queued prompts, or stacked skills, ran together right after a turn that changed it",
+          "zh": "修复在更改文件的轮次之后紧接着运行两个排队的 prompt 或叠加的 skills 时，`/rewind` 有时恢复文件旧版本的问题",
+          "hash": "783e091e03304e8edb628506611ed4c2a0f9f5800abcaadaea6f33a6bdc737a9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-55",
+          "en": "Fixed text and images added when approving a permission prompt being dropped when the approved command or tool then failed",
+          "zh": "修复批准权限提示时添加的文本和图片，在获批的命令或工具随后失败时被丢弃的问题",
+          "hash": "873908105673af3582bd39a47ce2854d88bb811749d6eb0a33dc0dc8a3bfd610",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-56",
+          "en": "Fixed MCP resources from claude.ai connectors and plugin servers not being attached when @-mentioned in the terminal's prompt box",
+          "zh": "修复在终端 prompt 框中用 @ 提及时，来自 claude.ai connectors 和 plugin 服务器的 MCP 资源未被附加的问题",
+          "hash": "3e13f384a71de91d1342c92427668cbcb371836137a6a8fbc4f0293a95d29fe0",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-57",
+          "en": "Fixed an MCP server that subagents declare being shut down when one of them finished, while other subagents or the session were still using it",
+          "zh": "修复 subagents 声明的 MCP 服务器在其中一个 subagent 完成时被关闭，而其他 subagents 或 session 仍在使用它的问题",
+          "hash": "35142981cde6f2a8db7e3fbab1dfbed47bb5110a100858d7893e0ddc8d585f68",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-58",
+          "en": "Fixed Claude in Chrome staying \"not connected\" after a brief connection problem, even though Chrome was open and signed in",
+          "zh": "修复 Claude in Chrome 在短暂连接问题后一直显示“not connected”，即使 Chrome 已打开并已登录的问题",
+          "hash": "1fb47f27bbf402a83c3ccceba00728dc55f4a1199f33472cbbb8ea248cc11a93",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-59",
+          "en": "Fixed terminal sessions on Amazon Bedrock (Mantle) started with no model selected ignoring a pinned Opus model, and still calling an unavailable default model after announcing a fallback",
+          "zh": "修复在 Amazon Bedrock (Mantle) 上未选择模型启动的终端 session 忽略已固定的 Opus 模型，并在宣布回退后仍调用不可用的默认模型的问题",
+          "hash": "b29d408ba0820973b6b6eb0d0746bdce7cd30770b96a46a63769610966e83a8d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-60",
+          "en": "Fixed the rest of what you were typing being lost when a plan arrived in fullscreen mode",
+          "zh": "修复全屏模式下计划完整到达时，正在输入的其余内容丢失的问题",
+          "hash": "e03585c2f384ee7411c9a1739b2818200539bcc589b3c109c0d1d7633b8790bb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-61",
+          "en": "Fixed claude.ai connectors with different names being dropped when they share a server URL (anthropics/claude-code#101856)",
+          "zh": "修复了 claude.ai connector 名称不同但共享同一服务器 URL 时被丢弃的问题（anthropics/claude-code#101856）",
+          "hash": "871d1c4deceadad0f8cf8e4b4e8713b5959c36c06758287f06a8bf3d024d0575",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-62",
+          "en": "Fixed plugins going missing from the installed list when several `claude plugin` commands ran at the same time",
+          "zh": "修复了多个 `claude plugin` 命令同时运行时，plugin 从已安装列表中消失的问题",
+          "hash": "01e870734cff46827736521768f40bc2e42e1dc12f6355f5d48dc1d7c7685d59",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-63",
+          "en": "Fixed task dependencies and metadata being lost when several task updates ran at the same time",
+          "zh": "修复了多个任务更新同时运行时，任务依赖关系和元数据丢失的问题",
+          "hash": "c1b63eb19b4acbdb42e76a2258e123d1f1269b24b826a0cd0a39a8baff0802c1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-64",
+          "en": "Fixed incomplete backups of `~/.claude.json` being kept, and displacing good ones, when the disk was full",
+          "zh": "修复了磁盘已满时保留 `~/.claude.json` 的不完整备份并挤掉完好备份的问题",
+          "hash": "85d29db6f75237e550f726fbfd810bb64dd93cc4499ae2979a6eb8bba65c9ac8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-65",
+          "en": "Fixed a long pause in Code Mode after code that read hundreds of files in projects with path-scoped rules or Read deny rules",
+          "zh": "修复了在配置了路径范围规则或 Read 拒绝规则的项目中，代码读取数百个文件后 Code Mode 长时间停顿的问题",
+          "hash": "33aed4e29f4a66de6d4476188a39858eb596db38f17caf08f4bc81984f8c2d98",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-66",
+          "en": "Fixed the built-in chart tool failing when Claude called it in Code Mode",
+          "zh": "修复了 Claude 在 Code Mode 中调用内置图表工具时失败的问题",
+          "hash": "1c246be7c338064f0455fbc9b1c01edce23245d64c8eb924dac2bc72b0ff808d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-67",
+          "en": "Fixed Code Mode ignoring an MCP tool's request to end the turn from a script in auto and bypass permissions modes",
+          "zh": "修复了在自动模式和绕过权限模式下，Code Mode 忽略 MCP 工具从脚本发出的结束本轮请求的问题",
+          "hash": "2b94dc56cc62927501a02ca32ec7e8ae42f208144bb2f07705436f64bf97cb44",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-68",
+          "en": "Fixed Code Mode in auto mode dropping earlier thinking and rewriting the prompt cache when a mod added a note after a script loaded a skill",
+          "zh": "修复了自动模式下 Code Mode 在脚本加载 skill 后由 mod 添加备注时丢弃先前思考内容并重写 prompt 缓存的问题",
+          "hash": "f17745fead268f4681d8d015c8b96f1754f1f68ac883b9f6372d718bdeb86025",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-69",
+          "en": "Fixed Code Mode not restoring a file that a script had read after Esc and `/compact`",
+          "zh": "修复了 Code Mode 在按 Esc 并执行 `/compact` 后未恢复脚本已读取文件的问题",
+          "hash": "00cf6023f669b76456a4e462cd5f7f644c153fee84b85f149bcb278ef0615179",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-70",
+          "en": "Fixed `/context` undercounting system tools in Code Mode before Claude's first reply",
+          "zh": "修复了 Code Mode 中 `/context` 在 Claude 首次回复前少计系统工具的问题",
+          "hash": "529debd1cb919f9f9d64857f041f9338282a36c0c8dce68be999cf488b0e869c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-71",
+          "en": "Fixed a stopped background subagent sometimes not staying stopped",
+          "zh": "修复了已停止的后台 subagent 有时无法保持停止状态的问题",
+          "hash": "d8271b70e52902a77fc6403916cdb3d10cfd74c6b2e4f573ee70e427cb90b773",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-72",
+          "en": "Fixed Claude still waiting for a background agent that was stopped just as it finished, in sessions run by an app or the SDK",
+          "zh": "修复了在由应用或 SDK 运行的 session 中，后台 agent 恰好在完成时被停止，Claude 仍继续等待它的问题",
+          "hash": "663dd06de98931dba1e50ff1e1cc7cf71280a1dee3c9e4ec6ea438fd306b17aa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-73",
+          "en": "Fixed background sessions sometimes waking in their previous permission mode after approving a plan",
+          "zh": "修复了后台 session 在批准计划后有时以先前的权限模式恢复的问题",
+          "hash": "457f1b894e3d3475d516a201c342311a41302cdc1bd63d1951f07529e9f905e6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-74",
+          "en": "Remote Control: Fixed the note about background agents ended by a Stop from a phone or the web showing in the terminal as if you had typed it",
+          "zh": "远程控制：修复了从手机或网页端执行 Stop 结束后台 agent 的提示在终端中显示得像是用户自己输入的问题",
+          "hash": "872307b99f66103eca4f0c5ae0e8c9eaa21c77b142cb8157723221829f27615c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-75",
+          "en": "Remote Control: Fixed the mobile apps hiding the Diff and pull request buttons, or showing a stopped session as working, after turning it on mid-conversation",
+          "zh": "远程控制：修复了在对话中途开启后，移动端应用隐藏 Diff 和拉取请求按钮，或将已停止的 session 显示为仍在工作的问题",
+          "hash": "d4373ab17a9ee5c36341c833eb624f7b0c542c05bee130e80ee376657bc5f79a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-76",
+          "en": "Fixed environment variables written by a SessionStart hook being lost with `claude -p --continue`",
+          "zh": "修复了 SessionStart hook 写入的环境变量在使用 `claude -p --continue` 时丢失的问题",
+          "hash": "488b91d33fa71a03b16b554bbe69cd16da6acf78bee0b71f71b656f98a24dc27",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-77",
+          "en": "Fixed `claude -p` exiting 0 with no message when its output went to a file on a full disk: it now prints an error and exits 1, though a full NFS export may go unnoticed",
+          "zh": "修复了磁盘已满时 `claude -p` 输出写入文件却以退出码 0 退出且无任何消息的问题：现在会打印错误并以退出码 1 退出，但已满的 NFS 导出可能仍无法察觉",
+          "hash": "9078376140f126ce147445f957f2d22228f985e82e0ffe21075c3827e6cd4ecf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-78",
+          "en": "Fixed the system prompt keeping the earlier model's instructions when the model was changed after `/context` but before the first message",
+          "zh": "修复了在 `/context` 之后、首条消息之前更换模型时，系统 prompt 仍保留先前模型指令的问题",
+          "hash": "1cae6cc353740ff507cfcd90c440a06d92dab89e1ab671c37c61afd970dffd0f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-79",
+          "en": "Fixed Claude sometimes replying to its commit attribution reminder and ending the turn early after the model changed mid-turn; it can still happen where managed settings set the PR attribution line",
+          "zh": "修复了模型在轮次中途更换后，Claude 有时回复其提交归属提醒并提前结束本轮的问题；在托管设置指定 PR 归属行的情况下仍可能出现",
+          "hash": "33ea3b527233991bbb6fa54f26226e7cec70dab749d32ee2f475500189b0a46b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-80",
+          "en": "Fixed Esc not ending an LSP tool call that was waiting for a slow or stuck language server",
+          "zh": "修复了 Esc 无法结束正在等待缓慢或卡住的语言服务器的 LSP 工具调用的问题",
+          "hash": "5bcfea801f80a048c645b29a4025eb1f57ca68ecbd1ae4a3ae942c49215845ef",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-81",
+          "en": "Fixed LSP tool calls and diagnostics failing when several calls or edits arrived while a language server was still starting",
+          "zh": "修复了语言服务器仍在启动时，多个调用或编辑到达导致 LSP 工具调用和诊断失败的问题",
+          "hash": "f75891fdfa9900e1bc64ee24d40648189e3f3e0b568421e36069789c16aad792",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-82",
+          "en": "Fixed `/mcp` listing plugin servers as built-in: they now stand under \"Plugin MCPs\", `--mcp-config` and built-in servers under \"Other MCPs\", and a server's page names its plugin",
+          "zh": "修复了 `/mcp` 将 plugin 服务器列为内置服务器的问题：现在它们归入 \"Plugin MCPs\"，`--mcp-config` 和内置服务器归入 \"Other MCPs\"，服务器页面会标明其所属 plugin",
+          "hash": "45edc182c7028782b4557496377084740c5856f5c88bbb5b97c29d7b1ba28487",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-83",
+          "en": "Fixed an \"MCP server blocked by enterprise policy: easel\" warning showing at every start when an MCP allowlist or denylist excludes the built-in chart tool, which stays blocked",
+          "zh": "修复了当 MCP 允许列表或拒绝列表排除内置图表工具时，每次启动都会显示 \"MCP server blocked by enterprise policy: easel\" 警告的问题；该工具仍保持被阻止状态",
+          "hash": "e1edf6577f1eb5ef768b724d2a5e7cfb7f13d0f53770b678eab22245a348ab15",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-84",
+          "en": "Fixed `/stats` counting new activity in UTC days instead of your local time zone",
+          "zh": "修复了 `/stats` 按 UTC 日期而非本地时区统计新活动的问题",
+          "hash": "9697a74a5ae6035984b130c4b4f912e4ebac710573cebafbfab377c3b72c53ea",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-85",
+          "en": "Fixed `/ultrareview` failing or reviewing the wrong code after the shell moved into another repository: it now stops and names both folders",
+          "zh": "修复了 shell 切换到其他仓库后 `/ultrareview` 失败或审查错误代码的问题：现在会停止并指出两个文件夹",
+          "hash": "af513c27e323f1bb0366586cd289170e3c127aa6c6da17f62ece80c336d61314",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-86",
+          "en": "Fixed Grep reporting no matches when the pattern held a line break without multiline mode; it now reports the rejected pattern",
+          "zh": "修复了未启用多行模式时，模式中包含换行符导致 Grep 报告无匹配的问题；现在会报告被拒绝的模式",
+          "hash": "7ff0e185067e32c80226853a114072aa31e05be77293bd9c15ca828feeb1dae6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-87",
+          "en": "Fixed Jupyter notebooks saved with a byte order mark being reported as invalid JSON by the Read and NotebookEdit tools",
+          "zh": "修复了带字节顺序标记保存的 Jupyter notebook 被 Read 和 NotebookEdit 工具报告为无效 JSON 的问题",
+          "hash": "01e4f1fe074d13713cd4b15fc9b6d9c1210de013ca707502b1acfef5885b0df5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-88",
+          "en": "Fixed link reference definitions being dropped from CLAUDE.md and memory files that contain an HTML comment",
+          "zh": "修复了包含 HTML 注释的 CLAUDE.md 和记忆文件中链接引用定义被丢弃的问题",
+          "hash": "a3fb9a5044b067640a0240591dfdf453273cdb134df6b671798bd25575494640",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-89",
+          "en": "Fixed running Monitors keeping the earlier conversation in memory until they end",
+          "zh": "修复了运行中的 Monitors 在结束前一直将先前对话保留在内存中的问题",
+          "hash": "5f0e6e6043024cc2fa1cb8e6605632e9c89709f215084f4ae571b52608067a5a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-90",
+          "en": "Fixed some Claude Desktop sessions on third-party providers, other than scheduled tasks, ending a turn with \"Prompt is too long\" when a PDF larger than the context window followed a long conversation",
+          "zh": "修复了第三方提供商上部分 Claude Desktop session（定时任务除外）在长对话之后跟随大于上下文窗口的 PDF 时，以 \"Prompt is too long\" 结束回合的问题",
+          "hash": "a72997380bd1b6ee138f3b8ecc940049c767a2dcd39e32afa5da06f43962eae2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-91",
+          "en": "Fixed the choice between two user or project agent files declaring the same name depending on the order the file search listed them",
+          "zh": "修复了两个声明相同名称的用户或项目 agent 文件之间的选择取决于文件搜索列出顺序的问题",
+          "hash": "24a08d0a32a5150f317add2464ed75a01b4eed4e84d39340cdb5138df79f50a2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-92",
+          "en": "Fixed `claude daemon logs` never exiting inside a git repository when there is no log file",
+          "zh": "修复了在 git 仓库内且没有日志文件时 `claude daemon logs` 永不退出的问题",
+          "hash": "45ae60b26480742d1326055e0cf4b27a0a2c598c470e7d9b449160f1431bea0b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-93",
+          "en": "Fixed markdown hiding a character or two after bold or italic text when a backslash came before an emoji later in the paragraph",
+          "zh": "修复了当段落中较后位置的 emoji 前有反斜杠时，markdown 在粗体或斜体文本后隐藏一两个字符的问题",
+          "hash": "ea36c3895b5e343805b1f5f42f9b0de3aefd53cded44e432cc443cb491c9e628",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-94",
+          "en": "Fixed Edit refusing some valid hook commands in Claude settings files",
+          "zh": "修复了 Edit 拒绝 Claude 设置文件中某些有效 hook 命令的问题",
+          "hash": "879a5baa9b569f16f6835c806d4f7a571ec65c2f058ebce368fa9e674ade34e3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-95",
+          "en": "Fixed `Read` with a page range showing both halves of a scanned two-page spread on each of its pages",
+          "zh": "修复了带页码范围使用 `Read` 时，扫描的双页跨页的两半都显示在其每一页上的问题",
+          "hash": "0a43a2441c8fc7b2bff8ab583c6ae24680f59e13f9023cbfcb85add3e98b8ac5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-96",
+          "en": "Fixed line breaks and class stereotypes missing from Mermaid diagrams in HTML artifacts",
+          "zh": "修复了 HTML artifact 中 Mermaid 图表缺少换行和类构造型的问题",
+          "hash": "55721887716dfbac1295ca73b6481b638ddc951a4e4396d064fd6d82a2166ac8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-97",
+          "en": "Fixed the Project instructions picker in `/config` showing only one of its four choices in a 24-row fullscreen window",
+          "zh": "修复了 `/config` 中的 Project instructions 选择器在 24 行全屏窗口中只显示四个选项之一的问题",
+          "hash": "877c6e6baa71196dbe5617b2bfb543030e7c15a5e2243c8c9d7afd30c49e22de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-98",
+          "en": "Fixed a subagent's own subagents and forks running on the plan-mode model in plan mode under `opusplan` or `haiku`",
+          "zh": "修复了在 `opusplan` 或 `haiku` 下处于计划模式时，subagent 自身的 subagents 和 fork 使用计划模式模型运行的问题",
+          "hash": "fb7fe3f048d6709aaa3bed20ce876fa4848ac06ac2755b3ce47568ca1838113a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-99",
+          "en": "Fixed WebFetch page summaries ignoring the `/effort` level when a gateway refuses the small fast model",
+          "zh": "修复了当网关拒绝小型快速模型时，WebFetch 页面摘要忽略 `/effort` 级别的问题",
+          "hash": "9696c13135c9ee90a25a85ccb5b9bd7930636c4680b50518a8e037818af356f6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-100",
+          "en": "Fixed `claude -p` on Google Cloud's Agent Platform ignoring `--settings '{\"fastMode\":true}'` when the model comes from `ANTHROPIC_MODEL` or a settings file; such runs now bill at the fast mode price",
+          "zh": "修复了在 Google Cloud 的 Agent Platform 上，当模型来自 `ANTHROPIC_MODEL` 或设置文件时，`claude -p` 忽略 `--settings '{\"fastMode\":true}'` 的问题；此类运行现在按快速模式价格计费",
+          "hash": "9d75575ad48063bb50e1e5630e1e7d29a5e4f2662f77b53c0359b1534a20bbbc",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-101",
+          "en": "Fixed startup under `forceLoginOrgUUID` being refused after one temporary server error or dropped connection",
+          "zh": "修复了在 `forceLoginOrgUUID` 下启动时，因一次临时服务器错误或连接中断而被拒绝的问题",
+          "hash": "c1834fc544a98cec1c6339c59e7be52fa9366a3055366daff13bfa4502dd2318",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-102",
+          "en": "Fixed `claude mcp remove` giving no way forward for a claude.ai connector: it now says to turn it off in /mcp or remove it on claude.ai",
+          "zh": "修复了 `claude mcp remove` 对 claude.ai connector 无计可施的问题：现在会提示在 /mcp 中将其关闭，或在 claude.ai 上将其移除",
+          "hash": "f70c32b58a02e755189f3abd4aba09e46733944c241d0b1b5d39a3a891a50c83",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-103",
+          "en": "Fixed the /mcp \"Connect on claude.ai\" check saying \"not connected\" when claude.ai has a connector at the server's URL without its query",
+          "zh": "修复了 /mcp 的“Connect on claude.ai”检查在 claude.ai 上存在位于该服务器 URL（不含其查询参数）的 connector 时却显示“not connected”的问题",
+          "hash": "1502b7a8cdf226cf0482a05498d2c4706eac336d607b76b47b3549d224ec2a58",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-104",
+          "en": "Fixed `/install-github-app` and `/design-login` showing a generic failure for an account on hold instead of the on-hold notice and appeal link",
+          "zh": "修复了 `/install-github-app` 和 `/design-login` 对处于暂停状态的账号显示通用失败信息，而非暂停通知和申诉链接的问题",
+          "hash": "7a75a487202fb5ae4196b86e958bb957be83ef1846ce700de917d953c2cb18ff",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-105",
+          "en": "Fixed a running MCP task being reported as stopped when you move a session to the background; the background session can now follow the task, but not if its server uses stdio or sets headers",
+          "zh": "修复了将 session 移到后台时，正在运行的 MCP 任务被报告为已停止的问题；后台 session 现在可以跟随该任务，但如果其服务器使用 stdio 或设置了 headers 则不行",
+          "hash": "62814ad75702dd55b3c6a125ad161ab2b8809214c8d03ca931be244debfe8c78",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-106",
+          "en": "Fixed self-hosted runners ignoring a session until they exited, after its failure report was lost or the session was given back to the same runner",
+          "zh": "修复了自托管运行器在失败报告丢失或 session 被交还给同一运行器后，忽略某个 session 直到其退出的问题",
+          "hash": "c8f60bbb4953f9ab263ddcaf62ac026984ad6b510987c773b7812862c20075fb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-107",
+          "en": "Fixed self-hosted sessions losing the prompt cache and earlier thinking when the list of repositories a restart couldn't prepare changed",
+          "zh": "修复了当重启时无法准备的仓库列表发生变化时，自托管 session 丢失 prompt 缓存和先前思考内容的问题",
+          "hash": "7d44dceaa8a54cd10d06b561f56ac48dd1216aa939634048db72f9a6dae32554",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-108",
+          "en": "Self-hosted runner: Fixed tool calls behind a permission prompt vanishing with no result when a new runner took over the prompt, in sessions with telemetry off",
+          "zh": "自托管运行器：修复了在关闭遥测的 session 中，当新的运行器接管权限提示时，权限提示背后的工具调用无结果消失的问题",
+          "hash": "f12d899f14345b149955ed3bf7f9ccb11107085585b3ea19e6b8a8302a7a771b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-109",
+          "en": "Fixed resumed self-hosted runner sessions starting without their pushed work in large repositories when `--push-outcome-on-release` is set",
+          "zh": "修复了在设置 `--push-outcome-on-release` 时，恢复的自托管运行器 session 在大型仓库中启动时缺少其已推送工作的问题",
+          "hash": "d0a785fa25f6225129001497cff777b3eb303e1c5a05ba409a4c8c34a2a28b70",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-110",
+          "en": "Fixed self-hosted runner sessions being shown as working when Claude Code hangs at every start and `--startup-timeout-min` is from 2 to about 6",
+          "zh": "修复了当 Claude Code 在每次启动时挂起且 `--startup-timeout-min` 为 2 到约 6 时，自托管运行器 session 被显示为正在工作的问题",
+          "hash": "0499ba53f3b9676c2f44e011c2dfe4224c4a3c48d38c84bca3e2b2fc5ccc43cd",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-111",
+          "en": "Fixed `pkill -f` in self-hosted runner sessions on Linux ending its own shell with exit code 144, or the runner (needs a `pkill` with `--ignore-ancestors`)",
+          "zh": "修复了 Linux 上自托管运行器 session 中的 `pkill -f` 以退出码 144 结束自身 shell 或运行器的问题（需要带 `--ignore-ancestors` 的 `pkill`）",
+          "hash": "ca183de0b3fd05b18b862569ca1c15674f8a1cf3d19a1cf4afb9d65fff0aa7ce",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-112",
+          "en": "Fixed scheduled tasks on self-hosted runners having no tool to notify their owner when telemetry is off or a third-party provider is used",
+          "zh": "修复了自托管运行器上的计划任务在关闭遥测或使用第三方提供商时没有工具通知其所有者的问题",
+          "hash": "34fdc500e037e22ed37014a25b0c09558b60e41eba9c11c0cf0e42d36142bde6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-113",
+          "en": "Self-hosted runner: Fixed one slow `spawn-runner` hook keeping the orchestrator from claiming sessions for its free slots; it now polls every 4 to 6 seconds while a slot is free",
+          "zh": "自托管运行器：修复了一个缓慢的 `spawn-runner` hook 导致编排器无法在有空闲槽位时认领 session 的问题；现在只要有空闲槽位，它每 4 到 6 秒轮询一次",
+          "hash": "a4b66b68c53e9befdfaab5d3855789bb61a2ab0f3e3003fcd07acf7a0e42a295",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-114",
+          "en": "Self-hosted runner: Fixed a 403, such as an IP allowlist's, logged as a bad secret or token: most such lines now lead with the server's reason, so update log alerts that match the old words",
+          "zh": "自托管运行器：修复了 403（例如 IP 允许列表导致的 403）被记录为密钥或 token 错误的问题：现在大多数此类日志行会以服务器给出的原因开头，因此请更新匹配旧措辞的日志告警",
+          "hash": "e24de3392a3ec47066c3e47de1d9c643504e6fcc6d0e9050e3d4c97a6ba4391f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-115",
+          "en": "Fixed self-hosted runners' warn mode for repository settings stopping at the first finding of most kinds: it now goes on, up to 50 for a session, and says if it stops early",
+          "zh": "修复了自托管运行器针对仓库设置的警告模式在遇到大多数类型的第一项发现时就停止的问题：现在会继续，每个 session 最多 50 项，并在提前停止时说明",
+          "hash": "bedd89279c9af8fb253a98a5a16cfa6d6567782e3754c63fe30aa2bbdf1f953f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-116",
+          "en": "Self-hosted runner: Fixed runners that start on a full disk taking sessions and failing them; they now wait for room and exit 1 after a minute with no session, unless started from a work order",
+          "zh": "自托管运行器：修复了在磁盘已满时启动的运行器仍接受 session 并使其失败的问题；现在它们会等待空间，若一分钟后仍无 session 则以退出码 1 退出，除非是从工作单启动的",
+          "hash": "056d6781b5396b8c1dd3f7ae01c378c56672129a4a93e75e2945195518856bb4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-117",
+          "en": "Self-hosted runner: Fixed a failed start suggesting a retry when the runner's machine had no git credentials; the error now says whom to ask and what to do if the repository is wrong",
+          "zh": "自托管运行器：修复了运行器所在机器没有 git 凭据时，启动失败却建议重试的问题；现在错误信息会说明该联系谁，以及如果仓库有误该怎么办",
+          "hash": "a2b8613554dfc92a8800cb7cc971142a035e66b19526989d18eb650073b58f31",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-118",
+          "en": "Fixed the self-hosted runner's `last_poll_age_seconds` reading 0 while the runner had never polled successfully",
+          "zh": "修复了自托管运行器的 `last_poll_age_seconds` 在运行器从未成功轮询过时却显示为 0 的问题",
+          "hash": "1dcc2aba38ed10cdc1040f9c22433a952af4de75be78d52c921ebd919960b0c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-119",
+          "en": "Fixed the notice about a skipped scheduled task that names no organization: it now says to start Claude Code with `--resume`, because `/resume` inside a running session doesn't run the task",
+          "zh": "修复了关于跳过计划任务且未指明组织的通知：现在会提示使用 `--resume` 启动 Claude Code，因为在运行中的 session 内执行 `/resume` 不会运行该任务",
+          "hash": "d917e052b48fee1faf78fbad03651eb150f222e4cd8e1166a517dc6918b67ca8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-120",
+          "en": "Fixed `claude plugin validate` wrongly warning that a mod's `AbovePrompt` or `AbovePromptList` hook never runs in VS Code",
+          "zh": "修复了 `claude plugin validate` 错误警告 mod 的 `AbovePrompt` 或 `AbovePromptList` hook 在 VS Code 中从不运行的问题",
+          "hash": "1772bd766ba1f2adf4730e3e56b5dcd39900f9a6d10882f57a4c22471542a403",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-121",
+          "en": "Fixed `/design-sync` deleting a file it had just uploaded when Claude Design stored that file under a changed name",
+          "zh": "修复 `/design-sync` 在 Claude Design 以更改后的名称存储文件时，删除其刚上传的文件的问题",
+          "hash": "efb0c5172c252c34582b9b7f7c4969e0662a1a793acb7477cb29efbdb66e4209",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-122",
+          "en": "\\[VSCode] Fixed VS Code opening and focusing its terminal on every prompt of a connected terminal session",
+          "zh": "\\[VSCode] 修复已连接的终端 session 中，VS Code 在每条 prompt 上都会打开并聚焦其终端的问题",
+          "hash": "a19d97056660003ccf70650da46bd9ec5c5b92b5849d2607ea1939804da91680",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-123",
+          "en": "\\[VSCode] Fixed copying a code block adding a trailing newline that ran the command on paste (anthropics/claude-code#96976)",
+          "zh": "\\[VSCode] 修复复制代码块时附加的末尾换行会在粘贴时执行命令的问题（anthropics/claude-code#96976）",
+          "hash": "26c280e69089b1140911c8f996f7cd2d0b64f6c517ba3258e0ea331350a1baac",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-124",
+          "en": "\\[VSCode] Fixed holding Enter on `/rewind` restoring files, and a double click on Remove or Delete removing a memory, MCP server or plugin marketplace, without confirmation",
+          "zh": "\\[VSCode] 修复在 `/rewind` 上按住 Enter 会恢复文件，以及在 Remove 或 Delete 上双击会在未经确认的情况下移除 memory、MCP server 或 plugin marketplace 的问题",
+          "hash": "a33f4067ba25de8d8e93ccbce94249556764a7d9d6bc10f4bbb36b4b5a988dd2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-125",
+          "en": "\\[VSCode] Fixed Enter on a question card sending your earlier answer instead of picking the focused one, and arrow keys not working after an \"Other\" answer; answered questions reopen on your pick",
+          "zh": "\\[VSCode] 修复在问题卡片上按 Enter 会发送先前的回答而非选择当前聚焦项，以及选择“Other”回答后方向键失效的问题；已回答的问题会按你的选择重新打开",
+          "hash": "8a1f57bc1dded368aa8fe2039b43fa3a8bafcc50a58e0a2db555959d96355cb3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-126",
+          "en": "\\[VSCode] Fixed a held-down Enter key sending a half-written message or running a typed slash command",
+          "zh": "\\[VSCode] 修复按住 Enter 键会发送未写完的消息或执行已输入的斜杠命令的问题",
+          "hash": "fd61c6fcf1104d8e366ada8c48297848c3a6aec764d39584ff5f7c18292aac1f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-127",
+          "en": "\\[VSCode] Fixed Cmd+A, C, V, X and Z not working in the rename box and dialogs on macOS",
+          "zh": "\\[VSCode] 修复 macOS 上 Cmd+A、C、V、X 和 Z 在重命名框和对话框中失效的问题",
+          "hash": "43498782b632b5b017c5d7ea300f5138195a531be5e6ad6eb3b84d32f008b79f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-128",
+          "en": "\\[VSCode] Fixed Ctrl+F and Ctrl+P not moving the caret in the message box on macOS",
+          "zh": "\\[VSCode] 修复 macOS 上 Ctrl+F 和 Ctrl+P 在消息框中不移动光标的问题",
+          "hash": "6790f17714635200fbb00dadc0ab2ddf5580f30ae090f4afb158e7a855e36826",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-129",
+          "en": "\\[VSCode] Fixed the Accept and Reject buttons doing nothing on a proposed diff moved to a new window",
+          "zh": "\\[VSCode] 修复将提议的 diff 移到新窗口后 Accept 和 Reject 按钮无响应的问题",
+          "hash": "54e62fc11cc68f872802692c6594938f27ea78ce08a6eee043160d7b44be053b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-130",
+          "en": "\\[VSCode] Fixed Accept and Reject Proposed Changes showing over the chat, the terminal tab and other files; they now show only on the proposed diff",
+          "zh": "\\[VSCode] 修复 Accept and Reject Proposed Changes 显示在聊天、终端标签页和其他文件之上的问题；现在仅在提议的 diff 上显示",
+          "hash": "69e8d7fa66fd65cda1855c208f1cae5e69b05781602a4be9a013c1a769539615",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-131",
+          "en": "\\[VSCode] Fixed a slow-starting Claude tab taking the keyboard away from the file you had gone on typing in",
+          "zh": "\\[VSCode] 修复启动缓慢的 Claude 标签页会从你正在继续输入的文件中抢走键盘焦点的问题",
+          "hash": "f9fbbbd4f9d9493ee138bed7beaa49d0c4bdf8339f3890de4fcb7a8814bce396",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-132",
+          "en": "\\[VSCode] Fixed unsaved changes and new problems being missed on macOS and Linux for files whose path contains `#`, `?` or `%20`, such as a `C#` folder",
+          "zh": "\\[VSCode] 修复 macOS 和 Linux 上路径包含 `#`、`?` 或 `%20` 的文件（例如 `C#` 文件夹）的未保存更改和新问题被遗漏的问题",
+          "hash": "a61849f836fa1429282e2a79baf60be8805bbe938bcf84a3eec6b623ba834b1b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-133",
+          "en": "\\[VSCode] Fixed whole-line selections counting one line too many in the selection chip, in @-mentions and in what Claude is told, and file links leaving out the last line of a range",
+          "zh": "\\[VSCode] 修复整行选择在选择标签、@ 提及以及告知 Claude 的内容中多算一行，以及文件链接遗漏范围最后一行的问题",
+          "hash": "18533475aa76d603451d98f49248981ca26c3035e0faa62ef4b173e381517fa3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-134",
+          "en": "\\[VSCode] Fixed a conversation forked in the panel re-running an old, unanswered prompt by itself after a window reload",
+          "zh": "\\[VSCode] 修复在面板中分叉的对话在窗口重新加载后自行重新执行旧的未回答 prompt 的问题",
+          "hash": "df0a2419d97802197a3ada0767bd473faef3aca15a06ff8892640b8aeb4e1d8f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-135",
+          "en": "\\[VSCode] Fixed a forked conversation running the original conversation's `/loop` schedules a second time",
+          "zh": "\\[VSCode] 修复分叉的对话会第二次执行原对话的 `/loop` 计划的问题",
+          "hash": "9564f505ab6df57d3565c16488f32da98f2c0902d1e4f831f2c3d9eb195ba88f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-136",
+          "en": "\\[VSCode] Fixed /clear giving no sign that the session still runs without a newly trusted folder's CLAUDE.md and settings",
+          "zh": "\\[VSCode] 修复 /clear 未提示 session 仍会在缺少新信任文件夹的 CLAUDE.md 和设置的情况下运行的问题",
+          "hash": "7b9606d5395d8715c267398b06291ac85d33553a89035ef0c2ef3219aa574add",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-137",
+          "en": "\\[VSCode] Fixed dialogs closing, and losing typed text, when a text selection was dragged past their edge",
+          "zh": "\\[VSCode] 修复将文本选择拖过对话框边缘时对话框关闭并丢失已输入文本的问题",
+          "hash": "890784cf8f70650f993f64fdd8aa42bb62661fcbe3cdfd2a28c39b5044fed121",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-138",
+          "en": "\\[VSCode] Fixed advisor calls showing as \"Unsupported content type\" (anthropics/claude-code#73499, anthropics/claude-code#64158, anthropics/claude-code#90471, anthropics/claude-code#73637)",
+          "zh": "\\[VSCode] 修复 advisor 调用显示为“Unsupported content type”的问题（anthropics/claude-code#73499、anthropics/claude-code#64158、anthropics/claude-code#90471、anthropics/claude-code#73637）",
+          "hash": "367632517faa07de02215373e2dd523413368200c4af3f4e68c8591be0b6e154",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-139",
+          "en": "\\[VSCode] Fixed the session list showing no status for the sidebar chat's session (anthropics/claude-code#93898)",
+          "zh": "\\[VSCode] 修复 session 列表不显示侧边栏聊天 session 状态的问题（anthropics/claude-code#93898）",
+          "hash": "9effcb85c90b9245d81ba03335772a51b09e766747413978ccc22044fc48241a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-140",
+          "en": "\\[VSCode] Fixed the plan preview's Add Comment button vanishing after a fast double click on a word",
+          "zh": "\\[VSCode] 修复快速双击某个单词后计划预览的 Add Comment 按钮消失的问题",
+          "hash": "3911df047003b4a361641274d6f4d9c425a71c0e49bcbe797597432dfe561b27",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-141",
+          "en": "\\[VSCode] Fixed long lines cut off in the Edit Notebook Cell row, permission rules squeezed in a narrow panel, hard-to-see question card marks, and menus moving the chat after a declined trust prompt",
+          "zh": "\\[VSCode] 修复了 Edit Notebook Cell 行中长行被截断、权限规则在窄面板中被挤压、问题卡片标记难以看清，以及拒绝信任提示后菜单导致聊天界面移动的问题",
+          "hash": "ccbb5f0863388d9462b73433ca0829e346c18bebd6900b4e4370af26f82a8adf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.330-fixes-142",
+          "en": "\\[VSCode] Fixed signing in to an account on hold showing a generic failure instead of the on-hold notice and appeal link",
+          "zh": "\\[VSCode] 修复了登录处于暂停状态的账户时显示通用失败信息，而非暂停通知和申诉链接的问题",
+          "hash": "a00d8dec3f50b25dd20bd5f96e8ab096e98bb43171c4e5e1e0fcfdaae5b6a1f4",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增企业组织登录、easel 图表与多项 VSCode 功能，并修复大量卡顿与稳定性问题。",
+    "highlights": [
+      {
+        "title": "企业组织登录与网关",
+        "category": "新功能",
+        "detail": "执行 claude auth login 后自动应用 Anthropic 企业管理控制台的组织设置，并使用其云服务商或网关。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "claude auth login",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.330-added-1"
+        ]
+      },
+      {
+        "title": "内置 easel 图表",
+        "category": "新功能",
+        "detail": "在 macOS 和 Linux 上按需及在 MCP 指标结果下绘制图表，可在 /config 中关闭自动图表。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/config",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.330-added-2"
+        ]
+      },
+      {
+        "title": "VSCode 多项新功能",
+        "category": "新功能",
+        "detail": "新增 /fork、/workflows、escapeStopsClaude、pinPrompt、contextUsageThreshold 等设置与命令。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "/fork",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.330-added-10",
+          "2.1.330-added-11",
+          "2.1.330-added-12",
+          "2.1.330-added-13",
+          "2.1.330-added-14"
+        ]
+      },
+      {
+        "title": "危险 rm 命令需批准",
+        "category": "改进",
+        "detail": "针对根目录、主目录或工作文件夹的 rm 命令改为请求批准，无人可应答时直接拒绝。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.330-changed-19"
+        ]
+      },
+      {
+        "title": "teleport 改为打印 git 命令",
+        "category": "破坏性变更",
+        "detail": "部分环境中 claude --teleport 不再直接切换分支，而是打印 git 命令；使用 -p 时在切换前以状态码 1 退出。",
+        "action": "需手动执行打印出的 git 命令切换分支，脚本需适配新的退出码行为。",
+        "example": {
+          "lang": "bash",
+          "code": "claude --teleport",
+          "caption": "命令示例"
+        },
+        "item_ids": [
+          "2.1.330-changed-21"
+        ]
+      },
+      {
+        "title": "修复卡顿与稳定性问题",
+        "category": "修复",
+        "detail": "修复上下文压缩后卡住数分钟、WebFetch 卡住或返回空结果、worktree 被误删、设置并发保存丢失等大量问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.330-fixes-45",
+          "2.1.330-fixes-46",
+          "2.1.330-fixes-47",
+          "2.1.330-fixes-48"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

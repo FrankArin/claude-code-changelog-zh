@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed skills that Claude runs with a `model` setting, other than `context: fork` skills, to leave subagents, forks, compaction and `/recap` on the session's model",
+  "zh": "变更：Claude 通过 `model` 设置运行的 skill（`context: fork` 的 skill 除外）现在会让 subagent、fork、上下文压缩和 `/recap` 继续使用 session 的模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

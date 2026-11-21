@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a long pause in Code Mode after code that read hundreds of files in projects with path-scoped rules or Read deny rules",
+  "zh": "修复了在配置了路径范围规则或 Read 拒绝规则的项目中，代码读取数百个文件后 Code Mode 长时间停顿的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

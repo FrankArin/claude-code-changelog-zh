@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed dialogs closing, and losing typed text, when a text selection was dragged past their edge",
+  "zh": "\\[VSCode] 修复将文本选择拖过对话框边缘时对话框关闭并丢失已输入文本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

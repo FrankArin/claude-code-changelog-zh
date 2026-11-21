@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Added `--start-dir` / `SELF_HOSTED_RUNNER_START_DIR` to have Claude start its work in a folder of a repository, while settings and hooks load as without it",
+  "zh": "自托管运行器：新增 `--start-dir` / `SELF_HOSTED_RUNNER_START_DIR`，让 Claude 在仓库的某个文件夹中开始工作，同时设置和 hooks 的加载方式与不使用时相同",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

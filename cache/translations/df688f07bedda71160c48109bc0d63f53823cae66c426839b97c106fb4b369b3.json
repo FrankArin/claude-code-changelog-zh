@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a slow-starting Claude tab taking the keyboard away from the file you had gone on typing in",
+  "zh": "\\[VSCode] 修复启动缓慢的 Claude 标签页会从你正在继续输入的文件中抢走键盘焦点的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

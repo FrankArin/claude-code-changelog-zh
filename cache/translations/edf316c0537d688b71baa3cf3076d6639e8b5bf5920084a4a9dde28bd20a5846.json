@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/config` search: most settings whose name starts with what you type come first, \"effort\" finds Model, and \"dark\" or \"light\" finds Theme",
+  "zh": "改进：`/config` 搜索：名称以输入内容开头的设置大多排在前面，输入 \"effort\" 可找到 Model，输入 \"dark\" 或 \"light\" 可找到 Theme",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

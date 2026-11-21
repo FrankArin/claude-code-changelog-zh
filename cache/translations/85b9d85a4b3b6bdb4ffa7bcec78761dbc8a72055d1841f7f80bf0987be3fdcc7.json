@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/context` undercounting system tools in Code Mode before Claude's first reply",
+  "zh": "修复了 Code Mode 中 `/context` 在 Claude 首次回复前少计系统工具的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

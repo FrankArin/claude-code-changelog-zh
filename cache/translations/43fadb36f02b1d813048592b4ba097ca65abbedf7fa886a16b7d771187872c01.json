@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed WebFetch page summaries ignoring the `/effort` level when a gateway refuses the small fast model",
+  "zh": "修复了当网关拒绝小型快速模型时，WebFetch 页面摘要忽略 `/effort` 级别的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

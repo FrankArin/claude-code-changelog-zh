@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode: the terminal freezes for far less time after a subagent's script makes thousands of tool calls",
+  "zh": "改进 Code Mode：subagent 的脚本发起数千次工具调用后，终端卡顿的时间大幅缩短",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

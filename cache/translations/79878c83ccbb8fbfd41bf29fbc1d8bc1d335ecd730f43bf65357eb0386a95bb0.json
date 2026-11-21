@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed self-hosted runners ignoring a session until they exited, after its failure report was lost or the session was given back to the same runner",
+  "zh": "修复了自托管运行器在失败报告丢失或 session 被交还给同一运行器后，忽略某个 session 直到其退出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

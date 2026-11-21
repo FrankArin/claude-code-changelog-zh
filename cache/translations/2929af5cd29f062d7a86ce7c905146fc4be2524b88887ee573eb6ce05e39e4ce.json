@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Improved the error when a session's folder is on a drive Claude Code can't verify: it says why, and whether retrying can help",
+  "zh": "Windows：改进 session 文件夹位于 Claude Code 无法验证的驱动器时的错误提示：说明原因，并提示重试是否有帮助",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

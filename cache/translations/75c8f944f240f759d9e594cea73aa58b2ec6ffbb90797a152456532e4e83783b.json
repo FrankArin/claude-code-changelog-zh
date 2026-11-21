@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude sometimes replying to its commit attribution reminder and ending the turn early after the model changed mid-turn; it can still happen where managed settings set the PR attribution line",
+  "zh": "修复了模型在轮次中途更换后，Claude 有时回复其提交归属提醒并提前结束本轮的问题；在托管设置指定 PR 归属行的情况下仍可能出现",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

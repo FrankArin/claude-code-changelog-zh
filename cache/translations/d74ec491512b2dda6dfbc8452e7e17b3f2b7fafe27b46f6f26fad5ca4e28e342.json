@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Claude still waiting for a background agent that was stopped just as it finished, in sessions run by an app or the SDK",
+  "zh": "修复了在由应用或 SDK 运行的 session 中，后台 agent 恰好在完成时被停止，Claude 仍继续等待它的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

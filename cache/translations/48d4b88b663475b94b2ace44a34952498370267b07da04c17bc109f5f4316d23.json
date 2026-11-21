@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the error on macOS when sandbox deny lists are too long: it now names the long lists and how to shorten them",
+  "zh": "改进：macOS 上沙箱拒绝列表过长时的错误提示：现在会指出过长的列表以及如何缩短它们",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

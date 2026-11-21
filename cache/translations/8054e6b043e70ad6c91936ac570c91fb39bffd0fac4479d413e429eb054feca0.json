@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed subagent progress summaries in terminal sessions signed in to a Claude apps gateway to be written from short notes instead of the whole conversation, using far fewer tokens",
+  "zh": "变更：在登录 Claude 应用网关的终端 session 中，subagent 进度摘要现在基于简短笔记而非完整对话生成，使用的 token 大幅减少",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

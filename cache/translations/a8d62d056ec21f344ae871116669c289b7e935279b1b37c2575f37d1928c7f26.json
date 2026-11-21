@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed /clear giving no sign that the session still runs without a newly trusted folder's CLAUDE.md and settings",
+  "zh": "\\[VSCode] 修复 /clear 未提示 session 仍会在缺少新信任文件夹的 CLAUDE.md 和设置的情况下运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

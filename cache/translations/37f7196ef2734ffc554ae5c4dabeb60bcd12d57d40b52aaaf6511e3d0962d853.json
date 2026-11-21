@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a subagent's own subagents and forks running on the plan-mode model in plan mode under `opusplan` or `haiku`",
+  "zh": "修复了在 `opusplan` 或 `haiku` 下处于计划模式时，subagent 自身的 subagents 和 fork 使用计划模式模型运行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

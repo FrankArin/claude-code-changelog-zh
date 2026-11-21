@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/ultrareview`'s cost confirmation on Team and Enterprise plans: it now says how much of your monthly spend limit is left when that is less than a review usually costs",
+  "zh": "改进：Team 和 Enterprise 方案下 `/ultrareview` 的费用确认：当每月支出限额剩余额度低于一次评审的通常费用时，现在会显示剩余额度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

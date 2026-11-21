@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a `prompt` argument to the \"Open in Side Bar\" command for keybindings and extensions",
+  "zh": "\\[VSCode] 为“Open in Side Bar”命令新增 `prompt` 参数，供快捷键绑定和扩展使用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

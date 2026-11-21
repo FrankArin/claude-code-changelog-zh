@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed copying a code block adding a trailing newline that ran the command on paste (anthropics/claude-code#96976)",
+  "zh": "\\[VSCode] 修复复制代码块时附加的末尾换行会在粘贴时执行命令的问题（anthropics/claude-code#96976）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

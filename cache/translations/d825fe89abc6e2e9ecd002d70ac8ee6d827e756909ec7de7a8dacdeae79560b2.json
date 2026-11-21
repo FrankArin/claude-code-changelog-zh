@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/rewind` sometimes restoring an older version of a file when two queued prompts, or stacked skills, ran together right after a turn that changed it",
+  "zh": "修复在更改文件的轮次之后紧接着运行两个排队的 prompt 或叠加的 skills 时，`/rewind` 有时恢复文件旧版本的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

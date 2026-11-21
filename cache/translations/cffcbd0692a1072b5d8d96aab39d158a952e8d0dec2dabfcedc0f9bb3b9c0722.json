@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed Bash commands to skip the file diff when nothing needs it, so transcripts can lack it; set `bashEditDiffEnabled` to true in managed settings to get every diff",
+  "zh": "自托管运行器：变更：Bash 命令在不需要文件 diff 时会跳过生成，因此 transcript 中可能缺少该 diff；在托管设置中将 `bashEditDiffEnabled` 设为 true 可获取所有 diff",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

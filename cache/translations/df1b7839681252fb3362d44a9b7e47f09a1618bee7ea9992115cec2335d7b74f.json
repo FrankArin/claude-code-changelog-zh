@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the system prompt keeping the earlier model's instructions when the model was changed after `/context` but before the first message",
+  "zh": "修复了在 `/context` 之后、首条消息之前更换模型时，系统 prompt 仍保留先前模型指令的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed prompt hooks to accept model aliases such as `haiku` or `sonnet` in their `model` field",
+  "zh": "变更：prompt hook 的 `model` 字段现在接受 `haiku` 或 `sonnet` 等模型别名",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

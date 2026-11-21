@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed unsaved changes and new problems being missed on macOS and Linux for files whose path contains `#`, `?` or `%20`, such as a `C#` folder",
+  "zh": "\\[VSCode] 修复 macOS 和 Linux 上路径包含 `#`、`?` 或 `%20` 的文件（例如 `C#` 文件夹）的未保存更改和新问题被遗漏的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

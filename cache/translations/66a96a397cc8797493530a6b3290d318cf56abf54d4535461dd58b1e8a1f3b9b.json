@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed plugins going missing from the installed list when several `claude plugin` commands ran at the same time",
+  "zh": "修复了多个 `claude plugin` 命令同时运行时，plugin 从已安装列表中消失的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

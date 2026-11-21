@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Reconnect in `/mcp` and `/plugin`: a server's page now stays open, with the cause in view, when the server still fails or needs sign-in",
+  "zh": "改进：`/mcp` 和 `/plugin` 中的重新连接：当服务器仍然失败或需要登录时，服务器页面会保持打开并显示原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

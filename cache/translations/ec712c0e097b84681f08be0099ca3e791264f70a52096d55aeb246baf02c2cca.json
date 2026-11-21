@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a running MCP task being reported as stopped when you move a session to the background; the background session can now follow the task, but not if its server uses stdio or sets headers",
+  "zh": "修复了将 session 移到后台时，正在运行的 MCP 任务被报告为已停止的问题；后台 session 现在可以跟随该任务，但如果其服务器使用 stdio 或设置了 headers 则不行",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

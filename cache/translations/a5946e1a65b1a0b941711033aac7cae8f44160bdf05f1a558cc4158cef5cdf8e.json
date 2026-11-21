@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed whole-line selections counting one line too many in the selection chip, in @-mentions and in what Claude is told, and file links leaving out the last line of a range",
+  "zh": "\\[VSCode] 修复整行选择在选择标签、@ 提及以及告知 Claude 的内容中多算一行，以及文件链接遗漏范围最后一行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

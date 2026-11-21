@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed a failed start suggesting a retry when the runner's machine had no git credentials; the error now says whom to ask and what to do if the repository is wrong",
+  "zh": "自托管运行器：修复了运行器所在机器没有 git 凭据时，启动失败却建议重试的问题；现在错误信息会说明该联系谁，以及如果仓库有误该怎么办",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after `claude auth login`, Claude Code applies the organization's settings and uses its cloud provider or gateway",
+  "zh": "新增登录 Anthropic 企业管理控制台中管理的组织：执行 `claude auth login` 后，Claude Code 会应用该组织的设置，并使用其云服务商或网关",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

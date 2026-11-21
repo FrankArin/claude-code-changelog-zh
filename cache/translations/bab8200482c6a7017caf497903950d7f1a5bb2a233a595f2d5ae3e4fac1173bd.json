@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and Enterprise on macOS and Linux; turn automatic charts off in `/config`",
+  "zh": "新增 easel，这是一个内置 mod，在被要求时以及 MCP 指标结果下方绘制图表，适用于 macOS 和 Linux 上的 Pro、Max 以及（如可用）Team 和 Enterprise；可在 `/config` 中关闭自动图表",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

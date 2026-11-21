@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the notice about a skipped scheduled task that names no organization: it now says to start Claude Code with `--resume`, because `/resume` inside a running session doesn't run the task",
+  "zh": "修复了关于跳过计划任务且未指明组织的通知：现在会提示使用 `--resume` 启动 Claude Code，因为在运行中的 session 内执行 `/resume` 不会运行该任务",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

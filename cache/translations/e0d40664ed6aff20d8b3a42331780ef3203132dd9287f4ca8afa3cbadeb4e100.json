@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed claude.ai connectors with different names being dropped when they share a server URL (anthropics/claude-code#101856)",
+  "zh": "修复了 claude.ai connector 名称不同但共享同一服务器 URL 时被丢弃的问题（anthropics/claude-code#101856）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

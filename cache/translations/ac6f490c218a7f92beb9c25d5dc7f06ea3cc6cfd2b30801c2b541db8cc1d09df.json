@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added the `claudeCode.escapeStopsClaude` setting; turn it off so Escape does not stop Claude (anthropics/claude-code#91536)",
+  "zh": "\\[VSCode] 新增 `claudeCode.escapeStopsClaude` 设置；将其关闭后，按 Escape 不会停止 Claude（anthropics/claude-code#91536）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

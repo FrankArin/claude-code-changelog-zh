@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an \"MCP server blocked by enterprise policy: easel\" warning showing at every start when an MCP allowlist or denylist excludes the built-in chart tool, which stays blocked",
+  "zh": "修复了当 MCP 允许列表或拒绝列表排除内置图表工具时，每次启动都会显示 \"MCP server blocked by enterprise policy: easel\" 警告的问题；该工具仍保持被阻止状态",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

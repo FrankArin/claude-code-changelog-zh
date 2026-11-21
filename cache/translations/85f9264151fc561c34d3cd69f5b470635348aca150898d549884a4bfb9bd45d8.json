@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed long lines cut off in the Edit Notebook Cell row, permission rules squeezed in a narrow panel, hard-to-see question card marks, and menus moving the chat after a declined trust prompt",
+  "zh": "\\[VSCode] 修复了 Edit Notebook Cell 行中长行被截断、权限规则在窄面板中被挤压、问题卡片标记难以看清，以及拒绝信任提示后菜单导致聊天界面移动的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added Move up and Move down to a session group's menu (anthropics/claude-code#98654)",
+  "zh": "\\[VSCode] 在 session 分组菜单中新增“上移”和“下移”（anthropics/claude-code#98654）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

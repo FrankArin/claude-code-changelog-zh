@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "versions": [
+    "2.1.330"
+  ],
+  "tldr": "新增企业组织登录、easel 图表与多项 VSCode 功能，并修复大量卡顿与稳定性问题。",
+  "highlights": [
+    {
+      "title": "企业组织登录与网关",
+      "category": "新功能",
+      "detail": "执行 claude auth login 后自动应用 Anthropic 企业管理控制台的组织设置，并使用其云服务商或网关。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "claude auth login",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.330-added-1"
+      ],
+      "version": "2.1.330"
+    },
+    {
+      "title": "内置 easel 图表",
+      "category": "新功能",
+      "detail": "在 macOS 和 Linux 上按需及在 MCP 指标结果下绘制图表，可在 /config 中关闭自动图表。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/config",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.330-added-2"
+      ],
+      "version": "2.1.330"
+    },
+    {
+      "title": "VSCode 多项新功能",
+      "category": "新功能",
+      "detail": "新增 /fork、/workflows、escapeStopsClaude、pinPrompt、contextUsageThreshold 等设置与命令。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/fork",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.330-added-10",
+        "2.1.330-added-11",
+        "2.1.330-added-12",
+        "2.1.330-added-13",
+        "2.1.330-added-14"
+      ],
+      "version": "2.1.330"
+    },
+    {
+      "title": "危险 rm 命令需批准",
+      "category": "改进",
+      "detail": "针对根目录、主目录或工作文件夹的 rm 命令改为请求批准，无人可应答时直接拒绝。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.330-changed-19"
+      ],
+      "version": "2.1.330"
+    },
+    {
+      "title": "teleport 改为打印 git 命令",
+      "category": "破坏性变更",
+      "detail": "部分环境中 claude --teleport 不再直接切换分支，而是打印 git 命令；使用 -p 时在切换前以状态码 1 退出。",
+      "action": "需手动执行打印出的 git 命令切换分支，脚本需适配新的退出码行为。",
+      "example": {
+        "lang": "bash",
+        "code": "claude --teleport",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.330-changed-21"
+      ],
+      "version": "2.1.330"
+    },
+    {
+      "title": "修复卡顿与稳定性问题",
+      "category": "修复",
+      "detail": "修复上下文压缩后卡住数分钟、WebFetch 卡住或返回空结果、worktree 被误删、设置并发保存丢失等大量问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.330-fixes-45",
+        "2.1.330-fixes-46",
+        "2.1.330-fixes-47",
+        "2.1.330-fixes-48"
+      ],
+      "version": "2.1.330"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "4a86fc4d391f9234c5e8050ed7857617508aa2ca2198d18b8bd2769d7a5194f7"
+}

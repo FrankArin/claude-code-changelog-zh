@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed a 403, such as an IP allowlist's, logged as a bad secret or token: most such lines now lead with the server's reason, so update log alerts that match the old words",
+  "zh": "自托管运行器：修复了 403（例如 IP 允许列表导致的 403）被记录为密钥或 token 错误的问题：现在大多数此类日志行会以服务器给出的原因开头，因此请更新匹配旧措辞的日志告警",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

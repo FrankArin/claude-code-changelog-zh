@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Reverted 2.1.329's removal of the automatic retry when `max_tokens` exceeds a model's or gateway's limit",
+  "zh": "回退了 2.1.329 中对 `max_tokens` 超过模型或网关限制时自动重试的移除",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

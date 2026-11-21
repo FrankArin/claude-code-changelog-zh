@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed scheduled tasks on self-hosted runners having no tool to notify their owner when telemetry is off or a third-party provider is used",
+  "zh": "修复了自托管运行器上的计划任务在关闭遥测或使用第三方提供商时没有工具通知其所有者的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed markdown hiding a character or two after bold or italic text when a backslash came before an emoji later in the paragraph",
+  "zh": "修复了当段落中较后位置的 emoji 前有反斜杠时，markdown 在粗体或斜体文本后隐藏一两个字符的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

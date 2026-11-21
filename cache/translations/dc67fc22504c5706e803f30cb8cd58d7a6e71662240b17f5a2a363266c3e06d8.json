@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed unrecognized model names containing \"sonnet\" or \"haiku\" to use the shorter system prompt, like other unrecognized names; `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` gives every model the full one",
+  "zh": "变更：名称中包含 \"sonnet\" 或 \"haiku\" 的未识别模型，现在与其他未识别名称一样使用较短的系统提示词；设置 `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0` 可为所有模型提供完整提示词",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

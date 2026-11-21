@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `claude_code_self_hosted_runner_order_to_first_session_seconds` to the self-hosted runner's `/metrics`: seconds from work order to first session handed over, on runners started for a session",
+  "zh": "在自托管运行器的 `/metrics` 中新增 `claude_code_self_hosted_runner_order_to_first_session_seconds`：在为某个 session 启动的运行器上，从下发工单到移交首个 session 的秒数",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

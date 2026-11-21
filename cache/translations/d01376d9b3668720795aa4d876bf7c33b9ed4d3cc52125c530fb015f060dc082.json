@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Improved Grep and Glob speed by no longer starting a console host for each built-in ripgrep search on a local path",
+  "zh": "Windows：改进：在本地路径上执行内置 ripgrep 搜索时不再为每次搜索启动控制台宿主，从而提升 Grep 和 Glob 的速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_CODE_FULL_SIGN_IN_LINK=1` to print the full sign-in link, if the short one shows an error or a script reads values from it",
+  "zh": "新增 `CLAUDE_CODE_FULL_SIGN_IN_LINK=1`，用于打印完整的登录链接，适用于短链接报错或脚本从中读取值的情况",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

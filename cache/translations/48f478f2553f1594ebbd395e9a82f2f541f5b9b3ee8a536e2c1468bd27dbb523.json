@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Cmd+A, C, V, X and Z not working in the rename box and dialogs on macOS",
+  "zh": "\\[VSCode] 修复 macOS 上 Cmd+A、C、V、X 和 Z 在重命名框和对话框中失效的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

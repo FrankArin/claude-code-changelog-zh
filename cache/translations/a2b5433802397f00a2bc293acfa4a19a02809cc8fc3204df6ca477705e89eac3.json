@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode ignoring an MCP tool's request to end the turn from a script in auto and bypass permissions modes",
+  "zh": "修复了在自动模式和绕过权限模式下，Code Mode 忽略 MCP 工具从脚本发出的结束本轮请求的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

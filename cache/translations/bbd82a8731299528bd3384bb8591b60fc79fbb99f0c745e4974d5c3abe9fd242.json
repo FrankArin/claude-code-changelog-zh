@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Fixed runners that start on a full disk taking sessions and failing them; they now wait for room and exit 1 after a minute with no session, unless started from a work order",
+  "zh": "自托管运行器：修复了在磁盘已满时启动的运行器仍接受 session 并使其失败的问题；现在它们会等待空间，若一分钟后仍无 session 则以退出码 1 退出，除非是从工作单启动的",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

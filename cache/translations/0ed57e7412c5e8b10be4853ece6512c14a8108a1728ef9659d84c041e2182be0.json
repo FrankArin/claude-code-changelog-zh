@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed holding Enter on `/rewind` restoring files, and a double click on Remove or Delete removing a memory, MCP server or plugin marketplace, without confirmation",
+  "zh": "\\[VSCode] 修复在 `/rewind` 上按住 Enter 会恢复文件，以及在 Remove 或 Delete 上双击会在未经确认的情况下移除 memory、MCP server 或 plugin marketplace 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

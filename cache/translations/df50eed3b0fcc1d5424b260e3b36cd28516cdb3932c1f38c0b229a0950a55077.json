@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the Project instructions picker in `/config` showing only one of its four choices in a 24-row fullscreen window",
+  "zh": "修复了 `/config` 中的 Project instructions 选择器在 24 行全屏窗口中只显示四个选项之一的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

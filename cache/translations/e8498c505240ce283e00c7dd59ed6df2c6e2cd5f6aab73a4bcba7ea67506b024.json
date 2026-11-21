@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP resources from claude.ai connectors and plugin servers not being attached when @-mentioned in the terminal's prompt box",
+  "zh": "修复在终端 prompt 框中用 @ 提及时，来自 claude.ai connectors 和 plugin 服务器的 MCP 资源未被附加的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

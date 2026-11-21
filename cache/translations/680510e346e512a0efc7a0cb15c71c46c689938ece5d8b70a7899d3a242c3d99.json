@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/design-sync` deleting a file it had just uploaded when Claude Design stored that file under a changed name",
+  "zh": "修复 `/design-sync` 在 Claude Design 以更改后的名称存储文件时，删除其刚上传的文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

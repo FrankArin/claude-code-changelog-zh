@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Accept and Reject Proposed Changes showing over the chat, the terminal tab and other files; they now show only on the proposed diff",
+  "zh": "\\[VSCode] 修复 Accept and Reject Proposed Changes 显示在聊天、终端标签页和其他文件之上的问题；现在仅在提议的 diff 上显示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

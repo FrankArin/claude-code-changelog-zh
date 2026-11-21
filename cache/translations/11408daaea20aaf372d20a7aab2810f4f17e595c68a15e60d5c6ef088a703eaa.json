@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed turns failing with \"JSON schema is invalid\", and session files growing by many megabytes, when many MCP tools have an input schema that the API refuses",
+  "zh": "修复大量 MCP 工具的输入 schema 被 API 拒绝时，轮次失败并报“JSON schema is invalid”，以及 session 文件增大数 MB 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

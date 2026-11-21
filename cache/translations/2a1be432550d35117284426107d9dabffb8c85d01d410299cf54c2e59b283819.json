@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the choice between two user or project agent files declaring the same name depending on the order the file search listed them",
+  "zh": "修复了两个声明相同名称的用户或项目 agent 文件之间的选择取决于文件搜索列出顺序的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

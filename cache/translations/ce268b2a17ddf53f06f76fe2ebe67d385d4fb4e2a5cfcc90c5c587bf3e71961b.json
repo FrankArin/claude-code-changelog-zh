@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed line breaks and class stereotypes missing from Mermaid diagrams in HTML artifacts",
+  "zh": "修复了 HTML artifact 中 Mermaid 图表缺少换行和类构造型的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

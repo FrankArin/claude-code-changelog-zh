@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed VS Code opening and focusing its terminal on every prompt of a connected terminal session",
+  "zh": "\\[VSCode] 修复已连接的终端 session 中，VS Code 在每条 prompt 上都会打开并聚焦其终端的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

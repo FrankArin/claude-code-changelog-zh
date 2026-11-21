@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed more `rm` commands aimed at the root, home, a top-level folder or the working folder to ask for approval; where nobody can answer, they're refused",
+  "zh": "更多针对根目录、主目录、顶层文件夹或工作文件夹的 `rm` 命令改为请求批准；在无人可应答的情况下则直接拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

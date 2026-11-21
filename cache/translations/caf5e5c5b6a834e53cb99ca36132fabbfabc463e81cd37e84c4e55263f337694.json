@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude --teleport` in some setups to print the git commands for switching branch instead of running them; with `-p` it exits 1 until you switch",
+  "zh": "变更：在某些环境中，`claude --teleport` 改为打印用于切换分支的 git 命令，而不再直接执行；使用 `-p` 时，在你切换分支前会以状态码 1 退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

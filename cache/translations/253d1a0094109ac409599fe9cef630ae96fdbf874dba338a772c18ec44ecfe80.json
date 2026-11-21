@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a conversation forked in the panel re-running an old, unanswered prompt by itself after a window reload",
+  "zh": "\\[VSCode] 修复在面板中分叉的对话在窗口重新加载后自行重新执行旧的未回答 prompt 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}

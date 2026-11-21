@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Fixed Bash commands waiting seconds and showing no file diff for the rest of a session in slow repositories with large ignored folders such as `node_modules`",
+  "zh": "Linux：修复在包含 `node_modules` 等大型忽略文件夹的缓慢仓库中，Bash 命令等待数秒，且 session 剩余时间内不显示文件 diff 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-21T01:08:55+00:00"
+}
