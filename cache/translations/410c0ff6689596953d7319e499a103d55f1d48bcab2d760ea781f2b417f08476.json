@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed PermissionRequest hooks not saving `Skill(name:*)` allow rules outside local settings",
+  "zh": "修复了 PermissionRequest hook 无法在本地设置之外保存 `Skill(name:*)` 允许规则的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

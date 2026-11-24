@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode sessions resumed with `--resume` or `--continue` in another permission mode losing thinking and the prompt cache; one begun in a mode that asks keeps that mode's limits on scripts",
+  "zh": "修复了在其他权限模式下通过 `--resume` 或 `--continue` 恢复的 Code Mode session 丢失思考和 prompt 缓存的问题；在会询问的模式下启动的 session 会保留该模式对脚本的限制",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

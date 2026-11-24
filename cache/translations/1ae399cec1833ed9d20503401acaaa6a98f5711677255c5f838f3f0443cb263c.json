@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed Claude Code refusing to start when managed settings in the registry contain non-ASCII characters such as Japanese (anthropics/claude-code#93280)",
+  "zh": "Windows：修复了注册表中的托管设置包含日文等非 ASCII 字符时 Claude Code 拒绝启动的问题（anthropics/claude-code#93280）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

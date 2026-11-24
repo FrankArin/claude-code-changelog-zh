@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a chat left in bypass permissions mode reopening in Auto mode instead of your initial permission mode when settings disable bypass",
+  "zh": "\\[VSCode] 修复了处于 bypass 权限模式的聊天在设置禁用 bypass 后重新打开时进入自动模式而非初始权限模式的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

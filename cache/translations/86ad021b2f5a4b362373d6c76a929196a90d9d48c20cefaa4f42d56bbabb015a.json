@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc and Stop waiting about a minute or more when the contents of a cloud or network file that Claude is reading stall",
+  "zh": "修复了 Claude 正在读取的云文件或网络文件内容卡住时，Esc 和 Stop 需等待约一分钟或更久的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

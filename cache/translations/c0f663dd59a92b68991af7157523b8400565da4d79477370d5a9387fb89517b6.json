@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added \"Add to Chat\" to the right-click menu of changed files in the Source Control view",
+  "zh": "\\[VSCode] 新增 Source Control 视图中已更改文件右键菜单的“Add to Chat”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

@@ -1,0 +1,1068 @@
+{
+  "schema_version": 1,
+  "version": "2.1.331",
+  "date": "2026-11-23",
+  "source_url": "https://code.claude.com/docs/en/changelog",
+  "source_hash": "48ccade16f3b122242bc02fda679eeab36734349b4f25c430fec60d9b831ed4a",
+  "translation": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-chat",
+    "prompt_version": "v1",
+    "glossary_version": "v2",
+    "translated_at": "2026-11-24T05:11:04+00:00"
+  },
+  "groups": [
+    {
+      "kind": "added",
+      "heading_en": "Added",
+      "heading_zh": "新增",
+      "items": [
+        {
+          "id": "2.1.331-added-1",
+          "en": "Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS",
+          "zh": "新增在 Amazon Bedrock、Google Cloud 的 Agent Platform、Microsoft Foundry 和 AWS 上的 Claude Platform 的终端 session 中支持 Code Mode",
+          "hash": "4934ae1b32c17ef40245570fda0634abf44fe7001e43a09e143d38df247b8afe",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-2",
+          "en": "Added `oidc.groups_jsonpath` to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535)",
+          "zh": "新增 Claude 应用网关的 `oidc.groups_jsonpath`，用于通过一小部分 JSONPath（RFC 9535）从对象列表的匹配条目中读取 groups",
+          "hash": "91ab45f2369ab86539760b57097afd2042c0824a9ff30865afc8620cd2ad696b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-3",
+          "en": "Added an API connectivity section to `claude doctor` that reports whether the API can be reached, with the HTTP status or the error, or says why it wasn't tested",
+          "zh": "新增 `claude doctor` 的 API 连通性部分，报告 API 是否可达，并给出 HTTP 状态或错误，或说明为何未测试",
+          "hash": "74e7c1579b5745a1f05357c1d8343d4e05597bff62e64b37686359472fb64083",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-4",
+          "en": "Added a notice when tap-mode voice dictation stops by itself, after 15 seconds without recognized speech or at its 2-minute limit",
+          "zh": "新增轻点模式语音听写自行停止时的提示：在 15 秒未识别到语音后或达到 2 分钟上限时",
+          "hash": "5e0ee75107b25a250143d42d91f23a0d9e646e59e3d430dd338eff665ab14ad2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-5",
+          "en": "Added `CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION` to ask for uncompressed model responses behind a proxy that cuts compressed ones off; not advised yet for self-hosted runners or Remote Control",
+          "zh": "新增 `CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION`，用于在会截断压缩响应的代理后请求未压缩的模型响应；目前不建议用于自托管运行器或远程控制",
+          "hash": "8e7e1cb7c945d7f75c96186b312f426c9a29550ab7b4a5f5e101f22e2d0948a8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-6",
+          "en": "Added `CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1` for Claude apps gateways: with `oidc.use_proxy: true`, sign-in requests hand the proxy an `https` IdP's hostname even with `NO_PROXY` set",
+          "zh": "新增 Claude 应用网关的 `CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1`：配合 `oidc.use_proxy: true` 时，即使设置了 `NO_PROXY`，登录请求也会把 `https` IdP 的主机名交给代理",
+          "hash": "4bdb9097c54e7caf921d5bc2997644abc60805b5015b906ec06c258b925feb0c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-7",
+          "en": "Added `gen_ai.usage.*`, `gen_ai.response.model` and `gen_ai.operation.name` to `claude_code.llm_request` trace spans; `gen_ai.usage.input_tokens` includes prompt cache tokens",
+          "zh": "新增 `claude_code.llm_request` trace span 的 `gen_ai.usage.*`、`gen_ai.response.model` 和 `gen_ai.operation.name`；`gen_ai.usage.input_tokens` 包含 prompt 缓存 token",
+          "hash": "4c59357f3ff564a40bd3e6ba90cac3b2f36e8e23d5834bc2e0fbe2ca5767416c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-8",
+          "en": "Added `optionalDependencies` to plugin manifests: plugins that install with the plugin listing them and can be disabled or uninstalled on their own",
+          "zh": "新增 plugin 清单的 `optionalDependencies`：随列出它们的 plugin 一起安装，并可单独禁用或卸载的 plugin",
+          "hash": "2d7ebba8a619f8b7bfc70c0dbb2589311b390996ba9650e88872c67ae58baf56",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-9",
+          "en": "\\[VSCode] Added a warning and a link to the revoke page when you log out and the request to revoke your claude.ai login isn't confirmed",
+          "zh": "\\[VSCode] 新增退出登录时撤销 claude.ai 登录的请求未获确认的警告和撤销页面链接",
+          "hash": "8ebbeb5934a36d5bde87c2f03684efdb76510b358ccc7ae73822f7b09bd9b496",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-10",
+          "en": "\\[VSCode] Added a notice before sending a very large selection or attached text file, and advice under \"Prompt is too long\" that names the large part and what to do next",
+          "zh": "\\[VSCode] 新增发送超大选区或附加文本文件前的提示，并在“Prompt is too long”下给出建议，指明过大的部分及后续操作",
+          "hash": "81e98ea9050b5c7bd6d3b7c8b3c08a4abf55730fc1061c24c6e9018a8266865e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-11",
+          "en": "\\[VSCode] Added \"Add Cell to Chat\" to the notebook cell menu, which attaches a cell with its outputs or error",
+          "zh": "\\[VSCode] 新增 notebook 单元格菜单中的“Add Cell to Chat”，可附加单元格及其输出或错误",
+          "hash": "571fd5917347af6655d65f08e59847cf9b0133d253ccfc69836378bd2baf58d6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-12",
+          "en": "\\[VSCode] Added \"Fix with Claude Code\" as a quick fix for errors and warnings and to failed tests in the test peek and the Test Results view, which puts the problem into the chat box",
+          "zh": "\\[VSCode] 新增“Fix with Claude Code”快速修复，用于错误和警告以及测试 peek 和 Test Results 视图中的失败测试，将问题放入聊天框",
+          "hash": "ed2df24713d11f6cede4963bb281d5741e89adf48ef0ece51f4b111de51cfcf3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-13",
+          "en": "\\[VSCode] Added \"Add to Chat\" to the right-click menu of changed files in the Source Control view",
+          "zh": "\\[VSCode] 新增 Source Control 视图中已更改文件右键菜单的“Add to Chat”",
+          "hash": "d7ba5c13bbe12b4726b6ff1e565cdbdbe129cff2e5bc6bdf8a91087eb9cf304c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-added-14",
+          "en": "\\[VSCode] Added \"Resolve Merge Conflicts\" to the editor title of a file with merge conflicts and to the Merge Changes group in Source Control",
+          "zh": "\\[VSCode] 新增存在合并冲突文件的编辑器标题栏和 Source Control 中 Merge Changes 组的“Resolve Merge Conflicts”",
+          "hash": "f64c1a9521ff5ba6415a5d273faa3b69e135d2d61ee34cdaef3bc6888ece0f2c",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "changed",
+      "heading_en": "Changed",
+      "heading_zh": "变更",
+      "items": [
+        {
+          "id": "2.1.331-changed-15",
+          "en": "Changed the questions for stopping auto-connect in `/ide` and for `/clear`, `/compact` or `/rewind` in a subagent's view to list Yes first; they still start on No, so Down then Enter now answers No",
+          "zh": "变更 `/ide` 中停止自动连接的问题，以及 subagent 视图中 `/clear`、`/compact` 或 `/rewind` 的问题，将 Yes 列在首位；它们仍默认停在 No，因此现在按 Down 再按 Enter 会回答 No",
+          "hash": "40e5fb7ad29c5b84fd787256fecf0ab11c9658f1eaff94599978536f812bb6c3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-changed-16",
+          "en": "Changed what a `PermissionDenied` hook's `retry: true` tells Claude: make the refused call again only if you asked for that call",
+          "zh": "变更 `PermissionDenied` hook 的 `retry: true` 向 Claude 传达的内容：仅当你要求了该调用时，才重新发起被拒绝的调用",
+          "hash": "2655c9c39436f2b4616d15a2c6b69052558cced6262216345b9a87193deb920a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-changed-17",
+          "en": "Changed in a future release, on or after November 30, 2026: plugin marketplaces in managed `extraKnownMarketplaces` will auto-update by default. To opt one out, set `\"autoUpdate\": false` on its entry",
+          "zh": "变更将在 2026 年 11 月 30 日或之后的未来版本中生效：托管 `extraKnownMarketplaces` 中的 plugin marketplace 将默认自动更新。要退出某个 marketplace 的自动更新，请在其条目上设置 `\"autoUpdate\": false`",
+          "hash": "832d131c077c5c345384371e05a536cc92e30e91c864b5f1ed041850f42f3e34",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-changed-18",
+          "en": "Windows: Changed start-up with managed settings in the registry: check them before upgrading, as an `HKLM` policy outranks `managed-settings.json` and a broken value can stop the start",
+          "zh": "Windows：变更使用注册表中托管设置的启动方式：升级前请先检查这些设置，因为 `HKLM` 策略优先于 `managed-settings.json`，且损坏的值可能导致启动失败",
+          "hash": "ee660ce6c66ccce7194dff823362cce009ed27706f53b5899ee172eb7a2a0322",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-changed-19",
+          "en": "\\[VSCode] Changed saving a proposed diff to accept it only after you click or type in its proposed (right) side; a notification says when a save is refused or a close with Save applies nothing",
+          "zh": "\\[VSCode] 变更保存提议的 diff 的行为：仅在你点击或在其提议（右侧）输入后才接受；保存被拒绝或关闭时选择 Save 而未应用任何内容时会有通知",
+          "hash": "4779ec9c3288732c3e6fe27c2b15f70952ac210e751cf4286b8034c1c50bd2bf",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-changed-20",
+          "en": "\\[VSCode] Changed diffs from a terminal session to open without moving keyboard focus, and beside a file with unsaved changes; to answer, click Accept or use the terminal",
+          "zh": "\\[VSCode] 变更来自终端 session 的 diff 的打开方式：打开时不移动键盘焦点，并显示在有未保存更改的文件旁边；要作答，请点击 Accept 或使用终端",
+          "hash": "aa501ad8befb85e587c167255c6c1616ab6f05f0af0316e85411d3ea55d1a5d1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-changed-21",
+          "en": "\\[VSCode] Changed permission cards to show only Yes and No when `allowManagedPermissionRulesOnly` is set and the card would offer an allow rule; key 2 on those cards now answers No",
+          "zh": "\\[VSCode] 变更权限卡片：当设置了 `allowManagedPermissionRulesOnly` 且卡片会提供允许规则时，仅显示 Yes 和 No；这些卡片上的按键 2 现在表示 No",
+          "hash": "9da4592609c50fab09b24b9a16644367f35c7a8836ca28c507e5e76b05d143e2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-changed-22",
+          "en": "\\[VSCode] Changed a Claude tab to ignore Enter and show a notice when its Find box has lost the keyboard",
+          "zh": "\\[VSCode] 变更 Claude 标签页行为：当其查找框失去键盘焦点时，忽略 Enter 并显示提示",
+          "hash": "4d82d2401bfc1b2f3103186df4384894da42dfaa4efa12c5a923936187b7edc3",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "improvements",
+      "heading_en": "18 improvements",
+      "heading_zh": "18 项改进",
+      "items": [
+        {
+          "id": "2.1.331-improvements-23",
+          "en": "Improved typing speed in screen reader mode, most of all in long sessions",
+          "zh": "改进屏幕阅读器模式下的输入速度，在长 session 中尤为明显",
+          "hash": "9e557c08012a6535ef1b9371906d87a0721175d6a30223eb050e4146aeccb4c6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-24",
+          "en": "Improved start-up time: a session started soon after another no longer waits for the model list, and one outside a git repository without `.claude/settings.local.json` no longer waits on git",
+          "zh": "改进启动时间：紧接另一个 session 启动的 session 不再等待模型列表；在 git 仓库之外且没有 `.claude/settings.local.json` 的 session 不再等待 git",
+          "hash": "d4e0218c0a3b3d6a88013da92f8f0902f798a4dbd666b9968ee9a7ecb432b0e3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-25",
+          "en": "Windows: Improved the speed of the first Bash command in a session on machines with no custom shell start-up files",
+          "zh": "Windows：在没有自定义 shell 启动文件的机器上，改进 session 中第一条 Bash 命令的速度",
+          "hash": "12af1a7ba3ec9b271eac9382eeb1cb5fdb9bbe62a630b2d9704a18707e7ccf2d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-26",
+          "en": "Improved the plugin auto-update notice to name plugins it newly installs as dependencies, separately from updated plugins",
+          "zh": "改进 plugin 自动更新提示：将新安装为依赖的 plugin 与已更新的 plugin 分开列出",
+          "hash": "d1ad59d27144acbf96cc57a753db0bc030d75d16901eda18d309e12191a540e4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-27",
+          "en": "Improved Code Mode tool search to show more of an MCP tool's description, with its limits, formats and defaults",
+          "zh": "改进 Code Mode 工具搜索：显示更多 MCP 工具的描述，包括其限制、格式和默认值",
+          "hash": "2654b3ff3c9e19e4e9a352d89ca0a03aae2766351125585ccff1591eec0dfa2a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-28",
+          "en": "Improved the Console sign-in link shown by /login and `claude auth login --console`: it is now much shorter",
+          "zh": "改进 /login 和 `claude auth login --console` 显示的 Console 登录链接：现在短得多",
+          "hash": "8c2d0fc10cf93decb490b370053b4a6a95fcc99bd6a45db4ce3e59ebd41119c4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-29",
+          "en": "Improved Claude's list of your artifacts: it now marks web pages, so Claude is less likely to try opening one with the Claude Docs connector",
+          "zh": "改进 Claude 的 artifact 列表：现在会标记网页，使 Claude 更不容易尝试用 Claude Docs connector 打开网页",
+          "hash": "c28df33bdfcfd921c013eba3c99629888a92fe413d8a09aa5ab7b45271cc59ce",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-30",
+          "en": "Improved the folder trust prompts in short terminals: fullscreen `/cd` and `/add-dir` show their choices in fewer rows, and the prompt at launch keeps the folder path in view when it has many warnings",
+          "zh": "改进短终端中的文件夹信任提示：全屏 `/cd` 和 `/add-dir` 用更少的行显示选项；启动时的提示在警告较多时仍保持文件夹路径可见",
+          "hash": "224a090dc09671188f016b044ef1a771d98dd433e83b373efeb07bf05a0ad225",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-31",
+          "en": "\\[VSCode] Improved the time to the first reply in a new folder when the Python extension is installed and the folder has no Python",
+          "zh": "\\[VSCode] 改进安装了 Python 扩展但文件夹中没有 Python 时，新文件夹中首次回复的耗时",
+          "hash": "d40ba36bacd9923c5df7e51c540765a31fdce20495d3b4496cb7e5622529f05f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-32",
+          "en": "\\[VSCode] Improved the sign-in screen to say when it opened because a request was refused",
+          "zh": "\\[VSCode] 改进登录界面：当因请求被拒绝而打开时给出说明",
+          "hash": "b0e87444a6a98edd02fedd4f0e2947abd89d100580aaf1d09969747e6e7495fe",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-33",
+          "en": "\\[VSCode] Improved the speed of opening, restoring and switching back to long conversations, most of all with many file edits or where git is slow",
+          "zh": "\\[VSCode] 改进打开、恢复和切回长对话的速度，在文件编辑较多或 git 较慢时尤为明显",
+          "hash": "b7d58628d18fc8c25de13f5cb20b35a9af91b67273082a7da3a78881d825aae2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-34",
+          "en": "\\[VSCode] Improved responsiveness in long chats: smooth typing and large file writes while a reply streams, faster permission prompts, and far less freezing on send with accessibility support on",
+          "zh": "\\[VSCode] 改进长聊天中的响应性：回复流式输出时输入流畅、大文件写入顺畅，权限提示更快，开启无障碍支持时发送卡顿大幅减少",
+          "hash": "8de881af0fa0e11d29f4033a42f75dc2fc42d374eb25272887b39f797956f38f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-35",
+          "en": "\\[VSCode] Improved startup and memory use: the panel and new chat tabs open faster, a first message in a new tab is answered sooner, and on Pro and Max plans the folder trust dialog comes up sooner",
+          "zh": "\\[VSCode] 改进启动和内存占用：面板和新聊天标签页打开更快，新标签页中的首条消息回复更早，Pro 和 Max 套餐下文件夹信任对话框更早出现",
+          "hash": "518059f6657b61aeefa3cb50b356e34d16cd3163881ee1493ccba8356d24f038",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-36",
+          "en": "\\[VSCode] Improved speed in remote windows (SSH, WSL, containers): the panel starts, replies appear and sessions reopen faster",
+          "zh": "\\[VSCode] 改进远程窗口（SSH、WSL、容器）中的速度：面板启动、回复显示和 session 重新打开都更快",
+          "hash": "a444f7ec6b35436813c6042c6e2524e73d8ec9ccb8f746e9d5350c527253b27a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-37",
+          "en": "\\[VSCode] Improved the time to a response for the first message after a chat has been idle for a few minutes on a machine that is low on memory",
+          "zh": "\\[VSCode] 改进内存不足的机器上聊天闲置几分钟后首条消息的响应耗时",
+          "hash": "ecb0faf502be842c25560e8dbf59ba60de041e3022b810356723fa94d570e269",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-38",
+          "en": "\\[VSCode] Improved how fast chats start, open from history and come back after a restart on slow or antivirus-scanned disks",
+          "zh": "\\[VSCode] 改进在慢速或受杀毒软件扫描的磁盘上聊天启动、从历史记录打开以及重启后恢复的速度",
+          "hash": "9cc9f6251b05b322a6b196860be1fbe1783a42b8bff7d4c454be20709c76b444",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-39",
+          "en": "\\[VSCode] Improved how fast diffs appear in reopened conversations, and removed diff menu entries that did not work",
+          "zh": "\\[VSCode] 改进重新打开的对话中 diff 的显示速度，并移除无效的 diff 菜单项",
+          "hash": "36c098182302f88fa97e95a74be515477c4d9ac8293f089ed7d8e6716aca5457",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-improvements-40",
+          "en": "\\[VSCode] Improved the @ file menu to list the files of open editor tabs first, the most recently used on top",
+          "zh": "\\[VSCode] 改进 @ 文件菜单：优先列出已打开编辑器标签页中的文件，最近使用的排在最前",
+          "hash": "4700e67651e99ea564065fcb16ccdf568dbd83c802498176f891915fe481fdef",
+          "status": "translated"
+        }
+      ]
+    },
+    {
+      "kind": "fixes",
+      "heading_en": "95 bug fixes",
+      "heading_zh": "95 项修复",
+      "items": [
+        {
+          "id": "2.1.331-fixes-41",
+          "en": "Fixed MCP tool calls hanging for up to 30 minutes on some malformed replies from a local or WebSocket server",
+          "zh": "修复了本地或 WebSocket 服务器返回某些格式错误的回复时，MCP 工具调用最长挂起 30 分钟的问题",
+          "hash": "8b51e637146613013ca3f915da90381b8f59f3a8cde3731cdebf49d5b1bd39d2",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-42",
+          "en": "Fixed PushNotification telling a headless run, such as a scheduled one, that the terminal was active in its first minute, instead of saying whether a mobile push was requested",
+          "zh": "修复了 PushNotification 在无头运行（例如定时运行）的第一分钟内告知终端处于活动状态，而不是说明是否请求了移动端推送的问题",
+          "hash": "6ac0f1222956438b90c6d0c49acaa1a166cd9286da4e8bb2179905995280004c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-43",
+          "en": "Fixed `/install-github-app` skipping the repository step after setup warnings when no repository was found, and Esc not going back from its workflow list and sign-in steps",
+          "zh": "修复了 `/install-github-app` 在未找到仓库时于设置警告后跳过仓库步骤的问题，以及 Esc 无法从其工作流列表和登录步骤返回的问题",
+          "hash": "ad1a5cb31b48fd12723761de8b5d2a0828c92134dc65b225bf63948645f90b5c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-44",
+          "en": "Fixed one-line tool results cut with no ellipsis in narrow windows, Markdown stars in the Auto mode tab of /permissions, and a hook's reason to stop a forked skill showing twice",
+          "zh": "修复了窄窗口中单行工具结果被截断且没有省略号、/permissions 的自动模式标签页中 Markdown 星号显示异常，以及 hook 用于停止分叉 skill 的原因显示两次的问题",
+          "hash": "89167fc5605d59e4e4505b06da95fb86fbed3805795610779f0f111e40ae0b8a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-45",
+          "en": "Fixed `/diff` hiding its key hints and not selecting files in windows of 24 to 26 rows, and leaving out files added with `git add -N` in a repository with no commits",
+          "zh": "修复了 `/diff` 在 24 至 26 行的窗口中隐藏按键提示且无法选择文件，以及在没有任何提交的仓库中遗漏通过 `git add -N` 添加的文件的问题",
+          "hash": "72ab0c9ce82663ba2651a4f339702835687434e40a4fe8ab2e19b624be34d5fa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-46",
+          "en": "Fixed the first-run theme list showing too few themes in short windows, and /usage and other tall screens coming out garbled there",
+          "zh": "修复了首次运行的主题列表在较矮窗口中显示的主题过少，以及 /usage 等较高的界面在该窗口中显示错乱的问题",
+          "hash": "39d78a6c5ce48aa5a4321efd20a39a9bf636c3acd17cdb2bcff10225cf085d7a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-47",
+          "en": "Fixed `/bug` in fullscreen hiding its Yes and No answers behind a long report, and Yes staying out of view in very short windows",
+          "zh": "修复了全屏模式下 `/bug` 的 Yes 和 No 选项被较长的报告遮挡，以及窗口很矮时 Yes 选项不可见的问题",
+          "hash": "66a4e59a6361dd336af27dd4530bd24d87def4021b7c358a96fdc2c908477a1f",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-48",
+          "en": "Fixed /compact and auto-compact sometimes losing part of the conversation summary when the summary quoted certain XML tags",
+          "zh": "修复了 /compact 和自动上下文压缩在摘要引用某些 XML 标签时有时丢失部分对话摘要的问题",
+          "hash": "e6dd276e859f02c4b3f1d1565b0e9aa48942271280f5fcc2b90aecbac48fdf7c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-49",
+          "en": "Fixed Claude not being told when permission rules on the Agent tool dropped its queued message to a subagent that had already ended",
+          "zh": "修复了 Agent 工具上的权限规则丢弃已发送给已结束 subagent 的排队消息时，Claude 未被告知的问题",
+          "hash": "8ead5cac1da1fae726fb8e747b2c96832228c320d2c28af389d063a79266defa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-50",
+          "en": "Fixed a Remote Control message sometimes showing above the reply that was finishing when it was sent",
+          "zh": "修复了 Remote Control 消息有时显示在发送时正在完成的回复上方的问题",
+          "hash": "f63fb3c40dd5e188f71d31d41425cc13b3276a5cc6766a12887837084f16fa43",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-51",
+          "en": "Fixed Stop hooks that read the transcript missing the last reply in Claude Desktop; SubagentStop hooks now wait for it too",
+          "zh": "修复了读取对话记录的 Stop hook 在 Claude Desktop 中遗漏最后一条回复的问题；SubagentStop hook 现在也会等待该回复",
+          "hash": "7c48d44aa1400710b2ffdda170e9f6aa3e384369bba125f7d44fe175ebd1c390",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-52",
+          "en": "Fixed turns and subagents failing in cloud sessions, or timing out on long replies elsewhere, when a reply went silent while Claude was still thinking; Claude Code now tries the request once more",
+          "zh": "修复了回复在 Claude 仍在思考时静默无输出，导致云 session 中的轮次和 subagent 失败，或在其他环境中长回复超时的问题；Claude Code 现在会再尝试一次该请求",
+          "hash": "7158307735e5d6ca4e26dc96658408c9ed01c7163b6237a1b9ad1a898e0ada87",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-53",
+          "en": "Fixed Esc and Stop waiting about a minute or more when the contents of a cloud or network file that Claude is reading stall",
+          "zh": "修复了 Claude 正在读取的云文件或网络文件内容卡住时，Esc 和 Stop 需等待约一分钟或更久的问题",
+          "hash": "a85b2a06a6d600e1634bb00a592965bd604f16387cc1215c144448d0e41a61f6",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-54",
+          "en": "Fixed Code Mode sessions resumed with `--resume` or `--continue` in another permission mode losing thinking and the prompt cache; one begun in a mode that asks keeps that mode's limits on scripts",
+          "zh": "修复了在其他权限模式下通过 `--resume` 或 `--continue` 恢复的 Code Mode session 丢失思考和 prompt 缓存的问题；在会询问的模式下启动的 session 会保留该模式对脚本的限制",
+          "hash": "a055f90e1a2da2f3f5899bcf1995d8f9356fd22f61dcd09e07c8a098c6032951",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-55",
+          "en": "Fixed Code Mode sending a request about every second when a `!` or slash command was typed while a script was running",
+          "zh": "修复了脚本运行期间输入 `!` 或斜杠命令时，Code Mode 大约每秒发送一次请求的问题",
+          "hash": "8dfa9f86094e96690056e14b2453f4c78fdc7da5c87cd0c23d7ebff1919a8f70",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-56",
+          "en": "Fixed an interrupted or failed plugin update leaving a partial plugin folder that later loaded with skills or other components missing (anthropics/claude-code#102186)",
+          "zh": "修复了中断或失败的 plugin 更新留下不完整的 plugin 文件夹，导致之后加载时缺少 skill 或其他组件的问题（anthropics/claude-code#102186）",
+          "hash": "ffd36bed7ba4ece577fb971b5f33cfc69027f542385f2193820f095cb27507d1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-57",
+          "en": "Windows: Fixed file writes on FAT32 and exFAT drives asking for permission every time in some plugin sessions",
+          "zh": "Windows：修复了在某些 plugin session 中，FAT32 和 exFAT 驱动器上的文件写入每次都请求权限的问题",
+          "hash": "c64c9fbbcb797e19680e619505161104eb2d0584a82c1a67eb3a65ef3356e9b4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-58",
+          "en": "Fixed Claude failing to read a notebook that has a null output or an error output with no traceback",
+          "zh": "修复了 Claude 无法读取包含 null 输出或没有 traceback 的错误输出的 notebook 的问题",
+          "hash": "bf8eae8d841bf2f3512e7bb77882ea907412c550290b2eb69760a7a4aa9fd159",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-59",
+          "en": "Fixed a rewind deleting files after a restore had failed",
+          "zh": "修复了恢复失败后回退操作删除文件的问题",
+          "hash": "ec619059349c99aab72c9faf63a589fbc3831dcba249a0d7557312184fda2b06",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-60",
+          "en": "Fixed auto mode sometimes refusing Claude's call to stop a /loop, which left the next wake-up to fire",
+          "zh": "修复了自动模式有时拒绝 Claude 停止 /loop 的调用，导致下一次唤醒仍会触发的问题",
+          "hash": "a12223e5043c17e6c310fbe45759881beddb29df83b8b05a2adb8127b8b8f899",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-61",
+          "en": "Fixed a Workflow agent's background shells and MCP servers sometimes being left running after it handed back its report",
+          "zh": "修复了 Workflow agent 交回报告后，其后台 shell 和 MCP server 有时仍在运行的问题",
+          "hash": "7ed4df653e6e238e08c89284b8b8071732de47cac599ae8c36fd72b2facd55e7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-62",
+          "en": "Windows: Fixed `/desktop` downloading the older Claude Desktop installer, and asking for an update when an older install's folder was left behind",
+          "zh": "Windows：修复了 `/desktop` 下载旧版 Claude Desktop 安装程序的问题，以及旧版安装残留文件夹时仍提示更新的问题",
+          "hash": "7d59858b36c94b9f809050504662188af10a7e4dd77485ec7c3746a2b8e76371",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-63",
+          "en": "Fixed `claude plugin install`, `marketplace add` and similar commands hanging with no output when managed settings needed an approval that could not be asked for",
+          "zh": "修复了托管设置需要审批但无法发起审批时，`claude plugin install`、`marketplace add` 等命令挂起且无输出的问题",
+          "hash": "51964434a4b7314014036f785d63cb26309897fa5b8f5b911f206d59d32d2604",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-64",
+          "en": "Fixed a permission rule on a subagent's model, such as `Agent(model:*)`, blocking Claude's follow-up message to a subagent started on this version with no model named",
+          "zh": "修复了针对 subagent 模型的权限规则（如 `Agent(model:*)`）会阻止 Claude 向本版本启动且未指定模型的 subagent 发送后续消息的问题",
+          "hash": "aea5b75fef5daf639ed1ef32a44d5cff817d6ba816110de13231a64d1b583ea8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-65",
+          "en": "Fixed PermissionRequest hooks not saving `Skill(name:*)` allow rules outside local settings",
+          "zh": "修复了 PermissionRequest hook 无法在本地设置之外保存 `Skill(name:*)` 允许规则的问题",
+          "hash": "cefcc8ee2aac7b05856460d6f867e4cc650eb90b39d4ad4dcf838b554a37cd07",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-66",
+          "en": "Fixed \"Ask your admin\" asking to raise your own limit when your team's pooled group budget blocked you, and saying \"Request sent\" when an admin had approved your request in the last few minutes",
+          "zh": "修复了团队共享组预算导致受限时，“Ask your admin”却提示提高你自己的限额的问题，以及管理员在最近几分钟内已批准请求却仍显示“Request sent”的问题",
+          "hash": "c74256bf5d8afc3b83cc940dc55a4ada7a5c80498c5526532c019c219d207b56",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-67",
+          "en": "Fixed Code Mode losing the middle of a long script output; Claude now gets a path to the uncut text (anthropics/claude-code#111373)",
+          "zh": "修复了 Code Mode 丢失长脚本输出中间部分的问题；Claude 现在会获得未截断文本的路径（anthropics/claude-code#111373）",
+          "hash": "8b99e043a97aaea98bf8cc1f32148c71abdfe8a496ac3d33b44018403e208459",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-68",
+          "en": "Fixed hold-to-talk dictation stopping early and losing words when Claude Code was busy",
+          "zh": "修复了 Claude Code 繁忙时按住说话听写提前停止并丢失文字的问题",
+          "hash": "73510f4e2f08865e1b6b184e9cf4db3a22acec978c1c43e59df593a22ccee144",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-69",
+          "en": "Fixed Code Mode with `--bare` not telling Claude what its scripts can call",
+          "zh": "修复了使用 `--bare` 的 Code Mode 未告知 Claude 其脚本可调用哪些内容的问题",
+          "hash": "0f6cec9b1cdbdcb0ca241dd82857dc9fcf007d72235d102dc406abb6836ce6fa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-70",
+          "en": "Fixed a crash when a custom API endpoint returned a tool call with no tool name; the call now fails with an error and the session continues",
+          "zh": "修复了自定义 API 端点返回缺少工具名称的工具调用时导致的崩溃；该调用现在会报错失败，session 继续运行",
+          "hash": "86f5a6379763a16f395e8baced3c49f84a1c2974a941b2a7d520553d3d3753ce",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-71",
+          "en": "Windows: Fixed a possible crash when the machine is almost out of memory",
+          "zh": "Windows：修复了机器内存几乎耗尽时可能发生的崩溃",
+          "hash": "ac44c2e76dc4af5d675b64469b68830642d27cfbdc1290479a6a9164834572e8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-72",
+          "en": "Fixed the CLI freezing on some replies, and quoted text sometimes going missing or showing twice",
+          "zh": "修复了 CLI 在某些回复上卡死的问题，以及引用文本有时丢失或重复显示的问题",
+          "hash": "adcfbfd9338d116dc65be7932c3f84cd0932eed7013a8f93fe635827d26902a8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-73",
+          "en": "Windows: Fixed Claude Code refusing to start when managed settings in the registry contain non-ASCII characters such as Japanese (anthropics/claude-code#93280)",
+          "zh": "Windows：修复了注册表中的托管设置包含日文等非 ASCII 字符时 Claude Code 拒绝启动的问题（anthropics/claude-code#93280）",
+          "hash": "f3256ef286942ffc0c0c0cb58716b94aa59e13f5a775926d4faf895e0242bc63",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-74",
+          "en": "Windows: Fixed Remote Control clients showing no steps for a new subagent",
+          "zh": "Windows：修复了 Remote Control 客户端不显示新 subagent 步骤的问题",
+          "hash": "23a77d62f44b0fa33b431238ef65e8007656dcb4a5664cb902b278257c84d020",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-75",
+          "en": "Fixed @-mentions written as `@file#10-12` attaching the whole file instead of those lines",
+          "zh": "修复了以 `@file#10-12` 形式书写的 @ 提及会附加整个文件而非指定行的问题",
+          "hash": "6a66db1363c3b66df95a91ef348bbd5df1c24058498bc236116db3b2160f0d86",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-76",
+          "en": "Fixed Claude misreading a pasted artifact invitation link; it now asks you to accept the invitation and paste the artifact's own link",
+          "zh": "修复了 Claude 误读粘贴的 artifact 邀请链接的问题；现在会提示你接受邀请并粘贴 artifact 自身的链接",
+          "hash": "2a19c9f1730dda6846fc25d47cea3ab063ad61874245292f497aa3f3d38c6302",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-77",
+          "en": "Fixed sandboxed Bash commands sometimes failing to start on a full temp disk, for sandboxes whose file rules keep commands out of the temp directory",
+          "zh": "修复了对于文件规则将命令排除在临时目录之外的沙箱，临时磁盘已满时沙箱化 Bash 命令有时无法启动的问题",
+          "hash": "8ba4eb0a434075fa1181a04b1c64ef230ec806083de11dcd2cdd52110b4036cb",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-78",
+          "en": "\\[VSCode] Fixed raw tags for selected code under a reworded prompt, the mode button flashing Manual, the slash menu hiding its highlighted row, a broken sign-in image, and a blinking Accept/Reject bar",
+          "zh": "\\[VSCode] 修复了改写后的 prompt 下所选代码显示原始标签、模式按钮闪烁显示 Manual、斜杠菜单隐藏高亮行、登录图片损坏以及 Accept/Reject 栏闪烁的问题",
+          "hash": "8baab3d97148ba4058603499af55ba617cd572a84445754fd509faaa4718649c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-79",
+          "en": "\\[VSCode] Fixed a forked conversation overwriting the original conversation's plan file; a fork or rewind that can't copy the plan now shows a warning",
+          "zh": "\\[VSCode] 修复了分叉对话覆盖原对话计划文件的问题；无法复制计划的分叉或回退现在会显示警告",
+          "hash": "0bab93d59a722276137a5d10ee77db47d3901793309deae384d6f1c6ff925344",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-80",
+          "en": "\\[VSCode] Fixed voice dictation saying no speech was recognized when its connection closed or never opened; it now says the connection was lost or couldn't connect",
+          "zh": "\\[VSCode] 修复了语音听写在其连接关闭或从未建立时提示未识别到语音的问题；现在会提示连接已断开或无法连接",
+          "hash": "ed89a3dc9530408d12e6225cd94dd82c5dbcc0e2f19b9f98f8f1335cceca4b32",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-81",
+          "en": "\\[VSCode] Fixed an unsent side question being lost when its panel closes",
+          "zh": "\\[VSCode] 修复了侧边问题面板关闭时，未发送的侧边问题丢失的问题",
+          "hash": "328718c886b0ae41a47b7f3b7fe20471abb1ffe3387dfa8bd18e27142fd1f7ba",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-82",
+          "en": "\\[VSCode] Fixed Escape stopping Claude after renaming a session, and typing going nowhere after closing the session history with Escape",
+          "zh": "\\[VSCode] 修复了重命名 session 后按 Escape 会停止 Claude，以及用 Escape 关闭 session 历史后输入无响应的问题",
+          "hash": "ff41c136c32d30f6abe639dca46e2b15f8a9c6be1444cd18ff86d57c34855837",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-83",
+          "en": "\\[VSCode] Fixed Rename, Mark as Unread and Add to Group saying \"still connecting\" on a tab that resumed a session from its history",
+          "zh": "\\[VSCode] 修复了在从历史恢复 session 的标签页上，重命名、标记为未读和添加到分组显示“仍在连接”的问题",
+          "hash": "090ee054fa4f7c43c875468caef17ad87d1c739132bfe65bfbfe1a10020e1860",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-84",
+          "en": "\\[VSCode] Fixed wide tables and long paths cut off, long errors hiding their close button, errors out of view in the Add MCP server form and Chrome dialog, and plugin pictures ignoring the editor theme",
+          "zh": "\\[VSCode] 修复了宽表格和长路径被截断、长错误信息遮挡关闭按钮、添加 MCP server 表单和 Chrome 对话框中错误信息超出可视范围，以及 plugin 图片忽略编辑器主题的问题",
+          "hash": "74e2ce6683e928c899af29acd18e27820de0008f7fb9786d9bad56f0ea194ef5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-85",
+          "en": "\\[VSCode] Fixed later prompts and the message box covering the Rewind code dialog, and focus jumping from \"Never mind\" to \"Rewind\" when it finishes checking files",
+          "zh": "\\[VSCode] 修复了后续 prompt 和消息框遮挡 Rewind 代码对话框，以及检查文件完成时焦点从“Never mind”跳到“Rewind”的问题",
+          "hash": "c83cc176257f1a943a10c865546f86cca3082a2beb3aad8b4800cab2c4ab06b9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-86",
+          "en": "\\[VSCode] Fixed the command menu keeping an earlier match highlighted while you type more in its filter, so Enter could run the wrong row",
+          "zh": "\\[VSCode] 修复了命令菜单在筛选框中继续输入时仍高亮之前的匹配项，导致按 Enter 可能执行错误行的问题",
+          "hash": "b6e08062d2640ee6b138f5838cb92f3863f73f63b2b0371a435e873242d04f6b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-87",
+          "en": "\\[VSCode] Fixed the @ menu showing \"No files found\" before its first search results arrived, or when it couldn't search all files of a very large workspace, which it now says",
+          "zh": "\\[VSCode] 修复了 @ 菜单在首次搜索结果返回前，或在无法搜索超大工作区所有文件时显示“No files found”的问题，现在会说明无法搜索",
+          "hash": "dd27861dc1cf136f1efcb53d7acba174ba05d8d46a78168020c3749f1c0b8708",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-88",
+          "en": "\\[VSCode] Fixed Escape stopping Claude at a Remove or Delete confirmation in MCP, Hooks and Memory dialogs, on a side question panel's button or link, and on the Bookmarks button with its panel open",
+          "zh": "\\[VSCode] 修复了在 MCP、Hooks 和 Memory 对话框的移除或删除确认处、侧边问题面板的按钮或链接上，以及书签按钮及其面板打开时按 Escape 会停止 Claude 的问题",
+          "hash": "f3ff0f8043cfe51ac77cc0f007ae4a6c0749f6815b7e194a14795cf4fa3059e7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-89",
+          "en": "\\[VSCode] Fixed empty boxes showing instead of the + and − signs in diffs (anthropics/claude-code#73069)",
+          "zh": "\\[VSCode] 修复了 diff 中显示空框而非 + 和 − 符号的问题（anthropics/claude-code#73069）",
+          "hash": "a8b4729662e00e2a85a6dbcb9a93e15be0cedc75d12282637116f12126a23dda",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-90",
+          "en": "\\[VSCode] Fixed the chat no longer following Claude's reply after the panel was resized, or hidden and shown again",
+          "zh": "\\[VSCode] 修复了面板调整大小或隐藏后再次显示时，聊天不再跟随 Claude 回复的问题",
+          "hash": "d6c160f0173971c2bb7b4c8e2b4b814f4ca29e64e394447c1896b6f6f0c545a5",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-91",
+          "en": "\\[VSCode] Fixed a chat left in bypass permissions mode reopening in Auto mode instead of your initial permission mode when settings disable bypass",
+          "zh": "\\[VSCode] 修复了处于 bypass 权限模式的聊天在设置禁用 bypass 后重新打开时进入自动模式而非初始权限模式的问题",
+          "hash": "a19a5e0ba1a52626ae6dfa4f78b19d80c48a97ae5f80df42cddb9db228245665",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-92",
+          "en": "\\[VSCode] Fixed the chat panel freezing on some CSS code blocks and diffs",
+          "zh": "\\[VSCode] 修复了聊天面板在某些 CSS 代码块和 diff 上卡死的问题",
+          "hash": "81689c12e768f60004fe4583e19c7b80285f3568e1748f1f7d0c9fc842c0c336",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-93",
+          "en": "\\[VSCode] Fixed the context usage indicator disappearing after an API error, \"Prompt is too long\", or a slash command",
+          "zh": "\\[VSCode] 修复了 API 错误、“Prompt is too long”或斜杠命令后上下文用量指示器消失的问题",
+          "hash": "be93226db5de7602973f4e4286fd44194a8b2ac9b949e00964271e0c14531702",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-94",
+          "en": "\\[VSCode] Fixed a message queued behind a queued /clear being lost",
+          "zh": "\\[VSCode] 修复了排在 /clear 之后的消息丢失的问题",
+          "hash": "b27ba42e69fe359b5297be0219ed03e87e07632df720922051d970204904201d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-95",
+          "en": "\\[VSCode] Fixed Manage Plugins losing its search box or showing no message when a search has no match, and not saying that the list of available plugins failed to load",
+          "zh": "\\[VSCode] 修复了管理 Plugins 时搜索框消失、搜索无匹配时不显示提示，以及未说明可用 plugins 列表加载失败的问题",
+          "hash": "c04302a6fc735b58dc61fc348790eb79ef9026c1fcf958f7a48bb02fcd1dc8b8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-96",
+          "en": "\\[VSCode] Fixed proposed changes to notebooks and files with a custom editor opening in a tab with no Accept or Reject that stayed open after the answer",
+          "zh": "\\[VSCode] 修复了针对 notebook 和使用自定义编辑器的文件的建议变更在无接受或拒绝按钮的标签页中打开，且回答后仍保持打开的问题",
+          "hash": "15528dbd4846b2b5d3f14ac60fecb731f180813625d709cfccf0dc51ae9e0dff",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-97",
+          "en": "\\[VSCode] Fixed the spend limit message telling Team and Enterprise members to run `/usage-credits`, which can't send a request to their admin from the panel",
+          "zh": "\\[VSCode] 修复了支出限额消息提示 Team 和 Enterprise 成员运行 `/usage-credits` 的问题，该命令无法从面板向其管理员发送请求",
+          "hash": "a807a481f3e0e83e8db627e70359fdaa7146727a9d7e44e7dfb9e226a59e5f17",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-98",
+          "en": "\\[VSCode] Fixed a written message being wiped by Tab on a command in the \"/\" button's menu or by a click on an onboarding suggestion",
+          "zh": "\\[VSCode] 修复了已输入的消息被“/”按钮菜单中命令上的 Tab 键或点击引导建议清空的问题",
+          "hash": "734272db9a6ce7db980026e4b65bdb21c15eb8c52e4c9c2b004f491b43a0f087",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-99",
+          "en": "\\[VSCode] Fixed Claude continuing to edit files after you rewind code while it is working",
+          "zh": "\\[VSCode] 修复了 Claude 工作时回退代码后仍继续编辑文件的问题",
+          "hash": "d7857f24a62374a4c61b995e1748adb07f7c4d25c129eebcb890b961b87258a4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-100",
+          "en": "\\[VSCode] Fixed typed text being lost after /tasks, /copy, /export, a skipped /feedback, or /plan while already in plan mode",
+          "zh": "\\[VSCode] 修复了在 /tasks、/copy、/export、跳过 /feedback 或已在 plan 模式下执行 /plan 后已输入文本丢失的问题",
+          "hash": "88e86ab40f3c8c89f55cc4a99a3a27e27284959783c42839e0b012951f2a761b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-101",
+          "en": "\\[VSCode] Fixed the question card dropping a typed \"Other\" answer on Ctrl/Cmd+Enter, and sending the word \"Other\" when nothing was typed",
+          "zh": "\\[VSCode] 修复了问题卡片在按 Ctrl/Cmd+Enter 时丢弃已输入的“Other”回答，以及在未输入任何内容时发送“Other”一词的问题",
+          "hash": "57f21ebd6203920fc3f02259590cef913e39fa61a4aa6f786384b0b8f93293e9",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-102",
+          "en": "\\[VSCode] Fixed the panel showing \"Something went wrong\" for a conversation in which a gateway sent a tool call with no name",
+          "zh": "\\[VSCode] 修复了当网关发送了没有名称的工具调用时，面板对该对话显示“Something went wrong”的问题",
+          "hash": "3ef1f1e85f53e8c731a725a146f0aa560730a76d8f5a825e1d1c74637b2492ed",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-103",
+          "en": "\\[VSCode] Fixed unsaved changes being missed, and Claude's edit being overwritten by the next save, in a folder opened through a symlink",
+          "zh": "\\[VSCode] 修复了通过符号链接打开的文件夹中未保存的更改被遗漏，以及 Claude 的编辑被下一次保存覆盖的问题",
+          "hash": "41b12cdf21de3e344e966e5bb30cafe96845d9568dda085c9a20d8fac1c30406",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-104",
+          "en": "\\[VSCode] Fixed @-mentions attaching nothing, or another file of the same name, after Claude changed folders with `cd`",
+          "zh": "\\[VSCode] 修复了在 Claude 通过 `cd` 切换文件夹后，@ 提及未附加任何内容或附加了同名其他文件的问题",
+          "hash": "f0b6ae75bc9a0addf7b5d60bbd1eef81a976a585836750a626979a8d08494b4b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-105",
+          "en": "\\[VSCode] Fixed the arrow keys replacing typed text with an old prompt while selecting, and dropping edits to a recalled prompt",
+          "zh": "\\[VSCode] 修复了在选择时方向键用旧 prompt 替换已输入文本，以及丢弃对已召回 prompt 所做编辑的问题",
+          "hash": "9fca03450aff1ba4f29c8fd1a1ab3d5241633470175fb24f9a18ea31a0bbd364",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-106",
+          "en": "\\[VSCode] Fixed an @-mention added while a permission prompt was open being lost",
+          "zh": "\\[VSCode] 修复了在权限提示打开期间添加的 @ 提及丢失的问题",
+          "hash": "3575653ecbc49343961696f069a89098ac3ba8fc493b423b0133fabdaab900fa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-107",
+          "en": "\\[VSCode] Fixed shortcuts such as Ctrl+1, Alt+1 or Ctrl+Space answering an open dialog, which could restore files in the rewind confirmation or switch the git branch",
+          "zh": "\\[VSCode] 修复了 Ctrl+1、Alt+1 或 Ctrl+Space 等快捷键会响应已打开的对话框，从而可能在回退确认中恢复文件或切换 git 分支的问题",
+          "hash": "e8ba8365e18e67470e9c6103d165d2e23c6caeb8f0917cf40a3e18280c69186d",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-108",
+          "en": "\\[VSCode] Fixed prompts that start with a file path or code comment being sent without the selected code and having no fork or rewind menu",
+          "zh": "\\[VSCode] 修复了以文件路径或代码注释开头的 prompt 在发送时未附带所选代码，且没有 fork 或回退菜单的问题",
+          "hash": "c94f9f75e1f3d2c61b7c52cb9f02f51b44cda0be1f13097ecc305f20f58a057b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-109",
+          "en": "\\[VSCode] Fixed file links in the chat ignoring your editor associations for files in the workspace, except notebooks (anthropics/claude-code#81482)",
+          "zh": "\\[VSCode] 修复了聊天中的文件链接忽略了你为工作区文件设置的编辑器关联的问题（notebooks 除外）(anthropics/claude-code#81482)",
+          "hash": "3d3c040522b8e4734edbad9aed984f0ea4fc46ea5dace61c8266151df53b3722",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-110",
+          "en": "\\[VSCode] Fixed selected lines staying attached to your next message after their file's tab was closed",
+          "zh": "\\[VSCode] 修复了在文件标签页关闭后，所选行仍附加到下一条消息的问题",
+          "hash": "35f66c46152e4818b9e15b4379bb560a5de01f8ac2c02603d1f57142aa0c43de",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-111",
+          "en": "\\[VSCode] Fixed new sessions starting in Edit automatically after pressing Shift+Tab through it to reach Plan mode",
+          "zh": "\\[VSCode] 修复了按 Shift+Tab 依次经过 Edit 到达 Plan 模式后，新 session 仍自动从 Edit 开始的问题",
+          "hash": "4459efb310b6cb16cd1f93698c59a31e2d8cf860881d0e06c58e350ff65f6cee",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-112",
+          "en": "\\[VSCode] Fixed an edited command on the permission prompt running without the line breaks that were typed or pasted into it",
+          "zh": "\\[VSCode] 修复了权限提示上编辑过的命令在执行时丢失所输入或粘贴的换行符的问题",
+          "hash": "30e109809da6ff459b274ab9b5070097c0bb56362682df513bdb440710df6fb4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-113",
+          "en": "\\[VSCode] Fixed a newly opened Claude tab not focusing its message box, or taking the keyboard late from the terminal or command palette and sending the typed text as a prompt",
+          "zh": "\\[VSCode] 修复了新打开的 Claude 标签页未聚焦其消息框，或从终端或命令面板延迟接管键盘并将已输入文本作为 prompt 发送的问题",
+          "hash": "0f6af966a12ed06d27f246f6b9ae11909ac1db3a14a430229c57796f1cdec40c",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-114",
+          "en": "\\[VSCode] Fixed Alt+K line ranges such as `@app.ts#5-10` sending the whole file, or its first 2,000 lines, instead of the selected lines",
+          "zh": "\\[VSCode] 修复了 Alt+K 行范围（如 `@app.ts#5-10`）发送整个文件或其前 2,000 行，而非所选行的问题",
+          "hash": "5a9d62c8fcdf8f93b32fc29d781d92002649224a3e9dddcadd7db9cdbc225f4b",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-115",
+          "en": "\\[VSCode] Fixed diff tabs opening out of order when several subagents wait for approval, and a later edit to the same file cancelling an earlier one",
+          "zh": "\\[VSCode] 修复了多个 subagent 等待批准时 diff 标签页乱序打开，以及对同一文件的后续编辑取消先前编辑的问题",
+          "hash": "1b5176ab0ac4d6e8fcda997660d98fc7ed8dcde3c46a5ac7485637f6ec4e5230",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-116",
+          "en": "\\[VSCode] Fixed Enter rewriting a message or running a menu action when a `/word` such as the path `/api` stands beside other text, and running a typed slash command without its arguments",
+          "zh": "\\[VSCode] 修复了当 `/word`（如路径 `/api`）与其他文本并列时，按 Enter 会重写消息或执行菜单操作，以及执行已输入的斜杠命令时丢失其参数的问题",
+          "hash": "1e668f0fc55e84f9401d8f7bac1022d2df918b82ad8af8e62ce7a245dc7af5a8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-117",
+          "en": "\\[VSCode] Fixed Electron apps and extension tests failing to start from Claude, a hook or an MCP server; a wrapper, hook or server that runs VS Code as Node must now set `ELECTRON_RUN_AS_NODE=1`",
+          "zh": "\\[VSCode] 修复了 Electron 应用和扩展测试无法从 Claude、hook 或 MCP server 启动的问题；以 Node 方式运行 VS Code 的 wrapper、hook 或 server 现在必须设置 `ELECTRON_RUN_AS_NODE=1`",
+          "hash": "3ba238819940833d95a9d6c8af7614996b1219b8a85894cccd6fc3ff2461a1f1",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-118",
+          "en": "\\[VSCode] Fixed Claude not being told when you reject part of a proposed edit or change it in the diff view before accepting",
+          "zh": "\\[VSCode] 修复了当你拒绝部分建议的编辑，或在接受前于 diff 视图中修改它时，Claude 未被告知的问题",
+          "hash": "0c80e8c1bb601ce8d934349ba3d1f24a8412477b94be3160309046eab50bf983",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-119",
+          "en": "\\[VSCode] Fixed Escape on a permission prompt sending a half-typed instruction to Claude instead of cancelling",
+          "zh": "\\[VSCode] 修复了在权限提示上按 Escape 会将半输入的指令发送给 Claude 而非取消的问题",
+          "hash": "74a7caf5dd7358802136a68163b4f5fcafd626b89d8e5ebb13bb14a2872a0a59",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-120",
+          "en": "\\[VSCode] Fixed Ctrl+J and Ctrl+O in the chat also opening VS Code's terminal or Open File dialog on Windows and Linux",
+          "zh": "\\[VSCode] 修复了在 Windows 和 Linux 上聊天中的 Ctrl+J 和 Ctrl+O 同时打开 VS Code 终端或“打开文件”对话框的问题",
+          "hash": "18dd3d0619b7b8c41278b84620b68a9cbb64eb35970c0b1c9fcbe14ad971aaf4",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-121",
+          "en": "\\[VSCode] Fixed the @ menu inserting the wrong file on a quick Tab or Enter, and Enter not sending a prompt that ends in an @word with no matching file",
+          "zh": "\\[VSCode] 修复了快速按 Tab 或 Enter 时 @ 菜单插入错误文件的问题，以及以 @word 结尾且无匹配文件的 prompt 按 Enter 无法发送的问题",
+          "hash": "df6041f64b76143a7f83d4d6a80b702d1be71e67782b03902199e7bc129e8466",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-122",
+          "en": "\\[VSCode] Fixed new Claude tabs staying blank and the side bar failing to load after closing a tab while Claude was still starting",
+          "zh": "\\[VSCode] 修复了在 Claude 仍在启动时关闭标签页后，新的 Claude 标签页保持空白、侧边栏加载失败的问题",
+          "hash": "552ac9dfaf5f1b630e13836d7c2fc2fb1082c4ed0d3936746a10c2c46fb23a37",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-123",
+          "en": "\\[VSCode] Fixed a quick double click in the panel pressing a button or row that appeared after the first click, or starting a second compaction from the context usage circle",
+          "zh": "\\[VSCode] 修复了在面板中快速双击时，误按第一次点击后出现的按钮或行，或从上下文用量圆圈启动第二次上下文压缩的问题",
+          "hash": "282d52aa6c265484bc9667f7d35db4da36d12d78db65bf341ea37b3d12ef8afa",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-124",
+          "en": "\\[VSCode] Fixed switching models failing with \"Settings file is not valid JSON\" when settings.json is empty or starts with a byte order mark",
+          "zh": "\\[VSCode] 修复了当 settings.json 为空或以字节顺序标记开头时，切换模型失败并报“Settings file is not valid JSON”的问题",
+          "hash": "7aa19542090c2e7b167ab0f1c4bb1ea5b563c72aa8f21518cd4704e0112f57d3",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-125",
+          "en": "\\[VSCode] Fixed memory growing with each fork or rewind of a long conversation until the window was reloaded",
+          "zh": "\\[VSCode] 修复了长对话每次分叉或回退时内存持续增长、直到重新加载窗口才恢复的问题",
+          "hash": "80f82200613a41d0e9d3427d09d8581abfcb38ef5e71fe84b900c34620df01e8",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-126",
+          "en": "\\[VSCode] Fixed plan comments not showing on the plan approval card in Focus view",
+          "zh": "\\[VSCode] 修复了在 Focus 视图中计划审批卡片上不显示计划评论的问题",
+          "hash": "bcbfa8fde0ab6efa979dbd393d16164e139a11c8c9fbb44e2360ee333983158e",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-127",
+          "en": "\\[VSCode] Fixed file links without a line number moving the cursor of an open file to line 1",
+          "zh": "\\[VSCode] 修复了不带行号的文件链接会将已打开文件的光标移到第 1 行的问题",
+          "hash": "51991a0e1b10d446709b649220f37ca081907c56d9095d29a64730aa9cd3de02",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-128",
+          "en": "\\[VSCode] Fixed a missing notification when a conversation running behind another one in the same panel needs a permission or an answer",
+          "zh": "\\[VSCode] 修复了同一面板中在另一个对话之后运行的对话需要权限或回答时缺少通知的问题",
+          "hash": "74de07fc8946d8d9fe93de8ca790644405818a9749c1436302f98008a2d50e03",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-129",
+          "en": "\\[VSCode] Fixed Manage Plugins not loading when Claude Code is slow to start or fails to start, so a plugin that blocks startup can be turned off",
+          "zh": "\\[VSCode] 修复了当 Claude Code 启动缓慢或启动失败时 Manage Plugins 无法加载的问题，从而可以关闭导致启动受阻的 plugin",
+          "hash": "245d14c390a8097fae44b818f421be69b45ee14f26a73ecd4c58440647f0a20a",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-130",
+          "en": "\\[VSCode] Fixed proposed diffs showing and saving garbled non-ASCII text when `files.encoding` is not UTF-8",
+          "zh": "\\[VSCode] 修复了当 `files.encoding` 不是 UTF-8 时，提议的 diff 显示并保存非 ASCII 文本出现乱码的问题",
+          "hash": "e4a6d856f39d6583d0c185e28439929180f95f2402367657da423f0a2280cb10",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-131",
+          "en": "\\[VSCode] Fixed approved edits and writes saving right-to-left marks as literal `\\u200F` escapes on lines with Hebrew, Arabic or Persian text",
+          "zh": "\\[VSCode] 修复了已批准的编辑和写入在包含希伯来文、阿拉伯文或波斯文的行上，将从右到左标记保存为字面 `\\u200F` 转义的问题",
+          "hash": "f23279c2ea5743f0a69391a1ddbb11306b4817e52f0f0e4befc21dcfcd051ded",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-132",
+          "en": "\\[VSCode] Fixed a model pick being ignored for the next message when Claude's process had ended or was still starting",
+          "zh": "\\[VSCode] 修复了当 Claude 的进程已结束或仍在启动时，选择的模型对下一条消息被忽略的问题",
+          "hash": "be2b18ebc38225d07226bd24893e3970ecfe06b2483241123a543686c3de2859",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-133",
+          "en": "\\[VSCode] Fixed Rewind showing \"No active session\" after Claude's process had ended",
+          "zh": "\\[VSCode] 修复了 Claude 的进程结束后 Rewind 显示“No active session”的问题",
+          "hash": "a0babae8c46b57bf8642fce44f38d2eb2c7ad4b9f63f5e7a8bc0214eabd49939",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-134",
+          "en": "\\[VSCode] Fixed typing @ leaving a helper process running per tab when no browser is connected, except when Claude in Chrome's service can't be reached",
+          "zh": "\\[VSCode] 修复了在没有连接浏览器时，输入 @ 会为每个标签页留下一个辅助进程的问题（Claude in Chrome 的服务无法访问时除外）",
+          "hash": "a63329f0b2ce100ba5c2beea092385855369a39d01f5a9ea4365e2af0d0b60d7",
+          "status": "translated"
+        },
+        {
+          "id": "2.1.331-fixes-135",
+          "en": "\\[VSCode] Fixed the session list opening every transcript at once, which stalled the editor's extensions and could leave sessions out in projects with many sessions",
+          "zh": "\\[VSCode] 修复了 session 列表一次性打开所有对话记录、导致编辑器的扩展卡顿，并在 session 较多的项目中可能遗漏部分 session 的问题",
+          "hash": "abece6bdb6b055969b37ea947af003a7a80b6f019a52ef52ccb79777e8fdb155",
+          "status": "translated"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "tldr": "新增 Code Mode 多云支持、网关 OIDC 分组与大量 VSCode 体验改进，并修复众多问题。",
+    "highlights": [
+      {
+        "title": "Code Mode 扩展多云支持",
+        "category": "新功能",
+        "detail": "终端 session 中的 Code Mode 现可在 Amazon Bedrock、Google Cloud Agent Platform、Microsoft Foundry 和 AWS 上的 Claude Platform 使用。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.331-added-1"
+        ]
+      },
+      {
+        "title": "网关 OIDC 分组与代理登录",
+        "category": "新功能",
+        "detail": "新增 oidc.groups_jsonpath 从对象列表读取 groups，以及 CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME 让 IdP 登录走代理。",
+        "action": null,
+        "example": {
+          "lang": "bash",
+          "code": "CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1",
+          "caption": "配置示例"
+        },
+        "item_ids": [
+          "2.1.331-added-2",
+          "2.1.331-added-6"
+        ]
+      },
+      {
+        "title": "Windows 注册表托管设置需先检查",
+        "category": "破坏性变更",
+        "detail": "Windows 启动时读取注册表中的托管设置，HKLM 策略优先于 managed-settings.json，损坏的值可能导致启动失败。",
+        "action": "升级前检查注册表中的托管设置，确认无冲突或损坏的值。",
+        "example": null,
+        "item_ids": [
+          "2.1.331-changed-18"
+        ]
+      },
+      {
+        "title": "插件市场将默认自动更新",
+        "category": "破坏性变更",
+        "detail": "2026 年 11 月 30 日或之后的版本中，托管 extraKnownMarketplaces 的插件市场将默认自动更新。",
+        "action": "如需退出某市场的自动更新，在其条目上设置 \"autoUpdate\": false。",
+        "example": null,
+        "item_ids": [
+          "2.1.331-changed-17"
+        ]
+      },
+      {
+        "title": "VSCode 多项新交互",
+        "category": "新功能",
+        "detail": "新增“Fix with Claude Code”快速修复、notebook 单元格加入聊天、Source Control 加入聊天及合并冲突解决入口。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.331-added-11",
+          "2.1.331-added-12",
+          "2.1.331-added-13",
+          "2.1.331-added-14"
+        ]
+      },
+      {
+        "title": "性能与稳定性修复",
+        "category": "改进",
+        "detail": "改进启动与 VSCode 长对话响应速度，修复 MCP 调用挂起、压缩摘要丢失、插件更新残留及 Windows 崩溃等问题。",
+        "action": null,
+        "example": null,
+        "item_ids": [
+          "2.1.331-improvements-24",
+          "2.1.331-improvements-34",
+          "2.1.331-fixes-41",
+          "2.1.331-fixes-48",
+          "2.1.331-fixes-56",
+          "2.1.331-fixes-71"
+        ]
+      }
+    ],
+    "breaking": true
+  }
+}

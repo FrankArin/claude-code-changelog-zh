@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed later prompts and the message box covering the Rewind code dialog, and focus jumping from \"Never mind\" to \"Rewind\" when it finishes checking files",
+  "zh": "\\[VSCode] 修复了后续 prompt 和消息框遮挡 Rewind 代码对话框，以及检查文件完成时焦点从“Never mind”跳到“Rewind”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

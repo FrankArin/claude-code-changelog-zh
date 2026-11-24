@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved the speed of opening, restoring and switching back to long conversations, most of all with many file edits or where git is slow",
+  "zh": "\\[VSCode] 改进打开、恢复和切回长对话的速度，在文件编辑较多或 git 较慢时尤为明显",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the @ menu showing \"No files found\" before its first search results arrived, or when it couldn't search all files of a very large workspace, which it now says",
+  "zh": "\\[VSCode] 修复了 @ 菜单在首次搜索结果返回前，或在无法搜索超大工作区所有文件时显示“No files found”的问题，现在会说明无法搜索",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

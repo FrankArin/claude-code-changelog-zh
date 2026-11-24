@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the question card dropping a typed \"Other\" answer on Ctrl/Cmd+Enter, and sending the word \"Other\" when nothing was typed",
+  "zh": "\\[VSCode] 修复了问题卡片在按 Ctrl/Cmd+Enter 时丢弃已输入的“Other”回答，以及在未输入任何内容时发送“Other”一词的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

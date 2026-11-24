@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Improved how fast chats start, open from history and come back after a restart on slow or antivirus-scanned disks",
+  "zh": "\\[VSCode] 改进在慢速或受杀毒软件扫描的磁盘上聊天启动、从历史记录打开以及重启后恢复的速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

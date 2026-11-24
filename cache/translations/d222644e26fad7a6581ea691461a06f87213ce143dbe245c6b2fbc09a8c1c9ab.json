@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added \"Add Cell to Chat\" to the notebook cell menu, which attaches a cell with its outputs or error",
+  "zh": "\\[VSCode] 新增 notebook 单元格菜单中的“Add Cell to Chat”，可附加单元格及其输出或错误",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added \"Resolve Merge Conflicts\" to the editor title of a file with merge conflicts and to the Merge Changes group in Source Control",
+  "zh": "\\[VSCode] 新增存在合并冲突文件的编辑器标题栏和 Source Control 中 Merge Changes 组的“Resolve Merge Conflicts”",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

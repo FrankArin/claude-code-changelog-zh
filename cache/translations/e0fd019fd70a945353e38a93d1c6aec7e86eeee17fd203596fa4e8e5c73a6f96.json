@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Rename, Mark as Unread and Add to Group saying \"still connecting\" on a tab that resumed a session from its history",
+  "zh": "\\[VSCode] 修复了在从历史恢复 session 的标签页上，重命名、标记为未读和添加到分组显示“仍在连接”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

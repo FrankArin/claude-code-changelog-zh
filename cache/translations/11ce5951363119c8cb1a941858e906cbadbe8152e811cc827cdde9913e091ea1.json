@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed permission cards to show only Yes and No when `allowManagedPermissionRulesOnly` is set and the card would offer an allow rule; key 2 on those cards now answers No",
+  "zh": "\\[VSCode] 变更权限卡片：当设置了 `allowManagedPermissionRulesOnly` 且卡片会提供允许规则时，仅显示 Yes 和 No；这些卡片上的按键 2 现在表示 No",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

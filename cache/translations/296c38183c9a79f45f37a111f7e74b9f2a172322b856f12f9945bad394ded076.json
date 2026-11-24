@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/bug` in fullscreen hiding its Yes and No answers behind a long report, and Yes staying out of view in very short windows",
+  "zh": "修复了全屏模式下 `/bug` 的 Yes 和 No 选项被较长的报告遮挡，以及窗口很矮时 Yes 选项不可见的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Escape stopping Claude at a Remove or Delete confirmation in MCP, Hooks and Memory dialogs, on a side question panel's button or link, and on the Bookmarks button with its panel open",
+  "zh": "\\[VSCode] 修复了在 MCP、Hooks 和 Memory 对话框的移除或删除确认处、侧边问题面板的按钮或链接上，以及书签按钮及其面板打开时按 Escape 会停止 Claude 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

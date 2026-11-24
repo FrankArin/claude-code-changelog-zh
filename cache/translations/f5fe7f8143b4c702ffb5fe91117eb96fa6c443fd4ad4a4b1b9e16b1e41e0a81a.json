@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the CLI freezing on some replies, and quoted text sometimes going missing or showing twice",
+  "zh": "修复了 CLI 在某些回复上卡死的问题，以及引用文本有时丢失或重复显示的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

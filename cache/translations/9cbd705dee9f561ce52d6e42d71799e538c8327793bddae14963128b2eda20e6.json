@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Alt+K line ranges such as `@app.ts#5-10` sending the whole file, or its first 2,000 lines, instead of the selected lines",
+  "zh": "\\[VSCode] 修复了 Alt+K 行范围（如 `@app.ts#5-10`）发送整个文件或其前 2,000 行，而非所选行的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

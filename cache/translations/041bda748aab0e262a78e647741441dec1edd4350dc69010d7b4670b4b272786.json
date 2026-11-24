@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Changed diffs from a terminal session to open without moving keyboard focus, and beside a file with unsaved changes; to answer, click Accept or use the terminal",
+  "zh": "\\[VSCode] 变更来自终端 session 的 diff 的打开方式：打开时不移动键盘焦点，并显示在有未保存更改的文件旁边；要作答，请点击 Accept 或使用终端",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

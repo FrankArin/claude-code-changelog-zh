@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved start-up time: a session started soon after another no longer waits for the model list, and one outside a git repository without `.claude/settings.local.json` no longer waits on git",
+  "zh": "改进启动时间：紧接另一个 session 启动的 session 不再等待模型列表；在 git 仓库之外且没有 `.claude/settings.local.json` 的 session 不再等待 git",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

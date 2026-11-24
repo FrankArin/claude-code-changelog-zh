@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an interrupted or failed plugin update leaving a partial plugin folder that later loaded with skills or other components missing (anthropics/claude-code#102186)",
+  "zh": "修复了中断或失败的 plugin 更新留下不完整的 plugin 文件夹，导致之后加载时缺少 skill 或其他组件的问题（anthropics/claude-code#102186）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

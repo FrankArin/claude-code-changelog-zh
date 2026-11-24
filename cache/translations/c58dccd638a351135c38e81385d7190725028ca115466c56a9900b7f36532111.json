@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the arrow keys replacing typed text with an old prompt while selecting, and dropping edits to a recalled prompt",
+  "zh": "\\[VSCode] 修复了在选择时方向键用旧 prompt 替换已输入文本，以及丢弃对已召回 prompt 所做编辑的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

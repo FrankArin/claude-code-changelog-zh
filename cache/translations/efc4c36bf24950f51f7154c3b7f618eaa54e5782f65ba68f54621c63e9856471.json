@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed wide tables and long paths cut off, long errors hiding their close button, errors out of view in the Add MCP server form and Chrome dialog, and plugin pictures ignoring the editor theme",
+  "zh": "\\[VSCode] 修复了宽表格和长路径被截断、长错误信息遮挡关闭按钮、添加 MCP server 表单和 Chrome 对话框中错误信息超出可视范围，以及 plugin 图片忽略编辑器主题的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

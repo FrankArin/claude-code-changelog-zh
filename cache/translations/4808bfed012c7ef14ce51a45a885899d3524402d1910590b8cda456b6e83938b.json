@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Ctrl+J and Ctrl+O in the chat also opening VS Code's terminal or Open File dialog on Windows and Linux",
+  "zh": "\\[VSCode] 修复了在 Windows 和 Linux 上聊天中的 Ctrl+J 和 Ctrl+O 同时打开 VS Code 终端或“打开文件”对话框的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

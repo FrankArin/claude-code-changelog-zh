@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1` for Claude apps gateways: with `oidc.use_proxy: true`, sign-in requests hand the proxy an `https` IdP's hostname even with `NO_PROXY` set",
+  "zh": "新增 Claude 应用网关的 `CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1`：配合 `oidc.use_proxy: true` 时，即使设置了 `NO_PROXY`，登录请求也会把 `https` IdP 的主机名交给代理",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

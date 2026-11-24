@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed raw tags for selected code under a reworded prompt, the mode button flashing Manual, the slash menu hiding its highlighted row, a broken sign-in image, and a blinking Accept/Reject bar",
+  "zh": "\\[VSCode] 修复了改写后的 prompt 下所选代码显示原始标签、模式按钮闪烁显示 Manual、斜杠菜单隐藏高亮行、登录图片损坏以及 Accept/Reject 栏闪烁的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

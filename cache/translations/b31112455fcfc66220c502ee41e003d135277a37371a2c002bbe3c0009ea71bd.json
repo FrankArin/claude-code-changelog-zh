@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Claude's list of your artifacts: it now marks web pages, so Claude is less likely to try opening one with the Claude Docs connector",
+  "zh": "改进 Claude 的 artifact 列表：现在会标记网页，使 Claude 更不容易尝试用 Claude Docs connector 打开网页",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

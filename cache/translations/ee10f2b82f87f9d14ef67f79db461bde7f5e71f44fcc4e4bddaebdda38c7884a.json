@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed one-line tool results cut with no ellipsis in narrow windows, Markdown stars in the Auto mode tab of /permissions, and a hook's reason to stop a forked skill showing twice",
+  "zh": "修复了窄窗口中单行工具结果被截断且没有省略号、/permissions 的自动模式标签页中 Markdown 星号显示异常，以及 hook 用于停止分叉 skill 的原因显示两次的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

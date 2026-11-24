@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "versions": [
+    "2.1.331"
+  ],
+  "tldr": "新增 Code Mode 多云支持、网关 OIDC 分组与大量 VSCode 体验改进，并修复众多问题。",
+  "highlights": [
+    {
+      "title": "Code Mode 扩展多云支持",
+      "category": "新功能",
+      "detail": "终端 session 中的 Code Mode 现可在 Amazon Bedrock、Google Cloud Agent Platform、Microsoft Foundry 和 AWS 上的 Claude Platform 使用。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.331-added-1"
+      ],
+      "version": "2.1.331"
+    },
+    {
+      "title": "网关 OIDC 分组与代理登录",
+      "category": "新功能",
+      "detail": "新增 oidc.groups_jsonpath 从对象列表读取 groups，以及 CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME 让 IdP 登录走代理。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1",
+        "caption": "配置示例"
+      },
+      "item_ids": [
+        "2.1.331-added-2",
+        "2.1.331-added-6"
+      ],
+      "version": "2.1.331"
+    },
+    {
+      "title": "Windows 注册表托管设置需先检查",
+      "category": "破坏性变更",
+      "detail": "Windows 启动时读取注册表中的托管设置，HKLM 策略优先于 managed-settings.json，损坏的值可能导致启动失败。",
+      "action": "升级前检查注册表中的托管设置，确认无冲突或损坏的值。",
+      "example": null,
+      "item_ids": [
+        "2.1.331-changed-18"
+      ],
+      "version": "2.1.331"
+    },
+    {
+      "title": "插件市场将默认自动更新",
+      "category": "破坏性变更",
+      "detail": "2026 年 11 月 30 日或之后的版本中，托管 extraKnownMarketplaces 的插件市场将默认自动更新。",
+      "action": "如需退出某市场的自动更新，在其条目上设置 \"autoUpdate\": false。",
+      "example": null,
+      "item_ids": [
+        "2.1.331-changed-17"
+      ],
+      "version": "2.1.331"
+    },
+    {
+      "title": "VSCode 多项新交互",
+      "category": "新功能",
+      "detail": "新增“Fix with Claude Code”快速修复、notebook 单元格加入聊天、Source Control 加入聊天及合并冲突解决入口。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.331-added-11",
+        "2.1.331-added-12",
+        "2.1.331-added-13",
+        "2.1.331-added-14"
+      ],
+      "version": "2.1.331"
+    },
+    {
+      "title": "性能与稳定性修复",
+      "category": "改进",
+      "detail": "改进启动与 VSCode 长对话响应速度，修复 MCP 调用挂起、压缩摘要丢失、插件更新残留及 Windows 崩溃等问题。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.331-improvements-24",
+        "2.1.331-improvements-34",
+        "2.1.331-fixes-41",
+        "2.1.331-fixes-48",
+        "2.1.331-fixes-56",
+        "2.1.331-fixes-71"
+      ],
+      "version": "2.1.331"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "2a8c908e4473955cee357096d7e53b297105d1b1918fa01fb0052ce2435bba1e"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a notice before sending a very large selection or attached text file, and advice under \"Prompt is too long\" that names the large part and what to do next",
+  "zh": "\\[VSCode] 新增发送超大选区或附加文本文件前的提示，并在“Prompt is too long”下给出建议，指明过大的部分及后续操作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

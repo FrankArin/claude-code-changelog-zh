@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed approved edits and writes saving right-to-left marks as literal `\\u200F` escapes on lines with Hebrew, Arabic or Persian text",
+  "zh": "\\[VSCode] 修复了已批准的编辑和写入在包含希伯来文、阿拉伯文或波斯文的行上，将从右到左标记保存为字面 `\\u200F` 转义的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

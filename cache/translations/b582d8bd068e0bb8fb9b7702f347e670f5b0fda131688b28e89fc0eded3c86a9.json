@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude plugin install`, `marketplace add` and similar commands hanging with no output when managed settings needed an approval that could not be asked for",
+  "zh": "修复了托管设置需要审批但无法发起审批时，`claude plugin install`、`marketplace add` 等命令挂起且无输出的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

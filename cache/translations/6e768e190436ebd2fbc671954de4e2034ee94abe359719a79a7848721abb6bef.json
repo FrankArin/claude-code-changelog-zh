@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed what a `PermissionDenied` hook's `retry: true` tells Claude: make the refused call again only if you asked for that call",
+  "zh": "变更 `PermissionDenied` hook 的 `retry: true` 向 Claude 传达的内容：仅当你要求了该调用时，才重新发起被拒绝的调用",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

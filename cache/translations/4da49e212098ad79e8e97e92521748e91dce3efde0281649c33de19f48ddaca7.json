@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a newly opened Claude tab not focusing its message box, or taking the keyboard late from the terminal or command palette and sending the typed text as a prompt",
+  "zh": "\\[VSCode] 修复了新打开的 Claude 标签页未聚焦其消息框，或从终端或命令面板延迟接管键盘并将已输入文本作为 prompt 发送的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

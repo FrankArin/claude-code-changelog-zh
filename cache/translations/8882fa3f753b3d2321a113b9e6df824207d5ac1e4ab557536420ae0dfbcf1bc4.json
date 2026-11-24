@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP tool calls hanging for up to 30 minutes on some malformed replies from a local or WebSocket server",
+  "zh": "修复了本地或 WebSocket 服务器返回某些格式错误的回复时，MCP 工具调用最长挂起 30 分钟的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

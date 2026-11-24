@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode losing the middle of a long script output; Claude now gets a path to the uncut text (anthropics/claude-code#111373)",
+  "zh": "修复了 Code Mode 丢失长脚本输出中间部分的问题；Claude 现在会获得未截断文本的路径（anthropics/claude-code#111373）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

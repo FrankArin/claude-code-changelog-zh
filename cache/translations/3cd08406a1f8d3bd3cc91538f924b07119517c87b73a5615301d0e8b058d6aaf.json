@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a permission rule on a subagent's model, such as `Agent(model:*)`, blocking Claude's follow-up message to a subagent started on this version with no model named",
+  "zh": "修复了针对 subagent 模型的权限规则（如 `Agent(model:*)`）会阻止 Claude 向本版本启动且未指定模型的 subagent 发送后续消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

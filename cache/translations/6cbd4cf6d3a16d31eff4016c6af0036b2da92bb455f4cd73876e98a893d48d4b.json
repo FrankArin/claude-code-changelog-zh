@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `optionalDependencies` to plugin manifests: plugins that install with the plugin listing them and can be disabled or uninstalled on their own",
+  "zh": "新增 plugin 清单的 `optionalDependencies`：随列出它们的 plugin 一起安装，并可单独禁用或卸载的 plugin",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

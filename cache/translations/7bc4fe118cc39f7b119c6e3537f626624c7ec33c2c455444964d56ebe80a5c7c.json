@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Changed start-up with managed settings in the registry: check them before upgrading, as an `HKLM` policy outranks `managed-settings.json` and a broken value can stop the start",
+  "zh": "Windows：变更使用注册表中托管设置的启动方式：升级前请先检查这些设置，因为 `HKLM` 策略优先于 `managed-settings.json`，且损坏的值可能导致启动失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

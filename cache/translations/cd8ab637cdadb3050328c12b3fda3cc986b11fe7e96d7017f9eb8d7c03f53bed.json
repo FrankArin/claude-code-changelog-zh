@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved the folder trust prompts in short terminals: fullscreen `/cd` and `/add-dir` show their choices in fewer rows, and the prompt at launch keeps the folder path in view when it has many warnings",
+  "zh": "改进短终端中的文件夹信任提示：全屏 `/cd` 和 `/add-dir` 用更少的行显示选项；启动时的提示在警告较多时仍保持文件夹路径可见",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

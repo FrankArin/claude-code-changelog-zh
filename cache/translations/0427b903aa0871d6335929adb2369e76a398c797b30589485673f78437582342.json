@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed unsaved changes being missed, and Claude's edit being overwritten by the next save, in a folder opened through a symlink",
+  "zh": "\\[VSCode] 修复了通过符号链接打开的文件夹中未保存的更改被遗漏，以及 Claude 的编辑被下一次保存覆盖的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

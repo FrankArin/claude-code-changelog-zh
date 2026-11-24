@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a quick double click in the panel pressing a button or row that appeared after the first click, or starting a second compaction from the context usage circle",
+  "zh": "\\[VSCode] 修复了在面板中快速双击时，误按第一次点击后出现的按钮或行，或从上下文用量圆圈启动第二次上下文压缩的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed auto mode sometimes refusing Claude's call to stop a /loop, which left the next wake-up to fire",
+  "zh": "修复了自动模式有时拒绝 Claude 停止 /loop 的调用，导致下一次唤醒仍会触发的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

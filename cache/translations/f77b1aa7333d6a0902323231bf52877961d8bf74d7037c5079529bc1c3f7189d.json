@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added `gen_ai.usage.*`, `gen_ai.response.model` and `gen_ai.operation.name` to `claude_code.llm_request` trace spans; `gen_ai.usage.input_tokens` includes prompt cache tokens",
+  "zh": "新增 `claude_code.llm_request` trace span 的 `gen_ai.usage.*`、`gen_ai.response.model` 和 `gen_ai.operation.name`；`gen_ai.usage.input_tokens` 包含 prompt 缓存 token",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

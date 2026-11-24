@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed turns and subagents failing in cloud sessions, or timing out on long replies elsewhere, when a reply went silent while Claude was still thinking; Claude Code now tries the request once more",
+  "zh": "修复了回复在 Claude 仍在思考时静默无输出，导致云 session 中的轮次和 subagent 失败，或在其他环境中长回复超时的问题；Claude Code 现在会再尝试一次该请求",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

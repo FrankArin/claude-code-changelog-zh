@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the questions for stopping auto-connect in `/ide` and for `/clear`, `/compact` or `/rewind` in a subagent's view to list Yes first; they still start on No, so Down then Enter now answers No",
+  "zh": "变更 `/ide` 中停止自动连接的问题，以及 subagent 视图中 `/clear`、`/compact` 或 `/rewind` 的问题，将 Yes 列在首位；它们仍默认停在 No，因此现在按 Down 再按 Enter 会回答 No",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

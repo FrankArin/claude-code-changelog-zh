@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Escape on a permission prompt sending a half-typed instruction to Claude instead of cancelling",
+  "zh": "\\[VSCode] 修复了在权限提示上按 Escape 会将半输入的指令发送给 Claude 而非取消的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

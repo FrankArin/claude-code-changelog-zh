@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed \"Ask your admin\" asking to raise your own limit when your team's pooled group budget blocked you, and saying \"Request sent\" when an admin had approved your request in the last few minutes",
+  "zh": "修复了团队共享组预算导致受限时，“Ask your admin”却提示提高你自己的限额的问题，以及管理员在最近几分钟内已批准请求却仍显示“Request sent”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

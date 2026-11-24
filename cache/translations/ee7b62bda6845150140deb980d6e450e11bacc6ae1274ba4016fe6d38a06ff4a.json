@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Code Mode tool search to show more of an MCP tool's description, with its limits, formats and defaults",
+  "zh": "改进 Code Mode 工具搜索：显示更多 MCP 工具的描述，包括其限制、格式和默认值",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

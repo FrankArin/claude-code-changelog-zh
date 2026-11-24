@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed diff tabs opening out of order when several subagents wait for approval, and a later edit to the same file cancelling an earlier one",
+  "zh": "\\[VSCode] 修复了多个 subagent 等待批准时 diff 标签页乱序打开，以及对同一文件的后续编辑取消先前编辑的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

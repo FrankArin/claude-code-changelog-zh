@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a missing notification when a conversation running behind another one in the same panel needs a permission or an answer",
+  "zh": "\\[VSCode] 修复了同一面板中在另一个对话之后运行的对话需要权限或回答时缺少通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

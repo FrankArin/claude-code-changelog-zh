@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an API connectivity section to `claude doctor` that reports whether the API can be reached, with the HTTP status or the error, or says why it wasn't tested",
+  "zh": "新增 `claude doctor` 的 API 连通性部分，报告 API 是否可达，并给出 HTTP 状态或错误，或说明为何未测试",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

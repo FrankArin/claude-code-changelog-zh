@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Fixed file writes on FAT32 and exFAT drives asking for permission every time in some plugin sessions",
+  "zh": "Windows：修复了在某些 plugin session 中，FAT32 和 exFAT 驱动器上的文件写入每次都请求权限的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

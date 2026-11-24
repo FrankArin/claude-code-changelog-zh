@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/install-github-app` skipping the repository step after setup warnings when no repository was found, and Esc not going back from its workflow list and sign-in steps",
+  "zh": "修复了 `/install-github-app` 在未找到仓库时于设置警告后跳过仓库步骤的问题，以及 Esc 无法从其工作流列表和登录步骤返回的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

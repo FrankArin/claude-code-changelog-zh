@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the spend limit message telling Team and Enterprise members to run `/usage-credits`, which can't send a request to their admin from the panel",
+  "zh": "\\[VSCode] 修复了支出限额消息提示 Team 和 Enterprise 成员运行 `/usage-credits` 的问题，该命令无法从面板向其管理员发送请求",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

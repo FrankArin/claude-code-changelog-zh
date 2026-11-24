@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added a notice when tap-mode voice dictation stops by itself, after 15 seconds without recognized speech or at its 2-minute limit",
+  "zh": "新增轻点模式语音听写自行停止时的提示：在 15 秒未识别到语音后或达到 2 分钟上限时",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

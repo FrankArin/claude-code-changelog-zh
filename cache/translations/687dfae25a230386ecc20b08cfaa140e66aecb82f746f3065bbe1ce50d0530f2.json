@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/diff` hiding its key hints and not selecting files in windows of 24 to 26 rows, and leaving out files added with `git add -N` in a repository with no commits",
+  "zh": "修复了 `/diff` 在 24 至 26 行的窗口中隐藏按键提示且无法选择文件，以及在没有任何提交的仓库中遗漏通过 `git add -N` 添加的文件的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

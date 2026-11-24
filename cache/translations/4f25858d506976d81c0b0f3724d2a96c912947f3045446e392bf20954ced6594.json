@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed new Claude tabs staying blank and the side bar failing to load after closing a tab while Claude was still starting",
+  "zh": "\\[VSCode] 修复了在 Claude 仍在启动时关闭标签页后，新的 Claude 标签页保持空白、侧边栏加载失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}

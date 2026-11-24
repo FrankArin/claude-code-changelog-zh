@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a warning and a link to the revoke page when you log out and the request to revoke your claude.ai login isn't confirmed",
+  "zh": "\\[VSCode] 新增退出登录时撤销 claude.ai 登录的请求未获确认的警告和撤销页面链接",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-24T05:11:04+00:00"
+}
