@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed interrupting a turn while a mod's `turn.step` hook was waiting showing \"user-cancel\" as an error instead of \"Interrupted\"",
+  "zh": "修复在 mod 的 `turn.step` hook 等待期间中断一轮时，显示 \"user-cancel\" 错误而非 \"Interrupted\" 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

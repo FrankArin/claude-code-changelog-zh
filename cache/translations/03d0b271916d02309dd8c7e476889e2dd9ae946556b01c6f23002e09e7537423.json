@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Self-hosted runner: Changed `CLAUDE_CODE_OAUTH_TOKEN`: its prefix can now end in `oat02-` as well as `oat01-`. Update proxy rules and log scrubbers that match `oat01-`, and mask the whole value",
+  "zh": "自托管运行器：变更 `CLAUDE_CODE_OAUTH_TOKEN`：其前缀现在除 `oat01-` 外还可以以 `oat02-` 结尾。请更新匹配 `oat01-` 的代理规则和日志脱敏规则，并对整个值进行掩码",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

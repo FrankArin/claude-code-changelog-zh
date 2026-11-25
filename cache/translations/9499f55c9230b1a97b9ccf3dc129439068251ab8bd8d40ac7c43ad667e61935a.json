@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed MCP tool calls failing with \"malformed task handle\" when the server's task ID is longer than 128 characters; IDs of up to 1,024 characters now work",
+  "zh": "修复了当服务器的任务 ID 超过 128 个字符时，MCP 工具调用因“malformed task handle”而失败的问题；现在最长 1,024 个字符的 ID 均可正常工作",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

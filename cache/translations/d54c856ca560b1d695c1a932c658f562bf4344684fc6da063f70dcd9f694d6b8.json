@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed right-to-left text from mods showing its punctuation on the wrong side, and a mod's band or pane filling only part of its width when the panel font has no box-drawing characters",
+  "zh": "\\[VSCode] 修复来自 mod 的从右到左文本标点显示在错误一侧，以及当面板字体不含制表符时 mod 的边框或窗格只填充部分宽度的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

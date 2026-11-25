@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a session sometimes losing its \"needs input\" status after a background task's report in Claude Desktop",
+  "zh": "修复了 Claude Desktop 中 session 在后台任务报告后有时丢失“需要输入”状态的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

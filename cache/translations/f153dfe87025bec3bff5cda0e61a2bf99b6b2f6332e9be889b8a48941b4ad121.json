@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed forking a conversation, opening and saving memories, and creating project output styles failing on NTFS drives in VS Code 1.101 and 1.102 on Windows 11 24H2 and later",
+  "zh": "\\[VSCode] 修复在 Windows 11 24H2 及更高版本上使用 VS Code 1.101 和 1.102 时，在 NTFS 驱动器上分叉对话、打开和保存记忆以及创建项目输出样式失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

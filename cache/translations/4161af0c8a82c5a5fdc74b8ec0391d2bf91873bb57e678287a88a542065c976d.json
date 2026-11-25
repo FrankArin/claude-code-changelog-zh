@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved peak memory use and speed of `/usage` on machines with many recent sessions",
+  "zh": "改进近期 session 较多时 `/usage` 的峰值内存占用和速度",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `claude auth login` reporting `Login successful.` when a claude.ai login could not be saved: it now exits 1 and says what to check, such as a leftover lock file or a full disk",
+  "zh": "修复 `claude auth login` 在 claude.ai 登录无法保存时仍报告 `Login successful.` 的问题：现在会以退出码 1 退出，并说明需要检查的内容，例如残留的锁文件或磁盘已满",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the Claude apps gateway's built-in model list: Sonnet 5.5 replaces Sonnet 4.5 as its second model, and Claude Desktop starts on it where a policy allows no Opus 4.6",
+  "zh": "变更 Claude 应用网关的内置模型列表：Sonnet 5.5 取代 Sonnet 4.5 成为其第二个模型，当策略不允许 Opus 4.6 时，Claude Desktop 以它启动",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

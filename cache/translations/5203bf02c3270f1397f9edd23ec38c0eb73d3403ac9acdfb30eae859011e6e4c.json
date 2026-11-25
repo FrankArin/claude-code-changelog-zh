@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed OpenTelemetry `tool_input` to show only the length of text sent through SendUserMessage or Cowork's message tool, unless response logging is on (`OTEL_LOG_ASSISTANT_RESPONSES=1`)",
+  "zh": "OpenTelemetry `tool_input` 现在仅显示通过 SendUserMessage 或 Cowork 的消息工具发送的文本长度，除非开启响应日志（`OTEL_LOG_ASSISTANT_RESPONSES=1`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

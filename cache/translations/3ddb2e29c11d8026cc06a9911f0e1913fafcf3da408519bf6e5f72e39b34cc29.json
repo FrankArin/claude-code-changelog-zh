@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed SDK and `claude -p` mid-turn messages to count as the user's where feature flags aren't fetched, as on clouds or with telemetry off, from Opus 4.8 on; mark relayed text `isSynthetic: true`",
+  "zh": "变更：从 Opus 4.8 起，在未获取功能标志的情况下（如云端或关闭遥测时），SDK 和 `claude -p` 的轮次中消息计为用户消息；请将转发的文本标记为 `isSynthetic: true`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

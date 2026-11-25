@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the default OpenTelemetry `service.name` of desktop Code tab sessions to `claude-code-desktop`; update filters keyed on `claude-code`, or set `OTEL_SERVICE_NAME` to keep the old name",
+  "zh": "将桌面版 Code 标签页 session 的默认 OpenTelemetry `service.name` 改为 `claude-code-desktop`；请更新以 `claude-code` 为键的过滤条件，或设置 `OTEL_SERVICE_NAME` 以保留旧名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

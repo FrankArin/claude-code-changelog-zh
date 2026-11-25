@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc not stopping a Bash command while it waited for its file diff in large or slow git repositories, which held the next message",
+  "zh": "修复了在大型或缓慢的 git 仓库中，Bash 命令等待文件 diff 时按 Esc 无法停止该命令、从而阻塞下一条消息的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

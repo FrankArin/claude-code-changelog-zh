@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added an OpenTelemetry `assistant_response` event for text Claude sends through SendUserMessage or Cowork's message tool, when response logging is on",
+  "zh": "新增 OpenTelemetry `assistant_response` 事件，在开启响应日志时，记录 Claude 通过 SendUserMessage 或 Cowork 的消息工具发送的文本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

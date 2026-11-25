@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed resuming a paused workflow in Code Mode waiting for minutes while other background work was running",
+  "zh": "修复在 Code Mode 中恢复已暂停的 workflow 时，若其他后台任务正在运行则需等待数分钟的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

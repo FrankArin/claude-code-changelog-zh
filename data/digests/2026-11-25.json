@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "versions": [
+    "2.1.332"
+  ],
+  "tldr": "新增 MCP skill 与 hook，多个平台默认模型升级到 Sonnet 5.5，并修复大量卡死与内存问题。",
+  "highlights": [
+    {
+      "title": "MCP 服务器 skill（beta）",
+      "category": "新功能",
+      "detail": "MCP 服务器可提供 skill，在 / 菜单中显示为 server:skill，其他 skill 名称不变。",
+      "action": null,
+      "example": {
+        "lang": "bash",
+        "code": "/",
+        "caption": "命令示例"
+      },
+      "item_ids": [
+        "2.1.332-added-1"
+      ],
+      "version": "2.1.332"
+    },
+    {
+      "title": "新增 PreSkillShellCommand hook",
+      "category": "新功能",
+      "detail": "可在 skill 或命令加载时拒绝其内联 shell 命令；旧版本遇到该配置会在启动时弹窗。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.332-added-2"
+      ],
+      "version": "2.1.332"
+    },
+    {
+      "title": "Foundry 默认模型改为 Sonnet 5.5",
+      "category": "破坏性变更",
+      "detail": "Microsoft Foundry 默认模型变更，需部署 claude-sonnet-5-5 或指定已部署模型，否则可能无法使用。",
+      "action": "部署 claude-sonnet-5-5，或将 ANTHROPIC_DEFAULT_SONNET_MODEL 设为你已部署的模型。",
+      "example": {
+        "lang": "bash",
+        "code": "ANTHROPIC_DEFAULT_SONNET_MODEL",
+        "caption": "相关环境变量"
+      },
+      "item_ids": [
+        "2.1.332-changed-15"
+      ],
+      "version": "2.1.332"
+    },
+    {
+      "title": "多平台模型别名升级",
+      "category": "破坏性变更",
+      "detail": "Agent Platform 与 Foundry 的 sonnet 别名改为 Sonnet 5.5，Foundry 的 opus 改为 Opus 5.5；Bedrock 的 sonnet 仍为 4.5。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.332-changed-14"
+      ],
+      "version": "2.1.332"
+    },
+    {
+      "title": "computer-use 成为保留名称",
+      "category": "破坏性变更",
+      "detail": "启用 computer use 的 Mac 上，同名自有 skill 或命令不再加载，启动时会提示重命名。",
+      "action": "重命名与 computer-use 同名的自有 skill 或命令。",
+      "example": null,
+      "item_ids": [
+        "2.1.332-changed-21"
+      ],
+      "version": "2.1.332"
+    },
+    {
+      "title": "修复多处卡死与内存问题",
+      "category": "修复",
+      "detail": "修复 hook 大量输出、MCP 标准输出、超长 @ 字符串、大型回退点等场景下的卡死与内存失控。",
+      "action": null,
+      "example": null,
+      "item_ids": [
+        "2.1.332-fixes-63",
+        "2.1.332-fixes-65",
+        "2.1.332-fixes-66",
+        "2.1.332-fixes-67"
+      ],
+      "version": "2.1.332"
+    }
+  ],
+  "breaking": true,
+  "summary_hash": "c109673b10986ab73cbfe5362307f4ee074e3e0456a1d38e59210a5de1e344d5"
+}

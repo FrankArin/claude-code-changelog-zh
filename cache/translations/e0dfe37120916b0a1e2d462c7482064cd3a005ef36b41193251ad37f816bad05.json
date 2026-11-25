@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an @-mentioned text file with an extension being silently dropped when even its first 2,000 lines exceed the read limit; Claude is now told its size and how to read it",
+  "zh": "修复了通过 @ 提及的文本文件在即使前 2,000 行也超出读取限制时被静默丢弃的问题；现在会告知 Claude 其大小以及如何读取",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

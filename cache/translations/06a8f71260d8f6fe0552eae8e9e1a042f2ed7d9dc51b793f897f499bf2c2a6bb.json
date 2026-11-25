@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `computer-use` to a reserved skill name on Macs with computer use on: your own skill or command of that name stops loading, and a start-up notice says to rename it",
+  "zh": "将 `computer-use` 改为在启用 computer use 的 Mac 上的保留 skill 名称：同名的自有 skill 或命令将不再加载，启动时会提示重命名",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

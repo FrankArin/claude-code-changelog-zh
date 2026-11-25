@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Added a warning when restoring a conversation with `/rewind` in the side bar stops a self-paced `/loop`",
+  "zh": "\\[VSCode] 新增警告：在侧边栏用 `/rewind` 恢复对话会停止自行节奏的 `/loop`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed tap-mode voice dictation to stop when you send the prompt, and to stop and say why when you edit it, a panel covers it, or the connection or a separate recorder program is lost",
+  "zh": "轻点模式语音听写现在会在你发送 prompt 时停止；当你编辑它、有面板遮挡它，或连接中断、独立的录音程序丢失时，会停止并说明原因",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed `/model` completed with Tab sometimes switching the model, and closing the model picker right away when nothing is running",
+  "zh": "\\[VSCode] 修复了用 Tab 补全 `/model` 时有时会切换模型，以及在没有任务运行时模型选择器会立即关闭的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

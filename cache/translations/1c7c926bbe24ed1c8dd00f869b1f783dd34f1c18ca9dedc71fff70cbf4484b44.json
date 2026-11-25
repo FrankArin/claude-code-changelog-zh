@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `opus` failing on Bedrock, Google Cloud's Agent Platform and Foundry behind a gateway that refuses a model in its own words: it now steps down to an older model that answers",
+  "zh": "修复在 Bedrock、Google Cloud 的 Agent Platform 和 Foundry 上，当网关以自己的措辞拒绝某个模型时 `opus` 失败的问题：现在会回退到能响应的较旧模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

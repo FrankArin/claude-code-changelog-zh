@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed an empty, locked editor pane staying beside the next file or Claude tab after the last Claude tab was closed",
+  "zh": "\\[VSCode] 修复在关闭最后一个 Claude 标签页后，一个空白且锁定的编辑器窗格仍停留在下一个文件或 Claude 标签页旁的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Improved the Ctrl+V message to name the package to install (`wl-clipboard` or `xclip`) when images can't be read from the clipboard",
+  "zh": "Linux：改进无法从剪贴板读取图片时的 Ctrl+V 提示，指明要安装的包（`wl-clipboard` 或 `xclip`）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed the chat showing no notice when a background command, agent, workflow or monitor finished while Claude was idle",
+  "zh": "\\[VSCode] 修复当 Claude 空闲时后台命令、agent、workflow 或监视器完成，聊天中不显示通知的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

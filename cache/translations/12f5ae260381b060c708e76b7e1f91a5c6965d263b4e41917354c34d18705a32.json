@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a session failing when the cloud refused its default model and an `availableModels` list that isn't enforced named neither it nor an older model of that family",
+  "zh": "修复当云端拒绝默认模型，且未强制执行的 `availableModels` 列表既未列出该模型也未列出该系列的较旧模型时，session 失败的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

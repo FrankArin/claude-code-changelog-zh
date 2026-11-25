@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed the `sonnet` alias on Bedrock Mantle resolving to Haiku 4.5: it now means Sonnet 5, not Sonnet 5.5, and an account without Sonnet 5 gets an error, so enable it first",
+  "zh": "修复了 Bedrock Mantle 上 `sonnet` 别名解析为 Haiku 4.5 的问题：现在它表示 Sonnet 5，而非 Sonnet 5.5；未启用 Sonnet 5 的账户会收到错误，因此请先启用它",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

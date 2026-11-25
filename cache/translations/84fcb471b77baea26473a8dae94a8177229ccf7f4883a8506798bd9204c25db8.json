@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/install-github-app` ticking a workflow again after going back with Esc",
+  "zh": "修复了 `/install-github-app` 在用 Esc 返回后再次勾选某个 workflow 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

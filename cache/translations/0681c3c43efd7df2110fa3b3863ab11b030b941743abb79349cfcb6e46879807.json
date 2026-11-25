@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed SSE MCP servers hanging or refusing every tool call after their event stream was cut and came back on a new endpoint or not at all, until reconnected by hand",
+  "zh": "修复 SSE MCP 服务器在事件流被切断并以新端点恢复或完全未恢复后，所有工具调用挂起或被拒绝、直到手动重连的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

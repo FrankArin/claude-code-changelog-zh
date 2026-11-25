@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Foundry sessions leaving a model family when an admin's list blocks the version `sonnet`, `opus` or `haiku` points to: they now use its newest allowed version under a built-in or mapped name",
+  "zh": "修复了当管理员的列表屏蔽了 `sonnet`、`opus` 或 `haiku` 所指向的版本时，Foundry session 脱离模型系列的问题：现在它们会在内置名称或映射名称下使用其允许的最新版本",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

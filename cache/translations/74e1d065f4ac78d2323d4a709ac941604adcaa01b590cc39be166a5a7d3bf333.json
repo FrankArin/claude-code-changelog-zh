@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed idle compaction being skipped for subscribers still well under their weekly limit",
+  "zh": "修复了订阅用户用量仍远低于每周限制时跳过空闲上下文压缩的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

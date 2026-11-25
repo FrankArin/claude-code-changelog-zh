@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added your Cyber Verification Program access tier to the startup header, beside the model name when your tier applies to that model and you're signed in with a claude.ai account",
+  "zh": "在启动头部新增你的 Cyber Verification Program 访问层级，当你的层级适用于该模型且你使用 claude.ai 账户登录时，显示在模型名称旁",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

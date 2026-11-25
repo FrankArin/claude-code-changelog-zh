@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Added skills from MCP servers (beta). They show as `server:skill` in the `/` menu; other skills keep their names",
+  "zh": "新增来自 MCP 服务器的 skill（beta）。它们在 `/` 菜单中显示为 `server:skill`；其他 skill 保留原有名称",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

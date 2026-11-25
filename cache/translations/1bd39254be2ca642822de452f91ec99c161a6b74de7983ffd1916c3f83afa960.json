@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed plan mode in the desktop app's Code tab and VS Code to ask for approval instead of refusing when no auto mode safety check can judge a command, for plans entered from Manual or Accept edits",
+  "zh": "桌面应用 Code 标签页和 VS Code 中的计划模式：当没有自动模式安全检查能判断某条命令时，对于从 Manual 或 Accept edits 进入的计划，现在会请求批准而不是拒绝",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

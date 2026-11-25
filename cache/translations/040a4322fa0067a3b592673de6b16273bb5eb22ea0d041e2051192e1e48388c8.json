@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed redacted thinking showing as \"Unsupported content type\"",
+  "zh": "\\[VSCode] 修复了经过脱敏的 thinking 显示为“Unsupported content type”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `sonnet` and background requests on Google Cloud's Agent Platform to read `VERTEX_REGION_CLAUDE_5_5_SONNET`; with only the `4_5` variable set they go to `CLOUD_ML_REGION` or `us-east5`",
+  "zh": "变更：Google Cloud 的 Agent Platform 上的 `sonnet` 和后台请求改为读取 `VERTEX_REGION_CLAUDE_5_5_SONNET`；若仅设置了 `4_5` 变量，则使用 `CLOUD_ML_REGION` 或 `us-east5`",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

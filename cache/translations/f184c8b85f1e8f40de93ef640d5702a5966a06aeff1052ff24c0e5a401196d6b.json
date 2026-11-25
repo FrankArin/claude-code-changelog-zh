@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Esc not stopping computer use between actions on macOS when Claude Code's window or an app you allowed is in front; an Esc meant for that app's popup now stops computer use instead",
+  "zh": "修复了在 macOS 上，当 Claude Code 的窗口或你允许的应用位于前台时，Esc 无法在 computer use 的各操作之间将其停止的问题；原本发给该应用弹窗的 Esc 现在会改为停止 computer use",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

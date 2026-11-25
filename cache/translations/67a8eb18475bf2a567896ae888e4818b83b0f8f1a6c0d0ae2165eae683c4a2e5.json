@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed subagents in Code Mode failing with \"Agent stalled\" and losing their command when a script ran for more than 10 minutes",
+  "zh": "修复在 Code Mode 中，当脚本运行超过 10 分钟时 subagent 因 \"Agent stalled\" 失败并丢失其命令的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

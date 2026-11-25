@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a rare hang when a helper command, such as an API key helper, ran past its time limit",
+  "zh": "修复了辅助命令（例如 API key helper）超出时间限制时偶发卡死的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

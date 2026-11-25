@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved `/context`: shorter output in fullscreen, so the total is less likely to scroll off in a short window, and the legend names its unit once",
+  "zh": "改进 `/context`：全屏时输出更短，因此在较矮的窗口中总量更不容易滚出视野，图例只标注一次单位",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

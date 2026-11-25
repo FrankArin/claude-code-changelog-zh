@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed tool calls that never ran being counted as done in a claude.ai chat's summary line after you declined a permission prompt in a session that had restarted",
+  "zh": "修复在已重启的 session 中拒绝权限提示后，claude.ai 聊天摘要行将从未执行的工具调用计为已完成的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

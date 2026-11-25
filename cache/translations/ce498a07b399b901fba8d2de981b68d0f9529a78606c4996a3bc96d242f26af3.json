@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `/feedback` drafts in the terminal to open on Not now, above separate rows to send the report alone or with the transcript",
+  "zh": "终端中的 `/feedback` 草稿现在默认停在“暂不”，其上方有单独的行，可仅发送报告或连同对话记录一起发送",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

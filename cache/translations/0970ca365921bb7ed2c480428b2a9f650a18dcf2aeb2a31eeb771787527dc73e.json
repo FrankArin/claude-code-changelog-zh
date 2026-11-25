@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode leaving a message unanswered when it was typed during a command and Esc was pressed before Claude replied; the message now starts a new turn, which a second Esc stops",
+  "zh": "修复了 Code Mode 中在命令执行期间输入消息、并在 Claude 回复前按下 Esc 时该消息得不到回复的问题；现在该消息会开启新一轮，再次按 Esc 可停止",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

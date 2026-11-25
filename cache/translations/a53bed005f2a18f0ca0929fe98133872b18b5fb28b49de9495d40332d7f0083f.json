@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Grep: -o missing an empty match at the end of a file with no last newline, -o with multiline adding an empty line or misnumbering lines in non-UTF-8 files, and -A and -B ignored beside a zero -C",
+  "zh": "修复了 Grep 的以下问题：对于末尾没有换行符的文件，-o 会漏掉末尾的空匹配；在非 UTF-8 文件中，-o 配合 multiline 会多出空行或行号错误；-C 为 0 时 -A 和 -B 被忽略",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

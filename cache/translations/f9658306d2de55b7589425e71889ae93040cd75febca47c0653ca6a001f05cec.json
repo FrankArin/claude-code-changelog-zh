@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Read, @-mentions and compaction hanging on a named pipe that nothing writes to, such as a `.env` mounted by a locked secrets manager; the read now fails after 20 seconds",
+  "zh": "修复 Read、@ 提及和上下文压缩在无人写入的命名管道（例如由已锁定的密钥管理器挂载的 `.env`）上挂起的问题；现在读取会在 20 秒后失败",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

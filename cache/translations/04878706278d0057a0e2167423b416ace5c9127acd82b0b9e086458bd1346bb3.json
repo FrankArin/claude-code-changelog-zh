@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `sonnet` model alias on Google Cloud's Agent Platform and Microsoft Foundry to Sonnet 5.5, and Foundry's `opus` alias to Opus 5.5; `sonnet` on Amazon Bedrock stays at Sonnet 4.5",
+  "zh": "变更：Google Cloud 的 Agent Platform 和 Microsoft Foundry 上的 `sonnet` 模型别名改为 Sonnet 5.5，Foundry 的 `opus` 别名改为 Opus 5.5；Amazon Bedrock 上的 `sonnet` 仍为 Sonnet 4.5",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

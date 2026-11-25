@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a freeze when a prompt or piped input holds an `@` followed by a very long unbroken string, such as minified CSS with an embedded font",
+  "zh": "修复当 prompt 或管道输入中包含 `@` 后跟超长不间断字符串（例如内嵌字体的压缩 CSS）时出现卡死的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

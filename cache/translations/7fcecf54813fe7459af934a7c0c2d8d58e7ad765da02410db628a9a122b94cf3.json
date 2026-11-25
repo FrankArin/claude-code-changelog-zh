@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Linux: Fixed the Bash edit diff showing an unchanged symlink as edited after Claude had read the file through it",
+  "zh": "Linux：修复 Claude 通过符号链接读取文件后，Bash 编辑 diff 将未更改的符号链接显示为已编辑的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

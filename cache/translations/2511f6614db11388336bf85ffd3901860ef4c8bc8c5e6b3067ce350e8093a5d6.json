@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a PreToolUse hook's reason for asking not showing on terminal Read, Grep, Glob, Edit and Write prompts (anthropics/claude-code#102892, anthropics/claude-code#105343)",
+  "zh": "修复了 PreToolUse hook 的请求原因未显示在终端 Read、Grep、Glob、Edit 和 Write 权限提示上的问题（anthropics/claude-code#102892、anthropics/claude-code#105343）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed the `hint` a mod's `PromptHint` hook receives to leave out the hint for selected text when the fullscreen footer has a label on its right",
+  "zh": "mod 的 `PromptHint` hook 收到的 `hint` 现在会在全屏页脚右侧有标签时省略所选文本的提示",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

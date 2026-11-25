@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `--model default` and a Default pick to move to an older model when that model isn't available, instead of stopping with an error; in auto mode, only to a model auto mode accepts",
+  "zh": "变更：`--model default` 和选择 Default 时，若该模型不可用则回退到较旧的模型，而不是报错停止；在自动模式下，仅回退到自动模式接受的模型",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

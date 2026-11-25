@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed local MCP servers seeing a new session ID after a Remote Control session's process restarts",
+  "zh": "修复了 Remote Control session 的进程重启后，本地 MCP server 看到新 session ID 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

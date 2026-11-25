@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Claude Desktop's Code tab on Anthropic's API to ignore default, side-request, alias and subagent model ids not starting with `claude` in your own settings beside a gateway address",
+  "zh": "在 Anthropic API 上，Claude Desktop 的 Code 标签页现在会忽略你在网关地址旁的自有设置中不以 `claude` 开头的默认、侧请求、别名和 subagent 模型 id",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

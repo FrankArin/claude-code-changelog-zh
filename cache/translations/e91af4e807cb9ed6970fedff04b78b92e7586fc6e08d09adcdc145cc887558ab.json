@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed a freeze and context overflow when a hook blocks or fails during a turn, or after `/compact`, with a very large log; text over about 50,000 characters is now shortened",
+  "zh": "修复当 hook 在一轮对话中或 `/compact` 之后阻止或失败、且日志非常大时出现的卡死和上下文溢出问题；超过约 50,000 字符的文本现在会被缩短",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

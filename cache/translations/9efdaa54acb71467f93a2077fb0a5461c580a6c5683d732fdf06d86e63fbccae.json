@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Windows: Improved stability on some company PCs, where Claude Code could exit with no output shortly after start",
+  "zh": "Windows：改进部分公司电脑上的稳定性，此前 Claude Code 可能在启动后不久无输出退出",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

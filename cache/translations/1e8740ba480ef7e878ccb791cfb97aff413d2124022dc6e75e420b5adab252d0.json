@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Glob speed in large local folders on Windows machines with 6 or more CPUs: folders are walked in parallel, and a search stopped at its time limit now lists what it found",
+  "zh": "改进在拥有 6 个或更多 CPU 的 Windows 机器上大型本地文件夹中的 Glob 速度：文件夹并行遍历，达到时间上限而停止的搜索现在会列出已找到的结果",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

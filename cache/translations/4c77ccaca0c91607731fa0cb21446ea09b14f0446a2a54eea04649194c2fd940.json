@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `temp_*` folders piling up in `~/.claude/plugins/cache` when a downloaded plugin couldn't be copied into place",
+  "zh": "修复了下载的 plugin 无法复制到位时，`temp_*` 文件夹在 `~/.claude/plugins/cache` 中堆积的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

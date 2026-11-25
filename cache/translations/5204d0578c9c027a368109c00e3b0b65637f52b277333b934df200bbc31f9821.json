@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Web Fetch showing \"Fetched from\" with a success dot when the site returned an error or a redirect that wasn't followed",
+  "zh": "\\[VSCode] 修复当站点返回错误或未跟随的重定向时，Web Fetch 仍显示 \"Fetched from\" 并带成功圆点的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

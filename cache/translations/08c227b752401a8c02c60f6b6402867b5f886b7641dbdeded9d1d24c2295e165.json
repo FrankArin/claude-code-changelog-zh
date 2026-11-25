@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed keys lagging for seconds while `/stats` reads large session transcripts, also after the dialog is closed, and with debug logging on while a language server floods its stderr",
+  "zh": "修复 `/stats` 读取大型 session 记录时按键延迟数秒的问题，对话框关闭后同样存在，以及开启调试日志且语言服务器大量输出 stderr 时的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

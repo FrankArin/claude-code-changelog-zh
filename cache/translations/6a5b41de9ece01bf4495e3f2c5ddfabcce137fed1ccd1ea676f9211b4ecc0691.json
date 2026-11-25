@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed NotebookEdit saving an invalid notebook when an edit changes a cell's type; turning a cell with attachments into code is now refused",
+  "zh": "修复了 NotebookEdit 在编辑改变单元格类型时保存无效 notebook 的问题；现在会拒绝将带附件的单元格转为代码",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

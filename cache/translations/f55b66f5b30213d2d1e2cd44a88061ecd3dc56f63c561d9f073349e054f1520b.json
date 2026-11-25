@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved resuming a session in Code Mode: Claude is now told up front that its earlier script variables are gone",
+  "zh": "改进在 Code Mode 中恢复 session：现在会预先告知 Claude 其先前的脚本变量已不存在",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a question that ended in an error showing \"Something went wrong\" when its stored result had no text",
+  "zh": "\\[VSCode] 修复了以错误结束的问题在其存储结果没有文本时显示“Something went wrong”的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

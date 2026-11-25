@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed pasted links and relative paths ending in an image file name appearing late and swallowing an Enter pressed right after",
+  "zh": "修复粘贴的链接和以图片文件名结尾的相对路径出现较晚，并吞掉紧随其后按下的 Enter 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed an enforced list of older models failing on Google Cloud's Agent Platform and Foundry when the first is refused: it now steps down to the next in that family, if listed newest first",
+  "zh": "修复在 Google Cloud 的 Agent Platform 和 Foundry 上，强制执行的较旧模型列表在第一个模型被拒绝时失败的问题：现在会回退到该系列中的下一个模型（若按从新到旧列出）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

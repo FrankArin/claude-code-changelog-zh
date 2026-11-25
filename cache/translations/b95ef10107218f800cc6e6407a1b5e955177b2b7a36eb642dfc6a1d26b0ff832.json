@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Improved Claude in Code Mode to confirm before discarding worktree changes, to read artifact files before publishing them, and to update an existing artifact instead of creating a second one",
+  "zh": "改进 Code Mode 中的 Claude：丢弃 worktree 变更前先确认，发布 artifact 文件前先读取，并更新已有 artifact 而不是再创建一个",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed tap-mode voice dictation to keep the microphone on until 60 seconds without new words or 10 minutes, up from 15 seconds and 2 minutes, then keep the text unsent; the next tap adds to it",
+  "zh": "轻点模式语音听写现在会保持麦克风开启，直到 60 秒无新词或满 10 分钟（原为 15 秒和 2 分钟），之后保留文本不发送；再次轻点可继续追加",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed turns ending in \"Prompt is too long\" after repeated auto-compaction failures when one more compaction at the context limit could have kept them going",
+  "zh": "修复在反复自动上下文压缩失败后对话以 \"Prompt is too long\" 结束的问题，此前在上下文上限再压缩一次本可让对话继续",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

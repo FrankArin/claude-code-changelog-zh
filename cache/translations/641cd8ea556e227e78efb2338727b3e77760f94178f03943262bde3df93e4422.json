@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed Microsoft Foundry: Claude Sonnet 4, Opus 4 and Opus 4.1 now count as retired, so step-downs stop above them and a pin to one warns that it was retired",
+  "zh": "变更 Microsoft Foundry：Claude Sonnet 4、Opus 4 和 Opus 4.1 现视为已退役，因此降级不会停在这些模型之上，固定到其中之一时会警告其已退役",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

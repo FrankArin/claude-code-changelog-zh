@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Changed `claude self-hosted-runner setup` with no arguments on macOS and Linux to ask for the environment key in the terminal before Claude starts, and to hide it as you paste",
+  "zh": "在 macOS 和 Linux 上，无参数运行 `claude self-hosted-runner setup` 时，现在会在 Claude 启动前于终端中询问环境密钥，并在粘贴时隐藏该密钥",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

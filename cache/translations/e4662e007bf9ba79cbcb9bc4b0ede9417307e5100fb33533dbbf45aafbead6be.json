@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed `/mcp reconnect all` and `/mcp disable all` counting a built-in server that isn't turned on for the account",
+  "zh": "修复 `/mcp reconnect all` 和 `/mcp disable all` 将账户未启用的内置服务器也计入的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

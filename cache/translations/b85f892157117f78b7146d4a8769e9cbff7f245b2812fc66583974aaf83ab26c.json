@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "Fixed Code Mode silently skipping a tool call whose input has a list of over 4,096 items, and freezing on a very large typed array in a tool's input, which is now refused",
+  "zh": "修复了 Code Mode 在工具调用的输入包含超过 4,096 项的列表时静默跳过该调用的问题，以及工具输入中极大的类型化数组导致卡死的问题（现在会拒绝此类输入）",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

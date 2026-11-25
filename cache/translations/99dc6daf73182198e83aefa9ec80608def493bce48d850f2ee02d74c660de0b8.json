@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed a hidden panel's notice not naming the waiting session, Hebrew and Arabic questions reading out of order, and a question cut off when Claude's process ended showing only a red dot",
+  "zh": "\\[VSCode] 修复了隐藏面板的提示未指明正在等待的 session、希伯来语和阿拉伯语问题显示顺序错乱，以及 Claude 进程结束时问题被截断、只显示一个红点的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}

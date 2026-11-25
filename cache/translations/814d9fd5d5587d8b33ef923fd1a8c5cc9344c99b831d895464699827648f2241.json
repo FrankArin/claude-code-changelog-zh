@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "en": "\\[VSCode] Fixed Rewind staying on \"Checking code changes…\" while Claude's process hung at its start",
+  "zh": "\\[VSCode] 修复当 Claude 的进程在启动时卡住，Rewind 一直停留在 \"Checking code changes…\" 的问题",
+  "provider": "api.deepseek.com",
+  "model": "deepseek-chat",
+  "prompt_version": "v1",
+  "glossary_version": "v2",
+  "created_at": "2026-11-25T01:59:00+00:00"
+}
